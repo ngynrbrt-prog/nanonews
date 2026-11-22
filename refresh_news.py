@@ -30,7 +30,7 @@ rules={
 
 def text(node):
     if node is None:return ""
-    return re.sub(r"\\s+"," "," ".join(node.itertext())).strip()
+    return re.sub(r"\s+"," "," ".join(node.itertext())).strip()
 
 def match_term(term,hay):
     if term.casefold() in ("nba","f1"):
@@ -65,7 +65,7 @@ class ArticleTextParser(HTMLParser):
             self.prefer_current=self.article>0 or self.scope>0
     def handle_data(self,data):
         if self.capture and not self.skip:
-            value=re.sub(r"\\s+"," ",data).strip()
+            value=re.sub(r"\s+"," ",data).strip()
             if value:self.paragraph.append(value)
     def handle_endtag(self,tag):
         if tag in self.blocked:
@@ -90,7 +90,7 @@ def fetch_article(url):
         parser=ArticleTextParser();parser.feed(page)
         paras=parser.preferred if parser.preferred else parser.fallback
         body="\\n\\n".join(paras)
-        body=re.sub(r"\\s+"," ",body).strip()
+        body=re.sub(r"\s+"," ",body).strip()
         return body[:18000] if len(body)>250 else ""
     except Exception as exc:
         print(f"Article fetch unavailable {url}: {exc}")
@@ -129,8 +129,8 @@ Alapanyag ({basis}):
     variants={}
     for mode in ("honest","jeno","tolkien"):
         value=parsed.get(mode,{})
-        title=re.sub(r"\\s+"," ",str(value.get("title",""))).strip()
-        body=re.sub(r"\\s+"," ",str(value.get("body",""))).strip()
+        title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
+        body=re.sub(r"\s+"," ",str(value.get("body",""))).strip()
         if not title or not body:raise ValueError(f"Missing {mode} rewrite")
         variants[mode]={"title":title[:180],"body":body[:2400]}
     return variants
