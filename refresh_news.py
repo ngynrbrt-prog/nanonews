@@ -72,7 +72,8 @@ class ArticleTextParser(HTMLParser):
             if self.skip:self.skip-=1
             return
         if self.skip:return
-        if tag in self.scope_tags:self.scope_tags.remove(tag)\n        if tag=="p" and self.capture:
+        if tag in self.scope_tags:self.scope_tags.remove(tag)
+        if tag=="p" and self.capture:
             value=" ".join(self.paragraph).strip()
             if len(value)>35:
                 self.fallback.append(value)
