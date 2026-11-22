@@ -108,10 +108,10 @@ Mindhárom változatban írj új, önálló címet és részletes, tömör össz
 - tolkien: epikus, régies-krónikás hangulat; maradjon közérthető, és ne adj hozzá fantasy-elemet vagy új tényt.
 A válasz kizárólag JSON legyen ebben az alakban:
 {{"honest":{{"title":"...","body":"..."}}, "jeno":{{"title":"...","body":"..."}}, "tolkien":{{"title":"...","body":"..."}}}}
-Forrás: {{story["source"]}}
-Eredeti cím: {{story["title"]}}
+Forrás: {story["source"]}
+Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
-{{source_text[:18000]}}"""
+{source_text[:18000]}"""
     payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
     request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
     with urllib.request.urlopen(request,timeout=50) as response:
