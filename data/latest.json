@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T20:09:06.702596+01:00",
+  "updatedAt": "2026-11-22T20:10:44.857621+01:00",
   "testEdition": true,
   "stories": [
     {
@@ -11,11 +11,11 @@
       "categories": [
         "foci"
       ],
-      "image": ""
+      "image": "https://cdn.nemzetisport.hu/2026/11/OBYXRrUG_BGFbAa3Lq6OngS1cNd35cQX2TxQSG-9dCk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkYjljYmRlMzIzZjQ5ZGI4MzFmMDA3MGMxMDg4NDA0.webp"
     },
     {
       "source": "Nemzeti Sport",
-      "title": "Helyzetek itt és ott, de nincs gól a szünet után Kispesten",
+      "title": "A csereként beállt Alic góljával vezet a Honvéd",
       "summary": "A paksiaknak látogatóként lehangoló a mérlegük a Honvéd ellen, 22 alkalomból csupán 2-szer tudtak nyerni.",
       "url": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/nb-i-kispest-honved-paks",
       "published": "Sun, 22 Nov 2026 18:40:50 +0000",
@@ -190,17 +190,6 @@
       "image": "https://cdn.nemzetisport.hu/2026/11/8x_2VFBgXum5fA6xC4Qap0KmQzhuoifcQ8g6eTTBZxo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdlOTNiM2JkMTgwZTQ2YWVhNGQ3MTlhODNkMjg0MGY3.webp"
     },
     {
-      "source": "HVG",
-      "title": "Mi történik, ha nemcsak az e-mail áll le, hanem az AI is?",
-      "summary": "Az e-mail vagy a csevegőalkalmazások kiesésének hatása könnyen belátható: a kommunikáció lelassul. Az AI-asszisztens kiesése azonban egy másik kérdést is felvet – hívja fel a figyelmet a Deloitte tanácsadó cég.",
-      "url": "https://hvg.hu/tudomany/20261122_vallalati-ai-rendszer-leallasa-deloitte",
-      "published": "Sun, 22 Nov 2026 15:03:00 Z",
-      "categories": [
-        "nba"
-      ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/2f97be15-34c6-4b3f-85e9-faeb9b6aa946.jpg"
-    },
-    {
       "source": "Nemzeti Sport",
       "title": "Hiába a két gyors gól, hiába a Gulácsi-bravúrok, kikapott a Villarreal",
       "summary": "Két bombagól a vendégektől az első hét percben, fergeteges Barcelona a második félidőben.",
@@ -342,17 +331,6 @@
         "foci"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/zu6JoSKfSNMOYWLdrG6BI26Ebm61UnjtjI33Xw3mubQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkNGRkYzBjNzdjYTQ2NWZhMWFiZjkyMDk4ZjM0MGQx.webp"
-    },
-    {
-      "source": "Telex",
-      "title": "Már tavaly olyan elöregedett volt a kórházi eszközök többsége, hogy rég le kellett volna cserélni őket",
-      "summary": "A Számvevőszék szerint az éves és a korábbi évekből felhalmozódott amortizáció pótlását azonban most csak részben tervezték be a fenntartók költségvetésébe.",
-      "url": "https://telex.hu/belfold/2026/11/22/mar-tavaly-olyan-eloregedett-volt-a-korhazi-eszkozok-tobbsege-hogy-reg-le-kellett-volna-cserelni",
-      "published": "Sun, 22 Nov 2026 09:01:02 +0100",
-      "categories": [
-        "nba"
-      ],
-      "image": "https://assets.telex.hu/images/20261122/1795334431-temp-9mb0m1je9sdm6akejal_cimlap-normal.jpg"
     },
     {
       "source": "Nemzeti Sport",
