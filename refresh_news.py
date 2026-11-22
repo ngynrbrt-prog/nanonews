@@ -4,7 +4,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 TZ=ZoneInfo("Europe/Budapest")
 now=datetime.now(TZ)
-if now.hour not in (6,14):
+if now.hour not in (6,14) and __import__("os").getenv("GITHUB_EVENT_NAME") != "workflow_dispatch":
     print("Outside the two Budapest edition times; no refresh.")
     raise SystemExit(0)
 feeds={
