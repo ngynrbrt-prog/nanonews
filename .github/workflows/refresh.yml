@@ -1,0 +1,26 @@
+name: Refresh NANONews
+on:
+  workflow_dispatch:
+  schedule:
+    # Cover both CET and CEST clock changes; script runs only at 06:00 or 14:00 Budapest time.
+    - cron: '0 4,5,12,13 * * *'
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python refresh_news.py
+      - name: Commit new edition
+        run: |
+          if ! git diff --quiet; then
+            git config user.name github-actions[bot]
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git add data/
+            git commit -m "Refresh NANONews edition"
+            git push
+          fi
