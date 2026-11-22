@@ -44,8 +44,7 @@ def image_for(item,desc):
             url=node.attrib.get("url","")
             if url.startswith("http") and any(x in url.lower() for x in (".jpg",".jpeg",".png",".webp","image")):
                 return url
-    m=re.search(r"<img[^>]+src=['\\"](https?://[^'\\"]+)",desc,re.I)
-    return m.group(1) if m else ""
+    return ""
 
 class ArticleTextParser(HTMLParser):
     blocked={"script","style","nav","footer","aside","noscript","svg","form"}
@@ -136,16 +135,6 @@ Alapanyag ({basis}):
         variants[mode]={"title":title[:180],"body":body[:2400]}
     return variants
 
-def image_for(item,desc):
-    for node in item.iter():
-        tag=node.tag.lower()
-        if tag.endswith("thumbnail") or tag.endswith("content") or tag.endswith("enclosure"):
-            url=node.attrib.get("url","")
-            if url.startswith("http") and any(x in url.lower() for x in (".jpg",".jpeg",".png",".webp","image")):
-                return url
-    m=re.search(r"<img[^>]+src=['\\"](https?://[^'\\"]+)",desc,re.I)
-    return m.group(1) if m else ""
-
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
 try:
@@ -177,7 +166,7 @@ for source,urls in feeds.items():
             elif api_key:
                 try:
                     story["variants"]=gemini_rewrites(story,article_text,api_key)
-                    time.sleep(0.4)
+                    time.sleep(4)
                 except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
             stories.append(story)
     except Exception as e: print(f"Feed error {source} {url}: {e}")
