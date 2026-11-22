@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-22T20:05:56.991303+01:00",
+  "updatedAt": "2026-11-22T20:09:06.702596+01:00",
+  "testEdition": true,
   "stories": [
+    {
+      "source": "Nemzeti Sport",
+      "title": "Debreceni gólparádé Nyíregyházán – a keleti rangadó legjobb képei",
+      "summary": "A Loki fél tucat gólig jutott az NB I keleti rangadóján.",
+      "url": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/nezze-meg-a-dvsc-nyiregyhazi-golparadejanak-legjobb-kepeit",
+      "published": "Sun, 22 Nov 2026 19:05:14 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": ""
+    },
     {
       "source": "Nemzeti Sport",
       "title": "Helyzetek itt és ott, de nincs gól a szünet után Kispesten",
@@ -9,7 +21,8 @@
       "published": "Sun, 22 Nov 2026 18:40:50 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/8nHj25SadJVO27kt_Aw1NGWfOCoAuF090_6lQIzjV7Q/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Y4ZmNkMWQ4NDY4NTRjYjRhZjczYjE4NmFjN2FlN2Iy.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -19,7 +32,8 @@
       "published": "Sun, 22 Nov 2026 18:39:10 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/GByS4YioML_qystwp5fjJaTD4ayzeulTjXGqdcI9LTE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2QzNTM0ZTA4NTdiNjQ2MDQ4Yjg4NDhmMDg2NmI5ZDBi.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -29,7 +43,8 @@
       "published": "Sun, 22 Nov 2026 18:25:33 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/CgRpVEAhxIaM_qiAkj19bgfZ_iwr_YaH8BioxVWbByE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I3ZGQ5OTAzZjRkZDQ3MDNiMTg1OWVkODEwMzE1NmQz.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -39,7 +54,19 @@
       "published": "Sun, 22 Nov 2026 18:24:39 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/Jkj-7fL3Oo4VSMaQn3TH1rDrwBs7NWqy9G5mmDR8PGs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Y5OGFiMWE3ZjM4NjRhN2M4ZDI2MzEzYmU1MWE2MWRi.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Vasseur azonnal magához rendelte Leclerc-t: Hibázott, és a csapat nagy árat fizetett érte",
+      "summary": "A monacói tizenkét körrel a vége előtt pörgette ki a csapattársát, Hamiltont. Az FIA 10 másodperces időbüntetést adott neki.",
+      "url": "https://nemzetisport.hu/f1/2026/11/vasseur-azonnal-magahoz-rendelte-leclerc-t-hibazott-es-a-csapat-nagy-arat-fizetett-erte",
+      "published": "Sun, 22 Nov 2026 18:17:40 +0000",
+      "categories": [
+        "f1"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/HNm9Ehe7APmQpGtjWGPT6CrcSnFUO-xA_B52RNmm1M4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzQ0Mzc4NGQ4ZTliYzRiYzhiY2JkYjI3NGI0NDY2MjNl.webp"
     },
     {
       "source": "Telex",
@@ -49,17 +76,8 @@
       "published": "Sun, 22 Nov 2026 17:50:52 +0100",
       "categories": [
         "man-united"
-      ]
-    },
-    {
-      "source": "Nemzeti Sport",
-      "title": "Nem bírt egymással a Soroksár és a Szeged",
-      "summary": "A fővárosi csapat zsinórban negyedik bajnokiját vívta meg nyeretlenül, így nem tudott visszalépni a dobogóra.",
-      "url": "https://nemzetisport.hu/labdarugo-nb-ii/2026/11/nem-birt-egymassal-a-soroksar-es-a-szeged",
-      "published": "Sun, 22 Nov 2026 17:50:45 +0000",
-      "categories": [
-        "foci"
-      ]
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795366215-temp-8csmjod5u7rkffchnej_cimlap-normal.jpg"
     },
     {
       "source": "Telex",
@@ -69,7 +87,8 @@
       "published": "Sun, 22 Nov 2026 17:35:11 +0100",
       "categories": [
         "parliament"
-      ]
+      ],
+      "image": "https://assets.telex.hu/images/20261120/1795192802-temp-v3djb30ip0ik7edaimg_cimlap-normal.jpg"
     },
     {
       "source": "HVG",
@@ -79,7 +98,8 @@
       "published": "Sun, 22 Nov 2026 17:11:00 Z",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/0cb554b0-901c-4293-92b1-1cf3565cb4a5.jpg"
     },
     {
       "source": "Nemzeti Sport",
@@ -89,7 +109,8 @@
       "published": "Sun, 22 Nov 2026 16:51:04 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/_ooohcOmQJBZTxrPo__G4MF0gBlA4WotgXw_ABvEhJM/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzE0YTYwZjQyZGY5NTQyMWY4ZWY3ODlhOWQ4NWE0NDBl.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -99,7 +120,8 @@
       "published": "Sun, 22 Nov 2026 16:51:00 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/ekQCgsskDTNWnf1CsDfX3ykQ07rziCEcjCujWnTugSE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2IzMDEzNTYwZTcwYTQzZTE5N2U1N2VjOWI4M2YyZjg1.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -109,7 +131,41 @@
       "published": "Sun, 22 Nov 2026 16:49:04 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/d65x38wNryC_AzmlxUcCB3NbO9ZVphdWzkVqpatchFo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzMwZGYzYzk4NDM4YzRkNWRiOGI0ODM2YWZmYjFkMWEw.webp"
+    },
+    {
+      "source": "Telex",
+      "title": "Tömegverekedés tört ki Nyíregyházán a Spartacus és a DVSC szurkolói közt",
+      "summary": "A rendőrség szerint több sérültet kórházba vittek. A két csapat NB I.-es rangadót játszik vasárnap délután.",
+      "url": "https://telex.hu/belfold/2026/11/22/tomegverekedes-szurkolok-nyiregyhaza-spartacus-dvsc",
+      "published": "Sun, 22 Nov 2026 16:30:09 +0100",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795361622-temp-6inp0u9jghsg2gnnfbg_cimlap-normal.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "McBurnie volt a nyerőember: a Hull a hosszabbításban nyert a Brighton ellen",
+      "summary": "A Hull City skót csatára pillanatok alatt kihasználta Costinha hajrábeli kiállítását.",
+      "url": "https://nemzetisport.hu/angol-labdarugas/2026/11/hull-city",
+      "published": "Sun, 22 Nov 2026 16:15:59 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/XmGVC3IBDVMCWWnBjczVkYDw2fpn-oQ8Be84g7cI4Kc/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzliNDQ0ZWEwMzIxYzRmMjZiNmQ5ZjViMzY4NjBiYzJj.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Verstappen keményen beszólt Russellnek: Közelében sincs az én szintemnek",
+      "summary": "A holland kárörvendett, amikor látta ellenfelét a falban: Ma is kiderült, hogy a karma kegyetlen.",
+      "url": "https://nemzetisport.hu/f1/2026/11/verstappen-kemenyen-beszolt-russellnek-kozelebe-sincs-az-en-szintemnek",
+      "published": "Sun, 22 Nov 2026 16:14:32 +0000",
+      "categories": [
+        "f1"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/XHHJ9IcU4T0kv9OVQDUYuMCuFcGsA2Gcp7xUrOK65Lw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVhNDVhMzRkYzM0YTRiOTFiODcwNjJhZGM3NWEzOTli.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -119,7 +175,19 @@
       "published": "Sun, 22 Nov 2026 16:11:54 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/yyZG6mWrvW3YUsQoXLYaIjCc0agOd1kPG-eadHCgRHI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ExODJkOWM2MmJiZTQzN2Y5ODc5N2NjOTljN2I2NDEz.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "NB III: az ESMTK nyerte a dél-pesti derbit",
+      "summary": "Az év utolsó játéknapján északkeleten győzött a Füzesabony és a Kisvárda II, délnyugaton a PTE-PEAC.",
+      "url": "https://nemzetisport.hu/labdarugo-nb-ii/2026/11/nb-iii-az-esmtk-nyerte-a-delpesti-derbit",
+      "published": "Sun, 22 Nov 2026 15:16:29 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/8x_2VFBgXum5fA6xC4Qap0KmQzhuoifcQ8g6eTTBZxo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdlOTNiM2JkMTgwZTQ2YWVhNGQ3MTlhODNkMjg0MGY3.webp"
     },
     {
       "source": "HVG",
@@ -129,7 +197,8 @@
       "published": "Sun, 22 Nov 2026 15:03:00 Z",
       "categories": [
         "nba"
-      ]
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/2f97be15-34c6-4b3f-85e9-faeb9b6aa946.jpg"
     },
     {
       "source": "Nemzeti Sport",
@@ -139,17 +208,8 @@
       "published": "Sun, 22 Nov 2026 15:00:51 +0000",
       "categories": [
         "foci"
-      ]
-    },
-    {
-      "source": "Nemzeti Sport",
-      "title": "MotoGP: Márquez nyolcadik világbajnoki címével beállította Agostini rekordját",
-      "summary": "A vb-sorozat jövő hétvégén Valenciában zárul.",
-      "url": "https://nemzetisport.hu/egyeb-auto-motor/2026/11/motogp-marquez-nyolcadik-vilagbajnoki-cimevel-beallitotta-agostini-rekordjat",
-      "published": "Sun, 22 Nov 2026 14:29:02 +0000",
-      "categories": [
-        "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/6_0n0LIb20gNwbMHlixUoMIkx0Z0FtuNjccS-8Oeyic/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM2MDE2OWVhMTcxNDRjZTliZWEwNmZjZDgzMWUyMmMx.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -159,7 +219,8 @@
       "published": "Sun, 22 Nov 2026 14:24:00 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/HlaXAzKYUTQqpGVGpYUgywNmxOXeNFzESFuInmLU8qs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzkyYmU1MDIzMDJmMzRlMjE5NzRkMDc2NzJkMjAzMGZh.webp"
     },
     {
       "source": "Telex",
@@ -169,7 +230,8 @@
       "published": "Sun, 22 Nov 2026 14:16:15 +0100",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795353287-temp-um62blj94d214ffcgno_cimlap-normal.jpg"
     },
     {
       "source": "Nemzeti Sport",
@@ -179,7 +241,19 @@
       "published": "Sun, 22 Nov 2026 14:15:28 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/fOZ0nvidkL_mam7DklE3VRRaH4bphDkvr_C2yzhnQ34/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzA1ZjhlYmM5NzBkYzQwNzU4MmViMTJhODUzYjhjODMy.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Hadjar és Pérez is büntetést kapott a Las Vegas-i verseny után",
+      "summary": "A francia pilóta a biztonsági autós szakasz alatt követett el szabálytalanságot, míg a mexikói Camarával ütközött.",
+      "url": "https://nemzetisport.hu/f1/2026/11/hadjar-es-perez-is-buntetest-kapott-a-las-vegas-i-verseny-utan",
+      "published": "Sun, 22 Nov 2026 13:49:50 +0000",
+      "categories": [
+        "f1"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/mCEWhVUUYE3UvG3ITxWwpQ8YNzWzY37sJaLbmIzPZVI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2FkYTA4MjU5ZjQ0ZTQ1YWZiNjdiNzEyNmY5MGYyZTEx.webp"
     },
     {
       "source": "HVG",
@@ -189,7 +263,19 @@
       "published": "Sun, 22 Nov 2026 13:46:00 Z",
       "categories": [
         "parliament"
-      ]
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/5f0a5945-6ecc-43a1-bb4a-35bceae9c437.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Súlyos sérülést szenvedett a PSG kiválósága",
+      "summary": "Az elmúlt két idényben Bajnokok Ligája-győztes párizsiak már a második kulcsjátékosukat veszítették el, ugyanis egy hónapja a grúz Hvicsa Kvarachelia szenvedett ugyancsak térdszalagszakadást.",
+      "url": "https://nemzetisport.hu/francia-labdarugas/2026/11/sulyos-serulest-szenvedett-a-psg-kivalosaga",
+      "published": "Sun, 22 Nov 2026 12:53:11 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/fUTYEMsu34BYKRUGB_KF85SYSR3cOa21RWt_meJZG18/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzEwYWZjOGI1N2ViZTRkOTlhMjhmZDBiOWUxNjUxZGMx.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -199,7 +285,8 @@
       "published": "Sun, 22 Nov 2026 11:28:53 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/CNUGh9LvQZpyqHhsG08x8RAwApOeQZiB9beGze2J68E/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ViYmJmNjNkZDM4YTQ0MDE5Y2U0MWE1MTRlMDlkYWVi.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -209,7 +296,19 @@
       "published": "Sun, 22 Nov 2026 11:17:27 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/mQ-dn_STz8XLoN7Aw7XNb58uFbooJAG49v21MK7RMH8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzIyYWExNzE4NjM5YTRhZWJhM2Q2YjgyNmFhZWUzNzU5.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Szoboszlai Dominikkal várja az új edzővel érkező Unitedet a Liverpool",
+      "summary": "Több mint fél évszázad óta először fordul elő, hogy az egyik fél kieső helyről várja a rangadót.",
+      "url": "https://nemzetisport.hu/angol-labdarugas/2026/11/szoboszlai-dominikkal-varja-az-uj-edzovel-erkezo-unitedet-a-liverpool",
+      "published": "Sun, 22 Nov 2026 10:30:58 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/BfbXiPbyHkLYMK66yV6yk5_9eLrv_Lm6Ikf8zKLPMhw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzgwMzM0NjVlYzY3MjQzM2FhZTc1NTk5MzExMTNmNmNk.webp"
     },
     {
       "source": "Telex",
@@ -219,17 +318,8 @@
       "published": "Sun, 22 Nov 2026 09:38:34 +0100",
       "categories": [
         "f1"
-      ]
-    },
-    {
-      "source": "Nemzeti Sport",
-      "title": "Baseballcsapat ajánlatát utasította vissza a DVSC védője, hogy labdarúgó lehessen",
-      "summary": "SZPARI–LOKI, KEZDÉS: 16.00 • Josua Mejías kockáztatott, hogy gondoskodhasson a családjáról.",
-      "url": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/baseballcsapat-ajanlatat-utasitotta-vissza-a-dvsc-vedoje-hogy-labdarugo-lehessen",
-      "published": "Sun, 22 Nov 2026 09:25:42 +0000",
-      "categories": [
-        "foci"
-      ]
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795336639-temp-1rhkgc30gggs2agpema_cimlap-normal.jpg"
     },
     {
       "source": "Nemzeti Sport",
@@ -238,9 +328,9 @@
       "url": "https://nemzetisport.hu/amerikai-sportok/2026/11/nba-victor-wembanyama-ligatortenelmet-irt",
       "published": "Sun, 22 Nov 2026 09:18:00 +0000",
       "categories": [
-        "nba",
-        "foci"
-      ]
+        "nba"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/-qTHtmWuArLAt-inL8nhVONLtLghUrk1pE-FOm0NPt4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2RkMWFmMmRmNTQyMTQ1OTM4Y2VkMzI2NTBjOWJlNDhj.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -250,7 +340,8 @@
       "published": "Sun, 22 Nov 2026 09:13:52 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/zu6JoSKfSNMOYWLdrG6BI26Ebm61UnjtjI33Xw3mubQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkNGRkYzBjNzdjYTQ2NWZhMWFiZjkyMDk4ZjM0MGQx.webp"
     },
     {
       "source": "Telex",
@@ -260,7 +351,8 @@
       "published": "Sun, 22 Nov 2026 09:01:02 +0100",
       "categories": [
         "nba"
-      ]
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795334431-temp-9mb0m1je9sdm6akejal_cimlap-normal.jpg"
     },
     {
       "source": "Nemzeti Sport",
@@ -270,7 +362,19 @@
       "published": "Sun, 22 Nov 2026 08:41:11 +0000",
       "categories": [
         "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/uK2GUwmjwcEsr6eX1WvpCSWU-sT_OASbx85qLjb8Tio/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzE3ZmIwMGZhYWIwMDRiN2ZhNDZlZWNkYjU1MTYzZWQ3.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Gulácsi Péterék nagy tesztje: fellépés a Camp Nouban",
+      "summary": "KEZDÉS: 14.00 • Először védhet az FC Barcelona ellen Gulácsi Péter, aki nem lesz könnyű helyzetben, hiszen félelmetes a katalánok támadójátéka.",
+      "url": "https://nemzetisport.hu/spanyol-labdarugas/2026/11/gulacsi-peterek-nagy-tesztje-fellepes-a-camp-nouban",
+      "published": "Sun, 22 Nov 2026 08:12:19 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/bLvfqu8zoChNdhXvofaRu3om36JdRxydb4hD36XSAFM/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzI0Mzk4YTc2ZjdjODQ2NmNiMDBkMDJhYTk1ZGIzMGQ1.webp"
     },
     {
       "source": "HVG",
@@ -280,7 +384,30 @@
       "published": "Sun, 22 Nov 2026 08:09:04 Z",
       "categories": [
         "f1"
-      ]
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7007edcf-6bd9-4612-9c66-1443bf6d164e.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Interjú közben esett össze a világbajnok középpályás – videó",
+      "summary": "A Boca Juniorsszal Copa Sudamericanát nyerő Leandro Paredes később közösségi oldalán közölte, hogy csak megszédült a hőség és a páratartalom miatt.",
+      "url": "https://nemzetisport.hu/minden-mas-foci/2026/11/interju-kozben-esett-ossze-a-vilagbajnok-kozeppalyas-video",
+      "published": "Sun, 22 Nov 2026 08:03:50 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/Fa5SEuEN7fw6s3A87kro20J2oL05VLkKjxtl1ISOzy4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M2MDgyNDZiODkzMjQ2YTc5NjljN2ExZWE3ZDY5YzVh.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Lionel Messi piros lapot úszott meg? – videó",
+      "summary": "Az Inter Miami meglepetésre hazai pályán kapott hármat a Columbustól.",
+      "url": "https://nemzetisport.hu/minden-mas-foci/2026/11/lionel-messi-piros-lapot-uszott-meg-video",
+      "published": "Sun, 22 Nov 2026 07:52:16 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/2EOAswwHJmi1zr-BPIxs202Zvh4mhMYfJlg74tluZsc/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2E2NGE4Yzg5NzI1NTQwNDdiNzQ5MDFkMGM3N2EwMTZm.webp"
     },
     {
       "source": "Telex",
@@ -290,7 +417,41 @@
       "published": "Sun, 22 Nov 2026 07:35:02 +0100",
       "categories": [
         "parliament"
-      ]
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795329194-temp-tbvcaomda94q6lnihgm_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "title": "Megszámlálhatatlan előzés Las Vegasban, Verstappen végtelen ostromokat állva nyert",
+      "summary": "A dobogósokat, Verstappent, Norrist és Piastrit Keanu Reeves vitte körbe a pályán egy nyitott tetejű limóban.",
+      "url": "https://telex.hu/sport/2026/11/22/forma-1-f1-las-vegas-nagydij",
+      "published": "Sun, 22 Nov 2026 06:55:31 +0100",
+      "categories": [
+        "f1"
+      ],
+      "image": "https://assets.telex.hu/images/20261122/1795326602-temp-msl8q6qrr3d61kcdoef_cimlap-normal.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Csíkszeredában látható időszaki Hátsó füves-fotókiállítás",
+      "summary": "A megnyitón szó esett arról is, miben különbözik a magyarországi megyei bajnokságok és a székelyföldi kis csapatok világa.",
+      "url": "https://nemzetisport.hu/minden-mas-foci/2026/11/csikszeredaban-lathato-idoszaki-hatso-fuves-fotokiallitas",
+      "published": "Sun, 22 Nov 2026 06:44:56 +0000",
+      "categories": [
+        "foci"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/bqphD7oBBm9FlEL0CdhNRC9SuDOgtSxEbXRai-zlMMk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M2ZGQ5NmFkMjgyNzQ0ZGI4ZTliMzNmNTAzZjgxYjlk.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "title": "Előzési rekord és őrült sakkjátszma: Vestappen nyert a két McLaren előtt a hektikus Las Vegas-i futamon",
+      "summary": "Folyamatosak voltak a helycserék a mezőnyben. Lindblad a biztonsági autó mögött dobta el, a két Ferrari ütközött, Russell a hajrában falazott. A McLarenek az utolsó körben előzték meg Antonellit.",
+      "url": "https://nemzetisport.hu/f1/2026/11/verstappen-gyozelemre-valtja-a-pole-t-las-vegas-i-nagydij-a-verseny",
+      "published": "Sun, 22 Nov 2026 05:35:40 +0000",
+      "categories": [
+        "f1"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/dPcUfgCiZPP10wL8o1ZtdNYaDNl0rMl3UL2Rimufz-o/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzEzMDJjZWZkMTVlYjQwZTM5ZmQyODAwMTJjMTI0Yzdi.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -300,27 +461,8 @@
       "published": "Sat, 21 Nov 2026 22:58:00 +0000",
       "categories": [
         "foci"
-      ]
-    },
-    {
-      "source": "Nemzeti Sport",
-      "title": "118 nap után Fradi-vereség; Győrben fellázadtak a kézilabdázók",
-      "summary": "A Nemzeti Sport vasárnapi számából ajánljuk:&nbsp;118 nap után kapott ki a Ferencváros labdarúgócsapata.&nbsp;Ezt megelőzően július 26-án a Paks győzte le Borbély Balázs együttesét, most az edző volt csapata, a címvédő ETO nyert a Groupama Arénában. Szabics Imre felcsúti győzelemmel, Kuttor Attila újpesti döntetlennel mutatkozott be az MK, illetve a Kisvárda kispadján, vasárnap pedig további három meccsel folytatódik az OTP Bank Liga 14. fordulója. Értékelések, osztályzatok, statisztikák és nyil",
-      "url": "https://nemzetisport.hu/napilap/2026/11/118-nap-utan-fradi-vereseg-gyorben-fellazadtak-a-kezilabdazok",
-      "published": "Sat, 21 Nov 2026 22:55:00 +0000",
-      "categories": [
-        "foci"
-      ]
-    },
-    {
-      "source": "Nemzeti Sport",
-      "title": "Fűszálakból közösség – Csillag Péter publicisztikája",
-      "summary": "ALAPVONAL. Na, akkor tegyük ezt tisztába: mi a fontosabb, a falu vagy a futball érdeke? Egyértelműen a falué.",
-      "url": "https://nemzetisport.hu/minden-mas-foci/2026/11/fuszalakbol-kozosseg-csillag-peter-publicisztikaja",
-      "published": "Sat, 21 Nov 2026 22:02:03 +0000",
-      "categories": [
-        "foci"
-      ]
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/p-V-j21l-PsZ5X-keKX67TAvsdi9MFNYkSGOe1t7YFE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcwMzkwMzAxMWU5MTRjMzE5YWViMjJmNGJkY2JkMjFj.webp"
     }
   ]
 }

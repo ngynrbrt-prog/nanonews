@@ -1,0 +1,22 @@
+{
+  "editions": [
+    {
+      "file": "2026-11-22-2009.json",
+      "updatedAt": "2026-11-22T20:09:06.702596+01:00",
+      "count": 42,
+      "testEdition": true
+    },
+    {
+      "file": "2026-11-22-20.json",
+      "updatedAt": "2026-11-22T20:05:56.991303+01:00",
+      "count": 32,
+      "testEdition": false
+    },
+    {
+      "file": "2026-11-22-19.json",
+      "updatedAt": "2026-11-22T19:56:12.373373+01:00",
+      "count": 4,
+      "testEdition": false
+    }
+  ]
+}
