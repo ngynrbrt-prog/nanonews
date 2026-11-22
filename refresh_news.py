@@ -50,7 +50,7 @@ class ArticleTextParser(HTMLParser):
     blocked={"script","style","nav","footer","aside","noscript","svg","form"}
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.skip=0; self.article=0; self.scope=0
+        self.skip=0; self.article=0; self.scope_tags=[]
         self.capture=False; self.paragraph=[]; self.preferred=[]; self.fallback=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs); classes=(attrs.get("class","")+" "+attrs.get("id","")).casefold()
@@ -59,10 +59,10 @@ class ArticleTextParser(HTMLParser):
         if self.skip:return
         if tag=="article": self.article+=1
         if any(word in classes for word in ("article-body","article-content","story-body","story-content","post-content","content-body")):
-            self.scope+=1
+            self.scope_tags.append(tag)
         if tag=="p":
             self.capture=True; self.paragraph=[]
-            self.prefer_current=self.article>0 or self.scope>0
+            self.prefer_current=self.article>0 or bool(self.scope_tags)
     def handle_data(self,data):
         if self.capture and not self.skip:
             value=re.sub(r"\s+"," ",data).strip()
@@ -72,7 +72,7 @@ class ArticleTextParser(HTMLParser):
             if self.skip:self.skip-=1
             return
         if self.skip:return
-        if tag=="p" and self.capture:
+        if tag in self.scope_tags:self.scope_tags.remove(tag)\n        if tag=="p" and self.capture:
             value=" ".join(self.paragraph).strip()
             if len(value)>35:
                 self.fallback.append(value)
