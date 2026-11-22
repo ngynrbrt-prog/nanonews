@@ -89,7 +89,7 @@ def fetch_article(url):
         page=raw.decode(charset,errors="replace")
         parser=ArticleTextParser();parser.feed(page)
         paras=parser.preferred if parser.preferred else parser.fallback
-        body="\\n\\n".join(paras)
+        body="\n\n".join(paras)
         body=re.sub(r"\s+"," ",body).strip()
         return body[:18000] if len(body)>250 else ""
     except Exception as exc:
@@ -123,8 +123,8 @@ Alapanyag ({basis}):
             if step.get("type")=="model_output":
                 for block in step.get("content",[]):
                     if block.get("type")=="text":parts.append(block.get("text",""))
-        raw="\\n".join(parts)
-    raw=re.sub(r"^\\s*```(?:json)?|\\s*```\\s*$","",raw.strip(),flags=re.I)
+        raw="\n".join(parts)
+    raw=re.sub(r"^\s*```(?:json)?|\s*```\s*$","",raw.strip(),flags=re.I)
     parsed=json.loads(raw)
     variants={}
     for mode in ("honest","jeno","tolkien"):
@@ -173,10 +173,10 @@ for source,urls in feeds.items():
 stories.sort(key=lambda s:s["published"],reverse=True)
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"stories":stories[:80]}
 Path("data").mkdir(exist_ok=True)
-Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 archive=Path("data/archive");archive.mkdir(exist_ok=True)
 stamp=now.strftime("%Y-%m-%d-%H%M")
-(archive/f"{stamp}.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+(archive/f"{stamp}.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 items=[]
 for file in archive.glob("*.json"):
     if file.name=="index.json": continue
@@ -185,5 +185,5 @@ for file in archive.glob("*.json"):
         items.append({"file":file.name,"updatedAt":d.get("updatedAt"),"count":len(d.get("stories",[])),"testEdition":d.get("testEdition",False)})
     except Exception: pass
 items.sort(key=lambda item: item.get("updatedAt") or "", reverse=True)
-(archive/"index.json").write_text(json.dumps({"editions":items},ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+(archive/"index.json").write_text(json.dumps({"editions":items},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print(f"Saved {len(edition['stories'])} stories, {sum(bool(s['image']) for s in edition['stories'])} images at {edition['updatedAt']}; rewrites {sum(bool(s.get('variants')) for s in edition['stories'])}")
