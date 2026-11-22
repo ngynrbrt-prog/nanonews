@@ -14,7 +14,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: python refresh_news.py
+      - name: Build editions and rewrites
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python refresh_news.py
       - name: Commit new edition
         run: |
           if ! git diff --quiet; then
