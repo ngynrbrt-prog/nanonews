@@ -35,7 +35,7 @@ def image_for(item,desc):
             url=node.attrib.get("url","")
             if url.startswith("http") and any(x in url.lower() for x in (".jpg",".jpeg",".png",".webp","image")):
                 return url
-    m=re.search(r'<img[^>]+src=["\\'](https?://[^"\\']+)',desc,re.I)
+    m=re.search(r"<img[^>]+src=['\"](https?://[^'\"]+)",desc,re.I)
     return m.group(1) if m else ""
 stories=[];seen=set()
 for source,urls in feeds.items():
