@@ -28,6 +28,10 @@ rules={
 def text(node):
     if node is None:return ""
     return re.sub(r"\s+"," "," ".join(node.itertext())).strip()
+def match_term(term,hay):
+    if term.casefold() in ("nba","f1"):
+        return bool(re.search(r"(?<![a-z0-9])"+re.escape(term.casefold())+r"(?![a-z0-9])",hay))
+    return term.casefold() in hay
 def image_for(item,desc):
     for node in item.iter():
         tag=node.tag.lower()
@@ -47,7 +51,7 @@ for source,urls in feeds.items():
             title=text(item.find("title"));link=text(item.find("link"));desc=text(item.find("description"))
             if not title or not link or link in seen:continue
             hay=(title+" "+desc+" "+link).casefold()
-            cats=[key for key,terms in rules.items() if any(term in hay for term in terms)]
+            cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
             if not cats:continue
             seen.add(link)
             stories.append({"source":source,"title":title,"summary":desc[:500],"url":link,"published":text(item.find("pubDate")),"categories":cats,"image":image_for(item,desc)})
