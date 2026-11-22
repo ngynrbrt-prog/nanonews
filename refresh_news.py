@@ -64,9 +64,13 @@ archive=Path("data/archive");archive.mkdir(exist_ok=True)
 stamp=now.strftime("%Y-%m-%d-%H%M")
 (archive/f"{stamp}.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 items=[]
+test_added=False
 for file in sorted(archive.glob("*.json"),reverse=True):
+    if file.name=="index.json": continue
     try:
         d=json.loads(file.read_text(encoding="utf-8"))
+        if d.get("testEdition",False) and test_added: continue
+        if d.get("testEdition",False): test_added=True
         items.append({"file":file.name,"updatedAt":d.get("updatedAt"),"count":len(d.get("stories",[])),"testEdition":d.get("testEdition",False)})
     except Exception: pass
 (archive/"index.json").write_text(json.dumps({"editions":items},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
