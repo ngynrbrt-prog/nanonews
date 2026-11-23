@@ -93,7 +93,7 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 2. A refresh_news.py beolvassa a források RSS-feedjeit, kiszűri az ismétlődő hivatkozásokat, majd a cím és a kivonat alapján témákat rendel a hírekhez.
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
-5. Ha van használható Gemini-kulcs, a program egy kérésben semleges, tárgyilagos, részletes, 5–7 mondatos Eredeti összefoglalót, valamint Tolkien-hangú címet és 3–5 mondatos összefoglalót kér. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
+5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindkét összefoglaló 2–3 rövid mondatos; a program a kimenetet legfeljebb három mondatra és 900 karakterre korlátozza. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
 6. A program létrehozza vagy frissíti a data/latest.json fájlt, hozzáad egy időbélyeges kiadást a data/archive/ mappához, majd frissíti a data/archive/index.json archívumjegyzéket. Legfeljebb 80 cikk kerül egy kiadásba.
 7. Sikeres fájlváltozás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt.
 
@@ -189,7 +189,7 @@ A felület két, egymástól elkülönített beállításcsoportot kínál:
 
 Az Írás stílusa választó a rovatmenü alatt, a cikkrész teljes szélességében jelenik meg. A Rovataim és az Írás stílusa részek összecsukható natív lenyíló panelként működnek, alaphelyzetben nyitva. Asztali nézetben a fejlécben a „Budapest · személyes Napközbeni lap” balra, az éjszakai kapcsoló középre, a dátum és a sorszám jobbra rendeződik; mobilon középre rendezve a városnév, a dátum, majd a kisebb éjszakai kapcsoló következik. A fejléc dátuma után /1 jelöli a reggeli, /2 a délutáni, /3 az esti kiadást. A sorszámot a kiadás updatedAt időpontjából, Europe/Budapest szerint számolja; archív lap megnyitásakor annak dátuma és sorszáma jelenik meg. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
 
-A kiadás JSON-jában a részletes, tárgyilagos Eredeti összefoglaló a variants.original.body mezőben, a Tolkien-változat címe és összefoglalója a variants.tolkien.title és variants.tolkien.body mezőkben szerepel. Eredeti stílusban a forrás eredeti címe marad, a hírhez pedig a cikk nyilvánosan elérhető szövegéből készült 5–7 mondatos, hosszabb összefoglaló társul. Ha a generálás nem sikerül vagy nincs API-kulcs, a felület az eredeti címet és RSS-kivonatot jeleníti meg. Így egy generálási hiba nem akadályozza a kiadás megjelenítését.
+A kiadás JSON-jában a tárgyilagos, 2–3 mondatos Eredeti összefoglaló a variants.original.body mezőben, a Tolkien-változat címe és 2–3 mondatos összefoglalója a variants.tolkien.title és variants.tolkien.body mezőkben szerepel. Eredeti stílusban a forrás eredeti címe marad, a hírhez pedig a cikk nyilvánosan elérhető szövegéből készült 2–3 mondatos összefoglaló társul. Ha a generálás nem sikerül vagy nincs API-kulcs, a felület az eredeti címet és legfeljebb három mondatra rövidített RSS-kivonatot jeleníti meg. Így egy generálási hiba nem akadályozza a kiadás megjelenítését.
 
 A generálás jelenlegi modellje a kódban gemini-3.5-flash-lite, az API-hívás a Google Interactions API v1beta végpontjára megy. A modell- és végpontbeállítás a refresh_news.py fájlban módosítható.
 
@@ -368,6 +368,14 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A mobil fejléc sorrendje: városmegjelölés, dátum és lapszám, majd a kisebb éjszakai kapcsoló.
 - Ellenőrzés: Pages-publikálás (#119) sikeres; a keskeny mobil tördelést kb. 680 CSS-pixeles nézeten vizuálisan ellenőriztem. A cikkképek, címek és összefoglalók nem lógnak ki, az éjszakai kapcsoló a dátum alatt jelenik meg.
 - Állapot: közzétéve és ellenőrizve.
+
+### 2026-11-23 — rövid, 2–3 mondatos összefoglalók és Tolkien-hibák
+- Kérés: ezentúl mind az Eredeti, mind a Tolkien tollából változat legyen lényegretörő, 2–3 mondatban; meg kellett vizsgálni, hogy a hiányzó Tolkien-szövegeket a kvóta kimerülése okozta-e.
+- A 2026-11-23 14:09-kor készült hivatalos kiadás 30 cikkéből 7-hez volt elmentve Eredeti és Tolkien változat, 23 cikkhez nem. A GitHub Actions #12 sikeresen lefutott, de a Gemini-hívások 23 esetben HTTP 503 Service Unavailable hibát adtak. Ez átmeneti szolgáltatási túlterhelésre utal; a naplóban HTTP 429 kvótahiba nem szerepelt, ezért a kvóta kimerülése nem igazolható.
+- Módosítva a refresh_news.py: a prompt mindkét változatnál 2–3 rövid mondatot kér; a kód legfeljebb három mondatra és 900 karakterre vágja az összefoglalókat, az RSS-es tartalékot is rövidíti, és 503 esetén legfeljebb két újrapróbálkozást végez.
+- A rövid összefoglalók új verziójelölést kapnak, így a régi, hosszú változatok nem kerülnek újra felhasználásra, ha ugyanaz a cikk újra feldolgozásra kerül. A jelenleg elmentett kiadás és az archív példányok nem változnak visszamenőleg; az új szabály az ezután feldolgozott cikkekre érvényes.
+- Egy cikkhez továbbra is egy Gemini API-kérés készíti el mindkét változatot; a rövidebb kimenet csökkenti a válasz tokenigényét. A projekt továbbra sem használ fizetős tartalékot.
+- Állapot: forrásmódosítás rögzítve a main ágon; az új összefoglalók az ezt követő generálások során jelennek meg.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
