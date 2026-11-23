@@ -564,7 +564,7 @@ A technológiai rovat sportkizárása a forrás-specifikus NFL-címkézés után
 - A `short-v2.1-3-4` verziójelölés piros ponttal jelzi a főoldalon a régi összefoglalókat. Az ötpereces workflow a legfrissebb hivatalos kiadásban futásonként legfeljebb három régi cikket frissít, mindhárom változatot együtt menti, és siker után megszünteti a piros jelzést.
 - A kézi `style-refresh` workflow mód csak a legfrissebb kiadás stílusainak frissítésére szolgál; nem készít új kiadást.
 
-- Hozzáadva a Rejtő Jenő stílusválasztó, a Rejtő-cím és a 2–3 mondatos összefoglaló mentése, valamint a kiválasztott hangnem szerinti cikkmegjelenítés.
+- Hozzáadva a Rejtő Jenő stílusválasztó, a Rejtő-cím és a 3–4 mondatos, legfeljebb 1400 karakteres összefoglaló mentése, valamint a kiválasztott hangnem szerinti cikkmegjelenítés.
 - A piros jelölés akkor marad látható, ha Tolkien vagy Rejtő stílusváltozat hiányzik; a GitHub Actions 5 percenként csak a hiányzó változatot próbálja létrehozni.
 - Készült `reito-backfill` kézi workflow mód a legfrissebb szám pótlására ismételt kiadás létrehozása nélkül.
 - A MacBook Neo a Technológia rovatban marad NBA címke nélkül.
@@ -577,3 +577,6 @@ Kategorizálási pontosítás: a webes rovatkizárás az NBA, NFL és F1 rövid�
 
 
 A második kézi pótlás után a 13 cikkből 12-nél van teljes Rejtő-változat. A Ferrari F1-cikk Gemini 503-as szolgáltatáshibát kapott a legutóbbi próbán is, ezért a piros jelzés megmarad, és az ötpercenkénti ütemezett workflow tovább próbálkozik. A MacBook Neo 2 cikk a 17:38-as kiadásban a `technology` kategóriában van, és a javított felületen már a Technológia / Fejlesztések rovatban jelenik meg.
+
+
+A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval rendelkezett; a maradék 9 régebbi verziójú cikket a legfrissebb kiadást feldolgozó ötpereces ütemezés futásonként legfeljebb hárommal dolgozza át. A frissítés közben piros jelzés látható, és az archív lapszámok változatlanok maradnak.
