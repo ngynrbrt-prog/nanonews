@@ -331,7 +331,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a három fejléc-elem asztali nézetben egy sorban, három oszlopban jelenik meg; mobilon középre rendezve egymás alá törik.
 - A Rovataim és az Írás stílusa natív összecsukható panelt kapott, alapértelmezés szerint nyitott állapotban.
 - A Playfair/Source Sans családot Courier Prime írógépbetű váltotta; a kisebb feliratok DM Mono betűvel maradtak.
-- Állapot: a forrásmódosítás main ágra került; a Pages publikálása és élő felületi ellenőrzése folyamatban.
+- Állapot: a forrásmódosítás main ágra került; GitHub Pages workflow #104 sikeres. Az élő oldalon ellenőriztem a háromoszlopos fejlécet, a sötét témát, az összecsukható Rovataim és Írás stílusa paneleket, valamint az írógépbetűs megjelenést.
+
+### 2026-11-23 — Telex RSS-lekérés ellenőrzése
+- Kérés: ellenőrizni, hogy a NANONews le tudja-e kérni a Telex cikkeit, mert a kiadásokban nem láthatók.
+- A forrás konfigurálva van a `refresh_news.py` fájlban `https://telex.hu/rss` címen. A legutóbbi kézi frissítés (Actions #11) naplójában a Telex feed lekérése `HTTP Error 403: Forbidden` hibával végződött.
+- A legfrissebb, 2026-11-23 12:25-kor frissített tesztkiadás 32 cikket tartalmazott, Telex-cikket nem. Ezért jelenleg a Telex hírei nem jutnak el a kiadásba; a megfigyelt hiba a forrás RSS-hozzáférésénél jelentkezik, nem a webes rovatválasztásnál.
+- Állapot: ellenőrizve és dokumentálva. A Telex tényleges lekérése jelenleg nem működik; a feed-hozzáférés javítása külön feladat.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
