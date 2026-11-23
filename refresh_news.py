@@ -29,7 +29,7 @@ rules={
  "nfl":["nfl","amerikai foci","touchdown"],
  "seahawks":["seattle seahawks","seahawks"],
  "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
- "technology":["technológia","technológiai","technológiafejlesztés","technológiai fejlesztés","fejlesztő","fejlesztők","szoftver","szoftverfejlesztés","alkalmazás","app","programozás","programozó","digitális","digitalizáció","mesterséges intelligencia","chatgpt","kiberbiztonság","adatvédelem","robotika","chip","processzor","okostelefon","startup","innováció"],
+ "technology":["találmány","feltaláló","új eszköz","új készülék","technológia","technológiai","kutatás","kutatási","kutató","tudomány","felfedezés","kísérlet","tanulmány","szoftver","szoftverfejlesztés","alkalmazás","digitális","digitalizáció","mesterséges intelligencia","chatgpt","kiberbiztonság","adatvédelem","robotika","robot","chip","processzor","okostelefon","laptop","készülék","startup","innováció","fejlesztés"],
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
  "world-market":["nasdaq","s&p 500","dow jones","wall street","stock market","nyse","dax","nikkei","amerikai tőzsde","külföldi tőzsde","részvénypiacokon"],
@@ -311,6 +311,8 @@ for source,urls in feeds.items():
             hay=(title+" "+desc+" "+link).casefold()
             cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
+            if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
+                cats.remove("technology")
             if is_domestic_economy(hay,cats):cats.append("domestic")
             if not cats:continue
             seen.add(key)
