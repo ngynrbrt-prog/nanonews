@@ -547,3 +547,19 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
+
+
+## Rejtő Jenő megjelenítési stílus és pótlási folyamat (2026-11-23)
+
+A fejléc alatti „Írás stílusa” választó három módot kínál: Eredeti, Tolkien tollából és Rejtő Jenő stílus. A választás a cikk címére, összefoglalójára és a cikk megnyitásakor látható tartalomra egyaránt érvényes. A Rejtő-változat minden hírhez külön címet és 2–3 mondatos, tényszerű, szellemes és kalandregényes hangú összefoglalót tárol. A modell nem másolhat konkrét műrészletet, és nem egészítheti ki a forrás tényanyagát.
+
+Az új kiadások Rejtő-változatát ugyanaz a Gemini API készíti el, mint a többi stílusváltozatot. A befejezetlen Tolkien- vagy Rejtő-változatú, legfrissebb hivatalos kiadás cikkei piros jelölést kapnak. A GitHub Actions ötpercenként ellenőrzi kizárólag a legfrissebb hivatalos kiadást, és csak a hiányzó változatokat próbálja pótolni. Siker esetén az adat a legfrissebb kiadás JSON-jába és annak archív példányába is bekerül; elkészült változatot nem generál újra. A `reito-backfill` kézi workflow mód ugyanezzel a feldolgozással pótolja a legfrissebb kiadás hiányzó stílusait új kiadás létrehozása nélkül.
+
+A technológiai rovat sportkizárása a forrás-specifikus NFL-címkézés után is érvényes. A sportcikkek nem kerülhetnek a Technológia / Fejlesztések rovatba. A MacBook Neo cikk kategóriája `technology`; NBA kategóriát nem kap, így a technológiai rovatban marad.
+
+### Változásnapló – 2026-11-23
+
+- Hozzáadva a Rejtő Jenő stílusválasztó, a Rejtő-cím és a 2–3 mondatos összefoglaló mentése, valamint a kiválasztott hangnem szerinti cikkmegjelenítés.
+- A piros jelölés akkor marad látható, ha Tolkien vagy Rejtő stílusváltozat hiányzik; a GitHub Actions 5 percenként csak a hiányzó változatot próbálja létrehozni.
+- Készült `reito-backfill` kézi workflow mód a legfrissebb szám pótlására ismételt kiadás létrehozása nélkül.
+- A MacBook Neo a Technológia rovatban marad NBA címke nélkül.
