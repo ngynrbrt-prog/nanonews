@@ -1,6 +1,12 @@
 {
   "editions": [
     {
+      "file": "2026-11-23-0612.json",
+      "updatedAt": "2026-11-23T06:12:48.077091+01:00",
+      "count": 7,
+      "testEdition": false
+    },
+    {
       "file": "2026-11-22-2012.json",
       "updatedAt": "2026-11-22T20:12:30.587731+01:00",
       "count": 40,
