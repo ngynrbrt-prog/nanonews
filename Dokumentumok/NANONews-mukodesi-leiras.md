@@ -213,7 +213,7 @@ Ha a kulcs cserére szorul, új kulcsot kell létrehozni, a GitHub Actions titok
 
 ## 9. Weboldal és archívum
 
-A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek.
+A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek. A „KIADÁS FRISSÍTVE” időbélyeg az összes cikk alatt, az Archív lapok fölött jelenik meg; a kiadási idő a rovat szűrésétől függetlenül látható.
 
 Az Írás stílusa választása (nanonews-style) és az Éjszakai mód állapota (nanonews-theme) külön kulcson, a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. A fejlécben lévő éjszakai kapcsoló oldalbetöltéskor visszaállítja a mentett állapotot, és újabb kattintásig bekapcsolva marad. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be. A Források és Kiadásrend tájékoztató blokkok az archív lista után, az oldal alján jelennek meg; mobilnézetben egymás alá törnek.
 
@@ -351,6 +351,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: Eredeti módban a forráscím változatlan marad, a kártyán és a cikken belüli ablakban a variants.original.body jelenik meg. Ha még nincs ilyen elmentett változat, a felület a korábbi RSS-kivonatra esik vissza.
 - A következő kiadásfrissítés állítja elő az új mezőt az újonnan feldolgozott cikkekhez; a korábbi archív lapok csak újragenerálás után kapnak hosszabb összefoglalót.
 - Állapot: kód és dokumentáció a main ágra került; Pages publikálás és a következő kiadásgenerálás után ellenőrizendő.
+
+### 2026-11-23 — kiadásfrissítési idő az összes cikk alatt
+- Kérés: a kékkel kijelölt „KIADÁS FRISSÍTVE” sort az összes cikk alá, közvetlenül az Archív lapok fölé helyezni.
+- Módosítva az index.html: az időbélyeg kikerült a főcikkből, és a főcikket, valamint a rovatcikkeket tartalmazó lista után, az archívum elé került.
+- Az időbélyeg a kiválasztott rovat üressége esetén is megmarad; az aktuális kiadás updatedAt értékét mutatja.
+- Állapot: a forrásmódosítás main ágra került; Pages-publikálás után az élő oldalon ellenőrizendő.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
