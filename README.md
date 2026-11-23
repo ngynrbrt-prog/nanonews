@@ -1,7 +1,9 @@
 # NANONews
 Személyes, magyar nyelvű hírújság. A GitHub Pages szolgálja ki az oldalt, a GitHub Actions gyűjti és archiválja a kiadásokat.
 
-Források: Telex, HVG, Index, Nemzeti Sport és NBAnews.hu. Figyelt témák: Arsenal, Manchester City, Bayern München, Manchester United, Como, Premier League, F1, NBA, belföldi hírek, belföldi parlament, belföldi tőzsde és külföldi tőzsde.
+Források: Telex, HVG, Index, Nemzeti Sport és NBAnews.hu. Figyelt témák: Arsenal, Manchester City, Bayern München, Manchester United, Como, Premier League, F1, NBA, belföldi hírek (gazdaság, sport nélkül), belföldi parlament, belföldi tőzsde és külföldi tőzsde.
+
+A részletes rendszerleírás a Dokumentumok/NANONews-mukodesi-leiras.md fájlban található. Minden további kérés és az ahhoz tartozó módosítás rögzítendő a dokumentum változásnaplójában.
 
 ## Kiadásrend
 
