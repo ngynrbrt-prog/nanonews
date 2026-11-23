@@ -27,6 +27,7 @@ rules={
  "f1":["formula-1","formula 1","forma-1","f1","fernando alonso","nagydíj","nagy díj"],
  "nba":["nba","kosárlabda"],
  "nfl":["nfl","amerikai foci","touchdown"],
+ "seahawks":["seattle seahawks","seahawks"],
  "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
@@ -36,8 +37,8 @@ rules={
 
 DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai"]
 ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés"]
-SPORT_MARKERS=["arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
-SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","cycling"}
+SPORT_MARKERS=["arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
+SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","seahawks","cycling"}
 
 def is_domestic_economy(hay,categories):
     if SPORT_CATEGORIES.intersection(categories) or any(term in hay for term in SPORT_MARKERS):
@@ -104,7 +105,10 @@ class LatestStoriesParser(HTMLParser):
     def handle_starttag(self,tag,attrs):
         if tag=="a":
             href=dict(attrs).get("href","")
-            if "/story.shtml" in href:self.current=[href,[]]
+            if "_sto" in href and "/story.shtml" in href:
+                label=attrs.get("aria-label",attrs.get("title",""))
+                label=re.sub(r"^Card for\\s+","",label).strip()
+                self.current=[href,[label] if label else []]
     def handle_data(self,data):
         if self.current:
             value=re.sub(r"\s+"," ",data).strip()
@@ -113,6 +117,8 @@ class LatestStoriesParser(HTMLParser):
         if tag=="a" and self.current:
             href,parts=self.current
             title=re.sub(r"\s+"," "," ".join(parts)).strip()
+            if not title:
+                title=re.sub(r"[_-]sto\\d+.*$","",href.rsplit("/",1)[-1]).replace("-"," ").replace("_"," ").strip().title()
             if title:self.items.append((title,href))
             self.current=None
 
