@@ -77,7 +77,13 @@
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/298265c4-dd3c-42e7-bd67-e39b2c939aba.jpg",
       "summaryVersion": "short-v1-2-3",
       "contentBasis": "article",
-      "sourceHash": "08bd2e44bdc828bab289443c6bb792a198be2d0996e682330b469524200270d8"
+      "sourceHash": "08bd2e44bdc828bab289443c6bb792a198be2d0996e682330b469524200270d8",
+      "variants": {
+        "tolkien": {
+          "title": "Ígyen szól a Krónika az almás birodalom legújabb portékájáról és a jövő évi seregletünkről",
+          "body": "Az Apple nevű birodalom március hóban mutatá be legolcsóbb írnokszerszámát, a MacBook Neót, melynek új nemzetsége Mark Gurman tudósító szerint 2027 márciusában – vagy esetleg februárban, az iOS és macOS 27.4 eljövetelével – láthat napvilágot más portékák társaságában. E mesterember jelentése szerint a jövőbeli eszköz csupán kisebb ráncfelvarrásokón esik át, miközben a birodalom egyik régi támogatási felülete már napokon belül végleg bezárja kapuit a vándorok előtt."
+        }
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -114,7 +120,13 @@
       "image": "https://assets.telex.hu/images/20261123/1795442265-temp-08io55bcc96kfljnglg_cimlap-normal.jpg",
       "summaryVersion": "short-v1-2-3",
       "contentBasis": "article",
-      "sourceHash": "13404eebd37c382246b0888b38a468f9296545f48369ed9d2b6edd72316ba8f1"
+      "sourceHash": "13404eebd37c382246b0888b38a468f9296545f48369ed9d2b6edd72316ba8f1",
+      "variants": {
+        "tolkien": {
+          "title": "A Tisza népének sürgetése a tanácskozások szózaturól",
+          "body": "A Tisza Párt új indítványt terjesztett elő a múlt héten, amely megszüntetné a magyar európai parlamenti képviselők eddigi, huszonkét esztendős hagyományon alapuló felszólalási jogait. A változtatás okairól a javaslat egyik beterjesztőjét, Hantosi Istvánt kérdezték a krónikások."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -174,7 +186,13 @@
       "image": "https://cdn.nemzetisport.hu/2026/11/DvashJdOOZQ8q1IhNgTjH2mFd1hyeEU4RqWyau8YQcE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I3ZGEzZDk0N2UzYjRhNTk5YTExOTdhZTc4Yzc2YmI1.webp",
       "summaryVersion": "short-v1-2-3",
       "contentBasis": "article",
-      "sourceHash": "80a20e64c5140dc502a6074c574e0eda47e172457ced2a644f81a2693a9c7b67"
+      "sourceHash": "80a20e64c5140dc502a6074c574e0eda47e172457ced2a644f81a2693a9c7b67",
+      "variants": {
+        "tolkien": {
+          "title": "A Kosárvetők Nagytanácsának határozata az északi nemzetségek távoltartásáról",
+          "body": "Így esett a napokban, hogy a Földközi-tájak bajnokainak hivatalos hírnökei szerint az orosz és a fehérorosz nemzetségek csapatai továbbra sem léphetnek porondra a viadalokon, miközben az egyéni tisztségviselőket és mestereket érintő korlátozások sorsáról korábban másként határoztak. A jövő esztendeiben esedékes, Los Angeles mezején tartandó ünnepi játékokon való részvétel ügyét pedig a Tanács majd a téli napforduló havában veszi újra szemügyre."
+        }
+      }
     },
     {
       "source": "HVG",
