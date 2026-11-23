@@ -8,13 +8,13 @@ Személyre szabott, naponta háromszor frissülő digitális újság. A weboldal
 
 - **GitHub Pages:** a statikus weboldal kiszolgálása.
 - **GitHub Actions:** RSS-források lekérése, cikkoldalak nyilvános szövegének feldolgozása, kiadások archiválása és ütemezése.
-- **Google Gemini API ingyenes kerete:** a hírek három hangnemű, rövid összefoglalójának elkészítése. Nincs fizetős tartalék; kvótakorlát vagy hiba esetén az elérhető RSS-kivonat jelenik meg.
+- **Google Gemini API ingyenes kerete:** az eredeti és a Tolkien-hangú összefoglaló elkészítése. Nincs fizetős tartalék; kvótakorlát vagy hiba esetén az elérhető RSS-kivonat jelenik meg.
 
 A feldolgozás nem kerüli meg a fizetőfalat vagy a bejelentkezést. A generált szöveg saját, tömör összefoglaló; nem a teljes cikk másolata.
 
 ## Források és témák
 
-Első körben: Telex, HVG, Index és Nemzeti Sport. A témák a `refresh_news.py` fájl `rules` listájában bővíthetők, a megjelenő rovatnevek az `index.html` fájl `topics` listájában vannak.
+Források: Telex, HVG, Index, Nemzeti Sport és NBAnews.hu (RSS: `https://nbanews.hu/feed/`). A témák a `refresh_news.py` fájl `rules` listájában bővíthetők, a megjelenő rovatnevek az `index.html` fájl `topics` listájában vannak.
 
 ## Kiadások
 
@@ -33,4 +33,4 @@ Ha a kulcs valaha nyilvánosságra került, vond vissza a Google AI Studio-ban, 
 
 ## Stílusok
 
-Minden hírhez a rendszer egy `tolkien` változatot tárol. A weboldal a Tolkien-hangulatú címet és részletes összefoglalót jeleníti meg. A változatok csak sikeres Gemini-hívás után kerülnek a kiadásba; a korábbi kiadások újrafeldolgozása kézi workflow-indítással történik.
+Minden hír az `original` (eredeti cím és kivonat) vagy `tolkien` (új cím és részletes, önálló összefoglaló) nézetben olvasható. A Tolkien-változat a nyilvánosan elérhető cikkből készül, legfeljebb 3–5 mondatban; a teljes cikket nem helyettesíti. A változatok csak sikeres Gemini-hívás után kerülnek a kiadásba; a korábbi kiadások újrafeldolgozása kézi workflow-indítással történik.
