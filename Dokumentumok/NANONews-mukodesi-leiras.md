@@ -96,7 +96,7 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 2. A refresh_news.py beolvassa a források RSS-feedjeit, kiszűri az ismétlődő hivatkozásokat, majd a cím és a kivonat alapján témákat rendel a hírekhez.
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
-5. Ha van használható Gemini-kulcs, a program címet és 3–5 mondatos összefoglalót kér. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
+5. Ha van használható Gemini-kulcs, a program egy kérésben semleges, tárgyilagos, részletes, 5–7 mondatos Eredeti összefoglalót, valamint Tolkien-hangú címet és 3–5 mondatos összefoglalót kér. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
 6. A program létrehozza vagy frissíti a data/latest.json fájlt, hozzáad egy időbélyeges kiadást a data/archive/ mappához, majd frissíti a data/archive/index.json archívumjegyzéket. Legfeljebb 80 cikk kerül egy kiadásba.
 7. Sikeres fájlváltozás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt.
 
@@ -138,7 +138,7 @@ flowchart TD
   cached -->|Igen| reuse["Mentett Tolkien-cím és összefoglaló újrafelhasználása"]
   cached -->|Nem| key{"Elérhető a GEMINI_API_KEY?"}
   key -->|Nem| original["Eredeti cím és RSS-kivonat marad"]
-  key -->|Igen| request["Gemini-kérés: cím + 3–5 mondatos összefoglaló"]
+  key -->|Igen| request["Gemini-kérés: részletes Eredeti + Tolkien cím és összefoglaló"]
   request --> rules["Tényhűség, magyar nyelv, Tolkien-hang, JSON-formátum"]
   rules --> response["Gemini-válasz ellenőrzése"]
   response --> valid{"A válasz tartalmaz használható címet és szöveget?"}
@@ -192,7 +192,7 @@ A felület két, egymástól elkülönített beállításcsoportot kínál:
 
 Az Írás stílusa választó a rovatmenü alatt, a cikkrész teljes szélességében jelenik meg. A Rovataim és az Írás stílusa részek összecsukható natív lenyíló panelként működnek, alaphelyzetben nyitva. Asztali nézetben a fejlécben a „Budapest · személyes Napközbeni lap” balra, az éjszakai kapcsoló középre, a dátum és a sorszám jobbra rendeződik; mobilon középre rendezve, egymás alatt jelennek meg. A fejléc dátuma után /1 jelöli a reggeli, /2 a délutáni, /3 az esti kiadást. A sorszámot a kiadás updatedAt időpontjából, Europe/Budapest szerint számolja; archív lap megnyitásakor annak dátuma és sorszáma jelenik meg. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
 
-A Gemini-változat mezői a kiadás JSON-jában a variants.tolkien.title és variants.tolkien.body alatt vannak. Ha egy cikkhez nem sikerül generálni, a felület az eredeti címet és kivonatot jeleníti meg. Így egy forráshiba nem akadályozza a teljes kiadás megjelenítését.
+A kiadás JSON-jában a részletes, tárgyilagos Eredeti összefoglaló a variants.original.body mezőben, a Tolkien-változat címe és összefoglalója a variants.tolkien.title és variants.tolkien.body mezőkben szerepel. Eredeti stílusban a forrás eredeti címe marad, a hírhez pedig a cikk nyilvánosan elérhető szövegéből készült 5–7 mondatos, hosszabb összefoglaló társul. Ha a generálás nem sikerül vagy nincs API-kulcs, a felület az eredeti címet és RSS-kivonatot jeleníti meg. Így egy generálási hiba nem akadályozza a kiadás megjelenítését.
 
 A generálás jelenlegi modellje a kódban gemini-3.5-flash-lite, az API-hívás a Google Interactions API v1beta végpontjára megy. A modell- és végpontbeállítás a refresh_news.py fájlban módosítható.
 
@@ -344,6 +344,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a két tájékoztató blokk kikerült a cikk melletti sávból, és az archív lapok után, a lábléc fölé került.
 - Reszponzív elrendezés: asztali nézetben két egymás melletti blokk, keskeny képernyőn egymás alatti blokkok.
 - Ellenőrzés: az élő Pages oldalon ellenőrizendő a publikálás után.
+
+### 2026-11-23 — hosszabb Eredeti összefoglalók
+- Kérés: Eredeti írásstílus kiválasztásakor legyen hosszabb és részletesebb az összefoglaló.
+- Módosítva a refresh_news.py: a meglévő Gemini-kérés most egy semleges, tárgyilagos, 5–7 mondatos részletes összefoglalót is kér a Tolkien-változat mellett. Ez ugyanabban az API-kérésben készül, de a hosszabb válasz növeli a generálási tokenhasználatot.
+- Módosítva az index.html: Eredeti módban a forráscím változatlan marad, a kártyán és a cikken belüli ablakban a variants.original.body jelenik meg. Ha még nincs ilyen elmentett változat, a felület a korábbi RSS-kivonatra esik vissza.
+- A következő kiadásfrissítés állítja elő az új mezőt az újonnan feldolgozott cikkekhez; a korábbi archív lapok csak újragenerálás után kapnak hosszabb összefoglalót.
+- Állapot: kód és dokumentáció a main ágra került; Pages publikálás és a következő kiadásgenerálás után ellenőrizendő.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
