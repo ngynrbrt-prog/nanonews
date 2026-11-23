@@ -312,7 +312,7 @@ Alapanyag ({basis}):
     parsed=json.loads(raw)
     value=parsed.get("reito",{})
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
-    body=concise_sentences(value.get("body",""),3)
+    body=concise_sentences(value.get("body",""),4)
     if not title or not body:raise ValueError("Missing Rejto rewrite")
     return {"title":title[:180],"body":body[:1400]}
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
