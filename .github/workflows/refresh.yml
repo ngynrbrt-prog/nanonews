@@ -3,15 +3,16 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Tesztfutás vagy hivatalos napi kiadás"
+        description: "Tesztfutás, hivatalos kiadás vagy hiányzó stílusok pótlása"
         required: true
         type: choice
         options:
           - test
           - official
+          - reito-backfill
         default: test
   schedule:
-    # Retry only missing Tolkien rewrites for the latest issue every 5 minutes; official editions are created only in the local 06:00 and 17:00 hour windows.
+    # Retry only missing Tolkien and Rejto rewrites for the latest issue every 5 minutes; official editions are created only in the local 06:00 and 17:00 hour windows.
     - cron: '2/5 * * * *'
 permissions:
   contents: write
