@@ -12,6 +12,7 @@ now=datetime.now(TZ)
 dispatch_mode=os.getenv("NANONEWS_MODE","test" if os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" else "").strip().lower()
 manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="test"
 force_issue=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="official"
+force_backfill=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode in {"reito-backfill","style-refresh"}
 
 feeds={
  "Telex":["https://telex.hu/rss"],
@@ -237,7 +238,7 @@ def gemini_tolkien_rewrite(story,article_text,api_key):
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
     prompt=f"""Feladat: készíts kizárólag Tolkien hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új, önálló, Tolkien magasztos, régies-krónikás hangját idéző, de közérthető címet és 2–3 rövid mondatos összefoglalót.
+Adj új címet és 3–4 mondatos, emelkedett, ünnepélyes, régies krónikás hangú átfogalmazást; a választékos ritmus különüljön el az Eredeti és a Rejtő-változattól. A cím is tükrözze ezt a hangot. Őrizd meg a cikk lényegi részleteit és minden ténykapcsolatot.
 Ne készíts Eredeti változatot, és ne adj hozzá fantasy-elemet vagy új tényt.
 A válasz kizárólag JSON legyen:
 {{"tolkien":{{"title":"...","body":"..."}}}}
@@ -270,7 +271,7 @@ Alapanyag ({basis}):
     parsed=json.loads(raw)
     value=parsed.get("tolkien",{})
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
-    body=concise_sentences(value.get("body",""),3)
+    body=concise_sentences(value.get("body",""),4)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     return {"title":title[:180],"body":body[:1400]}
 def gemini_reito_rewrite(story,article_text,api_key):
@@ -278,7 +279,7 @@ def gemini_reito_rewrite(story,article_text,api_key):
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
     prompt=f"""Feladat: készíts kizárólag Rejtő hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új, önálló, Rejtő szellemes, fordulatos, száraz humorú, kalandregényes hangját idéző, de közérthető címet és 2–3 rövid mondatos összefoglalót.
+Adj új címet és 3–4 mondatos, csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. Használj élesebb, földközeli iróniát és a tényekből következő fordulatot, hogy világosan elkülönüljön a Tolkien-féle emelkedett hangnemtől. Őrizd meg a cikk lényegi részleteit és tényeit.
 Ne készíts Eredeti vagy Tolkien-változatot, ne idézz vagy másolj konkrét műrészletet, és ne adj hozzá új tényt.
 A válasz kizárólag JSON legyen:
 {{"reito":{{"title":"...","body":"..."}}}}
@@ -313,7 +314,7 @@ Alapanyag ({basis}):
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
     body=concise_sentences(value.get("body",""),3)
     if not title or not body:raise ValueError("Missing Rejto rewrite")
-    return {"title":title[:180],"body":body[:900]}
+    return {"title":title[:180],"body":body[:1400]}
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
 previous_edition={}
@@ -338,7 +339,7 @@ except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[];seen=set()
 scheduled_issue_number={6:1,17:2}.get(now.hour)
-official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours
+official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours and not force_backfill
 if force_issue and not official_slot_available:
     raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
 collect_new_edition=manual or force_issue or official_slot_available
