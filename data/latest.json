@@ -231,17 +231,20 @@
         "nba"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/DvashJdOOZQ8q1IhNgTjH2mFd1hyeEU4RqWyau8YQcE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I3ZGEzZDk0N2UzYjRhNTk5YTExOTdhZTc4Yzc2YmI1.webp",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "80a20e64c5140dc502a6074c574e0eda47e172457ced2a644f81a2693a9c7b67",
       "variants": {
+        "original": {
+          "body": "A TASZSZ a FIBA sajtószolgálatára hivatkozva arról számolt be, hogy az Európai Kosárlabda-szövetség fenntartja az orosz és fehérorosz válogatottak, valamint klubcsapatok eltiltását a nemzetközi tornáktól. Ezzel szemben a FIBA korábban már feloldotta a korlátozásokat az összes orosz és fehérorosz játékosra, edzőre, játékvezetőre és tisztviselőre vonatkozóan a hagyományos és a 3x3-as kosárlabdában egyaránt. Az orosz 3x3-as válogatottak 2028-as Los Angeles-i olimpián való részvételéről és szereplési kérdéseiről a FIBA Tanácsa decemberben fog tárgyalni."
+        },
         "tolkien": {
-          "title": "A Kosárvetők Nagytanácsának határozata az északi nemzetségek távoltartásáról",
-          "body": "Így esett a napokban, hogy a Földközi-tájak bajnokainak hivatalos hírnökei szerint az orosz és a fehérorosz nemzetségek csapatai továbbra sem léphetnek porondra a viadalokon, miközben az egyéni tisztségviselőket és mestereket érintő korlátozások sorsáról korábban másként határoztak. A jövő esztendeiben esedékes, Los Angeles mezején tartandó ünnepi játékokon való részvétel ügyét pedig a Tanács majd a téli napforduló havában veszi újra szemügyre."
+          "title": "Az európai kosár míves krónikája a távol tartott seregekről",
+          "body": "Így adta tudtul a TASZSZ a FIBA üzenetét hordozva, hogy az európai kosárlabda hivatali rendje továbbra is érvényben hagyja az orosz és fehérorosz nemzeti seregek, valamint a csapatok tilalmát a nemzetközi küzdőterekről. Mindeközben a nagytanács korábban úgy határozott, hogy feloldja a korlátozásokat minden egyes egyéni vándor – játékosok, mesterek, bírák és tisztségviselők – előtt a hagyományos és a 3x3-as viadalok mezején. Az orosz 3x3-as válogatottak sorsa és a Los Angeles-i, 2028 esztendejére szóló olimpiai részvétel ügye pedig a Tanács decemberi gyűlésén kerül majd terítékre."
         },
         "reito": {
-          "title": "A kosárlabda nemzetközi bürokráciája továbbra sem kér a keleti szélből",
-          "body": "A TASZSZ jelentése szerint a FIBA sajtószolgálatára hivatkozva változatlanul hagyják az orosz és a fehérorosz válogatottak, valamint klubcsapatok eltiltását a nemzetközi tornáktól. Miközben a játékosokra, edzőkre, játékvezetőkre és tisztviselőkre vonatkozó korlátozásokat korábban feloldották mindkét szakágban, a 3x3-as orosz válogatottak – ideértve a Los Angeles-i olimpiát is – sorsáról csak decemberben dönt a FIBA Tanácsa."
+          "title": "A labda pattog, de Moszkva és Minszk egyelőre a padon maradt",
+          "body": "A TASZSZ jelentése szerint a FIBA sajtószolgálata megerősítette: az európai szövetség továbbra sem engedi kiskapukon át a nemzetközi tornákra az orosz és a fehérorosz válogatottakat meg a klubcsapatokat. Ettől függetlenül az egyének már örülhetnek, mert a FIBA korábban letörölte a korlátozásokat az összes orosz és fehérorosz játékosról, edzőről, játékvezetőről és tisztviselőről a rendes és a 3x3-as kosárlabdában is. Hogy az orosz 3x3-as csapatok eljuthatnak-e a 2028-as Los Angeles-i olimpiára, az majd decemberben dől el, amikor a FIBA Tanácsa terítékre veszi a kérdést."
         }
       }
     },
@@ -282,20 +285,20 @@
         "technology"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/2934c01c-2ec1-4edc-b304-00918a6e9eb4.jpg",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "29fd038f081804cd1ca0842c89cbd1cfe8851e515ce21af4a046ed45590b93bf",
       "variants": {
         "original": {
-          "body": "A Google 2027-ben leállítja a Nest alkalmazást, és a funkcióit a Google Home veszi át. Emellett a Google Asszisztenst is végleg kivezti a cég, így az egyetlen okosotthon-eszközön sem lesz elérhető a jövőben. A Nest eszközök adatai automatikusan átkerülnek a Home alkalmazásba, a régi fiókok adatait pedig 2027 márciusában törlik."
+          "body": "A Google jelentősen átalakítja okosotthon-szoftvereit, és 2027-ben végleg leállítja a Nest alkalmazást. A megszűnést követően a Nest termékek, mint a termosztátok, kamerák és riasztók, kizárólag a Google Home alkalmazásban lesznek kezelhetők, ahová a leállás napján automatikusan átköltöznek az adatok. Emellett a cég végleg kivezeti a Google Asszisztenst is, amely egyetlen okosotthon-eszközön sem lesz elérhető a jövőben. A Nest-fiókok adatait 2027."
         },
         "tolkien": {
-          "title": "A Google birodalmának változásai és a Nest sorsa",
-          "body": "Íme, változások ideje érkezett el a Google birodalmában, ugyanis a Nest alkalmazás végleg leáldozik 2027-ben, helyét pedig a Google Home veszi át. E napon a Nest eszközök önmaguktól vándorolnak át az új helyre, míg a régi fiókok emlékeit márciusban törlik a krónikákból. Emellett a Google Asszisztenst is végleg elvezetik e földről, így az többé egyik okosotthon-eszközön sem szolgál tovább."
+          "title": "A Nest és a Google Asszisztens alkonya",
+          "body": "Igen nagy változások ideje érkezik el a Google okosotthonainak birodalmában, miután a vállalat a rendszer teljes átrendezését határozta el. Az évek óta szolgáló Nest alkalmazás 2027. január 25-én végleg leáldozik, helyét pedig a Google Home veszi át, hogy mindennemű fáradozás nélkül, a megjelölt napon automatikusan magához ölelje a termosztátokat, kamerákat és riasztókat. Ugyanezen sorsra jut a Google Asszisztens is, amelyet végleg kivezetnek, így az a jövőben egyetlen okosotthon-eszközön sem teljesít többé szolgálatot."
         },
         "reito": {
-          "title": "A Nagy Digitális Átrendeződés, avagy hogyan vonul nyugdíjba a Nest és a Google Asszisztens",
-          "body": "A Google nevű, tengerentúli gépészbrigád úgy határozott, hogy 2027-ben lapátra teszi a Nest alkalmazást meg a Google Asszisztenst is, mielőtt még rozsdásodni kezdenének. Január végén a Nest minden kütyüje – legyen az füstös termosztát vagy éber kamera – átköltözik a Google Home nevű központba, márciusban pedig az adatok is a feledés homályába merülnek. Eközben a kereső kezdőlapján még több mesterséges intelligencia kezdi majd el rágni a bitet."
+          "title": "Amikor a Nest kénytelen átköltözni",
+          "body": "A Google úgy döntött, hogy rendet vág az okosotthon-szoftverei között, és 2027-ben egyszerűen nyugdíjazza a Nest alkalmazást. 2027. január 25-én a Nest-termékek – legyen szó termosztátról, kameráról vagy riasztóról – önkéntelenül is átköltöznek a Google Home fedélzetére, így a felhasználóknak ezzel legalább nem kell bajlódniuk. Ezzel párhuzamosan a Google Asszisztens is csomagol, és végleg eltűnik az összes okosotthon-eszközről."
         }
       }
     },
@@ -309,20 +312,20 @@
         "f1"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/554f34d8-d335-44b1-8e28-f15536360d7a.jpg",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "1e4ab1e8cbddeb5e1569947d236b3aca33c7aaed5ef3071489b541dab27bfd37",
       "variants": {
         "original": {
-          "body": "Összeütközött két ritka Ferrari a barcelonai versenypályán rendezett ügyfélnapon. Egy 499P Modificata ment neki hátulról a Michael Schumacher egykori világbajnoki F2004-esének. A balesetben mindkét jármű megrongálódott, de a sofőrök sértetlenül szálltak ki."
+          "body": "A minap a barcelonai versenypályán ütközött össze két ritka Ferrari a márka évzáró rendezvényén, az ügyfeleknek szervezett pályamenet során. Egy 499P Modificata típusú sportautó ment neki hátulról egy F2004-es Formula–1-es autónknak, amellyel Michael Schumacher 2004-ben hetedik világbajnoki címét szerezte meg. Az F2004-es a 11-es kanyar előtt lassított, a mögötte érkező 499P vezetője pedig nem tudta elkerülni az ütközést, amitől az F2004-es hátulja megemelkedett, az első szárnya pedig az aszfaltnak ért. A két, összesen 18 millió eurót érő jármű a bukótérben állt meg, a sértetlenül kiszállt vezetők pedig kezet fogtak egymással."
         },
         "tolkien": {
-          "title": "A vörös paripák találkozása a barcelonai porondon",
-          "body": "Így esett, hogy a sebesség napján két nemes és drága Ferrari ütközött össze a katalán földön tartott ünnepségen. Egy 499P jelű szekér hátulról szaladt bele abba a dicső F2004-esbe, amellyel egykor Schumacher győzelmeket aratott. A viadal után mindkét vezető sértetlenül lépett ki a porból, s kezet nyújtottak egymásnak."
+          "title": "A nemes paripák szerencsétlen találkozása a katalóniai mezőn",
+          "body": "A Ferrari dicső évzáró ünnepén, a barcelonai versenypálya porán két roppant értékű, összesen tizennyolc millió eurót számláló jármű ütközött össze egy ügyfeleknek rendelt nyílt meneten. Az F2004-es jelzésű Formula–1-es szárnyas kocsi, melyen egykor Michael Schumacher nyerte meg hetedik diadali aranykorát, a tizenegyedik kanyar előtt megfontoltan lassított. A nyomában robogó 499P Modificata nevezetű vasparipa hajtója azonban már nem bírta megfékezni gépét, és hátulról belerohant az előtte haladóba. Az erőszakos találkozástól az F2004-es tatja a magasba szökkent, míg első szárnya a földet érte, s mindkét drága jármű a bukótér fövenyén állapodott meg."
         },
         "reito": {
-          "title": "A nemzetközi olasz bika esete a csodálatos Schumacher-féle ereklyével, avagy hogyan találkozzunk hátulról, ha tizennyolc millió euró fityeg a tét",
-          "body": "A barcelonai versenypálya ügyféltalálkozóján két ritka, összesen tizennyolc millió eurót érő Ferrari koccant össze, miután a tizenegyedik kanyar előtt lassító F2004-esbe hátulról beletrafált egy 499P Modificata. Az ütéstől a Formula–1-es gép hátulja megemelkedett és az első szárnya az aszfaltnak ütődött, mire mindkét autó a bukótérben állt meg. A két sofőr sértetlenül szállt ki a járművekből, majd úriember módjára kezet fogtak."
+          "title": "Tizennyolc milliós koccanás a barcelonai aszfalton",
+          "body": "A barcelonai versenypálya évzáró rendezvényén két ügyfélnek sikerült összehoznia egy összesen 18 millió euró összegű koccanást a pályameneten. A Schumacher-féle, hétszerező F2004-es a 11-es kanyar előtt méltóztatott lassítani, ám a hátulról érkező 499P Modificata sofőrje ezt már nem tudta sem kikerülni, sem megunni időben. Az ütközés erejétől az F2004-es hátulja kecsesen a magasba emelkedett, az első szárnya pedig alaposan megkóstolta az aszfaltot. Végül mindkét drága gép a bukótérben pihent meg, ahonnan a két sofőr sértetlenül kivergődve még egymás kezét is rázhatta."
         }
       }
     },
