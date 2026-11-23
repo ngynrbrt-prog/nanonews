@@ -679,3 +679,9 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 - Az index.html a kezdőlapon a kiválasztott stílus első két mondatát, legfeljebb 280 karakterben jeleníti meg. A kattintható cikkablak továbbra is a teljes elmentett stílusváltozatot mutatja, és megtartja az Összehasonlítás részt, az archív dátumjelölést, valamint a cikkenkénti forráslinket.
 - A feldolgozó által hasonlónak talált cikkek közös, egymás melletti kártyacsoportban jelennek meg; a csoporton vékony újságvonal és visszafogott címke jelzi az összetartozást. A kártyák a rovatukat is feltüntetik.
 - A cikkablak stílusválasztása továbbra is a főoldali beállítást követi; az összefoglaló és az összehasonlító hírek a kiválasztott hangnemben jelennek meg.
+
+
+### 2026-11-24 — kép nélküli kiemelt blokk teljes szélessége
+
+- Kérés: kép nélküli első cikk vagy üres rovat esetén a kiemelt blokk elválasztó vonala ne legyen rövidebb a többi sávnál.
+- Az index.html-ben a kép nélküli kiemelt cikk konténere most teljes szélességű; csak a címsor kap külön maximális szélességet. Így az alsó újságvonal végigér a rovat szélességén.
