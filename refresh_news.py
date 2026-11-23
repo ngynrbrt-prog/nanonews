@@ -43,16 +43,20 @@ rules={
 
 }
 
-DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai"]
-ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés"]
+DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai","ferencváros","ftc","fradi","puskás akadémia","újpest","dvtk","diósgyőr","honvéd","mtk","vasas","eto fc","győri eto","kecskemét","paksi fc","paks","nyíregyháza","zalaegerszeg","magyar válogatott","mlsz"]
+ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés","sportgazdaság","sportfinanszírozás","átigazolás","átigazolási díj","transzfer","játékoseladás","klubbevétel","bevétel","jegybevétel","szponzor","szponzoráció","közvetítési jog","tv-jog","bérköltség","adósság","tartozás","pénzügyi","stadion","sportlétesítmény"]
 NER_MARKERS=["ner","nemzeti együttműködés rendszere","ner-es","ner-közeli","fidesz","orbán viktor","orbán-kormány","mészáros lőrinc","tiborcz istván","közpénz","közbeszerzés","kormányközeli"]
 SPORT_MARKERS=["bajnokok ligája","uefa champions league","champions league","darts","pdc","arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
 SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","champions-league","f1","nba","nfl","seahawks","cycling","darts"}
 
 def is_domestic_economy(hay,categories):
-    if SPORT_CATEGORIES.intersection(categories) or any(term in hay for term in SPORT_MARKERS):
-        return False
     return any(term in hay for term in DOMESTIC_MARKERS) and any(term in hay for term in ECONOMY_MARKERS)
+
+def is_sport_related(hay,categories):
+    return bool(SPORT_CATEGORIES.intersection(categories)) or any(match_term(term,hay) for term in SPORT_MARKERS)
+
+def is_domestic_sport_economy(hay,categories):
+    return is_sport_related(hay,categories) and is_domestic_economy(hay,categories)
 
 def text(node):
     if node is None:return ""
@@ -440,7 +444,7 @@ for source,urls in feeds.items():
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
                 cats.remove("technology")
-            if not (SPORT_CATEGORIES.intersection(cats) or any(match_term(term,hay) for term in SPORT_MARKERS)) and ("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)):cats.append("belfold")
+            if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
             if not cats:continue
             seen.add(key)
             story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc),"summaryVersion":SUMMARY_VERSION}
