@@ -2,7 +2,7 @@ name: Refresh NANONews
 on:
   workflow_dispatch:
   schedule:
-    # Retry missing rewrites every 5 minutes, offset from the top of the hour to reduce schedule delays.
+    # Retry missing rewrites every 5 minutes; official editions are created only in the local 06:00 and 17:00 hour windows.
     - cron: '2/5 * * * *'
 permissions:
   contents: write
