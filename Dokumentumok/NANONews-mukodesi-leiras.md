@@ -26,7 +26,7 @@ Az adatfeldolgozás ütemezetten vagy kézi indítással történik. A GitHub Ac
 
 ```mermaid
 flowchart TD
-  sources["Telex · HVG · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé!"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
+  sources["Telex · HVG · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé! · 444.hu · Portfolio.hu · Origo.hu"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
   schedule["Időzített vagy kézi indítás"] --> actions
   secret["GitHub Secret: GEMINI_API_KEY"] -->|futás közbeni környezeti változó| worker["refresh_news.py"]
   actions --> worker
@@ -49,11 +49,14 @@ A források és lekérési módok a refresh_news.py fájlban vannak beállítva:
 - Nemzeti Sport tartalék feed — https://www.nemzetisport.hu/static/rss_hirek.xml
 - NBAnews.hu — https://nbanews.hu/feed/
 - Fűzővel kifelé! — https://fuzovelkifele.com/feed/ (WordPress RSS; NFL-cikkek)
+- 444.hu — https://444.hu/feed/
+- Portfolio.hu — https://www.portfolio.hu/rss/all.xml
+- Origo.hu — https://www.origo.hu/publicapi/hu/rss/origo/articles
 
 A nem elérhető RSS-végpont hibáját a workflow naplózza, a többi feed feldolgozása ettől még folytatódik. A cikkcímeket, hivatkozásokat, kivonatokat és képeket az RSS-feedekből dolgozza fel, majd megpróbálja letölteni a nyilvánosan olvasható cikk szövegét. A forrás neve minden cikk mellett megjelenik. A témába sorolás a cikk címe és RSS-kivonata alapján történik.
 ## 4. Rovatok és szűrés
 
-A megjelenő rovatmenü az index.html fájl topics listájában van. A gyűjtő- és témaszabályok a refresh_news.py fájl rules listájában, valamint a Belföldi hírek külön osztályozójában találhatók.
+A megjelenő rovatmenü az index.html fájl topics listájában van. A gyűjtő- és témaszabályok a refresh_news.py fájl rules listájában, valamint a Belföld rovat osztályozójában találhatók.
 
 Jelenlegi rovatok:
 
@@ -68,15 +71,15 @@ Jelenlegi rovatok:
 - NFL
 - Seattle Seahawks
 - Kerékpár
-- Belföldi parlament
+- Darts
+- Belföld
 - Belföldi tőzsde
 - Külföldi tőzsde
-- Belföldi hírek
 - Technológia / Fejlesztések
 
 A Technológia / Fejlesztések rovat a technológiai híreket, szoftvereket és alkalmazásokat, mesterséges intelligenciát, kiberbiztonságot, digitális fejlesztéseket és újításokat gyűjti. A cím- és RSS-kivonat kulcsszavai alapján sorolja be a híreket.
 
-A Belföldi hírek rovat kizárólag olyan híreket jeleníthet meg, amelyek magyarországi vagy magyar vonatkozásúak, gazdasági témát tartalmaznak, és nem sporthírek. A feldolgozó gazdasági kulcsszókat és hazai vonatkozásra utaló kifejezéseket vizsgál; sportrovatba sorolt cikket vagy sportkifejezéseket tartalmazó hírt kizár. A weboldal ugyanezt a szűrést alkalmazza az archív kiadások megjelenítésekor is, ezért a korábbi, tágabb szabály szerint elmentett sporthírek sem kerülnek be a Belföldi hírek rovatba.
+A Belföld rovat a parlamenti témákat, a hazai gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó cikkeket jeleníti meg. A sportkategóriájú hírek kizáródnak.
 
 A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjtési szabályt pedig a refresh_news.py fájlban kell frissíteni. A történeti adatokban elmentett kategóriák miatt a felületi szűrést is felül kell vizsgálni.
 
@@ -89,11 +92,11 @@ A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; há
 ## 6. Hírek feldolgozásának folyamata
 
 1. A GitHub Actions elindítja a refresh.yml workflow-t, és lekéri a repót.
-2. A refresh_news.py beolvassa a források RSS-feedjeit, kiszűri az ismétlődő hivatkozásokat, majd a cím és a kivonat alapján témákat rendel a hírekhez.
+2. A refresh_news.py beolvassa a források RSS-feedjeit, kiszűri a korábban kiadott hivatkozásokat, majd a cím és kivonat alapján témákat rendel a hírekhez. A friss cikkeket egymással és az archív hivatalos lapszámok cikkeivel is összeveti.
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
 5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindhárom összefoglaló célhossza 3–4 mondat, legfeljebb 1400 karakter. A prompt külön kéri a cikk lényegi részleteinek, szereplőinek, következményeinek és fontos számainak megtartását. Tolkien hangja emelkedett, ünnepélyes, krónikás; Rejtőé csattanósabb, száraz humorú, földközeli. A tényeket egyik stílus sem változtathatja meg. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. A program csak a legfrissebb hivatalos kiadást ellenőrzi. Az új, short-v2.1-3-4 verzióra még át nem állított cikkeket egyesével dolgozza fel; egy sikeres Gemini-kérés mindhárom változatot frissíti, majd az aktuális kiadást és az archív példányát is menti. Régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
+6. Az ötpereces pótlás csak a legfrissebb hivatalos kiadás hiányzó változatait dolgozza fel, és a régebbi archív lapok szövegét nem írja át. Új kiadás készítésekor a rendszer a hivatalos archív lapok cikkei között is hasonló híreket keres; az archív találatokat a friss cikkhez kapcsolja és a dátummal jelöli. A friss kiadásba a cikkcsoportok kerülnek, a csoporton belüli kapcsolódó cikkek külön sorból nyithatók meg. Új cikk hiányában nem készül új lapszám. Legfeljebb 80 főhír kerül egy kiadásba.
 7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres ötpereces ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
@@ -115,10 +118,7 @@ flowchart TD
   done -->|Nem| unchanged["Kiadás változatlan; következő 5 perces kör újrapróbálja"]
   done -->|Igen| sync["Aktuális kiadás és annak archív másolata frissül"]
   newer -->|Igen| topics["Rovatok hozzárendelése a cím és kivonat alapján"]
-  topics --> domestic{"Belföldi hírek rovat?"}
-  domestic -->|Igen| econ["Hazai vonatkozás + gazdasági feltétel; sport kizárása"]
-  domestic -->|Nem| article["Cikkoldal nyilvános szövegének lekérése"]
-  econ --> article
+  topics --> article["Cikkoldal nyilvános szövegének lekérése"]
   article --> body{"Elérhető a cikk szövege?"}
   body -->|Igen| full["Cikk bekezdéseinek feldolgozása, legfeljebb 18 000 karakter"]
   body -->|Nem| excerpt["RSS-kivonat használata"]
@@ -126,7 +126,24 @@ flowchart TD
   excerpt --> prepare
 ```
 
-A feedhiba nem állítja le a többi forrás feldolgozását. A program az összes korábban kiadott cikk hivatkozását kihagyja, és csak a legutóbbi hivatalos kiadás után publikált, rovatba illő híreket dolgozza fel. Ha nincs ilyen új cikk, a legfrissebb lapot és az archívumot nem írja át.
+A feedhiba nem állítja le a többi forrás feldolgozását. A program az összes korábban kiadott cikk URL-jét kizárja az új főhírek közül, az archív cikkeket pedig csak hasonlósági összevetésre olvassa be. A régi lapot nem módosítja.
+
+#### Hasonló hírek, archív összekapcsolással
+
+Az új hivatalos kiadásba kerülő cikkeket a feldolgozó a 444.hu, a Portfolio.hu, az Origo.hu és a többi forrás friss cikkeivel hasonlósági alapon összeveti. A cím- és kivonatszavak alapján talált, eltérő forrásból származó hírek egy főhírhez kapcsolódnak; az archívum feldolgozása minden korábbi hivatalos lapszám cikkeire kiterjed. Az archív találat sorában a forrás neve mellett az „arch.” és az eredeti kiadás dátuma látszik.
+
+A hasonló hír sorára kattintva az olvasó a NANONews oldalon belüli cikkablakban látja a címet, a hosszabb összefoglalót és az Eredeti, Tolkien vagy Rejtő Jenő változatot. A cikkablak alján található Forrás gomb visz az eredeti cikkoldalra. Az archív lapok nem módosulnak, és egy régi cikk nem kerül vissza új kiadás főhírlistájára.
+
+```mermaid
+flowchart TD
+  fresh["Új, rovatba illő cikkek"] --> current["Az aktuális kiadás hasonló cikkei"]
+  fresh --> archive["Korábbi hivatalos lapok cikkei"]
+  current --> cluster["Hasonló hírek egy csoportba rendezése"]
+  archive -->|Találat + régi kiadás dátuma| cluster
+  cluster --> page["Egy főhír és kapcsolódó forrássorok"]
+  page --> detail["Belső cikkablak: három stílus és forrásgomb"]
+```
+
 
 #### Eredeti összefoglaló és Tolkien-változat
 
@@ -588,3 +605,12 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 - A külön „Belföldi parlament” és „Belföldi hírek” menüpontok helyett egyetlen „Belföld” rovat szerepel.
 - A Belföld a parlamenti témákat, a magyar gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó híreket gyűjti. A sportkategóriába sorolt híreket kizárja.
 - A rovatok megjelenítése és az új kategorizálási szabályok a következő hivatalos kiadástól, 2026. november 24-én 06:00-tól érvényesek. A korábbi lapszámokat nem generáljuk újra, és az aktuális kiadás adatfájlját nem módosítjuk.
+
+
+### 2026-11-23 — három új hírforrás és hasonló cikkek összekapcsolása
+
+- A hírgyűjtés forrásai közé bekerült a 444.hu, a Portfolio.hu és az Origo.hu RSS-e.
+- A kiadás készítésekor a feldolgozó cím- és kivonatszövegből hasonlóságot számol, és a friss forrásokból származó, egymáshoz köthető cikkeket egy főhír alá rendezi.
+- A hasonlóságkeresés az archív hivatalos lapszámok cikkeit is átnézi. A régi cikk a kapcsolódó sorban az „arch.” jelöléssel és a kiadás dátumával jelenik meg; a korábbi lapszám JSON-ja változatlan marad.
+- A kapcsolódó sor a cikkoldali részletes nézetet nyitja meg, ahol az Eredeti, Tolkien és Rejtő Jenő változat választható. A Forrás gomb az adott cikk eredeti oldalára mutat.
+- Az új feedek, csoportosítás és archívum-összevetés a következő hivatalos kiadás gyűjtési folyamatában lép működésbe; meglévő lapot nem generál újra.
