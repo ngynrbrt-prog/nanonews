@@ -13,20 +13,20 @@
         "parliament"
       ],
       "image": "https://assets.telex.hu/images/20261123/1795447999-temp-epqpcta20j7v6aboocn_cimlap-normal.jpg",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2-3-4",
       "contentBasis": "article",
       "sourceHash": "6c6b6e9ed7d0eb7f17c9863c07b2f416628bc71d738537e5b903e876c0fdf067",
       "variants": {
         "original": {
-          "body": "A Political Capital elemzőjével, Hunyadi Bulcsúval beszélgettek a magyar politika aktuális témáiról. Szó esett Magyar Péter kampánybeli és jelenlegi megnyilvánulásairól, a választói fogadtatásról, valamint a Seszták-ügyről, Bús Balázsról, az elszámoltatásról és Orbán Viktor külföldi útjairól is."
+          "body": "A Telex legfrissebb adásának vendége Hunyadi Bulcsú, a Political Capital elemzője volt, akivel több aktuális téma mellett Orbán Viktor külföldi útjairól is beszélgettek. A megvitatott témák között szerepelt még a Fidesz esetleges stratégiájának kérdése, a Seszták-ügy és Bús Balázs helyzete is. Szó esett továbbá egy kilyukadt gumiról, valamint a közbeszéd színvonalának alakulásáról is. Az interjú során ezeket a különböző belpolitikai és közéleti ügyeket vették sorra."
         },
         "tolkien": {
-          "title": "Krónika a politikai küzdőtér dolgairól",
-          "body": "Íme, hír adatik a Political Capital bölcsével történt tanácskozásról, melyben Magyar úr megnyilvánulásait és a nép fogadtatását vizsgálták. Szó esék továbbá a Sesztákot érintő ügyekről, Bús Balázsról, az elszámoltatás nehéz ösvényeiről és Orbán vezér távoli utazásairól is."
+          "title": "Krónika a Political Capital kövétéről és a hatalom útjairól",
+          "body": "Íme a nap, melyen Hunyadi Bulcsú, a Political Capital bölcs elemzője a Telex krónikásai elé járult, hogy megvitassák a birodalom sorsát. Szó esett a Fidesz rejtőzködő szándékairól, Orbán Viktor messze földre vezető útjairól, valamint a Sesztákot és Bús Balázst érintő ügyekről. A tanácskozás során megemlékeztek egy baljóslatú kilyukadt gumiról is, miközben a közbeszéd sötétbe süllyedő színvonalát elemezték. Így őrződik meg e nehéz idők emlékezete a hallgatóság előtt."
         },
         "reito": {
-          "title": "Jelentés a frontról: kilyukadt gumik, külföldi portyák és a közbeszéd bizonytalan állapota",
-          "body": "Hunyadi Bulcsúval, a Political Capital éber elemzőjével ezúttal a Fidesz rejtélyes stratégiájáról, a Seszták-ügy részleteiről, Bús Balázsról, valamint Orbán Viktor külföldi utazásairól értekeztek, nem feledkezve meg a kilyukadt gumikról és a közbeszéd színvonaláról sem."
+          "title": "Stratégia helyett defekt: így zajlott a Telex legfrissebb szeánsza",
+          "body": "Hunyadi Bulcsú, a Political Capital elemzője tiszteletét tette a Telexnél, hogy megvilágítsa a magyar rögvalóság legfrissebb rejtélyeit. Terítékre került Orbán Viktor határtalan utazgatása, a Fidesz rejtélyesnek tűnő stratégiája, valamint a Seszták- és Bús Balázs-ügyek kimeríthetetlen tárháza. Még a közbeszéd szomorú színvonala és egy jól időzített kilyukadt gumi is belefért a történetbe, bizonyítva, hogy a kalandok sosem kerülik el a stúdiót. A végén persze mindenki okosabb lett, vagy legalábbis hallott egy defektkrónikát."
         }
       }
     },
