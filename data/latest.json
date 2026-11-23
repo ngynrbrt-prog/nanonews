@@ -23,6 +23,10 @@
         "tolkien": {
           "title": "Krónika a politikai küzdőtér dolgairól",
           "body": "Íme, hír adatik a Political Capital bölcsével történt tanácskozásról, melyben Magyar úr megnyilvánulásait és a nép fogadtatását vizsgálták. Szó esék továbbá a Sesztákot érintő ügyekről, Bús Balázsról, az elszámoltatás nehéz ösvényeiről és Orbán vezér távoli utazásairól is."
+        },
+        "reito": {
+          "title": "Jelentés a frontról: kilyukadt gumik, külföldi portyák és a közbeszéd bizonytalan állapota",
+          "body": "Hunyadi Bulcsúval, a Political Capital éber elemzőjével ezúttal a Fidesz rejtélyes stratégiájáról, a Seszták-ügy részleteiről, Bús Balázsról, valamint Orbán Viktor külföldi utazásairól értekeztek, nem feledkezve meg a kilyukadt gumikról és a közbeszéd színvonaláról sem."
         }
       }
     },
@@ -41,7 +45,11 @@
       "contentBasis": "article",
       "sourceHash": "548c79fb5ca09f96c4eed248f38d7afd10d938b56cd37d1660cba1904399ce7f",
       "variants": {
-        "tolkien": {}
+        "tolkien": {},
+        "reito": {
+          "title": "A hálás utódlás nemes művészete, avagy hogyan üssünk ki egy Jaguarst harmadik számú legénységgel",
+          "body": "A Baltimore-ból menesztett John Harbaugh a New York Giants élén csodát tesz, miközben a magára hagyott baltimore-i gárda sorozatban a hatodik vereségét könyveli el. A New York-i alakulat tartalék irányítóval és sérült kulcsemberekkel gyűrte le a Super Bowl-favorit Jacksonville Jaguarst, magabiztosan vezetve a csoportját. A sikerekhez egy pazar védelmi rendszer is kell, amely a riválisok nagy bánatára pontokban és yardokban is a liga élvonalában poroszkál."
+        }
       }
     },
     {
@@ -65,6 +73,10 @@
         "tolkien": {
           "title": "A tizenegyedik nap krónikája a messzi csatamezőkről",
           "body": "Íme, a tizenegyedik nap viharai: a negyvenkilencesek hadát még a birodalom legkiválóbb védelme sem bíró megállítani. New York mezőin elbukott a Jaguars, a Steelers serege gyalázatos vereséget szenvedett, miközben a Chiefs zászlaja továbbra is magasra törve szárnyal."
+        },
+        "reito": {
+          "title": "A 49ers ellen még a liga legjobb védelme is tehetetlen volt, míg New Yorkban a Jaguars botlott, a Steelers kínos pofonba szaladt, a Chiefs pedig zavartalanul szárnyal.",
+          "body": "A 49ers támadóit még a liga legjobb védelme sem bírta megállítani, eközben New Yorkban elesett a Jaguars, a Steelers pedig kínos vereséget szenvedett. A Chiefs ezzel szemben töretlenül szárnyal tovább, a részleteket pedig a Post Snap műsorában veszik górcső alá."
         }
       }
     },
@@ -85,6 +97,10 @@
         "tolkien": {
           "title": "Ígyen szól a Krónika az almás birodalom legújabb portékájáról és a jövő évi seregletünkről",
           "body": "Az Apple nevű birodalom március hóban mutatá be legolcsóbb írnokszerszámát, a MacBook Neót, melynek új nemzetsége Mark Gurman tudósító szerint 2027 márciusában – vagy esetleg februárban, az iOS és macOS 27.4 eljövetelével – láthat napvilágot más portékák társaságában. E mesterember jelentése szerint a jövőbeli eszköz csupán kisebb ráncfelvarrásokón esik át, miközben a birodalom egyik régi támogatási felülete már napokon belül végleg bezárja kapuit a vándorok előtt."
+        },
+        "reito": {
+          "title": "A legolcsóbb alma esete a jövővel, avagy mikor érkezik a következő portékaszállítmány",
+          "body": "Az Apple márciusban piacra dobta eddigi legolcsóbb laptopját, a MacBook Neót, ám a pletykák szerint máris készül a folytatás. Mark Gurman jelentése alapján a 2027 márciusára – vagy esetleg februárra – várható új generációt más friss eszközök társaságában mutatják be, miközben az egyik támogatási felület végleg bezárja kapuit."
         }
       }
     },
@@ -108,6 +124,10 @@
         "tolkien": {
           "title": "Út a megújhodás felé: új ösvény nyílik a harcos előtt",
           "body": "Ideje érkezett, hogy Gabe Vincent, a kosárlabda viadalainak harmincéves vándora, új otthonra leljen. Miután Los Angeles falai között nem lelte korábbi dicsőségét, a Sacramento serege magához szólítja őt. Így tér vissza a bajnokság porondjára, hogy friss feladatok között próbálja megérdemelt szerencséjét."
+        },
+        "reito": {
+          "title": "A harmincéves hátvéd, aki harminchárom millió dollár után most Sacramento felé veszi az irányt",
+          "body": "Gabe Vincent újabb lehetőséget kap az NBA-ben, miután a Sacramento Kings véglegesíti a szerződését. A játékoskorábban a Miami Heat döntőbe jutásában is fontos szerepet játszott, Los Angelesben azonban nem váltotta be a hozzá fűzött reményeket, így most egy egészen más feladattal térhet vissza a ligába."
         }
       }
     },
@@ -128,6 +148,10 @@
         "tolkien": {
           "title": "A Tisza népének sürgetése a tanácskozások szózaturól",
           "body": "A Tisza Párt új indítványt terjesztett elő a múlt héten, amely megszüntetné a magyar európai parlamenti képviselők eddigi, huszonkét esztendős hagyományon alapuló felszólalási jogait. A változtatás okairól a javaslat egyik beterjesztőjét, Hantosi Istvánt kérdezték a krónikások."
+        },
+        "reito": {
+          "title": "A huszonkét éves parlamenti hagyomány esete a túl jó felszólalással és a tiszás módosítóval",
+          "body": "A Tisza Párt által benyújtott törvényjavaslat megszüntetné a huszonkét éve fennálló hagyományt, amely szerint a magyar EP-képviselők felszólalhatnak az uniós tárgyú törvényjavaslatok vitájában és részt vehetnek a bizottsági üléseken. Deutsch Tamás fideszes képviselő szerint a lépés oka, hogy túl jó volt a felszólalásuk és Magyar Péter ettől ideges lett, míg a tiszás Hantosi István a folyosón úgy nyilatkozott, hogy a magyar gyakorlat tág és kiterjesztő, a plenáris és bizottsági üléseken pedig meghívott szakértőként továbbra is részt vehetnek majd az EP-képviselők."
         }
       }
     },
@@ -151,6 +175,10 @@
         "tolkien": {
           "title": "A hajlítható üveg és a külső képernyő új titkai",
           "body": "Íme, hamarosan új képességgel gyarapodhat az almás birodalom első hajlítható okostelefonja, az iPhone Duo. Egy közelgő szoftverfrissítés révén a készülék külső zárképernyőjének jobb szélére két tetszőleges widgetet illeszthetnek majd a tulajdonosok."
+        },
+        "reito": {
+          "title": "A hajlékony alma esete a külső képernyővel, ami mégis bírni fogja a digitális terhet",
+          "body": "Az Apple első, hajlítható kijelzős okostelefonja, az iPhone Duo hamarosan új képességgel bővülhet egy szoftverfrissítés révén. A tulajdonosok két tetszőleges widgetet pakolhatnak majd a mobil külső kijelzőjén a zárképernyő jobb oldalára. A pdfu nevű X-felhasználó bejegyzése és videója szerint mindezt már meg is mutatták a nagyközönségnek."
         }
       }
     },
@@ -174,6 +202,10 @@
         "tolkien": {
           "title": "A Nagy Vezér Visszatérése és a Piacaik Megújulása",
           "body": "Íme, mélyen a kereskedők csarnokaiban nagy örömmel fogadták, hogy Jensen Huang visszatért az Nvidia élére. E hír hallatán a chipgyártó részvényei hirtelen harminchárom százalékkal erősödtek a hétfő hajnalán. A vállalat közlése szerint a vezérigazgató visszatértében nem rejtőzik semmiféle nemzetbiztonsági veszély, mire a birodalom főbb tőzsdei mutatói is azonnal magasabbra szöktek."
+        },
+        "reito": {
+          "title": "A nap, amikor a tőzsde is észbe kapott, mert Huang úr visszatért a kártyaasztalhoz",
+          "body": "Jensen Huang visszakerült az Nvidia élére, aminek hatására a chipgyártó részvényei 33 százalékot erősödtek a hétfői kereskedés első perceiben az október végi, több mint 40 százalékos zuhanás után. A hírre gyakorlatilag mindegyik meghatározó tőzsdei index nyitott magasabban a pénteki záróárfolyamnál, miután az amerikai vállalat nem lát nemzetbiztonsági kockázatot a kémbotrányba keveredett vezető visszatérésében."
         }
       }
     },
@@ -194,6 +226,10 @@
         "tolkien": {
           "title": "A Kosárvetők Nagytanácsának határozata az északi nemzetségek távoltartásáról",
           "body": "Így esett a napokban, hogy a Földközi-tájak bajnokainak hivatalos hírnökei szerint az orosz és a fehérorosz nemzetségek csapatai továbbra sem léphetnek porondra a viadalokon, miközben az egyéni tisztségviselőket és mestereket érintő korlátozások sorsáról korábban másként határoztak. A jövő esztendeiben esedékes, Los Angeles mezején tartandó ünnepi játékokon való részvétel ügyét pedig a Tanács majd a téli napforduló havában veszi újra szemügyre."
+        },
+        "reito": {
+          "title": "A kosárlabda nemzetközi bürokráciája továbbra sem kér a keleti szélből",
+          "body": "A TASZSZ jelentése szerint a FIBA sajtószolgálatára hivatkozva változatlanul hagyják az orosz és a fehérorosz válogatottak, valamint klubcsapatok eltiltását a nemzetközi tornáktól. Miközben a játékosokra, edzőkre, játékvezetőkre és tisztviselőkre vonatkozó korlátozásokat korábban feloldották mindkét szakágban, a 3x3-as orosz válogatottak – ideértve a Los Angeles-i olimpiát is – sorsáról csak decemberben dönt a FIBA Tanácsa."
         }
       }
     },
@@ -217,6 +253,10 @@
         "tolkien": {
           "title": "A vezér visszatérése a hatalom trónjára",
           "body": "Íme, a hír járja, hogy az Nvidia igazgatótanácsa ismét Jensen Huang kezébe adta a vezérigazgatói gyeplőt, mégpedig azonnali hatállyal. A bölcsek tanácsa áldását adta a döntésre, és az ország főembereinek meghallgatása után úgy ítélték meg, hogy visszatérése nem fenyegeti a birodalom biztonságát. E hír hallatán a cég részvényei hirtelen ébredésként, több mint harmincegy százalékkal szöktek magasabbra a piacon."
+        },
+        "reito": {
+          "title": "A vezérigazgató, aki éppen csak visszatért a lócára, máris osztalékot hozott a konyhára",
+          "body": "Az Nvidia igazgatótanácsa hétfőn hirtelen felindulásból, azonnali hatállyal visszahelyezte Jensen Huangot a vezérigazgatói székbe, miután amerikai kormányzati körökben megbizonyosodtak arról, hogy a lépés nem forgatja fel a nemzetbiztonságot. A konszolidáltnak semmiképpen sem nevezhető örömhírre a cég részvényei huszáros rohammal, mintegy harmincegy százalékkal szöktek égbe a tőzsdenyitás előtt. Az eset pikantériája, hogy a milliárdos cégvezető eközben a nagyon is emberi érzéseivel küzdött, míg egy meg nem nevezett hölgy ugyanbben az időszakban a kínai rendvédelem legfőbb tisztjeivel is összefutott."
         }
       }
     },
@@ -240,7 +280,8 @@
         "tolkien": {
           "title": "A Google birodalmának változásai és a Nest sorsa",
           "body": "Íme, változások ideje érkezett el a Google birodalmában, ugyanis a Nest alkalmazás végleg leáldozik 2027-ben, helyét pedig a Google Home veszi át. E napon a Nest eszközök önmaguktól vándorolnak át az új helyre, míg a régi fiókok emlékeit márciusban törlik a krónikákból. Emellett a Google Asszisztenst is végleg elvezetik e földről, így az többé egyik okosotthon-eszközön sem szolgál tovább."
-        }
+        },
+        "reito": {}
       }
     },
     {
@@ -263,7 +304,8 @@
         "tolkien": {
           "title": "A vörös paripák találkozása a barcelonai porondon",
           "body": "Így esett, hogy a sebesség napján két nemes és drága Ferrari ütközött össze a katalán földön tartott ünnepségen. Egy 499P jelű szekér hátulról szaladt bele abba a dicső F2004-esbe, amellyel egykor Schumacher győzelmeket aratott. A viadal után mindkét vezető sértetlenül lépett ki a porból, s kezet nyújtottak egymásnak."
-        }
+        },
+        "reito": {}
       }
     },
     {
@@ -286,6 +328,10 @@
         "tolkien": {
           "title": "A dicső szabadrúgások krónikája",
           "body": "Íme a napok, mikor Szoboszlai csodás lövésekkel talált hálót az angol birodalom viadalain. Döntsetek hát, melyik volt a legszebb e jeles gólok közül, legyen az az Arsenal, Bournemouth, Manchester City, Tottenham vagy a Manchester United elleni ütközet!"
+        },
+        "reito": {
+          "title": "Őfelsége, a labda és a soron következő szavazás csendes vihara",
+          "body": "Nagy küzdelem bontakozik ki a zöld gyepen, miközben a nép eldöntheti, hogy a Bournemouth, az Arsenal, a Manchester City, a Tottenham Hotspur vagy a Manchester United ellen lőtt találatok közül melyik érdemli ki a legszebb szabadrúgásnak járó dicsőséget. A nemes vetélkedés részleteiről a videók utáni szavazáson hull le a lepel. Túl sok itt a kérdés, de a labda az úr."
         }
       }
     }
