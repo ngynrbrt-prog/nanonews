@@ -535,7 +535,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Kérés: a késve maradt 17:00-s kiadást kézzel indítsam el.
 - A refresh.yml kézi indításához Tesztfutás vagy hivatalos napi kiadás választó került. A teszt maradt az alapértelmezett mód; az official választás a tesztjelző nélküli hivatalos lapszámot készíti.
 - A refresh_news.py hivatalos kézi indításkor a még ki nem adott aktuális 06:00-s vagy 17:00-s idősáv sorszámát használja, és az új lapszám generálása alatt nem dolgozza újra a korábbi lap Tolkien-kivonatait. Ha nincs új, megfelelő cikk, akkor is létrehozza az üres hivatalos lapszámot.
-- Állapot: a 17:00-s official futást kézzel kértem. A kiadás mentése és közzététele a futás sikeres befejezésétől függ.
+- Állapot: a kézi official futás (#14) sikeresen lefutott és main ágra mentette az új kiadást. Az élő oldalon a /2-es szám 17:38-as frissítéssel megjelent, 13 cikkel; a futás után négy cikk Tolkien-változata még hiányzott. Ezeket az ötpercenkénti ütemezett futás a legfrissebb kiadásban tovább próbálja, és siker esetén a data/latest.json, az archív lap, majd a GitHub Pages is frissül.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
