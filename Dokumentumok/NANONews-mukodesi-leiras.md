@@ -416,5 +416,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A főcikk, a cikkkártyák és a megnyitott cikk szövegtörzse sorkizárt; a címek balra zártak maradnak.
 - Állapot: a módosítások a main ágra kerültek; a GitHub Pages publikálás (#138) sikeres. Az élő asztali oldalon ellenőriztem a rögzített alsó sávot, a szekciócímmel egyező archív tipográfiát és a sorkizárt cikket.
   
+### 2026-11-23 — mobil sáv, görgetésre reagáló stílusválasztó és hiányzó változatok jelzése
+- Kérés: mobilon vékonyabb legyen az Írás stílusa sáv; lefelé görgetve lehessen továbbmenni, felfelé görgetéskor a sáv jelenjen meg. Számítógépen ne legyen oldalszegélye. A még hiányos cikkek címén piros pont jelezze a félórás pótlásra várást; sikeres pótlás után a pont tűnjön el.
+- Módosítva az index.html: a stílusválasztó görgetési irányt követ. Lefelé görgetéskor elrejtőzik, felfelé görgetéskor és az oldal tetején ismét megjelenik. Mobilon a cím és a két stílusválasztó gomb egy alacsonyabb sorba rendeződik, a magyarázó szöveg elrejtve marad; az iPhone alsó biztonsági sávja továbbra is figyelembe van véve. Asztali nézetben nincs oldalsó keret.
+- Piros pont jelenik meg a cikkcímben, ha hiányzik az Eredeti összefoglaló vagy a Tolkien-cím/szöveg. A NANONews felülete hárompercenként friss adatot kér le; amikor a háttérfolyamat sikeresen pótolta a változatokat, a jelölés az új adatok beolvasásakor eltűnik.
+- A GitHub Actions ütemezése félóránként, minden óra 00 és 30 percénél fut. Minden ütemezett kör a legfrissebb rendes kiadás hiányzó összefoglalóit próbálja elkészíteni; teljesen elkészült cikkhez nem küld új generálási kérést.
+- Állapot: kód és dokumentáció main ágra került; GitHub Pages publikálás és mobil/asztali élőellenőrzés folyamatban.
+  
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
