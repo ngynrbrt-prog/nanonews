@@ -200,12 +200,12 @@ def fetch_article(url):
 def gemini_rewrites(story,article_text,api_key):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
-    prompt=f"""Feladat: készíts egy magyar nyelvű, Tolkien hangulatát idéző NANONews-változatot ugyanarról a hírről.
+    prompt=f"""Feladat: készíts két magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Írj új, önálló címet és részletes, tömör összefoglalót. Az összefoglaló 3–5 mondatban fedje le a hír legfontosabb tényeit, szereplőit, eredményét és következményét, ha ezek szerepelnek a forrásban. Ne másold át mondatról mondatra a cikket, és ne írj az eredetinél hosszabb szöveget.
-- Tolkien-hangulat: epikus, régies-krónikás hangulat, közérthető megfogalmazással. Ne adj hozzá fantasy-elemet vagy új tényt.
-A válasz kizárólag JSON legyen ebben az alakban:
-{{"tolkien":{{"title":"...","body":"..."}}}}
+Az "original" mezőbe írj semleges, tárgyilagos, közérthető, részletes összefoglalót 5–7 mondatban, lehetőleg 700–1500 karakterben. Fedje le a történet előzményeit, fontos szereplőit, tényeit, eredményét és következményét, amennyiben ezek szerepelnek a forrásban. Ne másold át mondatról mondatra a cikket, és ne készíts teljes cikket.
+A "tolkien" mezőbe írj új, önálló címet és részletes, tömör összefoglalót 3–5 mondatban. A cím és a szöveg Tolkien hangulatát idézze, epikus, régies-krónikás hangon, de maradjon közérthető. Ne adj hozzá fantasy-elemet vagy új tényt.
+A két összefoglaló tartalma legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:
+{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
 Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
@@ -226,14 +226,18 @@ Alapanyag ({basis}):
     raw=re.sub(r"^\s*```(?:json)?|\s*```\s*$","",raw.strip(),flags=re.I)
     parsed=json.loads(raw)
     variants={}
-    for mode in ("tolkien",):
-        value=parsed.get(mode,{})
-        title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
-        body=re.sub(r"\s+"," ",str(value.get("body",""))).strip()
-        if not title or not body:raise ValueError(f"Missing {mode} rewrite")
-        variants[mode]={"title":title[:180],"body":body[:2400]}
+    original=re.sub(r"\\s+"," ",str(parsed.get("original",{}).get("body",""))).strip()
+    if not original:
+        source=re.sub(r"<[^>]*>"," ",source_text)
+        sentences=re.split(r"(?<=[.!?])\\s+",re.sub(r"\\s+"," ",source).strip())
+        original=" ".join(sentences[:7]).strip()
+    if original:variants["original"]={"body":original[:3000]}
+    value=parsed.get("tolkien",{})
+    title=re.sub(r"\\s+"," ",str(value.get("title",""))).strip()
+    body=re.sub(r"\\s+"," ",str(value.get("body",""))).strip()
+    if not title or not body:raise ValueError("Missing Tolkien rewrite")
+    variants["tolkien"]={"title":title[:180],"body":body[:2400]}
     return variants
-
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
 try:
@@ -276,7 +280,7 @@ for source,urls in feeds.items():
             story["contentBasis"]="article" if article_text else "rss"
             story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
             cached=previous.get(link,{})
-            if cached.get("sourceHash")==story["sourceHash"] and cached.get("variants"):
+            if cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body"):
                 story["variants"]=cached["variants"]
             elif api_key:
                 try:
