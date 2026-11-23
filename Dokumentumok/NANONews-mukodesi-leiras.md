@@ -188,9 +188,9 @@ A GitHub Actions futás sikeressége és a Pages közzététele külön állapot
 A felület két, egymástól elkülönített beállításcsoportot kínál:
 
 - **Írás stílusa:** Eredeti vagy Tolkien tollából. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
-- **Éjszakai mód:** önálló be/ki kapcsoló a fejlécben, a „Budapest · személyes digitális napilap” sor alatt, középre rendezve, a NANONews cím fölött. Bekapcsolva az egész oldal sötét színtémára vált; az állapot kikapcsolásig megmarad.
+- **Éjszakai mód:** önálló be/ki kapcsoló a fejléc közepén, a napi dátummal egy sorban, közvetlenül a NANONews cím fölött. Bekapcsolva az egész oldal sötét színtémára vált; az állapot kikapcsolásig és oldalfrissítés után is megmarad.
 
-Az Írás stílusa választó külön részen jelenik meg a rovatmenü alatt. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
+Az Írás stílusa választó a rovatmenü alatt, a cikkrész teljes szélességében jelenik meg. A fejléc dátuma után /1 jelöli a reggeli, /2 a délutáni, /3 az esti kiadást. A sorszámot a kiadás updatedAt időpontjából, Europe/Budapest szerint számolja; archív lap megnyitásakor annak dátuma és sorszáma jelenik meg. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
 
 A Gemini-változat mezői a kiadás JSON-jában a variants.tolkien.title és variants.tolkien.body alatt vannak. Ha egy cikkhez nem sikerül generálni, a felület az eredeti címet és kivonatot jeleníti meg. Így egy forráshiba nem akadályozza a teljes kiadás megjelenítését.
 
@@ -313,6 +313,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: az éjszakai kapcsoló a fejlécben van; kikerült az írásstílus választójából. A sötét mód az egész oldalt érinti, és a külön nanonews-theme helyi beállításból töltődik vissza, amíg a felhasználó ki nem kapcsolja. Az egyelemű Írás stílusa panel teljes szélességben jelenik meg; az aktív éjszakai kapcsoló kontrasztját külön beállítottuk.
 - Az Eredeti/Tolkien választás saját nanonews-style beállításon marad, így mindkét írásstílus működik bekapcsolt éjszakai mód mellett is.
 - A leírás és a kódbeli felületi elrendezés frissítve. A GitHub Pages friss kiadása sikeresen lefutott; az élő oldalon látható, hogy az éjszakai kapcsoló a fejlécben, a Budapest-sor alatt és a lapcím fölött van. Bekapcsolva az oldal sötét módba vált, újratöltés után is úgy marad, az Írás stílusa pedig külön választóként működik.
+
+### 2026-11-23 — fejléc dátuma, lapszám és teljes szélességű írásstílus
+- Kérés: az Írás stílusa panel nyúljon a teljes szélességre; a dátum és az éjszakai kapcsoló egy középre rendezett fejlécsorban, közvetlenül a NANONews cím fölött jelenjen meg; a dátum után legyen kiadási sorszám.
+- Módosítva az index.html: a dátumsor és az éjszakai kapcsoló egy közös, középre rendezett fejlécsorba került. A sötét mód továbbra is megjegyzi az állapotát, az írásstílus-választó külön marad.
+- A dátum a betöltött kiadás updatedAt értékéből származik. Europe/Budapest helyi órája alapján a fejléc /1-et mutat 06:00-s reggeli kiadásnál, /2-t 14:00-s délutáni kiadásnál, /3-at 20:00-s esti kiadásnál. Archív lap megnyitásakor annak dátuma és lapszáma jelenik meg.
+- Az Írás stílusa panel teljes szélességre nyúlik; mobilon is a rendelkezésre álló szélességet tölti ki.
+- Állapot: a forrás és a dokumentáció a main ágra került; a Pages frissítése után az élő oldalon ellenőrizendő.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
