@@ -502,5 +502,10 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva a refresh_news.py: az archív index újonnan létrehozott tételeinél a lapszámot is eltárolja. Régebbi archív fájloknál a felület a Europe/Budapest kiadási időből következtet a lapszámra.
 - Ellenőrzés az élő oldalon: a dátum melletti lista az aznapi elérhető lapokat lapszám és idő szerint mutatja; a reggeli /1 és az aktuális /2 külön választható. A már archivált tesztlapok „Teszt” megjelölést kapnak.
 
+### 2026-11-23 — mobil lapszámválasztó sorrendje
+- Kérés: mobilon az aznapi lapszámválasztó közvetlenül a dátum után jelenjen meg; asztali elrendezés változatlan maradjon.
+- Módosítva az index.html: a mobil fejléc dátum- és kiadásválasztó sora nem törik új sorba; a dátum jelenik meg előbb, utána a kompakt /1, /2 választó. Keskeny képernyőn kisebb betű- és mezőméretet kap.
+- Állapot: kód és dokumentáció a main ágra került; Pages-publikálás után ellenőrizendő.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
