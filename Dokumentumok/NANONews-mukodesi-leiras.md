@@ -449,5 +449,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Ellenőrzés az élő asztali oldalon: felfelé görgetve a sáv `position: fixed`, az alsó éle a viewport alsó szélével egyezik, az Archív lapok statikus pozícióban maradnak, az oldal szélessége nem csúszik ki. Az alsó szegély 0 px. Mobilra külön viewport-szimuláció nem állt rendelkezésre; a mobil media query ugyanazt a transzformációmentes rögzítést használja, keskeny képernyőhöz igazított vízszintes pozícióval.
 - Állapot: a kód a main ágra került és az élő GitHub Pages oldalon ellenőriztem.
 
+### 2026-11-23 — rögzített írásstílus-sáv és alsó fényhatás végleges javítása
+- Visszajelzés: az előző javítás után a sáv nem rögzült megbízhatóan; az alsó vonal helyén fény-/árnyékhatás maradt.
+- Módosítva az index.html: a lefelé görgetéskor a sáv a helyén marad, felfelé görgetéskor a JavaScript a sávot a body közvetlen gyermekévé helyezi, és `position: fixed; bottom: 0` szabály rögzíti. Visszagörgetéskor a sáv visszakerül a fenntartott helyére, közvetlenül az Archív lapok elé.
+- A rögzítéskor használt `transform`-alapú eltolás eltávolítva a szülőelemről; a böngésző fixed pozícióját így nem befolyásolja köztes konténer. A sáv box-shadow-ját teljesen eltávolítottam, az alsó szegély továbbra is 0 px.
+- Élő oldali ellenőrzés: külön lefelé és felfelé görgetés után a sáv felfelé irányban `position: fixed` állapotba került közvetlenül a viewport alján; a DOM-szülője a body lett, az Archív lapok statikusak maradtak. A sávon nem maradt árnyék vagy alsó szegély, oldalirányú túlfutást nem tapasztaltam.
+- A mobilnézet ugyanazt a body-szintű fixed megoldást és `bottom: 0` rögzítést használja; külön telefonos eszközön végzett vizuális ellenőrzés nem történt.
+- Állapot: közzétéve és élő asztali böngészőben ellenőrizve.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
