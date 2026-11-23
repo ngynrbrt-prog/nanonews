@@ -103,9 +103,7 @@ def gemini_rewrites(story,article_text,api_key):
     prompt=f"""Feladat: készíts egy magyar nyelvű, Tolkien hangulatát idéző NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
 Írj új, önálló címet és részletes, tömör összefoglalót. Az összefoglaló 3–5 mondatban fedje le a hír legfontosabb tényeit, szereplőit, eredményét és következményét, ha ezek szerepelnek a forrásban. Ne másold át mondatról mondatra a cikket, és ne írj az eredetinél hosszabb szöveget.
-- honest: világos, egyenes, tárgyilagos.
-- jeno: kalandos, csibészes, humoros ritmusú magyar ponyvahangulat; ne utánozz konkrét könyvrészletet, és a humor ne változtasson tényt.
-- tolkien: epikus, régies-krónikás hangulat; maradjon közérthető, és ne adj hozzá fantasy-elemet vagy új tényt.
+- Tolkien-hangulat: epikus, régies-krónikás hangulat, közérthető megfogalmazással. Ne adj hozzá fantasy-elemet vagy új tényt.
 A válasz kizárólag JSON legyen ebben az alakban:
 {{"tolkien":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
