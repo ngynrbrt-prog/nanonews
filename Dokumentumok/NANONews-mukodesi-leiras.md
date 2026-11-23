@@ -377,5 +377,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Egy cikkhez továbbra is egy Gemini API-kérés készíti el mindkét változatot; a rövidebb kimenet csökkenti a válasz tokenigényét. A projekt továbbra sem használ fizetős tartalékot.
 - Állapot: forrásmódosítás rögzítve a main ágon; az új összefoglalók az ezt követő generálások során jelennek meg.
 
+### 2026-11-23 — a NANONews logó rögzítése görgetés közben
+- Kérés: a bekarikázott NANONews logó, jelmondat és alatta futó dupla vonal maradjon a képernyő tetején görgetéskor, mobilon és számítógépen is.
+- Módosítva az index.html: a logóblokk önálló, teljes szélességű, sticky fejlécsávot kapott. A háttér és az elválasztó vonal az újság megjelenését követi; éjszakai módban a sötét háttérrel működik.
+- A dátum, az éjszakai mód kapcsolója és a Rovataim menü nem része a rögzített blokknak, továbbra is a lap tetején görgethetők.
+- Állapot: a forrásmódosítás a main ágra került; a GitHub Pages publikálás ellenőrzése folyamatban van.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
