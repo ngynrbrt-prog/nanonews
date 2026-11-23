@@ -279,5 +279,15 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a „FRISSÍTVE” időpont beállítása a rovat szerinti szűrés előtt történik, ezért találat nélküli rovatnézetben sem tűnik el. A kiválasztott régi archív kiadás saját frissítési idejét mutatja.
 - Módosítva az index.html: a főcikk, a rovatcikk-kártyák és a cikken belüli ablak alján megjelenik a forrás RSS-ében lévő publikálási dátum és idő. Ha a forrás nem ad meg vagy nem értelmezhető időpontot, a felület ezt jelzi, nem állít be kitalált értéket.
 
+### 2026-11-23 — üres rovat frissítési ideje és cikk-időpontok
+- Kérés: a kiadás frissítési ideje üres rovatnál is maradjon látható; minden cikk alján jelenjen meg a forrás szerinti megjelenési idő.
+- Módosítva az index.html: a „FRISSÍTVE” időpont beállítása a rovat szerinti szűrés előtt történik, ezért találat nélküli rovatnézetben sem tűnik el. Régi archív kiadás megnyitásakor annak saját időpontja jelenik meg.
+- Módosítva az index.html: a főcikk, a rovatcikk-kártyák és a cikken belüli ablak alján megjelenik a forrás RSS-ében lévő publikálási dátum és idő. Ha a forrás nem ad vagy nem értelmezhető időpontot, a felület ezt jelzi.
+
+### 2026-11-23 — korábbi kiadások ismétlődő híreinek kiszűrése
+- Kérés: a korábbi lapszámokban már megjelent hírek ne kerüljenek be újra a következő kiadásba.
+- Módosítva a refresh_news.py: a gyűjtés a korábbi archív kiadások és az aktuális kiadás hivatkozásait is ellenőrzi; azonos domainen és útvonalon szereplő, korábban már publikált cikket kihagyja, még a teljes cikk lekérése és Gemini-generálás előtt.
+- Következmény: a 14:00-s szám csak a reggeli kiadás óta újonnan megjelent, témába illő cikkeket tartalmazza. Ha egy rovatban nincs új cikk, a rovat üres marad; az oldalon ettől még látszik a kiadás frissítési ideje.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
