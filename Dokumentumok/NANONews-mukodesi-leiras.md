@@ -92,8 +92,8 @@ A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; há
 2. A refresh_news.py beolvassa a források RSS-feedjeit, kiszűri az ismétlődő hivatkozásokat, majd a cím és a kivonat alapján témákat rendel a hírekhez.
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
-5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindkét összefoglaló 2–3 rövid mondatos; a program a kimenetet legfeljebb három mondatra és 900 karakterre korlátozza. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. A program csak a legfrissebb hivatalos kiadásban ellenőrzi a hiányzó Eredeti vagy Tolkien-változatokat; a már elkészült változatokat kihagyja, régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
+5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindhárom összefoglaló célhossza 3–4 mondat, legfeljebb 1400 karakter. A prompt külön kéri a cikk lényegi részleteinek, szereplőinek, következményeinek és fontos számainak megtartását. Tolkien hangja emelkedett, ünnepélyes, krónikás; Rejtőé csattanósabb, száraz humorú, földközeli. A tényeket egyik stílus sem változtathatja meg. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
+6. A program csak a legfrissebb hivatalos kiadást ellenőrzi. Az új, short-v2-3-4 verzióra még át nem állított cikkeket egyesével dolgozza fel; egy sikeres Gemini-kérés mindhárom változatot frissíti, majd az aktuális kiadást és az archív példányát is menti. Régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
 7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres ötpereces ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
@@ -148,7 +148,7 @@ flowchart TD
   original --> output
 ```
 
-A generálás a nyilvánosan elérhető cikk szövegét használja, ha az lekérhető; különben az RSS-kivonatot. Az eredeti és a Tolkien-változat külön mezőkben marad meg, ezért a weboldal választója a címet és az összefoglalót együtt tudja váltani.
+A generálás a nyilvánosan elérhető cikk szövegét használja, ha az lekérhető; különben az RSS-kivonatot. Az Eredeti, Tolkien és Rejtő változat külön mezőkben tárolódik, ezért a választó a címet és az összefoglalót együtt váltja.
 
 #### Kiadás mentése és feltöltése a repóba
 
@@ -186,7 +186,7 @@ A GitHub Actions futás sikeressége és a Pages közzététele külön állapot
 
 A felület két, egymástól elkülönített beállításcsoportot kínál:
 
-- **Írás stílusa:** Eredeti vagy Tolkien tollából. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
+- **Írás stílusa:** Eredeti, Tolkien tollából vagy Rejtő Jenő stílus. A választás a hírek címére és összefoglalójára is érvényes.
 - **Éjszakai mód:** önálló be/ki kapcsoló a fejléc közepén, a napi dátummal egy sorban, közvetlenül a NANONews cím fölött. Bekapcsolva az egész oldal sötét színtémára vált; az állapot kikapcsolásig és oldalfrissítés után is megmarad.
 
 Az Írás stílusa két gombja közvetlenül a NANONews logó alatt jelenik meg, a korábbi „A nap, egy másik hasábban.” jelmondat helyén. A gombok a logóval együtt a sticky fejlécblokk részei; külön, rögzített alsó sáv nincs. Csak az Archív lapok és a Rovataim maradnak összecsukható panelek. Asztali nézetben a fejlécben a „Budapest · személyes Napközbeni lap” balra, az éjszakai kapcsoló középre, a dátum és az aznapi kiadásválasztó jobbra rendeződik; mobilon középre rendezve a városnév, a dátumválasztó sor, majd a kisebb éjszakai kapcsoló következik. A dátum melletti natív legördülő lista az adott nap összes elkészült lapját mutatja lapszám és futási idő szerint; egy korábbi szám kiválasztásakor az oldal betölti annak archív példányát. A 06:00-s lap /1, a 17:00-s /2; az archív korábbi dátumok meglévő lapszámai megmaradnak. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
@@ -551,13 +551,18 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ## Rejtő Jenő megjelenítési stílus és pótlási folyamat (2026-11-23)
 
-A fejléc alatti „Írás stílusa” választó három módot kínál: Eredeti, Tolkien tollából és Rejtő Jenő stílus. A választás a cikk címére, összefoglalójára és a cikk megnyitásakor látható tartalomra egyaránt érvényes. A Rejtő-változat minden hírhez külön címet és 2–3 mondatos, tényszerű, szellemes és kalandregényes hangú összefoglalót tárol. A modell nem másolhat konkrét műrészletet, és nem egészítheti ki a forrás tényanyagát.
+A fejléc alatti „Írás stílusa” választó három módot kínál: Eredeti, Tolkien tollából és Rejtő Jenő stílus. A választás a cikk címére, összefoglalójára és a cikk megnyitásakor látható tartalomra egyaránt érvényes. Mindhárom összefoglaló 3–4 mondatos, legfeljebb 1400 karakteres változatként tárolódik, hogy több fontos részlet férjen bele. A Rejtő-változat élesebb, csattanósabb, száraz humorú átfogalmazást és külön címet kap; a Tolkien-változat emelkedett, ünnepélyes, krónikás hangú, külön címmel. A hangnemeknek egymástól is jól elkülönülőnek kell maradniuk, miközben az eredeti tényeket megőrzik. A modell nem másolhat konkrét műrészletet, és nem egészítheti ki a forrás tényanyagát.
 
-Az új kiadások Rejtő-változatát ugyanaz a Gemini API készíti el, mint a többi stílusváltozatot. A befejezetlen Tolkien- vagy Rejtő-változatú, legfrissebb hivatalos kiadás cikkei piros jelölést kapnak. A GitHub Actions ötpercenként ellenőrzi kizárólag a legfrissebb hivatalos kiadást, és csak a hiányzó változatokat próbálja pótolni. Siker esetén az adat a legfrissebb kiadás JSON-jába és annak archív példányába is bekerül; elkészült változatot nem generál újra. A `reito-backfill` kézi workflow mód ugyanezzel a feldolgozással pótolja a legfrissebb kiadás hiányzó stílusait új kiadás létrehozása nélkül.
+Az új kiadások Rejtő-változatát ugyanaz a Gemini API készíti el, mint a többi stílusváltozatot. A legfrissebb kiadás hiányos vagy korábbi generálási verziójú cikkei piros jelölést kapnak. A GitHub Actions ötpercenként kizárólag a legfrissebb hivatalos kiadást ellenőrzi, és egy futásban egyetlen korábbi generálási verziójú cikket dolgoz át. A sikeresen frissített cikk piros jelzése eltűnik; a többi cikk a következő körökben kerül sorra. A régebbi archív lapszámokat nem dolgozza át. Siker esetén az adat a legfrissebb kiadás JSON-jába és annak archív példányába is bekerül; elkészült változatot nem generál újra. A `style-refresh` és `reito-backfill` kézi workflow mód ugyanezzel a feldolgozással pótolja a legfrissebb kiadás hiányzó stílusait új kiadás létrehozása nélkül.
 
 A technológiai rovat sportkizárása a forrás-specifikus NFL-címkézés után is érvényes. A sportcikkek nem kerülhetnek a Technológia / Fejlesztések rovatba. A MacBook Neo cikk kategóriája `technology`; NBA kategóriát nem kap, így a technológiai rovatban marad.
 
 ### Változásnapló – 2026-11-23
+
+- Az összefoglalók célhossza 3–4 mondatra, maximális hossza 1400 karakterre nőtt, hogy a fontos részletek is bekerüljenek.
+- A Tolkien és Rejtő generálási utasításai erősebb hangkülönbséget kérnek; a tényhűség és az eredeti ténykapcsolatok megőrzése kötelező.
+- A `short-v2-3-4` verziójelölés piros ponttal jelzi a főoldalon a régi összefoglalókat. Az ötpereces workflow a legfrissebb hivatalos kiadásban futásonként egy régi cikket frissít, mindhárom változatot együtt menti, és siker után megszünteti a piros jelzést.
+- A kézi `style-refresh` workflow mód csak a legfrissebb kiadás stílusainak frissítésére szolgál; nem készít új kiadást.
 
 - Hozzáadva a Rejtő Jenő stílusválasztó, a Rejtő-cím és a 2–3 mondatos összefoglaló mentése, valamint a kiválasztott hangnem szerinti cikkmegjelenítés.
 - A piros jelölés akkor marad látható, ha Tolkien vagy Rejtő stílusváltozat hiányzik; a GitHub Actions 5 percenként csak a hiányzó változatot próbálja létrehozni.
