@@ -537,5 +537,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A refresh_news.py hivatalos kézi indításkor a még ki nem adott aktuális 06:00-s vagy 17:00-s idősáv sorszámát használja, és az új lapszám generálása alatt nem dolgozza újra a korábbi lap Tolkien-kivonatait. Ha nincs új, megfelelő cikk, akkor is létrehozza az üres hivatalos lapszámot.
 - Állapot: a kézi official futás (#14) sikeresen lefutott és main ágra mentette az új kiadást. Az élő oldalon a /2-es szám 17:38-as frissítéssel megjelent, 13 cikkel; a futás után négy cikk Tolkien-változata még hiányzott. Ezeket az ötpercenkénti ütemezett futás a legfrissebb kiadásban tovább próbálja, és siker esetén a data/latest.json, az archív lap, majd a GitHub Pages is frissül.
 
+### 2026-11-23 — forrásgombok, technológiai rovat és cikkkártyák
+- Kérés: minden cikk dátumsorában legyen jobbra igazított, a forráscikkre mutató gomb; a Technológia / Fejlesztések rovatból maradjanak ki a sporthírek; a cikkkártyák ne legyenek világosabbak az oldal hátterénél.
+- Módosítva az index.html: a főcikk, a rovatkártyák és a megnyitott cikk dátumsora után „Forrás” gomb nyitja meg az eredeti cikk URL-jét. A gomb jobbra igazított; új lapon nyitja meg a forrást.
+- A cikkkártyák háttere most az oldal háttérszínét használja. A technológiai rovat szűrése a felületen kizárja a sportkategóriákat és a sportkifejezéseket; az NBA rovat csak kifejezett NBA/kosárlabda említésre ad találatot.
+- Módosítva a refresh_news.py: a technológiai kulcsszavak találmányokra, kutatásra, tudományos felfedezésekre, eszközökre, készülékekre és technológiára fókuszálnak; a sportkategória vagy sportkifejezés jelenléte leveszi a technológiai címkét.
+- A MacBook Neo 2 cikket ellenőriztem: a mentett aktuális kiadás technológia címkével tartalmazza, NBA címkéje nincs. A felületi NBA-szűrés most a szöveges említést is ellenőrzi, így hibás vagy régi címke esetén sem jelenik meg ott.
+- Állapot: felület, feldolgozó és dokumentáció frissítve a main ágon.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
