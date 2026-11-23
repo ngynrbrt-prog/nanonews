@@ -20,6 +20,9 @@ feeds={
  "Nemzeti Sport":["https://www.nemzetisport.hu/publicapi/hu/rss/nso/articles","https://www.nemzetisport.hu/static/rss_hirek.xml"],
  "NBAnews.hu":["https://nbanews.hu/feed/"],
  "Fűzővel kifelé!":["https://fuzovelkifele.com/feed/"],
+ "444.hu":["https://444.hu/feed/"],
+ "Portfolio.hu":["https://www.portfolio.hu/rss/all.xml"],
+ "Origo.hu":["https://www.origo.hu/publicapi/hu/rss/origo/articles"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
