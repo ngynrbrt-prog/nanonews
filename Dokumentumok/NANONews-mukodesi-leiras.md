@@ -518,5 +518,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A GitHub-forrásban ellenőriztem, hogy a régi ütköző szabály nincs jelen, és az új rácsos sorrend bekerült.
 - Állapot: kód és dokumentáció a main ágra került; mobilos Pages-ellenőrzés a publikálás után szükséges.
 
+### 2026-11-23 — ötpercenkénti, Tolkien-kivonatra szűkített újrapróbálás
+- Kérés: minden ötperces ellenőrzés a legfrissebb kiadás cikkeit vizsgálja; ahol Gemini-terhelés miatt Tolkien-változat hiányzik, ott próbálja meg elkészíteni.
+- Módosítva a refresh_news.py: az ellenőrzés csak a legfrissebb hivatalos kiadás cikkei közül választja ki azokat, amelyeknél hiányzik a Tolkien-cím vagy a Tolkien-kivonat. A régi kiadásokat és a tesztkiadásokat nem dolgozza fel.
+- A hiányzó Tolkien-változathoz külön Gemini-kérés készül; nem generálja újra a már meglévő Eredeti összefoglalót, és a teljesen elkészült Tolkien-változathoz sem küld új kérést. A kész változatot a friss kiadásban és annak archív példányában is menti.
+- Az ütemezés továbbra is ötpercenként fut a meglévő ingyenes GitHub Actions workflow-ban. A workflow-megjegyzés is jelzi, hogy az ötperces futás célja kizárólag a legfrissebb kiadás hiányzó Tolkien-változatainak pótlása.
+- Állapot: feldolgozó, ütemezési megjegyzés és működési dokumentáció frissítve a main ágon.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
