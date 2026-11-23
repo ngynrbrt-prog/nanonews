@@ -665,3 +665,9 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 
 - Kérés: a Manchester City külön rovatának eltávolítása, a Bajnokok ligája és a Premier League előre sorolása.
 - A sportmenü első két eleme a Bajnokok ligája és a Premier League lett; a Manchester City külön gombja kikerült. A Manchester City kategóriacímkéje a háttérben megmarad a sportbesoroláshoz és a nem sportrovatokból való kizáráshoz.
+
+
+### 2026-11-23 — rovatmenü megjelenésének hibajavítása
+
+- Jelzés: a rovatmenü teljesen eltűnt. A Belföld sportgazdasági szűrésének módosításakor egy fölösleges zárójel JavaScript-szintaktikai hibát okozott, ezért a böngésző nem futtatta le a rovatok kirajzolását sem.
+- A hibás zárójelet eltávolítottam. Ellenőrzés: az oldal beágyazott JavaScriptje szintaktikailag érvényes.
