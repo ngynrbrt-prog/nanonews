@@ -414,7 +414,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: az írásstílus-választó rögzített alsó vezérlősávot kapott, mobilon figyelembe veszi az iPhone biztonságos képernyőterületét. A lap alsó térköze megakadályozza, hogy a rögzített sáv eltakarja a tartalmat.
 - Az Archív lapok előtt hangsúlyos dupla elválasztó csík van; a szekció címe 19 px-es Courier Prime betűvel jelenik meg, a Források és Kiadásrend címével egyező méretben és betűcsaláddal.
 - A főcikk, a cikkkártyák és a megnyitott cikk szövegtörzse sorkizárt; a címek balra zártak maradnak.
-- Állapot: a módosítások a main ágra kerültek; a GitHub Pages közzététele és az élő felület ellenőrzése folyamatban.
+- Állapot: a módosítások a main ágra kerültek; a GitHub Pages publikálás (#138) sikeres. Az élő asztali oldalon ellenőriztem a rögzített alsó sávot, a szekciócímmel egyező archív tipográfiát és a sorkizárt cikket.
   
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
