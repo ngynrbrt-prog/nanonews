@@ -563,3 +563,6 @@ A technológiai rovat sportkizárása a forrás-specifikus NFL-címkézés után
 - A piros jelölés akkor marad látható, ha Tolkien vagy Rejtő stílusváltozat hiányzik; a GitHub Actions 5 percenként csak a hiányzó változatot próbálja létrehozni.
 - Készült `reito-backfill` kézi workflow mód a legfrissebb szám pótlására ismételt kiadás létrehozása nélkül.
 - A MacBook Neo a Technológia rovatban marad NBA címke nélkül.
+
+
+A 2026-11-23-i kézi pótlás 13 cikkből 11-hez elkészítette a Rejtő-változatot. Két Gemini-hívás átmeneti hibával vagy hibás válaszformátummal zárult, ezért a cikkek piros jelzése és az ötperecenkénti újrapróbálás aktív marad. Az archív szinkronizálás a részben elkészült stílusváltozatokat is átveszi, így a már sikeres Rejtő-változat nem vész el akkor sem, ha a Tolkien-változat még hiányzik.
