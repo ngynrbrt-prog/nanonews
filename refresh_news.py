@@ -45,7 +45,7 @@ rules={
 
 DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai"]
 ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés"]
-NER_MARKERS=["nemzeti együttműködés rendszere","ner-es","ner-közeli","fidesz","orbán viktor","orbán-kormány","mészáros lőrinc","tiborcz istván","közpénz","közbeszerzés","kormányközeli"]
+NER_MARKERS=["ner","nemzeti együttműködés rendszere","ner-es","ner-közeli","fidesz","orbán viktor","orbán-kormány","mészáros lőrinc","tiborcz istván","közpénz","közbeszerzés","kormányközeli"]
 SPORT_MARKERS=["bajnokok ligája","uefa champions league","champions league","darts","pdc","arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
 SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","champions-league","f1","nba","nfl","seahawks","cycling","darts"}
 
@@ -59,7 +59,7 @@ def text(node):
     return re.sub(r"\s+"," "," ".join(node.itertext())).strip()
 
 def match_term(term,hay):
-    if term.casefold() in ("nba","f1"):
+    if term.casefold() in ("nba","f1","ner"):
         return bool(re.search(r"(?<![a-z0-9])"+re.escape(term.casefold())+r"(?![a-z0-9])",hay))
     return term.casefold() in hay
 
@@ -440,7 +440,7 @@ for source,urls in feeds.items():
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
                 cats.remove("technology")
-            if "parliament" in cats or is_domestic_economy(hay,cats) or any(term in hay for term in NER_MARKERS):cats.append("belfold")
+            if "parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS):cats.append("belfold")
             if not cats:continue
             seen.add(key)
             story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc),"summaryVersion":SUMMARY_VERSION}
