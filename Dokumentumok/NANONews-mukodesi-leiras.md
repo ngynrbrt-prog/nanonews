@@ -284,10 +284,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a „FRISSÍTVE” időpont beállítása a rovat szerinti szűrés előtt történik, ezért találat nélküli rovatnézetben sem tűnik el. Régi archív kiadás megnyitásakor annak saját időpontja jelenik meg.
 - Módosítva az index.html: a főcikk, a rovatcikk-kártyák és a cikken belüli ablak alján megjelenik a forrás RSS-ében lévő publikálási dátum és idő. Ha a forrás nem ad vagy nem értelmezhető időpontot, a felület ezt jelzi.
 
-### 2026-11-23 — korábbi kiadások ismétlődő híreinek kiszűrése
-- Kérés: a korábbi lapszámokban már megjelent hírek ne kerüljenek be újra a következő kiadásba.
-- Módosítva a refresh_news.py: a gyűjtés a korábbi archív kiadások és az aktuális kiadás hivatkozásait is ellenőrzi; azonos domainen és útvonalon szereplő, korábban már publikált cikket kihagyja, még a teljes cikk lekérése és Gemini-generálás előtt.
-- Következmény: a 14:00-s szám csak a reggeli kiadás óta újonnan megjelent, témába illő cikkeket tartalmazza. Ha egy rovatban nincs új cikk, a rovat üres marad; az oldalon ettől még látszik a kiadás frissítési ideje.
+### 2026-11-23 — ismétlések kizárása a rendes kiadások között
+- Kérés: a tesztgenerálások ne számítsanak korábbi lapszámnak; a 14:00-s szám a 06:00-s rendes lap után megjelent, rovatba illő híreket tartalmazza, a reggeli vagy korábbi lapszámok híreit ne ismételje.
+- Módosítva a refresh_news.py: a tesztkiadások (`testEdition: true`) figyelmen kívül maradnak a korábbi hivatkozások és a legutóbbi rendes kiadási időpont meghatározásakor. A hírgyűjtő kizárja a régebbi rendes számokban már szereplő URL-eket, továbbá összeveti az RSS vagy a nyilvános cikkoldal publikálási idejét a legutóbbi rendes kiadás időpontjával.
+- Ha egy hír publikálási ideje nem állapítható meg, a legutóbbi rendes kiadáshoz képest nem kerül be. Így a tesztlapok nem blokkolják az új híreket; a 14:00-s rendes kiadás pedig csak az előző rendes lap óta publikált tartalmat veheti fel.
+- Ha egy rovatban nincs új cikk, a rovat üres marad; a felület ettől még mutatja a kiadás frissítési idejét.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
