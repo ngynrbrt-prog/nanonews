@@ -434,7 +434,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Kérés: az Írás stílusa sáv számítógépen és mobilon is ténylegesen, folyamatosan a képernyő aljához legyen rögzítve.
 - Módosítva az index.html: eltávolítottam a görgetési irányt figyelő elrejtést. A sáv állandóan látható, fix pozíciójú láblécként marad a képernyő alján; mobilon a keskenyített gombos elrendezés aktív.
 - A piros jelzés akadálymentes felirata az új, ötpercenkénti újrapróbálásra hivatkozik.
-- Állapot: módosítás main ágra került; GitHub Pages közzététele és élő ellenőrzése folyamatban.
+- Állapot: módosítás main ágra került; a GitHub Pages publikálás (#146) sikeres. Az élő asztali oldalon lefelé görgetve is ellenőriztem, hogy a sáv a képernyő aljához rögzítve marad, és nincs oldalszegélye.
   
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
