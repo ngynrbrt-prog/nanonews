@@ -186,8 +186,8 @@ body.night-mode .brand-lockup{background-image:radial-gradient(#d0c09a0a .7px,tr
 @media(max-width:760px){.brand-inner{padding-left:14px;padding-right:14px}.nav{padding-left:14px;padding-right:14px}}
 
 /* Írásstílus-sáv: az archívum előtt, felfelé görgetéskor a képernyő aljához rögzül. */
-.style-dock-slot{position:relative;left:50%;transform:translateX(-50%);width:var(--nanonews-viewport-width,100vw);max-width:none;margin-left:0}
-.display-controls{position:relative;left:50%;bottom:auto;transform:translateX(-50%);z-index:60;width:100%;max-width:none;margin:0;padding:10px 32px;background:var(--paper);background-image:radial-gradient(#655e4d12 .65px,transparent .65px);border-top:3px double var(--ink);border-bottom:3px double var(--ink);box-shadow:0 -5px 18px #0002}
+.style-dock-slot{position:relative;left:calc(50% - var(--nanonews-viewport-width,100vw)/2 - 32px);transform:none;width:var(--nanonews-viewport-width,100vw);max-width:none;margin-left:0}
+.display-controls{position:relative;left:auto;bottom:auto;transform:none;z-index:60;width:100%;max-width:none;margin:0;padding:10px 32px;background:var(--paper);background-image:radial-gradient(#655e4d12 .65px,transparent .65px);border-top:3px double var(--ink);border-bottom:3px double var(--ink);box-shadow:0 -5px 18px #0002}
 .display-controls .control-group{max-width:1056px;margin:0 auto;border:0;background:transparent}
 .style-dock-slot.is-pinned{height:var(--style-dock-height,0px)}
 .display-controls.is-pinned{position:fixed;left:0;right:0;bottom:0;transform:none;width:auto;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px))}
@@ -197,6 +197,7 @@ body.night-mode .brand-lockup{background-image:radial-gradient(#d0c09a0a .7px,tr
 .lead .dek,.story p,.dialog-summary{text-align:justify;text-justify:inter-word}
 .page{padding-bottom:50px}
 @media(max-width:760px){
+ .style-dock-slot{left:calc(50% - var(--nanonews-viewport-width,100vw)/2 - 14px)}
  .display-controls{padding:5px 10px}
  .display-controls.is-pinned{padding-bottom:calc(5px + env(safe-area-inset-bottom,0px))}
  .display-controls .control-group{display:grid;grid-template-columns:max-content minmax(0,1fr);align-items:center;gap:0 8px;padding:0}
