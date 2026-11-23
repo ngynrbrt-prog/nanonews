@@ -79,7 +79,7 @@ A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjté
 
 ## 5. Kiadásrend és ütemezés
 
-A .github/workflows/refresh.yml GitHub Actions workflow ötpercenként ellenőrzi a hírforrásokat, a cron ütemezése az óra 02., 07., 12. percétől indul (majd 17., 22. … 57. perc), hogy ne pontosan az óra eleji nagy terhelésre essen. Minden kör az RSS-feedekből csak a rovatoknak megfelelő új cikkeket dolgozza fel, és a legfrissebb hivatalos kiadás hiányzó Eredeti/Tolkien-változatait próbálja pótolni. A már elkészült változatok kimaradnak. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
+A .github/workflows/refresh.yml workflow ötpercenként indul, de hivatalos új kiadást csak Europe/Budapest helyi idő szerint a 06:00-s és 17:00-s idősávban készít. Egyik idősávban is legfeljebb egy hivatalos szám készül; az ismételt futások az adott napi idősávban már nem gyűjtenek új lapot. A többi futás a legfrissebb hivatalos kiadás hiányzó Eredeti/Tolkien-változatait próbálja pótolni. A már elkészült változatok kimaradnak. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
 
 A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; háromperces ütemezés nem támogatott. Az időzóna Europe/Budapest. A cron alapértelmezés szerint UTC-t használ; az ötperces periódus az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. Az indítás tervezett időpont, nagy terhelésnél késhet. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
 
@@ -464,6 +464,14 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Az alsó árnyék és a sáv alsó szegélye kikapcsolva. A mobilos CSS ugyanazt a rögzítést használja, a biztonságos alsó kijelzőterülettel.
 - Élő asztali ellenőrzés: lefelé görgetéskor normál pozícióban maradt, felfelé a képernyő aljára rögzült, majd az oldal tetejére érve is rögzítve maradt. A sáv szülőeleme változatlanul a helyőrző DIV, az oldal vízszélessége nem változott, árnyék nem látható. Külön fizikai mobilkészüléken nem végeztem ellenőrzést.
 - Állapot: a kód a main ágra került és az élő oldalon ellenőriztem.
+
+### 2026-11-23 — napi két hivatalos kiadás: 06:00 és 17:00
+- Kérés: naponta csak két újság készüljön; a reggeli kiadás maradjon 06:00-kor, a második legyen 17:00-kor.
+- Módosítva a refresh_news.py: az ötpercenkénti workflow csak a budapesti 06 és 17 óra helyi idősávjában gyűjt új híreket és készít hivatalos kiadást; egy idősávon belül legfeljebb egy hivatalos lapszám készül. A többi futás kizárólag az aktuális kiadás hiányzó Eredeti/Tolkien-változatait próbálja pótolni. A 06 órai kiadás /1, a 17 órai /2 sorszámot kap.
+- A kézi workflow-indítás tesztkiadásként továbbra is megmarad; nem számít hivatalos lapszámnak.
+- Módosítva az index.html: a kiadásrend 06:00 és 17:00 időpontokat jelez, a fejléc sorszám-fallbackje a két lapszámhoz igazodik.
+- A .github/workflows/refresh.yml megjegyzése pontosítja: az ötpercenkénti indítás az összefoglaló-pótlást szolgálja, nem jelent ötpercenként új újságot.
+- Állapot: kód és dokumentáció a main ágra került; a Pages publikálás után ellenőrizendő.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
