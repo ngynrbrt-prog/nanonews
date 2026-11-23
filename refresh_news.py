@@ -27,6 +27,7 @@ rules={
  "nfl":["nfl","amerikai foci","touchdown"],
  "seahawks":["seattle seahawks","seahawks"],
  "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
+ "technology":["technológia","technológiai","technológiafejlesztés","technológiai fejlesztés","fejlesztő","fejlesztők","szoftver","szoftverfejlesztés","alkalmazás","app","programozás","programozó","digitális","digitalizáció","mesterséges intelligencia","chatgpt","kiberbiztonság","adatvédelem","robotika","chip","processzor","okostelefon","startup","innováció"],
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
  "world-market":["nasdaq","s&p 500","dow jones","wall street","stock market","nyse","dax","nikkei","amerikai tőzsde","külföldi tőzsde","részvénypiacokon"],
