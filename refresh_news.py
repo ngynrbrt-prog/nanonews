@@ -1,8 +1,9 @@
-import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time
+import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time, unicodedata
 from urllib.error import HTTPError
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
+from html import unescape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -119,6 +120,49 @@ def parse_published(value):
     if parsed.tzinfo is None:parsed=parsed.replace(tzinfo=TZ)
     return parsed.astimezone(TZ)
 
+SIMILAR_STOPWORDS={"abba","azok","azon","ahol","amely","amelyek","annak","arra","arról","azért","azt","azóta","azonban","csak","egy","egyik","ellen","elmondta","esetében","került","közölte","között","lehet","lett","majd","még","mint","minden","miatt","nagy","nem","szerint","számára","több","után","valamint","volt","van","vagy","végül","viszont","új"}
+def story_tokens(value):
+    value=unescape(re.sub(r"<[^>]*>"," ",str(value))).casefold()
+    value="".join(char for char in unicodedata.normalize("NFKD",value) if not unicodedata.combining(char))
+    return {token for token in re.findall(r"[a-z0-9]{4,}",value) if token not in SIMILAR_STOPWORDS}
+
+def stories_are_similar(left,right):
+    if not left.get("source") or left.get("source")==right.get("source"):return False
+    left_title=story_tokens(left.get("title",""))
+    right_title=story_tokens(right.get("title",""))
+    shared_title=left_title&right_title
+    left_tokens=story_tokens(left.get("title","")+" "+left.get("summary",""))
+    right_tokens=story_tokens(right.get("title","")+" "+right.get("summary",""))
+    shared=left_tokens&right_tokens
+    union=left_tokens|right_tokens
+    title_ratio=len(shared_title)/max(1,min(len(left_title),len(right_title)))
+    overlap=len(shared)/max(1,len(union))
+    specific_categories={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","seahawks","cycling","darts","parliament","belfold","domestic","hu-market","world-market"}
+    same_topic=bool((set(left.get("categories",[]))&set(right.get("categories",[])))-{"technology"}) or not (set(left.get("categories",[]))&set(right.get("categories",[])))
+    if (set(left.get("categories",[]))&set(right.get("categories",[]))) & specific_categories:
+        same_topic=True
+    return same_topic and ((len(shared_title)>=2 and title_ratio>=0.3) or (len(shared)>=5 and overlap>=0.12))
+
+def group_similar_stories(items):
+    pending=list(items);grouped=[]
+    while pending:
+        lead=pending.pop(0)
+        matches=[item for item in pending if stories_are_similar(lead,item)]
+        if not matches:
+            grouped.append(lead);continue
+        match_ids={id(item) for item in matches}
+        pending=[item for item in pending if id(item) not in match_ids]
+        lead["relatedStories"]=matches
+        lead["categories"]=sorted(set(lead.get("categories",[])).union(*(set(item.get("categories",[])) for item in matches)))
+        grouped.append(lead)
+        print(f"Grouped {len(matches)} related stories under {lead.get('source')}: {lead.get('title')}")
+    return grouped
+
+def all_story_records(story):
+    yield story
+    for related in story.get("relatedStories",[]) or []:
+        yield from all_story_records(related)
+
 published_before=set()
 latest_official_at=None
 today_issue_count=0
@@ -137,7 +181,7 @@ for file in issue_files:
             today_issue_count+=1
             counted_editions.add(issue_id)
             today_issued_hours.add(issue_at.hour)
-        published_before.update(story_key(s.get("url","")) for s in edition_data.get("stories",[]) if s.get("url"))
+        published_before.update(story_key(record.get("url","")) for story in edition_data.get("stories",[]) for record in all_story_records(story) if record.get("url"))
     except Exception:pass
 
 class ArticleMetadataParser(HTMLParser):
