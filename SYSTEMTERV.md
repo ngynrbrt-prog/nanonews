@@ -33,4 +33,4 @@ Ha a kulcs valaha nyilvánosságra került, vond vissza a Google AI Studio-ban, 
 
 ## Stílusok
 
-Minden hírhez a rendszer `honest`, `jeno` és `tolkien` változatot tárol. A weboldal az olvasó választása szerint jeleníti meg a címet és az összefoglalót. A változatok csak sikeres Gemini-hívás után kerülnek a kiadásba; a korábbi kiadások újrafeldolgozása kézi workflow-indítással történik.
+Minden hírhez a rendszer egy `tolkien` változatot tárol. A weboldal a Tolkien-hangulatú címet és részletes összefoglalót jeleníti meg. A változatok csak sikeres Gemini-hívás után kerülnek a kiadásba; a korábbi kiadások újrafeldolgozása kézi workflow-indítással történik.
