@@ -407,7 +407,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 ### 2026-11-23 — AI-összesítő és az eredeti tartalom forrása
 - Kérés: a lábléc jelezze, hogy a NANONews tartalmi források alapján készített AI-összesítő, és a teljes, eredeti tartalom a megjelölt forrásoldalon található.
 - Módosítva az index.html: a láblécben megjelenik a szöveg: „Tartalmi források AI-összesítője · A teljes, eredeti tartalom a megjelölt forrásoldalon található.”
-- Állapot: a lábléc módosítása a main ágra került; a GitHub Pages publikálás ellenőrzése folyamatban.
+- Állapot: a lábléc módosítása a main ágra került; a GitHub Pages publikálás (#134) sikeres.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
