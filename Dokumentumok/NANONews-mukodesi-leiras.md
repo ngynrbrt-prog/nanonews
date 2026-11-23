@@ -79,7 +79,7 @@ A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjté
 
 ## 5. Kiadásrend és ütemezés
 
-A .github/workflows/refresh.yml GitHub Actions workflow 30 percenként ellenőrzi a hírforrásokat. Minden óra 00 és 30 perces ütemezett futásánál az RSS-feedekből csak a rovatoknak megfelelő új cikkeket dolgozza fel.
+A .github/workflows/refresh.yml GitHub Actions workflow 30 percenként ellenőrzi a hírforrásokat. Minden óra 00 és 30 perces ütemezett futásánál az RSS-feedekből csak a rovatoknak megfelelő új cikkeket dolgozza fel. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
 
 Az időzóna Europe/Budapest. A GitHub cron UTC-alapú, de a félórás ütem az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. A GitHub Actions indítása néha késhet, ezért az ütemezés tervezett időpont, nem másodpercre garantált futás. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
 
@@ -391,6 +391,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva a .github/workflows/refresh.yml: a hírforrásokat ütemezetten minden óra 00 és 30 perces futásánál ellenőrzi.
 - Módosítva a refresh_news.py: a korábbi hivatalos kiadásokban szereplő hivatkozások és a legutóbbi lap időpontja alapján csak az új, rovatba illő hírek kerülnek feldolgozásra. Ha nincs új cikk, a program kilép a data/latest.json, az archívum és az archívumjegyzék módosítása nélkül.
 - Az új kiadások naponta növekvő sorszámot kapnak; a fejléc ezt mutatja. A korábbi reggeli/délutáni/esti lapszámokra épülő kiadások a meglévő fallback szerint jelennek meg.
+- A 30 perces futások egy konkurenciacsoporttal sorosan futnak, így két párhuzamos job nem készíti el ugyanazt a cikket.
 - Költség: nem került be fizetős szolgáltatás; a forrásellenőrzés GitHub Actionsben, a szövegváltozatok a meglévő ingyenes Gemini-keretben készülnek. A Gemini-hívás csak új, rovatba illő cikkeknél történik.
 - Állapot: workflow, feldolgozó, fejléc és dokumentáció módosítva; GitHub Actions és Pages ellenőrzése a feltöltés után következik.
 

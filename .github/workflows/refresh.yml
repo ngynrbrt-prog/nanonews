@@ -6,6 +6,9 @@ on:
     - cron: '*/30 * * * *'
 permissions:
   contents: write
+concurrency:
+  group: nanonews-refresh
+  cancel-in-progress: false
 jobs:
   refresh:
     runs-on: ubuntu-latest
