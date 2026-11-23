@@ -525,5 +525,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Az ütemezés továbbra is ötpercenként fut a meglévő ingyenes GitHub Actions workflow-ban. A workflow-megjegyzés is jelzi, hogy az ötperces futás célja kizárólag a legfrissebb kiadás hiányzó Tolkien-változatainak pótlása.
 - Állapot: feldolgozó, ütemezési megjegyzés és működési dokumentáció frissítve a main ágon.
 
+### 2026-11-23 — a 17:00-s kiadás késésének javítása
+- Ellenőrzéskor a legfrissebb kiadás továbbra is a 14:09-es szám volt. A GitHub Actions naplója szerint az automatikus futás 16:54-kor indult, 18 percig dolgozta fel a hiányzó Tolkien-változatokat, majd a git push elutasította a mentést, mert időközben újabb commit került a main ágra.
+- A futás ezért nem tette közzé a feldolgozott adatokat; mivel a számgenerálási időpontot az induláskor rögzíti, a 16:54-kor indult futás nem készíthette el a 17:00-s számot sem.
+- Módosítva a .github/workflows/refresh.yml: adatmentés előtt a futás most lekéri a main ág legfrissebb commitját, arra újraalapozza saját adatcommitját, majd úgy próbál feltölteni. Ez kezeli a kóddokumentációs commitok miatti nem fast-forward elutasítást.
+- Állapot: a mentési javítás a main ágra került. A már elbukott futás eredményét ez nem teszi közzé visszamenőleg; a következő ütemezett futás az új mentési logikával dolgozik.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
