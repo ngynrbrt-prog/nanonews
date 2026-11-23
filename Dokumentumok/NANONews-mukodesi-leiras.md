@@ -439,7 +439,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 ### 2026-11-23 — teljes szélességű írásstílus-sáv az archívum előtt
 - Kérés: számítógépen a sáv ne törjön meg oldalt; kerüljön közvetlenül az Archív lapok fölé; az archívum, a források, a kiadásrend és az alsó lábléc normál módon görgessenek tovább. Felfelé görgetéskor kizárólag az írásstílus-sáv rögzüljön.
 - Módosítva az index.html: az Írás stílusa DOM-blokk az Archív lapok elé került, teljes képernyőszélességű, dupla vízszintes vonallal elválasztott sávként. A korábbi fix pozíciójú, mindig látható lábléc helyett görgetésirányhoz kötött rögzítés működik: felfelé görgetéskor csak az írásstílus-sáv kerül a képernyő aljára; lefelé görgetéskor visszatér a helyére az Archív lapok fölé. Az archívum és az alatta lévő információs blokkok nem rögzülnek.
-- Állapot: kód és dokumentáció módosítva a main ágon; Pages-publikálás és élő ellenőrzés folyamatban.
+- Állapot: kód és dokumentáció a main ágon; Pages publikálás (#150) sikeres. Az élő asztali oldalon ellenőriztem, hogy a sáv a látható teljes szélességet fedi oldalirányú túlfutás nélkül, közvetlenül megelőzi az archívumot, és felfelé görgetéskor kizárólag ez rögzül a képernyő aljára. Az Archív lapok és az információs blokkok normál pozícióban maradnak.
   
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
