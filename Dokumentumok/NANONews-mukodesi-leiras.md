@@ -80,7 +80,7 @@ Jelenlegi rovatok:
 
 A Technológia / Fejlesztések rovat a technológiai híreket, szoftvereket és alkalmazásokat, mesterséges intelligenciát, kiberbiztonságot, digitális fejlesztéseket és újításokat gyűjti. A cím- és RSS-kivonat kulcsszavai alapján sorolja be a híreket.
 
-A Belföld rovat a parlamenti témákat, a hazai gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó cikkeket jeleníti meg. A sportkategóriájú hírek kizáródnak.
+A Belföld rovat a parlamenti témákat, a hazai gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó cikkeket jeleníti meg. Az általános sporthírek kizáródnak, de a magyar sport gazdasági témái bekerülhetnek.
 
 A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjtési szabályt pedig a refresh_news.py fájlban kell frissíteni. A történeti adatokban elmentett kategóriák miatt a felületi szűrést is felül kell vizsgálni.
 
@@ -604,7 +604,7 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 
 - A sportrovatok közé bekerült a Darts; a hírbesorolás felismeri a darts, PDC és darts-világbajnokság kifejezéseket.
 - A külön „Belföldi parlament” és „Belföldi hírek” menüpontok helyett egyetlen „Belföld” rovat szerepel.
-- A Belföld a parlamenti témákat, a magyar gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó híreket gyűjti. A sportkategóriába sorolt híreket kizárja.
+- A Belföld a parlamenti témákat, a magyar gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó híreket gyűjti. Az általános sporthíreket kizárja, a magyar sport gazdasági témáit viszont beengedi.
 - A rovatok megjelenítése és az új kategorizálási szabályok a következő hivatalos kiadástól, 2026. november 24-én 06:00-tól érvényesek. A korábbi lapszámokat nem generáljuk újra, és az aktuális kiadás adatfájlját nem módosítjuk.
 
 
@@ -653,3 +653,10 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 
 
 A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sportkategóriájú, illetve a sportkifejezésekkel felismerhető cikkeket. Ez a begyűjtéskor és a felületi rovat szűrésekor egyaránt érvényesül.
+
+
+### 2026-11-23 — hazai sportgazdasági hírek a Belföld rovatban
+
+- Kérés: a Belföld rovatban sportgazdasági témák is szerepelhessenek.
+- A magyar klubok és sportszervezetek gazdasági hírei a Belföldbe kerülhetnek, például bevételek, szponzoráció, átigazolási díjak, közvetítési jogok, bérköltségek és sportfinanszírozás. Az általános meccs- és eredményhírek továbbra is a sportrovatokhoz tartoznak.
+- A helyi besorolás a magyar sportegyesületek és városok megnevezéseit is figyelembe veszi.
