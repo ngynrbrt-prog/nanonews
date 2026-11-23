@@ -10,7 +10,7 @@ TZ=ZoneInfo("Europe/Budapest")
 SUMMARY_VERSION="short-v1-2-3"
 now=datetime.now(TZ)
 dispatch_mode=os.getenv("NANONEWS_MODE","test" if os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" else "").strip().lower()
-manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode!="official"
+manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="test"
 force_issue=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="official"
 
 feeds={
@@ -179,7 +179,7 @@ def concise_sentences(value,limit=3):
 def gemini_rewrites(story,article_text,api_key):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
-    prompt=f"""Feladat: készíts két magyar nyelvű NANONews-változatot ugyanarról a hírről.
+    prompt=f"""Feladat: készíts három magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
 Mindkét összefoglaló legyen rövid és lényegretörő: 2–3 rövid mondatban foglald össze a hírt, csak a legfontosabb tényekkel.
 Az "original" mezőbe írj semleges, tárgyilagos, közérthető összefoglalót 2–3 rövid mondatban. Ne készíts hosszú cikket és ne másold a forrást mondatról mondatra.
@@ -226,6 +226,11 @@ Alapanyag ({basis}):
     body=concise_sentences(value.get("body",""),3)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     variants["tolkien"]={"title":title[:180],"body":body[:900]}
+    value=parsed.get("reito",{})
+    reito_title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
+    reito_body=concise_sentences(value.get("body",""),3)
+    if not reito_title or not reito_body:raise ValueError("Missing Rejto rewrite")
+    variants["reito"]={"title":reito_title[:180],"body":reito_body[:900]}
     return variants
 
 def gemini_tolkien_rewrite(story,article_text,api_key):
@@ -269,6 +274,47 @@ Alapanyag ({basis}):
     body=concise_sentences(value.get("body",""),3)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     return {"title":title[:180],"body":body[:900]}
+def gemini_reito_rewrite(story,article_text,api_key):
+    source_text=article_text or story["summary"]
+    basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    prompt=f"""Feladat: készíts kizárólag Rejtő hangulatú NANONews-változatot magyarul.
+Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
+Adj új, önálló, Rejtő szellemes, fordulatos, száraz humorú, kalandregényes hangját idéző, de közérthető címet és 2–3 rövid mondatos összefoglalót.
+Ne készíts Eredeti vagy Tolkien-változatot, ne idézz vagy másolj konkrét műrészletet, és ne adj hozzá új tényt.
+A válasz kizárólag JSON legyen:
+{{"reito":{{"title":"...","body":"..."}}}}
+Forrás: {story["source"]}
+Eredeti cím: {story["title"]}
+Alapanyag ({basis}):
+{source_text[:18000]}"""
+    payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
+    request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request,timeout=50) as response:
+                result=json.loads(response.read().decode("utf-8"))
+            break
+        except HTTPError as exc:
+            if exc.code!=503 or attempt==2:raise
+            delay=2**attempt
+            print(f"Gemini temporarily unavailable (503); retrying in {delay}s.")
+            time.sleep(delay)
+    raw=result.get("output_text","")
+    if not raw:
+        parts=[]
+        interaction=result.get("interaction",result)
+        for step in interaction.get("steps",[]):
+            if step.get("type")=="model_output":
+                for block in step.get("content",[]):
+                    if block.get("type")=="text":parts.append(block.get("text",""))
+        raw="\n".join(parts)
+    raw=re.sub(r"^\s*```(?:json)?|\s*```\s*$","",raw.strip(),flags=re.I)
+    parsed=json.loads(raw)
+    value=parsed.get("reito",{})
+    title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
+    body=concise_sentences(value.get("body",""),3)
+    if not title or not body:raise ValueError("Missing Rejto rewrite")
+    return {"title":title[:180],"body":body[:900]}
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
 previous_edition={}
@@ -283,7 +329,9 @@ try:
             current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
         for saved_story in previous_edition.get("stories",[]):
             tolkien=saved_story.get("variants",{}).get("tolkien",{})
-            if not tolkien.get("title") or not tolkien.get("body"):
+            reito=saved_story.get("variants",{}).get("reito",{})
+            if (not tolkien.get("title") or not tolkien.get("body") or
+                not reito.get("title") or not reito.get("body")):
                 pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
@@ -343,26 +391,33 @@ if api_key and not manual and not collect_new_edition:
     for pending_story in pending_current:
         current_variants=pending_story.setdefault("variants",{})
         current_tolkien=current_variants.setdefault("tolkien",{})
-        if current_tolkien.get("title") and current_tolkien.get("body"):continue
+        current_reito=current_variants.setdefault("reito",{})
         article_text,_=fetch_article(pending_story.get("url",""))
-        try:
-            generated=gemini_tolkien_rewrite(pending_story,article_text,api_key)
-            if not current_tolkien.get("title"):current_tolkien["title"]=generated["title"]
-            if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
-            if current_tolkien.get("title") and current_tolkien.get("body"):
-                if current_variants.get("original",{}).get("body"):
-                    pending_story["summaryVersion"]=SUMMARY_VERSION
-                if article_text:
-                    pending_story["contentBasis"]="article"
-                    pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+        if not current_tolkien.get("title") or not current_tolkien.get("body"):
+            try:
+                generated=gemini_tolkien_rewrite(pending_story,article_text,api_key)
+                if not current_tolkien.get("title"):current_tolkien["title"]=generated["title"]
+                if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
                 pending_updated=True
                 print(f"Completed missing Tolkien rewrite for {pending_story.get('url')}")
-            else:
-                print(f"Tolkien rewrite still incomplete for {pending_story.get('url')}")
-        except Exception as exc:
-            print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
-        finally:
+            except Exception as exc:print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
             time.sleep(4)
+        if not current_reito.get("title") or not current_reito.get("body"):
+            try:
+                generated=gemini_reito_rewrite(pending_story,article_text,api_key)
+                if not current_reito.get("title"):current_reito["title"]=generated["title"]
+                if not current_reito.get("body"):current_reito["body"]=generated["body"]
+                pending_updated=True
+                print(f"Completed missing Rejto rewrite for {pending_story.get('url')}")
+            except Exception as exc:print(f"Pending Rejto rewrite unavailable {pending_story.get('url')}: {exc}")
+            time.sleep(4)
+        if current_tolkien.get("title") and current_tolkien.get("body") and current_reito.get("title") and current_reito.get("body"):
+            if current_variants.get("original",{}).get("body"):
+                pending_story["summaryVersion"]=SUMMARY_VERSION
+            if article_text:
+                pending_story["contentBasis"]="article"
+                pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+
 
 def sync_pending_archive():
     if not pending_updated or not current_archive_path or not current_archive_path.exists():return
@@ -370,8 +425,10 @@ def sync_pending_archive():
         archived=json.loads(current_archive_path.read_text(encoding="utf-8"))
         archived_by_url={item.get("url"):item for item in archived.get("stories",[]) if item.get("url")}
         for pending_story in pending_current:
-            tolkien=pending_story.get("variants",{}).get("tolkien",{})
-            if not tolkien.get("title") or not tolkien.get("body"):continue
+            variants=pending_story.get("variants",{})
+            tolkien=variants.get("tolkien",{})
+            reito=variants.get("reito",{})
+            if not (tolkien.get("title") and tolkien.get("body") and reito.get("title") and reito.get("body")):continue
             target=archived_by_url.get(pending_story.get("url"))
             if target:
                 target["variants"]=pending_story["variants"]
@@ -383,13 +440,13 @@ def sync_pending_archive():
 
 if not stories:
     if not pending_updated and not (force_issue or official_slot_available):
-        print("No new stories or missing Tolkien rewrites; leaving the current edition and archive unchanged.")
+        print("No new stories or missing Tolkien/Rejto rewrites; leaving the current edition and archive unchanged.")
         raise SystemExit(0)
     if force_issue or official_slot_available:
         print("No new matching stories; publishing the official issue with an empty story list.")
     Path("data/latest.json").write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
-    print(f"Completed missing Tolkien rewrites in the current issue; {len(pending_current)} stories were checked.")
+    print(f"Completed missing style rewrites in the current issue; {len(pending_current)} stories were checked.")
     raise SystemExit(0)
 sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
