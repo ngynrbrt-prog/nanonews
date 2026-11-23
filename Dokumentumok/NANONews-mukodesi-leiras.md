@@ -507,5 +507,10 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a mobil fejléc dátum- és kiadásválasztó sora nem törik új sorba; a dátum jelenik meg előbb, utána a kompakt /1, /2 választó. Keskeny képernyőn kisebb betű- és mezőméretet kap.
 - Állapot: kód és dokumentáció a main ágra került; Pages-publikálás után ellenőrizendő.
 
+### 2026-11-23 — mobilon a dátum és kiadásválasztó sorrendje
+- Visszajelzés: a mobil fejlécben a kiadásválasztó még mindig a dátum előtt jelent meg.
+- Az ok egy korábbról megmaradt `order: 2` mobilos CSS-szabály volt, amely felülírta a HTML sorrendjét. Az index.html mobilstílusában a dátumot `order: 0`, a kiadásválasztót `order: 1` értékre állítottam, így a választó közvetlenül a dátum után jelenik meg.
+- Állapot: módosítás a main ágra került; Pages-publikálás után élő mobilnézetben ellenőrizendő.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
