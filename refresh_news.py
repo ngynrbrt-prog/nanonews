@@ -126,8 +126,8 @@ def story_tokens(value):
     value="".join(char for char in unicodedata.normalize("NFKD",value) if not unicodedata.combining(char))
     return {token for token in re.findall(r"[a-z0-9]{4,}",value) if token not in SIMILAR_STOPWORDS}
 
-def stories_are_similar(left,right):
-    if not left.get("source") or left.get("source")==right.get("source"):return False
+def stories_are_similar(left,right,allow_same_source=False):
+    if not left.get("source") or (not allow_same_source and left.get("source")==right.get("source")):return False
     left_title=story_tokens(left.get("title",""))
     right_title=story_tokens(right.get("title",""))
     shared_title=left_title&right_title
@@ -159,7 +159,26 @@ def all_story_records(story):
     for related in story.get("relatedStories",[]) or []:
         yield from all_story_records(related)
 
+def attach_archived_stories(items,archive_records):
+    candidates=sorted(archive_records,key=lambda pair:pair[0],reverse=True)
+    for lead in items:
+        current_group=[lead]+list(lead.get("relatedStories",[]) or [])
+        related=lead.setdefault("relatedStories",[])
+        known_urls={story_key(record.get("url","")) for record in current_group if record.get("url")}
+        for archived_at,archived_story in candidates:
+            key=story_key(archived_story.get("url",""))
+            if not key or key in known_urls:continue
+            if any(stories_are_similar(current,archived_story,allow_same_source=True) for current in current_group):
+                item=dict(archived_story)
+                item["archiveDate"]=archived_at.strftime("%Y. %m. %d.")
+                item.pop("relatedStories",None)
+                related.append(item)
+                known_urls.add(key)
+                print(f"Linked archive story from {item['archiveDate']}: {item.get('source')} · {item.get('title')}")
+    return items
+
 published_before=set()
+archived_similarity_records={}
 latest_official_at=None
 today_issue_count=0
 today_issued_hours=set()
@@ -177,7 +196,18 @@ for file in issue_files:
             today_issue_count+=1
             counted_editions.add(issue_id)
             today_issued_hours.add(issue_at.hour)
-        published_before.update(story_key(record.get("url","")) for story in edition_data.get("stories",[]) for record in all_story_records(story) if record.get("url"))
+        edition_stories=edition_data.get("stories",[])
+        published_before.update(story_key(record.get("url","")) for story in edition_stories for record in all_story_records(story) if record.get("url"))
+        if file.parent.name=="archive" and issue_at:
+            for grouped_story in edition_stories:
+                for record in all_story_records(grouped_story):
+                    url_key=story_key(record.get("url",""))
+                    if not url_key:continue
+                    previous_archive=archived_similarity_records.get(url_key)
+                    if previous_archive is None or issue_at>previous_archive[0]:
+                        archived_story=dict(record)
+                        archived_story.pop("relatedStories",None)
+                        archived_similarity_records[url_key]=(issue_at,archived_story)
     except Exception:pass
 
 class ArticleMetadataParser(HTMLParser):
@@ -514,6 +544,7 @@ if not stories:
 sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
 stories=group_similar_stories(stories)
+stories=attach_archived_stories(stories,archived_similarity_records.values())
 issue_number=None if manual else scheduled_issue_number
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories[:80]}
 Path("data").mkdir(exist_ok=True)
