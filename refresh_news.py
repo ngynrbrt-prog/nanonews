@@ -226,15 +226,15 @@ Alapanyag ({basis}):
     raw=re.sub(r"^\s*```(?:json)?|\s*```\s*$","",raw.strip(),flags=re.I)
     parsed=json.loads(raw)
     variants={}
-    original=re.sub(r"\\s+"," ",str(parsed.get("original",{}).get("body",""))).strip()
+    original=re.sub(r"\s+"," ",str(parsed.get("original",{}).get("body",""))).strip()
     if not original:
         source=re.sub(r"<[^>]*>"," ",source_text)
-        sentences=re.split(r"(?<=[.!?])\\s+",re.sub(r"\\s+"," ",source).strip())
+        sentences=re.split(r"(?<=[.!?])\s+",re.sub(r"\s+"," ",source).strip())
         original=" ".join(sentences[:7]).strip()
     if original:variants["original"]={"body":original[:3000]}
     value=parsed.get("tolkien",{})
-    title=re.sub(r"\\s+"," ",str(value.get("title",""))).strip()
-    body=re.sub(r"\\s+"," ",str(value.get("body",""))).strip()
+    title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
+    body=re.sub(r"\s+"," ",str(value.get("body",""))).strip()
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     variants["tolkien"]={"title":title[:180],"body":body[:2400]}
     return variants
