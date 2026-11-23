@@ -218,7 +218,7 @@ Alapanyag ({basis}):
     if not original:
         source=re.sub(r"<[^>]*>"," ",source_text)
         sentences=re.split(r"(?<=[.!?])\s+",re.sub(r"\s+"," ",source).strip())
-        original=" ".join(sentences[:3]).strip()
+        original=" ".join(sentences[:4]).strip()
     original=concise_sentences(original,4)
     if original:variants["original"]={"body":original[:1400]}
     value=parsed.get("tolkien",{})
