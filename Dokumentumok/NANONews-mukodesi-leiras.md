@@ -324,7 +324,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 ### 2026-11-23 — fejléc megnevezése
 - Kérés: a „Budapest · személyes digitális napilap” fejlécszöveg legyen „Budapest · személyes Napközbeni lap”.
 - Módosítva az index.html: a fejlécben az új megnevezés jelenik meg.
-- Állapot: a módosítás a main ágra került; a Pages közzététele után ellenőrizendő.
+- Állapot: a módosítás a main ágra került, a GitHub Pages közzététele sikerült. Az élő oldalon ellenőrizve az új fejlécszöveg, a középre rendezett dátum és kiadásszám, a kapcsoló helye, valamint a teljes szélességű Írás stílusa sáv.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
