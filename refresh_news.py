@@ -184,8 +184,8 @@ def gemini_rewrites(story,article_text,api_key):
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
 Mindhárom összefoglaló legyen tartalmas, 3–4 jól olvasható mondatban. Őrizd meg a cikk lényegi részleteit: ki érintett, mi történt, mi lett az eredmény vagy következmény, továbbá a forrásban szereplő fontos számokat, időpontokat és feltételeket. Ne hagyj ki olyan részletet, amely érdemben megváltoztatná a hír jelentését; ne találj ki tényt.
 Az "original" mezőben írj semleges, pontos, közérthető összefoglalót 3–4 mondatban. Fogalmazd át önállóan, de ne hagyd el a hír lényeges részleteit.
-A "tolkien" mezőhöz alkoss önálló címet és 3–4 mondatos, határozottan emelkedett, ünnepélyes, régies krónikás hangú átfogalmazást, gazdagabb ritmussal és választékos szóhasználattal. A cím is ezt a hangot tükrözze. A tények és azok viszonyai maradjanak pontosak; ne adj hozzá fantasy-elemet vagy új tényt.
-A "reito" mezőhöz alkoss önálló címet és 3–4 mondatos, markánsan csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. Használj élesebb iróniát és váratlan, de a tényekből következő fordulatot; ez a hang legyen könnyed és földközeli, jól elkülönülve a Tolkien-féle emelkedettségtől. Ne idézz vagy másolj konkrét műrészletet, és ne változtass a tényeken.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
+A "tolkien" mezőhöz alkoss önálló címet és 3–4 mondatos, határozottan emelkedett, ünnepélyes, régies krónikás hangú átfogalmazást, gazdagabb ritmussal és választékos szóhasználattal. A cím is ezt a hangot tükrözze. A tények és azok viszonyai maradjanak pontosak; ne adj hozzá fantasy-elemet, új tényt, szereplői szándékot vagy nem igazolt következtetést.
+A "reito" mezőhöz alkoss önálló címet és 3–4 mondatos, markánsan csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. A humor kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént. Ez a hang legyen könnyed és földközeli, jól elkülönülve a Tolkien-féle emelkedettségtől. Ne idézz vagy másolj konkrét műrészletet, és ne változtass a tényeken.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
 Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
@@ -279,7 +279,7 @@ def gemini_reito_rewrite(story,article_text,api_key):
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
     prompt=f"""Feladat: készíts kizárólag Rejtő hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új címet és 3–4 mondatos, csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. Használj élesebb, földközeli iróniát és a tényekből következő fordulatot, hogy világosan elkülönüljön a Tolkien-féle emelkedett hangnemtől. Őrizd meg a cikk lényegi részleteit és tényeit.
+Adj új címet és 3–4 mondatos, csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. Az irónia kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént, és ne következtess a forrásban nem szereplő eredményre. Őrizd meg a cikk lényegi részleteit és tényeit.
 Ne készíts Eredeti vagy Tolkien-változatot, ne idézz vagy másolj konkrét műrészletet, és ne adj hozzá új tényt.
 A válasz kizárólag JSON legyen:
 {{"reito":{{"title":"...","body":"..."}}}}
