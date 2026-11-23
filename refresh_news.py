@@ -26,6 +26,7 @@ rules={
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
  "world-market":["nasdaq","s&p 500","dow jones","wall street","stock market","nyse","dax","nikkei","amerikai tőzsde","külföldi tőzsde","részvénypiacokon"],
+ "domestic":["magyarország","magyarországon","magyarországi","budapest","debrecen","szeged","miskolc","pécs","győr","hazai","magyar kormány","miniszterelnök"],
 }
 
 def text(node):
