@@ -123,20 +123,20 @@
         "nba"
       ],
       "image": "",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "3e9df2b9fe8b1de45adf3c16b9bb1581f174489ea9464662a957feae1351b3e5",
       "variants": {
         "original": {
-          "body": "Gabe Vincent hamarosan a Sacramento Kings játékosa lehet, mivel a klub véglegesíti a szerződését. A harmincéves hátvéd korábban a Miami Heatnél és a Los Angeles Lakersnél is megfordult, ahol eltérő szerepeket töltött be. Most újabb esélyt kap az NBA-ben, hogy bizonyítson a ligában."
+          "body": "Gabe Vincent hamarosan a Sacramento Kings játékosa lehet, mivel a klub megkezdte a szerződéskötés véglegesítését a 30 éves hátvéddel. A korábban a Miami Heat döntőbe jutásában is fontos szerepet játszó kosaras Los Angelesben nem váltotta be a hozzá fűzött reményeket, ahol korábban egy 33 millió dolláros igazolás volt. Most egy egészen más feladattal térhet vissza az NBA-be az új csapatánál."
         },
         "tolkien": {
-          "title": "Út a megújhodás felé: új ösvény nyílik a harcos előtt",
-          "body": "Ideje érkezett, hogy Gabe Vincent, a kosárlabda viadalainak harmincéves vándora, új otthonra leljen. Miután Los Angeles falai között nem lelte korábbi dicsőségét, a Sacramento serege magához szólítja őt. Így tér vissza a bajnokság porondjára, hogy friss feladatok között próbálja megérdemelt szerencséjét."
+          "title": "A száműzött bajnok új ösvényre lép",
+          "body": "Íme, méltó fordulat a sasok és oroszlánok ligájában, hol Gabe Vincent, a harmincadik évét taposó viador új eséllyel gazdagodik. Miután a Miami Heat zászlaja alatt egykor a végső diadal kapujáig menetelt, Los Angeles falai között nem lelte meg a várt dicsőséget. Most azonban a Sacramento Kings nemzetsége nyújtja felé a kezet, hogy szerződését megkötvén, teljesen új feladatok bízadójává tegyék őt a porondon."
         },
         "reito": {
-          "title": "A harmincéves hátvéd, aki harminchárom millió dollár után most Sacramento felé veszi az irányt",
-          "body": "Gabe Vincent újabb lehetőséget kap az NBA-ben, miután a Sacramento Kings véglegesíti a szerződését. A játékoskorábban a Miami Heat döntőbe jutásában is fontos szerepet játszott, Los Angelesben azonban nem váltotta be a hozzá fűzött reményeket, így most egy egészen más feladattal térhet vissza a ligába."
+          "title": "Harmincmillió dollár után újabb esély",
+          "body": "Úgy látszik, harminc évvel a hátunk mögött is lehet még nagy dobásunk, legalábbis Gabe Vincent esetében ezt mutatják a jelek. A Sacramento Kings ugyanis éppen most pecsételi meg a szerződését azzal a hátvéddel, aki a Miami Heat színeiben még a döntőig is eljutott. Los Angelesben ugyan nem sikerült megváltania a világot a korábbi drága igazolásnak, ám most egy teljesen új feladattal térhet vissza a parkettre."
         }
       }
     },
@@ -150,17 +150,20 @@
         "parliament"
       ],
       "image": "https://assets.telex.hu/images/20261123/1795442265-temp-08io55bcc96kfljnglg_cimlap-normal.jpg",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "13404eebd37c382246b0888b38a468f9296545f48369ed9d2b6edd72316ba8f1",
       "variants": {
+        "original": {
+          "body": "A Tisza Párt egy a múlt héten benyújtott javaslatával betiltaná a magyar európai parlamenti képviselők parlamenti felszólalásait, ezzel szakítva egy huszonkét éves parlamenti hagyománnyal. A Telex a jövőbeni tervek és az indokok hátteréről a beterjesztők egyikét, Hantosi Istvánt kérdezte. Deutsch Tamás szerint a szokatlan lépés oka az, hogy az ő saját felszólalása túlságosan is jó volt. A hír alapját a Telex értesülései és az érintettek nyilatkozatai adják."
+        },
         "tolkien": {
-          "title": "A Tisza népének sürgetése a tanácskozások szózaturól",
-          "body": "A Tisza Párt új indítványt terjesztett elő a múlt héten, amely megszüntetné a magyar európai parlamenti képviselők eddigi, huszonkét esztendős hagyományon alapuló felszólalási jogait. A változtatás okairól a javaslat egyik beterjesztőjét, Hantosi Istvánt kérdezték a krónikások."
+          "title": "A huszonkét esztendős rend megváltoztatása és a Tisza indítványa",
+          "body": "Íme, a Tisza Párt nevében a múlt hetven napban olyan indítvány született, mely eltörölné a magyar európai parlamenti küldöttek felszólalási jogát, véget vetve ezzel a huszonkét esztendős régiségű hagyománynak. Ezen rendelkezés okairól a lap munkatársai a beterjesztők egyikét, Hantosi Istvánt vallatták. Időközben Deutsch Tamás uram úgy ítélte meg, hogy e rendkívüli szigorzat oka nem más, mint az ő saját felszólalásának rendkívüli kiválósága. A krónika e tények szerint őrzi e napok nevezetes eseményeit."
         },
         "reito": {
-          "title": "A huszonkét éves parlamenti hagyomány esete a túl jó felszólalással és a tiszás módosítóval",
-          "body": "A Tisza Párt által benyújtott törvényjavaslat megszüntetné a huszonkét éve fennálló hagyományt, amely szerint a magyar EP-képviselők felszólalhatnak az uniós tárgyú törvényjavaslatok vitájában és részt vehetnek a bizottsági üléseken. Deutsch Tamás fideszes képviselő szerint a lépés oka, hogy túl jó volt a felszólalásuk és Magyar Péter ettől ideges lett, míg a tiszás Hantosi István a folyosón úgy nyilatkozott, hogy a magyar gyakorlat tág és kiterjesztő, a plenáris és bizottsági üléseken pedig meghívott szakértőként továbbra is részt vehetnek majd az EP-képviselők."
+          "title": "Húsz év után kiderült, hogy a túl jó beszéd is veszélyes",
+          "body": "A Tisza Párt a múlt héten olyan javaslattal állt elő, amely egy huszonkét éves hagyománnyal szakítva egyszerűen betiltaná a magyar EP-képviselők felszólalásait. A lap rögtön sarokba is szorította az egyik beterjesztőt, Hantosi Istvánt, hogy mégis mi indokolja ezt a drasztikus lépést. Deutsch Tamás szerint a válasz roppant egyszerű: a tiltás oka az, hogy az ő felszólalása egyszerűen túlságosan jóra sikeredett. Hát így állunk a nemzetközi porondon, kérem szépen."
         }
       }
     },
@@ -174,20 +177,20 @@
         "technology"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d662e6d6-f314-480c-b053-0841baf2acbb.jpg",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "96d065a4cd4fdcf805ca87ebd2996bc8aa4266a9495d71367fa775a2cd8aac2a",
       "variants": {
         "original": {
-          "body": "Egy érkező szoftverfrissítés új funkcióval bővítheti az Apple készülő, hajlítható kijelzős okostelefonját, az iPhone Duót. A felhasználók a jövőben két szabadon választott, kör alakú widgetet helyezhetnek majd el a külső kijelző zárképernyőjének jobb oldalán."
+          "body": "A hamarosan megjelenő szoftverfrissítés új funkcióval bővíti az Apple első hajlítható kijelzős okostelefonjának, az iPhone Duónak a működését. A készülék tulajdonosai a jövőben widgeteket helyezhetnek el a külső kijelző zárképernyőjén. Egy X-en megosztott videó szerint az Apple két kör alakú widget rögzítését engedélyezi a jobb oldalon. Hogy pontosan melyik két elemet használják, azt a felhasználók határozhatják meg."
         },
         "tolkien": {
-          "title": "A hajlítható üveg és a külső képernyő új titkai",
-          "body": "Íme, hamarosan új képességgel gyarapodhat az almás birodalom első hajlítható okostelefonja, az iPhone Duo. Egy közelgő szoftverfrissítés révén a készülék külső zárképernyőjének jobb szélére két tetszőleges widgetet illeszthetnek majd a tulajdonosok."
+          "title": "Ítélet a külső mezőkön: Új ékességgel gyarapszik a hajlított üvegű vándor",
+          "body": "Hamarosan új és eddig rejtett képességgel gyarapszik az Apple első hajlítható kijelzős okostelefonja, az iPhone Duo. Az eljövendő szoftverfrissítés áldásaként a készülék tulajdonosai a külső képernyő zárképernyőjére is felhelyezhetik majd kedves widgetjeiket. Egy pdfu nevű krónikás X-en közzétett mozgóképe bizonyságot tett arról, miként is fest majd ez a változás a valóságban. A feljegyzés tanúsága szerint a mesterek két kör alakú ékesség rögzítését engedik a jobb szélen, amelyek kilétét maga a tulajdonos határozhatja meg."
         },
         "reito": {
-          "title": "A hajlékony alma esete a külső képernyővel, ami mégis bírni fogja a digitális terhet",
-          "body": "Az Apple első, hajlítható kijelzős okostelefonja, az iPhone Duo hamarosan új képességgel bővülhet egy szoftverfrissítés révén. A tulajdonosok két tetszőleges widgetet pakolhatnak majd a mobil külső kijelzőjén a zárképernyő jobb oldalára. A pdfu nevű X-felhasználó bejegyzése és videója szerint mindezt már meg is mutatták a nagyközönségnek."
+          "title": "Két pötty a jobb szélen: Okosodik az Apple hajlítható csodája",
+          "body": "Az Apple első hajlítható kijelzős okostelefonja, az iPhone Duo hamarosan egy új szoftverfrissítés révén okosodik. A készülék tulajdonosai a jövőben widgeteket pakolhatnak a mobil külső kijelzőjének a zárképernyőjére. Egy pdfu nevű X-felhasználó videója pontról pontra megmutatta, hogyan is fest a gyakorlatban ez a trükk. A felvétel szerint a rendszer pontosan két kör alakú widget rögzítését engedélyezi a jobb oldali szélen, amelyek közül a felhasználók választhatják ki a nekik tetszőket."
         }
       }
     },
