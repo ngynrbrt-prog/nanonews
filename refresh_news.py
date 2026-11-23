@@ -427,7 +427,7 @@ def sync_pending_archive():
             variants=pending_story.get("variants",{})
             tolkien=variants.get("tolkien",{})
             reito=variants.get("reito",{})
-            if not (tolkien.get("title") and tolkien.get("body") and reito.get("title") and reito.get("body")):continue
+            if not variants:continue
             target=archived_by_url.get(pending_story.get("url"))
             if target:
                 target["variants"]=pending_story["variants"]
