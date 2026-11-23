@@ -107,12 +107,12 @@ class LatestStoriesParser(HTMLParser):
             if "/story.shtml" in href:self.current=[href,[]]
     def handle_data(self,data):
         if self.current:
-            value=re.sub(r"\\s+"," ",data).strip()
+            value=re.sub(r"\s+"," ",data).strip()
             if value:self.current[1].append(value)
     def handle_endtag(self,tag):
         if tag=="a" and self.current:
             href,parts=self.current
-            title=re.sub(r"\\s+"," "," ".join(parts)).strip()
+            title=re.sub(r"\s+"," "," ".join(parts)).strip()
             if title:self.items.append((title,href))
             self.current=None
 
