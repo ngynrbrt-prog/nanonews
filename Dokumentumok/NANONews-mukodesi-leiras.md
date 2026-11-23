@@ -430,5 +430,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A repó nyilvános, ezért standard GitHub-hosted runnerrel a workflow futtatása ingyenes. A Gemini-kérés továbbra is a beállított ingyenes API-keretet használja; a sűrűbb ütemezés több ismételt generálási próbát jelenthet, így az API-kvóta korlátai továbbra is érvényesek.
 - Állapot: az ütemezés és a dokumentáció módosítva a main ágon; az ütemezett futás ellenőrzése folyamatban.
   
+### 2026-11-23 — folyamatosan rögzített alsó írásstílus-sáv
+- Kérés: az Írás stílusa sáv számítógépen és mobilon is ténylegesen, folyamatosan a képernyő aljához legyen rögzítve.
+- Módosítva az index.html: eltávolítottam a görgetési irányt figyelő elrejtést. A sáv állandóan látható, fix pozíciójú láblécként marad a képernyő alján; mobilon a keskenyített gombos elrendezés aktív.
+- A piros jelzés akadálymentes felirata az új, ötpercenkénti újrapróbálásra hivatkozik.
+- Állapot: módosítás main ágra került; GitHub Pages közzététele és élő ellenőrzése folyamatban.
+  
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
