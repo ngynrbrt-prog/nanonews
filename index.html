@@ -177,8 +177,15 @@ body.night-mode .night-toggle[aria-checked="true"] .toggle-state{background:#101
  .story p{line-height:1.5}
  .story-time{grid-column:auto}
 }
+
+/* Keep the masthead logo lockup visible while reading, without pinning the issue date or topic menu. */
+.brand-lockup{position:sticky;top:0;z-index:40;background-color:var(--paper);background-image:radial-gradient(#655e4d12 .65px,transparent .65px);background-size:5px 5px;border-bottom:3px double var(--ink)}
+.brand-inner{max-width:1120px;margin:0 auto;padding:0 32px}
+.nav{max-width:1120px;margin:0 auto;padding-left:32px;padding-right:32px;border-top:0}
+body.night-mode .brand-lockup{background-image:radial-gradient(#d0c09a0a .7px,transparent .7px)}
+@media(max-width:760px){.brand-inner{padding-left:14px;padding-right:14px}.nav{padding-left:14px;padding-right:14px}}
 </style></head>
-<body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><span id="today" class="edition-date"></span></div><div class="brand">NANO<span>News</span></div><div class="strap">A nap, egy másik hasábban.</div><nav class="nav topic-nav" aria-label="Rovataim"><details class="topic-accordion" open><summary class="topic-nav-title"><span>Rovataim</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav></header>
+<body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><span id="today" class="edition-date"></span></div></header><div class="brand-lockup"><div class="brand-inner"><div class="brand">NANO<span>News</span></div><div class="strap">A nap, egy másik hasábban.</div></div></div><nav class="nav topic-nav" aria-label="Rovataim"><details class="topic-accordion" open><summary class="topic-nav-title"><span>Rovataim</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav>
 <main class="page" id="mai"><section class="display-controls" aria-label="Írás stílusa">
  <details class="control-group tone-control style-accordion" aria-labelledby="tone-control-title" open>
   <summary class="control-title" id="tone-control-title"><span>Írás stílusa</span><span class="accordion-indicator" aria-hidden="true"></span></summary>
