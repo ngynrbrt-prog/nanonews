@@ -1,6 +1,15 @@
 name: Refresh NANONews
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: "Tesztfutás vagy hivatalos napi kiadás"
+        required: true
+        type: choice
+        options:
+          - test
+          - official
+        default: test
   schedule:
     # Retry only missing Tolkien rewrites for the latest issue every 5 minutes; official editions are created only in the local 06:00 and 17:00 hour windows.
     - cron: '2/5 * * * *'
@@ -20,6 +29,7 @@ jobs:
       - name: Build editions and rewrites
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NANONEWS_MODE: ${{ inputs.mode }}
         run: python refresh_news.py
       - name: Commit new edition
         run: |
