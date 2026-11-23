@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T11:46:20.453806+01:00",
+  "updatedAt": "2026-11-23T11:55:03.848962+01:00",
   "testEdition": true,
   "stories": [
     {
@@ -109,7 +109,13 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/OBYXRrUG_BGFbAa3Lq6OngS1cNd35cQX2TxQSG-9dCk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkYjljYmRlMzIzZjQ5ZGI4MzFmMDA3MGMxMDg4NDA0.webp",
       "contentBasis": "rss",
-      "sourceHash": "32a4fcb3b9d726bb065b523df8215c073dffad76b25562e8cacb0920f32e5824"
+      "sourceHash": "32a4fcb3b9d726bb065b523df8215c073dffad76b25562e8cacb0920f32e5824",
+      "variants": {
+        "tolkien": {
+          "title": "A debreceni hadak diadalmas vihara Nyíregyháza mezsgyéjén",
+          "body": "Íme, megíratott a napok krónikájában, hogy az NB I keleti viadalán a Loki népe hatalmas diadalt aratott. A harc színhelyén a debreceni bajnokok fél tucat találatig jutottak ellenfelük kapujában. E fegyvertény által dicsőségesen zárult a keleti vidékek nagy megmérettetése."
+        }
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -127,25 +133,6 @@
         "tolkien": {
           "title": "A hős, ki elhagyta az Angyalok Városának bástyáját",
           "body": "Tizenhárom hosszú esztendő pergett le azóta, hogy Dwight Howard, a harcok egykori jeles védelmezője hátat fordított Kobe Bryantnek és a Lakers népének. A viharvert bajnok mostanáig őrzött szavakkal vallott arról, mi vezérelte őt a 2013-as nyár delén a Houston Rockets felé. Utólag úgy véli, túl mélyen hallgatott a szíve szavára, és ez a döntés mindmáig a birodalom leggyakrabban emlegetett krónikáinak egyike maradt."
-        }
-      }
-    },
-    {
-      "source": "Nemzeti Sport",
-      "title": "Hatgólos hátrányból fordítva nyert az ETO a férfi kézilabda NB I-ben",
-      "summary": "A győriek zsinórban a kilencedik tétmeccsüket is megnyerték.",
-      "url": "https://nemzetisport.hu/kezilabda/2026/11/hatgolos-hatranybol-forditva-nyert-az-eto-a-ferfi-kezilabda-nb-i-ben",
-      "published": "Sun, 22 Nov 2026 18:39:10 +0000",
-      "categories": [
-        "domestic"
-      ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/GByS4YioML_qystwp5fjJaTD4ayzeulTjXGqdcI9LTE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2QzNTM0ZTA4NTdiNjQ2MDQ4Yjg4NDhmMDg2NmI5ZDBi.webp",
-      "contentBasis": "article",
-      "sourceHash": "cf7d6da88f348c6ff8fb087f0f4ed53cac9abe4cc83117fb388d3e8aeed645cd",
-      "variants": {
-        "tolkien": {
-          "title": "A Győri Bajnokok Viadala a Budai Farkasok Földjén",
-          "body": "A férfiak kézilabda-bajnokságának tizedik fordulójában a Budai Farkasok csapata hosszas küzdelemre kelt az ETO seregével Budaörs várának határában, hétszázötven szemlélő szeme gyűrűjében. Az ütközet kezdetén a hazaiak ragadták magukhoz az irányítást, és Haled Nurelden vezetésével hatgólos fórra tették szert az első félidő derekán, a szünetre pedig kétgólos előnnyel vonulhattak. A viadal második felében azonban feltámadtak a győriek, kik a negyvenötödik minutumra már négy góllal fejre állították a csatát, s bár a felek ismét döntetlenre zárkóztak fel, a végjátékban a hazaiak emberhátránya bukásukhoz vezetett. Így az ETO harcosai arattak diadalt 31–29 arányban, elhozva a győzelmet, ami sorozatban a kilencedik diadaluk volt a megmérettetések során."
         }
       }
     },
@@ -179,7 +166,13 @@
       ],
       "image": "https://assets.telex.hu/images/20261120/1795192802-temp-v3djb30ip0ik7edaimg_cimlap-normal.jpg",
       "contentBasis": "article",
-      "sourceHash": "7e43efe8bbee60ff43c8c3fa40c8a942687b5fb459814cd5d496abdc55328a4a"
+      "sourceHash": "7e43efe8bbee60ff43c8c3fa40c8a942687b5fb459814cd5d496abdc55328a4a",
+      "variants": {
+        "tolkien": {
+          "title": "A Nagy Gyűlés és az Első Fekete Vezető Várható Kinevezése",
+          "body": "Íme, a Krónikák szerint a Demokraták népe nagy győzelmet aratott a félidős megmérettetésen, így visszaszerezték a hatalmat a Képviselőházban, miközben Mike Johnson főember búcsút int a posztnak. A titkos pecsétek lezárulta után eldőlt, hogy Hakeem Jeffries frakcióvezetőt jelölik a méltóságra, akit január harmadikán, az új kongresszus hajnalán várhatóan hivatalosan is megválasztanak. Ezzel ő leszen az első fekete férfi ezen a magas polcon az amerikai birodalom történetében, mögötte pedig hűséges vezértársak, Katherine Clark, Pete Aguilar és Lauren Underwood segítik majd a tanácsadást. A megújult sereg arra készül, hogy megfékezze Donald Trump elnök hatalmát, és új törvényekkel segítse a népét a következő viharos esztendőkben."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -217,25 +210,6 @@
         "tolkien": {
           "title": "Kelet népeinek viadala: a Sólymok és a Puskaporosok megmérettetése",
           "body": "Így esett, hogy a naplemente óráiban, a hét utolsó napján az NBA birodalmának keleti felvidékéről két dicső csapat lép porondra: Atlanta fiai otthonukban fogadják Detroit seregét. A viadal magyar idő szerint kilenc óra harminc perckor veszi kezdetét, s a távoli krónikások híradása szerint a Sport2 csarnokában élőben látható az ütközet. Ezzel egy időben az NBANews.hu krónikájának pergamenjén is folyamatosan olvashatók lesznek a csata számai és legfőbb eseményei."
-        }
-      }
-    },
-    {
-      "source": "HVG",
-      "title": "Best of Magyar Péter – elérhető a miniszterelnök saját videóválogatása",
-      "summary": "„Legviccesebb jelenetek 1. rész” – ez a címe, és ki tudja hány rész lesz még.",
-      "url": "https://hvg.hu/itthon/20261122_best-of-magyar-peter-miniszterelnok-sajat-valogatas",
-      "published": "Sun, 22 Nov 2026 15:44:00 Z",
-      "categories": [
-        "domestic"
-      ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/645dab95-fdea-4a3f-a48c-819d655584bb.jpg",
-      "contentBasis": "article",
-      "sourceHash": "f9ff8c62072aef91c5ef44b73b8fbb956ae0bdf8410bb25ac371bacf0093f627",
-      "variants": {
-        "tolkien": {
-          "title": "Krónika a Fényes-hálón: Így szóla Magyar Péter mozgó krónikája",
-          "body": "Napkelet vasárnapján, délutáni órákban Magyar Péter, a miniszterelnök új mozgóképes tekercset bocsátott közre a nép nagy gyülekezőhelyén, a Facebook elnevezésű birodalomban. Az összeállítást azzal a szándékkal küldötte világra, hogy az a délutáni frissítő mellé szolgáljon, és segítségül legyen a lankadó hírmondóknak is a további vágási munkákban. A krónikában számos olyan mulatságosnak és meghökkentőnek ítélt képsor látható, amelyek különösen a legutóbbi napok szexuális tárgyú vitáinak tükrében kétértelmű jelentést hordozhatnak. Mivel a felvétel a „Magyar Péter, legviccesebb jelenetek 1. rész” címet viseli, a krónikások tüstént újabb fejezetek eljövetelére számíthatnak a jövőben. A nép körében nagyra becsült mű az első órák során már negyedmillió megtekintést érdemelt ki."
         }
       }
     },
@@ -308,11 +282,11 @@
       ],
       "image": "https://assets.telex.hu/images/20261123/1795430254-temp-jbiqr719q62ebkpilip_cimlap-normal.jpg",
       "contentBasis": "article",
-      "sourceHash": "fe37bd8fe583b453535b20d548451cfb0fc8722a327d80668639c51b18a3457c",
+      "sourceHash": "256b20b3453e34d4f8ac188c8d5f16e73707a70478fc86f1a53c6af8a535d64c",
       "variants": {
         "tolkien": {
-          "title": "A Krónikák Folyása: Magyar utazása és a Ház gyűlései",
-          "body": "Így esett, hogy Magyar Péter a birodalom nagy gyűlésén, a törvényhozás csarnokában szólott a néphez, hírül adva, hogy közelgő útja Kárpátaljára vezet, hogy elvigye az anyaország üzenetét a végeken élőknek. A tanácskozáson szó esett a földművesek kárpótlásáról, a vizek megfékezésére szánt kincsekről, valamint a birodalmat érintő tisztségviselők sorsáról is. Eközben Semjén Zsolt, a keresztények serevének vezére, hosszas évtizedek után lemondott tisztségéről, átadván a stafétát Rétvári Bencének és ifjú társainak. A napok múlásával új főember is emelkedett a hírvivők élére, miközben a nép képviselői újabb nehéz döntések és törvények vitája elé néztek a főváros kőfaluinak árnyékában."
+          "title": "Krónika a Ház gyűléséről, a vizek őrzéséről és a messze földre szóló utakról",
+          "body": "Íme a hír a napról, mikor Magyarország népének vezetője, Magyar Péter szólott a parlament falai között a közelgő döntésekről, az aszály sújtotta gazdák időszerű kártalanításáról és a vízmegtartás hatalmasra növelt kincstári összegéről. Bejelentette utazását a kárpátaljai magyarok földjére, míg a Házban sorsdöntő szavazások, törvényhozási viták és a mentelmi jog ügye vár a képviselőkre. Eközben Semjén Zsolt huszonhárom esztendő után leköszönt a KDNP vezetéséről, átadva a stafétát a fiatalabbaknak, a közmédia élére pedig Kert Attilát választották meg új vezérigazgatónak. E krónika napjaiban a fejedelmek és tisztségviselők sorsa a tárgyalóasztaloknál és a maratoni gyűléseken dől el, míg a nép a jövő téli idők megpróbáltatásaira és a megújulás ösvényeire tekint."
         }
       }
     },
@@ -351,6 +325,25 @@
         "tolkien": {
           "title": "A lombnélküli sétány kincsének utolsó morzsái",
           "body": "Íme, csodás és megdöbbentő árverés tűnt fel az Elektronikus Értékesítési Rendszerben, ahol a romba dőlt és felszámolásra ítélt vállalatok javait bocsátják áruba. Az említett vállalkozás korábban hatvanmillió ezüstpénznyi uniós adományból emelt lombkoronasétányt, amelynek környékéről minden fát letaroltak, ám a mesterkedés idején a cég bevétele a négyszeresére duzzadt. Most a HCInternational Kft. felszámolója ezen céh magánszemélyekkel szembeni, negyvenmillió forintos követelését igyekszik pénzzé tenni az eljárás keretében. Mivel ezen követelések behajtása igen ritkán sikerül, vajmi kevés remény van arra, hogy sokan érdeklődjenek a hirdetett sáfárkodás iránt."
+        }
+      }
+    },
+    {
+      "source": "HVG",
+      "title": "Megszüntetné a kormány a könyvek árkötöttségét",
+      "summary": "Ha az országgyűlés elfogadja a módosítási javaslatot, az olvasók is jól járnak.",
+      "url": "https://hvg.hu/itthon/20261123_megszunteti-a-kormany-a-konyvek-arkotottseget-szabadabban-donthetnek-a-kereskedok",
+      "published": "Mon, 23 Nov 2026 10:52:35 Z",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/31426872-4eeb-461c-a33e-026820cf9051.png",
+      "contentBasis": "article",
+      "sourceHash": "a3c6cad844f16fea2019fcf269a13492f22174787a0e714d961a4bf67ad19c24",
+      "variants": {
+        "tolkien": {
+          "title": "Krónika a könyvek árának bilincseiről és a birodalom változásairól",
+          "body": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium hírül adta, hogy a kormány határozott az új kötetek kötelező árkötöttségének eltörléséről, és e jogszabály-módosítást hamarosan az Országgyűlés elé tárják. A korábbi, 2024-ben fogant szabályzat még legfeljebb tízszázalékos kedvezményt engedett az első évben, ám a friss döntés értelmében a kereskedők ismét szabadabb árakat szabhatnak, az olvasók pedig kedvezőbb feltételekhez juthatnak. E változást megelőzően Berg Judit helyettes államtitkár egyeztetett a kiadók és szerzők képviselőivel, miközben a kisebb független boltok védelme és a piac sokszínűsége továbbra is fontos maradt a tárca számára. Továbbá a krónikák feljegyzik, hogy 2026. szeptember első napját történelmi pillanatnak tekintik a kisebb kiadók, mivel az MCC alapítványával együtt a Libri is az állam birtokába került."
         }
       }
     },
@@ -441,11 +434,11 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcb277c3-0637-4376-a1e2-afe4d31f67d2.jpg",
       "contentBasis": "article",
-      "sourceHash": "66b646957e141a99b401f080643e4d3260c2436cfa1e0ed22957c4fc75952ab4",
+      "sourceHash": "cbaee70e7a26eeede954eeffe7a28266a2ade3b1b66c1ac0924167220d8480c2",
       "variants": {
         "tolkien": {
           "title": "A Tanács ülése és a Munkács felé vezető ösvények",
-          "body": "A Főtanács megkezdé gyűlését, hol számos törvény és népi rendtartás sorsa dől el a hegyek és síkságok lakói számára. Magyar Péter a gyűlésben arról szólt, hogy Oroszország az agresszor és Ukrajna az áldozat, és jelezte: nem feledve a múlt sebeit és saját nagyapjának Munkácsról való menekülését, rövidesen Kárpátaljára utazik, hogy az anyaország üzenetét vigye. Szóba került a közelgő uniós gyűlés is, ahol a lengyel, cseh és szlovák szövetségesekkel együtt emelik szavukat a gazdákért, míg odahaza a családi pótlék, a nyugdíjak és az adók változásairól is döntenek a törvényhozók."
+          "body": "Az Országgyűlés nagytanácsa megkezdi heti ülését, melynek során több tucat törvény sorsáról döntenek a nemesek és képviselők. Magyar Péter a gyűlésen bejelentette, hogy hamarosan Kárpátaljára utazik, hogy elvigye az anyaország támogató üzenetét a megpróbáltatásokkal sújtott vidékre. Beszédében az orosz agressziót és a helyi lakosok emberfeletti küzdelmét méltatta, emellett bírálta a kormánypártokat, amiért azok szerinte nem álltak ki egyértelműen az áldozatok mellett. A törvényhozás asztalán ezen túlmenően gazdasági kérdések, adók, segélyek, valamint a családokat és a legalacsonyabb nyugdíjakat érintő javaslatok is szerepelnek."
         }
       }
     },
@@ -575,7 +568,13 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/Cvs9WuK6ohmNHbupv24fY3iQklJRSeE9GkEDadZ0RHs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVmZDNjYzZjNGQ4MzQ2ZTdiYTZkYTZmZmM5NGQ0NjIz.webp",
       "contentBasis": "article",
-      "sourceHash": "52ede69037c632d4ec5d8750e380e6116ace75a69edab07b75b06f950db0f891"
+      "sourceHash": "e8bb1b2ddfa23f755db624b2a193997e0024459546c04fb22d3a41c64abd398d",
+      "variants": {
+        "tolkien": {
+          "title": "A Nagy Csarnokok viadalai: Krónika az északi és déli ütközetekről",
+          "body": "A denveri bajnokok hosszú és véres küzdelemben, hosszas ráadás után, 151–145 arányban győzedelmeskedtek a chicagói seregek felett, miközben Nikola Jokics és a 45 pontig jutó Jamal Murray hatalmas erőről tett tanúbizonyságot. Ezen a viadalon a legyőzöttek oldaláról Josh Giddey bámulatos hőstettet hajtott végre, ám a sors végül a vendégek javára döntött. Másutt a Golden State Warriors csekély, 88–87-es diadalt aratott a Boston Celtics felett egy rendkívül szűkmarkú mérkőzésen, a Miami Heat pedig 123–113-ra győzte le az Oklahoma City Thundert, ezzel hétre nyújtva győzelmi sorozatát. Végezetül a New York Knicks csapata Karl-Anthony Towns és Josh Hart vezetésével 113–106-ra múlta felül az Indiana Pacers alakulatát a saját otthonában."
+        }
+      }
     },
     {
       "source": "HVG",
