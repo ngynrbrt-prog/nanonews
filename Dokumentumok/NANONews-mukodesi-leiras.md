@@ -629,3 +629,11 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 - Az „Eredeti” stílus neve minden választónál „Eredeti összefoglaló” lett.
 - A Darts rovat visszakerült a sportrovatok közé. A dátumhoz kötött Belföld-rovat aktiválása többé nem rejti el a Darts menüpontot.
 - Új sportrovat: Bajnokok ligája. A gyűjtés és a webes szűrés az UEFA Champions League/Bajnokok ligája kifejezések alapján sorolja ide a kapcsolódó európai futballhíreket; a kategória kizárja ezeket a híreket a Technológia és Belföld rovatokból.
+
+
+### 2026-11-23 — Belföld rovat egységesítése
+
+- A korábbi „Belföldi parlament” és „Belföldi hírek” menüpontok helyett egyetlen „Belföld” rovat működik.
+- A rovat a magyar gazdasági híreket, a NER-rel és a kapcsolódó hazai szereplőkkel foglalkozó híreket, valamint a parlamenti témákat gyűjti. A sporthírek kizáródnak.
+- A szűrés a „NER” önálló rövidítést is felismeri teljes szóként, emellett a NER-hez kapcsolódó szereplőket és kifejezéseket is figyelembe veszi.
+- A menüváltás és a besorolási szabályok 2026. november 24-én 06:00-tól lépnek életbe, a korábban kért ütemezés szerint.
