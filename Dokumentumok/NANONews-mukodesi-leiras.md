@@ -650,3 +650,6 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 
 - A fejléc alatti három választógomb fölött középre igazítva „Stílusok” felirat jelenik meg.
 - A cikkablakból eltűnt a külön stílusválasztó. A főoldalon kiválasztott Eredeti összefoglaló, Tolkien vagy Rejtő Jenő mód érvényesül a megnyitott cikk címén és szövegén, valamint az Összehasonlítás sorainak címein és rövid leírásain.
+
+
+A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sportkategóriájú, illetve a sportkifejezésekkel felismerhető cikkeket. Ez a begyűjtéskor és a felületi rovat szűrésekor egyaránt érvényesül.
