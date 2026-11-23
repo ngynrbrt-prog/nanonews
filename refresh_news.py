@@ -29,6 +29,7 @@ rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
  "man-united":["manchester united","man united"],"como":["como "],
  "premier":["premier league","angol bajnokság","angol liga","premier ligában"],
+ "champions-league":["bajnokok ligája","uefa champions league","champions league"],
  "f1":["formula-1","formula 1","forma-1","f1","fernando alonso","nagydíj","nagy díj"],
  "nba":["nba","kosárlabda"],
  "nfl":["nfl","amerikai foci","touchdown"],
@@ -45,8 +46,8 @@ rules={
 DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai"]
 ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés"]
 NER_MARKERS=["nemzeti együttműködés rendszere","ner-es","ner-közeli","fidesz","orbán viktor","orbán-kormány","mészáros lőrinc","tiborcz istván","közpénz","közbeszerzés","kormányközeli"]
-SPORT_MARKERS=["darts","pdc","arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
-SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","seahawks","cycling","darts"}
+SPORT_MARKERS=["bajnokok ligája","uefa champions league","champions league","darts","pdc","arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
+SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","champions-league","f1","nba","nfl","seahawks","cycling","darts"}
 
 def is_domestic_economy(hay,categories):
     if SPORT_CATEGORIES.intersection(categories) or any(term in hay for term in SPORT_MARKERS):
