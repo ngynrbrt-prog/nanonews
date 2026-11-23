@@ -290,5 +290,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Ha egy hír publikálási ideje nem állapítható meg, a legutóbbi rendes kiadáshoz képest nem kerül be. Így a tesztlapok nem blokkolják az új híreket; a 14:00-s rendes kiadás pedig csak az előző rendes lap óta publikált tartalmat veheti fel.
 - Ha egy rovatban nincs új cikk, a rovat üres marad; a felület ettől még mutatja a kiadás frissítési idejét.
 
+### 2026-11-23 — mobilos elrendezés és megjelenítésválasztó
+- Kérés: javítani a mobilos rovatmenü és cikkek megjelenését; az Eredeti/Tolkien választó közvetlenül a rovatmenü alatt, a cikkek előtt jelenjen meg.
+- Módosítva az index.html: a hangnemválasztó kikerült az oldalsávból, és a rovatmenü utáni, teljes szélességű eszközsávba került.
+- A rovatmenü Sportrovatok és További rovatok címkékkel különíti el a két csoportot. Mobilon a témák kétoszlopos, nagyobb tappolási felületű rácsba rendeződnek; a sportos csoport marad elöl.
+- Mobilnézetben szűkebb oldalsó margók, képernyőhöz illő cikkképek és címméretek, jól olvasható kártyaközök, könnyebben kezelhető archívum és cikkablak szerepel.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
