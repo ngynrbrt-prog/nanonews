@@ -79,9 +79,9 @@ A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjté
 
 ## 5. Kiadásrend és ütemezés
 
-A .github/workflows/refresh.yml GitHub Actions workflow 30 percenként ellenőrzi a hírforrásokat. Minden óra 00 és 30 perces ütemezett futásánál az RSS-feedekből csak a rovatoknak megfelelő új cikkeket dolgozza fel. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
+A .github/workflows/refresh.yml GitHub Actions workflow ötpercenként ellenőrzi a hírforrásokat, a cron ütemezése az óra 02., 07., 12. percétől indul (majd 17., 22. … 57. perc), hogy ne pontosan az óra eleji nagy terhelésre essen. Minden kör az RSS-feedekből csak a rovatoknak megfelelő új cikkeket dolgozza fel, és a legfrissebb hivatalos kiadás hiányzó Eredeti/Tolkien-változatait próbálja pótolni. A már elkészült változatok kimaradnak. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
 
-Az időzóna Europe/Budapest. A GitHub cron UTC-alapú, de a félórás ütem az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. A GitHub Actions indítása néha késhet, ezért az ütemezés tervezett időpont, nem másodpercre garantált futás. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
+A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; háromperces ütemezés nem támogatott. Az időzóna Europe/Budapest. A cron alapértelmezés szerint UTC-t használ; az ötperces periódus az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. Az indítás tervezett időpont, nagy terhelésnél késhet. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
 
 ## 6. Hírek feldolgozásának folyamata
 
@@ -91,7 +91,7 @@ Az időzóna Europe/Budapest. A GitHub cron UTC-alapú, de a félórás ütem az
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
 5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindkét összefoglaló 2–3 rövid mondatos; a program a kimenetet legfeljebb három mondatra és 900 karakterre korlátozza. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
 6. A program csak a legfrissebb hivatalos kiadásban ellenőrzi a hiányzó Eredeti vagy Tolkien-változatokat; a már elkészült változatokat kihagyja, régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
-7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres félórás ellenőrzés nem készít commitot.
+7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres ötpereces ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
 
@@ -99,7 +99,7 @@ Az időzóna Europe/Budapest. A GitHub cron UTC-alapú, de a félórás ütem az
 
 ```mermaid
 flowchart TD
-  schedule["Ütemezés: 30 percenként"] --> fetch["RSS-feedek lekérése"]
+  schedule["Ütemezés: 5 percenként"] --> fetch["RSS-feedek lekérése"]
   manual["Kézi Run workflow indítás"] --> fetch
   fetch --> feeds["Források egyenkénti feldolgozása"]
   feeds --> available{"A feed elérhető?"}
@@ -109,7 +109,7 @@ flowchart TD
   dedupe --> newer{"Új cikk a legutóbbi hivatalos lap óta?"}
   newer -->|Nem| pending["A legfrissebb lap hiányzó változatainak ellenőrzése"]
   pending --> done{"Minden változat elkészült?"}
-  done -->|Nem| unchanged["Kiadás változatlan; következő félórás kör újrapróbálja"]
+  done -->|Nem| unchanged["Kiadás változatlan; következő 5 perces kör újrapróbálja"]
   done -->|Igen| sync["Aktuális kiadás és annak archív másolata frissül"]
   newer -->|Igen| topics["Rovatok hozzárendelése a cím és kivonat alapján"]
   topics --> domestic{"Belföldi hírek rovat?"}
@@ -422,6 +422,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Piros pont jelenik meg a cikkcímben, ha hiányzik az Eredeti összefoglaló vagy a Tolkien-cím/szöveg. A NANONews felülete hárompercenként friss adatot kér le; amikor a háttérfolyamat sikeresen pótolta a változatokat, a jelölés az új adatok beolvasásakor eltűnik.
 - A GitHub Actions ütemezése félóránként, minden óra 00 és 30 percénél fut. Minden ütemezett kör a legfrissebb rendes kiadás hiányzó összefoglalóit próbálja elkészíteni; teljesen elkészült cikkhez nem küld új generálási kérést.
 - Állapot: kód és dokumentáció main ágra került; GitHub Pages publikálás (#141) sikeres. Az élő asztali oldalon ellenőriztem a hiányos cikkek piros jelzését és a sáv elrejtését/visszatérését görgetési irány szerint. Mobilon a media query kétoszlopos gombsort, rövidebb sávot és rejtett magyarázatot állít be.
+  
+### 2026-11-23 — hiányzó összefoglalók sűrűbb újrapróbálása
+- Kérés: az Eredeti összefoglaló és a Tolkien-változat generálási próbája hárompercenként ismétlődjön, mert az aktuális kiadásban sok cikk változata hiányzik.
+- A GitHub Actions ütemezésének dokumentációja szerint a legrövidebb támogatott cron-időköz öt perc; hárompercenkénti ütemezést a platform nem enged. Emiatt a workflow a lehető legsűrűbb, ingyenes standard runneres futásra állt át: ötpercenként, az óra 02., 07., 12. … 57. percében.
+- A frissítő továbbra is csak a legfrissebb hivatalos kiadás hiányzó változatait próbálja létrehozni. A teljesen elkészült cikket nem generálja újra; a piros jelzés az automatikus adatfrissítést követően eltűnik, ha mindkét változat rendelkezésre áll.
+- A repó nyilvános, ezért standard GitHub-hosted runnerrel a workflow futtatása ingyenes. A Gemini-kérés továbbra is a beállított ingyenes API-keretet használja; a sűrűbb ütemezés több ismételt generálási próbát jelenthet, így az API-kvóta korlátai továbbra is érvényesek.
+- Állapot: az ütemezés és a dokumentáció módosítva a main ágon; az ütemezett futás ellenőrzése folyamatban.
   
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
