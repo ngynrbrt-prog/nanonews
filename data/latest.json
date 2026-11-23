@@ -1,102 +1,115 @@
 {
-  "updatedAt": "2026-11-23T12:25:38.347170+01:00",
-  "testEdition": true,
+  "updatedAt": "2026-11-23T14:09:25.401431+01:00",
+  "testEdition": false,
   "stories": [
     {
-      "source": "Fűzővel kifelé!",
-      "title": "Rátámadt az Uber-sofőrre, súlyos balesetet szenvedett a Titans játékosa",
-      "summary": "<p>Egészen bizarr körülmények között került kórházba Jaylen Harrell, a Tennessee Titans védőfalembere. A 24 éves játékos pénteken egy súlyos autóbaleset részese volt a floridai Tampában, miután a rendőrség beszámolója szerint menet közben rátámadt az őt szállító Uber sofőrjére. A Tampa Police Department tájékoztatása szerint Harrell az autó utasa volt, amikor állítólag bántalmazni kezdte a sofőrt. &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/ratamadt-az-uber-soforre-sulyos-",
-      "url": "https://fuzovelkifele.com/2026/11/ratamadt-az-uber-soforre-sulyos-balesetet-szenvedett-a-titans-jatekosa/?utm_source=rss&utm_medium=rss&utm_campaign=ratamadt-az-uber-soforre-sulyos-balesetet-szenvedett-a-titans-jatekosa",
-      "published": "Sun, 22 Nov 2026 23:23:10 +0000",
+      "source": "Telex",
+      "title": "Áder feljelentése ellenére nem függesztené fel Magyar Péter mentelmi jogát a Mentelmi Bizottság elnöke",
+      "summary": "Sasi-Nagy Edit szerint a miniszterelnök csak közpénzek felhasználásával kapcsolatban vetett fel kérdéseket, ezért nem tartja indokoltnak a mentelmi joga felfüggesztését.",
+      "url": "https://telex.hu/belfold/2026/11/23/parlament-mentelmi-bizottsag-dontesek-magyar-peter-forsthoffer-agnes-pocs-janos",
+      "published": "Mon, 23 Nov 2026 14:06:24 +0100",
       "categories": [
-        "nfl"
+        "parliament"
       ],
-      "image": "",
+      "image": "https://assets.telex.hu/images/20261123/1795439135-temp-cdu6hg9b4s632lbnfei_cimlap-normal.jpg",
       "contentBasis": "article",
-      "sourceHash": "c195370981b57ebb313676ab2b53d9a00cff2411ec967c8066535989f1606de1",
+      "sourceHash": "f0cc805eaeb94ab9f2733495a9db664251de81169889c7082cd6d6caadd2105e"
+    },
+    {
+      "source": "Telex",
+      "title": "Elfogadta az unió 2027-es költségvetését az Európai Unió Tanácsa",
+      "summary": "A költségvetést még az Európai Parlament plénumának is jóvá kell hagynia.",
+      "url": "https://telex.hu/gazdasag/2026/11/23/elfogadta-az-unio-2027-es-koltsegveteset-az-europai-unio-tanacsa",
+      "published": "Mon, 23 Nov 2026 12:38:40 +0100",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795433905-temp-v767n7hj853lcmajelj_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "bd8570b4e6f3cf2e3d13449cac76b026d1619722103fc1f684e772e94461ee55",
       "variants": {
+        "original": {
+          "body": "Az Európai Unió Tanácsa hivatalosan elfogadta az unió 2027-es évre szóló költségvetéséről szóló határozatot. A döntés értelmében a jövő évi büdzsé 199,7 milliárd euró kötelezettségvállalási, valamint 211,5 milliárd euró kifizetési előirányzatot tartalmaz. Ez a pénzügyi terv a jelenleg érvényben lévő, 2021 és 2027 közötti időszakra szóló többéves pénzügyi keret hetedik, egyben utolsó éves költségvetése. A kiadási korlátokon belül ráadásul 710,1 millió euró is rendelkezésre áll, ami biztosítja az unió számára a rugalmas reagálást az előre nem látható igényekre. A folyamat azonban még nem zárult le teljesen, ugyanis a költségvetést az Európai Parlament plenáris ülésének is jóvá kell hagynia."
+        },
         "tolkien": {
-          "title": "A Tennessee Titans harcosának bukása a floridai utakon",
-          "body": "Jaylen Harrell, a Tennessee Titans ifjú védője súlyos balesetet szenvedett a floridai Tampában, miután a rendőrség jelentése szerint menet közben rátámadt az őt szállító szekér sofőrére. A vezető a dulakodás közben elveszítette az irányítást a jármű felett, amely előbb egy másik kocsinak, majd egy villanyoszlopnak csapódott. Az ütközéstől a harcos előrerepült és elveszítette eszméletét, ezt követően pedig sebesülten kórházba vetették, ahol jelenleg is ápolják. A szekér hajtója könnyebb sebeket szerzett, míg a másik kocsi vezetője sértetlen maradt, ám a viadalnak még lehetnek törvényes következményei a rendőrségi vizsgálat miatt."
+          "title": "Megszületett az eljövendő esztendő számadása a Nagy Tanács színe előtt",
+          "body": "Az Európai Unió Tanácsa hivatalos határozatban pecsételte meg a birodalom 2027-es esztendejének kincstári terhét és jussát. A megállapított rend 199,7 milliárd eurónyi kötelezettséget és 211,5 milliárd eurónyi kifizetést ró a jövő évre, mely a 2021-től 2027-ig tartó idők keretének utolsó esztendejét jelöli. A birodalom urai ráadásul 710,1 millió aranyat érő eurót tartanak fenn a tartalékokban, hogy a váratlan vészhelyzetekre és megpróbáltatásokra azonnal válaszolhassanak. Ennek a nagyszabású iratnak a pecsétje azonban csak akkor váltja valóra a jövőt, ha azt az Európai Parlament nagygyűlése is egyhangúlag elfogadja."
         }
       }
     },
     {
-      "source": "Nemzeti Sport",
-      "title": "Mr. Szabadrúgás: Szoboszlai Dominik; 9-es osztályzat Szendreinek",
-      "summary": "A Nemzeti Sporthétfői számából ajánljuk:Szoboszlai Dominik adta meg az alaphangot.&nbsp;A magyar válogatott csapatkapitánya Premier League-pályafutása ötödik szabadrúgásgólját lőtte a Manchester Unitednek, amúgy pedig a 17. PL-találatát szerezte, amivel beérte Gera Zoltánt. Minden, ami a „vörös” rangadóról, Mauricio Pochettino MU-edző kínos bemutatkozásáról tudni érdemes – egy oldalon.",
-      "url": "https://nemzetisport.hu/napilap/2026/11/mr-szabadrugas-szoboszlai-dominik-9-es-osztalyzat-szendreinek",
-      "published": "Sun, 22 Nov 2026 22:43:06 +0000",
+      "source": "HVG",
+      "title": "Az októberi 200 milliárd forintos hiányból 120 milliárd volt Budapest támogatása",
+      "summary": "Részletezte a Pénzügyminisztérium, hogyan állt össze a 200 milliárd forintos októberi hiány.",
+      "url": "https://hvg.hu/gazdasag/20261123_koltsegvetes-hiany-penzugyminiszterium",
+      "published": "Mon, 23 Nov 2026 12:23:25 Z",
       "categories": [
-        "man-united",
-        "premier"
+        "domestic"
       ],
-      "image": "",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/5c229b18-a064-4084-b286-0c65cb0ff323.jpg",
       "contentBasis": "article",
-      "sourceHash": "82b6d22b35ab970fc29485b09c1fec607bd6b3d61cff4554cb433e6b11df758b",
+      "sourceHash": "1e2f3739cc71e707da0571c8a2383b4265dfca4e7852eadcad835de6c3fd8e80"
+    },
+    {
+      "source": "Telex",
+      "title": "Magyar Péter: Bűn, hogy Orbán Viktor a háború kitörése óta nem ért rá elmenni Kárpátaljára",
+      "summary": "Magyar Péter a hétfői parlamenti ülésen jelentette be, hogy hamarosan Kárpátaljára utazik.",
+      "url": "https://telex.hu/belfold/2026/11/23/magyar-peter-volodimir-zelenszkij-talalkozo-ukrajna-magyarorszag",
+      "published": "Mon, 23 Nov 2026 11:57:31 +0100",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795432980-temp-h9qr300lrh8scaoombh_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "97c3218bc9b5003b43d1568463c1bb1618232ae8bcf018f366c57ec83da14b16",
       "variants": {
+        "original": {
+          "body": "A háború kitörése óta egyetlen magyar miniszterelnök sem látogatott el Ukrajnába vagy Kárpátaljára, ami Magyar Péter hétfői parlamenti felszólalása szerint elfogadhatatlan mulasztás. Magyar a parlamentben említést tett a Munkácsot ért legutóbbi dróntámadásról, valamint az ukrajnai konfliktus lassan öt éve tartó szenvedéseiről, és kijelentette, hogy Oroszország az agresszor, míg Ukrajna az áldozat. Bejelentése szerint hamarosan személyesen viszi el az anyaország támogató üzenetét a kárpátaljai magyaroknak, ugyanis Orbán Viktor utoljára 2015-ben járt a térségben. A készülő vizit pontos időpontját és az ukrán elnökkel való esetleges találkozót azonban még nem részletezte. Ezzel kapcsolatban említésre méltó, hogy Andrij Szibiha ukrán külügyminiszter korábbi bejelentése szerint november végéig tető alá hozzák a legmagasabb szintű találkozót Volodimir Zelenszkijjel. Magyar Péter legutóbb 2024 nyarán, még európai parlamenti képviselőként járt Kárpátalján és Kijevben, amikor adományokat szállítottak egy rakétatalálatot kapott gyerekkórháznak."
+        },
         "tolkien": {
-          "title": "Krónika a Labda és a Trófea Hőseiről",
-          "body": "Ímhol hír adatik a bajnokok viadalairól, hol Szoboszlai Dominik, a magyarok kapitánya ötödik szabadrúgásgólját szerezve beérte Gera Zoltán dicső találatainak számát a szigetországi ligában. Nyíregyháza mezején Szendrei Ákos háromszoros találatával kilences érdemjegyet vívott ki magának a keleti népek feszült küzdelmében. Torinó csarnokában pedig Carlos Alcaraz viadalra kelve legyőzte a világelső Alexander Zverevet, így a Grand Slam-koronák mellé az ATP-világbajnokság trófeáját is magának követelte. E krónika lapjai említést tesznek még Jacques Mayol mélytengeri merüléséről, Johnny Rep és Shane Gould jubileumairól, valamint az ungváriak egykori szárnyaló csapatairól is."
+          "title": "Krónika a keleti végekről és a mulasztott látogatásokról",
+          "body": "Így esett, hogy a háború sötét esztendei óta egyetlen magyar fővezér sem tette be lábát Kárpátalja földjére, melyet Magyar Péter a magyar Országgyűlés csarnokában bűnnek nevezett. A fegyverek zajától hangos keleti vidéken, hol Munkács városa is drónok tüzes veszedelmét szenvedte el, az anyaország üzenetét hamarosan mégis elviszik a magyarságnak. A krónikák szerint Orbán Viktor rég, még 2015-ben járt utoljára ott, míg Magyar maga már korábban is megfordult a meggyötört földeken adományokat hordozva. A közeljövőben pedig tárgyalások nyomán magával az ukrán nép vezetőjével, Volodimir Zelenszkijjel is találkozhat a magyar politikus e háború sújtotta időkben."
         }
       }
     },
     {
-      "source": "NBAnews.hu",
-      "title": "Hat NBA-meccs az éjszaka: a bajnok Knicksre is komoly feladat vár, Miamiban sztárok játéka kérdéses",
-      "summary": "Hat mérkőzéssel folytatódik az NBA alapszakasza vasárnapról hétfőre virradóra, és az éjszakai program több olyan összecsapást is tartogat, amelynek komoly jelentősége lehet a csapatok számára. A címvédő New York Knicks az Indiana Pacerst fogadja, a Boston Celtics a Golden State Warriors otthonában lép pályára, míg Miamiban két olyan együttes találkozik, amelynek felkészülését meghatározó játékosok sérülései...",
-      "url": "https://nbanews.hu/nba-hat-meccs-knicks-thunder-celtics/",
-      "published": "Sun, 22 Nov 2026 20:40:59 +0000",
+      "source": "Telex",
+      "title": "A Fidesz és a Mi Hazánk totális diktatúrában érzi magát – a parlamenti házszabály módosításáról vitáztak",
+      "summary": "Apáti István azt javasolta a Tiszának, hogy tiltsák be az ellenzéket, Tuzson Bence pedig állítása szerint még soha nem olvasott ilyen fércművet. A Tisza szerint a parlamenti szabályokat teljesen át kell szabni, és ez csak ráncfelvarrás.",
+      "url": "https://telex.hu/belfold/2026/11/23/parlament-hazszabaly-orszaggyulesi-torveny-igazsagugyi-bizottsag-tisza",
+      "published": "Mon, 23 Nov 2026 11:43:06 +0100",
       "categories": [
-        "nba"
+        "parliament"
       ],
-      "image": "",
+      "image": "https://assets.telex.hu/images/20261123/1795430247-temp-mskd086o3rn74lnloca_cimlap-normal.jpg",
       "contentBasis": "article",
-      "sourceHash": "ebfb8a3baf2063c629f829c5575162af3b6e9919de33422a671ffc3a7e0694d3",
-      "variants": {
-        "tolkien": {
-          "title": "Így esett, hogy hat viadal vár a Koszorú Ligájának vitézeire ezen a sötét éjszakán",
-          "body": "A Csarnokok krónikái szerint hat ütköznettel folytatódik az alapszakasz viadala a vasárnaptól hétfőre virradó órákban, melyek közül több is súlyos súllyal bír a seregek sorsára nézve. A trón védelmezője, a New York Knicks az Indiana Pacerst fogadja várva várt csatájában. Eközben a Boston Celtics a Golden State Warriors birodalmában vonul csatatérre, Miamiban pedig két olyan tábor találkozik, amelyek felkészülését vezérharcosaik sebei nehezítik."
-        }
-      }
+      "sourceHash": "4bd6ee09f0348e514c17275ccfe8afa75d8f5f1140a262ba433e656d6d988982"
     },
     {
-      "source": "NBAnews.hu",
-      "title": "Egy döntés, amely 13 év után nem hagyja nyugodni Dwight Howardot",
-      "summary": "Több mint tizenhárom év telt el azóta, hogy Dwight Howard egyetlen Los Angelesben töltött idény után hátat fordított Kobe Bryantnek és a Lakersnek, a döntése azonban még mindig az NBA egyik legtöbbet emlegetett története. A korábbi háromszoros Év Védőjátékosa most minden eddiginél őszintébben beszélt arról, miért választotta 2013 nyarán a Houston Rocketset, és miért gondolja...",
-      "url": "https://nbanews.hu/dwight-howard-kobe-bryant-lakers-tavozas/",
-      "published": "Sun, 22 Nov 2026 18:54:08 +0000",
+      "source": "HVG",
+      "title": "Budapest visz mindent, de hol lehet még igazán nagy profitot elérni az országban?",
+      "summary": "Eltérő a magyarországi megyék gazdasági teljesítménye, ezt mutatja a profit alapján összeállított toplistánk is. A listán zárójelben a cég helyezését mutatjuk az ötszázas listán.",
+      "url": "https://hvg.hu/360/20261123_a-legnagyobb-nyeresegu-cegek-megyenkent-top500",
+      "published": "Mon, 23 Nov 2026 11:34:25 Z",
       "categories": [
-        "nba"
+        "domestic"
       ],
-      "image": "",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/e935fa42-c12e-4b5f-b68f-524ace93eeb5.jpg",
       "contentBasis": "article",
-      "sourceHash": "5a60eed883ea615f7eb2746da900cec6d28453bb4fdc866621a9d861412df3ed",
-      "variants": {
-        "tolkien": {
-          "title": "A hős, ki elhagyta az Angyalok Városának bástyáját",
-          "body": "Tizenhárom hosszú esztendő pergett le azóta, hogy Dwight Howard, a harcok egykori jeles védelmezője hátat fordított Kobe Bryantnek és a Lakers népének. A viharvert bajnok mostanáig őrzött szavakkal vallott arról, mi vezérelte őt a 2013-as nyár delén a Houston Rockets felé. Utólag úgy véli, túl mélyen hallgatott a szíve szavára, és ez a döntés mindmáig a birodalom leggyakrabban emlegetett krónikáinak egyike maradt."
-        }
-      }
+      "sourceHash": "e23ad3e75aa43d85b11fa8bc54798df6c7061a2e507715a77096529bfe96a1eb"
     },
     {
-      "source": "NBAnews.hu",
-      "title": "Keleti rangadó a Sport2-n: a Hawks és a Pistons csatája az NBANews.hu-n is élőben követhető",
-      "summary": "Vasárnap este két remekül rajtoló keleti csapat találkozik az NBA-ben: az Atlanta Hawks hazai pályán fogadja a Detroit Pistonst. A mérkőzés magyar idő szerint 21:30-kor kezdődik, a Sport2 élőben közvetíti az összecsapást, az NBANews.hu-n pedig folyamatosan követhetők lesznek az eredmények és a találkozó legfontosabb eseményei. A tét sem kicsi, hiszen a két együttes közvetlenül egymás...",
-      "url": "https://nbanews.hu/hawks-pistons-keleti-rangado-elo-kozvetites/",
-      "published": "Sun, 22 Nov 2026 16:09:57 +0000",
+      "source": "Telex",
+      "title": "Magyar Péter: A Seszták-ügyben megtalált pénz Seszták Miklósé",
+      "summary": "Bóka János, a Fidesz frakcióvezetője szerint a miniszterelnök semmilyen kijelentéséért nem vállalja a felelősségét, és be kellene fejeznie, hogy másokat alaptalanul vádol bűncselekménnyel. Parlament percről percre.",
+      "url": "https://telex.hu/belfold/2026/11/23/parlament-percrol-percre-november-23",
+      "published": "Mon, 23 Nov 2026 11:11:45 +0100",
       "categories": [
-        "nba"
+        "parliament"
       ],
-      "image": "",
+      "image": "https://assets.telex.hu/images/20261123/1795430254-temp-jbiqr719q62ebkpilip_cimlap-normal.jpg",
       "contentBasis": "article",
-      "sourceHash": "5983bbe782a041800bdbbb8236a8cd4dcc0e9b7389d5ce3778c6728b014b6da0",
-      "variants": {
-        "tolkien": {
-          "title": "Kelet népeinek viadala: a Sólymok és a Puskaporosok megmérettetése",
-          "body": "Így esett, hogy a naplemente óráiban, a hét utolsó napján az NBA birodalmának keleti felvidékéről két dicső csapat lép porondra: Atlanta fiai otthonukban fogadják Detroit seregét. A viadal magyar idő szerint kilenc óra harminc perckor veszi kezdetét, s a távoli krónikások híradása szerint a Sport2 csarnokában élőben látható az ütközet. Ezzel egy időben az NBANews.hu krónikájának pergamenjén is folyamatosan olvashatók lesznek a csata számai és legfőbb eseményei."
-        }
-      }
+      "sourceHash": "aa489f970e2f042cc7ccacdd5e87f8edd69ccdea77057e9b37f375b1c983cc63"
     },
     {
       "source": "HVG",
@@ -109,11 +122,27 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8d344ff7-b916-40b6-abbe-e7cd2a448abb.jpg",
       "contentBasis": "article",
-      "sourceHash": "a38b74f07fda6501a28d992f9a14aed7dc3199a36a4384114d254ccc3feaa91d",
+      "sourceHash": "c9f59fb11710f664311e0cc1ff3207526d10f70cdda2b5fe2267c08f3a838350"
+    },
+    {
+      "source": "Telex",
+      "title": "Most bárki leverhet 40 milliót egy volt fideszes képviselőn a lombkorona-sétányos cég helyett",
+      "summary": "Vagy 120 milliót a vállalat korábbi tulajdonosán. Igaz, előtte tizedáron meg kell venni a cég követeléseit.",
+      "url": "https://telex.hu/g7/kozelet/2026/11/23/lombkorona-setany-koveteles-felszamolas",
+      "published": "Mon, 23 Nov 2026 11:03:21 +0100",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795425545-temp-hv4qm3aqvccqcffidnc_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "92841996d4491858131208bebf11e6d1493d6d620379e45a8e7c393a30b27bf5",
       "variants": {
+        "original": {
+          "body": "Az Elektronikus Értékesítési Rendszerben egy olyan szokatlan árverési pályázat jelent meg, amelyben a felszámolás alatt álló HCInternational Kft. magánszemélyekkel szembeni követeléseit próbálják meg pénzzé tenni. A felszámolás alá került vállalat korábban egyike volt azoknak a cégeknek, amelyek a Nyírségben uniós támogatásokból lombkoronasétányokat építettek. Az egyik ilyen projekt a tarra vágott erdő miatt, lomb nélküli lombkoronasétányként az értelmetlen közpénzégetés egyik leglátványosabb példájává vált az elmúlt években. A kivitelezési időszakban a cég gazdasági mutatói jelentősen megugrottak, éves forgalma a korábbi szint négyszeresére, 400-500 millió forintra emelkedett. A mostani eljárás során a vállalkozás egy volt fideszes képviselővel és más magánszemélyekkel szembeni, mintegy 40 millió forintos követelését hirdették meg eladásra. Mivel ezek a követelések nem biztosítottak, a hasonló tételek behajtása a gyakorlatban kifejezetten ritka, ezért a szakértők nem számítanak nagy érdeklődésre az árverés iránt."
+        },
         "tolkien": {
-          "title": "A Tanács ülése és a jelöltek sorsa a Független Közmédia Testületéért",
-          "body": "Így esett, hogy az Országgyűlés művelődési bizottságának hétfői gyűlésén megmérettettek a Független Közmédia Testületébe vágyó jelöltek, kiknek sorában a Fidesz és a Mi Hazánk küldöttei is elnyerték a támogatást. A Mi Hazánk színeiben Dörner György – ki Kossuth-díjas színművész és színházigazgató – hét igen, két nem szavazat és két tartózkodás közepette vétetett fel harmadik próbálkozásra, miután korábbi társaik, Moys Zoltán és Hal Melinda elbuktak ezen az úton. Klausmann Viktor, a Fidesz jelöltje nyolc igen szavazattal és három tartózkodással ugyancsak megkapta a bizottság áldását. E tanácskozás napirendjén több mint negyven javaslat szerepelt, miközben a krónika megemlékezik arról is, hogy a kereszténydemokraták korábbi jelöltjét kétszer is elutasította a tiszás többség, a Magyar Rádió éléről érkező második jelöltet azonban egyhangúlag elfogadták."
+          "title": "A lombnélküli liget romjai és a feledésbe merülő követelések krónikája",
+          "body": "Így esett, hogy a Nyírség erdeiben, hol egykor uniós aranyakból emeltek lombkoronasétányokat – s közben a fákat tarra vágták –, a kivitelezéssel megbízott HCInternational Kft. sötét időkbe jutott, s végül felszámolás sorsára ébredt. Most pedig a kincstár romjain ülő felszámolók az Elektronikus Értékesítési Rendszer kapuin át áruba bocsátják a cég követeléseit, melyeket egykori magánszemélyekkel, köztük egy volt fideszes tisztségviselővel szemben halmoztak fel közel negyvenmillió forint értékben. Ám e zálog nélküli követelések útja veszedelmes és bizonytalan, s vajmi kevés esély mutatkozik arra, hogy a kincsekre bárki is vágyakozva tekintne ezen a furcsa vásáron."
         }
       }
     },
@@ -128,13 +157,7 @@
       ],
       "image": "",
       "contentBasis": "article",
-      "sourceHash": "6f21ce278b0737fe91493f7c19ebd56c755209d2893aca026134edd38035468d",
-      "variants": {
-        "tolkien": {
-          "title": "Krónika a küzdőtéren zajló viadalokról és csodás fordulatokról",
-          "body": "Ím, látták, amint Cooper Flagg az utolsó pillanatok homályában sietett a Dallas Mavericks segítségére a győzelemért vívott harcban. Ugyanakkor az Atlanta Hawks népe egy tizennyolc csapásból álló, megállíthatatlan rohammal fordította meg a sorsát a Detroit Pistons ellenében. Eközben a New York Knicks győzedelmes hadjárata is tovább menetelt Karl-Anthony Towns visszatértével."
-        }
-      }
+      "sourceHash": "6f21ce278b0737fe91493f7c19ebd56c755209d2893aca026134edd38035468d"
     },
     {
       "source": "HVG",
@@ -147,13 +170,33 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/31426872-4eeb-461c-a33e-026820cf9051.png",
       "contentBasis": "article",
-      "sourceHash": "6eb084436d8c12d36bc2826d20a737473f820d6d5e7865f37834fd5e1f3d313e",
-      "variants": {
-        "tolkien": {
-          "title": "Ítélet született a könyvek kötelező áráról",
-          "body": "A birodalom kormánya úgy határozott, hogy véget vet az új művek árának kötelező megkötésének, s a törvény terhét hamarosan a Ház elé tárják. E döntés nyomán a kereskedők ismét szabadabb kézzel szabhatják meg az árakat, a nép pedig kedvezőbb feltételekkel juthat hozzá az új tekercsekhez. Ugyanakkor a krónikák feljegyzik, hogy 2026 őszén a fő kereskedőház, a Libri az állam birtokába került, s a Móra atyja sürgette az államot a kincsekbéli helyes cselekvésre."
-        }
-      }
+      "sourceHash": "bc61173a1fcf2345052475eca8645c0184821281202e4296a9331b15e1ef5555"
+    },
+    {
+      "source": "Telex",
+      "title": "Döntött a kormány az árkötöttség megszüntetéséről, visszaadnák a könyvkereskedők árképzési szabadságát",
+      "summary": "Hamarosan az Országgyűlés elé kerül az árkötöttséget megszüntető módosító javaslat.",
+      "url": "https://telex.hu/karakter/kultura/2026/11/23/arkotottseg-konyvkiadas-modosito-javaslat-elfogadas-arkepzes-kormany",
+      "published": "Mon, 23 Nov 2026 10:41:33 +0100",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795426876-temp-qjcf57dv9fgh5gfkncp_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "7532f7e8a20a4991f2dbad95515f843f495fbc726bb52c21cc9b6c1573bf5a6b"
+    },
+    {
+      "source": "Telex",
+      "title": "Magyar Péter Toroczkainak: Bárhogyan is szeretné, nem fogunk együtt éjszakázni",
+      "summary": "Folytatódik a parlament, Magyar Péter napirend előtt szólalt fel. Előtte Hunyadi Bulcsúval, a Political Capital elemzőjével beszéltük át a Seszták-ügyet, Bús Balázs kiengedését, Orbán külföldi útjait, és azt is, ki miatt van egyre rosszabb állapotban a magyar közbeszéd.",
+      "url": "https://telex.hu/video/2026/11/23/parlament-magyar-peter-napirend-elott-hunyadi-bulcsu",
+      "published": "Mon, 23 Nov 2026 10:17:28 +0100",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795419227-temp-in2cdaik0pmi0cpoiol_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "01c0d9f83b7718d559cb9305ca8ac109a2ab42e3a14e0ed90b0a01c1692d7e47"
     },
     {
       "source": "HVG",
@@ -166,17 +209,11 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ad1ea9f2-e257-4c7f-a951-cf294bdc2480.jpg",
       "contentBasis": "article",
-      "sourceHash": "6cabb0f61115da4616ab83ee0ff299b0b75fded5cfa1fb86a2c8250161232123",
-      "variants": {
-        "tolkien": {
-          "title": "Új virradat virrad a kereskedők csarnokaira a mély zuhanás után",
-          "body": "A nyugati kereskedőmezőkön, hol a pénteki napon sötét árny borult a mutatókra, ismét erős felpattanás közeleg a kora hajnali órákban. A mesterséges értelem bajnokai, kik korábban mélyre rántották a birodalom részvényeit, most hatalmas emelkedésnek indulnak: az Anthropic papírjai ötszázalékos, míg az Nvidia kincsei közel tízszázalékos gyarapodást mutatnak a nyitás előtti órákban. E szép újjáéledés azután érkezik, hogy a Nasdaq és a Dow Jones az elmúlt hat esztendő legínségesebb hetét vallhatta magáénak, az S&P pedig másfél esztendeje nem szenvedett ekkora veszteséget egyetlen hét alatt. Még az Anthropic csütörtöki, nagy várakozással övezett tőzsdei debütálása sem tudta megfékezni a korábbi zuhanást, miközben sorsuk a vállalatok hűségén múlik."
-        }
-      }
+      "sourceHash": "ed112e598df58df3168f1dac1dca00d7aab76226ef3bd05fbd013f87686e38f6"
     },
     {
       "source": "HVG",
-      "title": "Magyar Péter rövidesen Kárpátaljára utazik – élő közvetítés a parlamenti ülésről",
+      "title": "Magyar Péter rövidesen Kárpátaljára utazik",
       "summary": "Az Országgyűlés a héten minden nap ülésezik, a napirenden több mint negyven törvényjavaslat, határozati javaslat szerepel.",
       "url": "https://hvg.hu/itthon/20261123_magyar-peter-felszolalasa-parlamenti-ules-elo-kozvetites-orszaggyules",
       "published": "Mon, 23 Nov 2026 09:54:40 Z",
@@ -185,13 +222,20 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcb277c3-0637-4376-a1e2-afe4d31f67d2.jpg",
       "contentBasis": "article",
-      "sourceHash": "1846d1844aa8d25fbf78f53fb25514a8930311056fbd7af0179df81bfeb73273",
-      "variants": {
-        "tolkien": {
-          "title": "A Ház népének gyűlése és a Kárpátaljára szóló útravaló",
-          "body": "Az Országgyűlés nagy csarnokában megkezdődött a hét napirendje, ahol több tucat törvény sorsáról tanácskoznak a tisztségviselők. Magyar Péter a gyűlésen bejelentette, hogy hamarosan Kárpátaljára utazik, hogy elvigye az anyaország üzenetét, emlékeztetve a hallgatóságot az ott élők nehéz sorsára és Oroszország fegyveres támadásaira. A tanácskozás során szó esett a gazdák védelméről, az uniós tárgyalásokról, valamint a jövőbeli adókról, a nyugdíjak és a családi pótlék megemeléséről is. A többi frakció vezetői szigorú kérdésekkel és bírálatokkal válaszoltak a miniszterelnök szavaira, vitatva a külföldi út célját és a korábbi intézkedéseket. A képviselők a héten többek között a közvagyon védelméről, a vízmegtartás prémiumáról és a gazdasági kamarák szabályairól is döntést hoznak."
-        }
-      }
+      "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a"
+    },
+    {
+      "source": "Telex",
+      "title": "Váratlanul gyenge lett a beruházási adat",
+      "summary": "A visszaesés magyarázható azzal, hogy a Tisza-kormány megállította a NER-es cégeket helyzetbe hozó nagy kifizetéseket.",
+      "url": "https://telex.hu/gazdasag/2026/11/23/ksh-karman-andras-ner-beruhazas",
+      "published": "Mon, 23 Nov 2026 09:36:27 +0100",
+      "categories": [
+        "domestic"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795422722-temp-1i3kqn6ir48f8bplfnp_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "2106b19379e97eca967add092227fcf51f921ba8ea7df6885eeb039048d84fd1"
     },
     {
       "source": "HVG",
@@ -204,13 +248,7 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/5493872f-4aa7-4761-b4be-8984bdd2bab9.jpg",
       "contentBasis": "article",
-      "sourceHash": "ac8bdeb201db9cf81974aa0d7eb9ebf319d58737b42ed547235403911143edfd",
-      "variants": {
-        "tolkien": {
-          "title": "Így vándorolt az ország fenyvese Pécel földjéről a hatalmas kőpalota elé",
-          "body": "Pécel földjén, egy lakóház kertjében vágták ki azt a huszonnégy esztendős, tizenkét és fél méter magas és kéttonnás fenyőfát, amely az ország karácsonyfája lett. A Varmuzsa család birtokáról a hivatásos tűzoltók emelték ki a fát, majd azt egy honvédségi szállítójárműre rakták, amellyel meg is érkezett a Kossuth Lajos térre, az Országház elé. A vándorút során egy kidőlő oszlop kis híján eltalált egy szekérszerű autót, de a polgármester ígéretet tett arra, hogy a megsérült közlekedési táblákat és villanyoszlopokat mielőtt helyrehozzák."
-        }
-      }
+      "sourceHash": "bad5370f77a491f082b4719719377c66158e137b413fbcb0a016e6ebc538e8c1"
     },
     {
       "source": "Nemzeti Sport",
@@ -223,13 +261,7 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/1AzOjQF7HvNf-r82L89sKPAPjSTFOiOcje5lggMDEoo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2QzMmNkYTU4MjkwNzQ4YjRiYTYzOWYxZDVkYzM5OTRi.webp",
       "contentBasis": "article",
-      "sourceHash": "b31e0a9f42a5327d9b9145bf4e65b80a068815d8e25aabb3fd9eb667e55818e7",
-      "variants": {
-        "tolkien": {
-          "title": "A vörös mezőn aratott győzelem krónikája",
-          "body": "Az angol birodalom nagy csatájában az Anfield falai között a Vörösök csapata negyven arányú diadalmaskodást aratott a Manchester United népe felett. A tizedik napon vagy órán Szoboszlai Dominik, a magyarok bajnoka büntetőrúgásból szerzett vezetést, tudván pontosan, hová kell a labdát küldenie a sorfal mellett. A küzdelem során Wirtz, Ngumoha és Munoz is a hálóba talált, míg az ellenféltől Yorót kiűzték a pályáról. E diadal által a liverpooli had elnyerte a három dicsőséges pontot, és máris a következő, szerdai viadalra szegezi tekintetét."
-        }
-      }
+      "sourceHash": "b31e0a9f42a5327d9b9145bf4e65b80a068815d8e25aabb3fd9eb667e55818e7"
     },
     {
       "source": "Nemzeti Sport",
@@ -242,13 +274,7 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/0Eno-6wki46TKrqD6XBFXlaKUnaAcTspKQdzkBc12PU/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzgxYTg2MmY3MDNhOTQyZGZhNzhmZmI0NjUwNzZlMjA5.webp",
       "contentBasis": "article",
-      "sourceHash": "ed3e033a329f3d3b4d8d6c9dfb6aa26f091ca3a3d24501e11fb6971a6a4dae75",
-      "variants": {
-        "tolkien": {
-          "title": "A sivatagi birodalom viharos viadala és a Vörös Ház veszedelme",
-          "body": "A sivatag ékkövében, Las Vegas csarnokain túl zajlott a napok vihara, hol Max Verstappen diadalmaskodott, megszerezve hetvenötödik dicső győzelmét egy rendkívüli és számtalan helycserét hozó vetélkedésben. A küzdelem során a Vörös Ház serege, a Ferrari katasztrofális sorsra jutott, miután Charles Leclerc és Lewis Hamilton viadal közben összeütközött a harmincnyolcadik körben. E végzetes koccanás nyomán Fred Vasseur, a pórul járt nép vezére roppant haragra gerjedett, és fegyelmi fenyítést, valamint pénzbüntetést is kilátásba helyezett a harcosok számára. A messziföldi krónikák szerint a viadal a megszámlálhatatlan előzések és a soha nem látott izgalmak földjévé tette a birodalmi versenyt."
-        }
-      }
+      "sourceHash": "ed3e033a329f3d3b4d8d6c9dfb6aa26f091ca3a3d24501e11fb6971a6a4dae75"
     },
     {
       "source": "HVG",
@@ -262,11 +288,14 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/057438c2-eb80-4b4a-b0e1-f87641bdf06e.jpg",
       "contentBasis": "article",
-      "sourceHash": "764cc4290f81bb348dec1918964ce879e0653dcc8a72fc79365ae86f86983cc5",
+      "sourceHash": "94e37f1a97aed106bf7d6b836a8303dff23b92dcff960c027e2b220d33ad47f0",
       "variants": {
+        "original": {
+          "body": "Az európai tőzsdék a pénteki jelentős esés után hétfőn emelkedéssel kezdték a kereskedést. A Budapesti Értéktőzsde fő mutatója, a BUX az első fél órában 1 százalékkal emelkedett. A hazai vezető részvények közül a Telekom kivételével mindegyik árfolyama változott, utóbbi stagnált, miután pénteken is ez esett a legkisebb mértékben. A pénteken nagyot zuhanó 4iG részvényei 1,3 százalékos pluszban nyitottak. Európa más tőzsdéin is hasonló növekedés ment végbe, a frankfurti DAX 0,4, míg a francia CAC 40 0,3 százalékkal nőtt. Ezzel szemben Ázsiában eltérően alakultak a mutatók, hiszen a mesterséges intelligencia szektorának kitett koreai Kospi 3,3 százalékot esett, míg a sanghaji és hongkongi indexek szinte változatlanok maradtak. Japánban a tőzsde munkaszünet miatt zárva tartott hétfőn. Emellett Tiborcz István körénél 360 milliárd forintot találtak."
+        },
         "tolkien": {
-          "title": "A kereskedés csarnokainak ébredése és a piaczakarók új napja",
-          "body": "Miután a múlt végi napon sötét zuhanás sújtotta a kereskedést, az európai piacok hatalmas ébredéssel nyitották meg kapuikat a hét elején. A budapesti birodalom fő mutatója, a BUX máris egy százalékos gyarapodást mutatott, miközben a négy legfőbb vállalkozás részvényei – a változatlan Telekom kivételével – felfelé indultak, a 4iG pedig 1,3 százalékos nyereséggel kezdte a napot. A távoli frankfurti és francia csarnokok mutatói szintén növekedéssel indultak, ám a messzi Ázsiában a koreai tőzsde tovább gyengült, míg Sanghaj és Hongkong piaca szinte mozdulatlan maradt, Japán kapui pedig zárva tartottak a pihenő napján."
+          "title": "A tőzsdék csarnokai és a péntek utáni virradat",
+          "body": "Így esett, hogy a pénteki sötét zuhanás után a kereskedés csarnokai újjáéledtek, és az európai piacok népei felemelték fejüket a hét kezdetén. A magyarok vásárhelyén a BUX mutatója egy százalékkal növekedett az első órák homályában, míg a nagytulajdonú vállalatok részvényei különböző utat jártak be. Frankfurt és Franciaország mezőin is enyhe gyarapodást mértek a krónikások, Ázsia távoli földjein azonban a koreaiak piaca tovább hanyatlott. Japán kapui zárva maradtak az ünnep napján, és a rejtélyes hírek szerint Tiborcz István birtokain háromszázhatvanmilliárd ezüstpénzre bukkantak."
         }
       }
     },
@@ -281,13 +310,7 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/Cvs9WuK6ohmNHbupv24fY3iQklJRSeE9GkEDadZ0RHs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVmZDNjYzZjNGQ4MzQ2ZTdiYTZkYTZmZmM5NGQ0NjIz.webp",
       "contentBasis": "article",
-      "sourceHash": "e8bb1b2ddfa23f755db624b2a193997e0024459546c04fb22d3a41c64abd398d",
-      "variants": {
-        "tolkien": {
-          "title": "A Nagy Csarnokok viadalai: Krónika az északi és déli ütközetekről",
-          "body": "A denveri bajnokok hosszú és véres küzdelemben, hosszas ráadás után, 151–145 arányban győzedelmeskedtek a chicagói seregek felett, miközben Nikola Jokics és a 45 pontig jutó Jamal Murray hatalmas erőről tett tanúbizonyságot. Ezen a viadalon a legyőzöttek oldaláról Josh Giddey bámulatos hőstettet hajtott végre, ám a sors végül a vendégek javára döntött. Másutt a Golden State Warriors csekély, 88–87-es diadalt aratott a Boston Celtics felett egy rendkívül szűkmarkú mérkőzésen, a Miami Heat pedig 123–113-ra győzte le az Oklahoma City Thundert, ezzel hétre nyújtva győzelmi sorozatát. Végezetül a New York Knicks csapata Karl-Anthony Towns és Josh Hart vezetésével 113–106-ra múlta felül az Indiana Pacers alakulatát a saját otthonában."
-        }
-      }
+      "sourceHash": "e8bb1b2ddfa23f755db624b2a193997e0024459546c04fb22d3a41c64abd398d"
     },
     {
       "source": "HVG",
@@ -300,13 +323,7 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b951fad8-14a1-4583-90b6-c7749185a200.jpg",
       "contentBasis": "article",
-      "sourceHash": "1c0f27da716a64d83a2029ced4cc589bce350bef0d6f37f4be7dfda9e75737a6",
-      "variants": {
-        "tolkien": {
-          "title": "A temesvári népességről és a Tisza Párt hívéről szóló krónika",
-          "body": "Bujdosó Andrea visszaemlékezett az 1989-es romániai forradalom napjaira, amikor élőlánccal védték Tőkés Lászlót a kitelepítés elől a vízágyúk és lövések közepette. Kifejtette, hogy ki kell állni az elnyomó rendszerek ellen, valamint üdvözölte a kettős állampolgárságról szóló törvényt és a határok feloldódását a magyar közösségek között. Üzleti pályafutását elhagyva azért csatlakozott a Tisza Párthoz, hogy értéket teremtsen a két és fél éve Magyarországon elindult ügyben."
-        }
-      }
+      "sourceHash": "1ac5ccbf4a4edf96b6fd2bddd8d5a9c709af8b4cb9bab852d1d74c957d1aa6e6"
     },
     {
       "source": "NBAnews.hu",
@@ -321,9 +338,12 @@
       "contentBasis": "article",
       "sourceHash": "3d347ff1aebeea552706c00ffb860fd0c6e3f68206944d8151dd17054236aeb6",
       "variants": {
+        "original": {
+          "body": "A Denver Nuggets chicagói vendégjátéka rendkívüli mérkőzést hozott, amelyen a két csapat összesen 296 pontot termelt. A találkozón több történelmi egyéni teljesítmény is született a pályán lépő felek részéről. A Denvert Jamal Murray 45 pontja, valamint Nikola Jokić újabb tripla-duplája vezette győzelemre. A Chicago Bulls a mérkőzés folyamán Josh Giddey 22 gólpasszának is köszönhetően maradt versenyben. A hazai csapatnak az utolsó pillanatokban még sikerült hosszabbításra mentenie a találkozót. Végül a Denver Nuggets tudta megnyernie ezt a rendkívüli és rekordokat hozó mérkőzést."
+        },
         "tolkien": {
-          "title": "A chicagói viadal krónikája: Kétszázkilencvenhat pont született a hősök csatájában",
-          "body": "Íme a hír a távoli és csodás bajnokság vidékéről, hol a Denver Nuggets népe Chicagóba zarándokolt, hogy megvívja csatáját a helyi Bulls seregeivel. A viadal során a felek összesen kétszázkilencvenhat pontot gyűjtöttek, és több örökbecsű egyéni dicsőség is feljegyeztetett ezen a napon. Jamal Murray negyvenöt ponttal, míg Nikola Jokić újabb tripla-duplával vezette győzelemre a denveri csapatot. A Chicago végül Josh Giddey huszonkét gólpasszának köszönhetően az utolsó pillanatokban kiharcolta a hosszabbítást, ám a diadal végül a vendégeké lett."
+          "title": "A chicagói viadal krónikája: hol kétszázkilencvenhat pont született",
+          "body": "Így esett, hogy a Denver bajnokai elutaztak a szél fútta Chicago várába, ahol a felek harcában kétszázkilencvenhat dicső pont gyűlt össze a porondon. A déviek táborát a 45 pontot számláló Jamal Murray és a hatalmas tripla-duplát elérő Nikola Jokić vezette győzelemre. Ám a helyiek sem adták könnyen a földet, mikor Josh Giddey húszonkét pontos aranykulccsal – a gólpasszok adományával – az utolsó pillanatban még hosszabbításra mentette a viadalt. Végül mégis Jokićék fejezték be diadalmasan a csatát, melynek krónikája fennmarad az idők végezetéig."
         }
       }
     },
@@ -338,13 +358,7 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/xp4RR4QduOZEOgVQRIzTZKeocbAFfuTl7X7o7fbO5Bs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkYTI1NGI4M2I2MjQzMjlhY2I3M2FkYjc0MDM0YTk3.webp",
       "contentBasis": "article",
-      "sourceHash": "9616d9a150dd01d1a6f8036e4be38f5d14d2ec0a3b4061504753a48ea6106514",
-      "variants": {
-        "tolkien": {
-          "title": "A vándorló bajnokok viadalai az idegen birodalmak mezőin",
-          "body": "Így esett, hogy a messze földön harcoló magyar vitézek ismét kettecskén vagy seregeik soraiban küzdöttek a távoli bajnokságok porondján. A tizenkilenc esztendős Kovács Bendegúz a hollandok földjén, a Vitesse elleni ütközetben talált a kapuba, míg az Albion birodalmában Szoboszlai Dominik szerezte meg dicsőségesen tizenhetedik Premier League-gólját a Manchester United elleni négygólos diadal során. Szoboszlai e tettével Gera Zoltán mellett a szigetország legkiválóbb magyar góllövőjévé emelkedett a krónikák szerint. Közben a német földön Keresztes Krisztián adott fejesből gólpasszt csapata elbukott csatájában, és Dárdai Bence is visszatért a gyepre hosszú, súlyos sérülése után."
-        }
-      }
+      "sourceHash": "9616d9a150dd01d1a6f8036e4be38f5d14d2ec0a3b4061504753a48ea6106514"
     },
     {
       "source": "HVG",
@@ -357,13 +371,7 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed2c62d5-e8bb-467f-8c7e-5a45b06bebf1.jpg",
       "contentBasis": "article",
-      "sourceHash": "722633b58c2515d215d802481569cffe898653a51a9d6d32138b7dd9d3827b88",
-      "variants": {
-        "tolkien": {
-          "title": "A kincstár krónikája a kövek és építmények apadásáról",
-          "body": "Íme a számok nyomán, melyeket a Központi Statisztikai Hivatal napvilágra hozott a harmadik esztendő negyedévében, a nemzetgazdaság építkezései mély zuhanásnak indultak. Kármán András pénzügyminiszter úr szavai szerint e gyászos adatok azért születtek, mert a Tisza-kormány felszámolta a régebbi idők visszás és túlárazott megbízásait, elzárva a kegyelt vállalkozások pénzcsapjait. Ilyen cselekedet volt a Déli Körvasút egyezségének felbontása és az államigazgatási építkezések megállítása is a tisztességes verseny kedvéért. E múló áldozatokkal járó lépések nyomán a jövőben a munkát végző céhek kapják a megrendeléseket a hasznot fölöző urak helyett. A miniszter úr bölcsessége szerint ezen idők képe csupán egy átalakuló birodalom pillanatképe, míg a jövő küldöttei, a GKI bizalmi jelzései és a Moody’s hitelminősítő jobb kilátásokat jövendölnek."
-        }
-      }
+      "sourceHash": "4c3668342e9970bc6d6f5664a291cd72e5d0d127636b94fa2dc8397308ab0784"
     },
     {
       "source": "HVG",
@@ -376,11 +384,36 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/88d819ee-cfb4-4ab5-bb6c-76ec2372957f.jpg",
       "contentBasis": "article",
-      "sourceHash": "e7216e4049fcb1ac8c573407aca3b3fddf005113b2f1caf3110f7e463b7c74f0",
+      "sourceHash": "8a9c33a192f04fec99f23eda8243097a5755355daacf2045c1712ca9efb0f046",
       "variants": {
+        "original": {
+          "body": "Hétfő este Pozsonyban tartanak találkozót a visegrádi négyek, vagyis Magyarország, Szlovákia, Csehország és Lengyelország kormányfői. A soros szlovák elnökség keretében rendezett csúcstalálkozó vendéglátója Robert Fico szlovák miniszterelnök, a helyszín pedig a pozsonyi vár. Az eseményen az osztrák kancellár is részt vesz a többi nemzeti vezető mellett. A megbeszélések során a felek áttekintik a részt vevő országok kölcsönös gazdasági kapcsolatainak bővítési lehetőségeit. Emellett kiemelt témaként szerepel az Európai Unió 2028 és 2034 közötti időszakra szóló hosszú távú költségvetése is. A V4 csoport legutóbb szeptemberben tanácskozott kormányfői szinten, akkor az ír kormányfő volt a vendégük."
+        },
         "tolkien": {
-          "title": "A visegrádi fejedelmek tanácskozása Posonium falai között",
-          "body": "Így esett, hogy a visegrádi négyek népeinek vezetői – Magyarország, Szlovákia, Csehország és Lengyelország kormányfői – hétfőn este a pozsonyi várban gyűlnek össze Robert Fico szlovák miniszterelnök vendéglátása mellett, és a tanácskozáshoz az osztrák kancellár is csatlakozik. E nemes egybegyűlés alkalmával a felek áttekintik az országaik közötti gazdasági kapcsolatok bővítésének ügyét, valamint tanácskoznak az Európai Unió 2028 és 2034 közötti idejére szóló költségvetéséről. A soros szlovák elnökség árnyékában zajló eseményen Magyar Péter is jelen lesz a magyarok küldötteként, noha reggeli szavai szerint gyengélkedik, és a nap folyamán még a budapesti Országgyűlésben is hivatalos tennivalói várolják. Ezen a csúcson a vezető urak a jövő gazdasági ösvényeit egyengetik, miközben a birodalom törvényhozói is hosszas ülésszakra gyűlnek össze."
+          "title": "A Négy Birodalom és a Déli Szövetséges fejedelmi gyűlése Pozsony várában",
+          "body": "Íme, a visegrádi fejedelemségek – Magyarország, Szlovákia, Csehország és Lengyelország – vezetői hétfő estére a pozsonyi vár falai közé gyűlnek, hogy fontos dolgokról tanácskozzanak. A szlovák föld ura, Robert Fico vendéglátásával zajló nagy gyűlésen az osztrákok kancellárja is asztalhoz ül a fejedelmekkel. A bölcsek tanácsa előtt két fő ügy fekszik: az birodalmak közötti gazdasági kötelékek szorosabbra fűzése, valamint az Európai Unió 2028 és 2034 közötti éveire szóló kincstári költségvetése. E nemes urak legutóbb az ősz derekán tartottak hasonló egyeztetést, amikor az írek küldötte volt a vendégük."
+        }
+      }
+    },
+    {
+      "source": "Telex",
+      "title": "A kínaiak egyelőre nem egyeztek bele, hogy nyilvánosak legyenek a Budapest–Belgrád-vasútvonal szerződései",
+      "summary": "A Közlekedési és Beruházási Minisztérium tovább egyeztet a kínai féllel.",
+      "url": "https://telex.hu/gazdasag/2026/11/23/budapest-belgrad-szerzodes-reszletek-nyilvanossagra-hozatal",
+      "published": "Mon, 23 Nov 2026 07:32:53 +0100",
+      "categories": [
+        "domestic"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795415507-temp-42llo7etotmladhgdeh_cimlap-normal.jpg",
+      "contentBasis": "article",
+      "sourceHash": "2813c4294e3e317ac46678f78a1e48f1c31c9126e4fec547ab76f803d956bcae",
+      "variants": {
+        "original": {
+          "body": "A kínai fél eddig nem járult hozzá ahhoz, hogy a magyar kormány közzétegye a Budapest–Belgrád-vasútvonal szerződésének részleteit. A Hvg.hu megkeresésére a Közlekedési és Beruházási Minisztérium elárulta, hogy céljuk továbbra sem változott, és a jövőben is folytatják a szükséges egyeztetéseket a kínai féllel a dokumentumok nyilvánosságra hozatala érdekében. A magyarországi szakasz 800 milliárd forintba került, ennek 85 százalékát kínai hitelből finanszírozták, a személyforgalom pedig már 2022-ben leállt. Február végén ugyan elindult a teherszállítás a vonalon, de a személyvonatok közlekedéséhez elengedhetetlen ETCS vonatbefolyásoló rendszer még nem kapott használatbavételi engedélyt. Márciusban szoftverhibák javítása hátráltatta a személyszállítást, novemberben pedig újabb hibákat találtak, ami miatt decemberben sem indul el a személyforgalom."
+        },
+        "tolkien": {
+          "title": "A keleti birodalom titkai és az elnémult vasút krónikája",
+          "body": "Így esett, hogy a messzi Kína urai ekkorig nem adták áldásukat arra, hogy a Budapestet Belgráddal összekötő vasútút titkos tekercsei a nép szeme elé táruljanak. Pedig a magyar fejedelemség miniszterei ígéretet tettek a leplek lehantolására, s követséget menesztettek a keleti nagykövet elé, ám a felek egyezsége még várat magára. A nyolcszázmilliárd ezüsttel felértékelődött, nagyrészt idegen kincstárból finanszírozott vaspályán a teherszekerek ugyan már járnak február óta, de a személyszállító kocsik kerekei némák maradtak. A biztonságot őrző varázslatos gépezet, az ETCS híján, valamint szoftverek hibái és újabb bajok miatt a nép utazása a téli hónapokban sem veheti kezdetét."
         }
       }
     },
@@ -395,13 +428,7 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/wED4wUJYcVnDrKSvRyLxkM1G7wJ08mEcVyQNIBoWVZU/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2NjZWY4Y2RjZGNjNjRiMWNhZDA5MzczYWUxMWY1OTc0.webp",
       "contentBasis": "article",
-      "sourceHash": "c91b7804591e476d39de3b086ddf2d240c391c4e05799481df0eadcbf0fef0bb",
-      "variants": {
-        "tolkien": {
-          "title": "A vörös mezőkről és az Anfield kapui előtt esett ütközésről",
-          "body": "Az Anfield nagy csarnokában a Liverpool serege négy aranyló gólos győzelmet aratott a Manchester United csapata felett. A küzdelem hamar megpecsételődött, miután Leny Yoro a nyolcadik minutumban büntetést kapott, így a manchesteri had hosszú ideig emberhátrányban küzdött. A győzedelmes hazaiak oldaláról Szoboszlai Dominik, Florian Wirtz, Rio Ngumoha és Victor Munoz talált a hálóba. Andoni Iraola, a liverpooliak vezére örömmel ünnepelt a népek sokaságával, míg a vesztesek kapitánya, Mauricio Pochettino vállalta a nehéz vereség terhét. A Manchester United így a mély sötét zónában rekedt, de vezérük hűségre és további küzdelemre intette elszánt harcosait."
-        }
-      }
+      "sourceHash": "c91b7804591e476d39de3b086ddf2d240c391c4e05799481df0eadcbf0fef0bb"
     },
     {
       "source": "NBAnews.hu",
@@ -414,13 +441,7 @@
       ],
       "image": "https://nbanews.hu/wp-content/uploads/2026/11/holmgren.webp",
       "contentBasis": "article",
-      "sourceHash": "f2db00063974779e5989aa3e2eadf6d410233444a7da8ab908ae8c848698d8b4",
-      "variants": {
-        "tolkien": {
-          "title": "A vihar földjének harcosa ismét a gyógyulás útjára lépett",
-          "body": "Chet Holmgrenre, az Oklahoma City Thunder ifjú tornyára újfent a megpróbáltatások és a visszatérésért vívott küzdelem esztendeje vár a viadal kezdetén. A huszonnégy esztendős bajnok mégis emelt fővel viseli a kényszerű pihenőt, hisz testi megújulása a megfelelő mederben folyik. Jmbár az arénák gyepére való visszaút még messze esik, úgy véli, nem szükségeltetik mindent az alapoktól újjáépítenie a korábbi viharok tapasztalatai végett."
-        }
-      }
+      "sourceHash": "f2db00063974779e5989aa3e2eadf6d410233444a7da8ab908ae8c848698d8b4"
     },
     {
       "source": "Fűzővel kifelé!",
@@ -433,184 +454,7 @@
       ],
       "image": "",
       "contentBasis": "article",
-      "sourceHash": "f6ac356b651ea3cbb88cf95a568280c60c6e934e0b1917a74cc0e90a9a3535a6",
-      "variants": {
-        "tolkien": {
-          "title": "A holtak mezőinek krónikája: Óriások diadalai és Hollók bukása",
-          "body": "Így esett a napokban, hogy a bajnokok viadalán az Óriások serege diadalt aratott a déli vizek uraival szemben, noha a vesztesek több mezőt nyertek a harcmezőn. A Hollók nemessége pedig ismét vereséget szenvedett a párducok földjén, miután a sorsfordító hibák és elhullajtott kincsek miatt elszálltak utolsó reményeik is. Mexikó távoli mezőin a San Francisco-i hadvezér, Kyle Shanahan serege szétzúzta a Vikings büszke és rettegett védelmét, könnyedén utat törve a győzelemhez. E küzdelmek során a hősök hol elbuktak a célvonal kapujában, hol pedig ellenfelük tévedéseiből merítve arattak tisztaságos, bár küzdelmes győzelmeket."
-        }
-      }
-    },
-    {
-      "source": "HVG",
-      "title": "Ezen a héten minden nap ülésezik a parlament, a hétfői nap Magyar Péter felszólalásával kezdődik",
-      "summary": "Több mint negyven javaslat a napirenden.",
-      "url": "https://hvg.hu/itthon/20261123_orszaggyules-parlament-torvenyjavaslat-hatarozati-javaslat-kata-vagyonado",
-      "published": "Mon, 23 Nov 2026 04:16:43 Z",
-      "categories": [
-        "parliament"
-      ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/63137ef2-f302-4571-b9a6-029a94c528e2.jpg",
-      "contentBasis": "article",
-      "sourceHash": "58a572f6591c2de6c3700acf56d9af892d669fe065abe1ca304ee8e47367f0c7",
-      "variants": {
-        "tolkien": {
-          "title": "A Nagy Tanács hét napja",
-          "body": "Így esett, hogy az Országgyűlés ezen a héten minden nap egybeül, s a tanácskozás Magyar Péter napirend előtti felszólalásával veszi kezdetét a tizenegyedik órában. A nemes gyűlés megválasztja a felzárkóztatási források ügyeit vizsgáló bizottság tagjait, valamint a kormány tagjait illető interpellációkra és kérdésekre is sor kerül a több mint negyven törvényjavaslat vitája mellett. A bölcsek tárgyalják a köztársasági elnök által megfontolásra visszaküldött, a közvagyon védelméről szóló törvényt, amelyet a törvényalkotási bizottság nem kíván módosítani. Végezetül döntés születik az új kisadózó adóról, amely 2027-től havi százezer, illetve ötvenezer aranyat vagy ezüstöt – forintot – követel majd a vállalkozóktól, miközben az árrésstop kivezetésének sorsa is megpecsételődik a parlamenti falak között."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "A Chiefs, a Bills, a Bears és a Broncos is hozta a kötelezőt",
-      "summary": "<p>Voltak bőven simának ígérkező mérkőzések a fordulóban, és ezeken nem is születtek meglepetések. Magabiztosan hozta a kötelezőt a Bills és a Chiefs, kicsit döcögősebben a Bears és a Broncos. Las Vegas Raiders @ Denver Broncos 24-38 Lassan indult be a mérkőzés, hiszen ugyan a Broncos a meccs elején megoldotta idei első 3.és10+ helyzetét (28 sikertelen volt &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/a-chiefs-a-bills-a-bears-es-a-broncos-is-hozta-a-kotelezot/\">A Chiefs, a ",
-      "url": "https://fuzovelkifele.com/2026/11/a-chiefs-a-bills-a-bears-es-a-broncos-is-hozta-a-kotelezot/?utm_source=rss&utm_medium=rss&utm_campaign=a-chiefs-a-bills-a-bears-es-a-broncos-is-hozta-a-kotelezot",
-      "published": "Mon, 23 Nov 2026 00:47:55 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "71cbf30a29d95b4a15cd781263a61c896c81cb876c01dd7712b142397d18918b",
-      "variants": {
-        "tolkien": {
-          "title": "A Négy Birodalom Viadala: Vadlovak, Macik, Kék Sereg és a Fény Vitézei",
-          "body": "Így esett a napokban, hogy a nagy mezőkön megvívták viadalaikat a királyságok seregei, s a hatalmasok nem hagytak teret a kételynek. A Broncos fiai hosszas tusakodás és ifjú harcosuk, Jonah Coleman triplája árán kerekedtek felül a Raiders csüggedt táborán. A Macik vára alatt a Chicago védelmének vasökle és Jeffery Simmons haragja törte meg a Szentek ostromát, kiknek útját Tyler Shough hibái pecsételték meg. Északon a Bills lovasai Josh Allen vezetésével gázoltak át a Dolphins lankadt csapatán, megpecsételve a sorsukat. Végül Kansas tornyainál a Chiefs ifjú és öreg bajnokai, köztük a hűséges Travis Kelce és Patrick Mahomes győzedelmeskedtek a nehéz sorsú Cardinals felett."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "Alec Pierce idén már nem lép pályára",
-      "summary": "<p>Az Indianapolis Colts a várakozásoknak megfelelően nem aktiválja a sérültlistáról az elkapó Alec Pierce-t, aki így már nem lép pályára a 2026-os idényben. A csapat célja, hogy a játékos teljesen felépüljön a bokasérüléséből, és egészségesen kezdhesse meg a 2027-es szezont. Pierce tavasszal négyéves, évi 28,5 millió dollárt érő szerződést kötött a Coltsszal annak ellenére, hogy &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/alec-pierce-iden-mar-nem-lep-palyara/\">Alec Pierce",
-      "url": "https://fuzovelkifele.com/2026/11/alec-pierce-iden-mar-nem-lep-palyara/?utm_source=rss&utm_medium=rss&utm_campaign=alec-pierce-iden-mar-nem-lep-palyara",
-      "published": "Mon, 23 Nov 2026 00:34:15 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "f9ee14d643572edcd7ee09ad4818a1bd6ee621ac1d1a0fdaba2b1cafaf93ce57",
-      "variants": {
-        "tolkien": {
-          "title": "A Colts krónikája: Alec Pierce idénye véget ért",
-          "body": "Az Indianapolis Colts népe elhatározta, hogy nem hívja vissza a sebesült listáról Alec Pierce elkapót, így ő az egész 2026-os évadban fegyver nélkül marad. E döntés hordozóinak szándéka szerint így kívánják biztosítani, hogy a harcos teljesen kigyógyuljon bokája bajából, és egészségesen kezdhesse meg a 2027-es csatákat. Pierce korábban tavasszal kötött négyéves egyezséget a sereggel, ám a márciusi műtétje után csupán két ütközetben tudott küzdeni szeptemberben, ahol öt elkapással 72 yardot gyűjtött, mielőtt a sebe ismét kiújult. Mivel a sereg eddigi mérlege 3-8-ra rúg, a hátralévő napok már a jövő évi készülődés jegyében telnek, így oltalmazói nem sürgetik visszatérését a mezőre."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "DK Metcalf a Steelers történetének egyik legnagyobb melléfogása",
-      "summary": "<p>Egyre nagyobb csalódást jelent a Pittsburgh Steelers számára az elkapó DK Metcalf, aki a Philadelphia Eagles elleni, 19–16-ra elveszített mérkőzésen újabb mélypontra jutott. A játékos mindössze egyetlen elkapásból két yardot szerzett, majd elborult az agya és kiállították. Metcalfért egy második körös picket áldozott fel tavaly a Steelers, majd adott neki egy 4 éves 132 millió &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/dk-metcalf-a-steelers-tortenetenek-egyik-legnagyob",
-      "url": "https://fuzovelkifele.com/2026/11/dk-metcalf-a-steelers-tortenetenek-egyik-legnagyobb-mellefogasa/?utm_source=rss&utm_medium=rss&utm_campaign=dk-metcalf-a-steelers-tortenetenek-egyik-legnagyobb-mellefogasa",
-      "published": "Mon, 23 Nov 2026 00:32:26 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "0440e8255222022f66af2cf879d961554a69f149dd17b6e9b7b79418cbeb1d25",
-      "variants": {
-        "tolkien": {
-          "title": "A vasharangú seregek kudarca és az eltékozolt kincsek krónikája",
-          "body": "Így esett a napokban, hogy a Pittsburgh népének csapata, a Steelers, nagy bánatra lelt DK Metcalf nevű harcosában, aki a Philadelphia elleni veszedelmen mély sebet ejtett a büszkeségükön. A dicső vezetőik egykoron egy értékes második kört és négy esztendőre szóló, százharminckét ezüsttel kijegecselt béralkut adtak érte, miközben olcsóbban engedték el a ifjabb George Pickenst a Cowboys nemzetségéhez. Az idő múlásával Pickens szebbnél szebb tettekkel bizonyított az idegenek táborában, míg Metcalf kevés hasznát mutatva végül dühöngve elhagyta a küzdőteret. E sötét üzlet nyomán a Steelers krónikásai ma már úgy emlékeznek e cserére, mint a birodalom egyik legsúlyosabb tévedésére."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "Több kezdő is IR-re került tegnap",
-      "summary": "<p>A Detroit Lions ismét sérültlistára helyezte a center Cade Mayst, aki bokasérülés miatt már az előző két mérkőzést is kihagyta. A támadófalember számára ez már a második sérültlistás időszak az idei szezonban, miután az edzőtáborban elszenvedett csuklótörése miatt az első öt fordulóban sem játszhatott. Mays legalább négy újabb mérkőzést kénytelen kihagyni (pontosabban hármat, ugyanis már &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/tobb-kezdo-is-ir-re-kerult-tegnap-2/\">T",
-      "url": "https://fuzovelkifele.com/2026/11/tobb-kezdo-is-ir-re-kerult-tegnap-2/?utm_source=rss&utm_medium=rss&utm_campaign=tobb-kezdo-is-ir-re-kerult-tegnap-2",
-      "published": "Mon, 23 Nov 2026 00:25:16 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "c8136c3f8d1d4c6090ab017db2d1ace86f9fe0595699836701d8648348ef04be",
-      "variants": {
-        "tolkien": {
-          "title": "Így sújtott le a sérülések árnyéka a csapatok harcosaira",
-          "body": "A Detroit Lions krónikája szerint Cade Mays center ismét a harcképtelenek listájára került bokasérülése okán, így legalább négy viadalt mulaszt el ebben az évadban, miután korábban már csonttörést is szenvedett. Ugyanezen sorsra jutott a Philadelphia Eagles két kiválósága is, miután Zack Baun hátfájdalmak, Dontayvion Wicks pedig boka- és lábfejsérülés miatt kényszerül pihenőre legalább négy összecsapás erejéig. A Dallas Cowboys táborában DaRon Bland védő került hasonló bajba, aki a San Francisco ellen szerzett bokasérülése miatt már a Titans ellen sem lépett pályára, és további három viadalt is kihagy az idei hetvennyolc szereléséből és hét leütött passzából álló krónika után."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "Josh Allen egy futott TD-re van egy pazar mérföldkőtől",
-      "summary": "<p>Újabb történelmi mérföldkő közelében jár a Buffalo Bills irányítója, Josh Allen, akinek már csak egy futott touchdownra van szüksége ahhoz, hogy sorozatban negyedik idényében is elérje a 12 futott TD-t. Ezzel az NFL történetének mindössze ötödik játékosa lenne, aki négy egymást követő szezonban legalább 12 alkalommal szerzett touchdownt a földön. A bravúrt korábban kizárólag futók &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/josh-allen-egy-futott-td-re-van-egy-pazar-merf",
-      "url": "https://fuzovelkifele.com/2026/11/josh-allen-egy-futott-td-re-van-egy-pazar-merfoldkotol/?utm_source=rss&utm_medium=rss&utm_campaign=josh-allen-egy-futott-td-re-van-egy-pazar-merfoldkotol",
-      "published": "Mon, 23 Nov 2026 00:23:05 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "a63531c21f91814136c5aabef04fccbc3be3eb899f1eea9e2520e87da747a018",
-      "variants": {
-        "tolkien": {
-          "title": "A bátor vajda, Josh Allen újabb dicső tett küszöbén áll",
-          "body": "Íme a krónika arról, mint éri el a Buffalo csapatavezetője, Josh Allen a dicsőség kapuját, ha mindössze egyetlen újabb földön szerzett pontot ér el. Ezzel a cselekedettel ő lenne az első a vezérek (irányítók) rendjében, aki zsinórban négy esztendőben is eléri a tizenkét futott pontot, miközben e ritka erényt eddig csupán négy kiváló futó mondhatta magáénak. Kilencedik harci idényében ezen felül elérheti kilencvenegyedik földön szerzett pontját is, amivel holtversenybe kerülne a dicső múlt két nagy alakjával, Franco Harrisszel és Jerome Bettisszel. A legfőbb dicsőség csúcsát a mai napig Emmitt Smith őrzi, aki százhatvannégy alkalommal küzdötte át magát a gólvonalon."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "Travis Kelce megelőzte Rob Gronkowskit!",
-      "summary": "<p>Újabb mérföldkövet ért el a Kansas City Chiefs tight endje, Travis Kelce. A veterán klasszis a Cardinals elleni két TT-jével Rob Gronkowskit megelőzve feljött az NFL történetének harmadik helyére a tight endek által szerzett touchdownok örökranglistáján. Kelce már a Kansas City első támadósorozatának végén megszerezte a vezetést egy nyolcyardos TD-elkapással, amellyel megelőzte Gronkowskit az alapszakasz &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/travis-kelce-megelozte",
-      "url": "https://fuzovelkifele.com/2026/11/travis-kelce-megelozte-rob-gronkowskit/?utm_source=rss&utm_medium=rss&utm_campaign=travis-kelce-megelozte-rob-gronkowskit",
-      "published": "Mon, 23 Nov 2026 00:21:01 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "a0b9da2d88d4013d14550053fced63ef3fb8d4db02b74399859cf177e1800db8",
-      "variants": {
-        "tolkien": {
-          "title": "A vitéz Kelce újabb dicső babérokat aratott",
-          "body": "Íme a Krónikák újabb feljegyzése, mely szerint a Kansas City Chiefs nevű nemzetség bajnoka, a harminchét esztendős Travis Kelce hatalmas tettet hajtott végre a labda játék mezején. A Cardinals elleni ütközetben szerzett két dicsőséges pontszerzésével Kelce maga mögé utasította Rob Gronkowskit az örökranglisták dobogóján. E hőstettel a harcos már száztíz elkapott pontnál tart a küzdelmek teljes idejét tekintve. Jelenleg csupán két legendás előd, Antonio Gates és Tony Gonzalez magasodik az ő neve előtt a dicsőség csarnokában."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "Daniel Jones csak oda ír alá, ahol van esélye a kezdőre",
-      "summary": "<p>Daniel Jones egyelőre nem siet új csapatot találni, miután az Indianapolis Colts kivágta. Az ESPN értesülései szerint a játékos inkább kivárná a megfelelő lehetőséget, és csak akkor írna alá, ha olyan együtteshez kerülhetne, ahol reális esélye lenne pályára lépni. Jones hétfőig waiveeren lesz, de kevés az esélye annak, hogy valamelyik csapat átveszi a szerződését. A &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/daniel-jones-csak-oda-ir-ala-ahol-van-eselye-a-kezdore/\">Dani",
-      "url": "https://fuzovelkifele.com/2026/11/daniel-jones-csak-oda-ir-ala-ahol-van-eselye-a-kezdore/?utm_source=rss&utm_medium=rss&utm_campaign=daniel-jones-csak-oda-ir-ala-ahol-van-eselye-a-kezdore",
-      "published": "Mon, 23 Nov 2026 00:15:48 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "e5d7e5bbe1ef9a7f4d1ef339f062f0083eb5874cf34c17a4cc6d7452ff32a825",
-      "variants": {
-        "tolkien": {
-          "title": "A vándorló vezér sorsa: Daniel Jones megfontolt lépései",
-          "body": "Miután az Indianapolis Colts útjára bocsátotta őt, Daniel Jones nem siet új otthont keresni, hanem kivárja a legalkalmasabb pillanatot. A játékos sorsa hétfőig a waiver-listán dől el, ám a nehézkes szerződési feltételek miatt csekély esély mutatkozik arra, hogy bárki is átvegye őt. Amennyiben senki sem tartja rendre, szabadon köthet új egyezséget, ahol csupán egy alacsonyabb, veteránoknak járó bérezés is elégséges lesz számára. A Ravens legutóbbi veresége nyomán azonban megfiatalkodtak a lehetőségei, így legfeljebb a Patriots mutathat érdeklődést iránta, ha még meg akarják menteni idényüket."
-        }
-      }
-    },
-    {
-      "source": "Fűzővel kifelé!",
-      "title": "50 pont a Cowboystól, rég nem látott győzelem az Eaglestől, újabb Lions-siker",
-      "summary": "<p>A Cowboys offense megállíthatatlan volt a Titans ellen, az Eagles szeptember óta először tudott nyerni, a Lions tovább robog, a Jets nyerte az alsóházi rangadót! Tennessee Titans @ Dallas Cowboys 30-51 A Cowboys támadósorára semmi válasza nem volt a Titansnek ezen a meccsen. Főleg az első félidőben, ahol négy támadásból négyszer végigment a Cowboys és &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/50-pont-a-cowboystol-reg-nem-latott-gyozelem-az-eaglestol-ujabb-lions-siker/",
-      "url": "https://fuzovelkifele.com/2026/11/50-pont-a-cowboystol-reg-nem-latott-gyozelem-az-eaglestol-ujabb-lions-siker/?utm_source=rss&utm_medium=rss&utm_campaign=50-pont-a-cowboystol-reg-nem-latott-gyozelem-az-eaglestol-ujabb-lions-siker",
-      "published": "Mon, 23 Nov 2026 00:07:42 +0000",
-      "categories": [
-        "nfl"
-      ],
-      "image": "",
-      "contentBasis": "article",
-      "sourceHash": "df4124b092eaaf795881f57ee8f857bcb653af3afd0e15d9f2ff4ef3e3fda70a",
-      "variants": {
-        "tolkien": {
-          "title": "A Bajnokok Viadalának Krónikája és az Oroszlánok Útja",
-          "body": "A nagy mezőkön a Cowboys serege ellenállhatatlan erőt mutatott, s hatalmas győzelmet aratva ötvenegy pontot számlált a Titans ellen. Ezzel egyidejűleg a Lions népe is dicsőségesen masírozott tovább, míg az Eagles csapata hosszas ínség után ismét megízlelte a viadal ízét, legyőzve acélos riválisát. A Jets pedig a mélységből feltörve nyerte meg az alsóházi viadalt, elkerülve a teljes sötétséget. E harcok nyomán a birodalom rendje megváltozott, egyesek dicsőségre leheltek, míg mások sötétebb sorsra jutottak."
-        }
-      }
+      "sourceHash": "f6ac356b651ea3cbb88cf95a568280c60c6e934e0b1917a74cc0e90a9a3535a6"
     }
   ]
 }
