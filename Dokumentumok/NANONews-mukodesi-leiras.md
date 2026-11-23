@@ -404,5 +404,10 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a rovatgombok a topicMatches kategóriafeltétellel számolják a hozzájuk tartozó cikkeket; a darabszám a logó „News” feliratával egyező piros változószínt kapta.
 - Állapot: felületi módosítás és dokumentáció frissítve; Pages ellenőrzése a feltöltés után következik.
 
+### 2026-11-23 — AI-összesítő és az eredeti tartalom forrása
+- Kérés: a lábléc jelezze, hogy a NANONews tartalmi források alapján készített AI-összesítő, és a teljes, eredeti tartalom a megjelölt forrásoldalon található.
+- Módosítva az index.html: a láblécben megjelenik a szöveg: „Tartalmi források AI-összesítője · A teljes, eredeti tartalom a megjelölt forrásoldalon található.”
+- Állapot: a lábléc módosítása a main ágra került; a GitHub Pages publikálás ellenőrzése folyamatban.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
