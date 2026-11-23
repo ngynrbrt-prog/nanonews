@@ -521,7 +521,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 ### 2026-11-23 — ötpercenkénti, Tolkien-kivonatra szűkített újrapróbálás
 - Kérés: minden ötperces ellenőrzés a legfrissebb kiadás cikkeit vizsgálja; ahol Gemini-terhelés miatt Tolkien-változat hiányzik, ott próbálja meg elkészíteni.
 - Módosítva a refresh_news.py: az ellenőrzés csak a legfrissebb hivatalos kiadás cikkei közül választja ki azokat, amelyeknél hiányzik a Tolkien-cím vagy a Tolkien-kivonat. A régi kiadásokat és a tesztkiadásokat nem dolgozza fel.
-- A hiányzó Tolkien-változathoz külön Gemini-kérés készül; nem generálja újra a már meglévő Eredeti összefoglalót, és a teljesen elkészült Tolkien-változathoz sem küld új kérést. A kész változatot a friss kiadásban és annak archív példányában is menti.
+- A hiányzó Tolkien-változathoz külön Gemini-kérés készül; nem generálja újra a már meglévő Eredeti összefoglalót, és a teljesen elkészült Tolkien-változathoz sem küld új kérést. A kész változatot a friss kiadásban és annak archív példányában is menti. A piros cikkjelzés most kizárólag hiányzó Tolkien-címre vagy -kivonatra vonatkozik, és ezt jelzi az olvasónak.
 - Az ütemezés továbbra is ötpercenként fut a meglévő ingyenes GitHub Actions workflow-ban. A workflow-megjegyzés is jelzi, hogy az ötperces futás célja kizárólag a legfrissebb kiadás hiányzó Tolkien-változatainak pótlása.
 - Állapot: feldolgozó, ütemezési megjegyzés és működési dokumentáció frissítve a main ágon.
 
