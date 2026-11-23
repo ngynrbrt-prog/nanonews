@@ -225,6 +225,48 @@ Alapanyag ({basis}):
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     variants["tolkien"]={"title":title[:180],"body":body[:900]}
     return variants
+
+def gemini_tolkien_rewrite(story,article_text,api_key):
+    source_text=article_text or story["summary"]
+    basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    prompt=f"""Feladat: készíts kizárólag Tolkien hangulatú NANONews-változatot magyarul.
+Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
+Adj új, önálló, Tolkien magasztos, régies-krónikás hangját idéző, de közérthető címet és 2–3 rövid mondatos összefoglalót.
+Ne készíts Eredeti változatot, és ne adj hozzá fantasy-elemet vagy új tényt.
+A válasz kizárólag JSON legyen:
+{{"tolkien":{{"title":"...","body":"..."}}}}
+Forrás: {story["source"]}
+Eredeti cím: {story["title"]}
+Alapanyag ({basis}):
+{source_text[:18000]}"""
+    payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
+    request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request,timeout=50) as response:
+                result=json.loads(response.read().decode("utf-8"))
+            break
+        except HTTPError as exc:
+            if exc.code!=503 or attempt==2:raise
+            delay=2**attempt
+            print(f"Gemini temporarily unavailable (503); retrying in {delay}s.")
+            time.sleep(delay)
+    raw=result.get("output_text","")
+    if not raw:
+        parts=[]
+        interaction=result.get("interaction",result)
+        for step in interaction.get("steps",[]):
+            if step.get("type")=="model_output":
+                for block in step.get("content",[]):
+                    if block.get("type")=="text":parts.append(block.get("text",""))
+        raw="\\n".join(parts)
+    raw=re.sub(r"^\\s*```(?:json)?|\\s*```\\s*$","",raw.strip(),flags=re.I)
+    parsed=json.loads(raw)
+    value=parsed.get("tolkien",{})
+    title=re.sub(r"\\s+"," ",str(value.get("title",""))).strip()
+    body=concise_sentences(value.get("body",""),3)
+    if not title or not body:raise ValueError("Missing Tolkien rewrite")
+    return {"title":title[:180],"body":body[:900]}
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
 previous_edition={}
@@ -238,8 +280,8 @@ try:
         if issue_at:
             current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
         for saved_story in previous_edition.get("stories",[]):
-            variants=saved_story.get("variants",{})
-            if not variants.get("original",{}).get("body") or not variants.get("tolkien",{}).get("body"):
+            tolkien=saved_story.get("variants",{}).get("tolkien",{})
+            if not tolkien.get("title") or not tolkien.get("body"):
                 pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
@@ -293,24 +335,25 @@ pending_updated=False
 if api_key and not manual:
     for pending_story in pending_current:
         current_variants=pending_story.setdefault("variants",{})
-        missing=[name for name in ("original","tolkien") if not current_variants.get(name,{}).get("body")]
-        if not missing:continue
+        current_tolkien=current_variants.setdefault("tolkien",{})
+        if current_tolkien.get("title") and current_tolkien.get("body"):continue
         article_text,_=fetch_article(pending_story.get("url",""))
         try:
-            generated=gemini_rewrites(pending_story,article_text,api_key)
-            for name in missing:
-                if generated.get(name):current_variants[name]=generated[name]
-            if all(current_variants.get(name,{}).get("body") for name in ("original","tolkien")):
-                pending_story["summaryVersion"]=SUMMARY_VERSION
+            generated=gemini_tolkien_rewrite(pending_story,article_text,api_key)
+            if not current_tolkien.get("title"):current_tolkien["title"]=generated["title"]
+            if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
+            if current_tolkien.get("title") and current_tolkien.get("body"):
+                if current_variants.get("original",{}).get("body"):
+                    pending_story["summaryVersion"]=SUMMARY_VERSION
                 if article_text:
                     pending_story["contentBasis"]="article"
                     pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
                 pending_updated=True
-                print(f"Completed missing summaries for {pending_story.get('url')}")
+                print(f"Completed missing Tolkien rewrite for {pending_story.get('url')}")
             else:
-                print(f"Rewrite still incomplete for {pending_story.get('url')}")
+                print(f"Tolkien rewrite still incomplete for {pending_story.get('url')}")
         except Exception as exc:
-            print(f"Pending rewrite unavailable {pending_story.get('url')}: {exc}")
+            print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
         finally:
             time.sleep(4)
 
@@ -320,7 +363,8 @@ def sync_pending_archive():
         archived=json.loads(current_archive_path.read_text(encoding="utf-8"))
         archived_by_url={item.get("url"):item for item in archived.get("stories",[]) if item.get("url")}
         for pending_story in pending_current:
-            if not pending_story.get("variants",{}).get("original",{}).get("body") or not pending_story.get("variants",{}).get("tolkien",{}).get("body"):continue
+            tolkien=pending_story.get("variants",{}).get("tolkien",{})
+            if not tolkien.get("title") or not tolkien.get("body"):continue
             target=archived_by_url.get(pending_story.get("url"))
             if target:
                 target["variants"]=pending_story["variants"]
@@ -332,11 +376,11 @@ def sync_pending_archive():
 
 if not stories:
     if not pending_updated:
-        print("No new stories or unfinished summaries; leaving the current edition and archive unchanged.")
+        print("No new stories or missing Tolkien rewrites; leaving the current edition and archive unchanged.")
         raise SystemExit(0)
     Path("data/latest.json").write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
-    print(f"Completed missing summaries in the current issue; {len(pending_current)} unfinished stories were checked.")
+    print(f"Completed missing Tolkien rewrites in the current issue; {len(pending_current)} stories were checked.")
     raise SystemExit(0)
 sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
