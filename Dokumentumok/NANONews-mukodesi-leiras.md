@@ -580,3 +580,11 @@ A második kézi pótlás után a 13 cikkből 12-nél van teljes Rejtő-változa
 
 
 A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval rendelkezett; a maradék 9 régebbi verziójú cikket a legfrissebb kiadást feldolgozó ötpereces ütemezés futásonként legfeljebb hárommal dolgozza át. A frissítés közben piros jelzés látható, és az archív lapszámok változatlanok maradnak.
+
+
+### 2026-11-23 — rovatok pontosítása, érvényes a 2026-11-24-i reggeli kiadástól
+
+- A sportrovatok közé bekerült a Darts; a hírbesorolás felismeri a darts, PDC és darts-világbajnokság kifejezéseket.
+- A külön „Belföldi parlament” és „Belföldi hírek” menüpontok helyett egyetlen „Belföld” rovat szerepel.
+- A Belföld a parlamenti témákat, a magyar gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó híreket gyűjti. A sportkategóriába sorolt híreket kizárja.
+- A rovatok megjelenítése és az új kategorizálási szabályok a következő hivatalos kiadástól, 2026. november 24-én 06:00-tól érvényesek. A korábbi lapszámokat nem generáljuk újra, és az aktuális kiadás adatfájlját nem módosítjuk.
