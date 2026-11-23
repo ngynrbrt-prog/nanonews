@@ -181,11 +181,10 @@ def gemini_rewrites(story,article_text,api_key):
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
     prompt=f"""Feladat: készíts három magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Mindkét összefoglaló legyen rövid és lényegretörő: 2–3 rövid mondatban foglald össze a hírt, csak a legfontosabb tényekkel.
+Mindhárom összefoglaló legyen rövid és lényegretörő: 2–3 rövid mondatban foglald össze a hírt, csak a legfontosabb tényekkel.
 Az "original" mezőbe írj semleges, tárgyilagos, közérthető összefoglalót 2–3 rövid mondatban. Ne készíts hosszú cikket és ne másold a forrást mondatról mondatra.
 A "tolkien" mezőbe írj új, önálló címet és 2–3 rövid mondatos összefoglalót. A cím és a szöveg idézze Tolkien magasztos, régies-krónikás hangját, de maradjon közérthető. Ne adj hozzá fantasy-elemet vagy új tényt.
-A két összefoglaló tartalma legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:
-{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}}}
+Az "reito" mezőbe írj új, önálló címet és 2–3 rövid mondatos összefoglalót, amely szellemes, fordulatos, száraz humorú, kalandregényes magyar hangulatot idéz. Ne másolj konkrét műrészletet vagy jellegzetes mondatot; maradj tényhű.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
 Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
