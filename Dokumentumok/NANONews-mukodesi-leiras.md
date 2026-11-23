@@ -306,7 +306,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: az Eredeti és Tolkien külön „Hírhangnem” csoportba került; a Nappali és Éjszakai külön „Színtéma” csoportot kapott. Asztali nézeten egymás mellett, mobilon egymás alatt látszanak; mindkettő közvetlenül a rovatmenü alatt van.
 - A hírhangnem és a színtéma külön helyi tárolási kulcsot használ. A színtéma váltása csak a színeket módosítja, a hangnem váltása pedig a címet és összefoglalót frissíti.
 - A korábbi egyesített beállítás mentett Tolkien választását megtartja; a korábbi Éjszakai értéket automatikusan külön színtéma-beállításként kezeli.
-- Állapot: a forrásmódosítás a main ágra került; a Pages közzététel ellenőrzése folyamatban.
+- Állapot: a forrásmódosítás és a dokumentáció a main ágra került. A GitHub Pages közzétette a friss oldalt; az élő felületen külön Hírhangnem (Eredeti/Tolkien) és Színtéma (Nappali/Éjszakai) csoportként ellenőrizve.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
