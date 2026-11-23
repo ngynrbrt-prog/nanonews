@@ -266,7 +266,8 @@ body.night-mode .brand-style-selector .mode.active{background:#e2d3b2;border-col
   }
   .lead h2.story-title-button { position: relative; padding-right: .75em; }
   .lead h2 .rewrite-pending-dot { position: absolute; top: .42em; right: .05em; margin: 0; }
-  .lead:not(:has(.story-image)) { max-width: 980px; }
+  .lead:not(:has(.story-image)) { width: 100%; max-width: none; }
+.lead:not(:has(.story-image)) > h2 { max-width: 980px; }
 }
 .story-title-button:hover { text-decoration: none; }
 
