@@ -1,4 +1,5 @@
 import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time
+from urllib.error import HTTPError
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
@@ -6,6 +7,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 TZ=ZoneInfo("Europe/Budapest")
+SUMMARY_VERSION="short-v1-2-3"
 now=datetime.now(TZ)
 manual=os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
 if now.hour not in (6,14,20) and not manual:
@@ -154,13 +156,26 @@ def fetch_article(url):
         print(f"Article fetch unavailable {url}: {exc}")
         return "",""
 
+def concise_sentences(value,limit=3):
+    value=re.sub(r"\s+"," ",str(value)).strip()
+    abbreviations=("pl.","dr.","stb.","kb.","u.","sz.","Mr.","Mrs.","Prof.","etc.")
+    for index,abbr in enumerate(abbreviations):
+        value=re.sub(re.escape(abbr),lambda match:match.group(0).replace(".",f"§{index}§"),value,flags=re.I)
+    sentences=re.split(r"(?<=[.!?])["'”’»)]*\s+",value)
+    value=" ".join(sentence.strip() for sentence in sentences[:limit] if sentence.strip())
+    for index,abbr in enumerate(abbreviations):
+        value=value.replace(f"§{index}§",".")
+    return value.strip()
+
+
 def gemini_rewrites(story,article_text,api_key):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
     prompt=f"""Feladat: készíts két magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Az "original" mezőbe írj semleges, tárgyilagos, közérthető, részletes összefoglalót 5–7 mondatban, lehetőleg 700–1500 karakterben. Fedje le a történet előzményeit, fontos szereplőit, tényeit, eredményét és következményét, amennyiben ezek szerepelnek a forrásban. Ne másold át mondatról mondatra a cikket, és ne készíts teljes cikket.
-A "tolkien" mezőbe írj új, önálló címet és részletes, tömör összefoglalót 3–5 mondatban. A cím és a szöveg Tolkien hangulatát idézze, epikus, régies-krónikás hangon, de maradjon közérthető. Ne adj hozzá fantasy-elemet vagy új tényt.
+Mindkét összefoglaló legyen rövid és lényegretörő: 2–3 rövid mondatban foglald össze a hírt, csak a legfontosabb tényekkel.
+Az "original" mezőbe írj semleges, tárgyilagos, közérthető összefoglalót 2–3 rövid mondatban. Ne készíts hosszú cikket és ne másold a forrást mondatról mondatra.
+A "tolkien" mezőbe írj új, önálló címet és 2–3 rövid mondatos összefoglalót. A cím és a szöveg idézze Tolkien magasztos, régies-krónikás hangját, de maradjon közérthető. Ne adj hozzá fantasy-elemet vagy új tényt.
 A két összefoglaló tartalma legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:
 {{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
@@ -169,8 +184,16 @@ Alapanyag ({basis}):
 {source_text[:18000]}"""
     payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
     request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
-    with urllib.request.urlopen(request,timeout=50) as response:
-        result=json.loads(response.read().decode("utf-8"))
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request,timeout=50) as response:
+                result=json.loads(response.read().decode("utf-8"))
+            break
+        except HTTPError as exc:
+            if exc.code!=503 or attempt==2:raise
+            delay=2**attempt
+            print(f"Gemini temporarily unavailable (503); retrying in {delay}s.")
+            time.sleep(delay)
     raw=result.get("output_text","")
     if not raw:
         parts=[]
@@ -187,13 +210,14 @@ Alapanyag ({basis}):
     if not original:
         source=re.sub(r"<[^>]*>"," ",source_text)
         sentences=re.split(r"(?<=[.!?])\s+",re.sub(r"\s+"," ",source).strip())
-        original=" ".join(sentences[:7]).strip()
-    if original:variants["original"]={"body":original[:3000]}
+        original=" ".join(sentences[:3]).strip()
+    original=concise_sentences(original,3)
+    if original:variants["original"]={"body":original[:900]}
     value=parsed.get("tolkien",{})
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
-    body=re.sub(r"\s+"," ",str(value.get("body",""))).strip()
+    body=concise_sentences(value.get("body",""),3)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
-    variants["tolkien"]={"title":title[:180],"body":body[:2400]}
+    variants["tolkien"]={"title":title[:180],"body":body[:900]}
     return variants
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
@@ -223,7 +247,7 @@ for source,urls in feeds.items():
             if is_domestic_economy(hay,cats):cats.append("domestic")
             if not cats:continue
             seen.add(key)
-            story={"source":source,"title":title,"summary":desc[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc)}
+            story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc),"summaryVersion":SUMMARY_VERSION}
             article_text,article_published=fetch_article(link)
             if not story["published"] and article_published:story["published"]=article_published
             article_date=parse_published(story["published"])
@@ -234,7 +258,7 @@ for source,urls in feeds.items():
             story["contentBasis"]="article" if article_text else "rss"
             story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
             cached=previous.get(link,{})
-            if cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body"):
+            if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body"):
                 story["variants"]=cached["variants"]
             elif api_key:
                 try:
