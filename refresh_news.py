@@ -259,11 +259,11 @@ Alapanyag ({basis}):
             if step.get("type")=="model_output":
                 for block in step.get("content",[]):
                     if block.get("type")=="text":parts.append(block.get("text",""))
-        raw="\\n".join(parts)
+        raw="\n".join(parts)
     raw=re.sub(r"^\\s*```(?:json)?|\\s*```\\s*$","",raw.strip(),flags=re.I)
     parsed=json.loads(raw)
     value=parsed.get("tolkien",{})
-    title=re.sub(r"\\s+"," ",str(value.get("title",""))).strip()
+    title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
     body=concise_sentences(value.get("body",""),3)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     return {"title":title[:180],"body":body[:900]}
