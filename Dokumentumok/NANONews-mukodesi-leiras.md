@@ -310,7 +310,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ### 2026-11-23 — éjszakai kapcsoló áthelyezése
 - Kérés: az Írás stílusa felirat alatt csak az Eredeti és a Tolkien tollából maradjon. Az Éjszakai mód kerüljön külön a fejlécbe, a Budapest-sor után középre, a NANONews cím fölé.
-- Módosítva az index.html: az éjszakai kapcsoló a fejlécben van; kikerült az írásstílus választójából. A sötét mód az egész oldalt érinti, és a külön nanonews-theme helyi beállításból töltődik vissza, amíg a felhasználó ki nem kapcsolja.
+- Módosítva az index.html: az éjszakai kapcsoló a fejlécben van; kikerült az írásstílus választójából. A sötét mód az egész oldalt érinti, és a külön nanonews-theme helyi beállításból töltődik vissza, amíg a felhasználó ki nem kapcsolja. Az egyelemű Írás stílusa panel teljes szélességben jelenik meg; az aktív éjszakai kapcsoló kontrasztját külön beállítottuk.
 - Az Eredeti/Tolkien választás saját nanonews-style beállításon marad, így mindkét írásstílus működik bekapcsolt éjszakai mód mellett is.
 - A leírás és a kódbeli felületi elrendezés frissítve. A Pages kiadás élő oldali ellenőrzése folyamatban.
 
