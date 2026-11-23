@@ -161,6 +161,22 @@ body.night-mode .night-toggle[aria-checked="true"] .toggle-state{background:#101
  .topline .edition-date{text-align:center}
  .topline .night-toggle{align-self:center}
 }
+
+/* Mobile reading layout: stack story media and copy, prevent narrow-grid overflow. */
+@media(max-width:760px){
+ .topline>span:first-child{order:1}
+ .topline .edition-date{order:2}
+ .topline .night-toggle{order:3;min-height:32px;padding:4px 9px;gap:8px;font-size:10px;letter-spacing:.035em}
+ .topline .night-toggle .toggle-state{min-width:32px;padding:2px 5px;font-size:9px}
+ .storylist{grid-template-columns:minmax(0,1fr)}
+ .story,.storylist,.lead{min-width:0}
+ .story.has-image{display:block;min-width:0}
+ .story.has-image .story-image.small{display:block;width:100%;height:auto;max-height:190px;aspect-ratio:16/9;object-fit:cover;margin:0 0 10px}
+ .story h3,.story-title-button,.story p,.dek{min-width:0;overflow-wrap:anywhere}
+ .story h3{margin:8px 0}
+ .story p{line-height:1.5}
+ .story-time{grid-column:auto}
+}
 </style></head>
 <body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><span id="today" class="edition-date"></span></div><div class="brand">NANO<span>News</span></div><div class="strap">A nap, egy másik hasábban.</div><nav class="nav topic-nav" aria-label="Rovataim"><details class="topic-accordion" open><summary class="topic-nav-title"><span>Rovataim</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav></header>
 <main class="page" id="mai"><section class="display-controls" aria-label="Írás stílusa">
