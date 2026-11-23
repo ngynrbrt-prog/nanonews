@@ -383,5 +383,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A dátum, az éjszakai mód kapcsolója és a Rovataim menü nem része a rögzített blokknak, továbbra is a lap tetején görgethetők.
 - Ellenőrzés: GitHub Pages publikálás (#125) sikeres. A közzétett asztali oldalon 1363 px-es nézetben, görgetés után ellenőriztem: a sticky logóblokk felső pozíciója 0 px marad, a rovatmenü és a cikkek továbbgörgethetők. A mobilos eltérő margók a 760 px alatti nézethez vannak beállítva; külön mobil viewportban nem ellenőriztem.
 
+### 2026-11-23 — NANONews iPhone-kezdőképernyő ikon
+- Kérés: az iPhone-on webappként elmentett NANONews a jelenlegi logó betűstílusát és papírháttér-színét használja ikonként.
+- Elkészült az `apple-touch-icon.png` négyzetes, 180×180 pixeles ikon: a sötét „NANO” és téglavörös „News” felirat a krémszínű, finoman nyomtatott papírháttéren jelenik meg.
+- Módosítva az index.html: beállítottam az iOS `apple-touch-icon` hivatkozást, a kezdőképernyőn megjelenő „NANONews” nevet és a webapp megjelenítési metaadatát.
+- Az ikont és a HTML-módosítást egy commitban küldtem fel a `main` ágra, így a Pages a teljes ikonnal együtt publikálja az oldalt.
+- Állapot: a GitHub Pages publikálás ellenőrzése folyamatban van.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
