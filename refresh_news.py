@@ -139,6 +139,18 @@ def fetch_eurosport_items(url):
     if not result:raise ValueError("Eurosport latest-news listing returned no story links")
     return result
 
+def story_key(url):
+    parts=urllib.parse.urlsplit(url)
+    return (parts.netloc.lower(),parts.path.rstrip("/"))
+
+published_before=set()
+for file in list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]:
+    if file.name=="index.json" or not file.exists():continue
+    try:
+        edition_data=json.loads(file.read_text(encoding="utf-8"))
+        published_before.update(story_key(s.get("url","")) for s in edition_data.get("stories",[]) if s.get("url"))
+    except Exception:pass
+
 def fetch_article(url):
     try:
         req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; NANONews/1.0; +https://ngynrbrt-prog.github.io/nanonews/)","Accept":"text/html"})
@@ -211,13 +223,15 @@ for source,urls in feeds.items():
             feed_items=root.findall(".//item")
         for item in feed_items:
             title=text(item.find("title"));link=text(item.find("link"));desc=text(item.find("description"))
-            if not title or not link or link in seen:continue
+            if not title or not link:continue
+            key=story_key(link)
+            if key in seen or key in published_before:continue
             hay=(title+" "+desc+" "+link).casefold()
             cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if is_domestic_economy(hay,cats):cats.append("domestic")
             if not cats:continue
-            seen.add(link)
+            seen.add(key)
             story={"source":source,"title":title,"summary":desc[:500],"url":link,"published":text(item.find("pubDate")),"categories":cats,"image":image_for(item,desc)}
             article_text=fetch_article(link)
             basis_text=article_text or story["summary"]
