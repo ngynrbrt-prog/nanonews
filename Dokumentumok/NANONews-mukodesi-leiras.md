@@ -26,7 +26,7 @@ Az adatfeldolgozás ütemezetten vagy kézi indítással történik. A GitHub Ac
 
 ```mermaid
 flowchart TD
-  sources["Telex · HVG · Index · Nemzeti Sport · NBAnews.hu"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
+  sources["Telex · HVG · Index · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé! · Eurosport"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
   schedule["Időzített vagy kézi indítás"] --> actions
   secret["GitHub Secret: GEMINI_API_KEY"] -->|futás közbeni környezeti változó| worker["refresh_news.py"]
   actions --> worker
@@ -41,7 +41,7 @@ Az API-kulcs csak a workflow futásakor jut el a feldolgozóhoz, és a generál�
 
 ## 3. Források
 
-A források és RSS-címek a refresh_news.py fájlban vannak beállítva:
+A források és lekérési módok a refresh_news.py fájlban vannak beállítva:
 
 - Telex — https://telex.hu/rss
 - HVG — https://hvg.hu/rss
@@ -49,8 +49,10 @@ A források és RSS-címek a refresh_news.py fájlban vannak beállítva:
 - Nemzeti Sport — elsődlegesen https://www.nemzetisport.hu/publicapi/hu/rss/nso/articles
 - Nemzeti Sport tartalék feed — https://www.nemzetisport.hu/static/rss_hirek.xml
 - NBAnews.hu — https://nbanews.hu/feed/
+- Fűzővel kifelé! — https://fuzovelkifele.com/feed/ (WordPress RSS; NFL-cikkek)
+- Eurosport — https://www.eurosport.hu/latest-news.shtml (a legfrissebb hírek nyilvános cikklistájának feldolgozása; hivatalos RSS-feed nem állt rendelkezésre)
 
-A nem elérhető RSS-végpont hibáját a workflow naplózza, a többi forrást ettől még feldolgozhatja. A forrás neve minden cikk mellett megjelenik. A cikk címe és RSS-kivonata alapján történik a témába sorolás; a teljes cikk szövegét a generálás számára próbálja elérni a rendszer, ha az nyilvánosan olvasható.
+A nem elérhető RSS-végpont vagy hírlista hibáját a workflow naplózza, a többi forrást ettől még feldolgozhatja. A Eurosport legfrissebb hírek listáját minden kiadáskor lekéri, abból a cikkcímeket és hivatkozásokat dolgozza fel, majd a cikkoldalak nyilvánosan elérhető szövegét próbálja letölteni. A forrás neve minden cikk mellett megjelenik. A cikk címe és RSS-kivonata alapján történik a témába sorolás; a teljes cikk szövegét a generálás számára próbálja elérni a rendszer, ha az nyilvánosan olvasható.
 
 ## 4. Rovatok és szűrés
 
@@ -66,6 +68,8 @@ Jelenlegi rovatok:
 - Premier League
 - F1
 - NBA
+- NFL
+- Kerékpár
 - Belföldi parlament
 - Belföldi tőzsde
 - Külföldi tőzsde
@@ -102,7 +106,7 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 ```mermaid
 flowchart TD
   schedule["Ütemezés: naponta 06:00, 14:00, 20:00"] --> timecheck{"A budapesti idő a kiadási időpontra esik?"}
-  manual["Kézi Run workflow indítás"] --> fetch["RSS-feedek lekérése"]
+  manual["Kézi Run workflow indítás"] --> fetch["RSS-feedek és Eurosport hírlista lekérése"]
   timecheck -->|Igen| fetch
   timecheck -->|Nem| stop["Automatikus futás leáll"]
   fetch --> feeds["Források egyenkénti feldolgozása"]
@@ -110,7 +114,7 @@ flowchart TD
   available -->|Nem| log["Hiba naplózása; további feedek folytatása"]
   available -->|Igen| dedupe["Hivatkozások és ismétlődések szűrése"]
   log --> dedupe
-  dedupe --> topics["Rovatok hozzárendelése a cím és RSS-kivonat alapján"]
+  dedupe --> topics["Rovatok hozzárendelése a cím és kivonat alapján"]
   topics --> domestic{"Belföldi hírek rovat?"}
   domestic -->|Igen| econ["Hazai vonatkozás + gazdasági feltétel; sport kizárása"]
   domestic -->|Nem| article["Cikkoldal nyilvános szövegének lekérése"]
@@ -171,8 +175,8 @@ flowchart TD
   live --> latest["Főoldal betölti a data/latest.json fájlt"]
   live --> archive["Archív menü betölti az archívumjegyzéket"]
   latest --> filter["Kiválasztott rovat szerinti szűrés"]
-  filter --> style["Eredeti vagy Tolkien-megjelenítési mód"]
-  style --> reader["Cikk az oldalon belüli ablakban"]
+  filter --> mode["Eredeti vagy Tolkien-megjelenítési mód"]
+  mode --> reader["Cikk az oldalon belüli ablakban"]
   archive --> oldedition["Régi kiadás kiválasztása és betöltése"]
 ```
 
@@ -208,7 +212,7 @@ Ha a kulcs cserére szorul, új kulcsot kell létrehozni, a GitHub Actions titok
 
 ## 9. Weboldal és archívum
 
-A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok vízszintes sávként jelennek meg, és kis képernyőn több sorba törnek.
+A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek.
 
 A megjelenítési mód és a kiválasztott rovat a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be.
 
@@ -251,6 +255,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Ellenőrzés: a kézi frissítési futás (#10) sikeresen lezárult; a 12:06-os kiadás 31 cikket tartalmaz, mind a 31-hez készült Tolkien-változat. A Belföldi hírek kategóriában 4 gazdasági hír szerepel; sportkategóriájú cikk nem került bele.
 - Közzététel: a főoldalon a rovat kiválasztásakor ellenőriztem, hogy sportcikkek nem jelennek meg.
 - További felületi pontosítás: a fejléc most mindhárom kiadási időt mutatja; eltávolítva az elavult „első kiadás készül / adatbázis bekötése szükséges” üzenet. A módosítás közzétéve; az élő oldalon megerősítettem a napi három időpontot és az elavult üzenet eltávolítását.
+
+### 2026-11-23 — Fűzővel kifelé!, Eurosport és sportrovatrendezés
+- Kérés: rendszeresen lekérni a Fűzővel kifelé! és Eurosport portált; új Kerékpár rovatot felvenni; a sportrovatokat az első sorba, az egyéb rovatokat külön sorba rendezni.
+- Módosítva: refresh_news.py a Fűzővel kifelé! RSS-ével (NFL-kategóriába sorolva) és a Eurosport legfrissebb hírek listájának lekérésével; index.html NFL és Kerékpár rovatával, valamint két soros rovatcsoportjaival.
+- A Eurosport magyar oldalon nem találtam hivatalos RSS-végpontot; a nyilvános /latest-news.shtml oldalból a cikkcímek és cikkhivatkozások kerülnek feldolgozásra.
+- Ellenőrzés: a Fűzővel kifelé! feed a böngészőben elérhető volt, RSS-elemeket, nyilvános cikk-szöveget és képeket adott. A Eurosport főoldal és legfrissebb-hír lista böngészőben ellenőrizve; automatikus repófrissítés még nem futott.
+- Mermaid-megjelenítés: a publikálási folyamatábrában a fenntartott „style” azonosító „mode”-ra javítva.
 
 ### 2026-11-23 — működési dokumentáció folyamatábrái
 - Kérés: architektúra-ábra és részletes folyamatábrák a gyűjtéshez, összefoglalóhoz, Tolkien-módhoz, kiadásmentéshez és publikáláshoz.
