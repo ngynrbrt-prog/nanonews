@@ -72,6 +72,7 @@ Jelenlegi rovatok:
 - Seattle Seahawks
 - Kerékpár
 - Darts
+- Bajnokok ligája
 - Belföld
 - Belföldi tőzsde
 - Külföldi tőzsde
@@ -621,3 +622,10 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 - A cikkablakban a kapcsolódó hírek címe „Összehasonlítás”. A rovat mindig megjelenik az aktuálisan megnyitott cikk alatt, akkor is, ha nincs találat.
 - Találat nélkül az üres állapot szövege: „Jelenleg nincs hasonló hír az adatbázisban.”
 - Ha az olvasó egy kapcsolódó hírt nyit meg, az összehasonlító lista az adott cikkre vált, és a csoport többi hírét mutatja; az olvasási stílus választása megmarad.
+
+
+### 2026-11-23 — stílusfelirat és európai futballrovatok
+
+- Az „Eredeti” stílus neve minden választónál „Eredeti összefoglaló” lett.
+- A Darts rovat visszakerült a sportrovatok közé. A dátumhoz kötött Belföld-rovat aktiválása többé nem rejti el a Darts menüpontot.
+- Új sportrovat: Bajnokok ligája. A gyűjtés és a webes szűrés az UEFA Champions League/Bajnokok ligája kifejezések alapján sorolja ide a kapcsolódó európai futballhíreket; a kategória kizárja ezeket a híreket a Technológia és Belföld rovatokból.
