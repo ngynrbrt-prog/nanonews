@@ -1,4 +1,4 @@
-import hashlib, json, re, urllib.request, xml.etree.ElementTree as ET, os, time
+import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time
 from datetime import datetime
 from html.parser import HTMLParser
 from pathlib import Path
