@@ -20,6 +20,25 @@ Az oldal jelenleg statikus webalkalmazás. Nincs külön SQL-adatbázis vagy saj
 
 A szolgáltatók ingyenes keretei és használati korlátai változhatnak. Ha egy ingyenes kvóta kimerül, az AI-átfogalmazás elmaradhat; a rendszer nem áll át automatikusan fizetős szolgáltatásra. A Google AI Studio-ban a kulcs a Free tier projekthez tartozik. A fizetős számlázást nem szabad bekapcsolni a NANONews működtetéséhez.
 
+### Rendszerarchitektúra
+
+Az adatfeldolgozás ütemezetten vagy kézi indítással történik. A GitHub Actions futtatja a Python-feldolgozót, a Gemini API-kulcsot GitHub Secretből kapja meg, a kimeneti JSON-fájlok pedig a repóba kerülnek. A GitHub Pages ezekből szolgálja ki az oldalt számítógépen és mobilon.
+
+```mermaid
+flowchart TD
+  sources["Telex · HVG · Index · Nemzeti Sport · NBAnews.hu"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
+  schedule["Időzített vagy kézi indítás"] --> actions
+  secret["GitHub Secret: GEMINI_API_KEY"] -->|futás közbeni környezeti változó| worker["refresh_news.py"]
+  actions --> worker
+  worker -->|cikkfeldolgozás és kategorizálás| gemini["Gemini API"]
+  worker -->|kiadás és archív JSON| repo["GitHub repó · main ág"]
+  repo -->|GitHub Pages publikálás| site["NANONews weboldal"]
+  site --> devices["Böngésző · notebook · telefon"]
+  devices -->|rovat és megjelenítési mód| site
+```
+
+Az API-kulcs csak a workflow futásakor jut el a feldolgozóhoz, és a generálásnál kerül tovább a Gemini API-hoz. A böngésző nem kapja meg a kulcsot.
+
 ## 3. Források
 
 A források és RSS-címek a refresh_news.py fájlban vannak beállítva:
@@ -75,6 +94,89 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 5. Ha van használható Gemini-kulcs, a program címet és 3–5 mondatos összefoglalót kér. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
 6. A program létrehozza vagy frissíti a data/latest.json fájlt, hozzáad egy időbélyeges kiadást a data/archive/ mappához, majd frissíti a data/archive/index.json archívumjegyzéket. Legfeljebb 80 cikk kerül egy kiadásba.
 7. Sikeres fájlváltozás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt.
+
+### Folyamatábrák
+
+#### Kiadás indítása és hírgyűjtés
+
+```mermaid
+flowchart TD
+  schedule["Ütemezés: naponta 06:00, 14:00, 20:00"] --> timecheck{"A budapesti idő a kiadási időpontra esik?"}
+  manual["Kézi Run workflow indítás"] --> fetch["RSS-feedek lekérése"]
+  timecheck -->|Igen| fetch
+  timecheck -->|Nem| stop["Automatikus futás leáll"]
+  fetch --> feeds["Források egyenkénti feldolgozása"]
+  feeds --> available{"A feed elérhető?"}
+  available -->|Nem| log["Hiba naplózása; további feedek folytatása"]
+  available -->|Igen| dedupe["Hivatkozások és ismétlődések szűrése"]
+  log --> dedupe
+  dedupe --> topics["Rovatok hozzárendelése a cím és RSS-kivonat alapján"]
+  topics --> domestic{"Belföldi hírek rovat?"}
+  domestic -->|Igen| econ["Hazai vonatkozás + gazdasági feltétel; sport kizárása"]
+  domestic -->|Nem| article["Cikkoldal nyilvános szövegének lekérése"]
+  econ --> article
+  article --> body{"Elérhető a cikk szövege?"}
+  body -->|Igen| full["Cikk bekezdéseinek feldolgozása, legfeljebb 18 000 karakter"]
+  body -->|Nem| excerpt["RSS-kivonat használata"]
+  full --> prepare["Cikkadat átadása a generálási folyamatnak"]
+  excerpt --> prepare
+```
+
+A feedhiba nem állítja le a többi forrás feldolgozását. A kézi indításnál az időzítési ellenőrzés kimarad; automatikus indításnál csak a megfelelő budapesti időablak folytatódik.
+
+#### Eredeti összefoglaló és Tolkien-változat
+
+```mermaid
+flowchart TD
+  input["Lekért cikk vagy RSS-kivonat"] --> hash["Forrástartalom lenyomatának képzése"]
+  hash --> cached{"Van ehhez a tartalomhoz mentett változat?"}
+  cached -->|Igen| reuse["Mentett Tolkien-cím és összefoglaló újrafelhasználása"]
+  cached -->|Nem| key{"Elérhető a GEMINI_API_KEY?"}
+  key -->|Nem| original["Eredeti cím és RSS-kivonat marad"]
+  key -->|Igen| request["Gemini-kérés: cím + 3–5 mondatos összefoglaló"]
+  request --> rules["Tényhűség, magyar nyelv, Tolkien-hang, JSON-formátum"]
+  rules --> response["Gemini-válasz ellenőrzése"]
+  response --> valid{"A válasz tartalmaz használható címet és szöveget?"}
+  valid -->|Igen| variant["Tolkien-változat eltárolása"]
+  valid -->|Nem| original
+  reuse --> output["Kiadásba kerülő cikk"]
+  variant --> output
+  original --> output
+```
+
+A generálás a nyilvánosan elérhető cikk szövegét használja, ha az lekérhető; különben az RSS-kivonatot. Az eredeti és a Tolkien-változat külön mezőkben marad meg, ezért a weboldal választója a címet és az összefoglalót együtt tudja váltani.
+
+#### Kiadás mentése és feltöltése a repóba
+
+```mermaid
+flowchart TD
+  stories["Összegyűjtött és feldolgozott hírek"] --> latest["data/latest.json létrehozása vagy frissítése"]
+  latest --> archive["Időbélyeges kiadás mentése a data/archive/ mappába"]
+  archive --> index["data/archive/index.json frissítése"]
+  index --> changes{"Van fájlváltozás?"}
+  changes -->|Nincs| nochange["Nincs új commit"]
+  changes -->|Van| commit["Git commit a main ágra"]
+  commit --> push["GitHub Actions feltölti a módosításokat a repóba"]
+  push --> deploy["GitHub Pages build és közzététel"]
+```
+
+#### Publikálás és megjelenítés
+
+```mermaid
+flowchart TD
+  commit["Új commit a main ágon"] --> build["GitHub Pages build"]
+  build --> success{"Sikeres a build és a deploy?"}
+  success -->|Nem| retry["Hiba megtekintése az Actions naplójában"]
+  success -->|Igen| live["Friss weboldal elérhető"]
+  live --> latest["Főoldal betölti a data/latest.json fájlt"]
+  live --> archive["Archív menü betölti az archívumjegyzéket"]
+  latest --> filter["Kiválasztott rovat szerinti szűrés"]
+  filter --> style["Eredeti vagy Tolkien-megjelenítési mód"]
+  style --> reader["Cikk az oldalon belüli ablakban"]
+  archive --> oldedition["Régi kiadás kiválasztása és betöltése"]
+```
+
+A GitHub Actions futás sikeressége és a Pages közzététele külön állapot. A frissítés akkor tekinthető teljesnek, ha az adatfájlok commitja megvan, a Pages build/deploy sikeres, és az élő oldalon az új kiadás megjelenik.
 
 ## 7. AI-generálás és megjelenítési módok
 
@@ -149,6 +251,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Ellenőrzés: a kézi frissítési futás (#10) sikeresen lezárult; a 12:06-os kiadás 31 cikket tartalmaz, mind a 31-hez készült Tolkien-változat. A Belföldi hírek kategóriában 4 gazdasági hír szerepel; sportkategóriájú cikk nem került bele.
 - Közzététel: a főoldalon a rovat kiválasztásakor ellenőriztem, hogy sportcikkek nem jelennek meg.
 - További felületi pontosítás: a fejléc most mindhárom kiadási időt mutatja; eltávolítva az elavult „első kiadás készül / adatbázis bekötése szükséges” üzenet. A módosítás közzétéve; az élő oldalon megerősítettem a napi három időpontot és az elavult üzenet eltávolítását.
+
+### 2026-11-23 — működési dokumentáció folyamatábrái
+- Kérés: architektúra-ábra és részletes folyamatábrák a gyűjtéshez, összefoglalóhoz, Tolkien-módhoz, kiadásmentéshez és publikáláshoz.
+- Elkészült: Mermaid-ábrák kerültek a működési leírás megfelelő fejezeteibe; külön jelölve az automatikus és kézi indítás, a feedhiba, a cikk/RSS-tartalom választása, a kulcs használata, az archívum mentése, a GitHub-commit és a Pages deploy.
+- Állapot: feltöltve a main ágra; a dokumentum GitHub Markdown előnézetében ellenőrizve.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
