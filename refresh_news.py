@@ -113,6 +113,7 @@ def parse_published(value):
 published_before=set()
 latest_official_at=None
 today_issue_count=0
+today_issued_hours=set()
 counted_editions=set()
 issue_files=list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]
 for file in issue_files:
@@ -126,6 +127,7 @@ for file in issue_files:
         if issue_at and issue_at.date()==now.date() and issue_id not in counted_editions:
             today_issue_count+=1
             counted_editions.add(issue_id)
+            today_issued_hours.add(issue_at.hour)
         published_before.update(story_key(s.get("url","")) for s in edition_data.get("stories",[]) if s.get("url"))
     except Exception:pass
 
@@ -241,7 +243,10 @@ try:
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[];seen=set()
+scheduled_issue_number={6:1,17:2}.get(now.hour)
+collect_new_edition=manual or (scheduled_issue_number is not None and now.hour not in today_issued_hours)
 for source,urls in feeds.items():
+ if not collect_new_edition:break
  for url in urls:
     try:
         req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
@@ -334,7 +339,7 @@ if not stories:
     raise SystemExit(0)
 sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
-issue_number=None if manual else today_issue_count+1
+issue_number=None if manual else scheduled_issue_number
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories[:80]}
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
