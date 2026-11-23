@@ -137,11 +137,7 @@ def stories_are_similar(left,right):
     union=left_tokens|right_tokens
     title_ratio=len(shared_title)/max(1,min(len(left_title),len(right_title)))
     overlap=len(shared)/max(1,len(union))
-    specific_categories={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","seahawks","cycling","darts","parliament","belfold","domestic","hu-market","world-market"}
-    same_topic=bool((set(left.get("categories",[]))&set(right.get("categories",[])))-{"technology"}) or not (set(left.get("categories",[]))&set(right.get("categories",[])))
-    if (set(left.get("categories",[]))&set(right.get("categories",[]))) & specific_categories:
-        same_topic=True
-    return same_topic and ((len(shared_title)>=2 and title_ratio>=0.3) or (len(shared)>=5 and overlap>=0.12))
+    return (len(shared_title)>=2 and title_ratio>=0.3) or (len(shared)>=5 and overlap>=0.12)
 
 def group_similar_stories(items):
     pending=list(items);grouped=[]
@@ -371,12 +367,13 @@ pending_current=[]
 current_archive_path=None
 try:
     previous_edition=json.loads(Path("data/latest.json").read_text(encoding="utf-8"))
-    previous={s.get("url"):s for s in previous_edition.get("stories",[]) if s.get("url")}
+    previous={record.get("url"):record for story in previous_edition.get("stories",[]) for record in all_story_records(story) if record.get("url")}
     if not previous_edition.get("testEdition"):
         issue_at=parse_published(previous_edition.get("updatedAt"))
         if issue_at:
             current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
-        for saved_story in previous_edition.get("stories",[]):
+        for grouped_story in previous_edition.get("stories",[]):
+          for saved_story in all_story_records(grouped_story):
             tolkien=saved_story.get("variants",{}).get("tolkien",{})
             reito=saved_story.get("variants",{}).get("reito",{})
             if (saved_story.get("summaryVersion")!=SUMMARY_VERSION or
@@ -489,7 +486,7 @@ def sync_pending_archive():
     if not pending_updated or not current_archive_path or not current_archive_path.exists():return
     try:
         archived=json.loads(current_archive_path.read_text(encoding="utf-8"))
-        archived_by_url={item.get("url"):item for item in archived.get("stories",[]) if item.get("url")}
+        archived_by_url={record.get("url"):record for item in archived.get("stories",[]) for record in all_story_records(item) if record.get("url")}
         for pending_story in pending_current:
             variants=pending_story.get("variants",{})
             tolkien=variants.get("tolkien",{})
@@ -516,6 +513,7 @@ if not stories:
     raise SystemExit(0)
 sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
+stories=group_similar_stories(stories)
 issue_number=None if manual else scheduled_issue_number
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories[:80]}
 Path("data").mkdir(exist_ok=True)
