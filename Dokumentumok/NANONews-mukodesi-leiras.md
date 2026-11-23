@@ -614,3 +614,10 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 - A hasonlóságkeresés az archív hivatalos lapszámok cikkeit is átnézi. A régi cikk a kapcsolódó sorban az „arch.” jelöléssel és a kiadás dátumával jelenik meg; a korábbi lapszám JSON-ja változatlan marad.
 - A kapcsolódó sor a cikkoldali részletes nézetet nyitja meg, ahol az Eredeti, Tolkien és Rejtő Jenő változat választható. A Forrás gomb az adott cikk eredeti oldalára mutat.
 - Az új feedek, csoportosítás és archívum-összevetés a következő hivatalos kiadás gyűjtési folyamatában lép működésbe; meglévő lapot nem generál újra.
+
+
+### 2026-11-23 — az Összehasonlítás rovat minden cikk nézetében
+
+- A cikkablakban a kapcsolódó hírek címe „Összehasonlítás”. A rovat mindig megjelenik az aktuálisan megnyitott cikk alatt, akkor is, ha nincs találat.
+- Találat nélkül az üres állapot szövege: „Jelenleg nincs hasonló hír az adatbázisban.”
+- Ha az olvasó egy kapcsolódó hírt nyit meg, az összehasonlító lista az adott cikkre vált, és a csoport többi hírét mutatja; az olvasási stílus választása megmarad.
