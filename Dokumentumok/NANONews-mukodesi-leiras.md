@@ -388,7 +388,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Elkészült az `apple-touch-icon.png` négyzetes, 180×180 pixeles ikon: a sötét „NANO” és téglavörös „News” felirat a krémszínű, finoman nyomtatott papírháttéren jelenik meg.
 - Módosítva az index.html: beállítottam az iOS `apple-touch-icon` hivatkozást, a kezdőképernyőn megjelenő „NANONews” nevet és a webapp megjelenítési metaadatát.
 - Az ikont és a HTML-módosítást egy commitban küldtem fel a `main` ágra, így a Pages a teljes ikonnal együtt publikálja az oldalt.
-- Állapot: a GitHub Pages publikálás ellenőrzése folyamatban van.
+- Ellenőrzés: a GitHub Pages publikálás (#128) sikeres. Az élő oldal HTML-fejlécében ellenőriztem az `apple-touch-icon` hivatkozást, a `NANONews` kezdőképernyő-nevet és a standalone webapp beállítást; a 180×180-as PNG a repóban van.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
