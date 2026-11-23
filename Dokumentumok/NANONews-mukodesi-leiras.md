@@ -671,3 +671,11 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 
 - Jelzés: a rovatmenü teljesen eltűnt. A Belföld sportgazdasági szűrésének módosításakor egy fölösleges zárójel JavaScript-szintaktikai hibát okozott, ezért a böngésző nem futtatta le a rovatok kirajzolását sem.
 - A hibás zárójelet eltávolítottam. Ellenőrzés: az oldal beágyazott JavaScriptje szintaktikailag érvényes.
+
+
+### 2026-11-23 — rövidebb főoldali hírek és újságszerű csoportosítás
+
+- Kérés: a főoldali hírek legyenek rövid kivonatok, a hasonló hírek kerüljenek egymás mellé, a csoporthoz tartozást pedig finom, régi újságot idéző jelölés mutassa.
+- Az index.html a kezdőlapon a kiválasztott stílus első két mondatát, legfeljebb 280 karakterben jeleníti meg. A kattintható cikkablak továbbra is a teljes elmentett stílusváltozatot mutatja, és megtartja az Összehasonlítás részt, az archív dátumjelölést, valamint a cikkenkénti forráslinket.
+- A feldolgozó által hasonlónak talált cikkek közös, egymás melletti kártyacsoportban jelennek meg; a csoporton vékony újságvonal és visszafogott címke jelzi az összetartozást. A kártyák a rovatukat is feltüntetik.
+- A cikkablak stílusválasztása továbbra is a főoldali beállítást követi; az összefoglaló és az összehasonlító hírek a kiválasztott hangnemben jelennek meg.
