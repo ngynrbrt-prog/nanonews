@@ -15,11 +15,9 @@ if now.hour not in (6,14,20) and not manual:
 feeds={
  "Telex":["https://telex.hu/rss"],
  "HVG":["https://hvg.hu/rss"],
- "Index":["https://index.hu/rss"],
  "Nemzeti Sport":["https://www.nemzetisport.hu/publicapi/hu/rss/nso/articles","https://www.nemzetisport.hu/static/rss_hirek.xml"],
  "NBAnews.hu":["https://nbanews.hu/feed/"],
  "Fűzővel kifelé!":["https://fuzovelkifele.com/feed/"],
- "Eurosport":["https://www.eurosport.hu/latest-news.shtml"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
@@ -98,47 +96,6 @@ class ArticleTextParser(HTMLParser):
                 if self.prefer_current:self.preferred.append(value)
             self.capture=False;self.paragraph=[]
         elif tag=="article" and self.article:self.article-=1
-
-class LatestStoriesParser(HTMLParser):
-    def __init__(self):
-        super().__init__(convert_charrefs=True)
-        self.current=None; self.items=[]
-    def handle_starttag(self,tag,attrs):
-        if tag=="a":
-            href=dict(attrs).get("href","")
-            if "_sto" in href and "/story.shtml" in href:
-                label=attrs.get("aria-label",attrs.get("title",""))
-                label=re.sub(r"^Card for\\s+","",label).strip()
-                self.current=[href,[label] if label else []]
-    def handle_data(self,data):
-        if self.current:
-            value=re.sub(r"\s+"," ",data).strip()
-            if value:self.current[1].append(value)
-    def handle_endtag(self,tag):
-        if tag=="a" and self.current:
-            href,parts=self.current
-            title=re.sub(r"\s+"," "," ".join(parts)).strip()
-            if not title:
-                title=re.sub(r"[_-]sto\\d+.*$","",href.rsplit("/",1)[-1]).replace("-"," ").replace("_"," ").strip().title()
-            if title:self.items.append((title,href))
-            self.current=None
-
-def fetch_eurosport_items(url):
-    request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; NANONews/1.0)","Accept":"text/html"})
-    with urllib.request.urlopen(request,timeout=25) as response:
-        page=response.read(2_000_000).decode(response.headers.get_content_charset() or "utf-8",errors="replace")
-    parser=LatestStoriesParser();parser.feed(page)
-    result=[];seen_links=set()
-    for title,link in parser.items:
-        link=urllib.parse.urljoin("https://www.eurosport.hu",link)
-        if link in seen_links:continue
-        seen_links.add(link)
-        item=ET.Element("item")
-        ET.SubElement(item,"title").text=title
-        ET.SubElement(item,"link").text=link
-        result.append(item)
-    if not result:raise ValueError("Eurosport latest-news listing returned no story links")
-    return result
 
 def story_key(url):
     parts=urllib.parse.urlsplit(url)
@@ -250,11 +207,8 @@ for source,urls in feeds.items():
  for url in urls:
     try:
         req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
-        if source=="Eurosport":
-            feed_items=fetch_eurosport_items(url)
-        else:
-            root=ET.fromstring(urllib.request.urlopen(req,timeout=20).read())
-            feed_items=root.findall(".//item")
+        root=ET.fromstring(urllib.request.urlopen(req,timeout=20).read())
+        feed_items=root.findall(".//item")
         for item in feed_items:
             title=text(item.find("title"));link=text(item.find("link"));desc=text(item.find("description"))
             if not title or not link:continue
