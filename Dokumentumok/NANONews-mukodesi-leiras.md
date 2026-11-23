@@ -190,7 +190,7 @@ A felület két, egymástól elkülönített beállításcsoportot kínál:
 - **Írás stílusa:** Eredeti vagy Tolkien tollából. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
 - **Éjszakai mód:** önálló be/ki kapcsoló a fejléc közepén, a napi dátummal egy sorban, közvetlenül a NANONews cím fölött. Bekapcsolva az egész oldal sötét színtémára vált; az állapot kikapcsolásig és oldalfrissítés után is megmarad.
 
-Az Írás stílusa választó a rovatmenü alatt, a cikkrész teljes szélességében jelenik meg. A fejléc dátuma után /1 jelöli a reggeli, /2 a délutáni, /3 az esti kiadást. A sorszámot a kiadás updatedAt időpontjából, Europe/Budapest szerint számolja; archív lap megnyitásakor annak dátuma és sorszáma jelenik meg. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
+Az Írás stílusa választó a rovatmenü alatt, a cikkrész teljes szélességében jelenik meg. A Rovataim és az Írás stílusa részek összecsukható natív lenyíló panelként működnek, alaphelyzetben nyitva. Asztali nézetben a fejlécben a „Budapest · személyes Napközbeni lap” balra, az éjszakai kapcsoló középre, a dátum és a sorszám jobbra rendeződik; mobilon középre rendezve, egymás alatt jelennek meg. A fejléc dátuma után /1 jelöli a reggeli, /2 a délutáni, /3 az esti kiadást. A sorszámot a kiadás updatedAt időpontjából, Europe/Budapest szerint számolja; archív lap megnyitásakor annak dátuma és sorszáma jelenik meg. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
 
 A Gemini-változat mezői a kiadás JSON-jában a variants.tolkien.title és variants.tolkien.body alatt vannak. Ha egy cikkhez nem sikerül generálni, a felület az eredeti címet és kivonatot jeleníti meg. Így egy forráshiba nem akadályozza a teljes kiadás megjelenítését.
 
@@ -325,6 +325,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Kérés: a „Budapest · személyes digitális napilap” fejlécszöveg legyen „Budapest · személyes Napközbeni lap”.
 - Módosítva az index.html: a fejlécben az új megnevezés jelenik meg.
 - Állapot: a módosítás a main ágra került, a GitHub Pages közzététele sikerült. Az élő oldalon ellenőrizve az új fejlécszöveg, a középre rendezett dátum és kiadásszám, a kapcsoló helye, valamint a teljes szélességű Írás stílusa sáv.
+
+### 2026-11-23 — fejlécoszlopok, összecsukható részek és írógépbetű
+- Kérés: asztali fejlécben a helymegjelölés legyen balra, az éjszakai mód középre, a dátum jobbra rendezve; a Rovataim és Írás stílusa rész legyen összecsukható; a betűk hasonlítsanak jobban írógéphez.
+- Módosítva az index.html: a három fejléc-elem asztali nézetben egy sorban, három oszlopban jelenik meg; mobilon középre rendezve egymás alá törik.
+- A Rovataim és az Írás stílusa natív összecsukható panelt kapott, alapértelmezés szerint nyitott állapotban.
+- A Playfair/Source Sans családot Courier Prime írógépbetű váltotta; a kisebb feliratok DM Mono betűvel maradtak.
+- Állapot: a forrásmódosítás main ágra került; a Pages publikálása és élő felületi ellenőrzése folyamatban.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
