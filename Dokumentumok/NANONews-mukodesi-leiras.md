@@ -90,7 +90,7 @@ Az időzóna Europe/Budapest. A GitHub cron UTC-alapú, de a félórás ütem az
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
 5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindkét összefoglaló 2–3 rövid mondatos; a program a kimenetet legfeljebb három mondatra és 900 karakterre korlátozza. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. Ha nincs a legutóbbi hivatalos kiadás óta megjelent, rovatba illő új cikk, a program változatlanul hagyja a legfrissebb kiadást és az archívumot. Új cikk esetén frissíti a data/latest.json fájlt, időbélyeges kiadást készít a data/archive/ mappába, és frissíti az archívumjegyzéket. Legfeljebb 80 cikk kerül egy kiadásba.
+6. A program csak a legfrissebb hivatalos kiadásban ellenőrzi a hiányzó Eredeti vagy Tolkien-változatokat; a már elkészült változatokat kihagyja, régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
 7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres félórás ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
@@ -107,7 +107,10 @@ flowchart TD
   available -->|Igen| dedupe["Hivatkozások és ismétlődések szűrése"]
   log --> dedupe
   dedupe --> newer{"Új cikk a legutóbbi hivatalos lap óta?"}
-  newer -->|Nem| unchanged["Aktuális kiadás és archívum változatlan"]
+  newer -->|Nem| pending["A legfrissebb lap hiányzó változatainak ellenőrzése"]
+  pending --> done{"Minden változat elkészült?"}
+  done -->|Nem| unchanged["Kiadás változatlan; következő félórás kör újrapróbálja"]
+  done -->|Igen| sync["Aktuális kiadás és annak archív másolata frissül"]
   newer -->|Igen| topics["Rovatok hozzárendelése a cím és kivonat alapján"]
   topics --> domestic{"Belföldi hírek rovat?"}
   domestic -->|Igen| econ["Hazai vonatkozás + gazdasági feltétel; sport kizárása"]
@@ -389,11 +392,17 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 ### 2026-11-23 — félóránkénti újhír-ellenőrzés
 - Kérés: a cikkek frissítése félóránként történjen; az új cikkekkel foglalkozzon, a már archivált híreket ne dolgozza fel újra.
 - Módosítva a .github/workflows/refresh.yml: a hírforrásokat ütemezetten minden óra 00 és 30 perces futásánál ellenőrzi.
-- Módosítva a refresh_news.py: a korábbi hivatalos kiadásokban szereplő hivatkozások és a legutóbbi lap időpontja alapján csak az új, rovatba illő hírek kerülnek feldolgozásra. Ha nincs új cikk, a program kilép a data/latest.json, az archívum és az archívumjegyzék módosítása nélkül.
+- Módosítva a refresh_news.py: új hírek mellett a legfrissebb hivatalos kiadásban csak hiányzó Eredeti/Tolkien-változatokat próbál pótolni; a már elkészült cikkeket átugorja, régebbi archív lapszámokat nem dolgoz fel. Ha nincs új cikk vagy sikeres pótlás, a legfrissebb kiadás és az archívum változatlan marad.
 - Az új kiadások naponta növekvő sorszámot kapnak; a fejléc ezt mutatja. A korábbi reggeli/délutáni/esti lapszámokra épülő kiadások a meglévő fallback szerint jelennek meg.
+- Módosítva az index.html: minden rovatgomb címkéje után az aktuális kiadás cikkeiből számolt darabszám jelenik meg vörös [x] formában; a számláló ugyanazt a kategóriaszűrést használja, mint a rovat megnyitása.
 - A 30 perces futások egy konkurenciacsoporttal sorosan futnak, így két párhuzamos job nem készíti el ugyanazt a cikket.
 - Költség: nem került be fizetős szolgáltatás; a forrásellenőrzés GitHub Actionsben, a szövegváltozatok a meglévő ingyenes Gemini-keretben készülnek. A Gemini-hívás csak új, rovatba illő cikkeknél történik.
 - Állapot: workflow, feldolgozó, fejléc és dokumentáció módosítva; GitHub Actions és Pages ellenőrzése a feltöltés után következik.
+
+### 2026-11-23 — rovatonkénti cikkszám
+- Kérés: minden rovat címe után jelenjen meg az adott rovatba sorolt aktuális kiadási cikkek darabszáma vörös [x] formátumban.
+- Módosítva az index.html: a rovatgombok a topicMatches kategóriafeltétellel számolják a hozzájuk tartozó cikkeket; a darabszám a logó „News” feliratával egyező piros változószínt kapta.
+- Állapot: felületi módosítás és dokumentáció frissítve; Pages ellenőrzése a feltöltés után következik.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.

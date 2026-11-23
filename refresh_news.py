@@ -224,9 +224,20 @@ Alapanyag ({basis}):
     return variants
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
 previous={}
+previous_edition={}
+pending_current=[]
+current_archive_path=None
 try:
-    last=json.loads(Path("data/latest.json").read_text(encoding="utf-8"))
-    previous={s.get("url"):s for s in last.get("stories",[]) if s.get("url")}
+    previous_edition=json.loads(Path("data/latest.json").read_text(encoding="utf-8"))
+    previous={s.get("url"):s for s in previous_edition.get("stories",[]) if s.get("url")}
+    if not previous_edition.get("testEdition"):
+        issue_at=parse_published(previous_edition.get("updatedAt"))
+        if issue_at:
+            current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
+        for saved_story in previous_edition.get("stories",[]):
+            variants=saved_story.get("variants",{})
+            if not variants.get("original",{}).get("body") or not variants.get("tolkien",{}).get("body"):
+                pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[];seen=set()
@@ -266,13 +277,62 @@ for source,urls in feeds.items():
             elif api_key:
                 try:
                     story["variants"]=gemini_rewrites(story,article_text,api_key)
-                    time.sleep(4)
                 except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
+                finally:
+                    time.sleep(4)
             stories.append(story)
     except Exception as e: print(f"Feed error {source} {url}: {e}")
+
+pending_updated=False
+if api_key and not manual:
+    for pending_story in pending_current:
+        current_variants=pending_story.setdefault("variants",{})
+        missing=[name for name in ("original","tolkien") if not current_variants.get(name,{}).get("body")]
+        if not missing:continue
+        article_text,_=fetch_article(pending_story.get("url",""))
+        try:
+            generated=gemini_rewrites(pending_story,article_text,api_key)
+            for name in missing:
+                if generated.get(name):current_variants[name]=generated[name]
+            if all(current_variants.get(name,{}).get("body") for name in ("original","tolkien")):
+                pending_story["summaryVersion"]=SUMMARY_VERSION
+                if article_text:
+                    pending_story["contentBasis"]="article"
+                    pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+                pending_updated=True
+                print(f"Completed missing summaries for {pending_story.get('url')}")
+            else:
+                print(f"Rewrite still incomplete for {pending_story.get('url')}")
+        except Exception as exc:
+            print(f"Pending rewrite unavailable {pending_story.get('url')}: {exc}")
+        finally:
+            time.sleep(4)
+
+def sync_pending_archive():
+    if not pending_updated or not current_archive_path or not current_archive_path.exists():return
+    try:
+        archived=json.loads(current_archive_path.read_text(encoding="utf-8"))
+        archived_by_url={item.get("url"):item for item in archived.get("stories",[]) if item.get("url")}
+        for pending_story in pending_current:
+            if not pending_story.get("variants",{}).get("original",{}).get("body") or not pending_story.get("variants",{}).get("tolkien",{}).get("body"):continue
+            target=archived_by_url.get(pending_story.get("url"))
+            if target:
+                target["variants"]=pending_story["variants"]
+                target["summaryVersion"]=pending_story.get("summaryVersion",SUMMARY_VERSION)
+                if pending_story.get("contentBasis"):target["contentBasis"]=pending_story["contentBasis"]
+                if pending_story.get("sourceHash"):target["sourceHash"]=pending_story["sourceHash"]
+        current_archive_path.write_text(json.dumps(archived,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    except Exception as exc:print(f"Could not sync pending summaries to current issue archive: {exc}")
+
 if not stories:
-    print("No new topic-matching stories; leaving the current edition and archive unchanged.")
+    if not pending_updated:
+        print("No new stories or unfinished summaries; leaving the current edition and archive unchanged.")
+        raise SystemExit(0)
+    Path("data/latest.json").write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    sync_pending_archive()
+    print(f"Completed missing summaries in the current issue; {len(pending_current)} unfinished stories were checked.")
     raise SystemExit(0)
+sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
 issue_number=None if manual else today_issue_count+1
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories[:80]}
