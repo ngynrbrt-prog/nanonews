@@ -161,7 +161,7 @@ def concise_sentences(value,limit=3):
     abbreviations=("pl.","dr.","stb.","kb.","u.","sz.","Mr.","Mrs.","Prof.","etc.")
     for index,abbr in enumerate(abbreviations):
         value=re.sub(re.escape(abbr),lambda match:match.group(0).replace(".",f"§{index}§"),value,flags=re.I)
-    sentences=re.split(r"(?<=[.!?])["'”’»)]*\s+",value)
+    sentences=re.split(r"(?<=[.!?])\s+",value)
     value=" ".join(sentence.strip() for sentence in sentences[:limit] if sentence.strip())
     for index,abbr in enumerate(abbreviations):
         value=value.replace(f"§{index}§",".")
