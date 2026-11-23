@@ -637,3 +637,10 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 - A rovat a magyar gazdasági híreket, a NER-rel és a kapcsolódó hazai szereplőkkel foglalkozó híreket, valamint a parlamenti témákat gyűjti. A sporthírek kizáródnak.
 - A szűrés a „NER” önálló rövidítést is felismeri teljes szóként, emellett a NER-hez kapcsolódó szereplőket és kifejezéseket is figyelembe veszi.
 - A menüváltás és a besorolási szabályok 2026. november 24-én 06:00-tól lépnek életbe, a korábban kért ütemezés szerint.
+
+
+### 2026-11-23 — rovat első hírének asztali megjelenítése
+
+- Kérés: a kiválasztott rovat első, kiemelt híre számítógépen gusztusosabban jelenjen meg.
+- Az index.html asztali nézetében a képes kiemelt hír kiegyensúlyozott, két hasábos újságelrendezést kapott: a kép balra, a cím, az összefoglaló és a megjelenési adatok jobbra kerülnek. A cím mérete és a képarány a rendelkezésre álló szélességhez igazodik.
+- A piros függőben jelzés a címen belül marad, a címsor interakciója pedig nem húzza alá pirossal a teljes címet. A mobil elrendezést nem módosítottam.
