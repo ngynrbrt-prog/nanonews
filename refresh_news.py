@@ -352,7 +352,7 @@ for file in archive.glob("*.json"):
     if file.name=="index.json": continue
     try:
         d=json.loads(file.read_text(encoding="utf-8"))
-        items.append({"file":file.name,"updatedAt":d.get("updatedAt"),"count":len(d.get("stories",[])),"testEdition":d.get("testEdition",False)})
+        items.append({"file":file.name,"updatedAt":d.get("updatedAt"),"count":len(d.get("stories",[])),"testEdition":d.get("testEdition",False),"issueNumber":d.get("issueNumber")})
     except Exception: pass
 items.sort(key=lambda item: item.get("updatedAt") or "", reverse=True)
 (archive/"index.json").write_text(json.dumps({"editions":items},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
