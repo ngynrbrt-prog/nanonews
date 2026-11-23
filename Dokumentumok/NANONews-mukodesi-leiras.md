@@ -296,5 +296,10 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A rovatmenü Sportrovatok és További rovatok címkékkel különíti el a két csoportot. Mobilon a témák kétoszlopos, nagyobb tappolási felületű rácsba rendeződnek; a sportos csoport marad elöl.
 - Mobilnézetben szűkebb oldalsó margók, képernyőhöz illő cikkképek és címméretek, jól olvasható kártyaközök, könnyebben kezelhető archívum és cikkablak szerepel.
 
+### 2026-11-23 — éjszakai megjelenítés
+- Kérés: az Eredeti és Tolkien lehetőség mellett legyen választható éjszakai mód.
+- Módosítva az index.html: az Éjszakai gomb sötét, majdnem fekete háttérre, meleg régi papír árnyalatú betűszínre és sötétebb cikkelválasztó felületekre vált. A képek is visszafogottabb fényerőt kapnak.
+- Az éjszakai mód csak a színeket módosítja; nem változtat a hír tartalmán. A választás a böngésző helyi tárolójában megmarad, és a mobilos háromgombos választósorba is beilleszkedik.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
