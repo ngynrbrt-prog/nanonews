@@ -1,70 +1,88 @@
 {
   "editions": [
     {
+      "file": "2026-11-23-1738.json",
+      "updatedAt": "2026-11-23T17:38:14.382412+01:00",
+      "count": 13,
+      "testEdition": false,
+      "issueNumber": 2
+    },
+    {
       "file": "2026-11-23-1409.json",
       "updatedAt": "2026-11-23T14:09:25.401431+01:00",
       "count": 30,
-      "testEdition": false
+      "testEdition": false,
+      "issueNumber": null
     },
     {
       "file": "2026-11-23-1225.json",
       "updatedAt": "2026-11-23T12:25:38.347170+01:00",
       "count": 32,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-23-1206.json",
       "updatedAt": "2026-11-23T12:06:17.727120+01:00",
       "count": 31,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-23-1155.json",
       "updatedAt": "2026-11-23T11:55:03.848962+01:00",
       "count": 40,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-23-1146.json",
       "updatedAt": "2026-11-23T11:46:20.453806+01:00",
       "count": 41,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-23-0612.json",
       "updatedAt": "2026-11-23T06:12:48.077091+01:00",
       "count": 7,
-      "testEdition": false
+      "testEdition": false,
+      "issueNumber": null
     },
     {
       "file": "2026-11-22-2012.json",
       "updatedAt": "2026-11-22T20:12:30.587731+01:00",
       "count": 40,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-22-2010.json",
       "updatedAt": "2026-11-22T20:10:44.857621+01:00",
       "count": 40,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-22-2009.json",
       "updatedAt": "2026-11-22T20:09:06.702596+01:00",
       "count": 42,
-      "testEdition": true
+      "testEdition": true,
+      "issueNumber": null
     },
     {
       "file": "2026-11-22-20.json",
       "updatedAt": "2026-11-22T20:05:56.991303+01:00",
       "count": 32,
-      "testEdition": false
+      "testEdition": false,
+      "issueNumber": null
     },
     {
       "file": "2026-11-22-19.json",
       "updatedAt": "2026-11-22T19:56:12.373373+01:00",
       "count": 4,
-      "testEdition": false
+      "testEdition": false,
+      "issueNumber": null
     }
   ]
 }
