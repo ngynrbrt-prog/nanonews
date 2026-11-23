@@ -321,5 +321,10 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Az Írás stílusa panel teljes szélességre nyúlik; mobilon is a rendelkezésre álló szélességet tölti ki.
 - Állapot: a forrás és a dokumentáció a main ágra került; a Pages frissítése után az élő oldalon ellenőrizendő.
 
+### 2026-11-23 — fejléc megnevezése
+- Kérés: a „Budapest · személyes digitális napilap” fejlécszöveg legyen „Budapest · személyes Napközbeni lap”.
+- Módosítva az index.html: a fejlécben az új megnevezés jelenik meg.
+- Állapot: a módosítás a main ágra került; a Pages közzététele után ellenőrizendő.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
