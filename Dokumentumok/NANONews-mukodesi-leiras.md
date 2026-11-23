@@ -512,5 +512,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Az ok egy korábbról megmaradt `order: 2` mobilos CSS-szabály volt, amely felülírta a HTML sorrendjét. Az index.html mobilstílusában a dátumot `order: 0`, a kiadásválasztót `order: 1` értékre állítottam, így a választó közvetlenül a dátum után jelenik meg.
 - Ellenőrzés: az élő oldalon a mobil CSS a dátumnak `order: 0`, a választónak `order: 1` értéket ad; a DOM sorrendje is dátum, majd lapszámválasztó. A Pages már az új szabályt szolgálja ki.
 
+### 2026-11-23 — dátum utáni lapszámválasztó mobilon
+- Ismételt visszajelzés: a lapszámválasztó továbbra is a dátum előtt látszott.
+- Módosítva az index.html: a dátum melletti mobil fejlécsor most explicit, kétoszlopos CSS-rács. A dátum az első, a lapszámválasztó a második oszlopba kerül; mindkettő saját rácspozíciót kap. A korábbról maradt `order: 2` dátumszabályt eltávolítottam.
+- A GitHub-forrásban ellenőriztem, hogy a régi ütköző szabály nincs jelen, és az új rácsos sorrend bekerült.
+- Állapot: kód és dokumentáció a main ágra került; mobilos Pages-ellenőrzés a publikálás után szükséges.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
