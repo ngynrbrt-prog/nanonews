@@ -14,7 +14,7 @@ A feldolgozás nem kerüli meg a fizetőfalat vagy a bejelentkezést. A generál
 
 ## Források és témák
 
-Források: Telex, HVG, Index, Nemzeti Sport és NBAnews.hu (RSS: `https://nbanews.hu/feed/`). A témák a `refresh_news.py` fájl `rules` listájában bővíthetők, a megjelenő rovatnevek az `index.html` fájl `topics` listájában vannak.
+Források: Telex, HVG, Index, Nemzeti Sport és NBAnews.hu (RSS: `https://nbanews.hu/feed/`). A témák a `refresh_news.py` fájl `rules` listájában bővíthetők, a megjelenő rovatnevek az `index.html` fájl `topics` listájában vannak. A Belföldi hírek rovat csak magyar vonatkozású gazdasági híreket jeleníthet meg, sportot kizár; a részletes szűrési szabályok és a folyamat leírása a `Dokumentumok/NANONews-mukodesi-leiras.md` fájlban van.
 
 ## Kiadások
 
