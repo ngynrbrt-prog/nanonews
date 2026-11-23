@@ -409,5 +409,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a láblécben megjelenik a szöveg: „Tartalmi források AI-összesítője · A teljes, eredeti tartalom a megjelölt forrásoldalon található.”
 - Állapot: a lábléc módosítása a main ágra került; a GitHub Pages publikálás (#134) sikeres.
 
+### 2026-11-23 — rögzített írásstílus-választó, archív tipográfia és sorkizárt cikkek
+- Kérés: az Írás stílusa választó maradjon a képernyő alján; az elválasztó csík legyen az Archív lapok fölött; az archív cím tipográfiája egyezzen meg a Források és Kiadásrend címeivel; a cikkek szövege legyen sorkizárt.
+- Módosítva az index.html: az írásstílus-választó rögzített alsó vezérlősávot kapott, mobilon figyelembe veszi az iPhone biztonságos képernyőterületét. A lap alsó térköze megakadályozza, hogy a rögzített sáv eltakarja a tartalmat.
+- Az Archív lapok előtt hangsúlyos dupla elválasztó csík van; a szekció címe 19 px-es Courier Prime betűvel jelenik meg, a Források és Kiadásrend címével egyező méretben és betűcsaláddal.
+- A főcikk, a cikkkártyák és a megnyitott cikk szövegtörzse sorkizárt; a címek balra zártak maradnak.
+- Állapot: a módosítások a main ágra kerültek; a GitHub Pages közzététele és az élő felület ellenőrzése folyamatban.
+  
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
