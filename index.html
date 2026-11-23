@@ -184,6 +184,24 @@ body.night-mode .night-toggle[aria-checked="true"] .toggle-state{background:#101
 .nav{max-width:1120px;margin:0 auto;padding-left:32px;padding-right:32px;border-top:0}
 body.night-mode .brand-lockup{background-image:radial-gradient(#d0c09a0a .7px,transparent .7px)}
 @media(max-width:760px){.brand-inner{padding-left:14px;padding-right:14px}.nav{padding-left:14px;padding-right:14px}}
+
+/* Az írásstílus-választó a képernyő aljához rögzített vezérlősáv. */
+.display-controls{
+ position:fixed;z-index:60;left:50%;bottom:0;transform:translateX(-50%);
+ width:min(100%,1120px);margin:0;padding:10px 32px calc(10px + env(safe-area-inset-bottom,0px));
+ background:var(--paper);background-image:radial-gradient(#655e4d12 .65px,transparent .65px);
+ border-top:3px double var(--ink);box-shadow:0 -5px 18px #0002;
+}
+.display-controls .control-group{max-width:1056px;margin:0 auto}
+.page{padding-bottom:190px}
+.archive{border-top:3px double var(--ink);padding-top:21px}
+.archive-accordion>summary{font:600 19px var(--serif);line-height:1.25}
+@media(max-width:760px){
+ .display-controls{padding:8px 14px calc(8px + env(safe-area-inset-bottom,0px))}
+ .page{padding-bottom:175px}
+ .archive{padding-top:17px}
+ .archive-accordion>summary{font-size:19px}
+}
 </style></head>
 <body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><span id="today" class="edition-date"></span></div></header><div class="brand-lockup"><div class="brand-inner"><div class="brand">NANO<span>News</span></div><div class="strap">A nap, egy másik hasábban.</div></div></div><nav class="nav topic-nav" aria-label="Rovataim"><details class="topic-accordion" open><summary class="topic-nav-title"><span>Rovataim</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav>
 <main class="page" id="mai"><section class="display-controls" aria-label="Írás stílusa">
