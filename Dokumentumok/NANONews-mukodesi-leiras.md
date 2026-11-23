@@ -566,3 +566,6 @@ A technológiai rovat sportkizárása a forrás-specifikus NFL-címkézés után
 
 
 A 2026-11-23-i kézi pótlás 13 cikkből 11-hez elkészítette a Rejtő-változatot. Két Gemini-hívás átmeneti hibával vagy hibás válaszformátummal zárult, ezért a cikkek piros jelzése és az ötperecenkénti újrapróbálás aktív marad. Az archív szinkronizálás a részben elkészült stílusváltozatokat is átveszi, így a már sikeres Rejtő-változat nem vész el akkor sem, ha a Tolkien-változat még hiányzik.
+
+
+Kategorizálási pontosítás: a webes rovatkizárás az NBA, NFL és F1 rövidítéseket teljes szóként kezeli. Ez megakadályozza, hogy például az „azonban” szóban előforduló „nba” betűsor miatt egy technológiai cikk eltűnjön a Technológia / Fejlesztések rovatból. A 2026-11-23 17:38-as kiadás MacBook Neo 2 cikkének adata `technology` kategóriájú, NBA kategóriát nem tartalmaz; a kijelzés korábbi hibáját a böngészős részszöveg-ellenőrzés okozta.
