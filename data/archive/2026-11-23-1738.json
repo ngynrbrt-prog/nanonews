@@ -43,7 +43,17 @@
       "image": "",
       "summaryVersion": "short-v1-2-3",
       "contentBasis": "article",
-      "sourceHash": "548c79fb5ca09f96c4eed248f38d7afd10d938b56cd37d1660cba1904399ce7f"
+      "sourceHash": "548c79fb5ca09f96c4eed248f38d7afd10d938b56cd37d1660cba1904399ce7f",
+      "variants": {
+        "tolkien": {
+          "title": "A holtak völgyéből az óriások birodalmába: John Harbaugh krónikája",
+          "body": "Így esett, hogy miután John Harbaugh tizennyolc esztendő után elhagyta a baltimore-i sereget, a New York-i nép seregébe állt, míg a korábbi otthona gyászos mélybe süllyedt. Az újjáépülő óriások városa, noha harcosait vesztette és írnokai is megfogyatkoztak, a mester vezetésével legyőzte a jaguári népet, míg a Ravens zsinórban hatodik vereségét szenvedte el. Harbaugh bölcs vezetésével és hűséges hadnagyaival, Matt Naggyal és Dennard Wilsonnal olyan védelmet kovácsolt, amely a birodalom legkiválóbbjai közé emelte a csapatot."
+        },
+        "reito": {
+          "title": "A hálás utódlás nemes művészete, avagy hogyan üssünk ki egy Jaguarst harmadik számú legénységgel",
+          "body": "A Baltimore-ból menesztett John Harbaugh a New York Giants élén csodát tesz, miközben a magára hagyott baltimore-i gárda sorozatban a hatodik vereségét könyveli el. A New York-i alakulat tartalék irányítóval és sérült kulcsemberekkel gyűrte le a Super Bowl-favorit Jacksonville Jaguarst, magabiztosan vezetve a csoportját. A sikerekhez egy pazar védelmi rendszer is kell, amely a riválisok nagy bánatára pontokban és yardokban is a liga élvonalában poroszkál."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -273,6 +283,10 @@
         "tolkien": {
           "title": "A Google birodalmának változásai és a Nest sorsa",
           "body": "Íme, változások ideje érkezett el a Google birodalmában, ugyanis a Nest alkalmazás végleg leáldozik 2027-ben, helyét pedig a Google Home veszi át. E napon a Nest eszközök önmaguktól vándorolnak át az új helyre, míg a régi fiókok emlékeit márciusban törlik a krónikákból. Emellett a Google Asszisztenst is végleg elvezetik e földről, így az többé egyik okosotthon-eszközön sem szolgál tovább."
+        },
+        "reito": {
+          "title": "A Nagy Digitális Átrendeződés, avagy hogyan vonul nyugdíjba a Nest és a Google Asszisztens",
+          "body": "A Google nevű, tengerentúli gépészbrigád úgy határozott, hogy 2027-ben lapátra teszi a Nest alkalmazást meg a Google Asszisztenst is, mielőtt még rozsdásodni kezdenének. Január végén a Nest minden kütyüje – legyen az füstös termosztát vagy éber kamera – átköltözik a Google Home nevű központba, márciusban pedig az adatok is a feledés homályába merülnek. Eközben a kereső kezdőlapján még több mesterséges intelligencia kezdi majd el rágni a bitet."
         }
       }
     },
@@ -296,7 +310,8 @@
         "tolkien": {
           "title": "A vörös paripák találkozása a barcelonai porondon",
           "body": "Így esett, hogy a sebesség napján két nemes és drága Ferrari ütközött össze a katalán földön tartott ünnepségen. Egy 499P jelű szekér hátulról szaladt bele abba a dicső F2004-esbe, amellyel egykor Schumacher győzelmeket aratott. A viadal után mindkét vezető sértetlenül lépett ki a porból, s kezet nyújtottak egymásnak."
-        }
+        },
+        "reito": {}
       }
     },
     {
