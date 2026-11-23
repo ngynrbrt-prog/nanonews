@@ -441,5 +441,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: az Írás stílusa DOM-blokk az Archív lapok elé került, teljes képernyőszélességű, dupla vízszintes vonallal elválasztott sávként. A korábbi fix pozíciójú, mindig látható lábléc helyett görgetésirányhoz kötött rögzítés működik: felfelé görgetéskor csak az írásstílus-sáv kerül a képernyő aljára; lefelé görgetéskor visszatér a helyére az Archív lapok fölé. Az archívum és az alatta lévő információs blokkok nem rögzülnek.
 - Állapot: kód és dokumentáció a main ágon; Pages publikálás (#150) sikeres. Az élő asztali oldalon ellenőriztem, hogy a sáv a látható teljes szélességet fedi oldalirányú túlfutás nélkül, közvetlenül megelőzi az archívumot, és felfelé görgetéskor kizárólag ez rögzül a képernyő aljára. Az Archív lapok és az információs blokkok normál pozícióban maradnak.
   
+### 2026-11-23 — az írásstílus-sáv képernyőhöz rögzítésének javítása
+- Kérés: felfelé görgetéskor az Írás stílusa sáv mobilon és számítógépen is rögzüljön a képernyő alján; a sáv alsó, képen jelölt dupla vonala tűnjön el.
+- A hiba oka az volt, hogy a teljes szélességhez használt `transform` a stílussáv szülőelemén rögzítési viszonyítási pontot hozott létre. Emiatt a `position: fixed` nem a viewport aljához igazodott.
+- Módosítva az index.html: a szülőelem transzformációja kikerült; a viewport szélességű sáv vízszintes helyzetét külön, mobilon és asztali nézetben is a margóhoz igazított számítás adja. A rögzített sáv így a képernyő aljához viszonyul.
+- Eltávolítottam a stílussáv alsó dupla szegélyét; a felső elválasztó és az Archív lapok szegélye megmaradt.
+- Ellenőrzés az élő asztali oldalon: felfelé görgetve a sáv `position: fixed`, az alsó éle a viewport alsó szélével egyezik, az Archív lapok statikus pozícióban maradnak, az oldal szélessége nem csúszik ki. Az alsó szegély 0 px. Mobilra külön viewport-szimuláció nem állt rendelkezésre; a mobil media query ugyanazt a transzformációmentes rögzítést használja, keskeny képernyőhöz igazított vízszintes pozícióval.
+- Állapot: a kód a main ágra került és az élő GitHub Pages oldalon ellenőriztem.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
