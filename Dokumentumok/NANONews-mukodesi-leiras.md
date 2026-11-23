@@ -457,5 +457,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A mobilnézet ugyanazt a body-szintű fixed megoldást és `bottom: 0` rögzítést használja; külön telefonos eszközön végzett vizuális ellenőrzés nem történt.
 - Állapot: közzétéve és élő asztali böngészőben ellenőrizve.
 
+### 2026-11-23 — scroll-szakadozás és felső végpont javítása
+- Visszajelzés: a sáv a lap tetejére érve eltűnt, az oldal alján pedig szakadozónak látszott.
+- A korábbi DOM-áthelyezést visszavontam. Az Írás stílusa elem a saját, Archív lapok előtti helyén marad; felfelé görgetéskor csak CSS-osztály váltja `position: fixed; bottom: 0` állapotba. A helyfoglaló magassága így nem változik, és nincs DOM-áthelyezésből eredő ugrás.
+- A felső határnál a felfelé irányú rögzítés nem oldódik fel automatikusan. Külön irányküszöb szűri ki a néhány pixeles görgetési ingadozásokat, hogy a sáv ne villogjon.
+- Az alsó árnyék és a sáv alsó szegélye kikapcsolva. A mobilos CSS ugyanazt a rögzítést használja, a biztonságos alsó kijelzőterülettel.
+- Élő asztali ellenőrzés: lefelé görgetéskor normál pozícióban maradt, felfelé a képernyő aljára rögzült, majd az oldal tetejére érve is rögzítve maradt. A sáv szülőeleme változatlanul a helyőrző DIV, az oldal vízszélessége nem változott, árnyék nem látható. Külön fizikai mobilkészüléken nem végeztem ellenőrzést.
+- Állapot: a kód a main ágra került és az élő oldalon ellenőriztem.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
