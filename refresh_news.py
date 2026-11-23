@@ -100,14 +100,14 @@ def fetch_article(url):
 def gemini_rewrites(story,article_text,api_key):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
-    prompt=f"""Feladat: készíts három magyar nyelvű NANONews-változatot ugyanarról a hírről.
+    prompt=f"""Feladat: készíts egy magyar nyelvű, Tolkien hangulatát idéző NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Mindhárom változatban írj új, önálló címet és részletes, tömör összefoglalót. Az összefoglaló 3–5 mondatban fedje le a hír legfontosabb tényeit, szereplőit, eredményét és következményét, ha ezek szerepelnek a forrásban. Ne másold át mondatról mondatra a cikket, és ne írj az eredetinél hosszabb szöveget.
+Írj új, önálló címet és részletes, tömör összefoglalót. Az összefoglaló 3–5 mondatban fedje le a hír legfontosabb tényeit, szereplőit, eredményét és következményét, ha ezek szerepelnek a forrásban. Ne másold át mondatról mondatra a cikket, és ne írj az eredetinél hosszabb szöveget.
 - honest: világos, egyenes, tárgyilagos.
 - jeno: kalandos, csibészes, humoros ritmusú magyar ponyvahangulat; ne utánozz konkrét könyvrészletet, és a humor ne változtasson tényt.
 - tolkien: epikus, régies-krónikás hangulat; maradjon közérthető, és ne adj hozzá fantasy-elemet vagy új tényt.
 A válasz kizárólag JSON legyen ebben az alakban:
-{{"honest":{{"title":"...","body":"..."}}, "jeno":{{"title":"...","body":"..."}}, "tolkien":{{"title":"...","body":"..."}}}}
+{{"tolkien":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
 Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
@@ -128,7 +128,7 @@ Alapanyag ({basis}):
     raw=re.sub(r"^\s*```(?:json)?|\s*```\s*$","",raw.strip(),flags=re.I)
     parsed=json.loads(raw)
     variants={}
-    for mode in ("honest","jeno","tolkien"):
+    for mode in ("tolkien",):
         value=parsed.get(mode,{})
         title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
         body=re.sub(r"\s+"," ",str(value.get("body",""))).strip()
