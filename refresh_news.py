@@ -260,7 +260,7 @@ Alapanyag ({basis}):
                 for block in step.get("content",[]):
                     if block.get("type")=="text":parts.append(block.get("text",""))
         raw="\n".join(parts)
-    raw=re.sub(r"^\\s*```(?:json)?|\\s*```\\s*$","",raw.strip(),flags=re.I)
+    raw=re.sub(r"^\s*```(?:json)?|\s*```\s*$","",raw.strip(),flags=re.I)
     parsed=json.loads(raw)
     value=parsed.get("tolkien",{})
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
