@@ -26,7 +26,7 @@ Az adatfeldolgozás ütemezetten vagy kézi indítással történik. A GitHub Ac
 
 ```mermaid
 flowchart TD
-  sources["Telex · HVG · Index · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé! · Eurosport"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
+  sources["Telex · HVG · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé!"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
   schedule["Időzített vagy kézi indítás"] --> actions
   secret["GitHub Secret: GEMINI_API_KEY"] -->|futás közbeni környezeti változó| worker["refresh_news.py"]
   actions --> worker
@@ -45,15 +45,12 @@ A források és lekérési módok a refresh_news.py fájlban vannak beállítva:
 
 - Telex — https://telex.hu/rss
 - HVG — https://hvg.hu/rss
-- Index — https://index.hu/rss
 - Nemzeti Sport — elsődlegesen https://www.nemzetisport.hu/publicapi/hu/rss/nso/articles
 - Nemzeti Sport tartalék feed — https://www.nemzetisport.hu/static/rss_hirek.xml
 - NBAnews.hu — https://nbanews.hu/feed/
 - Fűzővel kifelé! — https://fuzovelkifele.com/feed/ (WordPress RSS; NFL-cikkek)
-- Eurosport — https://www.eurosport.hu/latest-news.shtml (a legfrissebb hírek nyilvános cikklistájának feldolgozása; hivatalos RSS-feed nem állt rendelkezésre)
 
-A nem elérhető RSS-végpont vagy hírlista hibáját a workflow naplózza, a többi forrást ettől még feldolgozhatja. A Eurosport legfrissebb hírek listáját minden kiadáskor lekéri, abból a cikkcímeket és hivatkozásokat dolgozza fel, majd a cikkoldalak nyilvánosan elérhető szövegét próbálja letölteni. A forrás neve minden cikk mellett megjelenik. A cikk címe és RSS-kivonata alapján történik a témába sorolás; a teljes cikk szövegét a generálás számára próbálja elérni a rendszer, ha az nyilvánosan olvasható.
-
+A nem elérhető RSS-végpont hibáját a workflow naplózza, a többi feed feldolgozása ettől még folytatódik. A cikkcímeket, hivatkozásokat, kivonatokat és képeket az RSS-feedekből dolgozza fel, majd megpróbálja letölteni a nyilvánosan olvasható cikk szövegét. A forrás neve minden cikk mellett megjelenik. A témába sorolás a cikk címe és RSS-kivonata alapján történik.
 ## 4. Rovatok és szűrés
 
 A megjelenő rovatmenü az index.html fájl topics listájában van. A gyűjtő- és témaszabályok a refresh_news.py fájl rules listájában, valamint a Belföldi hírek külön osztályozójában találhatók.
@@ -107,7 +104,7 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 ```mermaid
 flowchart TD
   schedule["Ütemezés: naponta 06:00, 14:00, 20:00"] --> timecheck{"A budapesti idő a kiadási időpontra esik?"}
-  manual["Kézi Run workflow indítás"] --> fetch["RSS-feedek és Eurosport hírlista lekérése"]
+  manual["Kézi Run workflow indítás"] --> fetch["RSS-feedek lekérése"]
   timecheck -->|Igen| fetch
   timecheck -->|Nem| stop["Automatikus futás leáll"]
   fetch --> feeds["Források egyenkénti feldolgozása"]
@@ -357,6 +354,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: az időbélyeg kikerült a főcikkből, és a főcikket, valamint a rovatcikkeket tartalmazó lista után, az archívum elé került.
 - Az időbélyeg a kiválasztott rovat üressége esetén is megmarad; az aktuális kiadás updatedAt értékét mutatja.
 - Állapot: a forrásmódosítás main ágra került; Pages-publikálás után az élő oldalon ellenőrizendő.
+
+### 2026-11-23 — nem elérhető források eltávolítása
+- Kérés: azokról az oldalakról, ahonnan nem érkezik adat, kerüljön ki a forráslista.
+- Ellenőrzés: a 2026-11-23 14:09-es automatikus frissítésben Telex 10, HVG 11, NBAnews.hu 3, Nemzeti Sport 5 és Fűzővel kifelé! 1 cikkel szerepelt. A Telex korábbi 403-as hibája után most sikeresen betöltött.
+- Az Index RSS-végpontja HTTP 404-et adott, az Eurosport oldal parseréből nem érkezett cikkhivatkozás. Mindkettő eltávolítva a refresh_news.py forráskonfigurációjából és az oldal aktív forráslistájából; az Eurosporthoz tartozó lekérő kód is kikerült.
+- A Nemzeti Sport elsődleges feedje működött; a tartalék feed 404-es hibája miatt a forrás összességében megmaradt. A cikkoldalakhoz tartozó időszakos 503-as generálási hibák nem a feed-lekérést érintették, ezért ezek a működő források maradnak.
+- Állapot: kód és dokumentáció a main ágra került; Pages-publikálás után az aktív forráslista ellenőrizendő.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
