@@ -187,10 +187,10 @@ A GitHub Actions futás sikeressége és a Pages közzététele külön állapot
 
 A felület két, egymástól elkülönített beállításcsoportot kínál:
 
-- **Stílus:** Eredeti vagy Tolkien tollából. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
-- **Megjelenítés:** önálló Éjszakai mód kapcsoló, amely be- és kikapcsolja a sötét színtémát. Ez kizárólag az oldal színeit módosítja, és nem változtatja meg a Stílus alatt kiválasztott Eredeti vagy Tolkien tollából beállítást.
+- **Írás stílusa:** Eredeti vagy Tolkien tollából. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
+- **Éjszakai mód:** önálló be/ki kapcsoló a fejlécben, a „Budapest · személyes digitális napilap” sor alatt, középre rendezve, a NANONews cím fölött. Bekapcsolva az egész oldal sötét színtémára vált; az állapot kikapcsolásig megmarad.
 
-A két csoport külön címmel jelenik meg közvetlenül a rovatmenü alatt; mobilon egymás alá rendeződnek. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
+Az Írás stílusa választó külön részen jelenik meg a rovatmenü alatt. Az éjszakai kapcsoló nincs az írásstílus választóval egy sorba rendezve, és a sötét téma mellett is használható mindkét írásstílus. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
 
 A Gemini-változat mezői a kiadás JSON-jában a variants.tolkien.title és variants.tolkien.body alatt vannak. Ha egy cikkhez nem sikerül generálni, a felület az eredeti címet és kivonatot jeleníti meg. Így egy forráshiba nem akadályozza a teljes kiadás megjelenítését.
 
@@ -215,7 +215,7 @@ Ha a kulcs cserére szorul, új kulcsot kell létrehozni, a GitHub Actions titok
 
 A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek.
 
-A Stílus választása (nanonews-style) és az Éjszakai mód állapota (nanonews-theme) külön kulcson, a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be.
+Az Írás stílusa választása (nanonews-style) és az Éjszakai mód állapota (nanonews-theme) külön kulcson, a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. A fejlécben lévő éjszakai kapcsoló oldalbetöltéskor visszaállítja a mentett állapotot, és újabb kattintásig bekapcsolva marad. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be.
 
 A weboldal nyilvános elérhetősége: https://ngynrbrt-prog.github.io/nanonews/
 
@@ -307,6 +307,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - A Stílus beállítás a címet és az összefoglalót választja; az éjszakai kapcsoló kizárólag a színeket változtatja. A kettő külön helyi tárolási kulcson marad, így az Eredeti és a Tolkien tollából mód éjszakai megjelenítésben is használható.
 - Mobilon a két beállításcsoport egymás alatt jelenik meg. Régi mentett Tolkien választás megmarad; a régi egyesített Éjszakai értéket a rendszer külön megjelenítési beállításként migrálja.
 - Állapot: a forrásfrissítés és a dokumentáció a main ágra került; a GitHub Pages közzétette a változást. Az élő oldalon ellenőrizve, hogy Éjszakai módban az Eredeti és a Tolkien tollából is választható, és a két stílus tartalma működik.
+
+### 2026-11-23 — éjszakai kapcsoló áthelyezése
+- Kérés: az Írás stílusa felirat alatt csak az Eredeti és a Tolkien tollából maradjon. Az Éjszakai mód kerüljön külön a fejlécbe, a Budapest-sor után középre, a NANONews cím fölé.
+- Módosítva az index.html: az éjszakai kapcsoló a fejlécben van; kikerült az írásstílus választójából. A sötét mód az egész oldalt érinti, és a külön nanonews-theme helyi beállításból töltődik vissza, amíg a felhasználó ki nem kapcsolja.
+- Az Eredeti/Tolkien választás saját nanonews-style beállításon marad, így mindkét írásstílus működik bekapcsolt éjszakai mód mellett is.
+- A leírás és a kódbeli felületi elrendezés frissítve. A Pages kiadás élő oldali ellenőrzése folyamatban.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
