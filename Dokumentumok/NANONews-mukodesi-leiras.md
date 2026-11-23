@@ -531,5 +531,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva a .github/workflows/refresh.yml: adatmentés előtt a futás most lekéri a main ág legfrissebb commitját, arra újraalapozza saját adatcommitját, majd úgy próbál feltölteni. Ez kezeli a kóddokumentációs commitok miatti nem fast-forward elutasítást.
 - Állapot: a mentési javítás a main ágra került. A már elbukott futás eredményét ez nem teszi közzé visszamenőleg; a következő ütemezett futás az új mentési logikával dolgozik.
 
+### 2026-11-23 — hivatalos kiadás kézi indítása
+- Kérés: a késve maradt 17:00-s kiadást kézzel indítsam el.
+- A refresh.yml kézi indításához Tesztfutás vagy hivatalos napi kiadás választó került. A teszt maradt az alapértelmezett mód; az official választás a tesztjelző nélküli hivatalos lapszámot készíti.
+- A refresh_news.py hivatalos kézi indításkor a még ki nem adott aktuális 06:00-s vagy 17:00-s idősáv sorszámát használja, és az új lapszám generálása alatt nem dolgozza újra a korábbi lap Tolkien-kivonatait. Ha nincs új, megfelelő cikk, akkor is létrehozza az üres hivatalos lapszámot.
+- Állapot: a 17:00-s official futást kézzel kértem. A kiadás mentése és közzététele a futás sikeres befejezésétől függ.
+
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
