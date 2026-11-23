@@ -484,7 +484,7 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Kérés: a problémás, rögzített alsó sáv teljes eltávolítása; az Eredeti és Tolkien tollából választó kerüljön a NANONews logó alá, a jelmondat helyére. Csak a két választógomb jelenjen meg.
 - Módosítva az index.html: a két gomb a sticky logóblokk része lett, a „A nap, egy másik hasábban.” jelmondat kikerült. A stílusválasztó nem összecsukható és nincs külön láblécvezérlő.
 - A napi kiadási rend változatlanul 06:00 és 17:00 Europe/Budapest idő szerint.
-- Állapot: kód és dokumentáció a main ágra került; élő Pages-ellenőrzés után rögzítendő.
+- Ellenőrzés: a közzétett oldalon a logó után közvetlenül a két gomb látszik; a jelmondat és a rögzített alsó sáv hiányzik. A fejléc sticky maradt, a kiadásrend 06:00 és 17:00. Asztali nézetben ellenőriztem.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
