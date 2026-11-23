@@ -494,13 +494,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: új rovatgomb került a további rovatok csoportba, saját cikkdarabszámmal és rovatválasztással.
 - Módosítva a refresh_news.py: technológiai témakifejezéseket adtam a cikkbesoroláshoz, többek között technológia, szoftver, alkalmazás, digitális fejlesztés, mesterséges intelligencia, kiberbiztonság, robotika és chip.
 - Az archív kiadások a mentett rovatcímkéket és cím/kivonat kulcsszavait használják; a korábbi cikkek is megjelenhetnek a rovatban, ha szövegük tartalmazza a témakifejezések valamelyikét.
-- Állapot: kód és dokumentáció a main ágra került; Pages-publikálás után ellenőrizendő.
+- Ellenőrzés az élő oldalon: a „További rovatok” alatt megjelenik a Technológia / Fejlesztések gomb, aktuálisan [1] cikkszámmal. A napi lapszámválasztó és a két logó alatti stílusgomb szintén látható.
 
 ### 2026-11-23 — aznapi lapszámválasztó a fejlécben
 - Kérés: a dátumsor mellett ergonomikus módon lehessen az aznap elkészült összes kiadás között váltani, például délután visszanyitni a reggeli /1-es lapot.
 - Módosítva az index.html: a dátum mellé natív, akadálymentes legördülő választó került. Az adott nap archivált hivatalos lapjait /1, /2 lapszám és futási idő szerint sorolja fel; a tesztkiadásokat külön „Teszt” jelöli. Kiválasztáskor a cikkek az oldalon belül, a kiválasztott kiadásból töltődnek be; a legfrissebb lap kiválasztása visszakapcsolja az automatikus frissítést.
 - Módosítva a refresh_news.py: az archív index újonnan létrehozott tételeinél a lapszámot is eltárolja. Régebbi archív fájloknál a felület a Europe/Budapest kiadási időből következtet a lapszámra.
-- Állapot: kód és dokumentáció a main ágra került; élő Pages-ellenőrzés után rögzítendő.
+- Ellenőrzés az élő oldalon: a dátum melletti lista az aznapi elérhető lapokat lapszám és idő szerint mutatja; a reggeli /1 és az aktuális /2 külön választható. A már archivált tesztlapok „Teszt” megjelölést kapnak.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
