@@ -93,7 +93,7 @@ A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; há
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
 5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindhárom összefoglaló célhossza 3–4 mondat, legfeljebb 1400 karakter. A prompt külön kéri a cikk lényegi részleteinek, szereplőinek, következményeinek és fontos számainak megtartását. Tolkien hangja emelkedett, ünnepélyes, krónikás; Rejtőé csattanósabb, száraz humorú, földközeli. A tényeket egyik stílus sem változtathatja meg. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. A program csak a legfrissebb hivatalos kiadást ellenőrzi. Az új, short-v2-3-4 verzióra még át nem állított cikkeket egyesével dolgozza fel; egy sikeres Gemini-kérés mindhárom változatot frissíti, majd az aktuális kiadást és az archív példányát is menti. Régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
+6. A program csak a legfrissebb hivatalos kiadást ellenőrzi. Az új, short-v2.1-3-4 verzióra még át nem állított cikkeket egyesével dolgozza fel; egy sikeres Gemini-kérés mindhárom változatot frissíti, majd az aktuális kiadást és az archív példányát is menti. Régebbi archív lapszámokat nem jár végig. Sikeres pótláskor frissíti az aktuális kiadást és annak archív másolatát. Új cikk esetén időbélyeges kiadást készít; üres lekéréskor nem készít üres lapot. Legfeljebb 80 új cikk kerül egy kiadásba.
 7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres ötpereces ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
@@ -561,7 +561,7 @@ A technológiai rovat sportkizárása a forrás-specifikus NFL-címkézés után
 
 - Az összefoglalók célhossza 3–4 mondatra, maximális hossza 1400 karakterre nőtt, hogy a fontos részletek is bekerüljenek.
 - A Tolkien és Rejtő generálási utasításai erősebb hangkülönbséget kérnek; a tényhűség és az eredeti ténykapcsolatok megőrzése kötelező.
-- A `short-v2-3-4` verziójelölés piros ponttal jelzi a főoldalon a régi összefoglalókat. Az ötpereces workflow a legfrissebb hivatalos kiadásban futásonként egy régi cikket frissít, mindhárom változatot együtt menti, és siker után megszünteti a piros jelzést.
+- A `short-v2.1-3-4` verziójelölés piros ponttal jelzi a főoldalon a régi összefoglalókat. Az ötpereces workflow a legfrissebb hivatalos kiadásban futásonként egy régi cikket frissít, mindhárom változatot együtt menti, és siker után megszünteti a piros jelzést.
 - A kézi `style-refresh` workflow mód csak a legfrissebb kiadás stílusainak frissítésére szolgál; nem készít új kiadást.
 
 - Hozzáadva a Rejtő Jenő stílusválasztó, a Rejtő-cím és a 2–3 mondatos összefoglaló mentése, valamint a kiválasztott hangnem szerinti cikkmegjelenítés.
