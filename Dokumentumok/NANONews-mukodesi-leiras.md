@@ -644,3 +644,9 @@ A legutóbbi ellenőrzéskor a 13 cikkből 4 már a `short-v2.1-3-4` verzióval 
 - Kérés: a kiválasztott rovat első, kiemelt híre számítógépen gusztusosabban jelenjen meg.
 - Az index.html asztali nézetében a képes kiemelt hír kiegyensúlyozott, két hasábos újságelrendezést kapott: a kép balra, a cím, az összefoglaló és a megjelenési adatok jobbra kerülnek. A cím mérete és a képarány a rendelkezésre álló szélességhez igazodik.
 - A piros függőben jelzés a címen belül marad, a címsor interakciója pedig nem húzza alá pirossal a teljes címet. A mobil elrendezést nem módosítottam.
+
+
+### 2026-11-23 — egységes stílusválasztás a cikkablakban
+
+- A fejléc alatti három választógomb fölött középre igazítva „Stílusok” felirat jelenik meg.
+- A cikkablakból eltűnt a külön stílusválasztó. A főoldalon kiválasztott Eredeti összefoglaló, Tolkien vagy Rejtő Jenő mód érvényesül a megnyitott cikk címén és szövegén, valamint az Összehasonlítás sorainak címein és rövid leírásain.
