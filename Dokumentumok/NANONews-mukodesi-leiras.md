@@ -60,19 +60,18 @@ A megjelenő rovatmenü az index.html fájl topics listájában van. A gyűjtő-
 
 Jelenlegi rovatok:
 
+- Bajnokok ligája
+- Premier League
 - Arsenal
-- Manchester City
 - Bayern München
 - Manchester United
 - Como
-- Premier League
 - F1
 - NBA
 - NFL
 - Seattle Seahawks
 - Kerékpár
 - Darts
-- Bajnokok ligája
 - Belföld
 - Belföldi tőzsde
 - Külföldi tőzsde
@@ -660,3 +659,9 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 - Kérés: a Belföld rovatban sportgazdasági témák is szerepelhessenek.
 - A magyar klubok és sportszervezetek gazdasági hírei a Belföldbe kerülhetnek, például bevételek, szponzoráció, átigazolási díjak, közvetítési jogok, bérköltségek és sportfinanszírozás. Az általános meccs- és eredményhírek továbbra is a sportrovatokhoz tartoznak.
 - A helyi besorolás a magyar sportegyesületek és városok megnevezéseit is figyelembe veszi.
+
+
+### 2026-11-23 — sportrovatok sorrendje
+
+- Kérés: a Manchester City külön rovatának eltávolítása, a Bajnokok ligája és a Premier League előre sorolása.
+- A sportmenü első két eleme a Bajnokok ligája és a Premier League lett; a Manchester City külön gombja kikerült. A Manchester City kategóriacímkéje a háttérben megmarad a sportbesoroláshoz és a nem sportrovatokból való kizáráshoz.
