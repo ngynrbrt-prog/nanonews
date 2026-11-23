@@ -569,3 +569,6 @@ A 2026-11-23-i kézi pótlás 13 cikkből 11-hez elkészítette a Rejtő-változ
 
 
 Kategorizálási pontosítás: a webes rovatkizárás az NBA, NFL és F1 rövidítéseket teljes szóként kezeli. Ez megakadályozza, hogy például az „azonban” szóban előforduló „nba” betűsor miatt egy technológiai cikk eltűnjön a Technológia / Fejlesztések rovatból. A 2026-11-23 17:38-as kiadás MacBook Neo 2 cikkének adata `technology` kategóriájú, NBA kategóriát nem tartalmaz; a kijelzés korábbi hibáját a böngészős részszöveg-ellenőrzés okozta.
+
+
+A második kézi pótlás után a 13 cikkből 12-nél van teljes Rejtő-változat. A Ferrari F1-cikk Gemini 503-as szolgáltatáshibát kapott a legutóbbi próbán is, ezért a piros jelzés megmarad, és az ötpercenkénti ütemezett workflow tovább próbálkozik. A MacBook Neo 2 cikk a 17:38-as kiadásban a `technology` kategóriában van, és a javított felületen már a Technológia / Fejlesztések rovatban jelenik meg.
