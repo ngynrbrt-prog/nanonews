@@ -1,5 +1,6 @@
 import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time
 from datetime import datetime
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -143,13 +144,38 @@ def story_key(url):
     parts=urllib.parse.urlsplit(url)
     return (parts.netloc.lower(),parts.path.rstrip("/"))
 
+def parse_published(value):
+    if not value:return None
+    try:
+        parsed=datetime.fromisoformat(str(value).strip().replace("Z","+00:00"))
+    except Exception:
+        try:parsed=parsedate_to_datetime(str(value).strip())
+        except Exception:return None
+    if parsed.tzinfo is None:parsed=parsed.replace(tzinfo=TZ)
+    return parsed.astimezone(TZ)
+
 published_before=set()
-for file in list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]:
+latest_official_at=None
+issue_files=list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]
+for file in issue_files:
     if file.name=="index.json" or not file.exists():continue
     try:
         edition_data=json.loads(file.read_text(encoding="utf-8"))
+        if edition_data.get("testEdition"):continue
+        issue_at=parse_published(edition_data.get("updatedAt"))
+        if issue_at and (latest_official_at is None or issue_at>latest_official_at):latest_official_at=issue_at
         published_before.update(story_key(s.get("url","")) for s in edition_data.get("stories",[]) if s.get("url"))
     except Exception:pass
+
+class ArticleMetadataParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True);self.published=""
+    def handle_starttag(self,tag,attrs):
+        attrs=dict(attrs)
+        key=(attrs.get("property") or attrs.get("name") or "").casefold()
+        value=attrs.get("content","")
+        if key in ("article:published_time","datepublished","datepublishedtime","date","pubdate","parsely-pub-date") and value and not self.published:self.published=value
+        if tag=="time" and attrs.get("datetime") and not self.published:self.published=attrs["datetime"]
 
 def fetch_article(url):
     try:
@@ -158,14 +184,18 @@ def fetch_article(url):
             raw=response.read(2_000_000)
             charset=response.headers.get_content_charset() or "utf-8"
         page=raw.decode(charset,errors="replace")
+        meta=ArticleMetadataParser();meta.feed(page)
+        if not meta.published:
+            match=re.search(r'"datePublished"\s*:\s*"([^"]+)"',page,re.I)
+            if match:meta.published=match.group(1)
         parser=ArticleTextParser();parser.feed(page)
         paras=parser.preferred if parser.preferred else parser.fallback
         body="\n\n".join(paras)
         body=re.sub(r"\s+"," ",body).strip()
-        return body[:18000] if len(body)>250 else ""
+        return (body[:18000] if len(body)>250 else "",meta.published)
     except Exception as exc:
         print(f"Article fetch unavailable {url}: {exc}")
-        return ""
+        return "",""
 
 def gemini_rewrites(story,article_text,api_key):
     source_text=article_text or story["summary"]
@@ -226,14 +256,22 @@ for source,urls in feeds.items():
             if not title or not link:continue
             key=story_key(link)
             if key in seen or key in published_before:continue
+            feed_published=text(item.find("pubDate"))
+            feed_date=parse_published(feed_published)
+            if latest_official_at and feed_date and feed_date<=latest_official_at:continue
             hay=(title+" "+desc+" "+link).casefold()
             cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if is_domestic_economy(hay,cats):cats.append("domestic")
             if not cats:continue
             seen.add(key)
-            story={"source":source,"title":title,"summary":desc[:500],"url":link,"published":text(item.find("pubDate")),"categories":cats,"image":image_for(item,desc)}
-            article_text=fetch_article(link)
+            story={"source":source,"title":title,"summary":desc[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc)}
+            article_text,article_published=fetch_article(link)
+            if not story["published"] and article_published:story["published"]=article_published
+            article_date=parse_published(story["published"])
+            if latest_official_at and (not article_date or article_date<=latest_official_at):
+                print(f"Skipping story without a post-issue publication date: {link}")
+                continue
             basis_text=article_text or story["summary"]
             story["contentBasis"]="article" if article_text else "rss"
             story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
