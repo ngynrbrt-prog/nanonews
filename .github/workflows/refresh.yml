@@ -2,8 +2,8 @@ name: Refresh NANONews
 on:
   workflow_dispatch:
   schedule:
-    # Cover both CET and CEST clock changes; script runs only at 06:00, 14:00 or 20:00 Budapest time.
-    - cron: '0 4,5,12,13,18,19 * * *'
+    # Check for new, topic-matching articles every 30 minutes; the workflow only publishes when there is new content.
+    - cron: '*/30 * * * *'
 permissions:
   contents: write
 jobs:

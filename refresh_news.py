@@ -10,9 +10,6 @@ TZ=ZoneInfo("Europe/Budapest")
 SUMMARY_VERSION="short-v1-2-3"
 now=datetime.now(TZ)
 manual=os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
-if now.hour not in (6,14,20) and not manual:
-    print("Outside NANONews edition times.")
-    raise SystemExit(0)
 
 feeds={
  "Telex":["https://telex.hu/rss"],
@@ -115,6 +112,8 @@ def parse_published(value):
 
 published_before=set()
 latest_official_at=None
+today_issue_count=0
+counted_editions=set()
 issue_files=list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]
 for file in issue_files:
     if file.name=="index.json" or not file.exists():continue
@@ -123,6 +122,10 @@ for file in issue_files:
         if edition_data.get("testEdition"):continue
         issue_at=parse_published(edition_data.get("updatedAt"))
         if issue_at and (latest_official_at is None or issue_at>latest_official_at):latest_official_at=issue_at
+        issue_id=edition_data.get("updatedAt") or file.name
+        if issue_at and issue_at.date()==now.date() and issue_id not in counted_editions:
+            today_issue_count+=1
+            counted_editions.add(issue_id)
         published_before.update(story_key(s.get("url","")) for s in edition_data.get("stories",[]) if s.get("url"))
     except Exception:pass
 
@@ -267,8 +270,12 @@ for source,urls in feeds.items():
                 except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
             stories.append(story)
     except Exception as e: print(f"Feed error {source} {url}: {e}")
+if not stories:
+    print("No new topic-matching stories; leaving the current edition and archive unchanged.")
+    raise SystemExit(0)
 stories.sort(key=lambda s:s["published"],reverse=True)
-edition={"updatedAt":now.isoformat(),"testEdition":manual,"stories":stories[:80]}
+issue_number=None if manual else today_issue_count+1
+edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories[:80]}
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 archive=Path("data/archive");archive.mkdir(exist_ok=True)

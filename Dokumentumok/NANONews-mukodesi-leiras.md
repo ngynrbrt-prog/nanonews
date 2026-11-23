@@ -79,13 +79,9 @@ A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjté
 
 ## 5. Kiadásrend és ütemezés
 
-A .github/workflows/refresh.yml GitHub Actions workflow naponta három tervezett kiadást készít:
+A .github/workflows/refresh.yml GitHub Actions workflow 30 percenként ellenőrzi a hírforrásokat. Minden óra 00 és 30 perces ütemezett futásánál az RSS-feedekből csak a rovatoknak megfelelő új cikkeket dolgozza fel.
 
-- 06:00
-- 14:00
-- 20:00
-
-Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a nyári időszámítást lefedi; a Python program ellenőrzi a helyi budapesti órát, és csak a fenti időpontok valamelyikében készít automatikus kiadást. A GitHub Actions indítása néha késhet, ezért az ütemezés tervezett időpont, nem másodpercre garantált futás. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén; a kézi indításnál az időkorlát ellenőrzése nem állítja le a futást.
+Az időzóna Europe/Budapest. A GitHub cron UTC-alapú, de a félórás ütem az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. A GitHub Actions indítása néha késhet, ezért az ütemezés tervezett időpont, nem másodpercre garantált futás. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
 
 ## 6. Hírek feldolgozásának folyamata
 
@@ -94,8 +90,8 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
 5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindkét összefoglaló 2–3 rövid mondatos; a program a kimenetet legfeljebb három mondatra és 900 karakterre korlátozza. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. A program létrehozza vagy frissíti a data/latest.json fájlt, hozzáad egy időbélyeges kiadást a data/archive/ mappához, majd frissíti a data/archive/index.json archívumjegyzéket. Legfeljebb 80 cikk kerül egy kiadásba.
-7. Sikeres fájlváltozás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt.
+6. Ha nincs a legutóbbi hivatalos kiadás óta megjelent, rovatba illő új cikk, a program változatlanul hagyja a legfrissebb kiadást és az archívumot. Új cikk esetén frissíti a data/latest.json fájlt, időbélyeges kiadást készít a data/archive/ mappába, és frissíti az archívumjegyzéket. Legfeljebb 80 cikk kerül egy kiadásba.
+7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres félórás ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
 
@@ -103,16 +99,16 @@ Az időzóna Europe/Budapest. A GitHub UTC-alapú cronja mind a téli, mind a ny
 
 ```mermaid
 flowchart TD
-  schedule["Ütemezés: naponta 06:00, 14:00, 20:00"] --> timecheck{"A budapesti idő a kiadási időpontra esik?"}
-  manual["Kézi Run workflow indítás"] --> fetch["RSS-feedek lekérése"]
-  timecheck -->|Igen| fetch
-  timecheck -->|Nem| stop["Automatikus futás leáll"]
+  schedule["Ütemezés: 30 percenként"] --> fetch["RSS-feedek lekérése"]
+  manual["Kézi Run workflow indítás"] --> fetch
   fetch --> feeds["Források egyenkénti feldolgozása"]
   feeds --> available{"A feed elérhető?"}
   available -->|Nem| log["Hiba naplózása; további feedek folytatása"]
   available -->|Igen| dedupe["Hivatkozások és ismétlődések szűrése"]
   log --> dedupe
-  dedupe --> topics["Rovatok hozzárendelése a cím és kivonat alapján"]
+  dedupe --> newer{"Új cikk a legutóbbi hivatalos lap óta?"}
+  newer -->|Nem| unchanged["Aktuális kiadás és archívum változatlan"]
+  newer -->|Igen| topics["Rovatok hozzárendelése a cím és kivonat alapján"]
   topics --> domestic{"Belföldi hírek rovat?"}
   domestic -->|Igen| econ["Hazai vonatkozás + gazdasági feltétel; sport kizárása"]
   domestic -->|Nem| article["Cikkoldal nyilvános szövegének lekérése"]
@@ -124,7 +120,7 @@ flowchart TD
   excerpt --> prepare
 ```
 
-A feedhiba nem állítja le a többi forrás feldolgozását. A kézi indításnál az időzítési ellenőrzés kimarad; automatikus indításnál csak a megfelelő budapesti időablak folytatódik.
+A feedhiba nem állítja le a többi forrás feldolgozását. A program az összes korábban kiadott cikk hivatkozását kihagyja, és csak a legutóbbi hivatalos kiadás után publikált, rovatba illő híreket dolgozza fel. Ha nincs ilyen új cikk, a legfrissebb lapot és az archívumot nem írja át.
 
 #### Eredeti összefoglaló és Tolkien-változat
 
@@ -389,6 +385,14 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: beállítottam az iOS `apple-touch-icon` hivatkozást, a kezdőképernyőn megjelenő „NANONews” nevet és a webapp megjelenítési metaadatát.
 - Az ikont és a HTML-módosítást egy commitban küldtem fel a `main` ágra, így a Pages a teljes ikonnal együtt publikálja az oldalt.
 - Ellenőrzés: a GitHub Pages publikálás (#128) sikeres. Az élő oldal HTML-fejlécében ellenőriztem az `apple-touch-icon` hivatkozást, a `NANONews` kezdőképernyő-nevet és a standalone webapp beállítást; a 180×180-as PNG a repóban van.
+
+### 2026-11-23 — félóránkénti újhír-ellenőrzés
+- Kérés: a cikkek frissítése félóránként történjen; az új cikkekkel foglalkozzon, a már archivált híreket ne dolgozza fel újra.
+- Módosítva a .github/workflows/refresh.yml: a hírforrásokat ütemezetten minden óra 00 és 30 perces futásánál ellenőrzi.
+- Módosítva a refresh_news.py: a korábbi hivatalos kiadásokban szereplő hivatkozások és a legutóbbi lap időpontja alapján csak az új, rovatba illő hírek kerülnek feldolgozásra. Ha nincs új cikk, a program kilép a data/latest.json, az archívum és az archívumjegyzék módosítása nélkül.
+- Az új kiadások naponta növekvő sorszámot kapnak; a fejléc ezt mutatja. A korábbi reggeli/délutáni/esti lapszámokra épülő kiadások a meglévő fallback szerint jelennek meg.
+- Költség: nem került be fizetős szolgáltatás; a forrásellenőrzés GitHub Actionsben, a szövegváltozatok a meglévő ingyenes Gemini-keretben készülnek. A Gemini-hívás csak új, rovatba illő cikkeknél történik.
+- Állapot: workflow, feldolgozó, fejléc és dokumentáció módosítva; GitHub Actions és Pages ellenőrzése a feltöltés után következik.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
