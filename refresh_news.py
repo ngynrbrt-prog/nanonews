@@ -17,6 +17,8 @@ feeds={
  "Index":["https://index.hu/rss"],
  "Nemzeti Sport":["https://www.nemzetisport.hu/publicapi/hu/rss/nso/articles","https://www.nemzetisport.hu/static/rss_hirek.xml"],
  "NBAnews.hu":["https://nbanews.hu/feed/"],
+ "Fűzővel kifelé!":["https://fuzovelkifele.com/feed/"],
+ "Eurosport":["https://www.eurosport.hu/latest-news.shtml"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
@@ -24,6 +26,8 @@ rules={
  "premier":["premier league","angol bajnokság","angol liga","premier ligában"],
  "f1":["formula-1","formula 1","forma-1","f1","fernando alonso","nagydíj","nagy díj"],
  "nba":["nba","kosárlabda"],
+ "nfl":["nfl","amerikai foci","touchdown"],
+ "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
  "world-market":["nasdaq","s&p 500","dow jones","wall street","stock market","nyse","dax","nikkei","amerikai tőzsde","külföldi tőzsde","részvénypiacokon"],
@@ -32,8 +36,8 @@ rules={
 
 DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai"]
 ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés"]
-SPORT_MARKERS=["arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
-SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba"}
+SPORT_MARKERS=["arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
+SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","cycling"}
 
 def is_domestic_economy(hay,categories):
     if SPORT_CATEGORIES.intersection(categories) or any(term in hay for term in SPORT_MARKERS):
@@ -92,6 +96,42 @@ class ArticleTextParser(HTMLParser):
                 if self.prefer_current:self.preferred.append(value)
             self.capture=False;self.paragraph=[]
         elif tag=="article" and self.article:self.article-=1
+
+class LatestStoriesParser(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.current=None; self.items=[]
+    def handle_starttag(self,tag,attrs):
+        if tag=="a":
+            href=dict(attrs).get("href","")
+            if "/story.shtml" in href:self.current=[href,[]]
+    def handle_data(self,data):
+        if self.current:
+            value=re.sub(r"\\s+"," ",data).strip()
+            if value:self.current[1].append(value)
+    def handle_endtag(self,tag):
+        if tag=="a" and self.current:
+            href,parts=self.current
+            title=re.sub(r"\\s+"," "," ".join(parts)).strip()
+            if title:self.items.append((title,href))
+            self.current=None
+
+def fetch_eurosport_items(url):
+    request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; NANONews/1.0)","Accept":"text/html"})
+    with urllib.request.urlopen(request,timeout=25) as response:
+        page=response.read(2_000_000).decode(response.headers.get_content_charset() or "utf-8",errors="replace")
+    parser=LatestStoriesParser();parser.feed(page)
+    result=[];seen_links=set()
+    for title,link in parser.items:
+        link=urllib.parse.urljoin("https://www.eurosport.hu",link)
+        if link in seen_links:continue
+        seen_links.add(link)
+        item=ET.Element("item")
+        ET.SubElement(item,"title").text=title
+        ET.SubElement(item,"link").text=link
+        result.append(item)
+    if not result:raise ValueError("Eurosport latest-news listing returned no story links")
+    return result
 
 def fetch_article(url):
     try:
@@ -158,12 +198,17 @@ for source,urls in feeds.items():
  for url in urls:
     try:
         req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
-        root=ET.fromstring(urllib.request.urlopen(req,timeout=20).read())
-        for item in root.findall(".//item"):
+        if source=="Eurosport":
+            feed_items=fetch_eurosport_items(url)
+        else:
+            root=ET.fromstring(urllib.request.urlopen(req,timeout=20).read())
+            feed_items=root.findall(".//item")
+        for item in feed_items:
             title=text(item.find("title"));link=text(item.find("link"));desc=text(item.find("description"))
             if not title or not link or link in seen:continue
             hay=(title+" "+desc+" "+link).casefold()
             cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
+            if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if is_domestic_economy(hay,cats):cats.append("domestic")
             if not cats:continue
             seen.add(link)
