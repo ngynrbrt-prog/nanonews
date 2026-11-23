@@ -440,7 +440,7 @@ for source,urls in feeds.items():
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
                 cats.remove("technology")
-            if "parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS):cats.append("belfold")
+            if not (SPORT_CATEGORIES.intersection(cats) or any(match_term(term,hay) for term in SPORT_MARKERS)) and ("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)):cats.append("belfold")
             if not cats:continue
             seen.add(key)
             story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc),"summaryVersion":SUMMARY_VERSION}
