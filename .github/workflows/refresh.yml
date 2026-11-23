@@ -2,8 +2,8 @@ name: Refresh NANONews
 on:
   workflow_dispatch:
   schedule:
-    # Check for new, topic-matching articles every 30 minutes; the workflow only publishes when there is new content.
-    - cron: '*/30 * * * *'
+    # Retry missing rewrites every 5 minutes, offset from the top of the hour to reduce schedule delays.
+    - cron: '2/5 * * * *'
 permissions:
   contents: write
 concurrency:
