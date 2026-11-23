@@ -41,17 +41,20 @@
         "nfl"
       ],
       "image": "",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "548c79fb5ca09f96c4eed248f38d7afd10d938b56cd37d1660cba1904399ce7f",
       "variants": {
+        "original": {
+          "body": "A Baltimore Ravens 2026. január 6-án, 18 szezon után küldte el John Harbaugh-t, aki január 20-án átvette a New York Giants irányítását. Az újjáépítés alatt álló Giants – hiányzó kulcsjátékosok és egy szezon közben megszerzett harmadik számú irányító ellenére – 23-18-ra legyőzte a 7-2-es mérleggel érkező Jacksonville Jaguarst, így 6-3-1-gyel magabiztosan vezeti az NFC Eastet. Ezzel szemben a Harbaugh nélküli Ravens 35-33-ra kikapott a Pantherstől, amivel sorozatban a hatodik vereségüket szenvedték el, és elveszítették a rájátszás-reményeiket."
+        },
         "tolkien": {
-          "title": "A holtak völgyéből az óriások birodalmába: John Harbaugh krónikája",
-          "body": "Így esett, hogy miután John Harbaugh tizennyolc esztendő után elhagyta a baltimore-i sereget, a New York-i nép seregébe állt, míg a korábbi otthona gyászos mélybe süllyedt. Az újjáépülő óriások városa, noha harcosait vesztette és írnokai is megfogyatkoztak, a mester vezetésével legyőzte a jaguári népet, míg a Ravens zsinórban hatodik vereségét szenvedte el. Harbaugh bölcs vezetésével és hűséges hadnagyaival, Matt Naggyal és Dennard Wilsonnal olyan védelmet kovácsolt, amely a birodalom legkiválóbbjai közé emelte a csapatot."
+          "title": "A száműzött vezér és a két tartomány sorsa",
+          "body": "Midőn a baltimore-i krónikák tizennyolc esztendő után lezárták John Harbaugh kapitányságát, a mester hamarosan a New York-i hadak élére lépett, hogy újjásyűjtse a meggyengült sereget. A Giants népe, noha vezérétől és legfőbb bajnokaitól megfosztatott, a nehézségek ellenére is diadalmaskodott a félelmetes jaguarsbeli vendégek felett, így méltán pályázhat a bajnoki küzdelmek folytatására. Ezzel ellentétben a hősét elküldő Baltimore serege a vereségek árnyékába süllyedt, s elhagyták őt a viadalok reményei is. Harbaugh, ki egykoron száznyolcvan győzelmet és dicső koronát szerzett egy régi honban, most új mezőken mutatja meg igazgatásának erejét."
         },
         "reito": {
-          "title": "A hálás utódlás nemes művészete, avagy hogyan üssünk ki egy Jaguarst harmadik számú legénységgel",
-          "body": "A Baltimore-ból menesztett John Harbaugh a New York Giants élén csodát tesz, miközben a magára hagyott baltimore-i gárda sorozatban a hatodik vereségét könyveli el. A New York-i alakulat tartalék irányítóval és sérült kulcsemberekkel gyűrte le a Super Bowl-favorit Jacksonville Jaguarst, magabiztosan vezetve a csoportját. A sikerekhez egy pazar védelmi rendszer is kell, amely a riválisok nagy bánatára pontokban és yardokban is a liga élvonalában poroszkál."
+          "title": "Hogyan csináljunk csodát egy harmadik számú irányítóval?",
+          "body": "A Baltimore Ravensnél úgy gondolták tizennyolc év után, hogy nélkülözni tudják John Harbaugh-t, ami azóta sorozatban a hatodik vereségükhöz és a playoff-remények füstbe mentéhez vezetett. Harbaugh viszont nem esett kétségbe, hanem január 20-án átvette a New York Giants gárdáját, amely a hírek szerint épp darabjaira hullott volna a sérülések miatt. Ennek ellenére a tartalék irányítóval felálló New York-i alakulat 23-18-ra elintézte a hét győzelmmel érkező Jacksonville Jaguarst, így most ők vezetik a csoportjukat. Így jár az, aki elküldi a sikeredzőjét, miközben a másutt csodát tesz a romokon is."
         }
       }
     },
@@ -66,20 +69,20 @@
         "nfl"
       ],
       "image": "",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "rss",
       "sourceHash": "ee6faa4cd89bc42947d0de7daec7d37631e62ee19717aa064fcc4268b562d3c5",
       "variants": {
         "original": {
-          "body": "A 49ers támadóit a liga legjobb védelme sem tudta megállítani a 11. héten. New Yorkban kikapott a Jaguars, a Steelers pedig kínos vereséget szenvedett, miközben a Chiefs továbbra is szárnyal."
+          "body": "A Fűzővel kifelé! című oldal közzétette a 11. hét összefoglaló videóját, amelyben az amerikai futball liga eseményeit tárgyalják. A cikk és a videó kivonata alapján a 49ers támadóit a liga legjobb védelme sem tudta megállítani, valamint New Yorkban vesztett a Jaguars."
         },
         "tolkien": {
-          "title": "A tizenegyedik nap krónikája a messzi csatamezőkről",
-          "body": "Íme, a tizenegyedik nap viharai: a negyvenkilencesek hadát még a birodalom legkiválóbb védelme sem bíró megállítani. New York mezőin elbukott a Jaguars, a Steelers serege gyalázatos vereséget szenvedett, miközben a Chiefs zászlaja továbbra is magasra törve szárnyal."
+          "title": "A tizenegyedik nap krónikája a viadalok mezejéről",
+          "body": "Íme a hír a bajnokság tizenegyedik hetének küzdelmeiről, melyet a Fűzővel kifelé krónikásai adnak hírül mozgóképes krónikában. A 49ers hadai áttörték a liga legkiválóbb védelmét is, míg a Jaguars serege New York falainál vereséget szenvedett. Eközben a Steelers tábora szégyenletes kudarccal bűnhődött, a Chiefs zászlaja alatt harcolók pedig dicsőségesen szárnyalnak tovább. E fejezet sorsfordító eseményeit a Post Snap gyűlésén tárgyalják részletesen."
         },
         "reito": {
-          "title": "A 49ers ellen még a liga legjobb védelme is tehetetlen volt, míg New Yorkban a Jaguars botlott, a Steelers kínos pofonba szaladt, a Chiefs pedig zavartalanul szárnyal.",
-          "body": "A 49ers támadóit még a liga legjobb védelme sem bírta megállítani, eközben New Yorkban elesett a Jaguars, a Steelers pedig kínos vereséget szenvedett. A Chiefs ezzel szemben töretlenül szárnyal tovább, a részleteket pedig a Post Snap műsorában veszik górcső alá."
+          "title": "Hajrá, hús-vér bajnokok! – A 11. hét vadabb jelenetei",
+          "body": "A Fűzővel kifelé legfrissebb videós összefoglalójából kiderül, hogy a 49ers támadóit még a liga legjobbnak kikiáltott védelme sem tudta megállítani. A Jaguars csapatának New Yorkban nem termett babér, a Steelers pedig igencsak kínos vereségbe futott bele. Ezzel szemben a Chiefs alakulata továbbra is magabiztosan szárnyal a pályán. A hátborzongató vagy épp mulatságos részleteket a Post Snapben veszik majd górcső alá."
         }
       }
     },
@@ -93,17 +96,20 @@
         "technology"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/298265c4-dd3c-42e7-bd67-e39b2c939aba.jpg",
-      "summaryVersion": "short-v1-2-3",
+      "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "08bd2e44bdc828bab289443c6bb792a198be2d0996e682330b469524200270d8",
       "variants": {
+        "original": {
+          "body": "Az Apple márciusban mutatta be a cég eddigi legolcsóbb laptopjaként debütáló MacBook Neot, amely iPhone-processzorral érkezett. Mark Gurman, a Bloomberg szakírója szerint a jövőbeli új generáció kisebb ráncfelvarrásokkon esik majd át. Az új modell megjelenése 2027 márciusában várható az iOS és macOS 27.4 érkezésével, de a februári bevezetés is lehetséges, bár kevésbé valószínű. A piaci bevezetést olyan további termékek kísérhetik, mint az iPhone 18 és 18e, az A19 lapkás belépőszintű iPad, valamint az OLED-kijelzős iPad Air."
+        },
         "tolkien": {
-          "title": "Ígyen szól a Krónika az almás birodalom legújabb portékájáról és a jövő évi seregletünkről",
-          "body": "Az Apple nevű birodalom március hóban mutatá be legolcsóbb írnokszerszámát, a MacBook Neót, melynek új nemzetsége Mark Gurman tudósító szerint 2027 márciusában – vagy esetleg februárban, az iOS és macOS 27.4 eljövetelével – láthat napvilágot más portékák társaságában. E mesterember jelentése szerint a jövőbeli eszköz csupán kisebb ráncfelvarrásokón esik át, miközben a birodalom egyik régi támogatási felülete már napokon belül végleg bezárja kapuit a vándorok előtt."
+          "title": "A legifjabb olcsó vándor és a közelgő idők jelei",
+          "body": "Az Apple mívelői márciusban tárták a világ elé eddigi leginkább megfizethető vándorkészüléküket, a MacBook Neot, melyet egy kisebb birodalom óriásainak telefonbölcsőjéből való elme vezérel. Mark Gurman, a Bloomberg krónikása úgy tudja, hogy a 2027 márciusában esedékes új nemzedék csupán csekély ékesítést és méltó megújulást hoz magával. Ezen drága eszköz megérkezését az iOS és macOS 27.4 szoftverek eljövetele idejére, valószínûsíthetően a tavasz első holdjára, netán a februári napokra ígérik. A várva várt napon ugyancsak megmutatkozhat az iPhone 18 és 18e, az A19 jelet viselő belépőszintű táblagép, valamint az OLED-látvánnyal bíró iPad Air is."
         },
         "reito": {
-          "title": "A legolcsóbb alma esete a jövővel, avagy mikor érkezik a következő portékaszállítmány",
-          "body": "Az Apple márciusban piacra dobta eddigi legolcsóbb laptopját, a MacBook Neót, ám a pletykák szerint máris készül a folytatás. Mark Gurman jelentése alapján a 2027 márciusára – vagy esetleg februárra – várható új generációt más friss eszközök társaságában mutatják be, miközben az egyik támogatási felület végleg bezárja kapuit."
+          "title": "Olcsó laptop, drága jövő és a lekapcsolt villany",
+          "body": "Márciusban berobbant az Apple eddigi legolcsóbb masinája, a MacBook Neo, amely egy iPhone-processzor erejével vágott neki a piacnak. Mark Gurman, a Bloomberg jól értesült embere szerint a 2027 márciusában érkező új kiadás nem forgatja fel a világot, csupán kisebb ráncfelvarrásokat hoz. A boltok polcaira az iOS/macOS 27.4 megjelenése idején, legvalószínűbben 2027 márciusában – esetleg a kevésbé valószínű februárban – kerülhet, olyan társak kíséretében, mint az iPhone 18/18e, az A19-es alap-iPad és az OLED-kijelzős iPad Air. Míg a jövő zenéje szól, a jelenben sincsen megállás: az Apple egyik támogatási felülete napokon belül lehúzza a rolót, így ott már csak a régi emlékeket lehet olvasgatni."
         }
       }
     },
