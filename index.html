@@ -120,6 +120,11 @@ body.night-mode .night-toggle:hover{background:#25231e}
  .night-toggle{min-height:44px;padding:8px 14px}
  .brand{padding-top:16px}
 }
+
+/* One style panel spans the full content column after moving the theme switch to the masthead. */
+.display-controls{grid-template-columns:minmax(0,1fr)}
+body.night-mode .night-toggle[aria-checked="true"]{background:#e7d9b8;color:#10100e;border-color:#e7d9b8}
+body.night-mode .night-toggle[aria-checked="true"] .toggle-state{background:#10100e;color:#e7d9b8;border-color:#10100e}
 </style></head>
 <body><header class="masthead"><div class="topline"><span>Budapest · személyes digitális napilap</span><span id="today"></span></div><div class="night-toggle-wrap"><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button></div><div class="brand">NANO<span>News</span></div><div class="strap">A nap, egy másik hasábban.</div><nav class="nav topic-nav" aria-label="Rovataim"><div class="topic-nav-title">Rovataim</div><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></nav></header>
 <main class="page" id="mai"><section class="display-controls" aria-label="Írás stílusa">
