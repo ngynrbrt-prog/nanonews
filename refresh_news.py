@@ -30,6 +30,7 @@ rules={
  "nfl":["nfl","amerikai foci","touchdown"],
  "seahawks":["seattle seahawks","seahawks"],
  "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
+ "darts":["darts","pdc","professional darts corporation","darts-vb","darts vb","darts-világbajnokság"],
  "technology":["találmány","feltaláló","új eszköz","új készülék","technológia","technológiai","kutatás","kutatási","kutató","tudomány","felfedezés","kísérlet","tanulmány","szoftver","szoftverfejlesztés","alkalmazás","digitális","digitalizáció","mesterséges intelligencia","chatgpt","kiberbiztonság","adatvédelem","robotika","robot","chip","processzor","okostelefon","laptop","készülék","startup","innováció","fejlesztés"],
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
@@ -39,8 +40,9 @@ rules={
 
 DOMESTIC_MARKERS=["magyarország","magyar","budapest","debrecen","szeged","miskolc","pécs","győr","hazai"]
 ECONOMY_MARKERS=["gazdaság","gazdasági","forint","infláció","áfa","adó","költségvetés","gdp","bruttó hazai termék","államháztartás","munkanélküliség","foglalkoztatás","minimálbér","bérek","fizetés","nyugdíj","rezsi","árak","áremelés","árfolyam","lakáspiac","ingatlanpiac","hitel","kamat","kiskereskedelem","ipar","export","import","beruházás","vállalat","vállalkozás","cégek","profit","nyereség","árbevétel","üzemanyagár","energiaár","befektetés","csőd","fizetésképtelenség","bérmegállapodás","értékesítés"]
-SPORT_MARKERS=["arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
-SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","seahawks","cycling"}
+NER_MARKERS=["ner","nemzeti együttműködés rendszere","fidesz","orbán viktor","orbán-kormány","orbán-kormány","mészáros lőrinc","tiborcz istván","közpénz","közbeszerzés","ner-közeli","kormányközeli"]
+SPORT_MARKERS=["darts","pdc","arsenal","manchester city","manchester united","bayern münchen","premier league","foci","futball","labdarúg","kosárlabda","kézilabda","röplabda","nba","nfl","amerikai foci","touchdown","seattle seahawks","seahawks","kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta","formula 1","formula-1","forma-1","f1","mérkőzés","meccs","bajnoki","bajnokság","gól","csapat","edző","szurkoló","játékos","sport"]
+SPORT_CATEGORIES={"arsenal","man-city","bayern","man-united","como","premier","f1","nba","nfl","seahawks","cycling","darts"}
 
 def is_domestic_economy(hay,categories):
     if SPORT_CATEGORIES.intersection(categories) or any(term in hay for term in SPORT_MARKERS):
@@ -363,7 +365,7 @@ for source,urls in feeds.items():
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
                 cats.remove("technology")
-            if is_domestic_economy(hay,cats):cats.append("domestic")
+            if "parliament" in cats or is_domestic_economy(hay,cats) or any(term in hay for term in NER_MARKERS):cats.append("belfold")
             if not cats:continue
             seen.add(key)
             story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc),"summaryVersion":SUMMARY_VERSION}
