@@ -72,6 +72,9 @@ Jelenlegi rovatok:
 - Belföldi tőzsde
 - Külföldi tőzsde
 - Belföldi hírek
+- Technológia / Fejlesztések
+
+A Technológia / Fejlesztések rovat a technológiai híreket, szoftvereket és alkalmazásokat, mesterséges intelligenciát, kiberbiztonságot, digitális fejlesztéseket és újításokat gyűjti. A cím- és RSS-kivonat kulcsszavai alapján sorolja be a híreket.
 
 A Belföldi hírek rovat kizárólag olyan híreket jeleníthet meg, amelyek magyarországi vagy magyar vonatkozásúak, gazdasági témát tartalmaznak, és nem sporthírek. A feldolgozó gazdasági kulcsszókat és hazai vonatkozásra utaló kifejezéseket vizsgál; sportrovatba sorolt cikket vagy sportkifejezéseket tartalmazó hírt kizár. A weboldal ugyanezt a szűrést alkalmazza az archív kiadások megjelenítésekor is, ezért a korábbi, tágabb szabály szerint elmentett sporthírek sem kerülnek be a Belföldi hírek rovatba.
 
@@ -485,6 +488,13 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: a két gomb a sticky logóblokk része lett, a „A nap, egy másik hasábban.” jelmondat kikerült. A stílusválasztó nem összecsukható és nincs külön láblécvezérlő.
 - A napi kiadási rend változatlanul 06:00 és 17:00 Europe/Budapest idő szerint.
 - Ellenőrzés: a közzétett oldalon a logó után közvetlenül a két gomb látszik; a jelmondat és a rögzített alsó sáv hiányzik. A fejléc sticky maradt, a kiadásrend 06:00 és 17:00. Asztali nézetben ellenőriztem.
+
+### 2026-11-23 — Technológia / Fejlesztések rovat
+- Kérés: a „További rovatok” között jelenjen meg a Technológia / Fejlesztések rovat.
+- Módosítva az index.html: új rovatgomb került a további rovatok csoportba, saját cikkdarabszámmal és rovatválasztással.
+- Módosítva a refresh_news.py: technológiai témakifejezéseket adtam a cikkbesoroláshoz, többek között technológia, szoftver, alkalmazás, digitális fejlesztés, mesterséges intelligencia, kiberbiztonság, robotika és chip.
+- Az archív kiadások a mentett rovatcímkéket és cím/kivonat kulcsszavait használják; a korábbi cikkek is megjelenhetnek a rovatban, ha szövegük tartalmazza a témakifejezések valamelyikét.
+- Állapot: kód és dokumentáció a main ágra került; Pages-publikálás után ellenőrizendő.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
