@@ -7,7 +7,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 TZ=ZoneInfo("Europe/Budapest")
-SUMMARY_VERSION="short-v1-2-3"
+SUMMARY_VERSION="short-v2-3-4"
 now=datetime.now(TZ)
 dispatch_mode=os.getenv("NANONEWS_MODE","test" if os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" else "").strip().lower()
 manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="test"
@@ -181,10 +181,10 @@ def gemini_rewrites(story,article_text,api_key):
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
     prompt=f"""Feladat: készíts három magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Mindhárom összefoglaló legyen rövid és lényegretörő: 2–3 rövid mondatban foglald össze a hírt, csak a legfontosabb tényekkel.
-Az "original" mezőbe írj semleges, tárgyilagos, közérthető összefoglalót 2–3 rövid mondatban. Ne készíts hosszú cikket és ne másold a forrást mondatról mondatra.
-A "tolkien" mezőbe írj új, önálló címet és 2–3 rövid mondatos összefoglalót. A cím és a szöveg idézze Tolkien magasztos, régies-krónikás hangját, de maradjon közérthető. Ne adj hozzá fantasy-elemet vagy új tényt.
-Az "reito" mezőbe írj új, önálló címet és 2–3 rövid mondatos összefoglalót, amely szellemes, fordulatos, száraz humorú, kalandregényes magyar hangulatot idéz. Ne másolj konkrét műrészletet vagy jellegzetes mondatot; maradj tényhű.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
+Mindhárom összefoglaló legyen tartalmas, 3–4 jól olvasható mondatban. Őrizd meg a cikk lényegi részleteit: ki érintett, mi történt, mi lett az eredmény vagy következmény, továbbá a forrásban szereplő fontos számokat, időpontokat és feltételeket. Ne hagyj ki olyan részletet, amely érdemben megváltoztatná a hír jelentését; ne találj ki tényt.
+Az "original" mezőben írj semleges, pontos, közérthető összefoglalót 3–4 mondatban. Fogalmazd át önállóan, de ne hagyd el a hír lényeges részleteit.
+A "tolkien" mezőhöz alkoss önálló címet és 3–4 mondatos, határozottan emelkedett, ünnepélyes, régies krónikás hangú átfogalmazást, gazdagabb ritmussal és választékos szóhasználattal. A cím is ezt a hangot tükrözze. A tények és azok viszonyai maradjanak pontosak; ne adj hozzá fantasy-elemet vagy új tényt.
+A "reito" mezőhöz alkoss önálló címet és 3–4 mondatos, markánsan csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. Használj élesebb iróniát és váratlan, de a tényekből következő fordulatot; ez a hang legyen könnyed és földközeli, jól elkülönülve a Tolkien-féle emelkedettségtől. Ne idézz vagy másolj konkrét műrészletet, és ne változtass a tényeken.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
 Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
@@ -218,18 +218,18 @@ Alapanyag ({basis}):
         source=re.sub(r"<[^>]*>"," ",source_text)
         sentences=re.split(r"(?<=[.!?])\s+",re.sub(r"\s+"," ",source).strip())
         original=" ".join(sentences[:3]).strip()
-    original=concise_sentences(original,3)
-    if original:variants["original"]={"body":original[:900]}
+    original=concise_sentences(original,4)
+    if original:variants["original"]={"body":original[:1400]}
     value=parsed.get("tolkien",{})
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
-    body=concise_sentences(value.get("body",""),3)
+    body=concise_sentences(value.get("body",""),4)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
-    variants["tolkien"]={"title":title[:180],"body":body[:900]}
+    variants["tolkien"]={"title":title[:180],"body":body[:1400]}
     value=parsed.get("reito",{})
     reito_title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
-    reito_body=concise_sentences(value.get("body",""),3)
+    reito_body=concise_sentences(value.get("body",""),4)
     if not reito_title or not reito_body:raise ValueError("Missing Rejto rewrite")
-    variants["reito"]={"title":reito_title[:180],"body":reito_body[:900]}
+    variants["reito"]={"title":reito_title[:180],"body":reito_body[:1400]}
     return variants
 
 def gemini_tolkien_rewrite(story,article_text,api_key):
@@ -272,7 +272,7 @@ Alapanyag ({basis}):
     title=re.sub(r"\s+"," ",str(value.get("title",""))).strip()
     body=concise_sentences(value.get("body",""),3)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
-    return {"title":title[:180],"body":body[:900]}
+    return {"title":title[:180],"body":body[:1400]}
 def gemini_reito_rewrite(story,article_text,api_key):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
@@ -329,7 +329,9 @@ try:
         for saved_story in previous_edition.get("stories",[]):
             tolkien=saved_story.get("variants",{}).get("tolkien",{})
             reito=saved_story.get("variants",{}).get("reito",{})
-            if (not tolkien.get("title") or not tolkien.get("body") or
+            if (saved_story.get("summaryVersion")!=SUMMARY_VERSION or
+                not saved_story.get("variants",{}).get("original",{}).get("body") or
+                not tolkien.get("title") or not tolkien.get("body") or
                 not reito.get("title") or not reito.get("body")):
                 pending_current.append(saved_story)
 except Exception:pass
@@ -374,7 +376,7 @@ for source,urls in feeds.items():
             story["contentBasis"]="article" if article_text else "rss"
             story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
             cached=previous.get(link,{})
-            if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body"):
+            if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
                 story["variants"]=cached["variants"]
             elif api_key:
                 try:
@@ -387,8 +389,23 @@ for source,urls in feeds.items():
 
 pending_updated=False
 if api_key and not manual and not collect_new_edition:
-    for pending_story in pending_current:
+    for pending_story in pending_current[:1]:
         current_variants=pending_story.setdefault("variants",{})
+        if pending_story.get("summaryVersion")!=SUMMARY_VERSION:
+            article_text,_=fetch_article(pending_story.get("url",""))
+            try:
+                generated=gemini_rewrites(pending_story,article_text,api_key)
+                pending_story["variants"]=generated
+                pending_story["summaryVersion"]=SUMMARY_VERSION
+                if article_text:
+                    pending_story["contentBasis"]="article"
+                    pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+                pending_updated=True
+                print(f"Refreshed v2 summary and styles for {pending_story.get('url')}")
+            except Exception as exc:
+                print(f"Pending v2 summary unavailable {pending_story.get('url')}: {exc}")
+            time.sleep(4)
+            break
         current_tolkien=current_variants.setdefault("tolkien",{})
         current_reito=current_variants.setdefault("reito",{})
         article_text,_=fetch_article(pending_story.get("url",""))
