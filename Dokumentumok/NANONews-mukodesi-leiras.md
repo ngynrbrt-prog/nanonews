@@ -187,10 +187,10 @@ A GitHub Actions futás sikeressége és a Pages közzététele külön állapot
 
 A felület két, egymástól elkülönített beállításcsoportot kínál:
 
-- **Hírhangnem:** Eredeti vagy Tolkien. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
-- **Színtéma:** Nappali vagy Éjszakai. Ez kizárólag az oldal színeit módosítja, a hírtartalmat és a választott hírhangnemet nem.
+- **Stílus:** Eredeti vagy Tolkien tollából. Ez választja ki, hogy a hír címe és összefoglalója eredeti vagy Gemini által Tolkien hangján átírt változatban jelenjen meg.
+- **Megjelenítés:** önálló Éjszakai mód kapcsoló, amely be- és kikapcsolja a sötét színtémát. Ez kizárólag az oldal színeit módosítja, és nem változtatja meg a Stílus alatt kiválasztott Eredeti vagy Tolkien tollából beállítást.
 
-A két csoport külön címmel és külön választósorral jelenik meg közvetlenül a rovatmenü alatt. Mobilon egymás alá rendeződnek, így a tartalmi hangnem és a színtéma nem mosódik össze. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
+A két csoport külön címmel jelenik meg közvetlenül a rovatmenü alatt; mobilon egymás alá rendeződnek. A generált változat a hír mellett és a cikket az oldalon belül megnyitó ablakban is megjelenik. A felhasználó nem navigál el a NANONews oldaláról a forrásra. A generált szöveg összefoglaló; nem a teljes cikk újramondása vagy másolata. A cikkfotó, ha a feed szolgáltat képet, nyomdai hatású, egyszerűsített képként jelenik meg.
 
 A Gemini-változat mezői a kiadás JSON-jában a variants.tolkien.title és variants.tolkien.body alatt vannak. Ha egy cikkhez nem sikerül generálni, a felület az eredeti címet és kivonatot jeleníti meg. Így egy forráshiba nem akadályozza a teljes kiadás megjelenítését.
 
@@ -215,7 +215,7 @@ Ha a kulcs cserére szorul, új kulcsot kell létrehozni, a GitHub Actions titok
 
 A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek.
 
-A hírhangnem (nanonews-style) és a színtéma (nanonews-theme) külön kulcson, a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be.
+A Stílus választása (nanonews-style) és az Éjszakai mód állapota (nanonews-theme) külön kulcson, a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be.
 
 A weboldal nyilvános elérhetősége: https://ngynrbrt-prog.github.io/nanonews/
 
@@ -301,12 +301,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 - Módosítva az index.html: az Éjszakai gomb sötét, majdnem fekete háttérre, meleg régi papír árnyalatú betűszínre és sötétebb cikkelválasztó felületekre vált. A képek is visszafogottabb fényerőt kapnak.
 - Az éjszakai mód csak a színeket módosítja; nem változtat a hír tartalmán. A választás a böngésző helyi tárolójában megmarad, és a mobilos háromgombos választósorba is beilleszkedik.
 
-### 2026-11-23 — hírhangnem és színtéma különválasztása
-- Kérés: az Eredeti/Tolkien legyen egy beállítás, az Éjszakai mód pedig ergonómiailag elkülönítve jelenjen meg.
-- Módosítva az index.html: az Eredeti és Tolkien külön „Hírhangnem” csoportba került; a Nappali és Éjszakai külön „Színtéma” csoportot kapott. Asztali nézeten egymás mellett, mobilon egymás alatt látszanak; mindkettő közvetlenül a rovatmenü alatt van.
-- A hírhangnem és a színtéma külön helyi tárolási kulcsot használ. A színtéma váltása csak a színeket módosítja, a hangnem váltása pedig a címet és összefoglalót frissíti.
-- A korábbi egyesített beállítás mentett Tolkien választását megtartja; a korábbi Éjszakai értéket automatikusan külön színtéma-beállításként kezeli.
-- Állapot: a forrásmódosítás és a dokumentáció a main ágra került. A GitHub Pages közzétette a friss oldalt; az élő felületen külön Hírhangnem (Eredeti/Tolkien) és Színtéma (Nappali/Éjszakai) csoportként ellenőrizve.
+### 2026-11-23 — stílusválasztó és éjszakai mód elkülönítése
+- Kérés: a Stílus alatt Eredeti és Tolkien tollából legyen választható; ettől teljesen külön, Megjelenítés cím alatt lehessen az éjszakai módot ki- és bekapcsolni. Az éjszakai téma mellett mindkét szövegstílusnak működnie kell.
+- Módosítva az index.html: a hangnemcsoport címe „Stílus”; a két lehetőség „Eredeti” és „Tolkien tollából”. A külön „Megjelenítés” csoportban egy önálló, be/ki állapotú Éjszakai mód kapcsoló van.
+- A Stílus beállítás a címet és az összefoglalót választja; az éjszakai kapcsoló kizárólag a színeket változtatja. A kettő külön helyi tárolási kulcson marad, így az Eredeti és a Tolkien tollából mód éjszakai megjelenítésben is használható.
+- Mobilon a két beállításcsoport egymás alatt jelenik meg. Régi mentett Tolkien választás megmarad; a régi egyesített Éjszakai értéket a rendszer külön megjelenítési beállításként migrálja.
+- Állapot: a forrásfrissítés a main ágra került; a friss Pages felület ellenőrzése következik.
 
 ### Következő módosítások
 - Minden további felhasználói kérést dátummal kell felvenni a naplóba, és a lezáráskor frissíteni kell az érintett fájlok és a siker/hibák állapotát.
