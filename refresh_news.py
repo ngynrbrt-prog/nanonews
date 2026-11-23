@@ -9,7 +9,9 @@ from zoneinfo import ZoneInfo
 TZ=ZoneInfo("Europe/Budapest")
 SUMMARY_VERSION="short-v1-2-3"
 now=datetime.now(TZ)
-manual=os.getenv("GITHUB_EVENT_NAME") == "workflow_dispatch"
+dispatch_mode=os.getenv("NANONEWS_MODE","test" if os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" else "").strip().lower()
+manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode!="official"
+force_issue=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="official"
 
 feeds={
  "Telex":["https://telex.hu/rss"],
@@ -287,7 +289,10 @@ except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[];seen=set()
 scheduled_issue_number={6:1,17:2}.get(now.hour)
-collect_new_edition=manual or (scheduled_issue_number is not None and now.hour not in today_issued_hours)
+official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours
+if force_issue and not official_slot_available:
+    raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
+collect_new_edition=manual or force_issue or official_slot_available
 for source,urls in feeds.items():
  if not collect_new_edition:break
  for url in urls:
@@ -332,7 +337,7 @@ for source,urls in feeds.items():
     except Exception as e: print(f"Feed error {source} {url}: {e}")
 
 pending_updated=False
-if api_key and not manual:
+if api_key and not manual and not collect_new_edition:
     for pending_story in pending_current:
         current_variants=pending_story.setdefault("variants",{})
         current_tolkien=current_variants.setdefault("tolkien",{})
@@ -375,9 +380,11 @@ def sync_pending_archive():
     except Exception as exc:print(f"Could not sync pending summaries to current issue archive: {exc}")
 
 if not stories:
-    if not pending_updated:
+    if not pending_updated and not (force_issue or official_slot_available):
         print("No new stories or missing Tolkien rewrites; leaving the current edition and archive unchanged.")
         raise SystemExit(0)
+    if force_issue or official_slot_available:
+        print("No new matching stories; publishing the official issue with an empty story list.")
     Path("data/latest.json").write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
     print(f"Completed missing Tolkien rewrites in the current issue; {len(pending_current)} stories were checked.")
