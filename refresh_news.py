@@ -16,6 +16,7 @@ feeds={
  "HVG":["https://hvg.hu/rss"],
  "Index":["https://index.hu/rss"],
  "Nemzeti Sport":["https://www.nemzetisport.hu/publicapi/hu/rss/nso/articles","https://www.nemzetisport.hu/static/rss_hirek.xml"],
+ "NBAnews.hu":["https://nbanews.hu/feed/"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
