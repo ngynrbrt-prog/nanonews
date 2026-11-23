@@ -221,7 +221,56 @@ body.night-mode .brand-style-selector .mode.active{background:#e2d3b2;border-col
 .edition-switcher{display:flex!important;align-items:center;justify-self:end;gap:8px;min-width:0}.edition-switcher .edition-date{justify-self:auto;text-align:right;white-space:nowrap}.issue-picker{min-width:128px;max-width:168px;min-height:38px;padding:5px 24px 5px 9px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);font:500 11px var(--mono);cursor:pointer}.issue-picker:focus-visible{outline:2px solid var(--red);outline-offset:2px}
 @media(max-width:760px){.topline .edition-switcher{order:2;display:grid!important;grid-template-columns:max-content max-content;grid-template-rows:38px;grid-auto-flow:column;justify-self:auto;justify-content:center;align-items:center;gap:5px;width:100%}.topline #today{grid-column:1;grid-row:1;order:0!important;font-size:9px;letter-spacing:.025em;text-align:center;white-space:nowrap}.topline #issue-picker{grid-column:2;grid-row:1;order:1!important;min-width:116px;width:132px;max-width:132px;min-height:38px;padding-left:6px;padding-right:18px;font-size:9px}.topline .night-toggle{order:3}}
 @media(max-width:360px){.edition-switcher{grid-template-columns:max-content 116px;gap:4px}.topline #today{font-size:8px}.topline #issue-picker{width:116px;min-width:108px;max-width:116px;font-size:8px}}
-.dialog-style-switch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 18px}.dialog-style-switch button{min-height:40px;padding:8px 6px;border:1px solid var(--rule);background:transparent;color:var(--ink);font:600 12px var(--mono);cursor:pointer}.dialog-style-switch button.active{background:var(--ink);border-color:var(--ink);color:var(--sheet)}.dialog-back{margin:0 0 12px;border:0;background:none;color:var(--red);font:600 12px var(--mono);cursor:pointer}.dialog-related{margin:20px 0 12px;padding-top:14px;border-top:1px solid var(--rule)}.dialog-related h3{margin:0 0 10px;font:600 16px var(--serif)}.related-list{display:grid;gap:8px}.related-item{width:100%;padding:11px 12px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);text-align:left;cursor:pointer}.related-item:hover{border-color:var(--red)}.related-source{display:block;margin-bottom:5px;color:var(--red);font:600 10px var(--mono);letter-spacing:.06em;text-transform:uppercase}.related-headline{display:block;margin-bottom:4px;font:600 14px/1.3 var(--serif)}.related-gist{display:block;color:#555147;font:13px/1.45 var(--serif)}@media(max-width:520px){.dialog-style-switch{gap:5px}.dialog-style-switch button{font-size:10px}}</style></head>
+.dialog-style-switch{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 18px}.dialog-style-switch button{min-height:40px;padding:8px 6px;border:1px solid var(--rule);background:transparent;color:var(--ink);font:600 12px var(--mono);cursor:pointer}.dialog-style-switch button.active{background:var(--ink);border-color:var(--ink);color:var(--sheet)}.dialog-back{margin:0 0 12px;border:0;background:none;color:var(--red);font:600 12px var(--mono);cursor:pointer}.dialog-related{margin:20px 0 12px;padding-top:14px;border-top:1px solid var(--rule)}.dialog-related h3{margin:0 0 10px;font:600 16px var(--serif)}.related-list{display:grid;gap:8px}.related-item{width:100%;padding:11px 12px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);text-align:left;cursor:pointer}.related-item:hover{border-color:var(--red)}.related-source{display:block;margin-bottom:5px;color:var(--red);font:600 10px var(--mono);letter-spacing:.06em;text-transform:uppercase}.related-headline{display:block;margin-bottom:4px;font:600 14px/1.3 var(--serif)}.related-gist{display:block;color:#555147;font:13px/1.45 var(--serif)}@media(max-width:520px){.dialog-style-switch{gap:5px}.dialog-style-switch button{font-size:10px}}
+/* Desktop lead story: balanced newspaper feature layout for the first story in a selected section. */
+@media (min-width: 761px) {
+  .lead:has(.story-image) {
+    display: grid;
+    grid-template-columns: minmax(280px, .92fr) minmax(0, 1.08fr);
+    column-gap: clamp(24px, 3vw, 44px);
+    align-items: start;
+  }
+  .lead:has(.story-image) > .label { grid-column: 1 / -1; }
+  .lead:has(.story-image) > .story-image {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    width: 100%;
+    height: 100%;
+    min-height: 330px;
+    max-height: 440px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    margin: 8px 0 0;
+  }
+  .lead:has(.story-image) > h2 {
+    grid-column: 2;
+    grid-row: 2;
+    font-size: clamp(30px, 3vw, 43px);
+    line-height: 1.12;
+    letter-spacing: -.025em;
+    margin: 6px 0 14px;
+  }
+  .lead:has(.story-image) > .dek {
+    grid-column: 2;
+    grid-row: 3;
+    max-width: none;
+    font-size: 17px;
+    line-height: 1.55;
+    text-align: left;
+    hyphens: auto;
+  }
+  .lead:has(.story-image) > .lead-time {
+    grid-column: 2;
+    grid-row: 4;
+    align-self: end;
+  }
+  .lead h2.story-title-button { position: relative; padding-right: .75em; }
+  .lead h2 .rewrite-pending-dot { position: absolute; top: .42em; right: .05em; margin: 0; }
+  .lead:not(:has(.story-image)) { max-width: 980px; }
+}
+.story-title-button:hover { text-decoration: none; }
+
+</style></head>
 <body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><div class="edition-switcher"><span id="today" class="edition-date"></span><select id="issue-picker" class="issue-picker" aria-label="Az aznapi kiadás kiválasztása"><option value="latest">A mai szám</option></select></div></div></header><div class="brand-lockup"><div class="brand-inner"><div class="brand">NANO<span>News</span></div><div class="brand-style-selector" role="group" aria-label="Írás stílusa"><button class="mode" type="button" data-style="original">Eredeti összefoglaló</button><button class="mode" type="button" data-style="tolkien">Tolkien tollából</button><button class="mode" type="button" data-style="reito">Rejtő Jenő stílus</button></div></div></div><nav class="nav topic-nav" aria-label="Rovataim"><details class="topic-accordion" open><summary class="topic-nav-title"><span>Rovataim</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav>
 <main class="page" id="mai"><div class="edition"><h1>A legfrissebb kiadás</h1><span class="date">NAPONTA 06:00 ÉS 17:00 · EUROPE/BUDAPEST</span></div><div class="grid"><section><article class="lead"><div class="label">A szerkesztőség asztaláról</div><h2>Hírek, amiket te választasz.</h2><p class="dek">A NANONews a megadott témák és hírforrások köré rendezi a nap fontos történeteit — röviden, a választott hangon, minden cikk mellett feltüntetve az eredeti forrást.</p></article></section></div>
 <div class="storylist" id="sport"></div><div class="byline edition-updated"></div><section class="archive" id="archivum"><details class="archive-accordion"><summary>Archív lapok</summary><div class="archivegrid" id="archivegrid"></div></details></section><section class="bottom-info" aria-label="Források és kiadásrend"><section class="panel"><h3>Források</h3><p class="smallnote">Telex · HVG · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé! · 444.hu · Portfolio.hu · Origo.hu<br><br>A forrás neve minden hírnél látható.</p></section><section class="panel"><h3>Kiadásrend</h3><p class="smallnote"><span class="status">●</span> 06:00 és 17:00<br>Europe/Budapest idő szerint</p></section></section><dialog class="story-dialog" id="story-dialog" aria-labelledby="dialog-title"><button type="button" class="dialog-close" id="dialog-close">Bezárás ×</button><button type="button" class="dialog-back" id="dialog-back" hidden>Vissza a főhírhez</button><div class="dialog-source" id="dialog-source"></div><h2 id="dialog-title"></h2><div class="dialog-style-switch" role="group" aria-label="A cikk olvasási stílusa"><button type="button" data-dialog-style="original">Eredeti összefoglaló</button><button type="button" data-dialog-style="tolkien">Tolkien tollából</button><button type="button" data-dialog-style="reito">Rejtő Jenő</button></div><img class="dialog-image" id="dialog-image" alt="" hidden><p class="dialog-summary" id="dialog-summary"></p><section class="dialog-related" id="dialog-related"><h3>Összehasonlítás</h3><div class="related-list" id="dialog-related-list"></div></section><p class="dialog-note" id="dialog-note">Rövid NANONews-összefoglaló. A forrás megjelölése tájékoztatásul szolgál.</p><p class="dialog-published" id="dialog-published"></p></dialog><footer class="footer"><span>NANONews · személyes digitális napilap</span><span>Röviden. Forrással. A te témáidról.</span><span class="footer-notice">Tartalmi források AI-összesítője · A teljes, eredeti tartalom a megjelölt forrásoldalon található.</span></footer></main>
