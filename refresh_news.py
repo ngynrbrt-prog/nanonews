@@ -390,7 +390,7 @@ for source,urls in feeds.items():
 
 pending_updated=False
 if api_key and not manual and not collect_new_edition:
-    for pending_story in pending_current[:1]:
+    for pending_story in pending_current[:3]:
         current_variants=pending_story.setdefault("variants",{})
         if pending_story.get("summaryVersion")!=SUMMARY_VERSION:
             article_text,_=fetch_article(pending_story.get("url",""))
@@ -406,7 +406,7 @@ if api_key and not manual and not collect_new_edition:
             except Exception as exc:
                 print(f"Pending v2 summary unavailable {pending_story.get('url')}: {exc}")
             time.sleep(4)
-            break
+            continue
         current_tolkien=current_variants.setdefault("tolkien",{})
         current_reito=current_variants.setdefault("reito",{})
         article_text,_=fetch_article(pending_story.get("url",""))
