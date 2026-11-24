@@ -82,6 +82,26 @@ def match_term(term,hay):
         return bool(re.search(r"(?<![a-z0-9])"+re.escape(term.casefold())+r"(?![a-z0-9])",hay))
     return term.casefold() in hay
 
+
+def football_overrides(title, description, url):
+    arsenal = bool(re.search(r"\barsenal\b", title, re.I) or re.search(
+        r"(?:\bfogadja\s+az arsenal\b|\baz arsenal\s+(?:fogadja|utazik|játszik|lép pályára|mérkőzik))",
+        description, re.I,
+    ))
+    football = bool(re.search(
+        r"labdarúg|labdarugas|foci|futball|szabadrúgás|mérkőzés|bajnoki|gól|arsenal|donnarumma|napoli|manchester",
+        " ".join((title, description, url)), re.I,
+    ))
+    article_text = title + " " + description
+    ranking = urllib.parse.urlsplit(url).path.rstrip("/").endswith("/seruleshullam-az-ellovasoknal-a-como-a-legjobb-tizben-az-ns-bl-erosorrendjeben")
+    return {
+        "arsenal": arsenal or ranking,
+        "bayern": ranking,
+        "como": ranking,
+        "champions-league": "/bajnokok-ligaja/" in url.lower() or (football and bool(re.search(r"\bBL\b", article_text))),
+        "premier": "/premier-league/" in url.lower() or (football and bool(re.search(r"\bPL\b", article_text))),
+    }
+
 def image_for(item,desc):
     for node in item.iter():
         tag=node.tag.lower()
@@ -538,6 +558,9 @@ for record in inbox.values():
     feed_published=record["published"]
     hay=(title+" "+desc+" "+link).casefold()
     cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
+    football_cats=football_overrides(title,desc,link)
+    if "arsenal" in cats and not football_cats["arsenal"]:cats.remove("arsenal")
+    cats.extend(key for key,matched in football_cats.items() if matched and key not in cats)
     if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
     if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
     if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
