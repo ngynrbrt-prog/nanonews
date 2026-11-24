@@ -634,8 +634,22 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/63137ef2-f302-4571-b9a6-029a94c528e2.jpg",
           "contentBasis": "article",
-          "sourceHash": "623c2f629a67595947748017933364c06784ac665b2c5d8c892732bb21c33950",
-          "archiveDate": "2026. 11. 23."
+          "sourceHash": "2472a17eb67d9fe5b9ff11b3f227918972eb10d82c689683ec2001d94a0f7315",
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "Ezen a héten minden nap ülésezik az Országgyűlés, amelynek munkája hétfőn 11 órakor a miniszterelnök napirend előtti felszólalásával veszi kezdetét. A plenáris ülésen több mint negyven törvény- és határozati javaslat szerepel a napirenden, emellett megválasztják a felzárkóztatási források visszaéléseit feltáró vizsgálóbizottság tagjait is. A képviselők másfél órán át interpellálhatnak, majd az azonnali kérdések és válaszok órája következik, valamint tárgyalják a Baka András köztársasági elnök által megfontolásra visszaküldött, közvagyon védelméről szóló törvényt. A Parlament elé kerül továbbá a kisadózó egyéni vállalkozók tételes adójáról (kata) szóló javaslat is, amely szerint 2027-ben a főfoglalkozású kisadózók havi 100 ezer, a nem főfoglalkozásúak pedig havi 50 ezer forint adót fizethetnek."
+            },
+            "tolkien": {
+              "title": "A Hét Napjai, midőn az Ország Zsinata Egybegyűl",
+              "body": "Ím, ezen héten minden nap egybegyűl az Országgyűlés, hogy a közügyekről tanácskozzék, s a munkálatokat hétfőn délelőtt tizenegy órakor a miniszterelnök napirend előtti szólása indítja meg. A méltóságos Ház elé több mint negyven törvény- és határozati javaslat járul, és sor kerül a felzárkóztatási források sérelmeit vizsgáló bizottság tisztviselőinek megválasztására is. A nemes képviselők másfél órán át intézhetnek interpellációkat a kormány tagjaihoz, kitől aztán az azonnali kérdések és válaszok órája következik. Ugyancsak a testület elé terjesztetik a köztársasági elnök által megfontolásra visszaküldött, a közvagyon védelmét szolgáló törvényt, valamint a kisadózók új adózási rendjéről szóló tervezetet is."
+            },
+            "reito": {
+              "title": "Közvetlen járat a Parlamentbe: öt nap tömény törvényhozás",
+              "body": "Ezen a héten aztán nem kell unatkozni a képviselőknek, ugyanis a parlament minden egyes nap ülésezik, a nyitány pedig hétfőn délelőtt 11 órakor a miniszterelnök napirend előtti felszólalásával indul. A menetrendben több mint negyven törvény- és határozati javaslat szerepel, beleértve a felzárkóztatási források ügyeit vizsgáló bizottság megalakítását is, amelynek élére Gyöngyösi Istvánt javasolják. Miután a nép atyjai lehozták a másfél órás interpellációs blokkot meg az azonnali kérdések óráját, kapásból elővehetik az elnök által megfontolásra visszaküldött közvagyonvédelmi törvényt. Ráadásul az új kata-szabályokat is tárgyalják, amelyek értelmében a főfoglalkozású kisadózók 2027-ben akár havi 100 ezer forint adót is fizethetnek majd."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         }
       ]
     },
@@ -788,14 +802,19 @@
           "sourceHash": "bd8570b4e6f3cf2e3d13449cac76b026d1619722103fc1f684e772e94461ee55",
           "variants": {
             "original": {
-              "body": "Az Európai Unió Tanácsa hivatalosan elfogadta az unió 2027-es évre szóló költségvetéséről szóló határozatot. A döntés értelmében a jövő évi büdzsé 199,7 milliárd euró kötelezettségvállalási, valamint 211,5 milliárd euró kifizetési előirányzatot tartalmaz. Ez a pénzügyi terv a jelenleg érvényben lévő, 2021 és 2027 közötti időszakra szóló többéves pénzügyi keret hetedik, egyben utolsó éves költségvetése. A kiadási korlátokon belül ráadásul 710,1 millió euró is rendelkezésre áll, ami biztosítja az unió számára a rugalmas reagálást az előre nem látható igényekre. A folyamat azonban még nem zárult le teljesen, ugyanis a költségvetést az Európai Parlament plenáris ülésének is jóvá kell hagynia."
+              "body": "Az Európai Unió Tanácsa elfogadta az unió 2027-es költségvetését. A dokumentum hivatalos jóváhagyásához azonban még az Európai Parlament plénumának is rá kell bólintania. A döntés értelmében a folyamat a parlamenti szavazással folytatódik a jövőben."
             },
             "tolkien": {
-              "title": "Megszületett az eljövendő esztendő számadása a Nagy Tanács színe előtt",
-              "body": "Az Európai Unió Tanácsa hivatalos határozatban pecsételte meg a birodalom 2027-es esztendejének kincstári terhét és jussát. A megállapított rend 199,7 milliárd eurónyi kötelezettséget és 211,5 milliárd eurónyi kifizetést ró a jövő évre, mely a 2021-től 2027-ig tartó idők keretének utolsó esztendejét jelöli. A birodalom urai ráadásul 710,1 millió aranyat érő eurót tartanak fenn a tartalékokban, hogy a váratlan vészhelyzetekre és megpróbáltatásokra azonnal válaszolhassanak. Ennek a nagyszabású iratnak a pecsétje azonban csak akkor váltja valóra a jövőt, ha azt az Európai Parlament nagygyűlése is egyhangúlag elfogadja."
+              "title": "A Tanács határozata a 2027-es esztendő kincstári rendjéről",
+              "body": "Az Európai Unió Tanácsa meghozta döntését, és elfogadta a birodalom 2027-es esztendejének költségvetését. Ez a hatalmas ívű tervezet azonban még nem bír teljes érvénnyel, míg az Európai Parlament egybegyűlt plénuma is rátűzi pecsétjét. Így a pénzügyek sorsa a tisztelt gyülekezettel folytatott tanácskozás és végső jóváhagyás kezében nyugszik."
+            },
+            "reito": {
+              "title": "A 2027-es büdzsé esete a pecsétekkel",
+              "body": "Az Európai Unió Tanácsa gyorsan lepapírozta az unió 2027-es költségvetését, amivel el is készült a hivatalos tervezet. Ám a pénzszűkös vagy bőséges napok még váratnak magukra, mert a büdzsét az Európai Parlament plénumának is át kell futtatnia a saját rendszerén. Amíg a képviselők nem nyomják rá a rábólintást, a pénzügyi menetrend áll az utolsó akadály előtt."
             }
           },
-          "archiveDate": "2026. 11. 23."
+          "archiveDate": "2026. 11. 23.",
+          "summaryVersion": "short-v2.1-3-4"
         },
         {
           "source": "Telex",
@@ -811,14 +830,19 @@
           "sourceHash": "97c3218bc9b5003b43d1568463c1bb1618232ae8bcf018f366c57ec83da14b16",
           "variants": {
             "original": {
-              "body": "A háború kitörése óta egyetlen magyar miniszterelnök sem látogatott el Ukrajnába vagy Kárpátaljára, ami Magyar Péter hétfői parlamenti felszólalása szerint elfogadhatatlan mulasztás. Magyar a parlamentben említést tett a Munkácsot ért legutóbbi dróntámadásról, valamint az ukrajnai konfliktus lassan öt éve tartó szenvedéseiről, és kijelentette, hogy Oroszország az agresszor, míg Ukrajna az áldozat. Bejelentése szerint hamarosan személyesen viszi el az anyaország támogató üzenetét a kárpátaljai magyaroknak, ugyanis Orbán Viktor utoljára 2015-ben járt a térségben. A készülő vizit pontos időpontját és az ukrán elnökkel való esetleges találkozót azonban még nem részletezte. Ezzel kapcsolatban említésre méltó, hogy Andrij Szibiha ukrán külügyminiszter korábbi bejelentése szerint november végéig tető alá hozzák a legmagasabb szintű találkozót Volodimir Zelenszkijjel. Magyar Péter legutóbb 2024 nyarán, még európai parlamenti képviselőként járt Kárpátalján és Kijevben, amikor adományokat szállítottak egy rakétatalálatot kapott gyerekkórháznak."
+              "body": "Magyar Péter a hétfői parlamenti ülésen jelentette be, hogy hamarosan Kárpátaljára utazik. Korábban ugyanezen az ülésen bűnnek nevezte, hogy Orbán Viktor a háború kitörése óta nem ért rá elmenni Kárpátaljára. A politikus a parlamenti felszólalásában hozta nyilvánosságra a tervezett látogatását. A bejelentés és a bírálat egyaránt a hétfői napon hangzott el a parlamentben."
             },
             "tolkien": {
-              "title": "Krónika a keleti végekről és a mulasztott látogatásokról",
-              "body": "Így esett, hogy a háború sötét esztendei óta egyetlen magyar fővezér sem tette be lábát Kárpátalja földjére, melyet Magyar Péter a magyar Országgyűlés csarnokában bűnnek nevezett. A fegyverek zajától hangos keleti vidéken, hol Munkács városa is drónok tüzes veszedelmét szenvedte el, az anyaország üzenetét hamarosan mégis elviszik a magyarságnak. A krónikák szerint Orbán Viktor rég, még 2015-ben járt utoljára ott, míg Magyar maga már korábban is megfordult a meggyötört földeken adományokat hordozva. A közeljövőben pedig tárgyalások nyomán magával az ukrán nép vezetőjével, Volodimir Zelenszkijjel is találkozhat a magyar politikus e háború sújtotta időkben."
+              "title": "A kárpátaljai utazás krónikája",
+              "body": "Íme, a hétfői országos gyűlés napján jelentőségteljes szózat hangzott el, mikor Magyar Péter bejelenté tette, hogy közeleg az idő, midőn Kárpátaljára veszi útját. E gyűlés keretében éles szavakkal illette Orbán Viktort, mondván, hogy nagy bűn terheli őt, amiért a fegyveres harcok kezdete óta egyetlen alkalommal sem talált utat e tájra. A hivatalos bejelentés és a felelősségre vonás ezen a bizonyos hétfői napon esett meg a törvényhozás csarnokában."
+            },
+            "reito": {
+              "title": "Kárpátaljai exporthír hétfőre időzítve",
+              "body": "Magyar Péter a hétfői parlamenti szeánszon rögvest megosztotta a nagyérdeművel, hogy nem habozik tovább, és hamarosan Kárpátaljára veszi az irányt. Nem mulasztotta el azt sem megjegyezni, hogy mekkora mulasztás történt eddig: szerinte ugyanis bűn, hogy Orbán Viktor a háború kitörése óta egyszer sem szakított időt egy kárpátaljai vizitre. Így hát a parlamenti padsorokból ind estaciónap, miután elhangzott a miniszterelnöknek címezve a súlyos szemrehányás."
             }
           },
-          "archiveDate": "2026. 11. 23."
+          "archiveDate": "2026. 11. 23.",
+          "summaryVersion": "short-v2.1-3-4"
         },
         {
           "source": "HVG",
