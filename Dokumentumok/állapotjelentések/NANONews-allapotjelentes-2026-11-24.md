@@ -38,4 +38,4 @@ A mérési időszak budapesti idő szerint 2026-11-24 17:42:08 és 2026-11-24 21
 
 Az RSS-adatok utolsó elérhető mentése 2026-11-24 20:29:01. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/d4dc5c25c7e0430f4cc753e6503afac1fcaa546c) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/38876146b63277c0e170b7d0fa3cb19d0de3199e)
 
-Mentés indítása budapesti idő szerint 2026-11-24 21:11:13.
+Mentés indítása budapesti idő szerint 2026-11-24 21:44:21.
