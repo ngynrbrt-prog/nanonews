@@ -100,7 +100,7 @@ A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre
 |---|---|
 | RSS-lekérés mind a nyolc forrásból | Óránként, az adott óra első elindult futásában. A kézi futás is ugyanazt az óránkénti korlátot követi |
 | Stílusátiratok előkészítése a következő kiadáshoz | Ötpercenként, egységesen minden forrásnál, ha az éles kiadás minden cikke teljes |
-| Hiányzó változatok pótlása az éles kiadásban | Ötpercenként, futásonként összesen legfeljebb három cikkhez |
+| Hiányzó változatok pótlása az éles kiadásban | Ötpercenként, futásonként összesen legfeljebb tíz cikkhez |
 | Hivatalos lapszám készítése | A reggeli vagy délutáni idősáv első megfelelő futásában |
 
 A rendszer az RSS-lekérés idejét és a begyűjtött cikkeket a `data/rss-pending.json` fájlban tárolja. A GitHub Actions az óra :02 percére ütemezi az első futást. Ha ez késik vagy kimarad, az adott óra első tényleges futása gyűjt. A stílusfeldolgozás a mentett cikkekből dolgozik az RSS-lekérések között is.
@@ -139,7 +139,7 @@ flowchart TD
   hourly -->|Igen| issue
   rss --> issue{"Esedékes hivatalos kiadás?"}
   issue -->|Nem| complete{"Teljes az éles kiadás?"}
-  complete -->|Nem| backfill["Éles stílusok pótlása, legfeljebb három cikk"]
+  complete -->|Nem| backfill["Éles stílusok pótlása, legfeljebb tíz cikk"]
   complete -->|Igen| prepare["A következő szám stílusainak előkészítése"]
   backfill --> saved["Elkészült változatok mentése"]
   prepare --> saved
