@@ -532,11 +532,15 @@ try:
         issue_at=parse_published(previous_edition.get("updatedAt"))
         if issue_at:
             current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
-        for grouped_story in previous_edition.get("stories",[]):
-          for saved_story in all_story_records(grouped_story):
-            if saved_story.get("archiveDate"):continue
-            if needs_style_refresh(saved_story):
-                pending_current.append(saved_story)
+        # One-off editorial handoff for the November 24 issue.
+        if issue_at and issue_at.date().isoformat() == "2026-11-24":
+            print("Skipping style backfill for the November 24 issue to prepare the next edition.")
+        else:
+            for grouped_story in previous_edition.get("stories",[]):
+              for saved_story in all_story_records(grouped_story):
+                if saved_story.get("archiveDate"):continue
+                if needs_style_refresh(saved_story):
+                    pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[]
