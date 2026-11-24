@@ -1,6 +1,6 @@
 import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time, unicodedata
 from urllib.error import HTTPError
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 from html import unescape
@@ -453,6 +453,14 @@ official_slot_available=scheduled_issue_number is not None and now.hour not in t
 if force_issue and not official_slot_available:
     raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
 collect_new_edition=manual or force_issue or official_slot_available
+prepare_portfolio=bool(api_key) and not collect_new_edition and not force_backfill
+if now.hour<6:
+    next_issue=now.replace(hour=6)
+elif now.hour<17:
+    next_issue=now.replace(hour=17)
+else:
+    next_issue=(now+timedelta(days=1)).replace(hour=6)
+vivid_styles=(now if collect_new_edition else next_issue)>=VIVID_STYLE_START
 # Keep items between issue runs, even when a source's RSS list rolls over.
 inbox_path=Path("data/rss-pending.json")
 try:
@@ -484,7 +492,7 @@ for source,urls in feeds.items():
                     continue
                 desc=text(item.find("description"))
                 existing=inbox.get(key)
-                inbox[key]={
+                record={
                     "source":source,
                     "published":published,
                     "observed":existing["observed"] if existing else now.isoformat(),
@@ -493,14 +501,26 @@ for source,urls in feeds.items():
                     "description":desc,
                     "image":image_for(item,desc),
                 }
+                if existing is None or any(existing.get(field)!=value for field,value in record.items()):
+                    inbox[key]=record
         except Exception as exc:
             print(f"Feed error {source} {url}: {exc}")
 
 inbox_path.parent.mkdir(exist_ok=True)
-inbox_path.write_text(json.dumps(list(inbox.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-
-for record in inbox.values() if collect_new_edition else ():
+for record in inbox.values():
     source=record["source"]
+    if not collect_new_edition and (not prepare_portfolio or source!="Portfolio.hu"):
+        continue
+    prepared=record.get("prepared")
+    if prepared and prepared.get("summaryVersion")==SUMMARY_VERSION and record.get("preparedVividStyles")==vivid_styles:
+        if collect_new_edition:
+            article_date=parse_published(prepared["published"])
+            if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
+                stories.append(prepared)
+        continue
+    last_attempt=parse_published(record.get("lastPreparationAttempt"))
+    if not collect_new_edition and last_attempt and now-last_attempt<timedelta(hours=1):
+        continue
     title=record["title"]
     link=record["link"]
     desc=record["description"]
@@ -529,12 +549,21 @@ for record in inbox.values() if collect_new_edition else ():
     if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
         story["variants"]=cached["variants"]
     elif api_key:
+        if not collect_new_edition:
+            record["lastPreparationAttempt"]=now.isoformat()
         try:
-            story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=now>=VIVID_STYLE_START)
+            story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
         finally:
             time.sleep(4)
-    stories.append(story)
+    if collect_new_edition:
+        stories.append(story)
+    elif all(story.get("variants",{}).get(style,{}).get("body") for style in ("original","tolkien","reito")):
+        record["prepared"]=story
+        record["preparedVividStyles"]=vivid_styles
+        print(f"Prepared all three Portfolio variants: {link}")
+
+inbox_path.write_text(json.dumps(list(inbox.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 pending_updated=False
 if api_key and not manual and not collect_new_edition:
