@@ -109,13 +109,13 @@ Az éles kiadás feldolgozása akkor teljes, ha a kiadáshoz tartozó minden cik
 
 ### Napi állapotjelentések
 
-A napi jelentést a GitHub Actions `NANONews status report` munkafolyamata készíti és a GitHub főágára menti. A számítás a névleges budapesti 15:00-s és 21:00-s mérési határt és a Git előzményeit használja. A jelentés a napi Markdown-fájlban olvasható. Kézi futáskor a budapesti mérési határt kell megadni. A jelentés készítéséhez nincs szükség ChatGPT-re vagy Gemini API-kulcsra.
+A napi jelentést a GitHub Actions `NANONews status report` munkafolyamata készíti és a GitHub főágára menti. A számítás a névleges budapesti 05:00-s, 15:00-s és 21:00-s mérési határt és a Git előzményeit használja. A jelentés a napi Markdown-fájlban olvasható. Kézi futáskor a budapesti mérési határt kell megadni. A jelentés készítéséhez nincs szükség ChatGPT-re vagy Gemini API-kulcsra.
 
-Az állapotjelentés minden nap 15:00-kor és 21:00-kor készül, budapesti idő szerint. A mérés a határidő előtt megjelent legfrissebb hivatalos kiadástól az esedékes időpontig tart. Ha a délutáni szám már megjelent, az esti jelentés a következő reggeli szám előkészítését mutatja. A számítás az esedékes időpontig elérhető legutóbbi GitHub-mentésből indul ki. A jelentés feltünteti a mentés idejét és az esetleges adathiányt.
+Az állapotjelentés minden nap 05:00-kor, 15:00-kor és 21:00-kor készül, budapesti idő szerint. A mérés a határidő előtt megjelent legfrissebb hivatalos kiadástól az esedékes időpontig tart. Ha a délutáni szám már megjelent, az esti jelentés a következő reggeli szám előkészítését mutatja. A számítás az esedékes időpontig elérhető legutóbbi GitHub-mentésből indul ki. A jelentés feltünteti a mentés idejét és az esetleges adathiányt.
 
 A táblázat a nyolc forrást külön sorban és összesítve mutatja. A begyűjtött cikkek egyedi RSS-rekordok. A rovatba illő cikkek a kiadás rovat- és időszűrésén átjutó, korábban még nem publikált cikkek. Az Eredeti, Tolkien tollából és Rejtő Jenő oszlopba a következő kiadáshoz használható, mentett kivonatok kerülnek. Az utolsó oszlop a mindhárom stílusban elkészült cikkek arányát mutatja a rovatba illő cikkek között.
 
-A két táblázat azonos napi fájlba kerül a főágon, külön 15:00 és 21:00 fejezettel. A fájl útvonala `Dokumentumok/állapotjelentések/NANONews-allapotjelentes-YYYY-MM-DD.md`. A dátum a fájlnévben és a dokumentum címében is szerepel. A futás az esedékes fejezetet menti, a másik fejezetet megőrzi. A táblázat és a fájl linkje a NANONews chatben is megjelenik.
+A három táblázat azonos napi fájlba kerül a főágon, külön 05:00, 15:00 és 21:00 fejezettel. A fájl útvonala `Dokumentumok/állapotjelentések/NANONews-allapotjelentes-YYYY-MM-DD.md`. A dátum a fájlnévben és a dokumentum címében is szerepel. A futás az esedékes fejezetet menti, a meglévő többi fejezetet megőrzi.
 
 ## 6. Hírek feldolgozásának folyamata
 
