@@ -1,13 +1,13 @@
 # NANONews
 Személyes, magyar nyelvű hírújság. A GitHub Pages szolgálja ki az oldalt, a GitHub Actions gyűjti és archiválja a kiadásokat.
 
-Források: Telex, HVG, Index, Nemzeti Sport és NBAnews.hu. Figyelt témák: Arsenal, Manchester City, Bayern München, Manchester United, Como, Premier League, F1, NBA, belföldi hírek (gazdaság, sport nélkül), belföldi parlament, belföldi tőzsde és külföldi tőzsde.
+Források: Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu és Origo.hu. Figyelt témák: Arsenal, Manchester City, Bayern München, Manchester United, Como, Premier League, F1, NBA, belföldi hírek (gazdaság, sport nélkül), belföldi parlament, belföldi tőzsde és külföldi tőzsde.
 
 A részletes rendszerleírás a Dokumentumok/NANONews-mukodesi-leiras.md fájlban található. Minden további kérés és az ahhoz tartozó módosítás rögzítendő a dokumentum változásnaplójában.
 
 ## Kiadásrend
 
-Az Action naponta 06:00, 14:00 és 20:00 órakor (Europe/Budapest) frissít. Az RSS-híreket, a cikkoldalak nyilvánosan elérhető szövegét és az archív kiadásokat a `data/` könyvtárban tárolja. Paywallt vagy belépést nem kerül meg.
+A hivatalos számok a 06:00–06:59-es és 17:00–17:59-es idősávban készülnek (Europe/Budapest). A GitHub Actions minden futáskor lekéri az RSS-listákat. A Portfolio.hu kivonatai a kiadások közötti futásokban készülnek, a többi forrásé legalább ötóránként. A háttérben mentett változatokat a következő kiadás felhasználja.
 
 ## Stílusváltozatok aktiválása
 
