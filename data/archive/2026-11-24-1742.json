@@ -515,7 +515,7 @@
     {
       "source": "Origo.hu",
       "title": "Itt a vége: két népszerű Kindle támogatását is megszünteti az Amazon",
-      "summary": "Mutatjuk, mi változik, és mi történik a már megvásárolt könyvekkel.",
+      "summary": "Az Amazon 2026 végén lezárja a tizedik generációs Kindle és Kindle Paperwhite garantált biztonsági támogatását. A 2019-es Kindle Kids támogatási időszaka is ekkor jár le. A letöltött könyvek tovább olvashatók, és a Kindle Store hozzáférésének megszüntetését egyelőre nem jelentették be.",
       "url": "https://www.origo.hu/techbazis/2026/11/kindle-szoftveres-tamogatas-vege",
       "published": "Tue, 24 Nov 2026 16:30:00 +0000",
       "categories": [
@@ -525,7 +525,20 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
       "sourceHash": "26c974b9ca475e58081112222ce0b12636c1960440c3e2f9de5f4d51efcc2b39",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az Amazon 2026 végén lezárja a tizedik generációs Kindle és Kindle Paperwhite garantált biztonsági támogatását. A 2019-es Kindle Kids támogatási időszaka is ekkor jár le. A letöltött könyvek tovább olvashatók, és a Kindle Store hozzáférésének megszüntetését egyelőre nem jelentették be."
+        },
+        "tolkien": {
+          "title": "Lejár a Kindle és a Kindle Paperwhite védelmének ideje",
+          "body": "2026 végén lejár a tizedik generációs Kindle és Kindle Paperwhite garantált biztonsági támogatása az Amazonnál. A 2019-es Kindle Kids számára is ekkor ér véget ez az időszak. A készülékeken őrzött könyvek tovább olvashatók, a Kindle Store bezárását pedig ezeken az olvasókon egyelőre nem jelentették be."
+        },
+        "reito": {
+          "title": "A frissítések búcsúznak, a Kindle-könyvek maradnak",
+          "body": "Az Amazon 2026 végén lezárja a tizedik generációs Kindle és Kindle Paperwhite garantált biztonsági támogatását. A 2019-es Kindle Kids is ugyanezzel a határidővel búcsúzik a garantált javításoktól. A letöltött könyvek továbbra is olvashatók, és a Kindle Store hozzáférésének elvételét sem jelentették be."
+        }
+      }
     },
     {
       "source": "Telex",
