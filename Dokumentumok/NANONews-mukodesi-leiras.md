@@ -22,6 +22,8 @@ A szolgáltatók ingyenes keretei és használati korlátai változhatnak. Ha eg
 
 ### Rendszerarchitektúra
 
+A hálózati zónákat, a frontend- és backendkomponenseket, valamint a külső integrációkat a [részletes architektúra-ábra](NANONews-architektura.md) mutatja.
+
 Az adatfeldolgozás ütemezetten vagy kézi indítással történik. A GitHub Actions futtatja a Python-feldolgozót, a Gemini API-kulcsot GitHub Secretből kapja meg, a kimeneti JSON-fájlok pedig a repóba kerülnek. A GitHub Pages ezekből szolgálja ki az oldalt számítógépen és mobilon.
 
 ```mermaid
