@@ -470,6 +470,7 @@ for source,urls in feeds.items():
             if latest_official_at and feed_date and feed_date<=latest_official_at:continue
             hay=(title+" "+desc+" "+link).casefold()
             cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
+            if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
             if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
             if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
                 cats.remove("technology")
@@ -581,7 +582,11 @@ stories.sort(key=lambda s:s["published"],reverse=True)
 stories=group_similar_stories(stories)
 stories=attach_archived_stories(stories,archived_similarity_records.values())
 issue_number=None if manual else scheduled_issue_number
-edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories[:80]}
+edition_stories=[
+    story for index,story in enumerate(stories)
+    if index<80 or any(record.get("source")=="NBAnews.hu" and not record.get("archiveDate") for record in all_story_records(story))
+]
+edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":edition_stories}
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 archive=Path("data/archive");archive.mkdir(exist_ok=True)
