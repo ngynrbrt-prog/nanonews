@@ -107,6 +107,16 @@ A rendszer az RSS-lekérés idejét és a begyűjtött cikkeket a `data/rss-pend
 
 Az éles kiadás feldolgozása akkor teljes, ha a kiadáshoz tartozó minden cikkhez rendelkezésre áll az aktuális verziójú Eredeti, Tolkien és Rejtő változat. Amíg van pótlásra váró cikk, a rendszer az éles kiadást dolgozza fel. A következő szám stílusgenerálása olyan futásban indulhat, amelynek kezdetén az éles kiadás már teljes. Ha közben elérkezik a hivatalos kiadás ideje, a rendszer a meglévő stílusokat és az elérhető kivonatokat használja a közzétételhez. Tesztkiadás esetén a feldolgozás alapja továbbra is a legfrissebb hivatalos kiadás.
 
+### Stílusváltozatok pótlása az éles kiadásban
+
+| A cikk állapota | Gemini-feldolgozás |
+|---|---|
+| Az Eredeti összefoglaló hiányzik vagy a generálási verzió elavult | Egy kérésben elkészül az Eredeti, a Tolkien és a Rejtő változat |
+| Az Eredeti naprakész, a Tolkien és a Rejtő is hiányos | Egy közös kérés pótolja a két stílust. A mentett Eredeti és a már kitöltött stílusmezők megmaradnak |
+| Csak az egyik stílus hiányos | A kérés a hiányos stílusra vonatkozik |
+
+A GitHub Actions ötpercenként ütemezi az ellenőrzést. Egy futás legfeljebb **tíz éles cikk** pótlását kísérli meg. A feldolgozó a pótlási kísérletek után négy másodpercet vár. A következő lapszám háttér-előkészítése akkor indulhat, ha az éles kiadás minden cikkéhez rendelkezésre áll mindhárom aktuális változat.
+
 ### Napi állapotjelentések
 
 A napi jelentést a GitHub Actions `NANONews status report` munkafolyamata készíti és a GitHub főágára menti. A számítás a névleges budapesti 05:00-s, 15:00-s és 21:00-s mérési határt és a Git előzményeit használja. A jelentés a napi Markdown-fájlban olvasható. Kézi futáskor a budapesti mérési határt kell megadni. A jelentés készítéséhez nincs szükség ChatGPT-re vagy Gemini API-kulcsra.
@@ -140,8 +150,10 @@ flowchart TD
   rss --> issue{"Esedékes hivatalos kiadás?"}
   issue -->|Nem| complete{"Teljes az éles kiadás?"}
   complete -->|Nem| backfill["Éles stílusok pótlása, legfeljebb tíz cikk"]
+  backfill -->|Mindkettő hiányos| combined["Közös Tolkien és Rejtő kérés"]
   complete -->|Igen| prepare["A következő szám stílusainak előkészítése"]
-  backfill --> saved["Elkészült változatok mentése"]
+  backfill -->|Egyéb pótlás| saved["Elkészült változatok mentése"]
+  combined --> saved
   prepare --> saved
   saved --> run
   issue -->|Igen| ready{"Teljes az éles kiadás?"}
