@@ -267,6 +267,10 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ## 12. Változásnapló
 
+### 2026-11-24 — Ingatlan rovat
+- Kérés: a délutáni kiadástól legyen külön Ingatlan rovat az ingatlanpiaci híreknek.
+- Módosítva: a frissítő ingatlanpiaci kulcsszavak alapján `property` kategóriát ad az ilyen híreknek; az Ingatlan menüpont csak a kategorizált cikkeket mutatja. A rovat a 2026. november 24-i 17:00-s kiadástól jelenik meg, korábbi lapszámok utólagos átminősítése nélkül.
+
 ### 2026-11-24 — csoportosított hírek lezáró elválasztója
 - Kérés: a hasonló hírek csoportja után legyen egyértelmű záróvonal, hogy a következő önálló cikk ne olvadjon össze vele.
 - Módosítva: a kezdőlapi hasonlóhír-csoportok alján most hangsúlyos, dupla újságvonal zárja le a csoportot, és több tér választja el a következő cikktől.
