@@ -550,7 +550,17 @@
           "summaryVersion": "short-v2.1-3-4",
           "contentBasis": "rss",
           "sourceHash": "bc11d63ff43d0af492279c5644f95949ab111f0f036002cbd227058a4a24aae7",
-          "relatedStories": []
+          "relatedStories": [],
+          "variants": {
+            "tolkien": {
+              "title": "A Hatalmas Piacok Újraéledése és az Nvidia Csodás Szárnyalása",
+              "body": "Íme, az amerikai tőzsde mérhetetlen csarnokai ismét fellélegeztek, és minden érték magasba emelkedett e napon. E messze földön hírhedt változásban az Nvidia nevezetű hatalmasság egészen rendkívüli mértékben növekedett. A krónikák szerint e fordulatot az a vezérigazgató hozta el, akit visszavették, s kinek neve mellett harmincnégy százalékos gyarapodás jele ragyog."
+            },
+            "reito": {
+              "title": "A tőzsdei béke szárnyaló pillanatai",
+              "body": "Az amerikai tőzsde végre fellélegzett, miközben minden mutató szárnyalni kezdett. Különösen az Nvidia produkált egészen extra mértékű kilengést a piacon. A folyamatot mindössze egyetlen kérdés övezte: vajon visszavették-e az örökké kanos vezérigazgatót, ami önmagában plusz 34 százalékot eredményezett?"
+            }
+          }
         },
         {
           "source": "HVG",
@@ -927,8 +937,22 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcb277c3-0637-4376-a1e2-afe4d31f67d2.jpg",
           "contentBasis": "article",
-          "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
-          "archiveDate": "2026. 11. 23."
+          "sourceHash": "dbb1c057aefb2f50d6c8862976d22894714d703dec0f5d27caaaec0781d55a94",
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "Magyar Péter a hétfői Országgyűlési ülésen bejelentette, hogy rövidesen Kárpátaljára utazik, hogy elvigye az anyaország támogató üzenetét, mivel 2015 óta nem járt ott hivatalban lévő magyar miniszterelnök. A parlament a héten több mint negyven törvényjavaslatot és határozati javaslatot tárgyal, amelyek között szerepel a családi pótlék 53 200 forintra emelése, a legalacsonyabb nyugdíj 120 ezer forintra növelése, valamint az egymilliárd forintot meghaladó vagyont terhelő vagyonadó bevezetése is. A viták során a kormánypárti és az ellenzéki képviselők éles vitát folytattak az ukrajnai háborúról, a humanitárius segítségről, valamint a hazai gazdasági és belpolitikai ügyekről. A törvényhozás dönt többek között a 2027-től bevezetésre kerülő vízprémiumról, a katát választó kisadózók adóváltozásairól és a nagyvállalati társasági adóról is."
+            },
+            "tolkien": {
+              "title": "A kárpátaljai utazás krónikája és a törvényhozás napjai",
+              "body": "Így esett, hogy az Országgyűlés hétfői napján, mikor is a miniszterelnök napirend előtt szólott, hírül adatott a hamarosan elkövetkező kárpátaljai utazás, melynek célja az elárvult magyarság köszöntése, utolsóként 2015-ben járván ott hivatalos főember. A méltóságos ház falai között a napokban negyvennél is több törvény sorsáról tanácskoznak, míg a viharos viták során Oroszország agressziója és a megtámadott ukrán nép sorsa is komoly szóval elhangzott. Az ég áldását és a gazdák megsegítését kérve a törvényhozók elé terjesztették a családi pótlék megduplázását, a legkisebb nyugdíjak 120 ezer ezüstre,azaz forintra emelését, valamint az egymilliárdot meghaladó kincsek megadóztatását. Végül a krónika feljegyzi a vizek megtartásának szigorú törvényét és a 2027-es esztendőtől érvényes új gazdasági rendtartásokat is."
+            },
+            "reito": {
+              "title": "Kárpátaljai túra, milliárdos adók és más hétfői apróságok a Házban",
+              "body": "A hétfői parlamenti szeánsz azon nyomban indult, hogy Magyar Péter bejelentette: rövidesen Kárpátaljára látogat, mert 2015 óta valahogy mindenki elfelejtett ott hivatalban lévő miniszterelnökként járni. A Házban persze nemcsak ezért kongatták a vészharangot, hanem vagy negyven törvényjavaslat miatt is, amelyek közül a családi pótlék 53 200 forintra hízása és a minimálnyugdíj 120 ezerre kerekítése még a békésebb falatok közé tartozott. Volt itt szó orosz drónokról, teraszon dohányzó miniszterelnökökről, meg arról, hogy az egymilliárd feletti vagyonokra érdemes lesz 1 és 1,5 százalékos adóval készülni. A végén persze mindenki jól megmondta a magáét a másiknak, míg a képviselők békésen eldöntötték a katás adók, a 2027-es vízprémium és a nagyvállalati adók sorsát is."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         }
       ]
     },
@@ -1113,8 +1137,22 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8d344ff7-b916-40b6-abbe-e7cd2a448abb.jpg",
           "contentBasis": "article",
-          "sourceHash": "c9f59fb11710f664311e0cc1ff3207526d10f70cdda2b5fe2267c08f3a838350",
-          "archiveDate": "2026. 11. 23."
+          "sourceHash": "a38b74f07fda6501a28d992f9a14aed7dc3199a36a4384114d254ccc3feaa91d",
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "Az Országgyűlés művelődési bizottsága a hétfői ülésén hallgatta meg a Független Közmédia Testületbe javasolt jelölteket, a napirenden több mint negyven javaslat szerepelt. A Mi Hazánk harmadik jelöltje, a Kossuth-díjas Dörner György 7 igen, 2 nem szavazattal és 2 tartózkodással megkapta a támogatást, miután korábbi két jelöltjük, Moys Zoltán és Hal Melinda nem kapta meg a szükséges voksokat. A Fidesz jelöltje, Klausmann Viktor szintén támogatást kapott 8 igen szavazattal és 3 tartózkodással. A kereszténydemokraták korábbi jelöltjét kétszer is leszavazta az Országgyűlés tiszás többsége, míg a Magyar Rádió éléről érkező második jelöltet egyhangúlag megszavazták."
+            },
+            "tolkien": {
+              "title": "A Független Közmédia Testületének jelöltjeiről szóló krónika",
+              "body": "Az Országgyűlés művelődési bizottsága e napon negyvennél több indítványt számláló rendjén tanácskozott, hallgatván meg a testületbe hivatott személyeket. A Mi Hazánk harmadik jelöltje, Dörner György színművész és igazgató hét igennel, két nemmel és két tartózkodással elnyerte a bizottság bizonyságát, miután Moys Zoltán és Hal Melinda nem lelték meg a vágyott támogatást. Ugyancsak kegyelmet talált Klausmann Viktor, a Fidesz küldöttje, kire nyolcan bólintottak rá hármas tartózkodás közepette. A kereszténydemokraták korábbi jelöltjét a tiszás többség kétszer is elvetélnie hagyta, míg a Magyar Rádió bástyájáról érkező második jelölt egyhangú akaratra talált."
+            },
+            "reito": {
+              "title": "A bizottsági székekért folyó küzdelem eseményei",
+              "body": "A negyvennél is több javaslatot számláló listával indító művelődési bizottság hétfőn se vesztegette az idejét, és meghallgatta a Független Közmédia Testület várományosait. A Mi Hazánk harmadik nekifutásra, Dörner György révén végre révbe ért 7 igennel, 2 nemmel és 2 tartózkodással, miután Moys Zoltán és Hal Melinda korábban elbukott. A Fidesz színeiben induló Klausmann Viktor sem járt rosszul, hiszen 8 igennel és 3 tartózkodással ő is megkapta a bizottság áldását. Miközben a kereszténydemokraták korábbi emberét a tiszás többség kétszer is lepontozta, a Magyar Rádió felől érkező második jelöltet simán, egyhangúlag megszavazták."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         }
       ]
     },
