@@ -98,13 +98,14 @@ A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre
 
 | Művelet | Ütemezés |
 |---|---|
-| RSS-lekérés mind a nyolc forrásból | Minden futáskor |
-| Portfolio.hu előkészítése | Az első olyan kiadások közötti futásban, amely a rovatba illő cikket eléri. Sikertelen előkészítés után a következő háttérpróba legalább egy óra múlva esedékes |
-| A többi hét forrás előkészítése | Az előző közös kör után legalább öt órával, az első megfelelő háttérfutásban |
-| Hiányzó változatok pótlása a legfrissebb számban | Kiadások közötti futáskor, futásonként legfeljebb három érintett cikknél |
-| Hivatalos lapszám készítése | Az első megfelelő futásban a reggeli vagy délutáni idősávban |
+| RSS-lekérés mind a nyolc forrásból | Óránként, az adott óra első elindult futásában. A kézi futás is ugyanazt az óránkénti korlátot követi |
+| Stílusátiratok előkészítése a következő kiadáshoz | Ötpercenként, egységesen minden forrásnál, ha az éles kiadás minden cikke teljes |
+| Hiányzó változatok pótlása az éles kiadásban | Ötpercenként, futásonként összesen legfeljebb három cikkhez |
+| Hivatalos lapszám készítése | A reggeli vagy délutáni idősáv első megfelelő futásában |
 
-A kiadások között a legfrissebb hivatalos lapszám hiányzó stíluskivonatainak pótlása az első. Amíg bármelyik cikk pótlásra vár, a következő számhoz az RSS-gyűjtés folytatódik. A kivonatok háttérelőkészítése az első olyan esedékes futásban indulhat, amelynek kezdetén már teljes a legfrissebb hivatalos szám. Ha a legutóbbi futás tesztkiadást mentett, a workflow a legfrissebb hivatalos archív kiadást ellenőrzi.
+A rendszer az RSS-lekérés idejét és a begyűjtött cikkeket a `data/rss-pending.json` fájlban tárolja. A GitHub Actions az óra :02 percére ütemezi az első futást. Ha ez késik vagy kimarad, az adott óra első tényleges futása gyűjt. A stílusfeldolgozás a mentett cikkekből dolgozik az RSS-lekérések között is.
+
+Az éles kiadás feldolgozása akkor teljes, ha a kiadáshoz tartozó minden cikkhez rendelkezésre áll az aktuális verziójú Eredeti, Tolkien és Rejtő változat. Amíg van pótlásra váró cikk, a rendszer az éles kiadást dolgozza fel. A következő szám stílusgenerálása olyan futásban indulhat, amelynek kezdetén az éles kiadás már teljes. Ha közben elérkezik a hivatalos kiadás ideje, a rendszer a meglévő stílusokat és az elérhető kivonatokat használja a közzétételhez. Tesztkiadás esetén a feldolgozás alapja továbbra is a legfrissebb hivatalos kiadás.
 
 ### Napi állapotjelentések
 
@@ -119,7 +120,7 @@ A két táblázat azonos napi fájlba kerül a főágon, külön 15:00 és 21:00
 1. A `refresh_news.py` minden futáskor lekéri a Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu és Origo.hu RSS-listáit. A begyűjtött cikkadatokat a `data/rss-pending.json` őrzi a kiadások között. Az RSS-ből időközben kieső cikk megmarad, ha egy korábbi sikeres futás már látta. Egy forrás hibáját a workflow naplózza, és továbblép a következő forrásra.
 2. A gyűjtő kiszűri a már kiadott hivatkozásokat. Az új számba a legutóbbi hivatalos kiadás után, az aktuális futás kezdetéig megjelent és valamelyik rovatba illő hírek kerülhetnek. A besorolás alapja a cím, az RSS-kivonat és a hivatkozás. Az NBAnews.hu automatikusan NBA, a Fűzővel kifelé! automatikusan NFL besorolást is kap.
 3. Előkészítéskor a rendszer lekéri a nyilvánosan elérhető cikkoldalt. A feldolgozás legfeljebb 18 000 karakternyi törzsszöveget vesz alapul, szükség esetén az RSS-kivonatból dolgozik. A Gemini egy kérésben készíti el az Eredeti összefoglalót, a Tolkien tollából és a Rejtő Jenő változatot. A kivonatok célhossza 3–4 mondat, legfeljebb 1400 karakter változatonként.
-4. A három elkészült változatot a gyűjtő a cikk mellett menti. Kiadáskor az aktuális generálási beállításhoz illeszkedő, változatlan cikkhez tárolt csomagot újra felhasználja. A még hiányzó változatokhoz megpróbál összefoglalót készíteni. Ha a szolgáltatás nem érhető el vagy kimerül a kvóta, a felület az elérhető kivonatot mutatja, és jelzi a függőben lévő átfogalmazást.
+4. A három elkészült változatot a gyűjtő a cikk mellett menti. Kiadáskor az aktuális generálási beállításhoz illeszkedő, változatlan cikkhez tárolt csomagot újra felhasználja. A még hiányzó változatokhoz akkor próbál összefoglalót készíteni, ha az előző hivatalos kiadás feldolgozása teljes. Ha a szolgáltatás nem érhető el vagy kimerül a kvóta, a felület az elérhető kivonatot mutatja, és jelzi a függőben lévő átfogalmazást.
 5. A kiadás időrendbe rendezi a híreket, csoportosítja a hasonló témájú cikkeket, és kapcsolódó archív híreket keres. A kiadás darabszámkorlát nélkül menti az összes kiválasztott hírcsoportot. Ha egy hivatalos futás nem talál megfelelő új hírt, a legutóbbi kiadás marad a felületen.
 6. A workflow a megváltozott adatfájlokat a főágra menti. A felület a `data/latest.json` és a kiadások archív adatfájljai alapján jeleníti meg a lapszámokat. A háttérben előkészített cikkek és kivonatok a rendes kiadás részeként jelennek meg a felületen.
 
@@ -129,11 +130,12 @@ A két táblázat azonos napi fájlba kerül a főágon, külön 15:00 és 21:00
 
 ```mermaid
 flowchart TD
-  run["GitHub Actions-futás"] --> rss["RSS-listák lekérése"]
-  rss --> inbox["Új cikkadatok mentése"]
-  inbox --> issue{"Hivatalos kiadás készül?"}
+  run["GitHub Actions-futás"] --> hourly{"Volt RSS-lekérés ebben az órában?"}
+  hourly -->|Nem| rss["RSS-lekérés és cikkadatok mentése"]
+  hourly -->|Igen| issue
+  rss --> issue{"Hivatalos kiadás készül?"}
   issue -->|Igen| select["Rovatba illő friss hírek"]
-  select --> reuse["Mentett változatok átvétele és pótlás"]
+  select --> reuse["Mentett változatok átvétele, pótlás ha az éles szám teljes"]
   reuse --> group["Csoportosítás és közzététel"]
   issue -->|Nem| complete{"Teljes a legfrissebb hivatalos szám?"}
   complete -->|Nem| backfill["Hiányzó kivonatok pótlása"]

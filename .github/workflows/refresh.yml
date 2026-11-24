@@ -13,7 +13,7 @@ on:
           - style-refresh
         default: test
   schedule:
-    # Refresh up to three outdated or incomplete stories from the latest issue every 5 minutes; scheduled editions are created only at 06:00 and 17:00 Budapest time.
+    # Check styles every five minutes. The worker limits RSS collection to once per hour.
     - cron: '2/5 * * * *'
 permissions:
   contents: write

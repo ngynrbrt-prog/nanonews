@@ -442,6 +442,7 @@ try:
             current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
         for grouped_story in previous_edition.get("stories",[]):
           for saved_story in all_story_records(grouped_story):
+            if saved_story.get("archiveDate"):continue
             tolkien=saved_story.get("variants",{}).get("tolkien",{})
             reito=saved_story.get("variants",{}).get("reito",{})
             if (saved_story.get("summaryVersion")!=SUMMARY_VERSION or
@@ -474,12 +475,10 @@ except FileNotFoundError:
 if isinstance(inbox_state,list):
     inbox_state={"articles":inbox_state}
 inbox={story_key(record["link"]):record for record in inbox_state.get("articles",[])}
-last_source_batch=parse_published(inbox_state.get("lastOtherSourcesPreparation"))
-prepare_other_sources=prepare_in_background and (
-    last_source_batch is None or now-last_source_batch>=timedelta(hours=5)
-)
-if prepare_other_sources:
-    inbox_state["lastOtherSourcesPreparation"]=now.isoformat()
+last_rss_collection=parse_published(inbox_state.get("lastRssCollection"))
+# Use UTC hour slots so the repeated local hour at the end of daylight saving time still runs twice.
+rss_hour=now.timestamp()//3600
+collect_rss=last_rss_collection is None or last_rss_collection.timestamp()//3600<rss_hour
 
 for key,record in list(inbox.items()):
     published=parse_published(record["published"])
@@ -487,43 +486,44 @@ for key,record in list(inbox.items()):
     if key in published_before or (latest_official_at and (published or observed)<=latest_official_at):
         del inbox[key]
 
-for source,urls in feeds.items():
-    for url in urls:
-        try:
-            request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
-            with urllib.request.urlopen(request,timeout=20) as response:
-                root=ET.fromstring(response.read())
-            for item in root.findall(".//item"):
-                link=text(item.find("link"))
-                title=text(item.find("title"))
-                if not link or not title:
-                    continue
-                key=story_key(link)
-                published=text(item.find("pubDate"))
-                published_at=parse_published(published)
-                if key in published_before or (latest_official_at and published_at and published_at<=latest_official_at):
-                    continue
-                desc=text(item.find("description"))
-                existing=inbox.get(key)
-                record={
-                    "source":source,
-                    "published":published,
-                    "observed":existing["observed"] if existing else now.isoformat(),
-                    "title":title,
-                    "link":link,
-                    "description":desc,
-                    "image":image_for(item,desc),
-                }
-                if existing is None or any(existing.get(field)!=value for field,value in record.items()):
-                    inbox[key]=record
-        except Exception as exc:
-            print(f"Feed error {source} {url}: {exc}")
+if collect_rss:
+    inbox_state["lastRssCollection"]=now.isoformat()
+    for source,urls in feeds.items():
+        for url in urls:
+            try:
+                request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
+                with urllib.request.urlopen(request,timeout=20) as response:
+                    root=ET.fromstring(response.read())
+                for item in root.findall(".//item"):
+                    link=text(item.find("link"))
+                    title=text(item.find("title"))
+                    if not link or not title:
+                        continue
+                    key=story_key(link)
+                    published=text(item.find("pubDate"))
+                    published_at=parse_published(published)
+                    if key in published_before or (latest_official_at and published_at and published_at<=latest_official_at):
+                        continue
+                    desc=text(item.find("description"))
+                    existing=inbox.get(key)
+                    record={
+                        "source":source,
+                        "published":published,
+                        "observed":existing["observed"] if existing else now.isoformat(),
+                        "title":title,
+                        "link":link,
+                        "description":desc,
+                        "image":image_for(item,desc),
+                    }
+                    if existing is None or any(existing.get(field)!=value for field,value in record.items()):
+                        inbox[key]=record
+            except Exception as exc:
+                print(f"Feed error {source} {url}: {exc}")
 
 inbox_path.parent.mkdir(exist_ok=True)
 for record in inbox.values():
     source=record["source"]
-    prepare_source=prepare_in_background if source=="Portfolio.hu" else prepare_other_sources
-    if not collect_new_edition and not prepare_source:
+    if not collect_new_edition and not prepare_in_background:
         continue
     prepared=record.get("prepared")
     if prepared and prepared.get("summaryVersion")==SUMMARY_VERSION and record.get("preparedVividStyles")==vivid_styles:
@@ -531,9 +531,6 @@ for record in inbox.values():
             article_date=parse_published(prepared["published"])
             if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
                 stories.append(prepared)
-        continue
-    last_attempt=parse_published(record.get("lastPreparationAttempt"))
-    if not collect_new_edition and last_attempt and now-last_attempt<timedelta(hours=1):
         continue
     title=record["title"]
     link=record["link"]
@@ -562,9 +559,7 @@ for record in inbox.values():
     cached=previous.get(link,{})
     if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
         story["variants"]=cached["variants"]
-    elif api_key:
-        if not collect_new_edition:
-            record["lastPreparationAttempt"]=now.isoformat()
+    elif api_key and not pending_current:
         try:
             story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
@@ -581,7 +576,7 @@ inbox_state["articles"]=list(inbox.values())
 inbox_path.write_text(json.dumps(inbox_state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 pending_updated=False
-if api_key and not manual and not collect_new_edition:
+if api_key and (not manual or pending_current):
     for pending_story in pending_current[:3]:
         current_variants=pending_story.setdefault("variants",{})
         if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
