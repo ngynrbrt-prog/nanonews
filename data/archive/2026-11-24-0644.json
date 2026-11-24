@@ -762,7 +762,8 @@
               "body": "Az Európai Unió Tanácsa hivatalos határozatban pecsételte meg a birodalom 2027-es esztendejének kincstári terhét és jussát. A megállapított rend 199,7 milliárd eurónyi kötelezettséget és 211,5 milliárd eurónyi kifizetést ró a jövő évre, mely a 2021-től 2027-ig tartó idők keretének utolsó esztendejét jelöli. A birodalom urai ráadásul 710,1 millió aranyat érő eurót tartanak fenn a tartalékokban, hogy a váratlan vészhelyzetekre és megpróbáltatásokra azonnal válaszolhassanak. Ennek a nagyszabású iratnak a pecsétje azonban csak akkor váltja valóra a jövőt, ha azt az Európai Parlament nagygyűlése is egyhangúlag elfogadja."
             }
           },
-          "archiveDate": "2026. 11. 23."
+          "archiveDate": "2026. 11. 23.",
+          "summaryVersion": "short-v2.1-3-4"
         },
         {
           "source": "Telex",
@@ -785,7 +786,8 @@
               "body": "Így esett, hogy a háború sötét esztendei óta egyetlen magyar fővezér sem tette be lábát Kárpátalja földjére, melyet Magyar Péter a magyar Országgyűlés csarnokában bűnnek nevezett. A fegyverek zajától hangos keleti vidéken, hol Munkács városa is drónok tüzes veszedelmét szenvedte el, az anyaország üzenetét hamarosan mégis elviszik a magyarságnak. A krónikák szerint Orbán Viktor rég, még 2015-ben járt utoljára ott, míg Magyar maga már korábban is megfordult a meggyötört földeken adományokat hordozva. A közeljövőben pedig tárgyalások nyomán magával az ukrán nép vezetőjével, Volodimir Zelenszkijjel is találkozhat a magyar politikus e háború sújtotta időkben."
             }
           },
-          "archiveDate": "2026. 11. 23."
+          "archiveDate": "2026. 11. 23.",
+          "summaryVersion": "short-v2.1-3-4"
         },
         {
           "source": "HVG",
@@ -798,8 +800,22 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcb277c3-0637-4376-a1e2-afe4d31f67d2.jpg",
           "contentBasis": "article",
-          "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
-          "archiveDate": "2026. 11. 23."
+          "sourceHash": "fa75ef60bc26407a9c3e2d2337643025480c731708a328556f8b141c5c867796",
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "Az Országgyűlés hétfőn kezdődő, egész hetes ülésén több mint negyven törvényjavaslat és határozati javaslat szerepel a napirenden, köztük a családi pótlék megemelése 53 200 forintra, a legalacsonyabb nyugdíj 120 ezer forintra növelése, valamint a minimálbér személyi jövedelemadójának 9 százalékra csökkentése. Magyar Péter a parlamentben bejelentette, hogy a közeljövőben Kárpátaljára utazik, hogy elvigye az anyaország támogató üzenetét a kárpátaljai magyaroknak. A viták során szóba került Oroszország ukrajnai agressziója, a humanitárius segélyezés, valamint a vagyonadóról, a milliárdosok adójáról és a köztársasági elnök által visszaküldött törvényekről szóló előterjesztések is. Az Országgyűlés kedden dönt Magyar Péter mentelmi ügyében."
+            },
+            "tolkien": {
+              "title": "A kárpátaljai utazásról és a törvényhozás ítéleteiről",
+              "body": "Így esett, hogy az Országgyűlés tanácskozása ezen a hétfői napon kezdetét vette, s a törvényhozók elé több mint negyven javaslat tornyosult. Magyar Péter a gyűlésen hirdeté, hogy közel ily idők elteltével Kárpátaljára zarándokol, hogy az ott élő magyar népnek az anyaország hűségét és ajándékait elvigye. A főurak és képviselők tanácskozásában előkerültek a háború borzalmai, az agresszorok árnyai, valamint a közös kincstár sorsa és a gazdák védelmének ügyei is. Végül a fenséges gyűlés napirendjére vették a családok segítését, a legkisebb jussok emelését és a vagyonok igazságos mérlegelését, míg a mentelmi ügyben kedden hirdetnek határozatot."
+            },
+            "reito": {
+              "title": "Ahol a milliárdosok adóznak, a nyugdíj minimuma pedig nagyot ugrik",
+              "body": "A parlament hétfőn negyvennél is több javaslattal indította a hetet, miközben Magyar Péter bejelentette, hogy hamarosan személyesen látogat Kárpátaljára. A padsorokban rögtön előkerültek a háborús emlékek, a dróntámadások, a teraszon kigyújtott lámpák és a jól ismert politikai adok-kapok is. A képviselők gyorsan rátértek a pénzügyekre: a családi pótlék 53 200 forintra nő, a minimálbér szja-ja 9 százalékra csökken, a legkisebb nyugdíj pedig eléri a 120 ezer forintot. A nagynevű vagyonosok adóiról, az ukrajnai helyzetről és a vízprémiumról szóló viták után a banda kedden még a mentelmi ügyön is rágódhat egy jót."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         }
       ]
     },

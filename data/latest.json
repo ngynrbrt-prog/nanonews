@@ -268,8 +268,22 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcb277c3-0637-4376-a1e2-afe4d31f67d2.jpg",
           "contentBasis": "article",
-          "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
-          "archiveDate": "2026. 11. 23."
+          "sourceHash": "fa75ef60bc26407a9c3e2d2337643025480c731708a328556f8b141c5c867796",
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "Magyar Péter a parlament hétfői ülésén bejelentette, hogy rövidesen Kárpátaljára utazik, hogy elvigye az anyaország támogató üzenetét. A miniszterelnök hangsúlyozta, hogy Oroszország az agresszor és Ukrajna az áldozat, miközben kritikával illette a Fidesz korábbi politikáját. A héten tartandó parlamenti üléseken többek között a családi pótlék megemeléséről (26 600-ról 53 200 forintra), a legalacsonyabb nyugdíj 120 ezer forintra emeléséről, valamint az egymilliárd forintot meghaladó vagyont terhelő vagyonadóról is döntenek. Emellett szó esett az uniós költségvetési vitákról, a vízprémium bevezetéséről és a keddi mentelmi ügyről is."
+            },
+            "tolkien": {
+              "title": "A Kárpátaljai Utazás és a Törvényhozás Napjai",
+              "body": "Az Országgyűlés kapui megnyittatának a hét első napján, hol a miniszterelnök őnagysága béjelenté, hogy időszerű utat tesz a kárpátaljai végek felé az anyaország üzenetét hordozván. Felemlíteték a régmúlt idők sebeit s a jelenkor viharait, hirdetvén, kiveszhetetlen az ukrán nép igazsága e nehéz esztendőkben. A tisztelt Ház e héten számos törvény sorsa felől határoz: ekként emeltetik a gyermeket nevelők járandósága és a legkisebb jussú vének segedelme is. Így hirdettetnek újak a közterhek és a gazdaság rendje felől, míg a nemzet sorsának intézése közepette a mentelmi ügyek bírái is ítéletre készülnek."
+            },
+            "reito": {
+              "title": "Kárpátaljai turné és aprópénz-forgatás a parlamentben",
+              "body": "Magyar Péter a parlamentben bejelentette, hogy hamarosan Kárpátaljára ugrik, miközben a kormánypártok tüstént nem tapsoltak a nyilvánvaló tényeknek. A Ház a héten nem unatkozik: több mint negyven javaslat mellett felezik vagy duplázzák a tételeket, így a családi pótlék 53 200 forintra hízik, a nyugdíjminimum pedig 120 ezerre ugrik. Nem maradt ki a buliból a milliárdosok friss adója sem, amellyel az egymilliárd feletti vagyont célozzák meg egy kellemes 1-1,5 százalékos kulccsal. Kedden ráadásul a mentelmi ügy is terítékre kerül, hogy a képviselői viták se maradjanak szárazon."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         }
       ]
     },
@@ -567,14 +581,19 @@
           "sourceHash": "97c3218bc9b5003b43d1568463c1bb1618232ae8bcf018f366c57ec83da14b16",
           "variants": {
             "original": {
-              "body": "A háború kitörése óta egyetlen magyar miniszterelnök sem látogatott el Ukrajnába vagy Kárpátaljára, ami Magyar Péter hétfői parlamenti felszólalása szerint elfogadhatatlan mulasztás. Magyar a parlamentben említést tett a Munkácsot ért legutóbbi dróntámadásról, valamint az ukrajnai konfliktus lassan öt éve tartó szenvedéseiről, és kijelentette, hogy Oroszország az agresszor, míg Ukrajna az áldozat. Bejelentése szerint hamarosan személyesen viszi el az anyaország támogató üzenetét a kárpátaljai magyaroknak, ugyanis Orbán Viktor utoljára 2015-ben járt a térségben. A készülő vizit pontos időpontját és az ukrán elnökkel való esetleges találkozót azonban még nem részletezte. Ezzel kapcsolatban említésre méltó, hogy Andrij Szibiha ukrán külügyminiszter korábbi bejelentése szerint november végéig tető alá hozzák a legmagasabb szintű találkozót Volodimir Zelenszkijjel. Magyar Péter legutóbb 2024 nyarán, még európai parlamenti képviselőként járt Kárpátalján és Kijevben, amikor adományokat szállítottak egy rakétatalálatot kapott gyerekkórháznak."
+              "body": "Magyar Péter hétfőn a parlamentben bejelentette, hogy hamarosan személyesen viszi el az anyaország támogató üzenetét a kárpátaljai magyaroknak. Felszólalásában bűnnek nevezte, hogy Orbán Viktor a háború kitörése óta nem ért rá elmenni Kárpátaljára, ahová a kormányfő utoljára 2015-ben látogatott el. Magyar hangsúlyozta, hogy Oroszország az agresszor és Ukrajna az áldozat, valamint együttérzését fejezte ki az elképesztő szenvedéseket átélő kárpátaljaiaknak és az ukrán népnek. Azt még nem részletezte, hogy pontosan mikor utazik Ukrajnába, és találkozik-e Volodimir Zelenszkij elnökkel, de Andrij Szibiha ukrán külügyminiszter korábbi bejelentése szerint a felek még novemberben találkoznak."
             },
             "tolkien": {
-              "title": "Krónika a keleti végekről és a mulasztott látogatásokról",
-              "body": "Így esett, hogy a háború sötét esztendei óta egyetlen magyar fővezér sem tette be lábát Kárpátalja földjére, melyet Magyar Péter a magyar Országgyűlés csarnokában bűnnek nevezett. A fegyverek zajától hangos keleti vidéken, hol Munkács városa is drónok tüzes veszedelmét szenvedte el, az anyaország üzenetét hamarosan mégis elviszik a magyarságnak. A krónikák szerint Orbán Viktor rég, még 2015-ben járt utoljára ott, míg Magyar maga már korábban is megfordult a meggyötört földeken adományokat hordozva. A közeljövőben pedig tárgyalások nyomán magával az ukrán nép vezetőjével, Volodimir Zelenszkijjel is találkozhat a magyar politikus e háború sújtotta időkben."
+              "title": "A kárpátaljai utazás igérete és a parlament falai között elhangzott szavak",
+              "body": "Lám, az Országgyűlés falai között hétfői napon hír adódott arról, hogy az anyaország támogató üzenete hamarosan eljut a kárpátaljai magyarok földjére. A beszélő elméje bűnnek ítélte, hogy miként az idők könyvében írva vagyon, Orbán Viktor miniszterelnök azóta, hogy a fegyverek szava felhangzott, nem látogatott el Kárpátaljára, ahová utolsó útja még 2015 esztendejében vezetett. Szavai szerint Oroszország népe e viadalban az agresszor, míg Ukrajna népe a szenvedő áldozat, ki már közel öt esztendeje viseli a nehéz idők terhét. Az utazás pontos napját még nem fedi fel a hír, ám az ukrán külügyminiszter adatai szerint e hónap végén a legmagasabb szintű találkozás is megköttethet."
+            },
+            "reito": {
+              "title": "Kárpátaljai vizit: mikor a miniszterelnök nem ér rá, de más már pakolja a bőröndöt",
+              "body": "Magyar Péter hétfőn a parlamentben megosztotta a nagyközönséggel, hogy amíg a kormányfő 2015 óta nem látogatott el Kárpátaljára, addig ő maga hamarosan személyesen viszi oda az anyaország támogató üzenetét. A lassan öt éve tartó háború kapcsán hozzátette azt is, hogy meglátása szerint Oroszország az agresszor, Ukrajna pedig az áldozat. Azt ugyan nem részletezte pontosan, hogy mikor indul útnak, és találkozik-e Volodimir Zelenszkij elnökkel, de az ukrán külügyminiszter korábbi ígérete szerint november végére már össze is hozzák a csúcstalálkozót. Hogy Orbán Viktor miért nem ért rá minderre a háború kitörése óta, azt Magyar egyszerűen csak bűnnek minősítette a parlamenti felszólalásában."
             }
           },
-          "archiveDate": "2026. 11. 23."
+          "archiveDate": "2026. 11. 23.",
+          "summaryVersion": "short-v2.1-3-4"
         },
         {
           "source": "HVG",
@@ -587,8 +606,22 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fcb277c3-0637-4376-a1e2-afe4d31f67d2.jpg",
           "contentBasis": "article",
-          "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
-          "archiveDate": "2026. 11. 23."
+          "sourceHash": "fa75ef60bc26407a9c3e2d2337643025480c731708a328556f8b141c5c867796",
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "Az Országgyűlés hétfőn kezdődő, egész hetes ülésén több mint negyven törvényjavaslat és határozati javaslat szerepel a napirenden, köztük a családi pótlék megemelése 53 200 forintra, a legalacsonyabb nyugdíj 120 ezer forintra növelése, valamint a minimálbér személyi jövedelemadójának 9 százalékra csökkentése. Magyar Péter a parlamentben bejelentette, hogy a közeljövőben Kárpátaljára utazik, hogy elvigye az anyaország támogató üzenetét a kárpátaljai magyaroknak. A viták során szóba került Oroszország ukrajnai agressziója, a humanitárius segélyezés, valamint a vagyonadóról, a milliárdosok adójáról és a köztársasági elnök által visszaküldött törvényekről szóló előterjesztések is. Az Országgyűlés kedden dönt Magyar Péter mentelmi ügyében."
+            },
+            "tolkien": {
+              "title": "A kárpátaljai utazásról és a törvényhozás ítéleteiről",
+              "body": "Így esett, hogy az Országgyűlés tanácskozása ezen a hétfői napon kezdetét vette, s a törvényhozók elé több mint negyven javaslat tornyosult. Magyar Péter a gyűlésen hirdeté, hogy közel ily idők elteltével Kárpátaljára zarándokol, hogy az ott élő magyar népnek az anyaország hűségét és ajándékait elvigye. A főurak és képviselők tanácskozásában előkerültek a háború borzalmai, az agresszorok árnyai, valamint a közös kincstár sorsa és a gazdák védelmének ügyei is. Végül a fenséges gyűlés napirendjére vették a családok segítését, a legkisebb jussok emelését és a vagyonok igazságos mérlegelését, míg a mentelmi ügyben kedden hirdetnek határozatot."
+            },
+            "reito": {
+              "title": "Ahol a milliárdosok adóznak, a nyugdíj minimuma pedig nagyot ugrik",
+              "body": "A parlament hétfőn negyvennél is több javaslattal indította a hetet, miközben Magyar Péter bejelentette, hogy hamarosan személyesen látogat Kárpátaljára. A padsorokban rögtön előkerültek a háborús emlékek, a dróntámadások, a teraszon kigyújtott lámpák és a jól ismert politikai adok-kapok is. A képviselők gyorsan rátértek a pénzügyekre: a családi pótlék 53 200 forintra nő, a minimálbér szja-ja 9 százalékra csökken, a legkisebb nyugdíj pedig eléri a 120 ezer forintot. A nagynevű vagyonosok adóiról, az ukrajnai helyzetről és a vízprémiumról szóló viták után a banda kedden még a mentelmi ügyön is rágódhat egy jót."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         },
         {
           "source": "HVG",
