@@ -126,22 +126,28 @@ A két táblázat azonos napi fájlba kerül a főágon, külön 15:00 és 21:00
 
 ### Folyamatábrák
 
-#### Kiadás indítása és hírgyűjtés
+#### RSS-gyűjtés és a kiadások feldolgozási ciklusa
+
+Az óránkénti RSS-gyűjtés akkor is menti az új cikkeket a következő számhoz, amikor az ötpercenkénti feldolgozás még az éles kiadás stílusait pótolja. A következő szám átiratainak generálása az első olyan futásban indulhat, amelynek kezdetén az éles kiadás minden saját cikkéhez elkészült az aktuális Eredeti, Tolkien és Rejtő változat. Közzététel után az új lapszám lesz az éles kiadás, így a következő futás már annak készültségét ellenőrzi.
 
 ```mermaid
 flowchart TD
-  run["GitHub Actions-futás"] --> hourly{"Volt RSS-lekérés ebben az órában?"}
-  hourly -->|Nem| rss["RSS-lekérés és cikkadatok mentése"]
+  run["Ötpercenkénti futás"] --> hourly{"Volt RSS-lekérés ebben az órában?"}
+  hourly -->|Nem| rss["RSS-lekérés és mentés a gyűjtőbe"]
   hourly -->|Igen| issue
-  rss --> issue{"Hivatalos kiadás készül?"}
-  issue -->|Igen| select["Rovatba illő friss hírek"]
-  select --> reuse["Mentett változatok átvétele, pótlás ha az éles szám teljes"]
-  reuse --> group["Csoportosítás és közzététel"]
-  issue -->|Nem| complete{"Teljes a legfrissebb hivatalos szám?"}
-  complete -->|Nem| backfill["Hiányzó kivonatok pótlása"]
-  complete -->|Igen| prepare["Esedékes háttérelőkészítés"]
-  backfill --> save["Elkészült változatok mentése"]
-  prepare --> save
+  rss --> issue{"Esedékes hivatalos kiadás?"}
+  issue -->|Nem| complete{"Teljes az éles kiadás?"}
+  complete -->|Nem| backfill["Éles stílusok pótlása, legfeljebb három cikk"]
+  complete -->|Igen| prepare["A következő szám stílusainak előkészítése"]
+  backfill --> saved["Elkészült változatok mentése"]
+  prepare --> saved
+  saved --> run
+  issue -->|Igen| ready{"Teljes az éles kiadás?"}
+  ready -->|Igen| generate["Mentett átiratok átvétele és hiányzó stílusok készítése"]
+  ready -->|Nem| existing["Mentett átiratok és RSS-kivonatok használata, éles stílusok pótlása"]
+  generate --> publish["Az új lapszám lesz az éles kiadás"]
+  existing --> publish
+  publish --> run
 ```
 
 #### Hasonló hírek, archív összekapcsolással
