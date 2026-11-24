@@ -267,6 +267,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ## 12. Változásnapló
 
+### 2026-11-24 — Külföld rovat helye a menüben
+- Kérés: a további rovatok sorában a Külföld közvetlenül a Belföld után jelenjen meg.
+- Módosítva: a nem sportos rovatok sorrendje Belföld, Külföld, majd Tőzsde, Környezetvédelem, Filmek, Ingatlan és Technológia / Fejlesztések.
+
+
 ### 2026-11-24 — Tenisz és Külföld rovat
 - Kérés: a délutáni kiadástól legyen Tenisz sportrovat és külön Külföld rovat a külföldi gazdasági, illetve politikai hírekhez.
 - Módosítva: a Tenisz kulcsszavai a begyűjtő kategorizálásban és a sportrovátoknál; a Külföld rovat nemzetközi földrajzi jelzésekhez kötött politikai vagy gazdasági tartalmat keres, a magyar belföldi és sporthíreket kizárja.
