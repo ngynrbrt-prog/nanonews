@@ -267,6 +267,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ## 12. Változásnapló
 
+### 2026-11-24 — Tenisz és Külföld rovat
+- Kérés: a délutáni kiadástól legyen Tenisz sportrovat és külön Külföld rovat a külföldi gazdasági, illetve politikai hírekhez.
+- Módosítva: a Tenisz kulcsszavai a begyűjtő kategorizálásban és a sportrovátoknál; a Külföld rovat nemzetközi földrajzi jelzésekhez kötött politikai vagy gazdasági tartalmat keres, a magyar belföldi és sporthíreket kizárja.
+- A két menüpont a 2026. november 24-i 17:00-s kiadástól látható. A régebbi lapszámok nem kapnak utólag új kategóriát.
+
+
 ### 2026-11-24 — Ingatlan rovat
 - Kérés: a délutáni kiadástól legyen külön Ingatlan rovat az ingatlanpiaci híreknek.
 - Módosítva: a frissítő ingatlanpiaci kulcsszavak alapján `property` kategóriát ad az ilyen híreknek; az Ingatlan menüpont csak a kategorizált cikkeket mutatja. A rovat a 2026. november 24-i 17:00-s kiadástól jelenik meg, korábbi lapszámok utólagos átminősítése nélkül.
