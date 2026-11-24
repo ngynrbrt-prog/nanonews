@@ -612,6 +612,19 @@ for record in inbox.values():
         cats.append("technology")
     if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
     if is_foreign_political_economic(hay,cats):cats.append("foreign")
+    context = title + " " + desc
+    foreign_nvidia = re.search(r"nvidi[aá]", title, re.I) and re.search(r"jensen huang|árfolyam|tőzsd|vezérigazgató|vállalat élére", context, re.I)
+    foreign_deal = re.search(r"franciaország|németország|olaszország|spanyolország", title, re.I) and re.search(r"autógyár|felvásárl|üzemet|gyárat|beruház", title, re.I)
+    lake_environment = re.search(r"balaton|velencei-tó|fertő tó|tisza-tó", context, re.I) and re.search(r"vízállás|vízhiány|vízpótlás|vízminőség|vízszennyezés", context, re.I)
+    foreign_nvidia = foreign_nvidia and not re.search(r"bemutat|új (?:chip|processzor|grafikus kártya|technológia)|fejleszt", title, re.I)
+    if foreign_nvidia or foreign_deal:
+        cats = [cat for cat in cats if cat not in {"belfold", "parliament", "foreign"}
+                and not (foreign_nvidia and cat == "technology")]
+        cats.append("foreign")
+        if foreign_deal and re.search(r"magyarországi[^.!?]{0,55}(?:beruház|gyár|üzem|gyártás)|(?:szegedi|debreceni)[^.!?]{0,35}(?:beruház|gyár|üzem)", context, re.I):
+            cats.append("belfold")
+    if lake_environment:
+        cats.extend(cat for cat in ("belfold", "environment") if cat not in cats)
     if not cats:continue
     story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
     article_text,article_published=fetch_article(link)
