@@ -110,6 +110,11 @@ def is_technology_story(title, summary):
         and (
             bool(re.search(r"találmány|feltalál|új eszköz|új készülék|kütyü|kindle|űrmisszió|űrszonda|mesterséges intelligencia|\bai\b|chatgpt|szoftver|robotika|robotot|\bchip|processzor|okostelefon|laptop|kvantum|kutatás|kutatók|kutatási eredmény|vérvizsgálat|felfedez|innováció|prototípus", title, re.I))
             or (bool(re.search(r"megmutatta|bemutat|fejleszt|kipróbál|tesztel|felfedez|kísérlet|tanulmány|mérnök|kutató|úttörő|kimutatt|készítenek|mérőműszer", title, re.I)) and bool(re.search(r"találmány|feltalál|új eszköz|új készülék|kütyü|kindle|űrmisszió|űrszonda|mesterséges intelligencia|\bai\b|chatgpt|szoftver|robotika|robotot|\bchip|processzor|okostelefon|laptop|kvantum|kutatás|kutatók|kutatási eredmény|vérvizsgálat|felfedez|innováció|prototípus", context, re.I)))
+            or (
+                bool(re.search(r"riasztás|leállás|üzemzavar|szoftverhiba", title, re.I))
+                and bool(re.search(r"microsoft 365|outlook|windows|\bteams\b|\bazure\b", context, re.I))
+                and bool(re.search(r"leállás|üzemzavar|elérhetetlenné|szoftverhiba", context, re.I))
+            )
             or ("kimutatt" in title.casefold() and bool(re.search(r"egészség|tanulmány|kutatás", context, re.I)))
         )
     )
