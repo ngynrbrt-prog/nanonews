@@ -236,7 +236,7 @@ Ha a kulcs cserére szorul, új kulcsot kell létrehozni, a GitHub Actions titok
 
 ## 9. Weboldal és archívum
 
-A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek. A „KIADÁS FRISSÍTVE” időbélyeg az összes cikk alatt, az Archív lapok fölött jelenik meg; a kiadási idő a rovat szűrésétől függetlenül látható.
+A főoldal a data/latest.json fájlt tölti be, cache nélküli lekéréssel. A hírek újságszerű hasábokban jelennek meg, a kiválasztott rovat szűri a teljes tartalmat. A rovatok témacsoportokba rendezve jelennek meg: a sportrovatok az első sorban, a többi rovat a következő sorban. Kis képernyőn a csoportokon belüli elemek további sorokba törnek. A „KIADÁS FRISSÍTVE” időbélyeg az összes cikk alatt, az Archív lapok fölött jelenik meg; a kiadási idő a rovat szűrésétől függetlenül látható. A rovat melletti [x] darabszám az adott rovatban ténylegesen megjelenő cikkeket számolja, az azonos kiadáson belüli hasonlóhírcsoportok külön cikkeivel együtt; archív összehasonlító híreket nem számol bele.
 
 Az Írás stílusa választása (nanonews-style) és az Éjszakai mód állapota (nanonews-theme) külön kulcson, a böngésző helyi tárolójában marad meg, nem szerveroldali felhasználói profilban. A fejlécben lévő éjszakai kapcsoló oldalbetöltéskor visszaállítja a mentett állapotot, és újabb kattintásig bekapcsolva marad. Az Archív lapok egy lenyitható, legfrissebbtől legrégebbiig rendezett listában jelennek meg; egy régi szám kiválasztásakor az oldal annak a kiadásnak a JSON-fájlját tölti be. A Források és Kiadásrend tájékoztató blokkok az archív lista után, az oldal alján jelennek meg; mobilnézetben egymás alá törnek.
 
@@ -266,6 +266,12 @@ Módosítás után ellenőrizendő:
 A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal és a workflow állapotának ellenőrzése ettől független működés-ellenőrzés.
 
 ## 12. Változásnapló
+
+### 2026-11-24 — rovatcikkek pontos darabszáma
+- Kérés: a rovatban látható összes cikk darabszáma egyezzen a menüben jelzett számmal.
+- Ok: a korábbi számláló csak a hasonlóhírcsoportok főcikkeit számolta, a csoporton belüli külön cikkeket nem.
+- Módosítva: a rovatjelzés a rovatba tartozó aktuális cikkeket rekurzívan számolja, a csoportba tartozó cikkekkel együtt; archív összehasonlításokat kizárja.
+
 
 ### 2026-11-24 — archív hasonló hírek megjelenítése
 - Kérés: az aktuális lapszám csak az előző hivatalos szám után megjelent cikkeket tartalmazza; a korábbi, hasonló cikk archív összehasonlításként a cikk megnyitásakor jelenjen meg.
