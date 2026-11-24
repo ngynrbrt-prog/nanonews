@@ -322,6 +322,33 @@ def concise_sentences(value,limit=3):
     return value.strip()
 
 
+TOPIC_LABELS = {
+    "arsenal": "Arsenal", "man-city": "Manchester City", "bayern": "Bayern München",
+    "man-united": "Manchester United", "como": "Como", "premier": "Premier League",
+    "champions-league": "Bajnokok ligája", "f1": "F1", "nba": "NBA", "nfl": "NFL",
+    "seahawks": "Seattle Seahawks", "cycling": "Kerékpár", "darts": "Darts",
+    "environment": "Környezetvédelem", "films": "Filmek", "property": "Ingatlan",
+    "technology": "Technológia / Fejlesztések", "tennis": "Tenisz", "parliament": "Belföldi parlament",
+    "belfold": "Belföld", "domestic": "Belföld", "foreign": "Külföld",
+    "hu-market": "Belföldi tőzsde", "world-market": "Külföldi tőzsde", "market": "Tőzsde",
+}
+
+
+def topic_summary_direction(story):
+    labels = list(dict.fromkeys(
+        TOPIC_LABELS[key] for key in (story.get("categories") or ()) if key in TOPIC_LABELS
+    ))
+    if not labels:
+        return ""
+    return (
+        "A cikk kijelölt rovatai: " + ", ".join(labels) + ". "
+        "Minden kért változat összefoglalójába természetesen építsd be azokat a konkrét "
+        "forrástényeket, amelyek megmutatják, hogyan kapcsolódik a cikk az egyes rovatokhoz. "
+        "A rovatnevek felsorolása helyett nevezd meg az érintett szereplőt, eseményt vagy fejlesztést. "
+        "Ha valamelyik kapcsolatra az alapanyag nem ad bizonyítékot, ne találj ki indoklást.\n"
+    )
+
+
 def gemini_rewrites(story,article_text,api_key,vivid_styles=False):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
@@ -329,7 +356,7 @@ def gemini_rewrites(story,article_text,api_key,vivid_styles=False):
     reito_direction=("szabadjára engedett, csattanós kalandregényes hangon: száraz humorral, pimasz fordulatokkal, merész kontrasztokkal, váratlan, de tényekhez kötött szóképekkel és emlékezetes címmel. A humor és a képek legyenek bátrabbak, de ne állítsanak új tényt." if vivid_styles else "markánsan csattanós, száraz humorú, pörgős kalandregényes hangon")
     prompt=f"""Feladat: készíts három magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Mindhárom összefoglaló legyen tartalmas, 3–4 jól olvasható mondatban. Őrizd meg a cikk lényegi részleteit: ki érintett, mi történt, mi lett az eredmény vagy következmény, továbbá a forrásban szereplő fontos számokat, időpontokat és feltételeket. Ne hagyj ki olyan részletet, amely érdemben megváltoztatná a hír jelentését; ne találj ki tényt.
+{topic_summary_direction(story)}Mindhárom összefoglaló legyen tartalmas, 3–4 jól olvasható mondatban. Őrizd meg a cikk lényegi részleteit: ki érintett, mi történt, mi lett az eredmény vagy következmény, továbbá a forrásban szereplő fontos számokat, időpontokat és feltételeket. Ne hagyj ki olyan részletet, amely érdemben megváltoztatná a hír jelentését; ne találj ki tényt.
 Az "original" mezőben írj semleges, pontos, közérthető összefoglalót 3–4 mondatban. Fogalmazd át önállóan, de ne hagyd el a hír lényeges részleteit.
 A "tolkien" mezőhöz alkoss önálló címet és 3–4 mondatos, {tolkien_direction} átfogalmazást. A cím is ezt a hangot tükrözze. A tények és azok viszonyai maradjanak pontosak; ne adj hozzá fantasy-elemet, új tényt, szereplői szándékot vagy nem igazolt következtetést.
 A "reito" mezőhöz alkoss önálló címet és 3–4 mondatos, {reito_direction} átfogalmazást. A humor kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént. Ez a hang legyen könnyed és földközeli, jól elkülönülve a Tolkien-féle emelkedettségtől. Ne idézz vagy másolj konkrét műrészletet, és ne változtass a tényeken.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
@@ -386,7 +413,7 @@ def gemini_tolkien_rewrite(story,article_text,api_key,vivid_styles=False):
     tolkien_direction=("merészen epikus, gazdag képekben és erőteljes ritmusban, ősi krónikák emelkedettségével; használj emlékezetes, költői címet és bátrabb, kevésbé visszafogott szóképeket. A képek és hasonlatok maradjanak egyértelműen költőiek, ne állítsanak új tényt." if vivid_styles else "emelkedett, ünnepélyes, régies krónikás hangú, választékos ritmusú")
     prompt=f"""Feladat: készíts kizárólag Tolkien hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új címet és 3–4 mondatos, {tolkien_direction} átfogalmazást; a ritmus különüljön el az Eredeti és a Rejtő-változattól. A cím is tükrözze ezt a hangot. Őrizd meg a cikk lényegi részleteit és minden ténykapcsolatot.
+{topic_summary_direction(story)}Adj új címet és 3–4 mondatos, {tolkien_direction} átfogalmazást; a ritmus különüljön el az Eredeti és a Rejtő-változattól. A cím is tükrözze ezt a hangot. Őrizd meg a cikk lényegi részleteit és minden ténykapcsolatot.
 Ne készíts Eredeti változatot, és ne adj hozzá fantasy-elemet vagy új tényt.
 A válasz kizárólag JSON legyen:
 {{"tolkien":{{"title":"...","body":"..."}}}}
@@ -428,7 +455,7 @@ def gemini_reito_rewrite(story,article_text,api_key,vivid_styles=False):
     reito_direction=("szabadjára engedett, csattanós kalandregényes hangon: száraz humorral, pimasz fordulatokkal, merész kontrasztokkal, váratlan, de tényekhez kötött szóképekkel és emlékezetes címmel. A humor és a képek legyenek bátrabbak, de ne állítsanak új tényt." if vivid_styles else "csattanós, száraz humorú, pörgős kalandregényes hangon")
     prompt=f"""Feladat: készíts kizárólag Rejtő hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új címet és 3–4 mondatos, {reito_direction} átfogalmazást. Az irónia kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént, és ne következtess a forrásban nem szereplő eredményre. Őrizd meg a cikk lényegi részleteit és tényeit.
+{topic_summary_direction(story)}Adj új címet és 3–4 mondatos, {reito_direction} átfogalmazást. Az irónia kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént, és ne következtess a forrásban nem szereplő eredményre. Őrizd meg a cikk lényegi részleteit és tényeit.
 Ne készíts Eredeti vagy Tolkien-változatot, ne idézz vagy másolj konkrét műrészletet, és ne adj hozzá új tényt.
 A válasz kizárólag JSON legyen:
 {{"reito":{{"title":"...","body":"..."}}}}
