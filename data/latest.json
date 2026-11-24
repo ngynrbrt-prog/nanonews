@@ -16,7 +16,20 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "rss",
       "sourceHash": "a90a07dac38357816b84f21822521ed9ffea88daf77b499423cc0eeff2596c29",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az év egyik legnagyobb drámájában ezermilliárd dollárok forognak kockán a technológiai szektorban. A helyzet súlyosságát jelzi, hogy Jensen Huang visszahelyezéséhez Donald Trump személyes közbelépésére volt szükség. Az amerikai gazdaság növekedését hajtó ágazat törékenységét jól mutatja, hogy a kínai kémkedés és a félrelépések ügye ugyanolyan hangsúlyosan szerepel a vitákban, mint maga a gazdasági tét. Ezen intézkedések ellenére a viharfelhők továbbra sem oszlottak el az érintett terület felett."
+        },
+        "tolkien": {
+          "title": "A milliárdok birodalmának vihara",
+          "body": "Az ezüstös gazdagságú birodalomban ezermilliárd dollárok sorsa lebeg a bizonytalanság viharában, miközben az amerikai növekedés törékeny oszlopai recsegnek-ropognak. Jensen Huang visszaállításához magának a legfőbb vezetőnek, Trumpnak a személyes keze kellett, hogy megállítsa a pusztító árulatot. A kínai kémkedés sötét árnyai és a mélybe rántó félrelépések épp oly hangosan konganak, mint a birodalom gazdasági ereje. Bár a vihar egy pillanatra megtorpant, a fenyegető fellegek továbbra is ott tornyosulnak a törékeny világ felett."
+        },
+        "reito": {
+          "title": "Ahol az ezermilliárdok és a kémek tangót járnak",
+          "body": "Nem mindennapi cirkusz zajlik a gazdaságban, ahol ezermilliárd dollárok repkednek a levegőben, miközben a növekedést hajtó motor úgy remeg, mint a zselé. Jensen Huang visszatéréséhez nem volt elég a jó szó, Trump személyes beavatkozása kellett a gépezet olajozásához. A kínai kémkedés és a különböző félrelépések olyan szorgalommal kerülnek terítékre, mintha csak kötelező házi feladatok lennének. A nagy mentőakció dacára a viharfelhők köszöpenik szépen maradtak, és eszük ágában sincs eloszlani."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -30,7 +43,7 @@
       "image": "https://pcdn.hu/articles/images-xl/m/o/r/morgan-stanley-sp-500-amerikai-reszvenypiac-reszvenypiac-elorejelzes-mesterseges-intelligenc-869922.jpg",
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
-      "sourceHash": "c445b975c10062d2a5d58d239318eaf794c9b6bed327ce1af7ace9d7e3ea7162",
+      "sourceHash": "5e6e2ade864e335f3b67e1674ccd4773e3a9ff9f5ef4a61bc04d05d5c19a46ff",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -170,7 +183,20 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Kedden fontonként 5,4 dollár alá esett a réz határidős jegyzése, miután elfogyott a Jensen Huang vezérigazgató visszatéréséhez köthető hétfői fémpiaci emelkedés lendülete. A Microsoftnál Code Red szintű riasztás lépett életbe egy november 12-13-i, huszonnégy órás globális leállás miatt, amelyet egy júliusi Windows-skálázhatósági hiba okozott. Az OTP bevezette 7 milliárd euró keretösszegű nemzetközi kötvényprogramját a Szingapúri Értéktőzsdére, amelynek korábbi 1 milliárd eurós Tier 2 eleme eddig a legnagyobb közép- és kelet-európai járulékos tőkeinstrumentum. A Hewlett Packard Enterprise lezárt negyedévében az árbevétel éves összevetésben 50 százalékkal 14,5 milliárd dollárra nőtt, a korrigált egy részvényre jutó eredmény pedig 1,43 dollár lett."
+        },
+        "tolkien": {
+          "title": "A réz birodalmának alkonya és a gépezetek árnyéka",
+          "body": "Így esett, hogy a réz határidős ára az öt dollár és negyven centes küszöb alá zuhant, miként a hajnali köd foszlik szét a hirtelen feltámadó szélben. A Microsoft csarnokaiban a legmagasabb rendű, sötét vészjelzés kondult, mikor a huszonnégy órás sötétség megbénította a távoli földrészeket is összefűző kapukat. Középfölde keleti kapuján túl az OTP 7 milliárd eurós ékessége is utat talált a szingapúri piac messzivé nyúló csarnokaiába. Eközben a Hewlett Packard Enterprise birodalma hatalmas kincseket gyűjtött, évi bevétele 14 milliárd és 500 millió dollárra duzzadt, miáltal a tiszta hozam is magasabbra hágott."
+        },
+        "reito": {
+          "title": "Amikor a réz esik, a Microsoft megizzad, a pénz meg utazik",
+          "body": "A réz tonnánkénti vagy fontonkénti öröme gyorsan elszállt, mikor az árfolyam 5,4 dollár alá bukott, mint akinek elvágták a lábát. A Microsoftnál megnyomták a legpirosabb vészgombot a Code Red riasztásra, miután a huszonnégy órás globális leállás alatt a felhasználók csak a kedves üzeneteket bámulhatták. Az OTP sem maradt ki a buliból, és frissiben bevezette a 7 milliárd eurós kötvénycsomagját a Szingapúri Értéktőzsdére, hogy ne ott unatkozzanak a papírok. Végül a Hewlett Packard Enterprise is nagyot ment, mert 50 százalékos ugrással 14,5 milliárd dollárra tornázta fel az éves bevételét."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -184,8 +210,21 @@
       "image": "https://pcdn.hu/articles/images-xl/c/o/d/code-red-kibertamadas-figyelmeztetes-kiberbiztonsag-veszely-hackertamadas-riasztas-veszelyj-872394.jpg",
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
-      "sourceHash": "0510d05ecdf466019e0be83bd11cd2dc3ead8126528750fb87bdf507599dc836",
-      "relatedStories": []
+      "sourceHash": "1f44f840b96efa7a6fb9c75da940bff8b3bc126236cdf24ccea081504905c62a",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Microsoft a legmagasabb szintű belső riasztást (Code Red) rendelte el egy huszonnégy órás, november 12-én és 13-án történt globális leállás után, amely az Egyesült Államoktól Japánig bénította meg kormányzati szervek, légitársaságok, tőzsdék és pénzügyi vállalatok működését. Az üzemzavar – amely nem kibertámadás, hanem egy júliusi Windows-skálázhatósági hiba miatt következett be – elérhetetlenné tette az Exchange Online-t, az Outlookot, a Teamset és a Copilotot, Satya Nadella vezérigazgató pedig nyilvánosan bocsánatot kért. A belső feljegyzések szerint a válságkezelés kaotikus volt, a mérnökök 11 Teams-csatornán több mint 11 ezer üzenetet váltottak, míg a hibás komponens egyetlen nap alatt nagyjából tíz évnyi hibamennyiséget halmozott fel. A cég ötfős fejlesztési területen indított átfogó programot, hogy a jövőben minden globális üzemzavart egy órán belül elháríthassanak, ehhez pedig mesterséges intelligenciát is fognak használni."
+        },
+        "tolkien": {
+          "title": "A Felhők Birodalmának Nagy Törése és a Vörös Kódex Felsejlése",
+          "body": "A digitális birodalom alapkövei megrendültek, mikor egy sötét, novemberi napon a huszonnégy órás globális csend bilincsbe verte a távoli földrészeket, Ausztráliától egészen Japán partjaiig. A hatalmas gépezet belső kamráiban felsejlett a Vörös Kódex, a legmagasabb szintű riasztás, mert a mélyben rejtőző, júliusi seb miatt elnémult az Exchange Online, az Outlook és a Teams szent csarnoka. A káosz tornyában a mérnökök tizenegy különálló ösvényen tizenegyezer üzenet parazsát szórták szét, míg a vezérigazgató lehajtott fővel kért bocsánatot a megtévesztett népektől. Most új törvények születnek a túlterhelés ellen és a sebek gyorsabb gyógyításáért, hogy a jövő viharait egyetlen óra alatt elűzzék a mesterséges látnokok segítségével."
+        },
+        "reito": {
+          "title": "Kódvörös a digitális gályán: tizenegyezer üzenet a semmibe",
+          "body": "A Microsoftnál a legmagasabb szintű riasztást fújták, miután egy huszonnégy órás, novemberi globális fekete leves pont elegendő volt arra, hogy kormányokat, légitársaságokat és tőzsdéket tegyen parkolópályára. Nem holnap érkezett hackerek akciójáról volt szó, hanem egy még július óta csendben lapuló Windows-hibáról, amitől az Exchange Online és a Teams azonnal lehúzta a rolót, Satya Nadella pedig nyilvánosan tördelhette a kezét a bocsánatkérésért. A válságkezelés annyira volt átlátható, mint egy fazék borsófőzelék, hiszen a mérnökök tizenegy Teams-csatornán több mint tizenegyezer üzenetet küldözgettek egymásnak a vaksötétben, miközben egyetlen nap alatt tíz évnyi hibát hoztak össze. A cég most gyorsan összekapja magát, és ötfős fejlesztési frontot nyit, hogy a jövőben legfeljebb egy óra alatt kipofozzák a rendszerüket egy kis mesterséges intelligencia segítségével."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
