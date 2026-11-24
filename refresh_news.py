@@ -453,7 +453,7 @@ official_slot_available=scheduled_issue_number is not None and now.hour not in t
 if force_issue and not official_slot_available:
     raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
 collect_new_edition=manual or force_issue or official_slot_available
-prepare_portfolio=bool(api_key) and not collect_new_edition and not force_backfill
+prepare_in_background=bool(api_key) and not collect_new_edition and not force_backfill
 if now.hour<6:
     next_issue=now.replace(hour=6)
 elif now.hour<17:
@@ -464,9 +464,18 @@ vivid_styles=(now if collect_new_edition else next_issue)>=VIVID_STYLE_START
 # Keep items between issue runs, even when a source's RSS list rolls over.
 inbox_path=Path("data/rss-pending.json")
 try:
-    inbox={story_key(record["link"]):record for record in json.loads(inbox_path.read_text(encoding="utf-8"))}
+    inbox_state=json.loads(inbox_path.read_text(encoding="utf-8"))
 except FileNotFoundError:
-    inbox={}
+    inbox_state={}
+if isinstance(inbox_state,list):
+    inbox_state={"articles":inbox_state}
+inbox={story_key(record["link"]):record for record in inbox_state.get("articles",[])}
+last_source_batch=parse_published(inbox_state.get("lastOtherSourcesPreparation"))
+prepare_other_sources=prepare_in_background and (
+    last_source_batch is None or now-last_source_batch>=timedelta(hours=5)
+)
+if prepare_other_sources:
+    inbox_state["lastOtherSourcesPreparation"]=now.isoformat()
 
 for key,record in list(inbox.items()):
     published=parse_published(record["published"])
@@ -509,7 +518,8 @@ for source,urls in feeds.items():
 inbox_path.parent.mkdir(exist_ok=True)
 for record in inbox.values():
     source=record["source"]
-    if not collect_new_edition and (not prepare_portfolio or source!="Portfolio.hu"):
+    prepare_source=prepare_in_background if source=="Portfolio.hu" else prepare_other_sources
+    if not collect_new_edition and not prepare_source:
         continue
     prepared=record.get("prepared")
     if prepared and prepared.get("summaryVersion")==SUMMARY_VERSION and record.get("preparedVividStyles")==vivid_styles:
@@ -561,9 +571,10 @@ for record in inbox.values():
     elif all(story.get("variants",{}).get(style,{}).get("body") for style in ("original","tolkien","reito")):
         record["prepared"]=story
         record["preparedVividStyles"]=vivid_styles
-        print(f"Prepared all three Portfolio variants: {link}")
+        print(f"Prepared all three variants: {link}")
 
-inbox_path.write_text(json.dumps(list(inbox.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+inbox_state["articles"]=list(inbox.values())
+inbox_path.write_text(json.dumps(inbox_state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 pending_updated=False
 if api_key and not manual and not collect_new_edition:
