@@ -344,12 +344,12 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Tue, 24 Nov 2026 19:21:43 +0000",
+      "published": "Tue, 24 Nov 2026 19:40:01 +0000",
       "observed": "2026-11-24T19:23:57.781949+01:00",
-      "title": "Vezet a Galatasaray, Norvégiában továbbra sincs gól – BL-eredménykövető",
+      "title": "Három perc alatt két gólt szerzett a Leipzig, elsült Gyökeres lába – BL-eredménykövető",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/sallai-nelkul-fogadja-az-el-gyoztest-a-galata-a-sarkkoron-tul-jatszik-a-lask-bl-eredmenykoveto",
-      "description": "A Villa a hatodik, a török bajnok a 18. helyről várja az összecsapást.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/UDzFlaTZJqVkp1J7LxY_oJfR90hZs4dPYMIMyFfnOdA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzRiMzRiYWJlYmE1YzQyYjE4NDdiNmE5MmY4NjA5NzY2.webp"
+      "description": "Vezet a Porto a Feyenoord vendégeként, Vitális pályán a Como ellen az AEK-ban.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/pdYQqf7aNxH1oHzxuP83GAxVDCFdffMyOouNMPdFHOw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2FmOTY3MjZkNzViZjQwY2ZiZTg1ZGYzYzYzOGJmZWRj.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -526,10 +526,10 @@
       "source": "Telex",
       "published": "Tue, 24 Nov 2026 20:13:31 +0100",
       "observed": "2026-11-24T20:28:11.674749+01:00",
-      "title": "Zelenszkij Beregszászon: Szimbolikus, hogy itt tartjuk ezt a találkozót",
+      "title": "Magyar Péter Beregszászon: Magyarországnak kulcsszerepe lesz az ukrán újjáépítésben",
       "link": "https://telex.hu/kulfold/2026/11/24/magyar-peter-volodimir-zelenszkij-magyar-ukran-sajtotajekoztato-beregszasz",
-      "description": "A magyar miniszterelnök és az ukrán elnök keddi találkozójáról egy napja még nem lehetett tudni a pontos időpontot sem. Egy ungvári koszorúzás után Beregszászon tartanak sajtótájékoztatót. Politikai, energetikai és infrastrukturális bejelentések várhatók.",
-      "image": "https://assets.telex.hu/images/20261124/1795547952-temp-7mc64ei8bjc9chjbnaa_cimlap-normal.jpg"
+      "description": "Zelenszkij azt mondta, hogy ha ő lenne a magyar miniszterelnök, meghívná magát Budapestre, Magyar Péter erre meg is hívta az ukrán elnököt. Bejelentették, hogy fejlesztik a Kijev–Budapest-vasútvonalat, a közös határátkelőket és a turizmust, de az ukrán kukoricáról is fognak tárgyalni.",
+      "image": "https://assets.telex.hu/images/20261124/1795549321-temp-5uucon4k8g5o5kigllp_cimlap-normal.jpg"
     },
     {
       "source": "HVG",
@@ -544,7 +544,7 @@
       "source": "HVG",
       "published": "Tue, 24 Nov 2026 19:24:37 Z",
       "observed": "2026-11-24T20:28:11.674749+01:00",
-      "title": "Volodimir Zelenszkij Magyar Péterrel: Sok fontos megállapodást kötöttünk",
+      "title": "Magyar-Zelenszkij sajtótájékoztató: „Végre megállítottuk ezt a teljesen felesleges politikai eszkalációt”",
       "link": "https://hvg.hu/itthon/20261124_zelenszkij-magyar-peter-sajtotatekoztato",
       "description": "Ukrajna készen áll a konstruktív párbeszédre – mondta Zelenszkij. Élőben követjük az ukrán elnök és Magyar Péter közös sajtótájékoztatóját.",
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7eb90893-e170-471c-860d-daf55b0c2909.jpg"
@@ -809,8 +809,170 @@
       "link": "https://www.origo.hu/belpol/2026/11/magyar-peter-hetmilliard-forint-segely-ukrajna",
       "description": "Milliárdos bejelentés Ungváron.",
       "image": "https://cdn.origo.hu/2026/11/TyG6UqMJFatlFqw02HhDltuHL4i6K3Pk8OoZLMmMmvc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9lOTNjMDE2ZmRlNWJhZTBjNjg1YTZhNWZlNWQwZjI1MjQ3MTYzZjdhMzU4NzQzODZjODc2Njc3ODZjMDVmMjQw.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Tue, 24 Nov 2026 20:49:02 +0100",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Benyújtották a rugalmas iskolakezdésről és szabad tankönyvválasztásról szóló javaslatcsomagot",
+      "link": "https://telex.hu/belfold/2026/11/24/egeszsegugy-oktatas-gazdasag-torvenyjavaslatok",
+      "description": "A módosítások az egészségügyet, a kultúrát és a csődeljárásokat is érintik.",
+      "image": "https://assets.telex.hu/images/20261124/1795548195-temp-9de0pp2tsfkv8bcecjn_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 19:58:39 Z",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "PDSZ: A Ruff Bálint vezette Miniszterelnökség döntötte el, kiből lehet tankerületi igazgató",
+      "link": "https://hvg.hu/itthon/20261124_tankeruleti-igazgatok-ruff-balint-lannert-judit-kivalasztas",
+      "description": "Az oktatási minisztérium szerint csupán arról van szó, hogy a tárca egy tagja is részt vett a pályázatok elbírálásában.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b15fd8ed-7a7f-4f88-a718-e67bf5a7f6dc.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 20:15:10 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Videó: Cristiano Ronaldo betalált, már 987 gólnál jár",
+      "link": "https://nemzetisport.hu/minden-mas-foci/2026/11/video-cristiano-ronaldo-betalalt-mar-987-golnal-jar",
+      "description": "A portugál klasszis az Al-Szadd elleni Bajnokok Ligája-mérkőzésen volt eredményes. Joao Félix parádés gólja győzelmet ért.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/jdCcG7MRhLNVWpvEwhPL5Pza38WvpX-M_9PIXwmAGV4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzViNzAzNjY0ZTVkMDRlYzA4NWZkYjQ0ZTQzMzBlYWRh.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 20:05:00 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "PSV-helyzetekkel indult a hollandok BL-mérkőzése a Bernabéuban",
+      "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/bl-alapszakasz-real-madrid-psv-eindhoven",
+      "description": "Sorozatban tizedik tétmeccsét nyerheti meg a madridi gárda, amely 20 hazai BL-mérkőzéséből 17-et megnyert Moruinho vezetésével.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/4UNqiwdsUwj8gX_VZGzucH1DDFimch9-8eSdDRl92Hg/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzk4NDhjMDFhNzY5YjQ5MWNiY2MxMDZhMWRhMzM2Yjlh.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 19:55:52 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Gyökeres varázslatos lövésével vezet máris az Arsenal",
+      "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/bl-alapszakasz-arsenal-borussia-dortmund",
+      "description": "A Premier League és a Bundesliga éllovasa csap össze a rangadón – csúcsfutballt várunk a mérkőzéstől.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/J5lJ-O-45GlUIF9b9ktvo0whFz-NSIGRG4MJi1ZyzA8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I4MDhhZWM4YWFlYzQ2OTI5ZjkxODUzN2Y0NTVlMDZj.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 19:55:05 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Golovinnak minden perc fontos, amit a csapat együtt tölthet",
+      "link": "https://nemzetisport.hu/kezilabda/2026/11/golovinnak-minden-perc-fontos-amit-a-csapat-egyutt-tolthet",
+      "description": "A magyar női kézilabda-válogatott pénteken Ausztriával, vasárnap Szlovákiával mérkőzik meg Tatabányán.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/tzeE_NLAZEwgETk3Ar11Xgv1--vsuEY1TykuGzdRfM0/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VmZGE4YjhmZmE1MzRmNTBiYzljYjBlNjFkZGY3YzUz.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 19:49:57 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Az Aston Villa ellen is folytatta jó sorozatát a Galatasaray a BL-ben",
+      "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/az-aston-villa-ellen-is-folytatta-jo-sorozatat-a-galatasaray-a-bl-ben",
+      "description": "A Bodö/Glimt a ráadás perceiben szerezte meg a győztes gólt a LASK ellen.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/-Vlyk57_XMfGT0H72v7v0nxs8y5lZwRmTyS_0FLoOxA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdkMzYwY2YwOTZiNjRiMGU5YzMwOGZkZThkNDhiOTk3.webp"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 21:13:00 +0100",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Alig tért vissza az Nvidia botrányba keveredett vezére, máris megüzente: nem lesznek nagy változások",
+      "link": "https://www.portfolio.hu/uzlet/20261124/alig-tert-vissza-az-nvidia-botranyba-keveredett-vezere-maris-meguzente-nem-lesznek-nagy-valtozasok-878872",
+      "description": "<p>Jensen Huang, az Nvidia vezérigazgatója a Financial Times értesülése szerint kiállt a vállalat központosított irányítási modellje mellett, és nem tervez átfogó változásokat a cég vezetésében. A keddi összdolgozói értekezleten Huang bocsánatot kért a munkatársaktól, és megígérte, hogy nyitottabb lesz a visszajelzésekre.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/j/e/n/jensen-huang-872414.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 21:11:00 +0100",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Megállapodott Magyar Péter Volodimir Zelenszkijjel: erről tárgyalt a két vezető Kárpátalján",
+      "link": "https://www.portfolio.hu/global/20261124/megallapodott-magyar-peter-volodimir-zelenszkijjel-errol-targyalt-a-ket-vezeto-karpataljan-878868",
+      "description": "<p>Kárpátalján találkozott kedden Volodimir Zelenszkij ukrán elnök és Magyar Péter magyar miniszterelnök. Az ungvári katonai temetőben tartott koszorúzást követően a két vezető Beregszászra érkezett, és a Kossuth Lajos Líceumban egy egymás elleni röplabdameccsen vettek részt. A napot egy nemzetközi sajtótájékoztatóval zárták, amely este 9 óra után ért véget.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/m/a/g/magyar-peter-miniszterelnok-volodimir-zelenszkij-ukran-elnok-872412.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 21:06:00 +0100",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Súlyos kibertámadás érte az amerikai hírszerzést – A CIA rendszerébe is behatoltak a hackerek",
+      "link": "https://www.portfolio.hu/global/20261124/sulyos-kibertamadas-erte-az-amerikai-hirszerzest-a-cia-rendszerebe-is-behatoltak-a-hackerek-878870",
+      "description": "<p>Kibertámadás érte az amerikai Központi Hírszerző Ügynökséget (CIA) és a Nemzeti Hírszerzési Igazgató Hivatalát (ODNI), a The New York Times értesülése szerint illetéktelenek fértek hozzá a szervezetek egyes nem minősített adataihoz. A behatolás egy olyan hálózatot érintett, amelyen a nyílt forrásokból származó hírszerzési információkat elemzik.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2276207218-programozas-informacios-technologia-informatika-hacker-kiberbiztonsag-ad-846782.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 20:45:00 +0100",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Súlyos pénzügyi csapás fenyegeti a szebb napokat is látott országot – Egyre súlyosabb döntések jöhetnek",
+      "link": "https://www.portfolio.hu/global/20261124/sulyos-penzugyi-csapas-fenyegeti-a-szebb-napokat-is-latott-orszagot-egyre-sulyosabb-dontesek-johetnek-878822",
+      "description": "<p>Veszélybe került José Antonio Kast chilei elnök költségvetési szigorításra irányuló terve, mert egyszerre sújtja az államkasszát a réz árának zuhanása, a növekvő üzemanyag-támogatás és a vártnál gyengébb gazdasági teljesítmény. Az ország exportjának felét adó fém ára a szeptemberi csúcshoz képest már több mint húsz százalékot esett, miután a technológiai szektor eladási hulláma megtörte a mesterséges intelligenciához kötődő beruházások által hajtott drágulást. A harmadik negyedévben a vártnál jobban zsugorodott a chilei GDP, a kormány pedig már lemondott arról, hogy 2030-ra megszüntesse a strukturális hiányt. A szűkülő mozgástér miatt a kabinet a magántőke bevonását fontolgatja az állami Codelcóba, amit az ellenzék és a szakszervezetek élesen bírálnak. A romló mutatók a hitelminősítők figyelmét is felkelthetik, bár Chile egyelőre a régió legmegbízhatóbb adósai közé tartozik.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1361468234-banya-fold-ipar-kornyezet-szallitas-teherauto-termeles-termeszet-ut-764593.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 20:42:00 +0100",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Légi katasztrófa az üdülőországban: csak füstölgő roncsok maradtak a katonai helikopterből",
+      "link": "https://www.portfolio.hu/global/20261124/legi-katasztrofa-az-uduloorszagban-csak-fustolgo-roncsok-maradtak-a-katonai-helikopterbol-878866",
+      "description": "<p>Lezuhant egy török katonai helikopter kedden Eskisehir tartományban, a fedélzeten lévő öt ember életét vesztette - közölte a török védelmi minisztérium.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-katonai-helikopter-626467.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:15:00 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Két olyan szigetre bukkantak a tudósok, amelyet korábban még nem taposott emberi láb",
+      "link": "https://www.origo.hu/tudomany/2026/11/szigetre-bukkantak-tudosok-korabban-nem-taposott-ember",
+      "description": "Két eddig még talán nem ismert fajt találtak az atollokon.",
+      "image": "https://cdn.origo.hu/2026/11/5b-YnskeThTBYQ9Hff2H_GVC1EMrZwF5KZNLPSxvAec/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzI3ZjkwZGExYWRmYjRiYTlhN2FhOWZiOWI2ZDE3Mzdj.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:00:00 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "A 80-as évek szívtiprói ismét összeállnak, 35 év után új zenével is jelentkeznek",
+      "link": "https://www.origo.hu/teve/2026/11/bros-80-as-evek-szivtiproi-osszeallnak-uj-zenevel-jelentkeznek",
+      "description": "Az egyik legismertebb popduó új fejezetet nyit.",
+      "image": "https://cdn.origo.hu/2026/11/jctOzFiU7kRe4GwKSmMBZDpAqUaBw71b2DCmA1Rn0AY/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9kYWM3ZDEzZDgxZWE5ZmEzNGM0ZWIwNWVmZDg4NWU4YTI3ODYzYWY2M2Y1ZDg4YmI1YWRlZTVjZGE1Y2JmMzUw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:50:06 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Visszavonták a Szoboszlai gólját megelőző kiállítást, a Manchesteren ez már nem segít",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/lenny-yoro-liverpool-manchester-united",
+      "description": "Váratlan fordulat történt a Liverpool–Manchester United rangadó egyik legvitatottabb jelenete után.",
+      "image": "https://cdn.origo.hu/2026/11/WbywtFYtg4HBnBZfz4eK6wz1BdM4X5w4tYObG54sdrk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9hOGEzYTFkOWEzYTUyZWY5YmIxYWE4MGE5OWIwNDljNmY0MmM1OGEyNzk1MjdlMmU1ZjI0NDQ4ZWY0ZWUwNzE2.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:45:00 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Hírhedt magyar sorozatgyilkosok, akiknek története Ted Bundy-éval vetekedik",
+      "link": "https://www.origo.hu/eletmod/2026/11/magyar-sorozatgyilkosok-ted-bundy",
+      "description": "Te ismered a magyar sorozatgyilkosok történeteit?",
+      "image": "https://cdn.origo.hu/2026/11/aTQwLk1U8YISbnTmJ3IgUwF_9tQcFRf8sZzmzc7HSRU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9jM2QwNGNlYjg0N2YyMWI0NWIyYWIxZDdkNGZiZTk4OGE1NTRmMjIyYjVlMmQ4MTZlZTgwMTY4NGZmNDBjMWUw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:32:00 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Mindössze 33 éves volt, elhunyt a világrekorder sportoló",
+      "link": "https://www.origo.hu/sport/sport-egyeni/2026/11/jeanine-grasmeijer-elhunyt-gyaszhir",
+      "description": "Tragikus hír rázta meg a sportvilágot.",
+      "image": "https://cdn.origo.hu/2026/11/R6SkuPczQsJvGsQxzDT0nJ_YbJXz5AhlJH8U6PBABYw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC8xMTg3ZjFmMzZmMzY3NDNhOTllZGIxNDkyZjQzYTA3ZTg5MDExMTIzZTRjYzg0MmExNjNhZGQwNWMxZTVlODFk.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:31:30 +0000",
+      "observed": "2026-11-24T21:22:15.158335+01:00",
+      "title": "Súlyos baleset történt a 405-ös főúton, három autó ütközött",
+      "link": "https://www.origo.hu/kek-hirek/2026/11/baleset-405-os-fout-nyaregyhaza-ujhartyan",
+      "description": "Nyáregyháza és Újhartyán között csapódtak egymásnak a járművek. Az egyik autóba egy ember beszorult, a mentők is a helyszínre érkeztek.",
+      "image": "https://cdn.origo.hu/2026/11/9NgNEJOCBPqLDdwHUCWcNkDAIxGZH-N4_zUZKlX6dHU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMC9lNDRhNjQxNWZjMmQ3Y2FlNGZjNzE2YzJlNWQ3YTMzNDVkOWFiMjZkNzg0Yzg2ZTMwMDIwODI3MzQ5YzU2NDRj.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-24T20:28:11.674749+01:00"
+  "lastRssCollection": "2026-11-24T21:22:15.158335+01:00"
 }
