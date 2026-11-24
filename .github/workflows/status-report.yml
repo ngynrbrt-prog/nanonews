@@ -1,0 +1,50 @@
+name: NANONews status report
+on:
+  schedule:
+    - cron: '0 13 * * *'
+    - cron: '0 14 * * *'
+    - cron: '0 19 * * *'
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    inputs:
+      cutoff:
+        description: 'Budapesti mérési határ (YYYY-MM-DDTHH:MM)'
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: nanonews-status-report
+  cancel-in-progress: false
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Generate and save report
+        env:
+          REPORT_CUTOFF: ${{ inputs.cutoff }}
+          REPORT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python status_report.py --cutoff "$REPORT_CUTOFF" --schedule "$REPORT_SCHEDULE"
+            git add -- 'Dokumentumok/állapotjelentések/'
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m 'Save NANONews status report'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
