@@ -92,19 +92,24 @@ A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjté
 
 ## 5. Kiadásrend és ütemezés
 
-A .github/workflows/refresh.yml cronbeállítása cél szerint ötpercenként indít ellenőrzést, de hivatalos új kiadást csak Europe/Budapest helyi idő szerint a 06:00-s és 17:00-s idősávban készít. Egyik idősávban is legfeljebb egy hivatalos szám készül; az ismételt futások az adott napi idősávban már nem gyűjtenek új lapot. A többi futás a legfrissebb hivatalos kiadás hiányzó Eredeti-, Tolkien- és Rejtő-változatait próbálja pótolni. A már elkészült változatok kimaradnak. A 2026. november 24-én ellenőrzött GitHub Actions-előzményekben a tényleges futások nem követték az ötperces ütemet: változó, nagyjából órás időközök is előfordultak, ezért az ötperces próbálkozás nem garantálható pusztán a cron beállításából. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
+A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre ütemezi az ellenőrzést. A GitHub Actions tényleges indítása késhet. A workflow egyszerre egy feldolgozást futtat. A hivatalos kiadások a 06:00–06:59-es (/1) és a 17:00–17:59-es (/2) idősávban készülnek, Europe/Budapest szerint. Idősávonként legfeljebb egy hivatalos szám készül. Kézi futás a repó Actions → Refresh NANONews → Run workflow felületén indítható.
 
-A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; háromperces ütemezés nem támogatott. Az időzóna Europe/Budapest. A cron alapértelmezés szerint UTC-t használ; az ötperces periódus az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. Az indítás tervezett időpont, nagy terhelésnél késhet. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
+| Művelet | Ütemezés |
+|---|---|
+| RSS-lekérés mind a nyolc forrásból | Minden futáskor |
+| Portfolio.hu előkészítése | Az első olyan kiadások közötti futásban, amely a rovatba illő cikket eléri. Sikertelen előkészítés után a következő háttérpróba legalább egy óra múlva esedékes |
+| A többi hét forrás előkészítése | Az előző közös kör után legalább öt órával, az első megfelelő háttérfutásban |
+| Hiányzó változatok pótlása a legfrissebb számban | Kiadások közötti futáskor, futásonként legfeljebb három érintett cikknél |
+| Hivatalos lapszám készítése | Az első megfelelő futásban a reggeli vagy délutáni idősávban |
 
 ## 6. Hírek feldolgozásának folyamata
 
-1. A GitHub Actions elindítja a refresh.yml workflow-t, és lekéri a repót.
-2. A refresh_news.py beolvassa a források RSS-feedjeit, kiszűri a korábban kiadott hivatkozásokat, majd a cím és kivonat alapján témákat rendel a hírekhez. A friss cikkeket egymással és az archív hivatalos lapszámok cikkeivel is összeveti.
-3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
-4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
-5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindhárom összefoglaló célhossza 3–4 mondat, legfeljebb 1400 karakter. A prompt külön kéri a cikk lényegi részleteinek, szereplőinek, következményeinek és fontos számainak megtartását. Tolkien hangja emelkedett, ünnepélyes, krónikás; Rejtőé csattanósabb, száraz humorú, földközeli. A tényeket egyik stílus sem változtathatja meg. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. Az ötpereces pótlás csak a legfrissebb hivatalos kiadás hiányzó változatait dolgozza fel, és a régebbi archív lapok szövegét nem írja át. Új kiadás készítésekor a rendszer a hivatalos archív lapok cikkei között is hasonló híreket keres; az archív találatokat a friss cikkhez kapcsolja és a dátummal jelöli. A főoldali csoportokba csak az adott kiadás új cikkei kerülnek, az archív találatok nem jelennek meg úgy, mintha az új számban friss hírként szerepelnének. Az archív találat a kapcsolódó cikkcsoport bármely tagja alatti beágyazott archív kapcsolatokból is összegyűlik, majd a friss cikk megnyitásakor, az Összehasonlítás résznél jelenik meg; a sora feltünteti az archív kiadás dátumát, és onnan a hír a NANONewsen belül megnyitható. Az új kiadás cikkei a legutóbbi hivatalos lapszám dátumánál később megjelent hírekből készülnek; a korábbi cikkek csak archív összehasonlításként kapcsolódhatnak hozzájuk. Új cikk hiányában nem készül új lapszám. Legfeljebb 80 főhír kerül egy kiadásba.
-7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres ötpereces ellenőrzés nem készít commitot.
+1. A `refresh_news.py` minden futáskor lekéri a Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu és Origo.hu RSS-listáit. A begyűjtött cikkadatokat a `data/rss-pending.json` őrzi a kiadások között. Az RSS-ből időközben kieső cikk megmarad, ha egy korábbi sikeres futás már látta. Egy forrás hibáját a workflow naplózza, és továbblép a következő forrásra.
+2. A gyűjtő kiszűri a már kiadott hivatkozásokat. Az új számba a legutóbbi hivatalos kiadás után, az aktuális futás kezdetéig megjelent és valamelyik rovatba illő hírek kerülhetnek. A besorolás alapja a cím, az RSS-kivonat és a hivatkozás. Az NBAnews.hu automatikusan NBA, a Fűzővel kifelé! automatikusan NFL besorolást is kap.
+3. Előkészítéskor a rendszer lekéri a nyilvánosan elérhető cikkoldalt. A feldolgozás legfeljebb 18 000 karakternyi törzsszöveget vesz alapul, szükség esetén az RSS-kivonatból dolgozik. A Gemini egy kérésben készíti el az Eredeti összefoglalót, a Tolkien tollából és a Rejtő Jenő változatot. A kivonatok célhossza 3–4 mondat, legfeljebb 1400 karakter változatonként.
+4. A három elkészült változatot a gyűjtő a cikk mellett menti. Kiadáskor az aktuális generálási beállításhoz illeszkedő, változatlan cikkhez tárolt csomagot újra felhasználja. A még hiányzó változatokhoz megpróbál összefoglalót készíteni. Ha a szolgáltatás nem érhető el vagy kimerül a kvóta, a felület az elérhető kivonatot mutatja, és jelzi a függőben lévő átfogalmazást.
+5. A kiadás időrendbe rendezi a híreket, csoportosítja a hasonló témájú cikkeket, és kapcsolódó archív híreket keres. A kiadás darabszámkorlát nélkül menti az összes kiválasztott hírcsoportot. Ha egy hivatalos futás nem talál megfelelő új hírt, a legutóbbi kiadás marad a felületen.
+6. A workflow a megváltozott adatfájlokat a főágra menti. A felület a `data/latest.json` és a kiadások archív adatfájljai alapján jeleníti meg a lapszámokat. A háttérben előkészített cikkek és kivonatok a rendes kiadás részeként jelennek meg a felületen.
 
 ### Folyamatábrák
 
@@ -112,30 +117,19 @@ A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; há
 
 ```mermaid
 flowchart TD
-  schedule["Ütemezés: 5 percenként"] --> fetch["RSS-feedek lekérése"]
-  manual["Kézi Run workflow indítás"] --> fetch
-  fetch --> feeds["Források egyenkénti feldolgozása"]
-  feeds --> available{"A feed elérhető?"}
-  available -->|Nem| log["Hiba naplózása; további feedek folytatása"]
-  available -->|Igen| dedupe["Hivatkozások és ismétlődések szűrése"]
-  log --> dedupe
-  dedupe --> newer{"Új cikk a legutóbbi hivatalos lap óta?"}
-  newer -->|Nem| pending["A legfrissebb lap hiányzó változatainak ellenőrzése"]
-  pending --> done{"Minden változat elkészült?"}
-  done -->|Nem| unchanged["Kiadás változatlan; következő 5 perces kör újrapróbálja"]
-  done -->|Igen| sync["Aktuális kiadás és annak archív másolata frissül"]
-  newer -->|Igen| topics["Rovatok hozzárendelése a cím és kivonat alapján"]
-  topics --> article["Cikkoldal nyilvános szövegének lekérése"]
-  article --> body{"Elérhető a cikk szövege?"}
-  body -->|Igen| full["Cikk bekezdéseinek feldolgozása, legfeljebb 18 000 karakter"]
-  body -->|Nem| excerpt["RSS-kivonat használata"]
-  full --> prepare["Cikkadat átadása a generálási folyamatnak"]
-  excerpt --> prepare
+  run["GitHub Actions-futás"] --> rss["RSS-listák lekérése"]
+  rss --> inbox["Új cikkadatok mentése"]
+  inbox --> issue{"Hivatalos kiadás készül?"}
+  issue -->|Igen| select["Rovatba illő friss hírek"]
+  select --> reuse["Mentett változatok átvétele és pótlás"]
+  reuse --> group["Csoportosítás és közzététel"]
+  issue -->|Nem| prepare["Esedékes háttér-előkészítés és kivonatpótlás"]
+  prepare --> save["Elkészült változatok mentése"]
 ```
 
-A feedhiba nem állítja le a többi forrás feldolgozását. A program az összes korábban kiadott cikk URL-jét kizárja az új főhírek közül, az archív cikkeket pedig csak hasonlósági összevetésre olvassa be. A régi lapot nem módosítja.
-
 #### Hasonló hírek, archív összekapcsolással
+
+A csoportosítás egy kapcsolódó cikkcsoportba rendezi az azonos eseményről szóló friss híreket, és minden cikk megtartja saját kivonatait és forráslinkjét. A cím és a kivonat szavainak egyezése mellett a Jensen Huanggal kapcsolatos NVIDIA-híreket külön szabály is összeköti. A rovatszámláló az adott rovathoz tartozó egyedi friss cikkeket számolja, a kapcsolódó friss cikkeket is beleértve. Az **Archív lapok** lenyitható listája a hivatalos kiadásokat mutatja időrendben, a tesztlapokat elrejti. A dátum melletti aznapi kiadásválasztó külön felületi elem, ott a rendelkezésre álló tesztkiadások Teszt jelöléssel megjelenhetnek.
 
 Az új hivatalos kiadásba kerülő cikkeket a feldolgozó a 444.hu, a Portfolio.hu, az Origo.hu és a többi forrás friss cikkeivel hasonlósági alapon összeveti. A cím- és kivonatszavak alapján talált, eltérő forrásból származó hírek egy főhírhez kapcsolódnak; az archívum feldolgozása minden korábbi hivatalos lapszám cikkeire kiterjed. Az archív találat sorában a forrás neve mellett az „arch.” és az eredeti kiadás dátuma látszik.
 
@@ -735,3 +729,10 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 
 - Kérés: kép nélküli első cikk vagy üres rovat esetén a kiemelt blokk elválasztó vonala ne legyen rövidebb a többi sávnál.
 - Az index.html-ben a kép nélküli kiemelt cikk konténere most teljes szélességű; csak a címsor kap külön maximális szélességet. Így az alsó újságvonal végigér a rovat szélességén.
+
+### 2026-11-24 — folyamatos RSS-gyűjtés, előkészítés és archív megjelenítés
+
+- A kiadás 80 hírcsoportos korlátja megszűnt. Az NBAnews.hu forrásból érkező friss cikkek NBA besorolást kapnak.
+- A futások az RSS-ből kilépő, már észlelt cikkeket megőrzik a következő kiadásig. Próba során 90 cikk került a kiadásba, köztük 80, amely a feldolgozáskor már eltűnt a feedből.
+- A Portfolio háttér-előkészítése futásonként, a többi forrásé legalább ötóránként esedékes. A teszt igazolta az előkészített Eredeti, Tolkien és Rejtő változatok átvételét.
+- A működési leírás rögzíti az összevonást, az egyedi rovatszámlálást és az archív kapcsolatok megjelenítését. Az Archív lapok listájának tesztlapszűrése az élő oldalon is ellenőrizve.
