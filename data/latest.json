@@ -1449,7 +1449,21 @@
           "image": "https://assets.telex.hu/images/20261123/1795430254-temp-jbiqr719q62ebkpilip_cimlap-normal.jpg",
           "contentBasis": "article",
           "sourceHash": "aa489f970e2f042cc7ccacdd5e87f8edd69ccdea77057e9b37f375b1c983cc63",
-          "archiveDate": "2026. 11. 23."
+          "archiveDate": "2026. 11. 23.",
+          "variants": {
+            "original": {
+              "body": "A magyar Országgyűlésben zajlott viták során Magyar Péter miniszterelnök kijelentette, hogy a Seszták-ügyben megtalált pénz Seszták Miklósé, míg a kormánypárti politikusok és a TV2 híradásai szerint a vagyon Fabó György vállalkozóhoz tartozik. A parlamenti ülésen a képviselők vitáztak egyebek mellett a gyermekvédelem helyzetéről, a vagyonadóról, a külpolitikáról, valamint a vízmegtartási programokról és a Kárpátaljának szánt támogatásokról is. Magyar Péter bejelentette, hogy a vízgazdálkodás támogatását a jövő évi költségvetésben a tizenkétszeresére, 211 milliárd forintra emelik, és hamarosan Kárpátaljára látogat. A hétfői nap folyamán a parlament a felzárkóztatási források visszaéléseit feltáró vizsgálóbizottság tagjait is megválasztja."
+            },
+            "tolkien": {
+              "title": "A nemes és dicső Házban hangzó perpatvarok krónikája a kincsekről és a vizekről",
+              "body": "Midőn a törvényhozás tanácskozásai véget értek, a Nemes Tanács tagjai készülni kezdének a vizsgálóbizottságok megválasztására és a fontos rendeletek megvitatására. Magyar Péter méltóságos úr a gyűlésben fennhangon hirdeté, hogy a Seszták dolgában feltárt mélyen elásott kincs igazából Seszták Miklósé, míg a kormánypárti követek ezt határozottan cáfolva Fabó György nevét emlegeték. A főemberek vitát nyitottak a gyermekek védelméről, az ország vagyonáról, valamint a távoli földek sorsáról és a Kárpátalján élő magyarság segedelméről is. Végezetül a kormányzat ígéretét adá, hogy a fenséges vizek megtartására szánt ezüstpénzeket a jövő esztendőben kétszázegyvenegy milliárdra növelik, és a miniszterelnök maga is útra kel, hogy elvigye üzenetét a határontúli testvéreknek."
+            },
+            "reito": {
+              "title": "Aki az erdőben pénzt ás, az számoljon a számlagyárakkal és a vizeshordókkal is",
+              "body": "A parlamentben éppen nem unatkozott senki, hiszen a hétfői napon vizsgálóbizottsági tagokat választanak, meginterpellálják a kormányt, és még a közvagyon védelméről szóló törvényt is átforgatják. Magyar Péter szerint az elásott milliárdok egyértelműen Seszták Miklóst illetik, mire a fideszesek és a TV2 gyorsan előhúzták Fabó Györgyöt meg a számlagyárakat. Nem maradt el a szokásos adok-kapok sem: szó esett Kárpátaljáról, a gázai civilekről, a rendőrök fizetéséről és arról is, hogy a békét épp ki tapsolja meg hangosabban. A végén kiderült az is, hogy a vízmegtartásra szánt büdzsét 211 milliárdra emelik, mert eső az jött bőven, Magyar Péter pedig ígéretet tett arra, hogy személyesen látogat el Kárpátaljára."
+            }
+          },
+          "summaryVersion": "short-v2.1-3-4"
         }
       ]
     },
@@ -1580,7 +1594,17 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "tolkien": {
+          "title": "A Szózatok Korlátozásának Krónikája és a Tiszvidéki Indítvány",
+          "body": "Így esett vala, hogy Deutsch Tamás úr a hét elején közzétett üzenetében szájzártörvénynek bélyegezte a Tisza Párt által benyújtott indítványt, mely a magyar birodalmi gyűlésben az európai területekről érkezett követek szónoklati jogait szűkítené. E változás nyomán a brüsszeli küldöttek többé nem emelhetnék szavukat az uniós ügyek vitáin, holott e joggal 2004, azaz a szövetségbe való belépés óta éltek, s elsőként Szájer József élt vele az őszi napon. A szónok szerint e törvénytervezet azt követően született, hogy ő maga és Dömötör Csaba nevű társa felszólalt egy közös ügyben, s e cselekedetet ő maga a második lex Deutsch, míg társa érdeméért az első lex Dömötör névvel illette. Az előterjesztők részéről Hantosi István úgy nyilatkozott, hogy a magyar szokás túl kiterjedt a többi birodaloméhoz képest, ám a követek meghívott bölcsként továbbra is jelen lehetnek a gyűléseken, és hajlandók a kérdések megfontolására is."
+        },
+        "reito": {
+          "title": "A szájzárak szonettje, avagy miért nem fér meg két díszes toll a magyar parlament billegő asztalán",
+          "body": "Deutsch Tamás hétfői mozgóképes nyilatkozatában szájzártörvénynek és mindjárt második lex Deutsch-nak keresztelte el a Tisza Párt országgyűlési törvényhez benyújtott módosítóját, amely a 2004-es uniós csatlakozás óta fennálló joggal élve örökre elvenné a magyar EP-képviselők felszólalási lehetőségét a hazai parlament bizottsági és plenáris ülésein. A szigorú históriában, melyet Dömötör Csaba tiszteletére első lex Dömötörnek is neveztek, az első fellépő még Szájer József volt 2004 októberében, míg a mostani korlátozás azután érkezett, hogy Deutsch és Dömötör egy uniós ügyben felszólalt. Hantosi István előterjesztő minderre úgy felelt: a hazai gyakorlat nagyon tág és kiterjesztő, az EP-képviselők pedig meghívott szakértőként ezután is részt vehetnek az üléseken, ráadásul a kormánypárti indoklás szerint az egész manőver csupán a parlamenti munka demokratikusabbá és átláthatóbbá tételét szolgálja."
+        }
+      }
     },
     {
       "source": "Origo.hu",
