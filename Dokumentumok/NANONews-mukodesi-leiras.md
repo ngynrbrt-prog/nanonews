@@ -112,7 +112,7 @@ Az állapotjelentés minden nap 14:00-kor és 21:00-kor készül, budapesti idő
 
 A táblázat a nyolc forrást külön sorban és összesítve mutatja. A begyűjtött cikkek egyedi RSS-rekordok. A rovatba illő cikkek a kiadás rovat- és időszűrésén átjutó, korábban még nem publikált cikkek. Az Eredeti, Tolkien tollából és Rejtő Jenő oszlopba a következő kiadáshoz használható, mentett kivonatok kerülnek. Az utolsó oszlop a mindhárom stílusban elkészült cikkek arányát mutatja a rovatba illő cikkek között.
 
-A két táblázat azonos napi fájlba kerül a főágon, külön 14:00 és 21:00 fejezettel. A fájl útvonala `Dokumentumok/NANONews-allapotjelentes-YYYY-MM-DD.md`. A dátum a fájlnévben és a dokumentum címében is szerepel. A futás az esedékes fejezetet menti, a másik fejezetet megőrzi. A táblázat és a fájl linkje a NANONews chatben is megjelenik.
+A két táblázat azonos napi fájlba kerül a főágon, külön 14:00 és 21:00 fejezettel. A fájl útvonala `Dokumentumok/állapotjelentések/NANONews-allapotjelentes-YYYY-MM-DD.md`. A dátum a fájlnévben és a dokumentum címében is szerepel. A futás az esedékes fejezetet menti, a másik fejezetet megőrzi. A táblázat és a fájl linkje a NANONews chatben is megjelenik.
 
 ## 6. Hírek feldolgozásának folyamata
 
