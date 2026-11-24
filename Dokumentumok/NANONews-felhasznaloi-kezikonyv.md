@@ -21,7 +21,7 @@ A NANONews nyolc hírforrásból válogat a figyelt rovatokhoz. Az oldalon lapsz
 3. Nyisd ki a **Rovataim** menüt, és válassz témát. Az összes hír nézet a teljes kiválasztott lapszámot mutatja.
 4. A rovat mellett szereplő darabszám az adott témához illő cikkeket számolja, a hírcsoportok kapcsolódó friss cikkeit is beleértve. Egy több témához illő cikk több rovatban is megjelenhet.
 
-A hivatalos reggeli és délutáni lapszám a **06:00–06:59** és **17:00–17:59** közötti idősávban készül, budapesti idő szerint. A cikk mellett a forráscikk megjelenési ideje látható, ha rendelkezésre áll. A lapszám frissítési ideje külön szerepel az oldalon.
+A hivatalos reggeli és délutáni lapszám a **05:00–05:59** és **16:00–16:59** közötti idősávban készül, budapesti idő szerint. A cikk mellett a forráscikk megjelenési ideje látható, ha rendelkezésre áll. A lapszám frissítési ideje külön szerepel az oldalon.
 
 ## 3. Cikk megnyitása és kapcsolódó hírek
 

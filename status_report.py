@@ -87,7 +87,7 @@ def report(cutoff):
     live_rules = snapshot_rules(head)
     next_issue = min(
         datetime.combine(cutoff.date() + timedelta(days=day), time(hour), TZ)
-        for day in (0, 1) for hour in (6, 17)
+        for day in (0, 1) for hour in live_rules.get("ISSUE_HOURS", (6, 17))
         if datetime.combine(cutoff.date() + timedelta(days=day), time(hour), TZ) > cutoff
     )
     vivid = next_issue >= rules["VIVID_STYLE_START"]

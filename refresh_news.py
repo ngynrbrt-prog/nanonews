@@ -8,6 +8,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 TZ=ZoneInfo("Europe/Budapest")
+ISSUE_HOURS={5:1,16:2}
 SUMMARY_VERSION="short-v2.1-3-4"
 VIVID_STYLE_START=datetime(2026,11,24,17,0,tzinfo=TZ)
 now=datetime.now(TZ)
@@ -250,6 +251,7 @@ latest_official_at=None
 latest_official_path=None
 today_issue_count=0
 today_issued_hours=set()
+today_issued_numbers=set()
 counted_editions=set()
 issue_files=list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]
 for file in issue_files:
@@ -266,6 +268,7 @@ for file in issue_files:
             today_issue_count+=1
             counted_editions.add(issue_id)
             today_issued_hours.add(issue_at.hour)
+            today_issued_numbers.add(edition_data.get("issueNumber"))
         edition_stories=edition_data.get("stories",[])
         published_before.update(story_key(record.get("url","")) for story in edition_stories for record in all_story_records(story) if record.get("url"))
         if file.parent.name=="archive" and issue_at:
@@ -537,18 +540,17 @@ try:
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[]
-scheduled_issue_number={6:1,17:2}.get(now.hour)
-official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours and not force_backfill
+scheduled_issue_number=ISSUE_HOURS.get(now.hour)
+official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours and scheduled_issue_number not in today_issued_numbers and not force_backfill
 if force_issue and not official_slot_available:
-    raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
+    raise SystemExit("Manual official issue can only be generated in an unused 05:00 or 16:00 Budapest slot.")
 collect_new_edition=manual or force_issue or official_slot_available
 prepare_in_background=bool(api_key) and not collect_new_edition and not force_backfill and not pending_current
-if now.hour<6:
-    next_issue=now.replace(hour=6)
-elif now.hour<17:
-    next_issue=now.replace(hour=17)
-else:
-    next_issue=(now+timedelta(days=1)).replace(hour=6)
+next_issue = min(
+    slot for day in (now, now + timedelta(days=1))
+    for hour in ISSUE_HOURS
+    if (slot := day.replace(hour=hour, minute=0, second=0, microsecond=0)) > now
+)
 vivid_styles=(now if collect_new_edition else next_issue)>=VIVID_STYLE_START
 # Keep items between issue runs, even when a source's RSS list rolls over.
 inbox_path=Path("data/rss-pending.json")
