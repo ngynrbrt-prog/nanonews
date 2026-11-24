@@ -191,10 +191,10 @@ def main():
         if nominal > utc_now:
             nominal -= timedelta(days=1)
         cutoff = nominal.astimezone(TZ)
-        if cutoff.hour not in (5, 15, 21):
+        if cutoff.hour not in (3, 15, 21):
             return
-    if cutoff.hour not in (5, 15, 21) or cutoff.minute or cutoff.second or cutoff > datetime.now(TZ):
-        parser.error("A mérési határ múltbeli vagy aktuális 05:00, 15:00 vagy 21:00 legyen.")
+    if cutoff.hour not in (3, 5, 15, 21) or cutoff.minute or cutoff.second or cutoff > datetime.now(TZ):
+        parser.error("A mérési határ múltbeli vagy aktuális 03:00, 05:00 (korábbi reggeli mérés), 15:00 vagy 21:00 legyen.")
     save(args.output_dir, cutoff, report(cutoff))
 
 
