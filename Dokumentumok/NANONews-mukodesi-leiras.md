@@ -103,7 +103,7 @@ A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; há
 3. A program megpróbálja lekérni a cikkoldal nyilvánosan elérhető törzsszövegét. A feldolgozó a cikk bekezdéseit keresi, és legfeljebb 18 000 karaktert használ fel. Ha a cikk nem érhető el vagy nincs elegendő nyilvános szöveg, az RSS-kivonat lesz az alapanyag.
 4. A forrás tartalmának lenyomata alapján ellenőrzi, hogy az adott változat már elkészült-e. Változatlan cikkek meglévő Tolkien-változatát újra felhasználja, hogy ne kérjen feleslegesen új generálást.
 5. Ha van használható Gemini-kulcs, a program egy kérésben rövid, semleges Eredeti összefoglalót, valamint Tolkien-hangú címet és rövid összefoglalót kér. Mindhárom összefoglaló célhossza 3–4 mondat, legfeljebb 1400 karakter. A prompt külön kéri a cikk lényegi részleteinek, szereplőinek, következményeinek és fontos számainak megtartását. Tolkien hangja emelkedett, ünnepélyes, krónikás; Rejtőé csattanósabb, száraz humorú, földközeli. A tényeket egyik stílus sem változtathatja meg. A prompt előírja a tények megtartását, az új tények és fantasy-elemek tiltását, valamint a JSON-választ.
-6. Az ötpereces pótlás csak a legfrissebb hivatalos kiadás hiányzó változatait dolgozza fel, és a régebbi archív lapok szövegét nem írja át. Új kiadás készítésekor a rendszer a hivatalos archív lapok cikkei között is hasonló híreket keres; az archív találatokat a friss cikkhez kapcsolja és a dátummal jelöli. A főoldali csoportokba csak az adott kiadás új cikkei kerülnek, az archív találatok nem jelennek meg úgy, mintha az új számban friss hírként szerepelnének. Az archív találat kizárólag a friss cikk megnyitásakor, az Összehasonlítás résznél jelenik meg; a sora feltünteti az archív kiadás dátumát, és onnan a hír a NANONewsen belül megnyitható. Az új kiadás cikkei a legutóbbi hivatalos lapszám dátumánál később megjelent hírekből készülnek; a korábbi cikkek csak archív összehasonlításként kapcsolódhatnak hozzájuk. Új cikk hiányában nem készül új lapszám. Legfeljebb 80 főhír kerül egy kiadásba.
+6. Az ötpereces pótlás csak a legfrissebb hivatalos kiadás hiányzó változatait dolgozza fel, és a régebbi archív lapok szövegét nem írja át. Új kiadás készítésekor a rendszer a hivatalos archív lapok cikkei között is hasonló híreket keres; az archív találatokat a friss cikkhez kapcsolja és a dátummal jelöli. A főoldali csoportokba csak az adott kiadás új cikkei kerülnek, az archív találatok nem jelennek meg úgy, mintha az új számban friss hírként szerepelnének. Az archív találat a kapcsolódó cikkcsoport bármely tagja alatti beágyazott archív kapcsolatokból is összegyűlik, majd a friss cikk megnyitásakor, az Összehasonlítás résznél jelenik meg; a sora feltünteti az archív kiadás dátumát, és onnan a hír a NANONewsen belül megnyitható. Az új kiadás cikkei a legutóbbi hivatalos lapszám dátumánál később megjelent hírekből készülnek; a korábbi cikkek csak archív összehasonlításként kapcsolódhatnak hozzájuk. Új cikk hiányában nem készül új lapszám. Legfeljebb 80 főhír kerül egy kiadásba.
 7. Új kiadás esetén a workflow commitolja az adatfájlokat a main ágra. A GitHub Pages a repó új állapotából közzéteszi a friss oldalt; üres ötpereces ellenőrzés nem készít commitot.
 
 ### Folyamatábrák
@@ -266,6 +266,11 @@ Módosítás után ellenőrizendő:
 A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal és a workflow állapotának ellenőrzése ettől független működés-ellenőrzés.
 
 ## 12. Változásnapló
+
+### 2026-11-24 — archív összehasonlítások teljes csoportból
+- Megállapítás: az archív Nvidia/Jensen Huang-cikk a friss HVG-cikk kapcsolt eleme alatt volt tárolva; a friss 444-cikk megnyitásakor a régi felület csak a csoport közvetlen tagjait mutatta.
+- Módosítva: az Összehasonlítás panel most a kiválasztott cikk teljes kapcsolódási fáját bejárja, így a csoport bármely tagjához kapcsolt archív cikk is megjelenik dátumjelöléssel.
+
 
 ### 2026-11-24 — rovatcikkek pontos darabszáma
 - Kérés: a rovatban látható összes cikk darabszáma egyezzen a menüben jelzett számmal.
