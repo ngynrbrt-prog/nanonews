@@ -447,58 +447,94 @@ try:
                 pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
-stories=[];seen=set()
+stories=[]
 scheduled_issue_number={6:1,17:2}.get(now.hour)
 official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours and not force_backfill
 if force_issue and not official_slot_available:
     raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
 collect_new_edition=manual or force_issue or official_slot_available
+# Keep items between issue runs, even when a source's RSS list rolls over.
+inbox_path=Path("data/rss-pending.json")
+try:
+    inbox={story_key(record["link"]):record for record in json.loads(inbox_path.read_text(encoding="utf-8"))}
+except FileNotFoundError:
+    inbox={}
+
+for key,record in list(inbox.items()):
+    published=parse_published(record["published"])
+    observed=parse_published(record["observed"])
+    if key in published_before or (latest_official_at and (published or observed)<=latest_official_at):
+        del inbox[key]
+
 for source,urls in feeds.items():
- if not collect_new_edition:break
- for url in urls:
-    try:
-        req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
-        root=ET.fromstring(urllib.request.urlopen(req,timeout=20).read())
-        feed_items=root.findall(".//item")
-        for item in feed_items:
-            title=text(item.find("title"));link=text(item.find("link"));desc=text(item.find("description"))
-            if not title or not link:continue
-            key=story_key(link)
-            if key in seen or key in published_before:continue
-            feed_published=text(item.find("pubDate"))
-            feed_date=parse_published(feed_published)
-            if latest_official_at and feed_date and feed_date<=latest_official_at:continue
-            hay=(title+" "+desc+" "+link).casefold()
-            cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
-            if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
-            if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
-            if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
-                cats.remove("technology")
-            if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
-            if is_foreign_political_economic(hay,cats):cats.append("foreign")
-            if not cats:continue
-            seen.add(key)
-            story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":image_for(item,desc),"summaryVersion":SUMMARY_VERSION}
-            article_text,article_published=fetch_article(link)
-            if not story["published"] and article_published:story["published"]=article_published
-            article_date=parse_published(story["published"])
-            if latest_official_at and (not article_date or article_date<=latest_official_at):
-                print(f"Skipping story without a post-issue publication date: {link}")
-                continue
-            basis_text=article_text or story["summary"]
-            story["contentBasis"]="article" if article_text else "rss"
-            story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
-            cached=previous.get(link,{})
-            if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
-                story["variants"]=cached["variants"]
-            elif api_key:
-                try:
-                    story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=now>=VIVID_STYLE_START)
-                except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
-                finally:
-                    time.sleep(4)
-            stories.append(story)
-    except Exception as e: print(f"Feed error {source} {url}: {e}")
+    for url in urls:
+        try:
+            request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 NANONews RSS reader"})
+            with urllib.request.urlopen(request,timeout=20) as response:
+                root=ET.fromstring(response.read())
+            for item in root.findall(".//item"):
+                link=text(item.find("link"))
+                title=text(item.find("title"))
+                if not link or not title:
+                    continue
+                key=story_key(link)
+                published=text(item.find("pubDate"))
+                published_at=parse_published(published)
+                if key in published_before or (latest_official_at and published_at and published_at<=latest_official_at):
+                    continue
+                desc=text(item.find("description"))
+                existing=inbox.get(key)
+                inbox[key]={
+                    "source":source,
+                    "published":published,
+                    "observed":existing["observed"] if existing else now.isoformat(),
+                    "title":title,
+                    "link":link,
+                    "description":desc,
+                    "image":image_for(item,desc),
+                }
+        except Exception as exc:
+            print(f"Feed error {source} {url}: {exc}")
+
+inbox_path.parent.mkdir(exist_ok=True)
+inbox_path.write_text(json.dumps(list(inbox.values()),ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+
+for record in inbox.values() if collect_new_edition else ():
+    source=record["source"]
+    title=record["title"]
+    link=record["link"]
+    desc=record["description"]
+    feed_published=record["published"]
+    hay=(title+" "+desc+" "+link).casefold()
+    cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
+    if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
+    if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
+    if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
+        cats.remove("technology")
+    if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
+    if is_foreign_political_economic(hay,cats):cats.append("foreign")
+    if not cats:continue
+    story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
+    article_text,article_published=fetch_article(link)
+    if not story["published"] and article_published:story["published"]=article_published
+    article_date=parse_published(story["published"])
+    if article_date and article_date>now:continue
+    if latest_official_at and (not article_date or article_date<=latest_official_at):
+        print(f"Skipping story without a post-issue publication date: {link}")
+        continue
+    basis_text=article_text or story["summary"]
+    story["contentBasis"]="article" if article_text else "rss"
+    story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
+    cached=previous.get(link,{})
+    if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
+        story["variants"]=cached["variants"]
+    elif api_key:
+        try:
+            story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=now>=VIVID_STYLE_START)
+        except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
+        finally:
+            time.sleep(4)
+    stories.append(story)
 
 pending_updated=False
 if api_key and not manual and not collect_new_edition:
@@ -582,11 +618,7 @@ stories.sort(key=lambda s:s["published"],reverse=True)
 stories=group_similar_stories(stories)
 stories=attach_archived_stories(stories,archived_similarity_records.values())
 issue_number=None if manual else scheduled_issue_number
-edition_stories=[
-    story for index,story in enumerate(stories)
-    if index<80 or any(record.get("source")=="NBAnews.hu" and not record.get("archiveDate") for record in all_story_records(story))
-]
-edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":edition_stories}
+edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories}
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 archive=Path("data/archive");archive.mkdir(exist_ok=True)
