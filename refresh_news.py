@@ -349,6 +349,37 @@ def topic_summary_direction(story):
     )
 
 
+gemini_next_request = 0.0
+
+
+def request_gemini(request):
+    global gemini_next_request
+    for attempt in range(3):
+        remaining = gemini_next_request - time.monotonic()
+        if remaining > 0:
+            time.sleep(remaining)
+        gemini_next_request = time.monotonic() + 1
+        try:
+            with urllib.request.urlopen(request, timeout=50) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except HTTPError as exc:
+            if exc.code not in (429, 503):
+                raise
+            delay = (4 if exc.code == 429 else 2) * 2**attempt
+            retry_after = exc.headers.get("Retry-After", "") if exc.headers else ""
+            if retry_after.isdecimal():
+                delay = max(delay, int(retry_after))
+            elif retry_after:
+                try:
+                    delay = max(delay, parsedate_to_datetime(retry_after).timestamp() - time.time())
+                except (TypeError, ValueError, OverflowError):
+                    pass
+            gemini_next_request = time.monotonic() + delay
+            print(f"Gemini HTTP {exc.code}; next request after {delay:.0f}s.")
+            if attempt == 2:
+                raise
+
+
 def gemini_rewrites(story,article_text,api_key,vivid_styles=False,*,styles_only=False):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
@@ -374,16 +405,7 @@ Alapanyag ({basis}):
 {source_text[:18000]}"""
     payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
     request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(request,timeout=50) as response:
-                result=json.loads(response.read().decode("utf-8"))
-            break
-        except HTTPError as exc:
-            if exc.code!=503 or attempt==2:raise
-            delay=2**attempt
-            print(f"Gemini temporarily unavailable (503); retrying in {delay}s.")
-            time.sleep(delay)
+    result = request_gemini(request)
     raw=result.get("output_text","")
     if not raw:
         parts=[]
@@ -432,16 +454,7 @@ Alapanyag ({basis}):
 {source_text[:18000]}"""
     payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
     request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(request,timeout=50) as response:
-                result=json.loads(response.read().decode("utf-8"))
-            break
-        except HTTPError as exc:
-            if exc.code!=503 or attempt==2:raise
-            delay=2**attempt
-            print(f"Gemini temporarily unavailable (503); retrying in {delay}s.")
-            time.sleep(delay)
+    result = request_gemini(request)
     raw=result.get("output_text","")
     if not raw:
         parts=[]
@@ -474,16 +487,7 @@ Alapanyag ({basis}):
 {source_text[:18000]}"""
     payload=json.dumps({"model":"gemini-3.5-flash-lite","input":prompt,"store":False}).encode()
     request=urllib.request.Request("https://generativelanguage.googleapis.com/v1beta/interactions",data=payload,headers={"Content-Type":"application/json","x-goog-api-key":api_key},method="POST")
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(request,timeout=50) as response:
-                result=json.loads(response.read().decode("utf-8"))
-            break
-        except HTTPError as exc:
-            if exc.code!=503 or attempt==2:raise
-            delay=2**attempt
-            print(f"Gemini temporarily unavailable (503); retrying in {delay}s.")
-            time.sleep(delay)
+    result = request_gemini(request)
     raw=result.get("output_text","")
     if not raw:
         parts=[]
@@ -653,8 +657,6 @@ for record in inbox.values():
         try:
             story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
-        finally:
-            time.sleep(4)
     if collect_new_edition:
         stories.append(story)
     elif all(story.get("variants",{}).get(style,{}).get("body") for style in ("original","tolkien","reito")):
@@ -683,7 +685,6 @@ if api_key and (not manual or pending_current):
                 print(f"Refreshed v2 summary and styles for {pending_story.get('url')}")
             except Exception as exc:
                 print(f"Pending v2 summary unavailable {pending_story.get('url')}: {exc}")
-            time.sleep(4)
             continue
         current_tolkien=current_variants.setdefault("tolkien",{})
         current_reito=current_variants.setdefault("reito",{})
@@ -706,7 +707,6 @@ if api_key and (not manual or pending_current):
                     pending_story["sourceHash"] = hashlib.sha256(article_text.encode("utf-8")).hexdigest()
             except Exception as exc:
                 print(f"Pending combined style rewrite unavailable {pending_story.get('url')}: {exc}")
-            time.sleep(4)
             continue
         if needs_tolkien:
             try:
@@ -716,7 +716,6 @@ if api_key and (not manual or pending_current):
                 pending_updated=True
                 print(f"Completed missing Tolkien rewrite for {pending_story.get('url')}")
             except Exception as exc:print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
-            time.sleep(4)
         if not current_reito.get("title") or not current_reito.get("body"):
             try:
                 generated=gemini_reito_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
@@ -725,7 +724,6 @@ if api_key and (not manual or pending_current):
                 pending_updated=True
                 print(f"Completed missing Rejto rewrite for {pending_story.get('url')}")
             except Exception as exc:print(f"Pending Rejto rewrite unavailable {pending_story.get('url')}: {exc}")
-            time.sleep(4)
         if current_tolkien.get("title") and current_tolkien.get("body") and current_reito.get("title") and current_reito.get("body"):
             if current_variants.get("original",{}).get("body"):
                 pending_story["summaryVersion"]=SUMMARY_VERSION

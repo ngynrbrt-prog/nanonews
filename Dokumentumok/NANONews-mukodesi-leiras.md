@@ -115,7 +115,7 @@ Az éles kiadás feldolgozása akkor teljes, ha a kiadáshoz tartozó minden cik
 | Az Eredeti naprakész, a Tolkien és a Rejtő is hiányos | Egy közös kérés pótolja a két stílust. A mentett Eredeti és a már kitöltött stílusmezők megmaradnak |
 | Csak az egyik stílus hiányos | A kérés a hiányos stílusra vonatkozik |
 
-A GitHub Actions ötpercenként ütemezi az ellenőrzést. Egy futás legfeljebb **tíz éles cikk** pótlását kísérli meg. A feldolgozó a pótlási kísérletek után négy másodpercet vár. A következő lapszám háttér-előkészítése akkor indulhat, ha az éles kiadás minden cikkéhez rendelkezésre áll mindhárom aktuális változat.
+A GitHub Actions ötpercenként ütemezi az ellenőrzést. Egy futás legfeljebb **tíz éles cikk** pótlását kísérli meg. A Gemini-kérések indítása között legalább egy másodperc telik el. A 429-es és 503-as válaszok után a várakozás fokozatosan nő, és a feldolgozó figyelembe veszi a Gemini által megadott Retry-After értéket. A következő lapszám háttér-előkészítése akkor indulhat, ha az éles kiadás minden cikkéhez rendelkezésre áll mindhárom aktuális változat.
 
 ### Napi állapotjelentések
 
