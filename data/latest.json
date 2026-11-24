@@ -180,7 +180,7 @@
       "url": "https://telex.hu/techtud/2026/11/24/hortobagyi-nemzeti-park-invazios-haltelepites-velemeny",
       "published": "Tue, 24 Nov 2026 04:51:10 +0100",
       "categories": [
-        "nfl"
+        "environment"
       ],
       "image": "https://assets.telex.hu/images/20261123/1795432716-temp-3hi93m0p24nq1cjhndh_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
@@ -433,9 +433,7 @@
       "summary": "Trump korábban utalt rá, hogy fordulópont jöhet az iráni háborúban, de a félidős választási vereség felülírhatta a terveit. A kisebb támadásokkal időről időre odacsapó amerikaiak hormuzi blokádjára Irán egyre több, tankerek és régiós bázisok elleni támadással reagált. Mindeközben a nyugati hírszerzések növekvő iráni fenyegetésre és hekkertámadásokra figyelmeztetnek.",
       "url": "https://telex.hu/kulfold/2026/11/23/usa-iran-konfliktus-tamadasok-tankerek-hormuzi-szoros-blokad-donald-trump-izrael",
       "published": "Mon, 23 Nov 2026 21:32:32 +0100",
-      "categories": [
-        "nfl"
-      ],
+      "categories": [],
       "image": "https://assets.telex.hu/images/20261123/1795438762-temp-0sqm67sna9ac2akaifl_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
@@ -518,7 +516,8 @@
       "url": "https://www.portfolio.hu/befektetes/20261123/marketwatch-donald-trump-kozbenjarasa-azt-mutatja-hogy-jensen-huang-tul-fontos-ahhoz-hogy-elbukjon-878586",
       "published": "Mon, 23 Nov 2026 20:35:00 +0100",
       "categories": [
-        "technology"
+        "technology",
+        "world-market"
       ],
       "image": "https://pcdn.hu/articles/images-xl/n/v/i/nvidia-technologia-chip-felvezeto-mesterseges-intelligencia-techceg-vallalat-irodahaz-kina-r-869624.jpg",
       "summaryVersion": "short-v2.1-3-4",
@@ -537,7 +536,80 @@
           "body": "Jensen Huang egy szempillantás alatt kikerült az Nvidia éléről egy titkos viszony és egy kínai hírszerzésnek nézett hölgy miatt, mire a tőzsde azonnal fejest ugrott a mélyvízbe. De érkezett Donald Trump, aki egy vasárnapi telefonhívással és némi elnöki ráhatással meggyőzte az igazgatótanácsot, hogy a mesterségesintelligencia-zseni egyszerűen túl drága kincs ahhoz, hogy csak úgy otthagyják a Huaweinek. Az Nvidia ekkor gyorsan, még a tőzsdenyitás előtt egyhangúlag visszaszavazta Huangot a főnöki székbe, mire a részvények azonnal fellélegeztek. A washingtoni törvényhozók persze hirtelen nagyon kíváncsiak lettek a nemzetbiztonságra, így Huang december 1-jén és 3-án zárt és nyílt bizottsági meghallgatásokon magyarázhatja el a bizonyítványát."
         }
       },
-      "relatedStories": []
+      "relatedStories": [
+        {
+          "source": "444.hu",
+          "title": "Fellélegzett az amerikai tőzsde, minden szárnyal, az Nvidia egészen extra mértékben",
+          "summary": "Visszavették az örökké kanos vezérigazgatót? Plusz 34 százalék!",
+          "url": "https://444.hu/2026/11/23/fellelegzett-az-amerikai-tozsde-minden-szarnyal-az-nvidia-egeszen-extra-mertekben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "published": "Mon, 23 Nov 2026 18:02:08 +0100",
+          "categories": [
+            "world-market"
+          ],
+          "image": "",
+          "summaryVersion": "short-v2.1-3-4",
+          "contentBasis": "rss",
+          "sourceHash": "bc11d63ff43d0af492279c5644f95949ab111f0f036002cbd227058a4a24aae7",
+          "relatedStories": []
+        },
+        {
+          "source": "HVG",
+          "title": "Visszavette az Nvidia Jensen Huangot, de a kémsztori közben egyre súlyosabb",
+          "summary": "Kilőtt az Nvidia összeomlóban lévő részvényárfolyama arra a hírre, hogy a cég igazgatótanácsa egyhangú szavazással visszaültette a vezérigazgatói székbe Jensen Huangot. A döntés mögött kormányzati nyomás sejlik fel, s annak az árnyéka, hogy nemcsak a hűtlenség bocsánatos bűn, hanem a legfejlettebb AI-chipek Kínába juttatásához való segédkezés is.",
+          "url": "https://hvg.hu/360/20261123_jensen-huang-bukasa-aiverseny-kinai-kemgepezet-nektart-csepegtettek-hvg",
+          "published": "Mon, 23 Nov 2026 16:59:00 Z",
+          "categories": [
+            "technology"
+          ],
+          "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/9465f834-f9b6-4f3a-a9a6-0030eb8c2219.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "contentBasis": "article",
+          "sourceHash": "862001e399beb0f8eb69902f6b4221fccb04cbec7fd4ccc200bd18f07281f8a9",
+          "variants": {
+            "original": {
+              "body": "A múlt heti tőzsdei visszaesés és a harmadik korrekció miatt az amerikai Nasdaq indexei elveszítették az idei évi nyereségüket, miközben az AI-befektetések megtérülési félelmeit az Nvidia botránya is súlyosbította. Jensen Huang vezérigazgató november 12-én lemondott, miután kiderült, hogy hűtlenségbe keveredett egy kínai nővel, akit az USA hírszerzése pekingi kémként tart számon, és szingapúri cégén keresztül tiltott Nvidia chipeket juttatott Kínának. A skandalum okozta bizonytalanság az Anthropic múlt heti, elmaradó sikerű tőzsdei megjelenésére is hatással volt. Hétfőn azonban az Nvidia részvényei több mint 30 százalékkal kilőttek a tőzsdenyitás előtti kereskedelemben, miután a kaliforniai cég igazgatótanácsa egyhangú szavazással visszavette a vezérigazgatói posztra a lemondása után visszatérni vágyó Huangot, ezzel magával rántva a teljes tőzsdét is."
+            },
+            "tolkien": {
+              "title": "A Mennydörgő Tőzsdék és a Száműzött Vezér Visszatérése",
+              "body": "Ítéletidő köszöntött a csúcstechnológiai részvények birodalmára a múlt heti vérfürdőben, mikor az amerikai Nasdaq indexei elbukták az egész esztendő nyereségét a harmadik megpróbáltatás idején. A veszedelmet csak növelte az Nvidia házaspárját és cégét érintő sötét árny, miután Jensen Huang vezérigazgató november tizenkettedikén távozni kényszerült: hűtlenség vétsége estefordult fenn egy kínai asszonnyal, kit az amerikai éberség ügynökei pekingi kémnek neveztek, s ki tiltott mesterchipeket csempészett Kína földjére. E botrány bizonytalansága béklyóba kötötte az Anthropic tőzsdei útját is, mígnem a hirtelen jött hajnal óráján az igazgatótanács egyhangú határozattal ismét vállaira emelte a száműzött Huangot. A vezér visszatérése, ki maga is vágyott a méltóságra a lemondása után, tőzsdenyitás előtt harminc százalék feletti szárnyalást hozott, és magával ragadta az egész piacteret."
+            },
+            "reito": {
+              "title": "A kém, a chip és a visszatérő vezér esete a tőzsdén",
+              "body": "A múlt heti tőzsdei vérfürdőben a Nasdaq hamar elveszítette az egész évi nyereségét, miután a harmadik korrekció alaposan megkavarta a befektetők idegeit. Az olaj a tűzre november 12-én érkezett, amikor Jensen Huang, az Nvidia vezérigazgatója lemondott, mert kiderült, hogy egy kínai kémkedéssel vádolt nővel csalta a feleségét, miközben a hölgy szingapúri cégén keresztül az amerikai tilalom ellenére csúcchipeket passzolt át Kínának. A botrány miatt az Anthropic tőzsdei debütálása sem hozta a várt fényes sikereket, de aztán az acélidegűek nagyot kaszáltak. Hétfőn reggel a tőzsdenyitás előtt ugyanis az Nvidia részvényei több mint 30 százalékot lőttek fel, miután a cég igazgatótanácsa egyhangúlag visszavette a posztjára vágyó Huangot, ezzel látványosan magával rántva az egész tőzsdét."
+            }
+          },
+          "relatedStories": [
+            {
+              "source": "HVG",
+              "title": "Az Nvidia visszahelyezte Jensen Huangot a vezérigazgatói posztra",
+              "summary": "Az amerikai chipgyártó óriásvállalat nem lát nemzetbiztonsági kockázatot a kémbotrányba keveredett Huang visszatérésében.",
+              "url": "https://hvg.hu/kkv/20261123_nvidia-jensen-huang-vezerigazgato-visszateres",
+              "published": "Mon, 23 Nov 2026 14:22:27 Z",
+              "categories": [
+                "technology"
+              ],
+              "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d609a386-5cf6-4faf-8942-9022fd5b282e.jpg",
+              "summaryVersion": "short-v2.1-3-4",
+              "contentBasis": "article",
+              "sourceHash": "138e05a565620c6aea18a36ed46d7ca4b95447957c445c684daa85288b27a20e",
+              "variants": {
+                "original": {
+                  "body": "Az Nvidia hétfőn bejelentette, hogy azonnali hatállyal visszatér a vezérigazgatói posztra Jensen Huang. Az igazgatótanács tájékoztatása szerint elégedettek Huang vezetői képességeivel és őszinteségével, ráadásul amerikai kormányzati tisztviselők meghallgatása után nem találtak nemzetbiztonsági kockázatot. A visszatérés hírére az Nvidia részvényeinek árfolyama meredek emelkedésbe kezdett, és a tőzsde nyitása előtti kereskedésben több mint 31 százalékkal ugrott meg. A cikk megjegyzi, hogy egy nő az említett időszakban Kína legfőbb rendvédelmi szervének tisztjeivel is találkozhatott."
+                },
+                "tolkien": {
+                  "title": "A Vezér Visszatérése az Ércbe Vést Időkben",
+                  "body": "Az Nvidia nemes testülete a hét napján hírül adá, hogy Jensen Huangot azonnali hatállyal ismét a vezérigazgatói méltóságba emeli. Az igazgatóság bölcsei kijelentették, hogy megelégedéssel szemlélik őszinteségét és hatalom gyakorlására szolgáló képességét, s miután az amerikai birodalom főembereinek tanácsát is meghallgatták, nem találtak birodalmi biztonságot fenyegető veszedelmet a visszatérésben. E dicső hír hallatán a cég részvényeinek ára hirtelen szárnyalásba kezdett, és a piaczárás előtti órákban harmincegy százaléknál is nagyobb mértékben szökött magasra. Továbbá az is feljegyeztetett, hogy egy asszony ugyanezen idők sodrában Kína legfőbb fegyveres testületének elöljáróival is találkozásra lelhetett."
+                },
+                "reito": {
+                  "title": "Főnök a háznál, részvény a mennyben",
+                  "body": "Az Nvidia hétfőn bejelentette, hogy Jensen Huangot azonnali hatállyal visszarakja a vezérigazgatói székbe. Az igazgatótanács szerint Huang nagyon őszinte és remek vezető, az amerikai kormányzat nagykutyái pedig egyeztetés után úgy döntöttek, hogy ebből nem lesz nemzetbiztonsági balhé. A bejelentésre a cég részvényei azonnal vad emelkedésbe kezdtek, és a nyitás előtti kereskedésben több mint 31 százalékos ugrást produkáltak. Míg a piac örült, az apróbb részletek kedvéért az is kiderült, hogy egy nő ugyanebben az időszakban még Kína legfőbb rendvédelmi szervének tisztjeivel is összefuthatott."
+                }
+              },
+              "archiveDate": "2026. 11. 23."
+            }
+          ]
+        }
+      ]
     },
     {
       "source": "Portfolio.hu",
@@ -1372,21 +1444,6 @@
       "relatedStories": []
     },
     {
-      "source": "444.hu",
-      "title": "Fellélegzett az amerikai tőzsde, minden szárnyal, az Nvidia egészen extra mértékben",
-      "summary": "Visszavették az örökké kanos vezérigazgatót? Plusz 34 százalék!",
-      "url": "https://444.hu/2026/11/23/fellelegzett-az-amerikai-tozsde-minden-szarnyal-az-nvidia-egeszen-extra-mertekben?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "published": "Mon, 23 Nov 2026 18:02:08 +0100",
-      "categories": [
-        "world-market"
-      ],
-      "image": "",
-      "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "bc11d63ff43d0af492279c5644f95949ab111f0f036002cbd227058a4a24aae7",
-      "relatedStories": []
-    },
-    {
       "source": "Origo.hu",
       "title": "Már 720 ezer orosz katona halhatott meg az ukrajnai háborúban",
       "summary": "A Meduza és a Mediazona új elemzése először az eltűntként nyilvántartott katonákat is figyelembe vette. A kutatók szerint 2026 őszére legalább 720 ezerre emelkedhetett az orosz hadsereg halálos áldozatainak száma.",
@@ -1481,63 +1538,6 @@
             "reito": {
               "title": "Húsz év után kiderült, hogy a túl jó beszéd is veszélyes",
               "body": "A Tisza Párt a múlt héten olyan javaslattal állt elő, amely egy huszonkét éves hagyománnyal szakítva egyszerűen betiltaná a magyar EP-képviselők felszólalásait. A lap rögtön sarokba is szorította az egyik beterjesztőt, Hantosi Istvánt, hogy mégis mi indokolja ezt a drasztikus lépést. Deutsch Tamás szerint a válasz roppant egyszerű: a tiltás oka az, hogy az ő felszólalása egyszerűen túlságosan jóra sikeredett. Hát így állunk a nemzetközi porondon, kérem szépen."
-            }
-          },
-          "archiveDate": "2026. 11. 23."
-        }
-      ]
-    },
-    {
-      "source": "HVG",
-      "title": "Visszavette az Nvidia Jensen Huangot, de a kémsztori közben egyre súlyosabb",
-      "summary": "Kilőtt az Nvidia összeomlóban lévő részvényárfolyama arra a hírre, hogy a cég igazgatótanácsa egyhangú szavazással visszaültette a vezérigazgatói székbe Jensen Huangot. A döntés mögött kormányzati nyomás sejlik fel, s annak az árnyéka, hogy nemcsak a hűtlenség bocsánatos bűn, hanem a legfejlettebb AI-chipek Kínába juttatásához való segédkezés is.",
-      "url": "https://hvg.hu/360/20261123_jensen-huang-bukasa-aiverseny-kinai-kemgepezet-nektart-csepegtettek-hvg",
-      "published": "Mon, 23 Nov 2026 16:59:00 Z",
-      "categories": [
-        "technology"
-      ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/9465f834-f9b6-4f3a-a9a6-0030eb8c2219.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "article",
-      "sourceHash": "862001e399beb0f8eb69902f6b4221fccb04cbec7fd4ccc200bd18f07281f8a9",
-      "variants": {
-        "original": {
-          "body": "A múlt heti tőzsdei visszaesés és a harmadik korrekció miatt az amerikai Nasdaq indexei elveszítették az idei évi nyereségüket, miközben az AI-befektetések megtérülési félelmeit az Nvidia botránya is súlyosbította. Jensen Huang vezérigazgató november 12-én lemondott, miután kiderült, hogy hűtlenségbe keveredett egy kínai nővel, akit az USA hírszerzése pekingi kémként tart számon, és szingapúri cégén keresztül tiltott Nvidia chipeket juttatott Kínának. A skandalum okozta bizonytalanság az Anthropic múlt heti, elmaradó sikerű tőzsdei megjelenésére is hatással volt. Hétfőn azonban az Nvidia részvényei több mint 30 százalékkal kilőttek a tőzsdenyitás előtti kereskedelemben, miután a kaliforniai cég igazgatótanácsa egyhangú szavazással visszavette a vezérigazgatói posztra a lemondása után visszatérni vágyó Huangot, ezzel magával rántva a teljes tőzsdét is."
-        },
-        "tolkien": {
-          "title": "A Mennydörgő Tőzsdék és a Száműzött Vezér Visszatérése",
-          "body": "Ítéletidő köszöntött a csúcstechnológiai részvények birodalmára a múlt heti vérfürdőben, mikor az amerikai Nasdaq indexei elbukták az egész esztendő nyereségét a harmadik megpróbáltatás idején. A veszedelmet csak növelte az Nvidia házaspárját és cégét érintő sötét árny, miután Jensen Huang vezérigazgató november tizenkettedikén távozni kényszerült: hűtlenség vétsége estefordult fenn egy kínai asszonnyal, kit az amerikai éberség ügynökei pekingi kémnek neveztek, s ki tiltott mesterchipeket csempészett Kína földjére. E botrány bizonytalansága béklyóba kötötte az Anthropic tőzsdei útját is, mígnem a hirtelen jött hajnal óráján az igazgatótanács egyhangú határozattal ismét vállaira emelte a száműzött Huangot. A vezér visszatérése, ki maga is vágyott a méltóságra a lemondása után, tőzsdenyitás előtt harminc százalék feletti szárnyalást hozott, és magával ragadta az egész piacteret."
-        },
-        "reito": {
-          "title": "A kém, a chip és a visszatérő vezér esete a tőzsdén",
-          "body": "A múlt heti tőzsdei vérfürdőben a Nasdaq hamar elveszítette az egész évi nyereségét, miután a harmadik korrekció alaposan megkavarta a befektetők idegeit. Az olaj a tűzre november 12-én érkezett, amikor Jensen Huang, az Nvidia vezérigazgatója lemondott, mert kiderült, hogy egy kínai kémkedéssel vádolt nővel csalta a feleségét, miközben a hölgy szingapúri cégén keresztül az amerikai tilalom ellenére csúcchipeket passzolt át Kínának. A botrány miatt az Anthropic tőzsdei debütálása sem hozta a várt fényes sikereket, de aztán az acélidegűek nagyot kaszáltak. Hétfőn reggel a tőzsdenyitás előtt ugyanis az Nvidia részvényei több mint 30 százalékot lőttek fel, miután a cég igazgatótanácsa egyhangúlag visszavette a posztjára vágyó Huangot, ezzel látványosan magával rántva az egész tőzsdét."
-        }
-      },
-      "relatedStories": [
-        {
-          "source": "HVG",
-          "title": "Az Nvidia visszahelyezte Jensen Huangot a vezérigazgatói posztra",
-          "summary": "Az amerikai chipgyártó óriásvállalat nem lát nemzetbiztonsági kockázatot a kémbotrányba keveredett Huang visszatérésében.",
-          "url": "https://hvg.hu/kkv/20261123_nvidia-jensen-huang-vezerigazgato-visszateres",
-          "published": "Mon, 23 Nov 2026 14:22:27 Z",
-          "categories": [
-            "technology"
-          ],
-          "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d609a386-5cf6-4faf-8942-9022fd5b282e.jpg",
-          "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "article",
-          "sourceHash": "138e05a565620c6aea18a36ed46d7ca4b95447957c445c684daa85288b27a20e",
-          "variants": {
-            "original": {
-              "body": "Az Nvidia hétfőn bejelentette, hogy azonnali hatállyal visszatér a vezérigazgatói posztra Jensen Huang. Az igazgatótanács tájékoztatása szerint elégedettek Huang vezetői képességeivel és őszinteségével, ráadásul amerikai kormányzati tisztviselők meghallgatása után nem találtak nemzetbiztonsági kockázatot. A visszatérés hírére az Nvidia részvényeinek árfolyama meredek emelkedésbe kezdett, és a tőzsde nyitása előtti kereskedésben több mint 31 százalékkal ugrott meg. A cikk megjegyzi, hogy egy nő az említett időszakban Kína legfőbb rendvédelmi szervének tisztjeivel is találkozhatott."
-            },
-            "tolkien": {
-              "title": "A Vezér Visszatérése az Ércbe Vést Időkben",
-              "body": "Az Nvidia nemes testülete a hét napján hírül adá, hogy Jensen Huangot azonnali hatállyal ismét a vezérigazgatói méltóságba emeli. Az igazgatóság bölcsei kijelentették, hogy megelégedéssel szemlélik őszinteségét és hatalom gyakorlására szolgáló képességét, s miután az amerikai birodalom főembereinek tanácsát is meghallgatták, nem találtak birodalmi biztonságot fenyegető veszedelmet a visszatérésben. E dicső hír hallatán a cég részvényeinek ára hirtelen szárnyalásba kezdett, és a piaczárás előtti órákban harmincegy százaléknál is nagyobb mértékben szökött magasra. Továbbá az is feljegyeztetett, hogy egy asszony ugyanezen idők sodrában Kína legfőbb fegyveres testületének elöljáróival is találkozásra lelhetett."
-            },
-            "reito": {
-              "title": "Főnök a háznál, részvény a mennyben",
-              "body": "Az Nvidia hétfőn bejelentette, hogy Jensen Huangot azonnali hatállyal visszarakja a vezérigazgatói székbe. Az igazgatótanács szerint Huang nagyon őszinte és remek vezető, az amerikai kormányzat nagykutyái pedig egyeztetés után úgy döntöttek, hogy ebből nem lesz nemzetbiztonsági balhé. A bejelentésre a cég részvényei azonnal vad emelkedésbe kezdtek, és a nyitás előtti kereskedésben több mint 31 százalékos ugrást produkáltak. Míg a piac örült, az apróbb részletek kedvéért az is kiderült, hogy egy nő ugyanebben az időszakban még Kína legfőbb rendvédelmi szervének tisztjeivel is összefuthatott."
             }
           },
           "archiveDate": "2026. 11. 23."

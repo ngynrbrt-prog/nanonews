@@ -32,10 +32,12 @@ rules={
  "champions-league":["bajnokok ligája","uefa champions league","champions league"],
  "f1":["formula-1","formula 1","forma-1","f1","fernando alonso","nagydíj","nagy díj"],
  "nba":["nba","kosárlabda"],
- "nfl":["nfl","amerikai foci","touchdown"],
+ "nfl":["nfl","national football league","amerikai foci","amerikai futball","touchdown","quarterback","wide receiver","running back","linebacker","super bowl","superbowl","new england patriots","buffalo bills","miami dolphins","new york jets","baltimore ravens","cincinnati bengals","cleveland browns","pittsburgh steelers","houston texans","indianapolis colts","jacksonville jaguars","tennessee titans","denver broncos","kansas city chiefs","las vegas raiders","los angeles chargers","dallas cowboys","new york giants","philadelphia eagles","washington commanders","chicago bears","detroit lions","green bay packers","minnesota vikings","atlanta falcons","carolina panthers","new orleans saints","tampa bay buccaneers","arizona cardinals","los angeles rams","san francisco 49ers","seattle seahawks"],
  "seahawks":["seattle seahawks","seahawks"],
  "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
  "darts":["darts","pdc","professional darts corporation","darts-vb","darts vb","darts-világbajnokság"],
+ "environment":["környezetvédelem","környezetvédelmi","klímaváltozás","klímavédelem","klímavédelmi","klíma","természetvédelem","természetvédelmi","védett természeti terület","inváziós faj","inváziós halfaj","biodiverzitás","ökoszisztéma","élőhely","erdőirtás","légszennyezés","szennyezés","károsanyag-kibocsátás","üvegházhatású gáz","megújuló energia","fenntarthatóság","aszály","hulladék","műanyag-szennyezés"],
+ "films":["film","filmes","mozifilm","filmbemutató","filmfesztivál","filmrendező","filmstúdió","mozi","mozis","movie","cinema"],
  "technology":["találmány","feltaláló","új eszköz","új készülék","technológia","technológiai","kutatás","kutatási","kutató","tudomány","felfedezés","kísérlet","tanulmány","szoftver","szoftverfejlesztés","alkalmazás","digitális","digitalizáció","mesterséges intelligencia","chatgpt","kiberbiztonság","adatvédelem","robotika","robot","chip","processzor","okostelefon","laptop","készülék","startup","innováció","fejlesztés"],
  "parliament":["országgyűlés","parlament","képviselő","törvényjavaslat","frakció","orszaggyules"],
  "hu-market":["bux","budapesti értéktőzsde","magyar tőzsde","otp részvény","mol részvény","richter részvény","mtelekom részvény"],
@@ -63,7 +65,7 @@ def text(node):
     return re.sub(r"\s+"," "," ".join(node.itertext())).strip()
 
 def match_term(term,hay):
-    if term.casefold() in ("nba","f1","ner"):
+    if term.casefold() in ("nba","nfl","f1","ner"):
         return bool(re.search(r"(?<![a-z0-9])"+re.escape(term.casefold())+r"(?![a-z0-9])",hay))
     return term.casefold() in hay
 
@@ -131,8 +133,14 @@ def story_tokens(value):
     value="".join(char for char in unicodedata.normalize("NFKD",value) if not unicodedata.combining(char))
     return {token for token in re.findall(r"[a-z0-9]{4,}",value) if token not in SIMILAR_STOPWORDS}
 
+def nvidia_event_story(story):
+    value=unescape(re.sub(r"<[^>]*>"," ",str(story.get("title",""))+" "+str(story.get("summary","")))).casefold()
+    value="".join(char for char in unicodedata.normalize("NFKD",value) if not unicodedata.combining(char))
+    return "nvidia" in value and any(term in value for term in ("jensen","huang","vezerigazgato","visszavett","igazgatotanacs","kozbenjaras"))
+
 def stories_are_similar(left,right,allow_same_source=False):
     if not left.get("source") or (not allow_same_source and left.get("source")==right.get("source")):return False
+    if nvidia_event_story(left) and nvidia_event_story(right):return True
     left_title=story_tokens(left.get("title",""))
     right_title=story_tokens(right.get("title",""))
     shared_title=left_title&right_title

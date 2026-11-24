@@ -73,19 +73,26 @@ Jelenlegi rovatok:
 - Kerékpár
 - Darts
 - Belföld
-- Belföldi tőzsde
-- Külföldi tőzsde
+- Tőzsde (belföldi és külföldi tőzsde egy rovatban)
 - Technológia / Fejlesztések
+- Környezetvédelem (2026. november 24-i délutáni számtól)
+- Filmek (2026. november 24-i délutáni számtól)
 
 A Technológia / Fejlesztések rovat a technológiai híreket, szoftvereket és alkalmazásokat, mesterséges intelligenciát, kiberbiztonságot, digitális fejlesztéseket és újításokat gyűjti. A cím- és RSS-kivonat kulcsszavai alapján sorolja be a híreket.
 
 A Belföld rovat a parlamenti témákat, a hazai gazdasági híreket, valamint a NER-hez és a megnevezett hazai politikai szereplőkhöz kapcsolódó cikkeket jeleníti meg. Az általános sporthírek kizáródnak, de a magyar sport gazdasági témái bekerülhetnek.
 
+Az NFL rovat kizárólag amerikaifutball-híreket mutat. Az „NFL” rövidítést teljes szóra illesztve keresi a rendszer, hogy például az „influenszer” vagy „konfliktus” szó belső betűsora ne okozzon téves besorolást. A Fűzővel kifelé! feedje NFL-forrásként kezelt; más forrásból csak amerikaifutball-szakkifejezés vagy konkrét liga-/csapatnév alapján kerülhet be cikk.
+
+A Tőzsde rovat egyesíti a hazai és a külföldi részvénypiaci híreket. A Környezetvédelem rovat környezeti, természetvédelmi és klímavédelmi témákat; a Filmek rovat mozi- és filmes híreket gyűjt. Ezek a menüpontok a 2026. november 24-i 17:00-s szám előtt nem jelennek meg.
+
+Az NVIDIA/Jensen Huang körüli, azonos vezérigazgatói visszatérési és részvénypiaci eseményről szóló cikkeket a cég, a szereplő és az esemény közös jelzései alapján is összekapcsolja a hasonlósági logika, még akkor is, ha a címek szókészlete eltér.
+
 A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjtési szabályt pedig a refresh_news.py fájlban kell frissíteni. A történeti adatokban elmentett kategóriák miatt a felületi szűrést is felül kell vizsgálni.
 
 ## 5. Kiadásrend és ütemezés
 
-A .github/workflows/refresh.yml workflow ötpercenként indul, de hivatalos új kiadást csak Europe/Budapest helyi idő szerint a 06:00-s és 17:00-s idősávban készít. Egyik idősávban is legfeljebb egy hivatalos szám készül; az ismételt futások az adott napi idősávban már nem gyűjtenek új lapot. A többi futás a legfrissebb hivatalos kiadás hiányzó Eredeti/Tolkien-változatait próbálja pótolni. A már elkészült változatok kimaradnak. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
+A .github/workflows/refresh.yml cronbeállítása cél szerint ötpercenként indít ellenőrzést, de hivatalos új kiadást csak Europe/Budapest helyi idő szerint a 06:00-s és 17:00-s idősávban készít. Egyik idősávban is legfeljebb egy hivatalos szám készül; az ismételt futások az adott napi idősávban már nem gyűjtenek új lapot. A többi futás a legfrissebb hivatalos kiadás hiányzó Eredeti-, Tolkien- és Rejtő-változatait próbálja pótolni. A már elkészült változatok kimaradnak. A 2026. november 24-én ellenőrzött GitHub Actions-előzményekben a tényleges futások nem követték az ötperces ütemet: változó, nagyjából órás időközök is előfordultak, ezért az ötperces próbálkozás nem garantálható pusztán a cron beállításából. A workflow egyszerre egy feldolgozást enged, hogy ne fusson párhuzamosan két generálás ugyanarra a hírre.
 
 A GitHub Actions ütemezett workflow-ja legalább ötperces időközt enged; háromperces ütemezés nem támogatott. Az időzóna Europe/Budapest. A cron alapértelmezés szerint UTC-t használ; az ötperces periódus az óraátállításkor is változatlan, mert a budapesti időeltolás egész órás. Az indítás tervezett időpont, nagy terhelésnél késhet. A workflow kézzel is indítható a repó Actions → Refresh NANONews → Run workflow felületén.
 
