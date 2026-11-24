@@ -19,3 +19,23 @@ A mérési időszak Budapesten 2026.11.24-én 06:44:53-tól 15:00-ig tartott. A 
 A legutóbbi elérhető RSS-pillanatkép 14:23:25-kor került a main ágra. A 15:00-ig esetleg beérkezett, de addig nem rögzített cikkek és elkészült változatok száma ismeretlen. [Forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/6a31428b3c58f4d97968383772570399ff09fe06)
 
 Mentés indítása budapesti idő szerint 2026.11.24. 15:02:33.
+
+## 21:00
+
+A mérési időszak budapesti idő szerint 2026-11-24 17:42:08 és 2026-11-24 21:00 között tartott. A következő kiadás tervezett ideje 2026-11-25 06:00.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 11 | 1 | 0 | 0 | 0 | 0 | 0,0% | 7 |
+| HVG | 17 | 3 | 0 | 0 | 0 | 0 | 0,0% | 17 |
+| Nemzeti Sport | 9 | 4 | 0 | 0 | 0 | 0 | 0,0% | 5 |
+| NBAnews.hu | 0 | 0 | 0 | 0 | 0 | 0 | — | 3 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 1 |
+| 444.hu | 8 | 2 | 0 | 0 | 0 | 0 | 0,0% | 6 |
+| Portfolio.hu | 20 | 14 | 0 | 0 | 0 | 0 | 0,0% | 20 |
+| Origo.hu | 25 | 3 | 0 | 0 | 0 | 0 | 0,0% | 11 |
+| Összesen | 90 | 27 | 0 | 0 | 0 | 0 | 0,0% | 70 |
+
+Az RSS-adatok utolsó elérhető mentése 2026-11-24 20:29:01. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/d4dc5c25c7e0430f4cc753e6503afac1fcaa546c) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/38876146b63277c0e170b7d0fa3cb19d0de3199e)
+
+Mentés indítása budapesti idő szerint 2026-11-24 21:11:13.
