@@ -5,6 +5,8 @@ Források: Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Po
 
 A részletes rendszerleírás a Dokumentumok/NANONews-mukodesi-leiras.md fájlban található. Minden további kérés és az ahhoz tartozó módosítás rögzítendő a dokumentum változásnaplójában.
 
+A felület használatát a [NANONews felhasználói kézikönyv](Dokumentumok/NANONews-felhasznaloi-kezikonyv.md) mutatja be. A kézikönyvet minden felhasználót érintő változtatással együtt frissíteni kell.
+
 ## Kiadásrend
 
 A hivatalos számok a 06:00–06:59-es és 17:00–17:59-es idősávban készülnek (Europe/Budapest). A GitHub Actions minden futáskor lekéri az RSS-listákat. A Portfolio.hu kivonatai a kiadások közötti futásokban készülnek, a többi forrásé legalább ötóránként. A háttérben mentett változatokat a következő kiadás felhasználja.
