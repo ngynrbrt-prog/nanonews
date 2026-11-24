@@ -50,7 +50,7 @@ A zónák közti hálózati hívásokat a böngésző vagy a runner indítja. A 
 1. A GitHub Actions ütemezetten vagy kézi indításra elindítja a workert. A worker lekéri és szűri az RSS-adatokat. A következő kiadás kivonatainak háttérelőkészítése akkor indulhat, ha a legfrissebb hivatalos kiadás minden cikkéhez elkészült mindhárom változat.
 2. A worker a feldolgozandó cikk szövegével, szükség esetén az RSS-kivonattal hívja a Gemini API-t. A `GEMINI_API_KEY` a GitHub Actions titoktárolójából a Python-lépés környezeti változójaként érkezik. A kulcsot a futtató használja a Gemini felé küldött kérés hitelesítéséhez.
 3. A workflow `contents: write` jogosultsággal menti az adatfájlokat a főágra. A GitHub Pages a kiadási fájlokat közzéteszi, majd a böngésző HTTPS-en betölti őket.
-4. Az állapotjelentés külön ütemezett folyamat. A GitHubon tárolt pillanatképet olvassa, és az aznapi Markdown-jelentést a repó `Dokumentumok` mappájába menti.
+4. Az állapotjelentés külön ütemezett folyamat. A GitHubon tárolt pillanatképet olvassa, és az aznapi Markdown-jelentést a repó `Dokumentumok/állapotjelentések` mappájába menti.
 
 ## Kapcsolódó dokumentáció
 
