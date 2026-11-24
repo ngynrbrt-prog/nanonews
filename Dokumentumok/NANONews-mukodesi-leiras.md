@@ -104,6 +104,14 @@ A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre
 
 A kiadások között a legfrissebb hivatalos lapszám hiányzó stíluskivonatainak pótlása az első. Amíg bármelyik cikk pótlásra vár, a következő számhoz az RSS-gyűjtés folytatódik. A kivonatok háttérelőkészítése az első olyan esedékes futásban indulhat, amelynek kezdetén már teljes a legfrissebb hivatalos szám. Ha a legutóbbi futás tesztkiadást mentett, a workflow a legfrissebb hivatalos archív kiadást ellenőrzi.
 
+### Napi állapotjelentések
+
+Az állapotjelentés minden nap 14:00-kor és 21:00-kor készül, budapesti idő szerint. A mérés a határidő előtt megjelent legfrissebb hivatalos kiadástól az esedékes időpontig tart. Ha a délutáni szám már megjelent, az esti jelentés a következő reggeli szám előkészítését mutatja. A számítás az esedékes időpontig elérhető legutóbbi GitHub-mentésből indul ki. A jelentés feltünteti a mentés idejét és az esetleges adathiányt.
+
+A táblázat a nyolc forrást külön sorban és összesítve mutatja. A begyűjtött cikkek egyedi RSS-rekordok. A rovatba illő cikkek a kiadás rovat- és időszűrésén átjutó, korábban még nem publikált cikkek. Az Eredeti, Tolkien tollából és Rejtő Jenő oszlopba a következő kiadáshoz használható, mentett kivonatok kerülnek. Az utolsó oszlop a mindhárom stílusban elkészült cikkek arányát mutatja a rovatba illő cikkek között.
+
+A két táblázat azonos napi fájlba kerül a főágon, külön 14:00 és 21:00 fejezettel. A fájl útvonala `Dokumentumok/NANONews-allapotjelentes-YYYY-MM-DD.md`. A dátum a fájlnévben és a dokumentum címében is szerepel. A futás az esedékes fejezetet menti, a másik fejezetet megőrzi. A táblázat és a fájl linkje a NANONews chatben is megjelenik.
+
 ## 6. Hírek feldolgozásának folyamata
 
 1. A `refresh_news.py` minden futáskor lekéri a Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu és Origo.hu RSS-listáit. A begyűjtött cikkadatokat a `data/rss-pending.json` őrzi a kiadások között. Az RSS-ből időközben kieső cikk megmarad, ha egy korábbi sikeres futás már látta. Egy forrás hibáját a workflow naplózza, és továbblép a következő forrásra.
@@ -265,6 +273,11 @@ Módosítás után ellenőrizendő:
 A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal és a workflow állapotának ellenőrzése ettől független működés-ellenőrzés.
 
 ## 12. Változásnapló
+
+### 2026-11-24 — kivonatpótlási elsőbbség és napi állapotjelentések
+
+- A következő kiadás háttérelőkészítése akkor indulhat, ha a legfrissebb hivatalos kiadás minden cikkéhez elkészült mindhárom kivonat.
+- A napi 14:00-s és 21:00-s állapotjelentés közös, dátumozott Markdown-fájlba kerül.
 
 ### 2026-11-24 — archív összehasonlítások teljes csoportból
 - Megállapítás: az archív Nvidia/Jensen Huang-cikk a friss HVG-cikk kapcsolt eleme alatt volt tárolva; a friss 444-cikk megnyitásakor a régi felület csak a csoport közvetlen tagjait mutatta.
