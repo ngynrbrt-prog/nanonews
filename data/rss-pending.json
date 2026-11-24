@@ -25,7 +25,35 @@
       "title": "Kiderült, kik lesznek a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal új vezetői",
       "link": "https://hvg.hu/tudomany/20261124_nemzeti-kutatasi-fejlesztesi-innovacios-hivatal-nkfih-uj-vezetok",
       "description": "Az új elnököt, valamint a helyettesét a Tudományos és Technológiai Minisztérium államtitkára mutatta be az NKFIH állománygyűlésén.",
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/866131bf-5d09-4730-a221-58fceea0e287.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/866131bf-5d09-4730-a221-58fceea0e287.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Kiderült, kik lesznek a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal új vezetői",
+        "summary": "Az új elnököt, valamint a helyettesét a Tudományos és Technológiai Minisztérium államtitkára mutatta be az NKFIH állománygyűlésén.",
+        "url": "https://hvg.hu/tudomany/20261124_nemzeti-kutatasi-fejlesztesi-innovacios-hivatal-nkfih-uj-vezetok",
+        "published": "Tue, 24 Nov 2026 17:19:03 Z",
+        "categories": [
+          "technology"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/866131bf-5d09-4730-a221-58fceea0e287.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "662a7b059c7cdd83dc596d1c366a4617e4fa80b19c03b6f6d9fa8102e552e0a8",
+        "variants": {
+          "original": {
+            "body": "A Tudományos és Technológiai Minisztérium nyílt pályázat eredményeként Miklósi Ádámot választotta meg a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal (NKFIH) elnökévé, Tapolcai Jánost pedig a hivatal tudományos és nemzetközi elnökhelyettesévé. Miklósi Ádám várhatóan január 15-én veszi át a hivatalt Kiss Ádámtól, aki addig vezeti az NKFIH-t, míg Tapolcai János kinevezési folyamatát a nemzetbiztonsági átvilágítással egyidejűleg indítják el. A technológiai és fejlesztési területet érintő vezetőváltás célja, hogy a kutatói tapasztalat, az adatalapú működés, valamint a mesterséges intelligenciára épülő ügyfélszolgálati megoldások nagyobb súlyt kapjanak a hivatal irányításában és a pályázók tájékoztatásában. A minisztérium közleménye szerint Horváth Péter államtitkár mutatta be az új vezetőket a hivatal állománygyűlésén."
+          },
+          "tolkien": {
+            "title": "A Tudás Csarnokainak Őrzői",
+            "body": "A Tudományos és Technológiai Minisztérium nyílt pályázat révén Miklósi Ádámot hívta el a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal (NKFIH) élére, Tapolcai Jánost pedig a hivatal tudományos és nemzetközi elnökhelyettesi méltóságába emelte. Az új technológiai és fejlesztési irányítók megválasztásával a kutatói tapasztalat és az adatalapú, mesterséges intelligenciára épülő ügyintézés kap központi szerepet a hivatal sorsának alakításában. Miklósi Ádám várhatóan január 15-én ölti magára a vezetői tisztséget, míg addig Kiss Ádám tartja kézben a hivatalt, Tapolcai János kinevezési ösvényét pedig a nemzetbiztonsági átvilágítás szigorú kapujával egyidejűleg nyitják meg. Horváth Péter államtitkár e változások hírét az állománygyűlés egybe gyűlt seregének adta hírül, megköszönve a távozó Kiss Ádám eddigi fáradozásait."
+          },
+          "reito": {
+            "title": "A minisztérium kártyát húzott: új főnökök az NKFIH élén",
+            "body": "A Tudományos és Technológiai Minisztérium egy nyílt pályázat utolsó fordulójaként Miklósi Ádámot ültette a Nemzeti Kutatási, Fejlesztési és Innovációs Hivatal (NKFIH) elnöki székébe, mellé pedig Tapolcai Jánost delegálta tudományos és nemzetközi elnökhelyettesnek. A technológiai és fejlesztési porond új arcai közül Miklósi Ádám várhatóan január 15-én veszi át a karmesteri pálcát Kiss Ádámtól, aki addig vigyzi a boltot, Tapolcai János kinevezését pedig a nemzetbiztonsági átvilágítás rajtpisztolyával együtt indítják el. Az új vezetők bemutatását Horváth Péter államtitkár vezényelte le az állománygyűlésen, megalapozva az új kutatás-fejlesztési stratégiát, az adatalapú működést és a mesterséges intelligenciára épülő ügyfélszolgálati sebességet."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -43,7 +71,35 @@
       "title": "Kijött az első olyan generáció a munkaerőpiacra, amelyik már végig AI-jal tanult, és bőven vannak tanulságok",
       "link": "https://hvg.hu/360/20261124_rab-arpad-jovokutato-oktatas-iskola-egyetemek-mesterseges-intelligencia",
       "description": "A mesterséges intelligencia elterjedése nem teszi feleslegessé az oktatást, épp ellenkezőleg, nagyon is értékessé teszi, a technológia ugyanis soha nem tudja lecserélni az alapvető emberi értékeket – véli Rab Árpád jövőkutató, digitáliskultúra-szakértő.",
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a40c0a46-ed01-46d4-b370-bd2b3eb325c3.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a40c0a46-ed01-46d4-b370-bd2b3eb325c3.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Kijött az első olyan generáció a munkaerőpiacra, amelyik már végig AI-jal tanult, és bőven vannak tanulságok",
+        "summary": "A mesterséges intelligencia elterjedése nem teszi feleslegessé az oktatást, épp ellenkezőleg, nagyon is értékessé teszi, a technológia ugyanis soha nem tudja lecserélni az alapvető emberi értékeket – véli Rab Árpád jövőkutató, digitáliskultúra-szakértő.",
+        "url": "https://hvg.hu/360/20261124_rab-arpad-jovokutato-oktatas-iskola-egyetemek-mesterseges-intelligencia",
+        "published": "Tue, 24 Nov 2026 17:10:00 Z",
+        "categories": [
+          "technology"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a40c0a46-ed01-46d4-b370-bd2b3eb325c3.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "e6e3660fe325a3a74d2c81cb95aa13906e26177c7f17d43e6f99d5401d929226",
+        "variants": {
+          "original": {
+            "body": "A HVG Technológia / Fejlesztések rovatának hírfolyama szerint az első olyan generáció lépett a munkaerőpiacra, amely már végig mesterséges intelligenciával (AI) tanult, ami alapvető tanulságokkal szolgál a jövőre nézve. Ez a technológiai fejlődés és oktatási változás átalakítja a tudás meghatározását, mivel a hallgatók az internet és az AI révén már egész tudásfelhőket vesznek kölcsön a tanulmányaik során. A felsőoktatás ezen fejlesztéseit az összesített egyetemi rangsorok és a karok rangsorai szemléltetik, amelyek bemutatják az intézmények erősorrendjét, húzóágazatait és a legnívósabb szakirányokat. A folyamat gyakorlati következménye, hogy a felsőoktatási intézményeknek és a munkaerőpiacnak is alkalmazkodnia kell a tudás demokratizálódásához és az új technológiák megjelenéséhez."
+          },
+          "tolkien": {
+            "title": "A Tudás Új Fátyla és a Felhők Nagy Vándoréve",
+            "body": "A HVG Technológia / Fejlesztések rovatának krónikája szerint megjelent a munkaerőpiacon az első olyan nemzedék, amely a mesterséges intelligencia tüzes igézetében végezte tanulmányait, és ez mély tapasztalatokat hozott a napvilágra. Ezen technológiai fejlesztések sodrában a tudás egykori fogalma megrendült, és a vándorok már egész tudásfelhőket öltenek magukra, mint égi palástot az internet és az AI ereje által. Az egyetemi rangsorok és a karok dicsőítményei hűen rajzolják ki a tudás ezen várait, megmutatva a legfőbb oktatási műhelyek bástzáit és a húzóágazatok ösvényeit. Ennek következményeként a halandók birodalmában a tudás nem csupán elvont adat, hanem a mindennapi munka sorsformáló fegyverévé válik."
+          },
+          "reito": {
+            "title": "Kattintásra Kész Bölcsesség: Amikor a Felhő Tanít",
+            "body": "A HVG Technológia / Fejlesztések rovatának gyorsjelentése szerint a munkaerőpiacra berobbant az első olyan generáció, amelyik már végig AI-jal tanult, így most jöhet a feketeleves a tapasztalatokkal. A technológiai fejlesztések viharában a tudás definíciója alaposan átalakult, hiszen az internet és a mesterséges intelligencia révén a hallgatók már nem holmi morzsákat, hanem egész tudásfelhőket zsebelnek be menet közben. Az egyetemi rangsorok és a karok listái pontosan mutatják, hol mérik a legszaftosabb szakirányokat és melyek az intézmények valódi húzóágazatai. A dolog szépséghibája vagy éppen haszna, hogy a tudománynak mostantól nem elég okosnak lenni, de meggyőzően is kell tálalnia az egészet a munka világában."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -88,7 +144,36 @@
       "title": "Elit társasághoz csatlakozhat az Arsenal, Sallai nem játszik a Villa ellen – élő BL-felvezető",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/varga-barnabasek-vajon-fogast-talalnak-a-comoi-gepezeten-londonba-latogat-a-dortmund-elo-felvezeto",
       "description": "Kilenc mérkőzés szerepel a keddi játéknap programjában. Hírek, videók és exkluzív tartalmak a Nemzeti Sport és az RTL+ együttműködésének részeként.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/JEDhWlTKYCji2lNa8aqmQ4kkPtStlve_9sKi0ySdI08/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M0MTQxYmRmOGUzYjQ2MjFiMjk4OTcwMjhjY2EwMGQ4.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/JEDhWlTKYCji2lNa8aqmQ4kkPtStlve_9sKi0ySdI08/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M0MTQxYmRmOGUzYjQ2MjFiMjk4OTcwMjhjY2EwMGQ4.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Elit társasághoz csatlakozhat az Arsenal, Sallai nem játszik a Villa ellen – élő BL-felvezető",
+        "summary": "Kilenc mérkőzés szerepel a keddi játéknap programjában. Hírek, videók és exkluzív tartalmak a Nemzeti Sport és az RTL+ együttműködésének részeként.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/varga-barnabasek-vajon-fogast-talalnak-a-comoi-gepezeten-londonba-latogat-a-dortmund-elo-felvezeto",
+        "published": "Tue, 24 Nov 2026 16:50:12 +0000",
+        "categories": [
+          "arsenal",
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/JEDhWlTKYCji2lNa8aqmQ4kkPtStlve_9sKi0ySdI08/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M0MTQxYmRmOGUzYjQ2MjFiMjk4OTcwMjhjY2EwMGQ4.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "db136b5571d7693270516aa2b4024a2a06f979c5d2edb0df9f5b111976f9a8cb",
+        "variants": {
+          "original": {
+            "body": "A Nemzeti Sport és az RTL+ együttműködésének részeként élő BL-felvezető számol be a Bajnokok Ligája alapszakaszának 5. fordulójáról, amelyben az Arsenal az angol csapattal játszik. A 18.45-kor kezdődő Galatasaray–Aston Villa mérkőzésen Sallai nem játszik a Villa ellen, míg az Arsenal (angol)–Borussia Dortmund (német) találkozó 21.00 órakor kezdődik és élőben követhető az NSO-n az RTL+ és a Sport1 közvetítése mellett. Ezen a játéknapon olyan további párosítások szerepelnek, mint a Bodö/Glimt–Linzer ASK, a Como–AEK Athén, a Feyenoord–Porto, a Manchester City–Napoli, az RB Leipzig–Lens, a Real Madrid–PSV és a Slovan Bratislava–Real Betis."
+          },
+          "tolkien": {
+            "title": "A Bajnokok Ligája ösvényein: Az Arsenal csillaga és a viadal vihara",
+            "body": "A Nemzeti Sport és az RTL+ szövetségének szent csarnokaiból hirdetik a Bajnokok Ligája alapszakaszának 5. fordulójának harcait, ahol az Arsenal népe a Borussia Dortmund seregével csap össze a 21.00 órakor kezdődő diadalban, az NSO krónikásainak élő figyelmétől kísérve. A sors könyvébe íratott az is, hogy a 18.45-kor rajtoló Galatasaray–Aston Villa viadalon Sallai nem lép mezőre az angolok ellen. A nagy küzdelem napján más birodalmak bajnokai – így a Bodö/Glimt, a Linzer ASK, a Como, az AEK Athén, a Feyenoord, a Porto, a Manchester City, a Napoli, az RB Leipzig, a Lens, a Real Madrid, a PSV, a Slovan Bratislava és a Real Betis seregtestei – is fegyverbe szólíttatnak az RTL+, valamint a Sport1 és a Sport2 lángoló csatornáin."
+          },
+          "reito": {
+            "title": "Sallai nélkül a gályán: Így indul a BL-cirkusz!",
+            "body": "A Nemzeti Sport és az RTL+ partnersége hozza házhoz a Bajnokok Ligája alapszakaszának 5. fordulóját, élén az Arsenal (angol)–Borussia Dortmund (német) 21.00 órás csatájával, amit az NSO-n is élőben sasolhatunk a Sport1 mellett. Nem maradhat említés nélkül a 18.45-kor kezdődő Galatasaray–Aston Villa meccs sem, ahol Sallai bizony nem játszik a Villa ellen. A TV-s palettán a Bodö/Glimt–Linzer ASK, a Como–AEK Athén, a Feyenoord–Porto, a Manchester City–Napoli, az RB Leipzig–Lens, a Real Madrid–PSV és a Slovan Bratislava–Real Betis párosok váltják egymást az RTL+, valamint a Sport1 és a Sport2 kínálatában."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -97,7 +182,35 @@
       "title": "Fico átírta a választási szabályokat Szlovákiában, beszántja az ellenzéknek kedvező levélszavazást",
       "link": "https://444.hu/2026/11/24/fico-atirta-a-valasztasi-szabalyokat-szlovakiaban-beszantja-az-ellenzeknek-kedvezo-levelszavazast?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
       "description": "Az erősen nyugatos, külföldön élő szavazókon üt az új szabály a jövő évi választások előtt.",
-      "image": ""
+      "image": "",
+      "prepared": {
+        "source": "444.hu",
+        "title": "Fico átírta a választási szabályokat Szlovákiában, beszántja az ellenzéknek kedvező levélszavazást",
+        "summary": "Az erősen nyugatos, külföldön élő szavazókon üt az új szabály a jövő évi választások előtt.",
+        "url": "https://444.hu/2026/11/24/fico-atirta-a-valasztasi-szabalyokat-szlovakiaban-beszantja-az-ellenzeknek-kedvezo-levelszavazast?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Tue, 24 Nov 2026 18:13:09 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "rss",
+        "sourceHash": "478a0b628bbea7fa5e559fc36f618678aadff2f264bd5375bb0a66f55db258b0",
+        "variants": {
+          "original": {
+            "body": "Robert Fico miniszterelnök átírta a választási szabályokat Szlovákiában, amivel megszünteti az ellenzéknek kedvező levélszavazást a külföldön élő szavazók számára. Ez a külföldön tartózkodó, erősen nyugatos választókat érinti a jövő évi választások előtt. A változás közvetlen gyakorlati következménye az, hogy a külföldön élők nehezebben vagy egyáltalán nem tudnak majd élni a szavazati jogukkal a módosított szabályok miatt. Az intézkedés közvetlenül beavatkozik a szlovákiai választási rendszerbe, átformálva a jövő évi választási esélyeket."
+          },
+          "tolkien": {
+            "title": "A vándorok hangjának elnémítása a távoli vidékeken",
+            "body": "Fico ura átírta a törvényeket Szlovákia birodalmában, hogy földbe döngölje a levélszavazás fegyverét, melyet az ellenzék seregének szántak. Ez a vészterhes változás a külső tartományokban lakó, nyugat felé tekintő vándorokat sújtja a jövő évi választások ütközete előtt. A rendelet fagyos leheletként éri a messze bujdosókat, kiknek eddig papíron jutott el a szó joga a hazai földre. Így az otthonuktól távol esők sorsa pecsételődik meg, mielőtt még a kürtök megszólalnának a szavazás napján."
+          },
+          "reito": {
+            "title": "A levélszavazás utolsó levele Szlovákiában",
+            "body": "Fico nagytakarítást rendezett Szlovákia választási szabályzatában, és egy tollvonással beszántotta az ellenzék kedvenc fegyverét, a levélszavazást. Az új rendszer pont a határokon túl tanyázó, nyugatos híveket találja telibe a jövő évi választások előtt. A gyakorlatban ez azt jelenti, hogy a távolról érkező szavazatok papírjai mostantól felesleges körré válnak a rendszerben. A külföldön élő polgárok így meglehetősen sajátos helyzetbe kerülnek, amikor a távolból próbálnának beleszólni a szlovákiai erőviszonyokba."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -115,7 +228,35 @@
       "title": "Egy korszak véget érhet Dubajban: sorra adják ki a luxusban élő maffiavezéreket",
       "link": "https://www.portfolio.hu/global/20261124/egy-korszak-veget-erhet-dubajban-sorra-adjak-ki-a-luxusban-elo-maffiavezereket-878842",
       "description": "<p>Dubaj évekig a nemzetközileg körözött bűnözők egyik kedvelt menedéke volt, ám az Egyesült Arab Emírségek mostanra sorra köti a kiadatási egyezményeket a nyugati országokkal. A fordulat leglátványosabb példája az ír drogmaffia feltételezett vezetője, Daniel Kinahan, akit augusztusban bilincsben szállítottak vissza Dublinba, de Franciaország, Belgium és Albánia is több tucat gyanúsítottat kapott vissza. Az Öböl menti állam így szeretné szorosabbra fűzni gazdasági kapcsolatait Európával, és helyreállítani az iráni dróntámadások által megtépázott hírnevét.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-138350386-epiteszet-epulet-felhokarcolo-luxus-modern-nap-toronyhaz-varos-754797.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-138350386-epiteszet-epulet-felhokarcolo-luxus-modern-nap-toronyhaz-varos-754797.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Egy korszak véget érhet Dubajban: sorra adják ki a luxusban élő maffiavezéreket",
+        "summary": "<p>Dubaj évekig a nemzetközileg körözött bűnözők egyik kedvelt menedéke volt, ám az Egyesült Arab Emírségek mostanra sorra köti a kiadatási egyezményeket a nyugati országokkal. A fordulat leglátványosabb példája az ír drogmaffia feltételezett vezetője, Daniel Kinahan, akit augusztusban bilincsben szállítottak vissza Dublinba, de Franciaország, Belgium és Albánia is több tucat gyanúsítottat kapott vissza. Az Öböl menti állam így szeretné szorosabbra fűzni gazdasági kapcsolatait Európával, és hely",
+        "url": "https://www.portfolio.hu/global/20261124/egy-korszak-veget-erhet-dubajban-sorra-adjak-ki-a-luxusban-elo-maffiavezereket-878842",
+        "published": "Tue, 24 Nov 2026 18:21:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-138350386-epiteszet-epulet-felhokarcolo-luxus-modern-nap-toronyhaz-varos-754797.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "f269a51c7cea8f0738dbc19646af3cb2ab295d6650e8519bf31793ace2718cf1",
+        "variants": {
+          "original": {
+            "body": "Az Egyesült Arab Emírségek, és különösen Dubaj szigorodó kiadatási egyezményeket kötött a nyugati országokkal, aminek következtében a helyi luxusban bujkáló nemzetközi bűnözők, köztük Daniel Kinahan ír drogmaffiavezér vagy a holland-marokkói Ridouan Taghi már nem érezhetik biztonságban magukat. A külföldi hatóságok munkáját egy tavaly elfogadott pénzmosás elleni törvény is segíti, amely megkönnyíti a vagyonelkobzást, így októberben egy nemzetközi akcióban több száz embert tartóztattak le online csalások miatt, és több mint 39 milliárd dollárnyi illegális vagyont zároltak. Az Emírségek lépései közé tartozik, hogy a külföldi kapcsolatok erősítése és a hírnevének helyreállítása érdekében sorra adja ki a gyanúsítottakat, mint például Franciaországnak a 28, Belgiumnak a 23, vagy Albániának a 16 kiemelt gyanúsítottat. A külföldi hatóságokkal való szorosabb együttműködés a külföldről irányított bűnözés visszaszorulásához is vezetett, amit jól mutat, hogy Svédországban a lőfegyverrel elkövetett gyilkosságok száma a 2022-es 62-ről idén eddig 15-re csökkent."
+          },
+          "tolkien": {
+            "title": "A déli homok várának árnyéka és az alvilág urainak bukása",
+            "body": "Az Egyesült Arab Emírségek aranyló bástsái, melyek egykor bevehetetlen menedéket nyújtottak a törvények elől menekülő bűnözők seregének, most megnyitották kapuikat a nyugati birodalmak igazsága előtt. Az alvilág trónjain ülő sötét urak, mint a láncra vert Daniel Kinahan, kiűzettek a hamis biztonság tornyaiból, hogy fémbilincsben, acél szárnyakon térjenek meg bűnhődésük földjére. Az ősi szövetségek szele elsöpri a piszkos kincsek halmait, miközben a gazdátlanul maradt kincstárakból harminckilenc milliárd aranyat érő vagyont ragadnak el a világ őrzői. A dicső és kegyetlen megtisztulás vihara elől bujdosva a korábbi királyok most új, rejtett fészket keresnek a pusztaságban, míg az északi vidékeken, Svédország fagyos mezáin lecsendesült a gyilkos fegyverek dörrenése."
+          },
+          "reito": {
+            "title": "Luxusbörtön helyett menetjegy Dublinba: amikor a dubaji napfény égetni kezd",
+            "body": "Az Egyesült Arab Emírségek úgy döntött, hogy a napfényes Dubaj nem szolgál tovább all inclusive üdülőhelyként a nemzetközi körözésű bűnözők számára, így sorra pakolják ki a kartellvezéreket a sivatagi luxusból. Daniel Kinahan, a hírhedt ír drogmaffia feje is megtapasztalhatta ezt a rideg valóságot, amikor augusztusban egy katonai gép gyomrában utazhatott vissza Dublinba, ahol aligha a helyi strandok várják. A pénzmosás elleni új törvényeknek köszönhetően a hatóságok nemcsak a bűnözőket, hanem a pénztárcájukat is megritkították: októberben egy laza mozdulattal több mint 39 milliárd dollárnyi illegális vagyont zároltak online csalások miatt. Franciaország 28, Belgium 23, Albánia pedig 16 kiemelt gyanúsítottat kapott vissza díszcsomagolásban, míg a svéd utcákon a fegyveres balhék száma is drasztikusan visszaesett, miután a főnököket kitessékelték az Öböl-térségből."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -133,7 +274,35 @@
       "title": "Beszakadt a réz ára",
       "link": "https://www.portfolio.hu/global/20261124/beszakadt-a-rez-ara-878840",
       "description": "<p>Kedden fontonként 5,4 dollár alá esett a réz határidős jegyzése, ami március 24. óta a legalacsonyabb szint. A hétfői, Jensen Huang Nvidia-vezérigazgatóhoz köthető széles körű fémpiaci emelkedés lendülete ugyanis gyorsan elfogyott. Az árakat a mesterséges intelligenciához kapcsolódó beruházások körüli bizonytalanság és a visszafogott kínai kereslet is nyomja, hiszen a réz az adatközpontok és az elektromos hálózatok egyik kulcsfontosságú nyersanyaga. A befektetők emellett arra számítanak, hogy a Federal Reserve decemberben és januárban is kamatot emelhet. Bár Kínában továbbra is magasak a fizikai szállítási prémiumok, ez inkább a szűkös kínálatot jelzi, nem pedig a kereslet érdemi élénkülését.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/r/e/z/rez-651289.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/r/e/z/rez-651289.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Beszakadt a réz ára",
+        "summary": "<p>Kedden fontonként 5,4 dollár alá esett a réz határidős jegyzése, ami március 24. óta a legalacsonyabb szint. A hétfői, Jensen Huang Nvidia-vezérigazgatóhoz köthető széles körű fémpiaci emelkedés lendülete ugyanis gyorsan elfogyott.",
+        "url": "https://www.portfolio.hu/global/20261124/beszakadt-a-rez-ara-878840",
+        "published": "Tue, 24 Nov 2026 18:02:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/r/e/z/rez-651289.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "b6533fbd64ad33e16015df12b315ed3c98c9b7fb9eb9ff50f41cee4b593539c4",
+        "variants": {
+          "original": {
+            "body": "A Portfolio.hu gazdasági rovata szerint kedden fontonként 5,4 dollár alá esett a réz határidős jegyzése, ami március 24. óta nem látott mélypontot jelent a nemzetközi fémpiacon. A visszaesés közvetlenül érinti az adatközpontok és elektromos hálózatok kiépítésében kulcsfontosságú réz keresletét, mivel a technológiai szektor esetleges megtorpanása gyengítheti azt. A folyamatot tovább nehezíti, hogy a befektetők a Federal Reserve decemberi és januári kamatemeléseivel számolnak, míg a kínai piacon magasan maradtak a fizikai szállítási prémiumok."
+          },
+          "tolkien": {
+            "title": "A vörös fém árnyéka",
+            "body": "A nemzetközi fémpiacon a réz határidős jegyzése kedden fontonként 5,4 dollár alá zuhant, elmerülve a március 24. óta nem látott mélységek sötét árnyékában. E sorsfordító apadás közvetlenül sújtja az adatközpontok és elektromos hálózatok kiépítésének fémét, mely az AI-infrastruktúra építőköveként reszket a technológiai szektor bizonytalanságában. A fellegek tornyosulnak, mert a befektetők szívét a Federal Reserve várható decemberi és januári kamatemeléseinek fagyos lehelete járja át."
+          },
+          "reito": {
+            "title": "Zuhanórepülésben a vörösréz birodalma",
+            "body": "Kedden a réz határidős jegyzése mélyrepülésbe kezdett, és fontonként 5,4 dollár alá esve csusszant be a március 24. óta nem látott legmélyebb gödörbe. Ez a hirtelen pofon közvetlenül arcul csapja az adatközpontok és elektromos hálózatok építőanyagát, megrengetve az AI-infrastruktúra vöröslő alapjait. Ráadásul a tőzsdei kaszinóban a Federal Reserve decemberi és januári kamatemeléseire fogadnak, ami pont olyan üdítően hat a nyersanyagpiacra, mint egy pofon a sós vízben."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -142,7 +311,35 @@
       "title": "Sokkal több múlik a háborún, mint Ukrajna jövője - Meddig mehet el a NATO?",
       "link": "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
       "description": "<p>Felgyorsulni látszanak az események Ukrajnában. Moszkva és Kijev is igyekszik légicsapásokkal meggyengíteni ellenfelét, utóbbiak az orosz energetikai infrastruktúrát célzó akciókért komoly kritikákat kapnak az Egyesült Államoktól. Az ellátási lánc elleni ukrán támadások csúcspontján a tengerbe szakadt az orosz megszállás jelképének, a krími hídnak egy szakasza is. A Kreml-ben a híd elleni támadáson túl komoly felháborodást váltott ki az is, hogy kiderült: francia katonák végeznek kiképzési és karbantartási tevékenységet ukrán területen. Elemzők eltérő véleményen vannak azzal kapcsolatban, hogy a sencseni kínai-amerikai-orosz csúcstalálkozó egy ’új jaltai konferencia’, vagy pusztán diplomáciai erőfitogtatás volt-e, ahogyan az is fontos kérdés, mikor kaphat Európa helyet a tárgyalóasztalnál. <br /> <br /> Miért érdeke a NATO-nak támogatni Ukrajnát? Hogy állnak a harcoló felek a fronton? Ki nyert a sencseni csúcstalálkozóval?A<a href=\"https://www.portfolio.hu/podcast/global-insight\"> Global Insight</a> legfrissebb adásában erről kérdeztük Kis-Benedek József külpolitikai szakértőt.</p>",
-      "image": "https://pcdn.hu/articles/images-lg/g/i/_/gi-cimlap-1500x844-14-1-872246.jpg"
+      "image": "https://pcdn.hu/articles/images-lg/g/i/_/gi-cimlap-1500x844-14-1-872246.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Sokkal több múlik a háborún, mint Ukrajna jövője - Meddig mehet el a NATO?",
+        "summary": "<p>Felgyorsulni látszanak az események Ukrajnában. Moszkva és Kijev is igyekszik légicsapásokkal meggyengíteni ellenfelét, utóbbiak az orosz energetikai infrastruktúrát célzó akciókért komoly kritikákat kapnak az Egyesült Államoktól. Az ellátási lánc elleni ukrán támadások csúcspontján a tengerbe szakadt az orosz megszállás jelképének, a krími hídnak egy szakasza is.",
+        "url": "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
+        "published": "Tue, 24 Nov 2026 18:00:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-lg/g/i/_/gi-cimlap-1500x844-14-1-872246.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "34cbfaf25edf983b325a4b66bfe8ec28d3746d69498b3a491926155dd92ab7ca",
+        "variants": {
+          "original": {
+            "body": "A Portfolio külpolitikai podcastjának, a Global Insightnak a legfrissebb epizódja a Portfolio YouTube-csatornáján, valamint a Spotify és az Apple Podcast felületein érhető el, miközben a szerkesztőség a kéthetente jelentkező műsor következő adásával készül. A külföldi témákhoz és nemzetközi eseményekhez kapcsolódó hírfolyam és podcast-epizódok mellett a tartalom a Portfolio felületein követhető. A műsorhoz kapcsolódó korábbi adások szintén visszanézhetők a megadott hivatkozásokon keresztül. A hallgatók számára lehetőség nyújtódik a csatornára való feliratkozásra is."
+          },
+          "tolkien": {
+            "title": "A Global Insight Krónikája: Hangok a távolból",
+            "body": "A Portfolio külföldi tájak eseményeit kutató, Global Insight nevű videós podcastjának legújabb epizódja emelkedett fel a YouTube csatorna vizuális folyamain, valamint a Spotify és az Apple Podcast hangteli mezőin. A kéthetente megújuló, nemzetközi ügyekkel foglalkozó krónika hamarosan újabb adással siet a hallgatók elé, hogy a messzi birodalmak titkait feltárja. A régebbi idők hangfelvételei mind visszanézhetők a feljegyzések hálójában. Az utazók és krónika-olvasók pedig feliratkozással pecsételhetik meg hűségüket, hogy soha el ne mulasszák a következő üzenetet."
+          },
+          "reito": {
+            "title": "Global Insight: Amikor a világhírű mikrofonok elindulnak",
+            "body": "A Portfolio Global Insight névre hallgató, külpolitikai videós podcastja immár a YouTube-on, a Spotify-on és az Apple Podcast hullámain is osztja az észt a nemzetközi ügyekről. A kéthetente menetrendszerűen érkező adásgép hamarosan újabb epizóddal robban be, addig is a régiek elől teljesen szabad a pálya a visszanézéshez. Egy gombnyomással feliratkozhatsz a csatornára, ha véletlenül nem szeretnél lemaradni a soron következő világmegváltó tényfeltárásról. A külföldi események hálójában botorkáló hallgatóknak ez legalább annyira kötelező, mint egy rossz helyen hagyott táskás pénz."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -151,7 +348,35 @@
       "title": "Magyar Péter együtt koszorúzott Volodimir Zelenszkijjel – Egymilliárd forintos támogatást kap Kijev Magyarországtól",
       "link": "https://www.portfolio.hu/global/20261124/magyar-peter-egyutt-koszoruzott-volodimir-zelenszkijjel-egymilliard-forintos-tamogatast-kap-kijev-magyarorszagtol-878838",
       "description": "<p>Az ungvári katonasíroknál kezdte meg kárpátaljai látogatását Magyar Péter miniszterelnök - számolt be a kormányfő a <a href=\"https://www.facebook.com/peter.magyar.102/posts/pfbid0nbXRxLLqTWuUiS9ohsBvetxs2gJC23fjvgjAYKe454M4os7o4CC5ZMLhWB1fqoWcl\">Facebookon</a> kedden. Magyar Péter emellett Kijevnek és a kárpátaljai magyarság számára is támogatásokat jelentett be egy-egy milliárd forintos értékben.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/m/a/g/magyar-peter-miniszterelnok-volodimir-zelenszkij-ukran-elnok-872396.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/m/a/g/magyar-peter-miniszterelnok-volodimir-zelenszkij-ukran-elnok-872396.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Magyar Péter együtt koszorúzott Volodimir Zelenszkijjel – Egymilliárd forintos támogatást kap Kijev Magyarországtól",
+        "summary": "<p>Az ungvári katonasíroknál kezdte meg kárpátaljai látogatását Magyar Péter miniszterelnök - számolt be a kormányfő a <a href=\"https://www.facebook.com/peter.magyar.102/posts/pfbid0nbXRxLLqTWuUiS9ohsBvetxs2gJC23fjvgjAYKe454M4os7o4CC5ZMLhWB1fqoWcl\">Facebookon</a> kedden. Magyar Péter emellett Kijevnek és a kárpátaljai magyarság számára is támogatásokat jelentett be egy-egy milliárd forintos értékben.</p>",
+        "url": "https://www.portfolio.hu/global/20261124/magyar-peter-egyutt-koszoruzott-volodimir-zelenszkijjel-egymilliard-forintos-tamogatast-kap-kijev-magyarorszagtol-878838",
+        "published": "Tue, 24 Nov 2026 17:57:00 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/m/a/g/magyar-peter-miniszterelnok-volodimir-zelenszkij-ukran-elnok-872396.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "02e7169c525a4325b8514f0c47f491b67c72ea45a695232fc0a50dbf5ddf3834",
+        "variants": {
+          "original": {
+            "body": "Magyarországon a belföldi közéletet érintően Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán elnök együtt koszorúzta meg az ungvári temetőben a háború ukrán és magyar származású áldozatainak sírját. A kormányfő bejelentése szerint Magyarország egymilliárd forint értékben egészségügyi és energetikai eszközökkel, gyógyszerekkel és közlekedési járművekkel támogatja Ukrajnát. Emellett a TISZA-kormány döntése értelmében a 2026-os költségvetésből további egymilliárd forint jut a kárpátaljai magyarságnak, és létrehozzák a Zrínyi Ilona Szociális Fejlesztési Alapot is. A megállapodások és a közös tiszteletadás nyomán közvetlen diplomáciai kapcsolat és konkrét anyagi segítség érkezik a hazai és a kárpátaljai érintettekhez."
+          },
+          "tolkien": {
+            "title": "A Hősök Sírkertje és az Arany Ereje",
+            "body": "A belföldi politikai porondon Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán elnök együtt lépett az ungvári temető hantjaihoz, hogy leróják tiszteletüket a háború magyar és ukrán áldozatai előtt. Az emlékezés szent pillanata után a hatalom gyűrűje megnyílt: Magyarország egymilliárd forint értékű egészségügyi és energetikai kinccsel, gyógyszerekkel és szekerekkel segíti meg Ukrajnát. A TISZA-kormány határozata pedig arra kötelezi a kincstárat, hogy a 2026-os esztendő költségvetéséből további egymilliárd ezüsttel gyarapítsa a kárpátaljai magyarságot, valamint megalapítsa a Zrínyi Ilona Szociális Fejlesztési Alapot. Ez a fegyverek árnyékában köttetett szövetség gyógyírt hoz a sebekre, és új utat nyit a népek krónikájában."
+          },
+          "reito": {
+            "title": "Koszorú és csekk: így múlik a világ dicsősége Ungváron",
+            "body": "A belföldi események sűrűjében Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán elnök közösen koszorúzta meg az ungvári temetőben az ukrán-orosz háború magyar és ukrán származású áldozatainak sírjait. A kegyeletnyilvánítás után azonnal megérkezett a gyakorlati következmény: Magyarország nem kevesebb mint egymilliárd forint értékű egészségügyi, energetikai, gyógyszer- és járműszállítmánnyal támogatja Ukrajnát. Sőt, a TISZA-kormány határozata értelmében a 2026-os büdzséből további egymilliárd forint jut a kárpátaljai magyarságnak, miközben még a Zrínyi Ilona Szociális Fejlesztési Alapot is életre hívják. Ettől a nagylelkű pénzesőtől aztán biztosan helyreáll a békés egyensúly a határ két oldalán."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -160,7 +385,36 @@
       "title": "A rácsok mögött hallgathatják meg Matolcsy Györgyöt: \"ha nem jön el hozzánk, akkor megyünk mi\"",
       "link": "https://www.portfolio.hu/gazdasag/20261124/a-racsok-mogott-hallgathatjak-meg-matolcsy-gyorgyot-ha-nem-jon-el-hozzank-akkor-megyunk-mi-878836",
       "description": "<p>Csőszi Attila, a Magyar Nemzeti Bank (MNB) működésével kapcsolatos visszaéléseket feltáró parlamenti vizsgálóbizottság kormánypárti elnöke a <a href=\"https://www.facebook.com/reel/28636217036056630\">Facebookon </a>kedden közzétett videójában bejelentette: ha Matolcsy György nem hajlandó megjelenni előttük, akkor ők mennek el hozzá.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/m/a/t/matolcsy-gyorgy-volt-mnb-elnok-862512.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/m/a/t/matolcsy-gyorgy-volt-mnb-elnok-862512.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "A rácsok mögött hallgathatják meg Matolcsy Györgyöt: \"ha nem jön el hozzánk, akkor megyünk mi\"",
+        "summary": "<p>Csőszi Attila, a Magyar Nemzeti Bank (MNB) működésével kapcsolatos visszaéléseket feltáró parlamenti vizsgálóbizottság kormánypárti elnöke a <a href=\"https://www.facebook.com/reel/28636217036056630\">Facebookon </a>kedden közzétett videójában bejelentette: ha Matolcsy György nem hajlandó megjelenni előttük, akkor ők mennek el hozzá.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261124/a-racsok-mogott-hallgathatjak-meg-matolcsy-gyorgyot-ha-nem-jon-el-hozzank-akkor-megyunk-mi-878836",
+        "published": "Tue, 24 Nov 2026 17:43:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/m/a/t/matolcsy-gyorgy-volt-mnb-elnok-862512.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "8c1aeebe933695cab0599e0eb2d49d6c8b7db6ec2f123bf21bf6da1b25167660",
+        "variants": {
+          "original": {
+            "body": "A parlamenti vizsgálóbizottság csütörtök délután fél 5-kor ülésezik, hogy döntsön Matolcsy György volt jegybankelnök meghallgatásának részleteiről, miután a Budai Központi Kerületi Bíróság hétfőn három hónappal, 2027. február 23-ig meghosszabbította a letartóztatását. Csőszi Attila bizottsági elnök azt fogja javasolni, hogy Matolcsyt a büntetés-végrehajtási intézetben hallgassák meg, mivel a fogva tartása nem akadályozhatja meg a belföldi parlament testületét a feladata elvégzésében. A Magyar Nemzeti Bank korábbi elnökét az ügyészség különösen jelentős vagyoni hátrányt okozó gazdasági csalás bűntettével és más bűncselekményekkel gyanúsítja."
+          },
+          "tolkien": {
+            "title": "A vasrácsok árnyékában emelkedő kérdések ítélete",
+            "body": "Matolcsy György volt jegybankelnök meghallgatásának sorsáról határoz majd a parlamenti vizsgálóbizottság, amely csütörtök délután fél 5-kor gyűlik össze a belföldi hatalom falai között. Mivel a Budai Központi Kerületi Bíróság hétfőn három teljes holdtölte hosszával, 2027. február 23-ig meghosszabbította a fogva tartását, Csőszi Attila elnök az igazság bajnokaként azt indítványozza, hogy a sötét börtön falai közé, a büntetés-végrehajtási intézetbe zarándokoljanak a kérdésekkel. A Magyar Nemzeti Bank egykori ura ellen, akit az ügyészség különösen jelentős vagyoni hátrányt okozó gazdasági csalás és más bűnök sötét árnyával gyanúsít, a törvényhozás népe nem hagyja elnémítani a vizsgálatot."
+          },
+          "reito": {
+            "title": "Kihallgatás házhoz szállítással, avagy börtönben a volt bankelnök",
+            "body": "Matolcsy György volt jegybankelnöknek személyesen kell felelnie a kérdésekre, ugyanis a belföldi parlament vizsgálóbizottsága csütörtök délután fél 5-kor összeülő testülete határoz majd a meghallgatásáról. Mivel a Budai Központi Kerületi Bíróság hétfőn papíron ispecsételte a sorsát, és három hónappal, 2027. február 23-ig meghosszabbította a letartóztatását, Csőszi Attila bizottsági elnök már meg is mentette a logisztikát: ha a volt bankár nem jön a törvényhozás asztalához, a belföldi hatalom képviselői sétálnak be utána a büntetés-végrehajtási intézetbe. A Magyar Nemzeti Bank egykori éllovasát az ügyészség különösen jelentős vagyoni hátrányt okozó gazdsági csalás bűntettével és más finomságokkal gyanúsítja, de a rácsok megléte a belföldi parlament embereit egy pillanatra sem állítja meg."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -205,7 +459,35 @@
       "title": "„Nincs idő ünnepelni\" - Andoni Iraola figyelmeztette Szoboszlaiékat a BL-meccs előtt",
       "link": "https://www.origo.hu/sport/sport-futball/2026/11/andoni-iraola-club-brugge-liverpool-bl",
       "description": "Az FC Liverpool a belga Club Brugge vendégeként lép pályára.",
-      "image": "https://cdn.origo.hu/2026/11/W2kPMf7lwyDnH9Ss9AViec6zrCHtti4qfc3CiVPD8HY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ZmMDZkZGM0ZmI4ODRhNzJhNWE0YWY3MzJkMGMzYzIx.jpg"
+      "image": "https://cdn.origo.hu/2026/11/W2kPMf7lwyDnH9Ss9AViec6zrCHtti4qfc3CiVPD8HY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ZmMDZkZGM0ZmI4ODRhNzJhNWE0YWY3MzJkMGMzYzIx.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "„Nincs idő ünnepelni\" - Andoni Iraola figyelmeztette Szoboszlaiékat a BL-meccs előtt",
+        "summary": "Az FC Liverpool a belga Club Brugge vendégeként lép pályára.",
+        "url": "https://www.origo.hu/sport/sport-futball/2026/11/andoni-iraola-club-brugge-liverpool-bl",
+        "published": "Tue, 24 Nov 2026 17:12:35 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/W2kPMf7lwyDnH9Ss9AViec6zrCHtti4qfc3CiVPD8HY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ZmMDZkZGM0ZmI4ODRhNzJhNWE0YWY3MzJkMGMzYzIx.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "8b4f65a4abdf6e37a68a2e54695d7447639dc07abc3da07307ca243ca1ace442",
+        "variants": {
+          "original": {
+            "body": "Andoni Iraola vezetőedző figyelmeztette Szoboszlai Dominikot és a Liverpoolt a Bajnokok ligája szerdai, Club Brugge elleni mérkőzése előtt, amelyen a nyolcaddöntőbe jutást jelentő legjobb nyolc közé kerülésért harcolnak. A Manchester United elleni 4-0-s győzelem és az első gólt szerző Szoboszlai magabiztossága után a szakember jelezte, hogy a sűrű menetrend miatt nincs idő az ünneplésre, és a kilencpontos belgák elleni idegenbeli találkozón kiváló formát kell mutatniuk. A nyolcadik helyen álló Liverpool és a kilencedik Club Brugge összecsapásán Iraola nyílt mérkőzésre, agresszív játékra és kemény egy az egy elleni párharcokra számít. A vezetőedző emellett hangsúlyozta, hogy a szerdai Bajnokok ligája-találkozót követően azonnal az Everton elleni derbire fókuszálnak a nagy megterhelést jelentő heti menetrendben."
+          },
+          "tolkien": {
+            "title": "A győzelem lángja nem melegíthet túl sokáig, mert a Bajnokok ligája sötét kapui előtt már dörömböl a sors",
+            "body": "A Bajnokok ligája porondján a Liverpool és Szoboszlai Dominik a Manchester United felett aratott 4-0-s diadal és a magyar játékos szabadrúgásgóljának dicsfényében készül a Club Brugge elleni, nyolcaddöntőért vívott csatára. Andoni Iraola hadvezér szigorú szavakkal intette éberségre harcosait a keddi sajtónájékoztatón, mondván, a sűrű idők sodrában nincs megállás az ünneplésre, mikor a kilencpontos ellenfelek viadalán a nyolcadik és a kilencedik hely sorsa a tét. A tíz győzelmet és egy döntetlent számláló, lánglelkűnek bizonyult belgák ellen a győzelem kapujába csak kiváló formával és lankadatlan agresszióval lehet belépni a nyílt mezőn. A vezér utolsó intelmeként kijelentette, hogy e Bajnokok ligája-küzdelem után azonnal az Everton elleni újabb vihar szele csap le rájuk, hatalmas terhet róva a csapat vállára."
+          },
+          "reito": {
+            "title": "Nincs idő az ünneplésre, ha a Bajnokok ligája gyepszőnyegén a liverpooli gépezet és a Club Brugge csap össze",
+            "body": "A Bajnokok ligája szerdai csatája előtt Andoni Iraola vezetőedző gyorsan kijózanította a Manchester Unitedet 4-0-ra elporoló, a Szoboszlai Dominik által lőtt szabadrúgásgól miatt egyébként kiváló hangulatban lévő Liverpoolt. A nyolcadik helyen álló angolok és a kilencedik helyezett, tíz győzelmet és egy döntetlent felmutató Club Brugge meccsén mindkét kilencpontos gárda a legjobb nyolc közé igyekszik, így Iraola figyelmeztetése szerint a sűrű naptárban most nincs helye a diadalittas ünneplésnek. A spanyol mester nyílt sisakos, adok-kapok összecsapásra számít, ahol a belgák energiája ellen csak csúcsformával lehet labdába rúgni a Bajnokok ligája gyepszőnyegén. Miután túl lesznek ezen a Bajnokok ligája-vizsgán, a Liverpool brigádja rögtön az Everton elleni derbi sűrűjében találja magát, két nap alatt letudva a heti adagot."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -250,7 +532,37 @@
       "title": "Megszavazta a parlament Ficóék javaslatát, eltörlik a levélszavazást Szlovákiában",
       "link": "https://telex.hu/kulfold/2026/11/24/szlovakia-parlament-megszavazta-levelszavazas-eltorles-robert-fico",
       "description": "Az ellenzék bejelentette, az alkotmánybíróságon támadják meg a törvényt, ha az államfő aláírja azt.",
-      "image": "https://assets.telex.hu/images/20261124/1795542163-temp-l8bdvicpcckgbeimhoi_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261124/1795542163-temp-l8bdvicpcckgbeimhoi_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Megszavazta a parlament Ficóék javaslatát, eltörlik a levélszavazást Szlovákiában",
+        "summary": "Az ellenzék bejelentette, az alkotmánybíróságon támadják meg a törvényt, ha az államfő aláírja azt.",
+        "url": "https://telex.hu/kulfold/2026/11/24/szlovakia-parlament-megszavazta-levelszavazas-eltorles-robert-fico",
+        "published": "Tue, 24 Nov 2026 19:12:17 +0100",
+        "categories": [
+          "parliament",
+          "belfold",
+          "foreign"
+        ],
+        "image": "https://assets.telex.hu/images/20261124/1795542163-temp-l8bdvicpcckgbeimhoi_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "b0e0cd1e7045d8b271b9cea99c3ece6eff5346f89a0aee6b54fabd1ba0ed08f0",
+        "variants": {
+          "original": {
+            "body": "A szlovák parlament által 79 igennel és 71 ellenszavazattal elfogadott törvénymódosítás eltörli a levélszavazást Szlovákiában, ami a külföldön élők parlamenti választáson való részvételét és az államfőválasztást érinti. A gyakorlati következmény az, hogy a jövőben külföldről csak személyesen, a szlovák külképviseleteken lehet szavazni parlamenti választáson, ráadásul a módosítás az államfőválasztásra is kiterjeszti a külföldről voksolás lehetőségét, míg a megyei és önkormányzati helyhatósági választásokat a változtatás nem érinti. A jövő év januárjától hatályosuló jogszabályhoz még az államfő, Peter Pellegrini aláírása szükséges, akinek az elnöki palota vizsgálata után kell döntenie, miközben az ellenzéki Progresszív Szlovákia (PS) alkotmánybírósági beadvánnyal fenyegetőzik, ha nem lesz elnöki vétó. Az Irány (Smer-SD) által beterjesztett változtatást a belföldi parlament azért szavazta meg, mert a külföldön élők igényelték a személyes szavazást, míg a belföldi és külföldi közéletet formáló törvény ellen tiltakozó ellenzék szerint ez a demokrácia csorbítása."
+          },
+          "tolkien": {
+            "title": "A távolból szóló akarat árnyéka a törvény csarnokában",
+            "body": "A belföldi parlament magas falai között a Robert Fico vezette Irány képviselőinek akarata szerint 79 igennel és 71 ellenszavazattal megpecsételődött a szlovákiai levélszavazás sorsa, amely mélyen érinti a külföldön élő polgárokat, a parlamenti választásokat és a legfelsőbb méltóság választását is. E döntés nyomán a távolban rekedt vándorok számára elvész a papíralapú üzenet küldésének útja, és a jövőben kizárólag a szlovák külképviseletek küszöbénél, személyesen róhatják le voksukat, miközben a megyei és önkormányzati helyhatósági választások szentélyét ez a változás elkerüli. A jövő év januárjában érvénybe lépő új törvény pecsétje még Peter Pellegrini államfő kezében van, akinek jóváhagyását az elnöki palota bölcsei vizsgálják, ám a viharfelhőket gyűjtő ellenzéki Progresszív Szlovákia már az alkotmánybíróság legfőbb bíráihoz fordulna, ha elmarad az elnöki fék. Így feszül egymásnak a belföldi törvényhozás hatalma és a külföldi hazátlanok sorsa egy olyan órán, amely megrengeti a szlovák demokrácia alapjait."
+          },
+          "reito": {
+            "title": "Pecsét a papíron, pofon a levélnek: így szavaztak a képviselők",
+            "body": "A belföldi parlament üléstermében 79 igen és 71 nem mellett átment az a törvénymódosítás, amely alapjaiban forgatja fel a szlovákiai választási rendszert, közvetlenül érintve a levélszavazást, a külföldön élőket és az államfőválasztást. A gyakorlati csavar az, hogy a levélszavazás eltörlésével a jövőben külföldről kizárólag a szlovák külképviseleteken lehet személyesen szavazni, miközben az új szabály kiterjeszti a külföldi voksolást az államfőválasztásra is, a megyei és önkormányzati helyhatósági választásokat pedig békén hagyja. A jövő év januárjától hatályos jogszabály sorsa most Peter Pellegrini államfő asztalán hever vizsgálatra várva, bár az ellenzéki Progresszív Szlovákia már fenyegetőzik az alkotmánybírósággal arra az esetre, ha elmaradna a vétó. A Smer-SD által beterjesztett, utazásmentes külföldi szavazást ígérő ötlet ezzel hivatalosan is betalált a szlovák politika legforróbb pontjára, ahol a kormánypárt és a bíráló ellenzék meccsel egymással."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Telex",
@@ -344,12 +656,40 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Tue, 24 Nov 2026 19:40:01 +0000",
+      "published": "Tue, 24 Nov 2026 21:00:41 +0000",
       "observed": "2026-11-24T19:23:57.781949+01:00",
-      "title": "Három perc alatt két gólt szerzett a Leipzig, elsült Gyökeres lába – BL-eredménykövető",
+      "title": "Vitálisék hátrányban Comóban, újfent döntetlen Manchesterben – BL-eredménykövető",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/sallai-nelkul-fogadja-az-el-gyoztest-a-galata-a-sarkkoron-tul-jatszik-a-lask-bl-eredmenykoveto",
-      "description": "Vezet a Porto a Feyenoord vendégeként, Vitális pályán a Como ellen az AEK-ban.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/pdYQqf7aNxH1oHzxuP83GAxVDCFdffMyOouNMPdFHOw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2FmOTY3MjZkNzViZjQwY2ZiZTg1ZGYzYzYzOGJmZWRj.webp"
+      "description": "Egyenlített a BVB Londonban, Cucho duplázott Pozsonyban.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/IzYTbFmeJ2i_P3tF8KPxTbw_i3iJ17Ffl_0jDBBitiw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VhM2QzMjY5NmY1NzQ5MjhiZjVmNTk3NmU5YTI5MTdj.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Vitálisék hátrányban Comóban, újfent döntetlen Manchesterben – BL-eredménykövető",
+        "summary": "Egyenlített a BVB Londonban, Cucho duplázott Pozsonyban.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/sallai-nelkul-fogadja-az-el-gyoztest-a-galata-a-sarkkoron-tul-jatszik-a-lask-bl-eredmenykoveto",
+        "published": "Tue, 24 Nov 2026 21:00:41 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/IzYTbFmeJ2i_P3tF8KPxTbw_i3iJ17Ffl_0jDBBitiw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VhM2QzMjY5NmY1NzQ5MjhiZjVmNTk3NmU5YTI5MTdj.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "1804b6b678b73a0a88c7e12ef8966bc0d88cb4b3c1de0488167b2d3fe646cb0e",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok ligája alapszakaszának ötödik fordulójában a Como olasz csapata 1–0-ra győzte le a görög AEK Athént a 57. percben szerzett Milla-találattal, míg a Manchester City angol együttese 2–1-re kapott ki az olasz Napolitól, ahol a hazaiak gólját Buaddi szerezte a 67. percben, a vendégek részéről pedig Höjlund (55.) és Lang (78.) volt eredményes. A változás a Bajnokok ligája alapszakaszának ötödik fordulójában érintette a mérkőző csapatokat, köztük a Comót, az AEK Athént, a Manchester Cityt és a Napolit."
+          },
+          "tolkien": {
+            "title": "A Bajnokok Ligájának csarnokai: Vérző mezők és dicső múlások",
+            "body": "A Bajnokok ligája alapszakaszának ötödik fordulójában a Como olasz serege 1–0 arányban kerekedett felül a görög AEK Athén felett Milla 57. percben zendülő góljával, míg a Manchester City bástyája 1–2-es vereséget szenvedett az olasz Napoli hadától Buaddi (67.), Höjlund (55.) és Lang (78.) találatai nyomán. E harcok a Bajnokok ligája alapszakaszának ötödik fordulójának sorsát pecsételték meg, eldöntve a csatatéren maradtak dicsőségét vagy bukását. A küzdelem ezen állomása mély barázdákat szántott az európai küzdelem nagykönyvébe, új fejezetet nyitva a részt vevő nemzetek krónikájában."
+          },
+          "reito": {
+            "title": "Komói füst és manchesteri füstbavész a Bajnokok Ligájában",
+            "body": "A Bajnokok ligája alapszakaszának ötödik fordulójában a Como olasz legénysége pontban a 57. percben Milla révén hozta le a kötelezőt az AEK Athén ellen 1–0-ra, míg a Manchester City otthon kapott ki 2–1-re a Napolitól a Buaddi (67.), Höjlund (55.) és Lang (76. [forrás szerinti 76.]) trió gólzáporában. A Bajnokok ligája alapszakaszának ötödik fordulója ezáltal rendet vágott a pontok között, bemutatva, hogy a papírforma néha csak arra jó, hogy papíron maradjon."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -367,7 +707,36 @@
       "title": "Elit társasághoz csatlakozhat az Arsenal, Sallai nem játszik a Villa ellen – ilyen volt a keddi BL-játéknap felvezetése",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/elit-tarsasaghoz-csatlakozhat-az-arsenal-sallai-nem-jatszik-a-villa-ellen-ilyen-volt-a-keddi-bl-jateknap-felvezetese",
       "description": "Kilenc mérkőzés szerepel a keddi játéknap programjában. Hírek, videók és exkluzív tartalmak a Nemzeti Sport és az RTL+ együttműködésének részeként.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/JEDhWlTKYCji2lNa8aqmQ4kkPtStlve_9sKi0ySdI08/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M0MTQxYmRmOGUzYjQ2MjFiMjk4OTcwMjhjY2EwMGQ4.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/JEDhWlTKYCji2lNa8aqmQ4kkPtStlve_9sKi0ySdI08/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M0MTQxYmRmOGUzYjQ2MjFiMjk4OTcwMjhjY2EwMGQ4.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Elit társasághoz csatlakozhat az Arsenal, Sallai nem játszik a Villa ellen – ilyen volt a keddi BL-játéknap felvezetése",
+        "summary": "Kilenc mérkőzés szerepel a keddi játéknap programjában. Hírek, videók és exkluzív tartalmak a Nemzeti Sport és az RTL+ együttműködésének részeként.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/elit-tarsasaghoz-csatlakozhat-az-arsenal-sallai-nem-jatszik-a-villa-ellen-ilyen-volt-a-keddi-bl-jateknap-felvezetese",
+        "published": "Tue, 24 Nov 2026 17:37:12 +0000",
+        "categories": [
+          "arsenal",
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/JEDhWlTKYCji2lNa8aqmQ4kkPtStlve_9sKi0ySdI08/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M0MTQxYmRmOGUzYjQ2MjFiMjk4OTcwMjhjY2EwMGQ4.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "db136b5571d7693270516aa2b4024a2a06f979c5d2edb0df9f5b111976f9a8cb",
+        "variants": {
+          "original": {
+            "body": "A Nemzeti Sport és az RTL+ együttműködésének részeként közzétett Bajnokok Ligája alapszakasz 5. fordulójának keddi felvezetése szerint az angol Arsenal a Borussia Dortmund ellen lép pályára 21.00 órakor, míg a török Galatasaray és az angol Aston Villa 18.45-kor kezdődő mérkőzésén Sallai nem játszik. Ez a forduló azt jelenti, hogy a szurkolók az RTL+ felületén és a Sport tévécsatornákon követhetik az összecsapásokat, az NSO-n pedig az Arsenal–Borussia Dortmund és a Real Madrid–PSV meccsekről élőben is lehet tájékozódni. Az est további párosításai között szerepel a Bodö/Glimt–Linzer ASK, a Como–AEK Athén, a Feyenoord–Porto, a Manchester City–Napoli, az RB Leipzig–Lens, a Real Madrid–PSV és a Slovan Bratislava–Real Betis találkozó is."
+          },
+          "tolkien": {
+            "title": "A Bajnokok Ligája viharos hajnala és az északi csillagok harca",
+            "body": "A Nemzeti Sport és az RTL+ szövetségének szent krónikája hirdeti a Bajnokok Ligája alapszakasz ötödik viharos fordulójának napját, amelyben az angol Arsenal csapata a Borussia Dortmund német seregével csap össze huszonegy órakor, míg a török Galatasaray és az angol Aston Villa küzdelméből Sallai ki marad. Ez a dicső ütközet sorozat elhozza a népeknek a képernyők tüzes fényét, hiszen a harcokat az RTL+ és a Sport csatornák közvetítik, míg az NSO bástyáján az Arsenal és a Real Madrid csatája élőben követhető. A nagy mezőnken a Bodö/Glimt és a Linzer ASK, a Como és az AEK Athén, a Feyenoord és a Porto, a Manchester City és a Napoli, az RB Leipzig és a Lens, a Real Madrid és a PSV, valamint a Slovan Bratislava és a Real Betis feszül egymásnak. E szent napon a tizennyolc óra negyvenöt perces és a huszonegy órás kapuk kinyílnak, hogy a hősök megvívják sorsdöntő futballcsatáikat."
+          },
+          "reito": {
+            "title": "Sallai partvonalon túli nézelődése és az Arsenal ünnepnapja",
+            "body": "A Nemzeti Sport és az RTL+ kooperációjának köszönhetően kitört a Bajnokok Ligája alapszakasz 5. fordulója, amelyben az angol Arsenal este kilenckor a Borussia Dortmund ellen vizslatja a hálót, a török Galatasaray–angol Aston Villa mérkőzésen pedig Sallai biztosan nem játszik. Ez a menetrend azt eredményezi, hogy a nézők a kanapéról vezényelhetik a csatákat, mert a meccseket az RTL+ és a Sport adók sugározzák, az NSO-n pedig az Arsenal–Dortmund és a Real Madrid–PSV párosítás érdemel élő szöveges figyelmet. A kínálatban szerepel még a Bodö/Glimt–Linzer ASK, a Como–AEK Athén, a Feyenoord–Porto, a Manchester City–Napoli, az RB Leipzig–Lens, a Real Madrid–PSV és a Slovan Bratislava–Real Betis adok-kapok is."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -403,7 +772,35 @@
       "title": "Megjelentek az első információk a Sajtóalapról: megmentenék a bajba jutott vidéki médiumokat",
       "link": "https://www.portfolio.hu/gazdasag/20261124/megjelentek-az-elso-informaciok-a-sajtoalaprol-megmentenek-a-bajba-jutott-videki-mediumokat-878852",
       "description": "<p>A Sajtóalap várhatóan jövő év elején megjelenő, 600 millió forintos keretösszegű első pályázata elsősorban a vidéki, kisközösségi médiaszolgáltatók számára nyújt majd működési támogatást - hangzott el kedden Budapesten, sajtótájékoztatón.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/p/o/l/polyak-gabor-az-nmhh-mediatanacsanak-elnoke-872406.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/p/o/l/polyak-gabor-az-nmhh-mediatanacsanak-elnoke-872406.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Megjelentek az első információk a Sajtóalapról: megmentenék a bajba jutott vidéki médiumokat",
+        "summary": "<p>A Sajtóalap várhatóan jövő év elején megjelenő, 600 millió forintos keretösszegű első pályázata elsősorban a vidéki, kisközösségi médiaszolgáltatók számára nyújt majd működési támogatást - hangzott el kedden Budapesten, sajtótájékoztatón.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261124/megjelentek-az-elso-informaciok-a-sajtoalaprol-megmentenek-a-bajba-jutott-videki-mediumokat-878852",
+        "published": "Tue, 24 Nov 2026 19:19:00 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/p/o/l/polyak-gabor-az-nmhh-mediatanacsanak-elnoke-872406.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "e48784e7081b272082a7181978a9be00c0cab0e96501938433f5b5d01a4a7efd",
+        "variants": {
+          "original": {
+            "body": "A Nemzeti Média- és Hírközlési Hatóság Médiatanácsa elfogadta a Sajtóalap alapító okiratát, amely első körben a nehéz helyzetben lévő helyi televíziókat, rádiókat, valamint a nyomtatott és online médiatermékeket érinti. A helyi nyilvánosság megmentését célzó alapból a kisebb médiumok működési, míg a nagyobbak beruházási és innovációs támogatást kaphatnak, a pályázatok elbírálását pedig egy független szakmai kollégium segíti. A belföldi sajtópiacon a jövő év elejétől országjárást is terveznek a szerkesztőségek felkeresésére, míg a működési alapok kialakítását Bellay Szilvia megbízott ügyvezető igazgató menedzseli."
+          },
+          "tolkien": {
+            "title": "A Sajtó Hajnalának Védőfalai",
+            "body": "A Nemzeti Média- és Hírközlési Hatóság Médiatanácsa pecsétjével megalakult a Sajtóalap, hogy menedéket nyújtson a vészesen elgyengült helyi televízióknak, rádióknak, nyomtatott és online belföldi portáloknak. Hatalmas pajzsként egy független szakmai kollégium emelkedik majd a döntések elé, távol tartva a hatalom szeszélyét a belföldi lapok sorsától. A kisebb műhelyek a fennmaradás kenyerét, míg a nagyobb bástyák fejlesztések fegyverzetét nyerhetik el a tisztességesnek ígért küzdőtéren. A jövő esztendő kezdetén követeik körbejárják a vidéki várak szerkesztőségeit, hogy feltérképezzék a sebeket."
+          },
+          "reito": {
+            "title": "Pénzeső a határ túl oldaláról sem: így indul a Sajtóalap karrierje",
+            "body": "A Nemzeti Média- és Hírközlési Hatóság Médiatanácsa hivatalosan is megpecsételte a Sajtóalap sorsát, amely első körben a gatyájából is kifordult hazai helyi tv-ket, rádiókat, nyomtatott és online újságokat célozza meg. A bürokrácia poklát elkerülendő egy független szakmai kollégiumot pakolnak a döntéshozók elé védőfalként, nehogy bárki a szimpátiájukra fogja a pénzosztást. A kisebbek örömére működési segély, a nagyobbaknak meg beruházási mézesbödön jár majd, miközben a pályázóknak önbevallásban kell betartaniuk a szabályokat, különben repülnek a bilit borítók. Jövő év elején ráadásul országjárásba kezd a belföldi stáb, hogy a helyszínen szedje össze a bajban lévő szerkesztőségek panaszait."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -421,7 +818,36 @@
       "title": "130 százalékos rali jöhet – Öt részvényt mutatunk, amire a Wall Street szerint még idén érdemes lecsapni!",
       "link": "https://www.portfolio.hu/befektetes/20261124/130-szazalekos-rali-johet-ot-reszvenyt-mutatunk-amire-a-wall-street-szerint-meg-iden-erdemes-lecsapni-878390",
       "description": "<p>Még az év vége előtt érdemes lehet lecsapni néhány részvényre a Wall Street profi elemzői szerint, akik olyan vállalatokban látnak most hatalmas lehetőséget, amiktől az elmúlt hónapokban valósággal menekültek a befektetők. Az egyik papírnál például egészen döbbenetes, 130 százalékot meghaladó felértékelődési potenciált jeleznek az elemzői célárak, ráadásul szinte teljes az egyetértés a szakértők között abban, hogy érdemes vásárolni. Összesen öt részvényt vettünk górcső alá, amiknél még idén érdemes lehet lépni – és megmutatjuk, melyik tartogathatja a legnagyobb meglepetést.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/b/i/k/bika-602912.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/b/i/k/bika-602912.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "130 százalékos rali jöhet – Öt részvényt mutatunk, amire a Wall Street szerint még idén érdemes lecsapni!",
+        "summary": "<p>Még az év vége előtt érdemes lehet lecsapni néhány részvényre a Wall Street profi elemzői szerint, akik olyan vállalatokban látnak most hatalmas lehetőséget, amiktől az elmúlt hónapokban valósággal menekültek a befektetők. Az egyik papírnál például egészen döbbenetes, 130 százalékot meghaladó felértékelődési potenciált jeleznek az elemzői célárak, ráadásul szinte teljes az egyetértés a szakértők között abban, hogy érdemes vásárolni. Összesen öt részvényt vettünk górcső alá, amiknél még idén é",
+        "url": "https://www.portfolio.hu/befektetes/20261124/130-szazalekos-rali-johet-ot-reszvenyt-mutatunk-amire-a-wall-street-szerint-meg-iden-erdemes-lecsapni-878390",
+        "published": "Tue, 24 Nov 2026 19:00:00 +0100",
+        "categories": [
+          "world-market",
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/b/i/k/bika-602912.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "77c959631f9971914bdb36ef621bc28b81e6552ecbace6d22b094f58ba831ab6",
+        "variants": {
+          "original": {
+            "body": "A Portfolio.hu nevű portálon megjelent pénzügyi cikkben a Wall Street elemzői az év utolsó heteire fordulva öt olyan részvényt emeltek ki, amelyekben a célárak alapján akár 130 százalékos rali és rendkívüli emelkedési potenciál is rejtőzhet a magas hozamok reményében. A gyakorlati következmény az, hogy az olvasók a részletes elemzést és a legnagyobb lehetőségeket rejtő papírok listáját csak a Portfolio Signature előfizetéssel ismerhetik meg. A Signature PRO szolgáltatás havi díja 2990 forint, míg az egyéves hozzáférés díja 29 845 forint, amely utóbbi konstrukció keretében 10 havi díjért cserébe 12 havi szolgáltatást kapnak az olvasók. Ez a külföldi tőzsdéket és külföldi piaci folyamatokat érintő tartalom a Wall Street elemzésein keresztül kapcsolódik a nemzetközi részvények világához."
+          },
+          "tolkien": {
+            "title": "A Wall Street Aranybányája és a Zárt Kapuk Krónikája",
+            "body": "A Wall Street bástyáin eközben a jövő éleslátó elemzői az év utolsó napjainak közeledtével öt olyan kiválasztott részvényt mutattak fel, amelyekben a célárak tüzes igéje szerint akár százharminc százalékos, viharos árfolyamrali is szunnyad a gazdag hozamok várományosai számára. Ennek nyomán a nyereség titkait rejtő térképek csak a Portfolio Signature pecsétjével ellátott, zárt kapuk mögött nyílnak meg a belépni vágyók előtt. A tudás kapujának őrzőiért a Signature PRO szolgáltatás keretében havonta 2990 ezüstpénz (forint) fizetendő, míg az egyéves vándorút ára 29 845 forint, ami tíz hónap áráért cserébe tizenkét holdtöltésnyi időre nyújt teljes hozzáférést a krónika olvasóinak. E külföldi tőzsdéket és külföldi mezőket hódító üzenetek a Wall Street távoli birodalmából vetik fényüket a hazai olvasókra."
+          },
+          "reito": {
+            "title": "Százharminc százalékos rakéta és a fizetős kapu esete",
+            "body": "A Wall Street éles szemű elemzői az év utolsó heteire fordulva öt olyan részvényt rántottak elő a kalapból, amelyekben szerintük akár 130 százalékos árfolyam-robbanás és rendkívüli emelkedési potenciál lapul a hirtelen jött nagy hozamok éhes befektetőinek. A gyakorlati csavar az, hogy a tuti tippek listáját és a részleteket csak akkor láthatja az olvasó, ha kifizeti a Portfolio Signature előfizetés árait. A Signature PRO szolgáltatásért havonta 2990 forintot kérnek, az egyéves bérletért pedig 29 845 forintot kóstáló összeg cserébe pontosan tízhavi árért tizenkét havi hozzáférést biztosít a népeknek. Ez a külföldi tőzsdéken és külföldi terepen játszódó pénzügyi kaland a Wall Street zsonglőreinek jóvoltából hozza lázba a tőzsdei túlélőket."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -430,7 +856,36 @@
       "title": "Fontos változások a magyar iskolákban: ismertette a részleteket az oktatási minisztérium",
       "link": "https://www.portfolio.hu/gazdasag/20261124/fontos-valtozasok-a-magyar-iskolakban-ismertette-a-reszleteket-az-oktatasi-miniszterium-878848",
       "description": "<p>A kormány benyújtotta az oktatás megújítását és fejlesztését szolgáló törvénymódosítási javaslatcsomagot kedden az Országgyűlésnek - közölte az oktatási és gyermekügyi miniszter a Facebook-oldalán.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/i/s/k/iskola-oktatas-664137.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/i/s/k/iskola-oktatas-664137.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Fontos változások a magyar iskolákban: ismertette a részleteket az oktatási minisztérium",
+        "summary": "<p>A kormány benyújtotta az oktatás megújítását és fejlesztését szolgáló törvénymódosítási javaslatcsomagot kedden az Országgyűlésnek - közölte az oktatási és gyermekügyi miniszter a Facebook-oldalán.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261124/fontos-valtozasok-a-magyar-iskolakban-ismertette-a-reszleteket-az-oktatasi-miniszterium-878848",
+        "published": "Tue, 24 Nov 2026 18:56:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/i/s/k/iskola-oktatas-664137.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "7522d06b08f7dd2865b0207373fe7e1809820c44a7b80bf23618b0a4bb519d78",
+        "variants": {
+          "original": {
+            "body": "Az oktatási minisztérium által ismertetett, a belföldi parlament által tárgyalt törvénytervezethez kapcsolódó javaslatcsomag nagyobb önállóságot biztosít az oktatási intézményeknek, több beleszólási lehetőséget teremt a szülőknek és a diákoknak, valamint korszerűbbé és rugalmasabbá teszi az oktatási rendszert. A változtatások nyomán a pedagógusok a tervek szerint öt különböző tankönyv közül választhatnak majd, miközben a tárca az ingyenesség megőrzését is kiemelt szempontként kezeli. A közoktatás, a felsőoktatás és a felnőttképzés területét érintő reformok célja, hogy a rendszer jobban alkalmazkodjon a gyermekek, a tanulók és a pedagógusok szükségleteihez. A belföldi intézményekben emellett a szülők és az óvodapedagógusok közösen dönthetnek egy gyermek iskolakezdéséről, bizonytalanság esetén a pedagógiai szakszolgálat szakértőinek segítségével."
+          },
+          "tolkien": {
+            "title": "A Tudás Csarnokainak Új Törvénye",
+            "body": "Az oktatási minisztérium által a belföldi parlament elé tárt javaslatcsomag tágabb teret nyit az oktatási intézményeknek, míg a szülők és a diákok hangja erőteljesebben szólhat majd a tudás falain belül. E hatalmas hálózatban a pedagógusok hamarosan öt különböző tankönyv közül választhatnak a tanulók útmutatására, miközben a kincstár őrzi az ingyenesség szent kötelékét. A gyermekek első lépteiről az óvodák bölcsei és a szülők közös tanácskozással határoznak, s ha a köd leszáll, a pedagógiai szakszolgálat szakértői adják meg a tiszta irányt. E belföldi változások sora azért szüreteltetett, hogy a tudás áradata rugalmasabban hömpölyögjön, elkerülve a túlterhelés viharait."
+          },
+          "reito": {
+            "title": "Tankönyvháború a belföldi parlament és az iskolapadok árnyékában",
+            "body": "Az oktatási minisztérium friss javaslatcsomagja nagyobb mozgásteret ad az oktatási intézményeknek, miközben a szülőknek és a diákoknak is komolyabb beleszólást ígér a belföldi oktatás ügyeibe. A pedagógusok nagy örömére a tervek szerint hamarosan pontosan öt tankönyv közül választhatnak majd, feltéve, hogy az ingyenesség bástyája is állva marad a rohamok után. Az iskolakezdés nehéz pillanataiban a szülők és az óvodapedagógusok közösen húzzák meg a vonalat, bizonytalanság esetén pedig a pedagógiai szakszolgálat szakértői érkeznek a megmentésükre. A rendszer a tervek szerint attól lesz rugalmasabb, hogy a mikrotanúsítványok és az érettségi követelmények is idomulnak a belföldi valósághoz."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -457,7 +912,35 @@
       "title": "Súlyos kérdések Jensen Huang visszatérése körül – Az FBI és az igazságügyi miniszter is hallgat",
       "link": "https://www.portfolio.hu/uzlet/20261124/sulyos-kerdesek-jensen-huang-visszaterese-korul-az-fbi-es-az-igazsagugyi-miniszter-is-hallgat-878844",
       "description": "<p>Kitértek az újságírói kérdések elől az amerikai igazságszolgáltatás vezetői azzal a vizsgálattal kapcsolatban, amelyre hivatkozva Donald Trump elnök korábban Jensen Huang vezérigazgatói visszahelyezését szorgalmazta az Nvidia igazgatótanácsánál. Sem Todd Blanche igazságügyi miniszter, sem Kash Patel, az FBI igazgatója nem árult el konkrétumokat az eljárás eredményeiről, ahogy az esetleges kínai hírszerzési szálakat firtató kérdéseket is megválaszolatlanul hagyták - tudósított a <a href=\"https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-fbi-doj-patel-blanche.html\" target=\"_blank\" rel=\"noopener\">CNBC</a>.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/n/v/i/nvidia-technologia-chip-felvezeto-mesterseges-intelligencia-techceg-vallalat-irodahaz-kina-r-869624.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/n/v/i/nvidia-technologia-chip-felvezeto-mesterseges-intelligencia-techceg-vallalat-irodahaz-kina-r-869624.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Súlyos kérdések Jensen Huang visszatérése körül – Az FBI és az igazságügyi miniszter is hallgat",
+        "summary": "<p>Kitértek az újságírói kérdések elől az amerikai igazságszolgáltatás vezetői azzal a vizsgálattal kapcsolatban, amelyre hivatkozva Donald Trump elnök korábban Jensen Huang vezérigazgatói visszahelyezését szorgalmazta az Nvidia igazgatótanácsánál. Sem Todd Blanche igazságügyi miniszter, sem Kash Patel, az FBI igazgatója nem árult el konkrétumokat az eljárás eredményeiről, ahogy az esetleges kínai hírszerzési szálakat firtató kérdéseket is megválaszolatlanul hagyták - tudósított a <a href=\"https",
+        "url": "https://www.portfolio.hu/uzlet/20261124/sulyos-kerdesek-jensen-huang-visszaterese-korul-az-fbi-es-az-igazsagugyi-miniszter-is-hallgat-878844",
+        "published": "Tue, 24 Nov 2026 18:38:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/n/v/i/nvidia-technologia-chip-felvezeto-mesterseges-intelligencia-techceg-vallalat-irodahaz-kina-r-869624.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "addd920bbd636ad078319efd2860ab375457493cd2e505919ce107f9a181f9c9",
+        "variants": {
+          "original": {
+            "body": "Az amerikai igazságügyi miniszter és az FBI igazgatója, Kash Patel sajtótájékoztatón zárkózott el a részletek ismertetésétől Jensen Huang visszatérésével és az Nvidia ügyével kapcsolatban, miközben a tárcavezető felelős és szabálykövető piaci szereplőnek nevezte a vállalatot. Blanche miniszter nem kívánt nyilatkozni a Donald Trump elnökkel folytatott megbeszéléseinek tartalmáról, és Patel sem válaszolt arra a kérdésre, hogy kihallgatták-e az üzletembert, illetve hogy az FBI tudomást szerzett-e az amerikai hírszerző ügynökségek Alice Huangra vonatkozó értékeléséről. A külföldi kapcsolatokat érintő amerikai kormányzati tisztviselők nyilatkozatai közvetlenül érintik a technológiai óriásvállalatot és annak vezetését. Ennek a külföldi hírek rovatához kapcsolódó fejleménynek a gyakorlati következménye az, hogy a hatóságok hallgatása miatt a részletek tisztázatlanok maradtak a vizsgálatokról és a hírszerző ügynökségek értékeléseiről."
+          },
+          "tolkien": {
+            "title": "A Néma Igazság Árnyéka a Csarnokokban",
+            "body": "A birodalom legfőbb igazgatónője és Kash Patel, a Szövetségi Nyomozó Iroda vezére elzárkózott a válaszadástól a sajtó előtt Jensen Huang visszatérése és az Nvidia sorsa felől tudakozódó kérdések elől. Blanche miniszter hallgatott az elnökkel váltott titkos szavakról, míg Patel megmásíthatatlan csenddel felelt arra, hogy kihallgatták-e az üzletembert vagy vizsgálták-e Alice Huang ügyét. Ez a külföldi földön zajló titokzatos tanácskozás közvetlenül érinti a technológiai óriás birodalmának trónját és annak urát. A hallgatás sötét leple nem fedi fel a hatóságok terveit, így a rejtély fátyla továbbra is borítja a hatalom csarnokait."
+          },
+          "reito": {
+            "title": "A miniszter hallgat, az FBI csinálja a vakítást Jensen Huang visszatértekor",
+            "body": "Az amerikai igazságügyi miniszter és az FBI főnöke, Kash Patel a sajtó előtt simán elzárkózott a válaszadástól Jensen Huang visszatérésének ügyében, miközben az Nvidia-t felelős piaci szereplőnek kiáltották ki. Blanche miniszter az elnökkel folytatott csevegését tartotta államtitkanak, Patel pedig olyan süketet tett a kihallgatást és Alice Huang hírszerzői ügyeit firtató kérdésekre, mint aki mást sem hall, csak a saját visszhangját. Ez a külföldi hírek rovatát erősítő washingtoni adok-kapok közvetlenül érinti az óriásvállalatot és a visszatérő vezérigazgatót. A dolog szépséghibája, hogy a hatóságok makacs hallgatása miatt a nép és a sajtó sem tud meg semmiféle konkrétumot a vizsgálatokról."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -544,10 +1027,10 @@
       "source": "HVG",
       "published": "Tue, 24 Nov 2026 19:24:37 Z",
       "observed": "2026-11-24T20:28:11.674749+01:00",
-      "title": "Magyar-Zelenszkij sajtótájékoztató: „Végre megállítottuk ezt a teljesen felesleges politikai eszkalációt”",
+      "title": "Végre megállítottuk ezt a teljesen felesleges politikai eszkalációt – erről volt szó a Magyar–Zelenszkij-sajtótájékoztatón",
       "link": "https://hvg.hu/itthon/20261124_zelenszkij-magyar-peter-sajtotatekoztato",
-      "description": "Ukrajna készen áll a konstruktív párbeszédre – mondta Zelenszkij. Élőben követjük az ukrán elnök és Magyar Péter közös sajtótájékoztatóját.",
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7eb90893-e170-471c-860d-daf55b0c2909.jpg"
+      "description": "Ukrajna készen áll a konstruktív párbeszédre – mondta Zelenszkij. Élőben követtük az ukrán elnök és Magyar Péter közös sajtótájékoztatóját, ahol a bizalom helyreállításáról, kölcsönösen előnyös megállapodásokról és egy lehetséges magyarországi látogatásról is szó volt.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ec5e7ace-f117-419c-9cd0-3fea5b2e0af9.jpg"
     },
     {
       "source": "HVG",
@@ -610,15 +1093,43 @@
       "title": "Itt van a nagy esély a magyar férfi kosárlabda-válogatottnak!",
       "link": "https://nemzetisport.hu/kosarlabda/2026/11/itt-van-a-nagy-esely-a-magyar-ferfi-kosarlabda-valogatottnak",
       "description": "Pénteken Svédországban, hétfőn Szombathelyen Szlovéniával játszik a nemzeti csapat, amely két győzelem esetén nagyon közel kerül a történelmi világbajnoki szerepléshez.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/etcEu21_RsYN-geUVMzRGPF0aUC7psp9TgX8eO-0fOY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzIwN2U2NmQzYzJkNjRjMDdiNTEzNzVhZmUxN2E4MWEy.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/etcEu21_RsYN-geUVMzRGPF0aUC7psp9TgX8eO-0fOY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzIwN2U2NmQzYzJkNjRjMDdiNTEzNzVhZmUxN2E4MWEy.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Itt van a nagy esély a magyar férfi kosárlabda-válogatottnak!",
+        "summary": "Pénteken Svédországban, hétfőn Szombathelyen Szlovéniával játszik a nemzeti csapat, amely két győzelem esetén nagyon közel kerül a történelmi világbajnoki szerepléshez.",
+        "url": "https://nemzetisport.hu/kosarlabda/2026/11/itt-van-a-nagy-esely-a-magyar-ferfi-kosarlabda-valogatottnak",
+        "published": "Tue, 24 Nov 2026 18:23:28 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/etcEu21_RsYN-geUVMzRGPF0aUC7psp9TgX8eO-0fOY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzIwN2U2NmQzYzJkNjRjMDdiNTEzNzVhZmUxN2E4MWEy.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "91e0694ef580f211fcc531705eaaffdeb359599baa6d9d2ebdbdf2855bcf8023",
+        "variants": {
+          "original": {
+            "body": "A magyar férfi kosárlabda-válogatottat érintően az Aréna Savaria parkettjén megkezdődtek az edzések a férfi vb-selejtező L-csoportjának mérkőzéseire, amelyek során pénteken 19.00 órakor Svédország ellen, hétfőn 18.00 órakor pedig Szlovénia ellen lép pályára a nemzeti csapat. A keretet változások érintik, mivel a Valencia centere, Nate Reuvers sérülés miatt még két hétig nem bevethető, a Szolnok bedobója, Pallai Tamás pedig térdfájdalmak miatt hiányzik. Ennek következtében a centereknél Golomán Györgyre hárul a teljes poszt, míg a négyes pozícióban Cseh Botond és Valerio-Bodon Vincent osztozik a perceken a válogatottban tavasz óta klub nélkül szereplő Lukács Norberttel együtt. A mérkőzések a férfi kosárlabda-válogatott számára világbajnoki selejtezőt jelentnek, ahol a svédországi és a hazai összecsapásokon a világbajnoki részvétel a tét."
+          },
+          "tolkien": {
+            "title": "A parkett homálya és a Nemzet harcosainak tábora",
+            "body": "Az Aréna Savaria szent kövezetén megkezdték az átmozgatást Gasper Okorn fiai, miközben a férfi kosárlabda-válogatottra a férfi vb-selejtező L-csoportjának küzdelmei várnak Svédország és Szlovénia ellen. A csatarendet mély sebek és hiányok árnyékolják be, mert a Valencia centere, Nate Reuvers még két holdtöltéshosszig nem emelheti pajzsát, Pallaj Tamás pedig térdének kínzó fájdalma miatt marad távol. E zord változások közepette a hűségesen csapata nélkül lévő Lukács Norbert, Golomán György, Cseh Botond és Valerio-Bodon Vincent lép elő, hogy a svéd földön és a hazai csarnokban vívott ütközetekben dicsőséget szerezzenek. A harcosok egyetlen szent álma a világbajnokság kapujáig vezet, ahol a pénteki és hétfői csaták sorsfordító viharai döntik el sorsukat."
+          },
+          "reito": {
+            "title": "Kosárra fel: amikor a parkett és a válogatott összecsap",
+            "body": "Az Aréna Savaria parkettjén kedd reggel megindult a sürgés-forgás, miután Gasper Okorn legénysége átmozgatással és kondizással indított a férfi kosárlabda-válogatott férfi vb-selejtező L-csoportbeli meccsei előtt. A keretben üresen tátongó helyek is akadnak, hiszen a Valencia centere, Nate Reuvers sérülés miatt még két hétig pihen, a Szolnok bedobója, Pallai Tamás pedig térdfájdalmak miatt hűtődik a kispadon. Így esik meg, hogy a tavasz óta klub nélkül bukdácsoló Lukács Norbert a keretben találja magát, ahol Golomán György egymaga viseli a centergondokat, míg a négyes poszton Cseh Botond és Valerio-Bodon Vincent osztozik a perceken. Pénteken 19.00 órakor Svédországban, majd hétfőn 18.00 órakor hazai pályán Szlovénia ellen dől el, mire megy ez a kissé hézagos, de világbajnoki álrohamra készülő magyar gárda."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
       "published": "Tue, 24 Nov 2026 20:18:46 +0100",
       "observed": "2026-11-24T20:28:11.674749+01:00",
-      "title": "Zelenszkij: Jó hangulatú beszélgetést folytattunk Magyar Péterrel",
+      "title": "Zelenszkij szerint a korábbi magyar politikai elit hergelte ellenük az embereket",
       "link": "https://444.hu/2026/11/24/zelenszkij-jo-hangulatu-beszelgetest-folytattunk-magyar-peterrel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "description": "Sajtótájékoztatót tart a magyar kormányfő és az ukrán elnök Kárpátalján.",
+      "description": "Beregszászon tartott sajtótájékoztatót a magyar miniszterelnök és az ukrán elnök. Magyar Péter szerint Magyarországnak kulcsszerepe lehet Ukrajna újjáépítésében.",
       "image": ""
     },
     {
@@ -637,7 +1148,36 @@
       "title": "Bujdosónak nem jósolnak nagy jövőt, Kapitány nehezen találja a helyét",
       "link": "https://444.hu/2026/11/24/bujdosonak-nem-josolnak-nagy-jovot-kapitany-nehezen-talalja-a-helyet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
       "description": "A Helyzet: van! legújabb adásában Bábel Vilmossal beszéltük át, hogy miket tudtunk meg a kormány és a kormánypárti parlamenti frakció belső viszonyairól.",
-      "image": ""
+      "image": "",
+      "prepared": {
+        "source": "444.hu",
+        "title": "Bujdosónak nem jósolnak nagy jövőt, Kapitány nehezen találja a helyét",
+        "summary": "A Helyzet: van! legújabb adásában Bábel Vilmossal beszéltük át, hogy miket tudtunk meg a kormány és a kormánypárti parlamenti frakció belső viszonyairól.",
+        "url": "https://444.hu/2026/11/24/bujdosonak-nem-josolnak-nagy-jovot-kapitany-nehezen-talalja-a-helyet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Tue, 24 Nov 2026 19:49:37 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "rss",
+        "sourceHash": "b6b5f6ae2542b5a7221a0a931ab606c826c46fa1b701ac6e60648613bf68746d",
+        "variants": {
+          "original": {
+            "body": "A Helyzet: van! legújabb adásában Bábel Vilmossal beszéltük át a kormány és a kormánypárti parlamenti frakció belső viszonyait. Az adásban kitértek arra, hogy Bujdosónak nem jósolnak nagy jövőt, míg Kapitány nehezen találja a helyét a testületben. Ezzel a beszélgetéssel a nézők részletes betekintést kaphatnak a kormánypárti parlamenti döntéshozók belső erőviszonyaiba és konfliktusaiba."
+          },
+          "tolkien": {
+            "title": "A Hatalom Csarnokainak Rejtekén",
+            "body": "A Helyzet: van! legújabb krónikájában Bábel Vilmossal tárgyalták meg a kormány és a kormánypárti parlamenti frakció belső viszonyainak sötét ösvényeit. A rege szerint Bujdosónak nem jósolnak nagy jövőt a palota falai között, míg Kapitány nehezen leli meg a helyét e forgatagban. E mélyre hatoló beszélgetés nyomán a birodalom polgárai is láthatóvá váltak a vezetők rejtett viharai."
+          },
+          "reito": {
+            "title": "A frakció büféje, ahol a jövő is olcsóbb",
+            "body": "A Helyzet: van! legfrissebb adásában Bábel Vilmossal terítettek ki mindent a kormány és a kormánypárti parlamenti frakció belső viszonyairól. Miközben Bujdosónak már a visszaszámlálás ketyeg, Kapitány még mindig a helyét keresi a sűrűjében. Ebből a gyorstalpalóból mindenki pontosan megtudhatja, hogyan is állnak egymással a kormánypárti törvényhozók."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -655,7 +1195,37 @@
       "title": "Kiszivárgott Trump újabb nagy dobása: brutális vámcsapás érheti a világ legnagyobb gazdaságait",
       "link": "https://www.portfolio.hu/global/20261124/kiszivargott-trump-ujabb-nagy-dobasa-brutalis-vamcsapas-erheti-a-vilag-legnagyobb-gazdasagait-878862",
       "description": "<p>A Trump-adminisztráció rövidesen nyilvánosságra hozza annak a vizsgálatnak az eredményét, amely az Egyesült Államok 16 legfontosabb kereskedelmi partnerének vélt ipari túlkapacitására irányult, és ennek nyomán újabb importvámok jöhetnek. Az amerikai kereskedelmi képviselő hivatala ezzel részben azokat a globális vámokat pótolná, amelyeket a Legfelsőbb Bíróság februárban megsemmisített.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/a/m/e/amerika-geopolitika-hatalom-kina-strategia-verseny-vilaggazdasag-vamok-vamhaboru-kereskedelm-730819.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/a/m/e/amerika-geopolitika-hatalom-kina-strategia-verseny-vilaggazdasag-vamok-vamhaboru-kereskedelm-730819.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Kiszivárgott Trump újabb nagy dobása: brutális vámcsapás érheti a világ legnagyobb gazdaságait",
+        "summary": "<p>A Trump-adminisztráció rövidesen nyilvánosságra hozza annak a vizsgálatnak az eredményét, amely az Egyesült Államok 16 legfontosabb kereskedelmi partnerének vélt ipari túlkapacitására irányult, és ennek nyomán újabb importvámok jöhetnek. Az amerikai kereskedelmi képviselő hivatala ezzel részben azokat a globális vámokat pótolná, amelyeket a Legfelsőbb Bíróság februárban megsemmisített.</p>",
+        "url": "https://www.portfolio.hu/global/20261124/kiszivargott-trump-ujabb-nagy-dobasa-brutalis-vamcsapas-erheti-a-vilag-legnagyobb-gazdasagait-878862",
+        "published": "Tue, 24 Nov 2026 20:20:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold",
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/a/m/e/amerika-geopolitika-hatalom-kina-strategia-verseny-vilaggazdasag-vamok-vamhaboru-kereskedelm-730819.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "0fe914ee4beaed4a18c81646929763fd923b2d6ee0bfc659fda71ecbdf99f210",
+        "variants": {
+          "original": {
+            "body": "A Trump-adminisztráció az Egyesült Államok 16 legfontosabb kereskedelmi partnerének – köztük az Európai Uniónak, Kínának, Indiának, Japánnak, Dél-Koreának, Mexikónak, Vietnámnak, Tajvannak, Thaiföldnek, Malajziának, Indonéziának, Svájcnak, Norvégiának, Szingapúrnak, Bangladesnek és Kambodzsának – az ipari túlkapacitása miatt újabb importvámok kivetésére készül, pótolva a Legfelsőbb Bíróság által februárban megsemmisített globális vámokat. Az Egyesült Államok Kereskedelmi Képviselőjének Hivatala (USTR) által az 1974-es kereskedelmi törvény 301-es szakasza alapján indított eljárás nyomán 15 és 25 százalék közötti vámokat javasolhatnak, amelyek ráépülnek a kényszermunka elleni vizsgálat keretében már kivetett 10 vagy 12,5 százalékos terhekre. Az országonként egyedileg megállapított tételeknél figyelembe veszik a véglegesített kereskedelmi megállapodások vámpplafonjait – az EU, Japán és Dél-Korea esetében 15, Malajziánál 19, míg Kínánál a január 10-én lejáró fegyverszünethez kötött 20 százalékos korlátot –, így Mexikóból és Norvégiából érkező árukra várhatóan nem vetnek ki azonnali terheket. A tervezett intézkedések a belföldi parlamentek jogköréhez hasonlóan a nemzetközi kereskedelempolitikai döntéshozatal szintjén formálják át a külkereskedelmet, miközben a globális piacokat és a fogyasztói árakat is közvetlenül érintik."
+          },
+          "tolkien": {
+            "title": "A Nagy Vámfalak Árnyéka és a Hatalmasok Hadi Torája",
+            "body": "A Trump-adminisztráció trónusáról hamarosan kihirdetik a vizsgálat ítéletét, amely a tizenhat birodalom – az Európai Unió, Kína, India, Japán, Dél-Korea, Mexikó, Vietnám, Tajvan, Thaiföld, Malajzia, Indonézia, Svájc, Norvégia, Szingapúr, Banglades és Kambodzsa – portjain és kohóiban felhalmozott felesleges kincsek és áruk miatt új, súlyos vámvasakat kovácsol. A kereskedelem bírái tizenöt és huszonöt százalék közötti terheket róhatnak a portékákra, amelyek mint nehéz páncélzat rakódnak rá a korábbi, kényszermunka elleni harcban vert tíz- vagy tizenkét és fél százalékos láncokra. A birodalmak sorsa és a vámplafonok – az Unió, Japán és Dél-Korea tizenöt, Malajzia tizenkilenc, valamint Kína huszonszázalékos pajzsa – szabnak határt a harcnak, míg Norvégia és Mexikó földje megmenekül az azonnali csapástól. E hatalmas gazdasági vihar az egész világ kereskedelmi rendjét rengeti meg, miközben a népek seregének árai a magasba szöknek e nehéz időkben."
+          },
+          "reito": {
+            "title": "A Vámkalapács Utat Kér: 16 Ország Kapja meg a Magáét",
+            "body": "A Trump-adminisztráció hamarosan asztalra csap az Egyesült Államok 16 legfontosabb kereskedelmi partnere – az Európai Unió, Kína, India, Japán, Dél-Korea, Mexikó, Vietnám, Tajvan, Thaiföld, Malajzia, Indonézia, Svájc, Norvégia, Szingapúr, Banglades és Kambodzsa – felé, miután a Legfelsőbb Bíróság februárban szétcincálta a korábbi globális vámokat. Az USTR 301-es paragrafus szerint indított menete 15 és 25 százalék közötti extra sarokokat vizionál, amelyek kecsesen ráülnek a kényszermunka miatt már bevetett 10 vagy 12,5 százalékos cédulákra. A büntetlenség sem tart örökké, de a plafonok védenek: az EU, Japán és Dél-Korea 15, Malajzia 19, Kína pedig a január 10-ig tartó fegyverszünetével 20 százalékos korlátot kap, így Mexikó és Norvégia egyelőre megússza a számlát. A külkereskedelem e vadnyugati pókere közvetlenül diktálja majd a bolti árakat, míg a lakosság 62 százaléka legszívesebben egészben nyelné el a vámok eltörléséről szóló hírt."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -691,7 +1261,35 @@
       "title": "Óriási üzletet jelentettek be: 41 milliárd dolláros felvásárlás rázza fel a gyógyszeripart",
       "link": "https://www.portfolio.hu/befektetes/20261124/oriasi-uzletet-jelentettek-be-41-milliard-dollaros-felvasarlas-razza-fel-a-gyogyszeripart-878856",
       "description": "<p>A francia Sanofi 41 milliárd dollárért vásárolja meg az amerikai Insmed gyógyszergyártót, így ez lehet a Pfizer és a Seagen 2023-as egyesülése óta a gyógyszeripar legnagyobb felvásárlása. A Sanofi részvényenként 175 dollárt fizet készpénzben, és ezzel megszerzi az Insmed két forgalomban lévő légúti gyógyszerét, valamint a fejlesztés alatt álló készítményeit is. Az ügylet várhatóan 2027 első felében zárul le, és 2028 végére már pozitívan járulhat hozzá a francia vállalat nyereségéhez. A befektetők kedvezően fogadták a hírt, hiszen az Insmed árfolyama több mint 14, a Sanofié pedig 8 százalékkal emelkedett. A felvásárlás az idén májusban kinevezett vezérigazgató, Belen Garijo komoly stratégiai lépése, amellyel a cég a Dupixent nevű húzótermékének 2031–2032-ben lejáró szabadalmi védettségére készül.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/g/y/o/gyogyszer-csepp-605938.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/y/o/gyogyszer-csepp-605938.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Óriási üzletet jelentettek be: 41 milliárd dolláros felvásárlás rázza fel a gyógyszeripart",
+        "summary": "<p>A francia Sanofi 41 milliárd dollárért vásárolja meg az amerikai Insmed gyógyszergyártót, így ez lehet a Pfizer és a Seagen 2023-as egyesülése óta a gyógyszeripar legnagyobb felvásárlása. A Sanofi részvényenként 175 dollárt fizet készpénzben, és ezzel megszerzi az Insmed két forgalomban lévő légúti gyógyszerét, valamint a fejlesztés alatt álló készítményeit is. Az ügylet várhatóan 2027 első felében zárul le, és 2028 végére már pozitívan járulhat hozzá a francia vállalat nyereségéhez.",
+        "url": "https://www.portfolio.hu/befektetes/20261124/oriasi-uzletet-jelentettek-be-41-milliard-dollaros-felvasarlas-razza-fel-a-gyogyszeripart-878856",
+        "published": "Tue, 24 Nov 2026 19:47:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/g/y/o/gyogyszer-csepp-605938.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "20b7442c1b2c23a0e5cb41802e7b51a920d95b1dfc6e72135df9517a4a0cc65d",
+        "variants": {
+          "original": {
+            "body": "A francia Sanofi 41 milliárd dollárért vásárolja fel az amerikai Insmed gyógyszergyártó vállalatot, ami a külföldi befektetéseket és a gyógyszeripart is közvetlenül érinti. A megállapodás értelmében a Sanofi készpénzben fizet 175 dollárt az Insmed minden egyes részvényéért, megszerezve a Brinsupri és az Arikayce nevű légúti gyógyszereket, valamint a fejlesztés alatt álló hatóanyagokat. A tranzakció várhatóan 2027 első felében zárul le, és a Sanofi számításai szerint 2028 végére már pozitívan járul hozzá a vállalat nyereségéhez. Az akvizíció szorosan kapcsolódik a külföldi tőkeáramlásokhoz és a globális vállalatbirodalmak határokon átnyúló mozgásaihoz."
+          },
+          "tolkien": {
+            "title": "A gall óriás és az amerikai kincs háza",
+            "body": "A francia Sanofi hatalmas birodalmi akaratunktól vezérelve 41 milliárd dolláros kincset ígérve készül felvásárolni az amerikai Insmed gyógyszergyártó vállalatot, amely földrészeken átívelő változás a nemzetközi mezőt is átrendezi. A készpénzben felkínált 175 dolláros részvényár fejében a francia óriás birtokba veszi a Brinsupri és az Arikayce nevű fegyvereket, valamint a még rejtőző hatóanyagokat is. Ez a szövetség 2027 első felének küszöbén teljesedik be, hogy 2028 végére édes gyümölcsöt teremjen a hódítók kincstárában. E messze földről indult, határokon átívelő gazdasági hadjárat a birodalmak sorsát összefűző külföldi tőkék örök krónikájába írja be magát."
+          },
+          "reito": {
+            "title": "Negyvenmilliárdos vakmerőség a tőzsdén",
+            "body": "A francia Sanofi egy elegáns mozdulattal 41 milliárd dollárt gombol le a zakójáról, hogy felvásárolja az amerikai Insmed gyógyszergyártót, ami a tőzsdei nagypályások külföldi portyázásait is alaposan felkavarja. Részvényenként kőkemény 175 dolláros készpénzért cserébe a francia gárda nemcsak a Brinsupri és az Arikayce nevű szereket, hanem a jövő titkos hatóanyagait is bezsebeli. A papírmunka és a pénzmozgás 2027 első felében zárul le végleg, hogy aztán 2028 végén már a nyereség szekere zakatoljon a gyárudvaron. Ez a határokon átnyúló, milliárdos adásvétel pontosan úgy mozgatja a nemzetközi nagytőkét, mint egy jól irányzott svindli a párizsi parketten."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -700,7 +1298,35 @@
       "title": "Rendkívüli jelenségre lehetünk figyelmesek a napokban: szabad szemmel is látható lesz különleges égi együttállás",
       "link": "https://www.portfolio.hu/global/20261124/rendkivuli-jelensegre-lehetunk-figyelmesek-a-napokban-szabad-szemmel-is-lathato-lesz-kulonleges-egi-egyuttallas-878854",
       "description": "<p>Látványos, lapos paralelogramma alakzatban sorakozik fel négy fényes égitest – a Mars, az Oroszlán csillagkép legfényesebb csillagát adó Regulus, a Jupiter és a fogyó Hold – november 30-án, hétfőn hajnalban; a jelenség szabad szemmel is könnyedén megfigyelhető lesz – közölte a Svábhegyi Csillagvizsgáló kedden az MTI-vel.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/u/n/i/univerzum-vilagegyetem-csillagok-stock-662555.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/u/n/i/univerzum-vilagegyetem-csillagok-stock-662555.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Rendkívüli jelenségre lehetünk figyelmesek a napokban: szabad szemmel is látható lesz különleges égi együttállás",
+        "summary": "<p>Látványos, lapos paralelogramma alakzatban sorakozik fel négy fényes égitest – a Mars, az Oroszlán csillagkép legfényesebb csillagát adó Regulus, a Jupiter és a fogyó Hold – november 30-án, hétfőn hajnalban; a jelenség szabad szemmel is könnyedén megfigyelhető lesz – közölte a Svábhegyi Csillagvizsgáló kedden az MTI-vel.</p>",
+        "url": "https://www.portfolio.hu/global/20261124/rendkivuli-jelensegre-lehetunk-figyelmesek-a-napokban-szabad-szemmel-is-lathato-lesz-kulonleges-egi-egyuttallas-878854",
+        "published": "Tue, 24 Nov 2026 19:39:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/u/n/i/univerzum-vilagegyetem-csillagok-stock-662555.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "260a7dff34edfa675c1821d65b08297916ea274eab838193fb07a9651eecd9f3",
+        "variants": {
+          "original": {
+            "body": "November 30-án reggel 6 órakor a déli égbolton, 54 fokkal a horizont fölött különleges égi együttállás lesz megpillantható, amely derült idő esetén szabad szemmel is látható. A Svábhegyi Csillagvizsgáló ezen a napon 5 és 7 óra között rendhagyó hajnali észlelőprogramot szervez, amelyen a résztvevők csillagászok vezetésével, nagy nagyítású távcsövekkel tekinthetik meg a Marsot, a Jupitert, a Hold krátereit, valamint a Vénuszt és a Merkúrt. A külföldi események és csillagászati jelenségek iránt érdeklődők számára a csillagvizsgáló emellett szemléltető videót és részletes leírást is közzétett a jelenségről az intézmény honlapján. Ez a külföldi égboltot is érintő ritka együttállás a gyakorlatban azt jelenti, hogy a megadott időpontban speciális eszközök nélkül is szabad szemmel megfigyelhető a ritka formáció."
+          },
+          "tolkien": {
+            "title": "A csillagok égi rendje és a déli firmamentum fénylő vándorai",
+            "body": "November harmincadikának hajnalán, hat óra ütemére a déli égbolt magasságában, ötvennégy fokkal a horizont árnyéka fölött ragyog fel a csillagok különleges együttállása, melyet tiszta égbolt esetén a halandók szemmel is megpillanthatnak. E szent órán, reggel öt és hét óra között a Svábhegyi Csillagvizsgáló kapuja kitárul, hogy csillagászok bölcs vezetésével, hatalmas távcsövek lencséin át táruljon fel a Mars, a Jupiter, a Hold ezernyi krátere, valamint a Vénusz és a Merkúr titka. E külföldi tájakat is bűvöletbe ejtő égi vigalom híreként az intézmény honlapján szemléltető videó és írásos krónika őrzi a jelenség emlékét. A csillagok ezen ritka találkozása a gyakorlatban azt jelenti, hogy a szemlélők mindenféle varázseszköz nélkül, szabad szemmel is tanúi lehetnek a fénylő seregek együttállásának."
+          },
+          "reito": {
+            "title": "Hajnali csillagvadászat a déli égen: távcső a kézbe, Mars a szem előtt!",
+            "body": "November 30-án pontban reggel 6 órakor a déli égbolton, egész pontosan 54 fokkal a horizont fölött áll össze az a ritka égi alakzat, amelyet derült időben távcsőmentesen, szabad szemmel is bárki bámulhat. Nem is kell messzire menni a látványért, hiszen a Svábhegyi Csillagvizsgáló ugyanezen a napon 5 és 7 óra között rendhagyó hajnali észlelőprogramot indít, ahol szakértő csillagászok terelik a népet a nagy nagyítású műszerek elé a Mars, a Jupiter, a Hold kráterei, valamint a Vénusz és a Merkúr becserkészésére. Ez a külföldi égbolton is látványos kozmikus parádé az intézmény honlapján közzétett szemléltető videóval és részletes leírással is kiegészül a bizonytalankodók kedvéért. A gyakorlati haszon pedig az, hogy a hideg hajnalon a megadott időpontban szakmai felügyelettel vagy akár anélkül is élőben sasolható meg a ritka égi társaság."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -763,7 +1389,35 @@
       "title": "Két sztárja nélkül utazott el a Liverpool a belgiumi BL-meccsre",
       "link": "https://www.origo.hu/sport/sport-futball/2026/11/club-brugge-liverpool-bajnokok-ligaja",
       "description": "Ryan Gravenberch és Cody Gakpo sem utazott el Belgiumba az angol csapattal.",
-      "image": "https://cdn.origo.hu/2026/11/YOAH5SL3Ch2xAozokLq_J_-BpXmTcPVK12Z1Beqn7uk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC83YzA2NzAzZDk5ZmFmZGE3MmNhZGQwOTYzM2IxZDYwZjljZjU5MGFiNGJlYWNlYTZkOTFhZWVmZTFiZWEzM2E4.jpg"
+      "image": "https://cdn.origo.hu/2026/11/YOAH5SL3Ch2xAozokLq_J_-BpXmTcPVK12Z1Beqn7uk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC83YzA2NzAzZDk5ZmFmZGE3MmNhZGQwOTYzM2IxZDYwZjljZjU5MGFiNGJlYWNlYTZkOTFhZWVmZTFiZWEzM2E4.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Két sztárja nélkül utazott el a Liverpool a belgiumi BL-meccsre",
+        "summary": "Ryan Gravenberch és Cody Gakpo sem utazott el Belgiumba az angol csapattal.",
+        "url": "https://www.origo.hu/sport/sport-futball/2026/11/club-brugge-liverpool-bajnokok-ligaja",
+        "published": "Tue, 24 Nov 2026 18:55:16 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/YOAH5SL3Ch2xAozokLq_J_-BpXmTcPVK12Z1Beqn7uk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC83YzA2NzAzZDk5ZmFmZGE3MmNhZGQwOTYzM2IxZDYwZjljZjU5MGFiNGJlYWNlYTZkOTFhZWVmZTFiZWEzM2E4.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "5da5a5f86c0d5cc7eb8127e971cbbd3b8d81caeb65225e46469cbc858ff31055",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok ligájában a Liverpool szerdán a Club Brugge ellen lép pályára, miközben Andoni Iraola vezetőedző csapata a nyolcaddöntőbe jutásért harcol. A Liverpool győzelemre törve utazott Belgiumba, ám a mérkőzésen nem számíthat Ryan Gravenberchre és Cody Gakpóra, akik sérülés miatt otthon maradtak, valamint Endo Watarura, Federico Chiesára, továbbá a januárig maródi Hugo Ekitikére sem, míg Conor Bradley és Giovanni Leoni még nem állnak készen a játékra. A nyolcadik helyen álló Liverpool és a kilencedik Club Brugge is kilenc ponttal rendelkezik, így a meccs közvetlen hatással van a legjobb nyolc közé kerülésért folyó küzdelemre. A szurkolók a tartalékos felállás ellenére a csapat negyedik győzelmében bízhatnak a kieséses szakasz felé vezető úton."
+          },
+          "tolkien": {
+            "title": "A Vörös Sereg csorbult pajzzsal indul a flandriai csatatérre",
+            "body": "A Bajnokok ligája fenséges küzdelmében a nyolcadik helyen trónoló Liverpool a kilencedik Club Brugge földjére érkezett, hogy a nyolcaddöntő kapuiért viaskodjon e sorsfordító szerdai napon. Andoni Iraola vezér hada a negyedik dicső győzelmet áhítja ezen a harcmezőn, ám a dicsőség kapujában Ryan Gravenberch és Cody Gakpo testét súlyos sérülés bilincseli meg, így otthon maradtak a holland harcosok. A fegyverforgatók sorát tovább ritkítja, hogy Endo Wataru és Federico Chiesa sem léphet a gyepre, Conor Bradley és Giovanni Leoni pedig még alig gyógyulva nézik a küzdelmet, míg Hugo Ekitike sötét Achilles-sérülés miatt csak az új esztendőben térhet vissza. E csonka sereggel kell megvívniuk a kilencpontos rivális elleni ütközetet a továbbjutás szent gráljáért."
+          },
+          "reito": {
+            "title": "A liverpooli fűrésztelep: sérültekkel pakolták meg a belga expresszt",
+            "body": "A Bajnokok ligája szerdai ütközetében a nyolcadik Liverpool a kilencedik Club Brugge otthonában vendégeskedik, ahol a két egyenlő, kilencpontos pontvadász feszül egymásnak a legjobb nyolc közé jutás reményében. Andoni Iraola mesternek akadt fejtörése bőven, hiszen a holland sztárpáros, Ryan Gravenberch és Cody Gakpo sérülés miatt el sem indult Belgiumba, így a lelátóról nézik az eseményeket. A sérültlistát erősíti még Endo Wataru és Federico Chiesa játékképtelensége, Conor Bradley és Giovanni Leoni még csak az edzéseknél tart, Hugo Ekitike pedig az Achilles-sérülése miatt legkorábban januárban villoghat újra. Így kellene egy negyedik győzelemmel bebiztosítani a továbbjutást úgy, hogy a kispad szinte félállásban üzemel."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -808,7 +1462,35 @@
       "title": "Magyar Péter hétmilliárd forintos segélyt ígért Ukrajnának",
       "link": "https://www.origo.hu/belpol/2026/11/magyar-peter-hetmilliard-forint-segely-ukrajna",
       "description": "Milliárdos bejelentés Ungváron.",
-      "image": "https://cdn.origo.hu/2026/11/TyG6UqMJFatlFqw02HhDltuHL4i6K3Pk8OoZLMmMmvc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9lOTNjMDE2ZmRlNWJhZTBjNjg1YTZhNWZlNWQwZjI1MjQ3MTYzZjdhMzU4NzQzODZjODc2Njc3ODZjMDVmMjQw.jpg"
+      "image": "https://cdn.origo.hu/2026/11/TyG6UqMJFatlFqw02HhDltuHL4i6K3Pk8OoZLMmMmvc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9lOTNjMDE2ZmRlNWJhZTBjNjg1YTZhNWZlNWQwZjI1MjQ3MTYzZjdhMzU4NzQzODZjODc2Njc3ODZjMDVmMjQw.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Magyar Péter hétmilliárd forintos segélyt ígért Ukrajnának",
+        "summary": "Milliárdos bejelentés Ungváron.",
+        "url": "https://www.origo.hu/belpol/2026/11/magyar-peter-hetmilliard-forint-segely-ukrajna",
+        "published": "Tue, 24 Nov 2026 18:25:00 +0000",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/TyG6UqMJFatlFqw02HhDltuHL4i6K3Pk8OoZLMmMmvc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9lOTNjMDE2ZmRlNWJhZTBjNjg1YTZhNWZlNWQwZjI1MjQ3MTYzZjdhMzU4NzQzODZjODc2Njc3ODZjMDVmMjQw.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "b9ac21bfc426c9fb5c6bc5d9b18acd8c34dc866327ae1afb7f75cb596f32eaea",
+        "variants": {
+          "original": {
+            "body": "Belföld: Magyar Péter miniszterelnökként első hivatalos ukrajnai útjára érkezett Ungvárra, ahol Volodimir Zelenszkijjel tárgyalt, és bejelentette, hogy Magyarország egymilliárd hrivnya, azaz hétmilliárd forint értékű humanitárius segélyt nyújt Ukrajnának. A gyakorlatban ez azt jelenti, hogy a támogatás mellett a felek fontos megállapodásokat értek el a kárpátaljai magyar kisebbség nyelvi, kulturális és oktatási jogait érintő tíz kérdésben, valamint a politika, az energetika és az infrastruktúra területén is. A miniszterelnök az X-en közzétett bejegyzése szerint tájékoztatott arról is, hogy a TISZA kormány további egymilliárd forintot különít el a 2026-os költségvetésből a kárpátaljai magyar közösség támogatására, és megalapítják a Zrínyi Ilona Szociális Fejlesztési Alapot. A tárgyalások előtt a vezetők az ungvári Kálvária-temetőben tisztelegtek az orosz–ukrán háborúban elesett katonák előtt, ahol a magyar kormányfő tájékoztatása alapján legalább tíz magyar honfitárs nyugszik."
+          },
+          "tolkien": {
+            "title": "A Kálvária árnyékától az ígéretek útjáig",
+            "body": "Belföld: Magyar Péter miniszterelnök első ízben lépte át Ungvár kapuit hivatalos úton, hogy Volodimir Zelenszkij oldalán állva hirdesse a magyar nép szolidaritását, és hétmilliárd forintnak, azaz egymilliárd hrivnyának megfelelő segélyt nyújtson az elgyötört földnek. A hősök végső nyughelyén, az ungvári Kálvária-temető sötétlő sírnál fejet hajtva a két vezető az elesett katonák és a legalább tíz ott nyugvó magyar honfitárs emlékének adózott. Ez a találkozó a politika, az energetika és az infrastruktúra rögös ösvényein nyit új kapukat, miközben a kárpátaljai magyar kisebbség nyelvi, kulturális és oktatási jogait érintő tíz kérdésben is megköttettek a szövetségek. A TISZA koronaékszereként a 2026-os kincstárból további egymilliárd ezüstöt – azaz forintot – szánnak a kárpátaljai nép megtartására, és életre hívják a Zrínyi Ilona Szociális Fejlesztési Alapot is."
+          },
+          "reito": {
+            "title": "Egymilliárd hrivnya és a békés ukrajnai séták",
+            "body": "Belföld: Magyar Péter miniszterelnök első hivatalos ungvári túráján Volodimir Zelenszkijjel egyeztetett, és nem érkezett üres kézzel: Magyarország egy csapásra egymilliárd hrivnya, azaz hétmilliárd forint értékű humanitárius csomagot gurít át Ukrajnának. A gyakorlatban ez a nagylelkűség nemcsak a politika, az energetika és az infrastruktúra terén hoz kétoldalú paktumokat, hanem a kárpátaljai magyar kisebbség nyelvi, kulturális és oktatási jogait érintő tíz pontot is gatyába rázza. Mielőtt az ukrán elnökkel az X-en és a tárgyalóasztalnál egymás tenyerébe csaptak volna, a Kálvária-temetőben koszorúztak az áldozatok emlékére, megjegyezve, hogy ott legalább tíz magyar honfitársuk is nyugszik. A TISZA kormány ráadásul nem áll meg itt, hiszen a 2026-os költségvetésből még egy milliárdot átpasszol a kárpátaljai magyaroknak, és felhúzza a Zrínyi Ilona Szociális Fejlesztési Alapot is."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Telex",
@@ -835,25 +1517,110 @@
       "title": "Videó: Cristiano Ronaldo betalált, már 987 gólnál jár",
       "link": "https://nemzetisport.hu/minden-mas-foci/2026/11/video-cristiano-ronaldo-betalalt-mar-987-golnal-jar",
       "description": "A portugál klasszis az Al-Szadd elleni Bajnokok Ligája-mérkőzésen volt eredményes. Joao Félix parádés gólja győzelmet ért.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/jdCcG7MRhLNVWpvEwhPL5Pza38WvpX-M_9PIXwmAGV4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzViNzAzNjY0ZTVkMDRlYzA4NWZkYjQ0ZTQzMzBlYWRh.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/jdCcG7MRhLNVWpvEwhPL5Pza38WvpX-M_9PIXwmAGV4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzViNzAzNjY0ZTVkMDRlYzA4NWZkYjQ0ZTQzMzBlYWRh.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Videó: Cristiano Ronaldo betalált, már 987 gólnál jár",
+        "summary": "A portugál klasszis az Al-Szadd elleni Bajnokok Ligája-mérkőzésen volt eredményes. Joao Félix parádés gólja győzelmet ért.",
+        "url": "https://nemzetisport.hu/minden-mas-foci/2026/11/video-cristiano-ronaldo-betalalt-mar-987-golnal-jar",
+        "published": "Tue, 24 Nov 2026 20:15:10 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/jdCcG7MRhLNVWpvEwhPL5Pza38WvpX-M_9PIXwmAGV4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzViNzAzNjY0ZTVkMDRlYzA4NWZkYjQ0ZTQzMzBlYWRh.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "f80ce1d96381ef51e397e768345fe4374a6f42b40c8f7b5bf15e61e0dc1c9aeb",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok ligájában szereplő Al-Nasszr csapatában Cristiano Ronaldo büntetőből megszerezte pályafutása 987. gólját a katariak ellen, míg Joao Félix ollózásával állt be a győzelmet érő eredmény. A szaúdi együttes ezzel harmadik győzelmét aratta a sorozatban egy vereség mellett, és december 27-én az Al-Vaszl ellen lép pályára. Ronaldo második találatát a jordániai játékvezető videózás után érvénytelenítette."
+          },
+          "tolkien": {
+            "title": "A Kilencszáznyolcvanhetedik Lándőfény és a Szaúdi Sereg Hadjárata",
+            "body": "A Bajnokok ligája küzdőterén Cristiano Ronaldo, az Al-Nasszr bajnoka büntetőből szerezte meg pályafutása 987. dicső gólját a katariak seregével szemben, miközben Mohamed Camara buktatása nyomán ébredt a tizenegyes. A hős utóbb újra a kapuba talált, ám a jordániai bíró szigorú ítélete és a videó árnyéka elvette azt a diadalt. A csatát végül Joao Félix ragyogó ollózása fordította győzelemre, így a szaúdi had harmadik diadalát aratta a sorozatban egyetlen vereség terhe mellett."
+          },
+          "reito": {
+            "title": "Kilencszáznyolcvanhét gól és egy olajozott ollózás a sivatagi arénában",
+            "body": "A Bajnokok ligája porondján az Al-Nasszr sztárja, Cristiano Ronaldo harcolt ki egy büntetőt Mohamed Camara legnagyobb bánatára, majd könyörtelenül bevarrta pályafutása 987. találatát a katariak hálójába. A bírói videózás ugyan elvette a portugál második gólját, de Joao Félix egy szemet gyönyörködtető ollózással biztossá tette a szaúdiak győzelmét. Ezzel a húzással a csapat könyvelhette a harmadik egymás utáni győzelmét egy vereség mellé a sorozatban, és már készülhet a december 27-i, Al-Vaszl elleni menetre."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Tue, 24 Nov 2026 20:05:00 +0000",
+      "published": "Tue, 24 Nov 2026 21:24:00 +0000",
       "observed": "2026-11-24T21:22:15.158335+01:00",
-      "title": "PSV-helyzetekkel indult a hollandok BL-mérkőzése a Bernabéuban",
+      "title": "Mbappé duplája után Vinícius sem maradhatott ki a gólszerzők közül – Real Madrid–PSV 5–1",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/bl-alapszakasz-real-madrid-psv-eindhoven",
       "description": "Sorozatban tizedik tétmeccsét nyerheti meg a madridi gárda, amely 20 hazai BL-mérkőzéséből 17-et megnyert Moruinho vezetésével.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/4UNqiwdsUwj8gX_VZGzucH1DDFimch9-8eSdDRl92Hg/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzk4NDhjMDFhNzY5YjQ5MWNiY2MxMDZhMWRhMzM2Yjlh.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/z2-PH3RpEEwPSnt3GHsV3Y1uilVff_FavunVOKawIQ0/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVhMjQ3NjYzODgxZTQ0NTJhODE1Y2MxMTY4MmY1NzRh.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Mbappé duplája után Vinícius sem maradhatott ki a gólszerzők közül – Real Madrid–PSV 5–1",
+        "summary": "Sorozatban tizedik tétmeccsét nyerheti meg a madridi gárda, amely 20 hazai BL-mérkőzéséből 17-et megnyert Moruinho vezetésével.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/bl-alapszakasz-real-madrid-psv-eindhoven",
+        "published": "Tue, 24 Nov 2026 21:24:00 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/z2-PH3RpEEwPSnt3GHsV3Y1uilVff_FavunVOKawIQ0/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVhMjQ3NjYzODgxZTQ0NTJhODE1Y2MxMTY4MmY1NzRh.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "0d44dff3d0a8d6d226a8b46c2655f276dd6f38d240042a86a388737ce4c33231",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok Ligája alapszakaszának 5. fordulójában a spanyol második helyezett Real Madrid hazai pályán 5–1-re győzte le a holland listavezető PSV Eindhovent, miután a félidős hátrányból a szünet után öt gólt szerezve fordítottak. A találkozón Valverde (50.), Jude Bellingham (60.), Kylian Mbappé (64. és 84.) és Vinícius Júnior (87.), illetve a hollandok részéről Perisic (32."
+          },
+          "tolkien": {
+            "title": "A Bernabéu falai alatt dörrentek a fegyverek",
+            "body": "A Bajnokok Ligája csillagmérsékletű küzdelmének ötödik napján a spanyol föld urai, a Real Madrid serege fogadta a holland viharoszlopokat, a PSV Einhovent a Santiago Bernabéu szent gyepszőnyegén. Az első félidőben még a északi vendégek diadalmaskodtak Perisic tizenegyeses kardcsapása révén, ám a szünet után a királyi hadvezér, José Mourinho csapata viharként zúdult az ellenfélre. Valverde, a csodás lövésű Bellingham, a kétszer is lecsapó Mbappé és a záróakkordot megadó Vinícius Júnior góljai félelmetes sodrással söpörték el a holland védelmet az 5–1-es diadallal végződő ütközetben. Ezzel a diadallal a fehér sereg a csillagos táblázat legmagasabb fokára hágott, míg a PSV-nek a sötét mélység elkerüléséért kell megvívnia utolsó csatáit."
+          },
+          "reito": {
+            "title": "Öt gól egy félidő alatt, azaz így szórakoznak a galaktikusok",
+            "body": "A Bajnokok Ligája alapszakaszának 5. fordulójában a spanyol bajnokság ezüstérmese, a Real Madrid otthon látta vendégül a holland bajnokság listavezetőjét, a PSV Eindhovent, a norvég Eskas sípszóra indított meccsen. Az első félidőben még a hollandok örülhettek, amikor Perisic 32. percben értékesített büntetője után 1–0-s vezetéssel fütyülték ki a szünetre vonuló madridiakat a nézők."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Tue, 24 Nov 2026 19:55:52 +0000",
+      "published": "Tue, 24 Nov 2026 21:31:52 +0000",
       "observed": "2026-11-24T21:22:15.158335+01:00",
-      "title": "Gyökeres varázslatos lövésével vezet máris az Arsenal",
+      "title": "Kétszer is megmentette a kapufa Londonban a Dortmundot",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/bl-alapszakasz-arsenal-borussia-dortmund",
       "description": "A Premier League és a Bundesliga éllovasa csap össze a rangadón – csúcsfutballt várunk a mérkőzéstől.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/J5lJ-O-45GlUIF9b9ktvo0whFz-NSIGRG4MJi1ZyzA8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I4MDhhZWM4YWFlYzQ2OTI5ZjkxODUzN2Y0NTVlMDZj.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/SiP0a_g6yj9Wo0DInFX2WTUqvPqWhqIEWdjOFHEKuWs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM0NThkZmY0NGQ4ZTQ5MWU5ZTMwOWU1M2VlODQzMzNm.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Kétszer is megmentette a kapufa Londonban a Dortmundot",
+        "summary": "A Premier League és a Bundesliga éllovasa csap össze a rangadón – csúcsfutballt várunk a mérkőzéstől.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/bl-alapszakasz-arsenal-borussia-dortmund",
+        "published": "Tue, 24 Nov 2026 21:31:52 +0000",
+        "categories": [
+          "premier",
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/SiP0a_g6yj9Wo0DInFX2WTUqvPqWhqIEWdjOFHEKuWs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM0NThkZmY0NGQ4ZTQ5MWU5ZTMwOWU1M2VlODQzMzNm.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "afb829714cdbb215db821a44bc5098c09614406bb94d1df466333be20398e404",
+        "variants": {
+          "original": {
+            "body": "Az Arsenal és a Borussia Dortmund 1–1-es döntetlent játszott a Bajnokok ligája alapszakaszának ötödik fordulójában a londoni Emirates Stadionban, amellyel az Arsenal öt meccs után is veretlen maradt a BL-ben. A mérkőzésen a 10. percben Viktor Gyökeres szerzett vezetés az Arsenalnak tizenkilenc méterről, míg a Dortmund egyenlítő gólját Maximilian Beier lőtte a 55. percben 14 méterről Joanne Gadou átadása után."
+          },
+          "tolkien": {
+            "title": "A londoni mezőn ütköző seregek dicséretes viadala",
+            "body": "A Bajnokok ligája alapszakaszának ötödik hajnalán az Arsenal népe és a Borussia Dortmund hadai feszültek egymásnak a londoni Emirates kőfalai között, ahol a felek 1–1-es döntetlennel zárták viadalukat, így az ágyúsok ötszörösen is veretlenek maradtak a viadalon. A tizedik naplementével felérő percben Viktor Gyökeres mélyről indított szárnyas nyila, egy tizenkilenc lépésről leadott csodás lövés talált utat a kapu jobb felső bástyájába, míg a fekete-sárgák válaszát Maximilian Beier hozta el az ötvenötödik fordulóban, mikor Joanne Gadou adományából tizennégy lépésről a bal alsó sarokba talált. A harcmező sorsát pecsételte meg a nyolcvannegyedik órában Declan Rice hatalmas hajítása is, amelyen a Premier League harcosait befogadó angol földön a fémből vert kapufa mentette meg a dortmundi pajzsokat a pusztulástól. Ezen nemes küzdelem végén mindkét tábor egyetlen pont zsákmányával tért nyugovóra a megmérettetés után."
+          },
+          "reito": {
+            "title": "A kapufa is besegített: iksz született Londonban",
+            "body": "Az Arsenal és a Borussia Dortmund 1–1-es békés osztozkodással zárta a Bajnokok ligája alapszakaszának ötödik fordulóját a londoni Emirates Stadionban, így az ágyúsok ötből öt meccs után is makulátlanul veretlenek maradtak a porondon. A hazaiak tizenhatoson kívüli tűzijátékát Viktor Gyökeres nyitotta meg a 10. percben egy tizenkilenc méterről eleresztett bombagóllal, amire a Dortmund a második félidő elején válaszolt, amikor Maximilian Beier a 55. percben Joanne Gadou passzából, tizennégy méterről kíméletlenül beköszönt a bal alsóba."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -880,7 +1647,35 @@
       "title": "Alig tért vissza az Nvidia botrányba keveredett vezére, máris megüzente: nem lesznek nagy változások",
       "link": "https://www.portfolio.hu/uzlet/20261124/alig-tert-vissza-az-nvidia-botranyba-keveredett-vezere-maris-meguzente-nem-lesznek-nagy-valtozasok-878872",
       "description": "<p>Jensen Huang, az Nvidia vezérigazgatója a Financial Times értesülése szerint kiállt a vállalat központosított irányítási modellje mellett, és nem tervez átfogó változásokat a cég vezetésében. A keddi összdolgozói értekezleten Huang bocsánatot kért a munkatársaktól, és megígérte, hogy nyitottabb lesz a visszajelzésekre.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/j/e/n/jensen-huang-872414.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/j/e/n/jensen-huang-872414.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Alig tért vissza az Nvidia botrányba keveredett vezére, máris megüzente: nem lesznek nagy változások",
+        "summary": "<p>Jensen Huang, az Nvidia vezérigazgatója a Financial Times értesülése szerint kiállt a vállalat központosított irányítási modellje mellett, és nem tervez átfogó változásokat a cég vezetésében. A keddi összdolgozói értekezleten Huang bocsánatot kért a munkatársaktól, és megígérte, hogy nyitottabb lesz a visszajelzésekre.</p>",
+        "url": "https://www.portfolio.hu/uzlet/20261124/alig-tert-vissza-az-nvidia-botranyba-keveredett-vezere-maris-meguzente-nem-lesznek-nagy-valtozasok-878872",
+        "published": "Tue, 24 Nov 2026 21:13:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/j/e/n/jensen-huang-872414.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "294f6ebc4d4d1e9ac79f32fe2a6649d9b797dc4026a48faf43716d84252c2099",
+        "variants": {
+          "original": {
+            "body": "Jensen Huang, a négybillió dolláros piaci kapitalizációjú Nvidia vezérigazgatója kedden védelmébe vette a vállalat központosított irányítási modelljét és az utódlási terv hiányát, miután az igazgatótanács hétfőn visszahelyezte őt a posztjára. Szavai alapján a cégvezető nem tervez átfogó átalakítást a vezetésben és a lapos szervezeti struktúrában, amelyben több tucat felső vezető tartozik közvetlen beszámolási kötelezettséggel hozzá. A négybillió dolláros cégóriást érintő értekezleten Huang bocsánatot kért a munkatársaktól a viselkedéséért, amely két héttel ezelőtti lemondásához vezetett a Kimberly Powell-lel folytatott viszonya és a szingapúri Megaspeedet érintő chipcsempészeti vizsgálat hírei miatt. Az Nvidia egyelőre nem reagált a sajtómegkeresésekre."
+          },
+          "tolkien": {
+            "title": "A trónfosztott úr visszatérése a csip-birodalom bércein",
+            "body": "Jensen Huang, a négybillió dolláros piaci kapitalizációjú csipgyártó óriás, az Nvidia ura kedden visszatért trónjára, és pajzsára emelte a birodalom központosított rendjét meg az utódlási terv hiányát, mit sem törődve a változás szeleit sürgetők szavával. Az igazgatótanács által hétfőn visszahelyezett vezér a keddi gyűlésen megüzente, hogy a hatalmas struktúrában nem lesznek mélyreható változások, miközben bocsánatot kért a Kimberly Powell-lel való viszonya és a Megaspeedet övező viharok miatti korábbi távozásáért. A lapos szervezeti háló, melyben közvetlen seregnyi vezető felel a trónnnal szemben, változatlanul halad tovább útján."
+          },
+          "reito": {
+            "title": "A vezér visszatér a kaszinóba: nincs új osztás az Nvidiánál",
+            "body": "Jensen Huang, a négybillió dolláros piaci kapitalizációjú Nvidia vezérigazgatója kedden gyorsan tisztázta a helyzetet, miután az igazgatótanács hétfőn visszalökte a kedvelt székébe: semmi alapvető változás nem lesz a birodalomban. Az állománygyűlésen egyúttal bocsánatot kért a beosztottjával, Kimberly Powell-lel folytatott viszonya és a szingapúri Megaspeed ügyei miatt bekövetkezett kéthetes távollétéért, de a lapos, közvetlen beszámolós szerkezetet megőrzi. A cégóriásnál mindenesetre elmarad a nagytakarítás, és az utódlási terv hiányán sem pörögnek túl."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -943,7 +1738,35 @@
       "title": "Visszavonták a Szoboszlai gólját megelőző kiállítást, a Manchesteren ez már nem segít",
       "link": "https://www.origo.hu/sport/sport-futball/2026/11/lenny-yoro-liverpool-manchester-united",
       "description": "Váratlan fordulat történt a Liverpool–Manchester United rangadó egyik legvitatottabb jelenete után.",
-      "image": "https://cdn.origo.hu/2026/11/WbywtFYtg4HBnBZfz4eK6wz1BdM4X5w4tYObG54sdrk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9hOGEzYTFkOWEzYTUyZWY5YmIxYWE4MGE5OWIwNDljNmY0MmM1OGEyNzk1MjdlMmU1ZjI0NDQ4ZWY0ZWUwNzE2.jpg"
+      "image": "https://cdn.origo.hu/2026/11/WbywtFYtg4HBnBZfz4eK6wz1BdM4X5w4tYObG54sdrk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9hOGEzYTFkOWEzYTUyZWY5YmIxYWE4MGE5OWIwNDljNmY0MmM1OGEyNzk1MjdlMmU1ZjI0NDQ4ZWY0ZWUwNzE2.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Visszavonták a Szoboszlai gólját megelőző kiállítást, a Manchesteren ez már nem segít",
+        "summary": "Váratlan fordulat történt a Liverpool–Manchester United rangadó egyik legvitatottabb jelenete után.",
+        "url": "https://www.origo.hu/sport/sport-futball/2026/11/lenny-yoro-liverpool-manchester-united",
+        "published": "Tue, 24 Nov 2026 19:50:06 +0000",
+        "categories": [
+          "man-united"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/WbywtFYtg4HBnBZfz4eK6wz1BdM4X5w4tYObG54sdrk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9hOGEzYTFkOWEzYTUyZWY5YmIxYWE4MGE5OWIwNDljNmY0MmM1OGEyNzk1MjdlMmU1ZjI0NDQ4ZWY0ZWUwNzE2.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "38eff898ed63100e3597c63c52af12a7ff1c3d408bc1e511686f1cd358a10b1d",
+        "variants": {
+          "original": {
+            "body": "A Labdarúgó-szövetség visszavonta Leny Yorónak, a Manchester United védőjének a Liverpool elleni 4-0-ás vereség alkalmával kapott piros lapját, amelyet Sam Barrott játékvezető ítélt meg Alexander Isak elleni szabálytalanságért. A fellebbezés nyomán megváltoztatott döntés értelmében a francia védő pályára léphet a Manchester United szombati, Brentford elleni bajnoki mérkőzésén az Old Traffordon. A szabálytalanságot követő szabadrúgásból Szoboszlai Dominik gólt lőtt, Mauricio Pochettino vezetőedző pedig úgy vélte, a kiállítás alapvetően befolyásolta a találkozó alakulását. Howard Webb, a játékvezetők főnöke ugyanakkor továbbra is helyesnek tartja a Sam Barrott által meghozott kiállítási döntést."
+          },
+          "tolkien": {
+            "title": "A vörös lap árnyéka és a Manchester United sorsa",
+            "body": "A Labdarúgó-szövetség kegyelme nyomán eltöröltetett Leny Yorónak, a Manchester United vitézének piros lapja, amelyet a Liverpool elleni viadalon róttak ki rá Alexander Isak megálljt parancsoló üldözéséért. E végzés értelmében a védő harcba szállhat a Manchester United szombati, Brentford elleni összecsapásán az Old Trafford szent gyepén. Annak a végzetes szabadrúgásnak a kapujából Szoboszlai Dominik éles lángként lőtt gólt, míg a hazaiak négy arányú sötét diadalra jutottak, Mauricio Pochettino pedig úgy ítélte, e bírói ítélet megpecsételte a csata sorsát. Miközben Howard Webb, a sípok urainak vezére továbbra is a szigorú igazság bajnokaként védelmezi az eredeti ítéletet, a fellebbezés szövete győzedelmeskedett."
+          },
+          "reito": {
+            "title": "Piros lap visszavonva, Manchester United örömre hangolva",
+            "body": "A Labdarúgó-szövetség meggondolta magát, és visszavonta Leny Yorónak, a Manchester United védőjének piros lapját, amelyet a Liverpool elleni 4-0-ás zakó alkalmával sóztak rá Sam Barrott bíró jóvoltából. A fellebbezés gyümölcseként a védő így legálisan kifuthat a gyepre a Manchester United szombati, Brentford elleni bajnokiján az Old Traffordon. Az ominózus szabadrúgásból Szoboszlai Dominik ugyan könyörtelenül beköszönt, Mauricio Pochettino vezetőedző pedig mélyen igazságtalannak érezte a kiállítást, a szövetség mégis helyt adott a klub panaszának. Howard Webb játékvezetőfőnök persze a mai napig azzal az érvvel vigasztalja magát, hogy Barrott tökéletesen cselekedett, mikor leküldte a francia játékost."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -971,8 +1794,440 @@
       "link": "https://www.origo.hu/kek-hirek/2026/11/baleset-405-os-fout-nyaregyhaza-ujhartyan",
       "description": "Nyáregyháza és Újhartyán között csapódtak egymásnak a járművek. Az egyik autóba egy ember beszorult, a mentők is a helyszínre érkeztek.",
       "image": "https://cdn.origo.hu/2026/11/9NgNEJOCBPqLDdwHUCWcNkDAIxGZH-N4_zUZKlX6dHU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMC9lNDRhNjQxNWZjMmQ3Y2FlNGZjNzE2YzJlNWQ3YTMzNDVkOWFiMjZkNzg0Yzg2ZTMwMDIwODI3MzQ5YzU2NDRj.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Tue, 24 Nov 2026 22:28:33 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Túszejtés lett egy félresikerült rablásból Kolumbiában",
+      "link": "https://telex.hu/kulfold/2026/11/24/kolumbia-tuszejtes-felresikerult-rablas-penzszallito",
+      "description": "A fegyveresek egy szupermarketbe menekültek be Cartagena városában.",
+      "image": "https://assets.telex.hu/images/20261124/1795555224-temp-2o5igacnfuos0pbjcbe_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Tue, 24 Nov 2026 21:38:05 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "„Újabb példája az Európa megosztását célzó orosz provokációnak” – Putyinnak több célja is volt a lengyeleknél lezuhant orosz rakétákkal",
+      "link": "https://telex.hu/kulfold/2026/11/24/nato-lengyelorszag-orosz-robotrepulogepek-provokacio-lezuhant-becsapodott-orosz-ukran-haboru",
+      "description": "Rendkívüli ülést tartott a NATO a Lengyelországban becsapódott orosz robotrepülőgépek miatt. Európai vezetők és szakértők szerint Moszkva provokációnak és figyelmeztetésnek szánta a légtérsértést, ami egy nagyszabású hadgyakorlat idején történt. Közben az oroszok azzal vádolták Észtországot, hogy „egy nyílt háború kirobbantásának küszöbén” áll.",
+      "image": "https://assets.telex.hu/images/20261124/1795522090-temp-m05g5btpsdqp5afmiie_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "„Újabb példája az Európa megosztását célzó orosz provokációnak” – Putyinnak több célja is volt a lengyeleknél lezuhant orosz rakétákkal",
+        "summary": "Rendkívüli ülést tartott a NATO a Lengyelországban becsapódott orosz robotrepülőgépek miatt. Európai vezetők és szakértők szerint Moszkva provokációnak és figyelmeztetésnek szánta a légtérsértést, ami egy nagyszabású hadgyakorlat idején történt. Közben az oroszok azzal vádolták Észtországot, hogy „egy nyílt háború kirobbantásának küszöbén” áll.",
+        "url": "https://telex.hu/kulfold/2026/11/24/nato-lengyelorszag-orosz-robotrepulogepek-provokacio-lezuhant-becsapodott-orosz-ukran-haboru",
+        "published": "Tue, 24 Nov 2026 21:38:05 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://assets.telex.hu/images/20261124/1795522090-temp-m05g5btpsdqp5afmiie_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "rss",
+        "sourceHash": "901c602e60aacd3ad3c91490d688613f601529851f4647f0341da8eb9635f3c9",
+        "variants": {
+          "original": {
+            "body": "Rendkívüli ülést tartott a NATO a Lengyelországban becsapódott orosz robotrepülőgépek miatt, mivel az európai vezetők és szakértők szerint Moszkva provokációnak és figyelmeztetésnek szánta a légtérsértést. Az esemény egy nagyszabású hadgyakorlat idején történt, amely közvetlenül érinti a külföldi biztonságpolitikai helyzetet. Közben az oroszok azzal vádolták Észtországot, hogy „egy nyílt háború kirobbantásának küszöbén” áll."
+          },
+          "tolkien": {
+            "title": "A nyugati bástyák árnyéka és az északi vizek haragja",
+            "body": "Rendkívüli gyűlést hívott össze a NATO a Lengyelország földjén becsapódott orosz robotrepülőgépek miatt, miután a fejedelmek és bölcsek tanácsa szerint Moszkva szándékos provokációnak és intésnek szánta a légtér megsértését. Ez a fenyegető lépés egy nagyszabású hadgyakorlat viharában sújtott le, próbára téve a külföldi védelem határait és éberségét. Közben az orosz uralkodók azzal a súlyos váddal illették Észtországot, hogy birodalmuk egy nyílt háború kirobbantásának küszöbén áll."
+          },
+          "reito": {
+            "title": "Égi tűzijáték a lengyel határon, szóbeli ágyúdörgés Észtország felé",
+            "body": "Rendkívüli üléssel reagált a NATO a Lengyelországban landolt orosz robotrepülőgépekre, mert az európai vezetők és szakértők szerint Moszkva csupán egy barátságosnak semmiképpen sem mondható provokációnak és figyelmeztetésnek szánta a légtérsértést. A bonyodalmak pontosan egy nagyszabású hadgyakorlat zajos forgatagában értek utol mindenkit, ami alaposan feladta a leckét a nemzetközi porondon. Még le sem ültek porondra a felek, amikor az oroszok már meg is vádolták Észtországot azzal, hogy tüstént „egy nyílt háború kirobbantásának küszöbén” találták magukat."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 21:08:14 Z",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Az Ungváron bejelentett Zrínyi Ilona program finanszírozásának részletei már meg is jelentek a Közlönyben",
+      "link": "https://hvg.hu/gazdasag/20261124_magyar-kozlony-zrinyi-ilona-program-finanszirozas-magyar-kozlony",
+      "description": "A kormány 2026-ban kétmilliárd forintot irányított át a kárpátaljai magyarokat támogató programba.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b45643a9-d3f5-4d95-940d-1dcbbc834dd8.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Az Ungváron bejelentett Zrínyi Ilona program finanszírozásának részletei már meg is jelentek a Közlönyben",
+        "summary": "A kormány 2026-ban kétmilliárd forintot irányított át a kárpátaljai magyarokat támogató programba.",
+        "url": "https://hvg.hu/gazdasag/20261124_magyar-kozlony-zrinyi-ilona-program-finanszirozas-magyar-kozlony",
+        "published": "Tue, 24 Nov 2026 21:08:14 Z",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b45643a9-d3f5-4d95-940d-1dcbbc834dd8.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "b46cbc25fb99fe14b50dff83fce23de62619fddc0e59119b5d35bd431993a069",
+        "variants": {
+          "original": {
+            "body": "A Magyar Közlönyben kedd este megjelent kormányhatározat értelmében a Zrínyi Ilona Szociális Fejlesztési Program egymilliárd forint egyedi támogatást és egymilliárd forint egyszeri, működtetési célú kifizetést kapott, amelynek felét a központi tartalékok rendkívüli kormányzati intézkedésekre szánt keretéből csoportosítják át. A Kárpátalján működő Linner Bertalan Beregszászi Járási Központi Kórház emellett állami tulajdonból ingyenes juttatásként 10 darab Q5-TS/II típusú, CO2 modullal ellátott betegőrző monitort kapott. A belföldi Magyar Közlönyben közzétett hivatalos kormányhatározat a magyar miniszterelnök ungvári látogatásához időzítve intézkedett a Kárpátalját és a szociális programokat érintő támogatásokról és eszközjuttatásokról. A keddi eseményekhez kapcsolódóan az ukrán elnök és Magyar Péter közös sajtótájékoztatót tartott, amelyen a bizalom helyreállításáról, kölcsönösen előnyös megállapodásokról és egy lehetséges magyarországi látogatásról is szó esett."
+          },
+          "tolkien": {
+            "title": "A kárpátaljai kincstár megnyílása és a gyógyító szemek ajándéka",
+            "body": "A Magyar Közlöny kútfejéből felbuggyanó kedd esti kormányhatározat nyomán a Zrínyi Ilona Szociális Fejlesztési Program kétmilliárd aranyat – egymilliárd egyedi támogatást és ugyanennyi működtetési ezüstöt – kapott, amely kincs felét a központi tartalékok rendkívüli mélyéből hozták napvilágra. Ugyanebben az órában a kárpátaljai Linner Bertalan Beregszászi Járási Központi Kórház tíz darab éber, Q5-TS/II jelű, CO2 modul ékkövével ékesített betegőrző monitort nyert el ingyenes, királyi juttatásként. Ez a belföldi döntés a mindenkori hatalom vezérének ungvári látogatásához köttetve öntötte formáját az írott törvények lapjain. Az idők folyamán pedig Zelenszkij és Magyar Péter közös sátra alatt a bizalom szövetségéről és távoli utak vendégségéről is beszédet váltottak a felek."
+          },
+          "reito": {
+            "title": "Kétmilliárdos manőver a Közlönyben és tíz éber monitor Kárpátaljának",
+            "body": "A Magyar Közlöny kedd esti futamában pontban ott termett a kormányhatározat, amely a Zrínyi Ilona Szociális Fejlesztési Program számlájára pakolt egymilliárd forint egyedi támogatást plusz még egy milliárdot működtetésre, megspékelve a központi tartalékokból előkapart ápolt összeggel. Nem maradt üres kézzel a kárpátaljai Linner Bertalan Beregszászi Járási Központi Kórház sem, amely állami ajándékként tíz darab Q5-TS/II típusú, CO2 modulos betegőrző monitor tulajdonosa lett egy szempillantás alatt. Ez a belföldi bürokratikus gyorsvonat éppen a miniszterelnök ungvári vizitjéhez igazítva osztotta ki a pénzt és az eszközöket. A nap végén pedig Zelenszkij és Magyar Péter még egy közös sajtótájékoztató keretében is összehozta a bizalom helyreállítását, a kölcsönösen előnyös üzleteket meg a magyarországi látogatás ígéretét."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 20:52:38 Z",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Rijád legmagasabb felhőkarcolóját támadták a húszik, 11-en megsebesültek",
+      "link": "https://hvg.hu/vilag/20261124_rijad-tamadas-legmagasabb-felhokarcolo-szaud-arabia-huszik-terroristak-terrortamadas",
+      "description": "A terroristák pár napon belül másodjára vették célpontba a PIF-tornyot, ami a szaúdi vagyonkezelői alap központja.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fc5fadde-3354-4c8c-9510-77eced06bcaa.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 20:43:01 Z",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Kiesett egy utas az InterCityből, Mezőkövesdnél leállt a vonatközlekedés",
+      "link": "https://hvg.hu/itthon/20261124_intercity-baleset-mezokovesd-mav",
+      "description": "A MÁV tisztázatlan körülményekről írt.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/3120c5fa-6edc-4793-91d4-2a1951ab131f.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 21:36:40 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Három meccslabdáról bukott el a Kaposvár a férfi röplabda BL-ben",
+      "link": "https://nemzetisport.hu/roplabda/2026/11/harom-meccslabdarol-bukott-el-a-kaposvar-a-ferfi-roplabda-bl-ben",
+      "description": "A horvát Mladost Zagreb így kettős győzelemmel jutott a Bajnokok Ligája főtáblájára.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/SVKSn7GEWbU_ijF-Tlj9OmUvJtwVj1KS2WywjckXXUE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzliNjQ1YmZhMzc1ZjRjZTU4MjU5OWI3MzEwMDY1MWQw.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Három meccslabdáról bukott el a Kaposvár a férfi röplabda BL-ben",
+        "summary": "A horvát Mladost Zagreb így kettős győzelemmel jutott a Bajnokok Ligája főtáblájára.",
+        "url": "https://nemzetisport.hu/roplabda/2026/11/harom-meccslabdarol-bukott-el-a-kaposvar-a-ferfi-roplabda-bl-ben",
+        "published": "Tue, 24 Nov 2026 21:36:40 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/SVKSn7GEWbU_ijF-Tlj9OmUvJtwVj1KS2WywjckXXUE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzliNjQ1YmZhMzc1ZjRjZTU4MjU5OWI3MzEwMDY1MWQw.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "7c6457c3c482fdffd81314e178a257ecf45c97358f12a36f33588a9091663219",
+        "variants": {
+          "original": {
+            "body": "Három mérkőzéslabdáról bukott el és búcsúzott a férfi röplabda Bajnokok ligája selejtezőjének harmadik fordulójának visszavágóján a Fino Kaposvár, miután Zágrábban 3:2-es vereséget szenvedett a horvát Mladost Zagreb ellen. Ezzel a kettős győzelemmel 6:2-es összesítéssel továbbjutó horvátok lezárták a párharcot, míg a magyar bajnok a CEV-kupában folytathatja szereplését a holland Groningen ellen az első fordulóban. A mérkőzésen, amelyet 1200 néző előtt szlovák és cseh játékvezetők irányítottak, az ötödik szett végén a somogyiak ötpontos előnyről és három meccslabdáról engedték át a győzelmet a hazaiaknak. A Fino Kaposvár kiesése ellenére a nemzetközi kupaporondon marad, ahol a holland Groningen csapata vár rá a CEV-kupában."
+          },
+          "tolkien": {
+            "title": "A győzelem kapujában elhamvadó láng",
+            "body": "A férfi röplabda Bajnokok ligája selejtezőjének harmadik fordulójában, Zágráb küzdőterén a Fino Kaposvár három megilletődött mérkőzéslabdáról bukott el a Mladost Zagreb ellen, így a hazaiak kettős győzelemmel zárták le a csatát. Ez a keserű vereség pecsételte meg a somogyiak sorsát a BL küzdelmeiben, ám a küldetés nem ért véget, mert a magyar bajnok a CEV-kupában, a holland Groningen ellen élesztheti újjá harci kedvét. Az 1200 lélek által figyelt, szlovák és cseh bírák felügyelte ütközetben az ötödik játszma dicső magasságából ötpontos fórot elpuskázva zuhantak le a kaposváriak. A Bajnokok ligája küzdőteréről így bár távozni kényszerülnek, a sors könyve szerint a CEV-kupa fagyosabb csarnokai és a holland Groningen elleni csaták várnak rájuk."
+          },
+          "reito": {
+            "title": "Három meccslabda záporban, avagy zágrábi búcsú a BL-től",
+            "body": "A férfi röplabda Bajnokok ligája selejtezőjének harmadik fordulójában a Fino Kaposvár pont három megnyerhető meccslabdáról bukott el Zágrábban a Mladost Zagreb ellen, miután a horvátok 3:2-re nyertek és 6:2-es összesítéssel húzták be a párharcot. Ez a hajrábeli zárlat pecsételte meg a magyar bajnok sorsát a BL-ben, így az 1200 néző előtt, szlovák és cseh füttyök mellett lezajlott dráma után a somogyiak átcuccolnak a CEV-kupába. Az ötödik szettben már ötpontos előnyben és három meccslabdával is feszítő kaposváriak innen hozták össze a vereséget, ám a nemzetközi kaland nem áll meg. A Bajnokok ligája kapui bezárultak ugyan, de a CEV-kupában a holland Groningen ellen folytathatják a vándorlást."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 21:16:35 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "A magyar curlingválogatott extra endben vesztette el a litvánok elleni vb-selejtezőt",
+      "link": "https://nemzetisport.hu/teli-sportok/2026/11/a-magyar-curlingvalogatott-extra-endben-vesztette-el-a-litvanok-elleni-vb-selejtezot",
+      "description": "A magyar négyes szerdán a nyeretlen Új-Zélanddal csap össze.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/KYNeeBLl_uB4Zu9ZtIBJZ4wBasJy5VA9Sfg5juQlbi8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzZmNjIyODViNmU2YTQ5N2JhMDc0NmQzYjU5MWNhNjkx.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 20:52:54 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Davis-kupa: a csehek kerültek be először az elődöntőbe",
+      "link": "https://nemzetisport.hu/tenisz/2026/11/davis-kupa-a-csehek-kerultek-be-eloszor-az-elodontobe",
+      "description": "Tomas Mahácék nem adtak esélyt a kanadaiaknak, mindkét egyest megnyerték.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/69QlktnxRRP6bV5enKbhuWPa5EBI5KidQhp67hE94hY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2U1NGIzNDkzMzgxNTRhNjM5YWYyZjc4ZTIwYmNhZDMx.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Davis-kupa: a csehek kerültek be először az elődöntőbe",
+        "summary": "Tomas Mahácék nem adtak esélyt a kanadaiaknak, mindkét egyest megnyerték.",
+        "url": "https://nemzetisport.hu/tenisz/2026/11/davis-kupa-a-csehek-kerultek-be-eloszor-az-elodontobe",
+        "published": "Tue, 24 Nov 2026 20:52:54 +0000",
+        "categories": [
+          "tennis"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/69QlktnxRRP6bV5enKbhuWPa5EBI5KidQhp67hE94hY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2U1NGIzNDkzMzgxNTRhNjM5YWYyZjc4ZTIwYmNhZDMx.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "6c6eb32a6b485c39f20bd6353dbf6c74e7785803210a0e1b388779acb8d34f2f",
+        "variants": {
+          "original": {
+            "body": "A Davis-kupa bolognai világdöntőjének negyeddöntőjében Csehország csapata 2–0-ra győzte le Kanadát, miután Tomas Machác 6:2, 3:6, 6:2-re nyert Liam Draxl ellen, Jirí Lehecka pedig 7:6 (7–4), 6:2-re verte Félix Auger-Aliassimét. Ezzel a csehek jutottak be először az elődöntőbe, ahol pénteken 16.00 órakor a címvédő, házigazda olaszok vagy a dél-koreaiak ellen lépnek pályára. A teniszvilág eseménysorozatának további negyeddöntőit szerdán és csütörtökön, a döntőt pedig vasárnap 15.00 órakor rendezik."
+          },
+          "tolkien": {
+            "title": "A cseh seregek elsőként törték át a bástyát a tenisz mezején",
+            "body": "A bolognai viadal porondján a cseh hadak mérték össze erejüket a kanadai pajzsokkal a Davis-kupa dicsőségéért, ahol Tomas Machác és Jirí Lehecka fegyverei nyomán 2–0-ás diadal született. A tenisz szentélyében aratott győzelem nyomán a csehek léptek be elsőként a dicsőséges elődöntő kapuján, megpecsételve sorsukat a pénteki, 16.00 órakor kezdődő ütközetre. Ezen a csatatéren a címvédő olaszok vagy a dél-koreaiak várnak rabláncra vert sorssal a győztesre, míg a vasárvadi finálé trónja még üresen mered a viharos küzdőtéren."
+          },
+          "reito": {
+            "title": "Háló nélkül, de határozottan: a csehek nyitották meg a Davis-kupa elődöntőjének kapuját",
+            "body": "A bolognai Davis-kupa negyeddöntőjében Csehország csapata sima, 2–0-ás rohammal intézte el Kanadát a teniszpályán, miután Tomas Machác és Jirí Lehecka is hozta a kötelezőt a 6:2, 3:6, 6:2 és 7:6 (7–4), 6:2 arányú ütközetekben. Ezzel a bravúrral a csehek szerezték meg elsőként az elődöntős helyet, így pénteken délután négykor ők várják a címvédő olasz vagy a dél-koreai ellenfelet a teniszcsarnok porondján. A papírforma szerint hömpölygő eseménysorozat végállomása a vasárnapi döntő lesz, ahol pontosan délután háromkor dől el a trófea sorsa."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 20:41:57 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Magabiztos újpesti győzelem a női röplabda Challenge-kupában",
+      "link": "https://nemzetisport.hu/roplabda/2026/11/magabiztos-ujpesti-gyozelem-a-noi-roplabda-challenge-kupaban",
+      "description": "A házigazda bosnyák Novo Sarajevo egyik játszmában sem jutott 15 pont fölé.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/oRZ-pwK_5Lx2uITEcMov_R1-02qrqPP7gU6GSW6XmNA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2JmNzA4OTY0NTQ2MDRkNGI4NThmZDIyZDk4NzM5YjA0.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 20:39:54 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Szinte biztossá vált a Tatabánya kiesése az Európa-ligában",
+      "link": "https://nemzetisport.hu/kezilabda/2026/11/szinte-biztossa-valt-a-tatabanya-kiesese-az-europa-ligaban",
+      "description": "A Slovan 23–23 után Domen Tajnik vezérletével öt gólt szerzett sorozatban, ami döntőnek bizonyult.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/bBIamUrL7W9RlI8xZIaadIsexDQerDHbgQtsC-7C6JA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzAwZjg2MTNiMzk3MzQ2Y2E4N2MxNGVhYzM3ZGNiZTU1.webp"
+    },
+    {
+      "source": "444.hu",
+      "published": "Tue, 24 Nov 2026 21:51:55 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Zelenszkij a 444 kérdésére: A magyar miniszterelnök helyében meghívnám magamat Budapestre",
+      "link": "https://444.hu/2026/11/24/zelenszkij-a-444-kerdesere-a-magyar-miniszterelnok-helyeben-meghivnam-magamat-budapestre?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Magyar meg is hívta az ukrán elnököt ott rögtön.",
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Tue, 24 Nov 2026 21:29:37 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Túszdráma Kolumbiában: egy félresikerült rablás után harminc embert ejtettek túszul egy áruházban",
+      "link": "https://444.hu/2026/11/24/tuszdrama-kolumbiaban-egy-felresikerult-rablas-utan-harminc-embert-ejtettek-tuszul-egy-aruhazban?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "A fegyveresek kétmillió dollárt és szabad elvonulást követelnek, terrorelhárítók vették körbe az épületet.",
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 22:00:00 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Megint elromlott a hangulat, újra estek a tőzsdék",
+      "link": "https://www.portfolio.hu/uzlet/20261124/megint-elromlott-a-hangulat-ujra-estek-a-tozsdek-878616",
+      "description": "<p>Jensen Huang visszatérésének hírére tegnap közel 7 százalékkal emelkedett a Nasaq, és közel 32 százalékkal az Nvidia. A technológiai papírokat tömörítő index tavaly április óta nem zárt ilyen erős napot. Ezt követően ma reggel Ázsiában felemás, de többnyire pozitív kereskedést láthattunk, Európában viszont esés következett a nyitást követően, és a magyar tőzsdén is elfogyott a lendület. Az USA szintén esik, részben az amerikai kormány újabb vámterveivel kapcsolatos értesülések miatt.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/m/o/r/morgan-stanley-sp-500-amerikai-reszvenypiac-reszvenypiac-elorejelzes-mesterseges-intelligenc-869922.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 21:55:00 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Felhőkarcolóra csaptak le a lázadók az olajnagyhatalom üzleti negyedében: közel tucatnyian megsérültek",
+      "link": "https://www.portfolio.hu/global/20261124/felhokarcolora-csaptak-le-a-lazadok-az-olajnagyhatalom-uzleti-negyedeben-kozel-tucatnyian-megserultek-878878",
+      "description": "<p>Az Irán-barát jemeni húszi lázadók követhették el kedden azt a támadást, amelyben találat érte a szaúdi főváros üzleti negyedében található legmagasabb toronyházat, 11 ember sebesülését okozva - közölte a szaúd-arábiai polgári védelem és az állami SPA hírügynökség.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/s/i/i/siita-huszi-lazadok-tuntetnek-jemenben-834340.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Felhőkarcolóra csaptak le a lázadók az olajnagyhatalom üzleti negyedében: közel tucatnyian megsérültek",
+        "summary": "<p>Az Irán-barát jemeni húszi lázadók követhették el kedden azt a támadást, amelyben találat érte a szaúdi főváros üzleti negyedében található legmagasabb toronyházat, 11 ember sebesülését okozva - közölte a szaúd-arábiai polgári védelem és az állami SPA hírügynökség.</p>",
+        "url": "https://www.portfolio.hu/global/20261124/felhokarcolora-csaptak-le-a-lazadok-az-olajnagyhatalom-uzleti-negyedeben-kozel-tucatnyian-megserultek-878878",
+        "published": "Tue, 24 Nov 2026 21:55:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/s/i/i/siita-huszi-lazadok-tuntetnek-jemenben-834340.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "ea7404adac4af749eac16df983da5f9a2b11d7de1382bd8763d789f2679b1bdd",
+        "variants": {
+          "original": {
+            "body": "Szaúd-Arábia olajnagyhatalom üzleti negyedében, Rijádban egy felhőkarcolót ért támadás, amelyben közel tucatnyian, köztük két szaúdi, két indiai, három nepáli és négy egyiptomi állampolgár sebesült meg. A húszi milícia által célzott toronyépületet – amelyben a szaúdi állami olajvállalat, az Aramco irodaháza és Szaúd-Arábia állami befektetési alapja is székel – november 8-a óta rendszeresen lövik, ami miatt repülőjáratokat és rendezvényeket is törölni kellett a rijádi repülőtéren. A külföldi eseményeket és nemzetközi konfliktusokat bemutató Külföld rovat híreként a jemeni polgárháborúban álló felek, a húszik ellen harcoló egyiptomi-szaúdi katonai koalíció terrortámadásnak minősítette az esetet, és légicsapásokkal válaszolt. A jemeni kormányerők és a húszi milícia között idén júliusban kiújult harcok során a lázadók jelentős területeket foglaltak el, és november eleje óta támadják a szaúdi infrastruktúrát."
+          },
+          "tolkien": {
+            "title": "A Ködbe Vésző Tornyok Ostroma és a Katonai Koalíció Haragja",
+            "body": "Az olajban gazdag birodalom fényes üzleti negyedének felhőkarcolójára csaptak le a lázadók, közel tucatnyi utazót – két szaúdit, két indiai, három nepáli és négy egyiptomi lelkűt – sebesítve meg a torony falai között. Ezen a Szaúd-Arábia állami befektetési alapját és az Aramco irodaházát is őrző magaslaton november 8-a óta ismétlődnek a csapások, míg a Külföld rovat krónikája szerint az egyiptomi-szaúdi katonai koalíció terrortámadásnak bélyegezte a vészzt, és lángoló légicsapásokkal felelt a húszi seregeknek. A hosszan tartó béke után idén júliusban feltámadt a háború szele, amelyben a húszi milícia hatalmas földeket hódított meg, és november eleje óta omlasztja a szaúdi repülőterek és épületek büszke bástyáit. A büntető ellencsapások és a folyamatos ostrom árnyékában a rijádi légikikötőben járatok százai némultak el, míg a déli kikötők kapui előtt újabb vasveretes ütközetek rajzolódnak ki."
+          },
+          "reito": {
+            "title": "Olaj, acél és hulló vakolat: így mulat a húszi milícia Rijádban",
+            "body": "A szaúdi olajnagyhatalom üzleti negyedének egyik felhőkarcolóját vették célba a lázadók, aminek következtében közel tucatnyian – egész pontosan két szaúdi, két indiai, három nepáli és négy egyiptomi állampolgár – szedte össze a sebeit. A Külföld rovat eseményeihez hűen az Aramco irodaházának és az állami befektetési alapnak otthont adó tornyot november 8-a óta rendszeresen bombázzák, mire válaszul a rijádi repülőtéren elegánsan törölgetik a menetrendből a járatokat meg a rendezvényeket. Az egyiptomi-szaúdi katonai koalíció természetesen nem tapsolt a műsornak, terrortámadásnak minősítették a helyzetet, és azonnal nehéztüzérséggel, illetve légicsapásokkal küldtek választ a húsziknak. A júliusban feltámadt jemeni polgárháború csodás virágaként a lázadók november eleje óta szorgosan lövik a szaúdi infrastruktúrát, miközben Áden felé is terjeszkednek, bár a helyi védvonalon eddig még nem sikerült átverekodniuk magukat."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 21:50:00 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Bemondták a Wall Streeten: jön a szuperciklus, eddig mehet az S&P 500!",
+      "link": "https://www.portfolio.hu/befektetes/20261124/bemondtak-a-wall-streeten-jon-a-szuperciklus-eddig-mehet-az-sp-500-878876",
+      "description": "<p>A J.P. Morgan szerint az S&P 500 amerikai részvényindex 2027 végére elérheti a 8200 pontot, ami mintegy 14 százalékos emelkedést jelentene a mostani szinthez képest. A nagybank elemzői úgy látják, hogy a mesterséges intelligenciához kapcsolódó beruházások olyan szuperciklust indíthatnak, amely a történelmi átlagot meghaladó vállalati profitnövekedést hozhat.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/w/a/l/wall-street-nyse-472690.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Bemondták a Wall Streeten: jön a szuperciklus, eddig mehet az S&P 500!",
+        "summary": "<p>A J.P. Morgan szerint az S&P 500 amerikai részvényindex 2027 végére elérheti a 8200 pontot, ami mintegy 14 százalékos emelkedést jelentene a mostani szinthez képest. A nagybank elemzői úgy látják, hogy a mesterséges intelligenciához kapcsolódó beruházások olyan szuperciklust indíthatnak, amely a történelmi átlagot meghaladó vállalati profitnövekedést hozhat.</p>",
+        "url": "https://www.portfolio.hu/befektetes/20261124/bemondtak-a-wall-streeten-jon-a-szuperciklus-eddig-mehet-az-sp-500-878876",
+        "published": "Tue, 24 Nov 2026 21:50:00 +0100",
+        "categories": [
+          "world-market",
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/w/a/l/wall-street-nyse-472690.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "03d49109975b98d20c984d6731d182062ebd3f1a60c0570890446c1d8635ff2c",
+        "variants": {
+          "original": {
+            "body": "A J.P. Morgan legfrissebb előrejelzése szerint az amerikai S&P 500 részvényindex 2027 végére elérheti a 8200 pontos szintet, ami a külföldi tőzsdéken mintegy 14 százalékos emelkedést jelent a jelenlegi értékhez képest. Dubravko Lakos-Bujas globális piaci vezető stratéga és csapata szerint a mesterséges intelligenciához kapcsolódó beruházások, a vállalati eredmények növekedése és a korrekció révén letisztult, kedvezőbbé vált piac alapozza meg a jövőbeli hozamokat. A számítási kapacitások iránti töretlen kereslet és a technológia gyors fejlődése miatt a külföld gazdasági szereplői a következő évben is magas szinten tartják majd a beruházási kedvvet."
+          },
+          "tolkien": {
+            "title": "A Kripták Alatt Ébredő Szuperciklus Krónikája",
+            "body": "A J.P. Morgan látnokainak legfrissebb jóslata szerint a távoli külföldi tőzsdék csarnokában az S&P 500 részvényindex 2027 végére elérheti a 8200 pontos bűvös magasságot, ami a jelenlegi állapothoz képest tizenhatodik törpe lépés híján tizennégy százalékos emelkedést hoz. Dubravko Lakos-Bujas főpap és serege hirdeti, hogy e hatalmas ívű mesterségesintelligencia-szuperciklus tüze acélozza meg a vállalatok profitteremtő erejét. A piac viharain átszűrt, megtisztult porond most kedvezőbb kapukat nyit a bátrak előtt, miközben a számítási kapacitások olthatatlan szomja magasra szítja a beruházások lángját."
+          },
+          "reito": {
+            "title": "Nyolcvanéves kincsesláda helyett 8200 pont: így zúdul ránk a jövő tőzsdéje",
+            "body": "A J.P. Morgan friss jelentése szerint a külföldi tőzsdéket ostromló S&P 500 részvényindex 2027 végére simán behúzhatja a 8200 pontos célt, ami a mostanihoz képest laza 14 százalékos ugrást jelent. Dubravko Lakos-Bujas és csapata azzal vigasztalja a világot, hogy a mesterséges intelligencia által fűtött szuperciklus úgy pörgeti fel a cégek profitját, mint népmese a harmadik kívánságot. A friss korrekcióval alaposan kiszellőztetett piacon most sokkal kellemesebb belépőket találni, mint egy kiárusításon a legutolsó megmaradt zakót."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 21:47:00 +0100",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "\"Menjen ő maga a frontra gépkarabéllyal!\" – Arcpirító ötlettel állt elő Putyin szövetségese, üzenetet küldött Zelenszkijnek",
+      "link": "https://www.portfolio.hu/global/20261124/menjen-o-maga-a-frontra-gepkarabellyal-arcpirito-otlettel-allt-elo-putyin-szovetsegese-uzenetet-kuldott-zelenszkijnek-878874",
+      "description": "<p>Aljakszandr Lukasenka fehérorosz elnök egy szerdán megjelenő interjúban úgy fogalmaz: hajlandó volna elkísérni Volodimir Zelenszkij ukrán államfőt Moszkvába, hogy tárgyaljanak Vlagyimir Putyin orosz elnökkel az ukrajnai háború lezárásáról.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/v/l/a/vlagyimir-putyin-aljakszandr-lukasenka-kreml-moszkva-oroszorszag-619789.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "\"Menjen ő maga a frontra gépkarabéllyal!\" – Arcpirító ötlettel állt elő Putyin szövetségese, üzenetet küldött Zelenszkijnek",
+        "summary": "<p>Aljakszandr Lukasenka fehérorosz elnök egy szerdán megjelenő interjúban úgy fogalmaz: hajlandó volna elkísérni Volodimir Zelenszkij ukrán államfőt Moszkvába, hogy tárgyaljanak Vlagyimir Putyin orosz elnökkel az ukrajnai háború lezárásáról.</p>",
+        "url": "https://www.portfolio.hu/global/20261124/menjen-o-maga-a-frontra-gepkarabellyal-arcpirito-otlettel-allt-elo-putyin-szovetsegese-uzenetet-kuldott-zelenszkijnek-878874",
+        "published": "Tue, 24 Nov 2026 21:47:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/v/l/a/vlagyimir-putyin-aljakszandr-lukasenka-kreml-moszkva-oroszorszag-619789.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "fde24e8871314ecb9c2dbe857028e5d2b9392c743af3025bdfeb985de45d91fa",
+        "variants": {
+          "original": {
+            "body": "A külföldi hírek rovatához kapcsolódóan: Aljakszandr Lukasenka fehérorosz elnök a Le Point című francia lapnak nyilatkozva kifejtette, hogy Ukrajna, Oroszország és Fehéroroszország részvételével, hármasban kellene dönteni a régió jövőjéről és a háború lezárásáról, amiért ő maga garantálná Volodimir Zelenszkij ukrán elnök biztonságát. A gyakorlati következmény az, hogy Lukasenka álláspontja szerint ha Zelenszkij nem egyezik bele ebbe a tárgyalási formátumba, akkor háborúzzon és menjen a frontra gépkarabéllyal harcolni, miközben Vlagyimir Putyin orosz elnök katonailag győzelemre áll a fronton. A fehérorosz hírügynökség, a BelTA által kedden előzetesen részletesen közölt interjúban Lukasenka hangsúlyozta, hogy a háborút meg kell állítani, és ez a három szláv nép gyorsabban megegyezne a rendezésről, mint az európaiak."
+          },
+          "tolkien": {
+            "title": "A három szláv nép trónusa és a frontvonal acélviharanak harcosa",
+            "body": "A külföld viharos tájain játszódó krónika szerint Aljakszandr Lukasenka, a keleti birodalom szövetségese a Le Pointnak adott üzenetében kijelentette, hogy a régió sorsáról csupán Ukrajna, Fehéroroszország és Oroszország uralkodói, e három ősi szláv nép hivatott dönteni. A birodalmak sorsát eldöntő szövetség ígérete szerint ő maga nyújtana pajzsot és védelmet Volodimir Zelenszkij biztonságára, ám a makacsság útját járónak a csatatér acélmezőit és a gépkarabély tüzes viharát ajánlotta. E sötét igazság gyakorlati sorsa az, hogy ha a vezető elveti e hármas szövetség békejobbját, akkor a fegyverek zajában kell megvívnia harcát, míg a háború viharát mihamarabb meg kell állítani. A BelTA hírnökai által kedden feltárt üzenet fohásza szerint e népek körében gyorsabban születne béke, mint a távoli európai uralkodók udvarában, mert Vlagyimir Putyin fegyverei győzelem felé haladnak."
+          },
+          "reito": {
+            "title": "A gépkarabélyos séta: Lukasenka egyedi békeajánlata a frontvonalra",
+            "body": "A külügyi csetepaték krónikájából kiderül, hogy Aljakszandr Lukasenka fehérorosz állférfi a Le Pointnak adta épp a fejét egy kis geopolitikai osztásra, miszerint Ukrajna, Oroszország és Fehéroroszország triója üljön asztalhoz, ő meg még a biztonságot is állja Volodimir Zelenszkijnek. A csattanós válasz nem késett: ha Zelenszkij nem akarja ezt a szűkkörű szláv csúcsot, akkor kapásból mehet is a frontra gépkarabéllyal harcolni, mert a háborút szerinte amúgy is meg kell állítani. A gyakorlati tanulság, hogy a BelTA által kedden kipréselt részletek szerint Lukasenka biztos abban, hogy ők hárman sokkal gyorsabban lezárnák a bulit, mint az európaiak, miközben Putyin szerinte úgyis nyer a fronton, szóval felesleges a cirkusz."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 21:08:15 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Kiesett egy utas az InterCity-ből, jelentős fennakadások vannak a közlekedésben",
+      "link": "https://www.origo.hu/kek-hirek/2026/11/intercity-kiesett-utas-nem-jarnak-a-vonatok",
+      "description": "A Budapest–Miskolc vasútvonalon változik a közlekedés.",
+      "image": "https://cdn.origo.hu/2026/11/Qu_AL4YLvCP6n1UoP53sBQTjTdCVMv9m9DWGHC_fTxk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Q2MmY2MjEzZTQyZjRhY2U4OGFmZjlhODZkY2FiZjFh.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 21:00:00 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Halálos verekedés egy thaiföldi hotelben: a „Frank the Tank” nevű MMA-harcos végzett az amerikai turistával",
+      "link": "https://www.origo.hu/nagyvilag/2026/11/verekedes-halal-thaifold-hotel-mma-harcos",
+      "description": "A férfi azt mondja, önvédelemből cselekedett.",
+      "image": "https://cdn.origo.hu/2026/11/McJHd-wMSi3VQ2UxYh-E-o9XiQWE4whJR07fj2dWtt4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9hZmYxZWQxZDk1M2M2NDQ1MThjMDhhNWI4MmI2Yzc0ZWQ2ZDNiMWZmZWE4MjQ3YmQ5NmYyY2IyZDk0MjYwNzEx.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:52:08 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Fegyveresek ejtettek túszokat egy népszerű turistaváros szupermarketjében",
+      "link": "https://www.origo.hu/nagyvilag/2026/11/cartagena-tuszdrama-fegyveres-tamadas",
+      "description": "A kolumbiai Cartagenában álarcos férfiak rohantak be egy üzletbe, miután kudarcba fulladt egy páncélozott pénzszállító kirablása. A rendőrség mesterlövészeket is bevetett.",
+      "image": "https://cdn.origo.hu/2026/11/eFeLUSVTnwVTXcDY3J4Bm08MCoTy7cXVprHn8QB3cRo/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9mNjMzZWExNjg3MDg2ZDdlZjMxNjM2MTc0MTViNTI4ODc2Y2ExM2NjM2U4YTVmY2UyNmVhNjgwY2U3YTViYTU3.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:45:00 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "„Te vagy itt a legerősebb” – megható szavakkal búcsúzott a kieső páros az Ázsia Expresszben",
+      "link": "https://www.origo.hu/teve/2026/11/azsia-expressz-kieses-drama",
+      "description": "Pedig mindent beleadtak most is.",
+      "image": "https://cdn.origo.hu/2026/11/oE76bGHMxX8Rrmbtv70FKf0HQeVZWT_ryKmlc5ZJiP0/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9lYjZlZWJjMGQyN2E2MjExNWUzNjMyMWRlYmRmZGRkNWVlZGZlNTYwOGEzNWFhMmJlOGFjYWRjMTgxN2JhNWE2.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:44:13 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Zelenszkij Magyar Péternek: Köszönjük Péter a látogatást, dicsőség Ukrajnának!",
+      "link": "https://www.origo.hu/belpol/2026/11/magyar-peter-zelenszkij-latogatas",
+      "description": "Semmit nem ígért meg Zelenszkij Magyar Péternek.",
+      "image": "https://cdn.origo.hu/2026/11/zYnOv5yEB6KID33DuN2If1zQU7a8C9kTgSul4GcNqkI/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC8yZjcyMzlhNDlhMGQwMTM0MWEwODllZTVlMGYwNmRiOWZjMDNhZWNmOTcwN2NkZDU4NmFjZjVjNDYyMzYzMmNl.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:30:00 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "2026 sikerfilmje vagy az év bukása? Sosem látott mennyiségű pénzből készül az új Bosszúállók",
+      "link": "https://www.origo.hu/filmklub/2026/11/bosszuallok-doctor-doom-ebredese-trailer",
+      "description": "Megérkezett az utolsó kedvcsináló is a filmhez!",
+      "image": "https://cdn.origo.hu/2026/11/zil_w6aQOcx5sMQMyVB0PzBLnuywGqUqh5C_PGYZnxg/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9jMzRlYmI3ZmFkMmE4ZTRmMTE2NGQ4ZTA5OGJlOWI0ZjU4ODYwM2FkYWJlZjY2OWFmZjhhMDVmZGNkODA0ZDAw.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "2026 sikerfilmje vagy az év bukása? Sosem látott mennyiségű pénzből készül az új Bosszúállók",
+        "summary": "Megérkezett az utolsó kedvcsináló is a filmhez!",
+        "url": "https://www.origo.hu/filmklub/2026/11/bosszuallok-doctor-doom-ebredese-trailer",
+        "published": "Tue, 24 Nov 2026 20:30:00 +0000",
+        "categories": [
+          "films"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/zil_w6aQOcx5sMQMyVB0PzBLnuywGqUqh5C_PGYZnxg/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9jMzRlYmI3ZmFkMmE4ZTRmMTE2NGQ4ZTA5OGJlOWI0ZjU4ODYwM2FkYWJlZjY2OWFmZjhhMDVmZGNkODA0ZDAw.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "79906429215c35dfe197921821b422fc656c6f8d23e5897fa115bea0fd5ae242",
+        "variants": {
+          "original": {
+            "body": "A Marvel december 17-én mutatja be a mozikban a körülbelül két és fél órás Bosszúállók: Doctor Doom ébredése című filmjét, amelynek most futott be az első, 24 napos visszaszámlálást záró előzetese. A filmben a szokásos Bosszúállók-brigád (Chris Hemsworth, Mark Ruffalo, Chris Evans és a Robert Downey Jr. alakította Doctor Doom) mellett olyan visszatérők is szerepelnek, mint James Marsden, Ian McKellen, Alan Cumming és Patrick Stewart. A produkció költségeit szerényebb becslések 700 millió dollárra, a vadabb kalkulációk 1 milliárd dollárra teszik, amiből csak Robert Downey Jr."
+          },
+          "tolkien": {
+            "title": "A Titánok Harca és a Doctor Doom Árnyéka",
+            "body": "A filmvásznon a Marvel elhozza a nosztalgia viharát, miközben a Bosszúállók: Doctor Doom ébredése gigantikus összegből, szerényebb becslések szerint 700 millió, míg vadabb kalkulációk szerint 1 milliárd dollárból kel életre. A december 17-én a magyar mozikba érkező, hozzávetőleg két és fél órás hős-krónika véghajrája elindult, amelyet egy 24 napos várakozást lezáró első előzetes hirdet. A seregek sorában Chris Hemsworth, Mark Ruffalo, Chris Evans és a gonosszá vált Robert Downey Jr. mellett olyan idők harcosai is visszatérnek, mint James Marsden, Ian McKellen, Alan Cumming és Patrick Stewart."
+          },
+          "reito": {
+            "title": "A milliárd dolláros vakmerőség, ahol még Doctor Doom is fizet a számláért",
+            "body": "A Marvel december 17-én bedobja a mélyvízbe a körülbelül két és fél órás Bosszúállók: Doctor Doom ébredése című filmsiker-vagy-bukás giga-hőseposzt, amelyhez most futott be a 24 napos visszaszámlálást hirdető első előzetes. A Kassza mindenesetre nem szűkölködik: szerényebb becslések szerint 700 millió, a vadabbak szerint 1 milliárd dolláros büdzséből gazdálkodnak, amiből önmagában Robert Downey Jr. visszacsábítása kóstált 100 millió dollárt. A cselekmény íve ott kerekedik ki igazán, hogy Chris Evans az előző film végén elfelejtett hazatérni a saját idősíkjába, jól szétszakítva ezzel az univerzumot, így a stúdió igazi sztárparádéval – Chris Hemsworth, Mark Ruffalo, James Marsden, Ian McKellen, Alan Cumming és Patrick Stewart társaságában – próbálja megfékezni a bosszúálló főgonoszt."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 20:27:45 +0000",
+      "observed": "2026-11-24T22:50:38.956952+01:00",
+      "title": "Ötszörösére nőtt a majomhimlős esetek száma Magyarországon, érkeznek a vakcinák",
+      "link": "https://www.origo.hu/itthon/2026/11/majomhimlo-esetszam-novekedes-vakcinak",
+      "description": "Idén november 19-ig már 26 fertőzést igazoltak, és a járványügyi vizsgálatok szerint a vírus belföldön is terjedhet.",
+      "image": "https://cdn.origo.hu/2026/11/Ck2DrTLk6StkP9Ad4xX-MqbUVypBA3z1QHSlgasXUHk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9iODRjZjk3ZDYwYTczOGJmOTdhZjJjZWJlZWE4NDJlYTZmYjliNDllOWUwYmQ3OGZmODE0MjExYjI4OWQ2Mzkw.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-24T21:22:15.158335+01:00"
+  "lastRssCollection": "2026-11-24T22:50:38.956952+01:00"
 }
