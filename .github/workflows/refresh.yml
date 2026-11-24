@@ -14,7 +14,7 @@ on:
         default: test
   schedule:
     # Check styles every five minutes. The worker limits RSS collection to once per hour.
-    - cron: '2/5 * * * *'
+    - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -23,24 +23,48 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Build editions and rewrites
+      - name: Run and publish refresh rounds
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           NANONEWS_MODE: ${{ inputs.mode }}
-        run: python refresh_news.py
-      - name: Commit new edition
+          NANONEWS_EVENT: ${{ github.event_name }}
         run: |
-          if ! git diff --quiet; then
-            git config user.name github-actions[bot]
-            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-            git add data/
-            git commit -m "Refresh NANONews edition"
-            git fetch origin main
-            git rebase origin/main
-            git push origin HEAD:main
-          fi
+          set -euo pipefail
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          
+          deadline=$((SECONDS + 55 * 60))
+          while true; do
+            next_round=$((SECONDS + 5 * 60))
+            git pull --ff-only origin main
+            python refresh_news.py
+            if ! git diff --quiet -- data/; then
+              git add data/
+              git commit -m "Refresh NANONews edition"
+              for attempt in 1 2 3; do
+                git pull --rebase origin main
+                if git push origin HEAD:main; then
+                  break
+                fi
+                if (( attempt == 3 )); then
+                  exit 1
+                fi
+              done
+            fi
+          
+            if [[ "$NANONEWS_EVENT" != schedule ]] || (( next_round >= deadline || SECONDS >= deadline )); then
+              break
+            fi
+            if (( next_round > SECONDS )); then
+              sleep "$((next_round - SECONDS))"
+            fi
+          done
