@@ -210,6 +210,7 @@ def attach_archived_stories(items,archive_records):
 published_before=set()
 archived_similarity_records={}
 latest_official_at=None
+latest_official_path=None
 today_issue_count=0
 today_issued_hours=set()
 counted_editions=set()
@@ -220,7 +221,9 @@ for file in issue_files:
         edition_data=json.loads(file.read_text(encoding="utf-8"))
         if edition_data.get("testEdition"):continue
         issue_at=parse_published(edition_data.get("updatedAt"))
-        if issue_at and (latest_official_at is None or issue_at>latest_official_at):latest_official_at=issue_at
+        if issue_at and (latest_official_at is None or issue_at>=latest_official_at):
+            latest_official_at=issue_at
+            latest_official_path=file
         issue_id=edition_data.get("updatedAt") or file.name
         if issue_at and issue_at.date()==now.date() and issue_id not in counted_editions:
             today_issue_count+=1
@@ -430,7 +433,8 @@ previous_edition={}
 pending_current=[]
 current_archive_path=None
 try:
-    previous_edition=json.loads(Path("data/latest.json").read_text(encoding="utf-8"))
+    if latest_official_path is not None:
+        previous_edition=json.loads(latest_official_path.read_text(encoding="utf-8"))
     previous={record.get("url"):record for story in previous_edition.get("stories",[]) for record in all_story_records(story) if record.get("url")}
     if not previous_edition.get("testEdition"):
         issue_at=parse_published(previous_edition.get("updatedAt"))
@@ -453,7 +457,7 @@ official_slot_available=scheduled_issue_number is not None and now.hour not in t
 if force_issue and not official_slot_available:
     raise SystemExit("Manual official issue can only be generated in an unused 06:00 or 17:00 Budapest slot.")
 collect_new_edition=manual or force_issue or official_slot_available
-prepare_in_background=bool(api_key) and not collect_new_edition and not force_backfill
+prepare_in_background=bool(api_key) and not collect_new_edition and not force_backfill and not pending_current
 if now.hour<6:
     next_issue=now.replace(hour=6)
 elif now.hour<17:
@@ -580,7 +584,8 @@ pending_updated=False
 if api_key and not manual and not collect_new_edition:
     for pending_story in pending_current[:3]:
         current_variants=pending_story.setdefault("variants",{})
-        if pending_story.get("summaryVersion")!=SUMMARY_VERSION:
+        if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
+            not current_variants.get("original",{}).get("body")):
             article_text,_=fetch_article(pending_story.get("url",""))
             try:
                 generated=gemini_rewrites(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
@@ -649,7 +654,8 @@ if not stories:
         raise SystemExit(0)
     if force_issue or official_slot_available:
         print("No new matching stories; publishing the official issue with an empty story list.")
-    Path("data/latest.json").write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    if pending_updated and latest_official_path is not None:
+        latest_official_path.write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
     print(f"Completed missing style rewrites in the current issue; {len(pending_current)} stories were checked.")
     raise SystemExit(0)
