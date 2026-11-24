@@ -42,10 +42,15 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           
+          round_signal=$(mktemp)
+          trap 'rm -f "$round_signal"' EXIT
+          export NANONEWS_ROUND_SIGNAL="$round_signal"
+
           deadline=$((SECONDS + 55 * 60))
           while true; do
             next_round=$((SECONDS + 5 * 60))
             git pull --ff-only origin main
+            : > "$round_signal"
             python refresh_news.py
             if ! git diff --quiet -- data/; then
               git add data/
@@ -61,7 +66,14 @@ jobs:
               done
             fi
           
-            if [[ "$NANONEWS_EVENT" != schedule ]] || (( next_round >= deadline || SECONDS >= deadline )); then
+            if [[ "$NANONEWS_EVENT" != schedule ]] || (( SECONDS >= deadline )); then
+              break
+            fi
+            if [[ -s "$round_signal" ]]; then
+              echo 'Style backfill advanced and work remains; starting the next round now.'
+              continue
+            fi
+            if (( next_round >= deadline )); then
               break
             fi
             if (( next_round > SECONDS )); then

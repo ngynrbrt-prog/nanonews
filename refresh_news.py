@@ -505,6 +505,18 @@ Alapanyag ({basis}):
     if not title or not body:raise ValueError("Missing Rejto rewrite")
     return {"title":title[:180],"body":body[:1400]}
 # Reuse generated rewrites for unchanged stories so the free API quota is spent only on new/updated links.
+def needs_style_refresh(story):
+    variants = story.get("variants", {})
+    tolkien = variants.get("tolkien", {})
+    reito = variants.get("reito", {})
+    return (
+        story.get("summaryVersion") != SUMMARY_VERSION
+        or not variants.get("original", {}).get("body")
+        or not tolkien.get("title") or not tolkien.get("body")
+        or not reito.get("title") or not reito.get("body")
+    )
+
+
 previous={}
 previous_edition={}
 pending_current=[]
@@ -520,12 +532,7 @@ try:
         for grouped_story in previous_edition.get("stories",[]):
           for saved_story in all_story_records(grouped_story):
             if saved_story.get("archiveDate"):continue
-            tolkien=saved_story.get("variants",{}).get("tolkien",{})
-            reito=saved_story.get("variants",{}).get("reito",{})
-            if (saved_story.get("summaryVersion")!=SUMMARY_VERSION or
-                not saved_story.get("variants",{}).get("original",{}).get("body") or
-                not tolkien.get("title") or not tolkien.get("body") or
-                not reito.get("title") or not reito.get("body")):
+            if needs_style_refresh(saved_story):
                 pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
@@ -760,6 +767,11 @@ if not stories:
     if pending_updated and latest_official_path is not None:
         latest_official_path.write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
+    round_signal = os.getenv("NANONEWS_ROUND_SIGNAL")
+    if (round_signal and pending_updated and not official_slot_available
+            and gemini_next_request - time.monotonic() <= 1
+            and any(needs_style_refresh(story) for story in pending_current)):
+        Path(round_signal).write_text("continue\n", encoding="utf-8")
     print(f"Completed missing style rewrites in the current issue; {len(pending_current)} stories were checked.")
     raise SystemExit(0)
 sync_pending_archive()

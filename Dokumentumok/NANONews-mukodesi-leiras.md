@@ -94,7 +94,7 @@ A rovatok bővítésekor a rovat feliratát az index.html fájlban, a begyűjté
 
 ## 5. Kiadásrend és ütemezés
 
-A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre ütemezi az ellenőrzést. A GitHub Actions tényleges indítása késhet. A workflow egyszerre egy feldolgozást futtat. Egy elindult ütemezett futás 55 perces időablakban új feldolgozási kört indít, az előző kör kezdetéhez képest legalább öt perc elteltével. Minden kör azonnal menti a módosult adatokat. A kézi indítás egy kört végez. A hivatalos kiadások a 06:00–06:59-es (/1) és a 17:00–17:59-es (/2) idősávban készülnek, Europe/Budapest szerint. Idősávonként legfeljebb egy hivatalos szám készül. Kézi futás a repó Actions → Refresh NANONews → Run workflow felületén indítható.
+A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre ütemezi az ellenőrzést. A GitHub Actions tényleges indítása késhet. A workflow egyszerre egy feldolgozást futtat. Egy elindult ütemezett futás 55 perces időablakban új feldolgozási kört indít, az előző kör kezdetéhez képest alaphelyzetben legalább öt perc elteltével. Ha az éles stíluspótlás haladt, maradt hiányos cikk, és a Gemini nem kért hosszabb várakozást, a mentés után azonnal indul a következő kör. Minden kör azonnal menti a módosult adatokat. A kézi indítás egy kört végez. A hivatalos kiadások a 06:00–06:59-es (/1) és a 17:00–17:59-es (/2) idősávban készülnek, Europe/Budapest szerint. Idősávonként legfeljebb egy hivatalos szám készül. Kézi futás a repó Actions → Refresh NANONews → Run workflow felületén indítható.
 
 | Művelet | Ütemezés |
 |---|---|
