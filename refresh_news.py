@@ -9,6 +9,7 @@ from zoneinfo import ZoneInfo
 
 TZ=ZoneInfo("Europe/Budapest")
 SUMMARY_VERSION="short-v2.1-3-4"
+VIVID_STYLE_START=datetime(2026,11,24,17,0,tzinfo=TZ)
 now=datetime.now(TZ)
 dispatch_mode=os.getenv("NANONEWS_MODE","test" if os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" else "").strip().lower()
 manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="test"
@@ -126,6 +127,10 @@ def parse_published(value):
         except Exception:return None
     if parsed.tzinfo is None:parsed=parsed.replace(tzinfo=TZ)
     return parsed.astimezone(TZ)
+
+def edition_uses_vivid_styles(edition):
+    issue_at=parse_published(edition.get("updatedAt"))
+    return bool(issue_at and issue_at>=VIVID_STYLE_START)
 
 SIMILAR_STOPWORDS={"abba","azok","azon","ahol","amely","amelyek","annak","arra","arról","azért","azt","azóta","azonban","csak","egy","egyik","ellen","elmondta","esetében","került","közölte","között","lehet","lett","majd","még","mint","minden","miatt","nagy","nem","szerint","számára","több","után","valamint","volt","van","vagy","végül","viszont","új"}
 def story_tokens(value):
@@ -265,15 +270,17 @@ def concise_sentences(value,limit=3):
     return value.strip()
 
 
-def gemini_rewrites(story,article_text,api_key):
+def gemini_rewrites(story,article_text,api_key,vivid_styles=False):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    tolkien_direction=("merészen epikus, gazdag képekben és erőteljes ritmusban, ősi krónikák emelkedettségével; használj emlékezetes, költői címet és bátrabb, kevésbé visszafogott szóképeket. A képek és hasonlatok maradjanak egyértelműen költőiek, ne állítsanak új tényt." if vivid_styles else "határozottan emelkedett, ünnepélyes, régies krónikás hangú, gazdagabb ritmussal és választékos szóhasználattal")
+    reito_direction=("szabadjára engedett, csattanós kalandregényes hangon: száraz humorral, pimasz fordulatokkal, merész kontrasztokkal, váratlan, de tényekhez kötött szóképekkel és emlékezetes címmel. A humor és a képek legyenek bátrabbak, de ne állítsanak új tényt." if vivid_styles else "markánsan csattanós, száraz humorú, pörgős kalandregényes hangon")
     prompt=f"""Feladat: készíts három magyar nyelvű NANONews-változatot ugyanarról a hírről.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
 Mindhárom összefoglaló legyen tartalmas, 3–4 jól olvasható mondatban. Őrizd meg a cikk lényegi részleteit: ki érintett, mi történt, mi lett az eredmény vagy következmény, továbbá a forrásban szereplő fontos számokat, időpontokat és feltételeket. Ne hagyj ki olyan részletet, amely érdemben megváltoztatná a hír jelentését; ne találj ki tényt.
 Az "original" mezőben írj semleges, pontos, közérthető összefoglalót 3–4 mondatban. Fogalmazd át önállóan, de ne hagyd el a hír lényeges részleteit.
-A "tolkien" mezőhöz alkoss önálló címet és 3–4 mondatos, határozottan emelkedett, ünnepélyes, régies krónikás hangú átfogalmazást, gazdagabb ritmussal és választékos szóhasználattal. A cím is ezt a hangot tükrözze. A tények és azok viszonyai maradjanak pontosak; ne adj hozzá fantasy-elemet, új tényt, szereplői szándékot vagy nem igazolt következtetést.
-A "reito" mezőhöz alkoss önálló címet és 3–4 mondatos, markánsan csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. A humor kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént. Ez a hang legyen könnyed és földközeli, jól elkülönülve a Tolkien-féle emelkedettségtől. Ne idézz vagy másolj konkrét műrészletet, és ne változtass a tényeken.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
+A "tolkien" mezőhöz alkoss önálló címet és 3–4 mondatos, {tolkien_direction} átfogalmazást. A cím is ezt a hangot tükrözze. A tények és azok viszonyai maradjanak pontosak; ne adj hozzá fantasy-elemet, új tényt, szereplői szándékot vagy nem igazolt következtetést.
+A "reito" mezőhöz alkoss önálló címet és 3–4 mondatos, {reito_direction} átfogalmazást. A humor kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént. Ez a hang legyen könnyed és földközeli, jól elkülönülve a Tolkien-féle emelkedettségtől. Ne idézz vagy másolj konkrét műrészletet, és ne változtass a tényeken.\nMindhárom változat legyen tényhű, és ne legyen egymás másolata. A válasz kizárólag JSON legyen:\n{{"original":{{"body":"..."}}, "tolkien":{{"title":"...","body":"..."}}, "reito":{{"title":"...","body":"..."}}}}
 Forrás: {story["source"]}
 Eredeti cím: {story["title"]}
 Alapanyag ({basis}):
@@ -321,12 +328,13 @@ Alapanyag ({basis}):
     variants["reito"]={"title":reito_title[:180],"body":reito_body[:1400]}
     return variants
 
-def gemini_tolkien_rewrite(story,article_text,api_key):
+def gemini_tolkien_rewrite(story,article_text,api_key,vivid_styles=False):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    tolkien_direction=("merészen epikus, gazdag képekben és erőteljes ritmusban, ősi krónikák emelkedettségével; használj emlékezetes, költői címet és bátrabb, kevésbé visszafogott szóképeket. A képek és hasonlatok maradjanak egyértelműen költőiek, ne állítsanak új tényt." if vivid_styles else "emelkedett, ünnepélyes, régies krónikás hangú, választékos ritmusú")
     prompt=f"""Feladat: készíts kizárólag Tolkien hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új címet és 3–4 mondatos, emelkedett, ünnepélyes, régies krónikás hangú átfogalmazást; a választékos ritmus különüljön el az Eredeti és a Rejtő-változattól. A cím is tükrözze ezt a hangot. Őrizd meg a cikk lényegi részleteit és minden ténykapcsolatot.
+Adj új címet és 3–4 mondatos, {tolkien_direction} átfogalmazást; a ritmus különüljön el az Eredeti és a Rejtő-változattól. A cím is tükrözze ezt a hangot. Őrizd meg a cikk lényegi részleteit és minden ténykapcsolatot.
 Ne készíts Eredeti változatot, és ne adj hozzá fantasy-elemet vagy új tényt.
 A válasz kizárólag JSON legyen:
 {{"tolkien":{{"title":"...","body":"..."}}}}
@@ -362,12 +370,13 @@ Alapanyag ({basis}):
     body=concise_sentences(value.get("body",""),4)
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     return {"title":title[:180],"body":body[:1400]}
-def gemini_reito_rewrite(story,article_text,api_key):
+def gemini_reito_rewrite(story,article_text,api_key,vivid_styles=False):
     source_text=article_text or story["summary"]
     basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    reito_direction=("szabadjára engedett, csattanós kalandregényes hangon: száraz humorral, pimasz fordulatokkal, merész kontrasztokkal, váratlan, de tényekhez kötött szóképekkel és emlékezetes címmel. A humor és a képek legyenek bátrabbak, de ne állítsanak új tényt." if vivid_styles else "csattanós, száraz humorú, pörgős kalandregényes hangon")
     prompt=f"""Feladat: készíts kizárólag Rejtő hangulatú NANONews-változatot magyarul.
 Csak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
-Adj új címet és 3–4 mondatos, csattanós, száraz humorú, pörgős kalandregényes átfogalmazást. Az irónia kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént, és ne következtess a forrásban nem szereplő eredményre. Őrizd meg a cikk lényegi részleteit és tényeit.
+Adj új címet és 3–4 mondatos, {reito_direction} átfogalmazást. Az irónia kizárólag a forrásban szereplő tények szellemes egymás mellé állításából vagy megfogalmazásából eredjen. Ne találj ki jelenetet, párbeszédet, szereplői szándékot, reakciót, tanulságot vagy lezáró poént, és ne következtess a forrásban nem szereplő eredményre. Őrizd meg a cikk lényegi részleteit és tényeit.
 Ne készíts Eredeti vagy Tolkien-változatot, ne idézz vagy másolj konkrét műrészletet, és ne adj hozzá új tényt.
 A válasz kizárólag JSON legyen:
 {{"reito":{{"title":"...","body":"..."}}}}
@@ -470,7 +479,7 @@ for source,urls in feeds.items():
                 story["variants"]=cached["variants"]
             elif api_key:
                 try:
-                    story["variants"]=gemini_rewrites(story,article_text,api_key)
+                    story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=now>=VIVID_STYLE_START)
                 except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
                 finally:
                     time.sleep(4)
@@ -484,7 +493,7 @@ if api_key and not manual and not collect_new_edition:
         if pending_story.get("summaryVersion")!=SUMMARY_VERSION:
             article_text,_=fetch_article(pending_story.get("url",""))
             try:
-                generated=gemini_rewrites(pending_story,article_text,api_key)
+                generated=gemini_rewrites(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
                 pending_story["variants"]=generated
                 pending_story["summaryVersion"]=SUMMARY_VERSION
                 if article_text:
@@ -501,7 +510,7 @@ if api_key and not manual and not collect_new_edition:
         article_text,_=fetch_article(pending_story.get("url",""))
         if not current_tolkien.get("title") or not current_tolkien.get("body"):
             try:
-                generated=gemini_tolkien_rewrite(pending_story,article_text,api_key)
+                generated=gemini_tolkien_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
                 if not current_tolkien.get("title"):current_tolkien["title"]=generated["title"]
                 if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
                 pending_updated=True
@@ -510,7 +519,7 @@ if api_key and not manual and not collect_new_edition:
             time.sleep(4)
         if not current_reito.get("title") or not current_reito.get("body"):
             try:
-                generated=gemini_reito_rewrite(pending_story,article_text,api_key)
+                generated=gemini_reito_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
                 if not current_reito.get("title"):current_reito["title"]=generated["title"]
                 if not current_reito.get("body"):current_reito["body"]=generated["body"]
                 pending_updated=True

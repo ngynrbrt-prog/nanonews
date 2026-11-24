@@ -217,7 +217,7 @@ Az Írás stílusa két gombja közvetlenül a NANONews logó alatt jelenik meg,
 
 A kiadás JSON-jában a tárgyilagos, 2–3 mondatos Eredeti összefoglaló a variants.original.body mezőben, a Tolkien-változat címe és 2–3 mondatos összefoglalója a variants.tolkien.title és variants.tolkien.body mezőkben szerepel. Eredeti stílusban a forrás eredeti címe marad, a hírhez pedig a cikk nyilvánosan elérhető szövegéből készült 2–3 mondatos összefoglaló társul. Ha a generálás nem sikerül vagy nincs API-kulcs, a felület az eredeti címet és legfeljebb három mondatra rövidített RSS-kivonatot jeleníti meg. Így egy generálási hiba nem akadályozza a kiadás megjelenítését.
 
-A generálás jelenlegi modellje a kódban gemini-3.5-flash-lite, az API-hívás a Google Interactions API v1beta végpontjára megy. A modell- és végpontbeállítás a refresh_news.py fájlban módosítható.
+A 2026. november 24-i 17:00-s kiadástól a Tolkien és Rejtő változatok merészebb, képszerűbb, erőteljesebben felismerhető hangot kapnak; a Tolkien-változat epikusabb és régiesebb ritmust, a Rejtő-változat csattanósabb humort és bátrabb fordulatokat használ. A képek és humor csak a forrásban szereplő tényeket formálhatják át, új eseményt vagy állítást nem tehetnek hozzá. A reggeli kiadás meglévő szövegei változatlanok maradnak. A később újrapróbált hiányzó stílusváltozat a saját kiadása időpontjához igazodik: a 17:00 előtti számok a korábbi, az ettől kezdődő kiadások az új megfogalmazást kapják.\n\nA generálás jelenlegi modellje a kódban gemini-3.5-flash-lite, az API-hívás a Google Interactions API v1beta végpontjára megy. A modell- és végpontbeállítás a refresh_news.py fájlban módosítható.
 
 ## 8. API-kulcsok és titokkezelés
 
@@ -266,6 +266,17 @@ Módosítás után ellenőrizendő:
 A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal és a workflow állapotának ellenőrzése ettől független működés-ellenőrzés.
 
 ## 12. Változásnapló
+
+### 2026-11-24 — csoportosított hírek lezáró elválasztója
+- Kérés: a hasonló hírek csoportja után legyen egyértelmű záróvonal, hogy a következő önálló cikk ne olvadjon össze vele.
+- Módosítva: a kezdőlapi hasonlóhír-csoportok alján most hangsúlyos, dupla újságvonal zárja le a csoportot, és több tér választja el a következő cikktől.
+
+### 2026-11-24 — merészebb Tolkien- és Rejtő-hang
+- Kérés: a délutáni kiadástól kezdve legyenek a Tolkien- és Rejtő-változatok sokkal merészebbek, képszerűbbek és karakteresebbek.
+- Beállítás: 2026. november 24. 17:00 Europe/Budapest időponttól az új kiadások új hangolást kapnak; a Tolkien-változat epikusabb krónikás, a Rejtő-változat pimaszabb és csattanósabb. A tények nem változhatnak, a metaforák nem adhatnak új állítást.
+- A már elkészült reggeli kiadást nem generáljuk újra. A hiányzó változatok automatikus újrapróbálása a kiadás saját időpontja szerinti hangot használja.
+
+
 
 ### 2026-11-23 — dokumentáció és alapfolyamat
 - Rögzítve az ingyenes GitHub Pages + GitHub Actions + Google AI Studio felépítés, a feedek, az archívum, az ütemezés és a titokkezelés.
