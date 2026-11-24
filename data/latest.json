@@ -238,8 +238,21 @@
       "image": "https://pcdn.hu/articles/images-xl/a/b/d/abdul-el-sayed-demokrata-szenatorjelolt-michigan-846814.jpg",
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
-      "sourceHash": "fcf19f0657da6d48b5ddb3ccd026299a9a04eb4e1ed087d7691fc30d98c93ce4",
-      "relatedStories": []
+      "sourceHash": "8ee5d5ab2dcc7336d2c02251bb95b484cc8accf01ccf0b4a09eaf3f8dce6dfd7",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A republikánus elnök a hétvégén a Truth Social felületén megosztotta Abdul El-Sayed megválasztott michigani szenátor bejegyzését, amely a progresszív politikus által \"TrumpCare\"-nek keresztelt általános egészségbiztosítási javaslatot mutatta be. Trump már pénteken arról beszélt a Fehér Házban, hogy kész a kétpárti kompromisszumra az egészségügy területén, és J. D. Vance alelnök hivatala a múlt héten fel is vette a kapcsolatot a szenátor csapatával egy lehetséges találkozó ügyében."
+        },
+        "tolkien": {
+          "title": "A birodalom palotájában hirtelen fura szövetség árnyéka vetül a trónra",
+          "body": "A birodalom ura a hétvégén váratlanul megosztotta a távoli michigani földekről érkező szenátor, Abdul El-Sayed írását a Truth Social üzenőfalán, feltárva a TrumpCare névre keresztelt egészségügyi tervet. Az elnök már pénteken nyilatkozott arról a Fehér Ház falai között, hogy kész az egység ösvényére lépni a két párt közös akaratából, J. D. Vance alelnök emberei pedig a múlt héten már fel is keresték a megválasztott szenátor udvartartását egy lehetséges találkozó reményében."
+        },
+        "reito": {
+          "title": "Amikor a Fehér Ház lakója és a progresszív ellenzék egy asztalhoz ülne",
+          "body": "Trump elnök a hétvégén a Truth Socialön osztotta meg a michigani Abdul El-Sayed szenátor bejegyzését, amely a saját nevével fémjelzett, \"TrumpCare\"-re keresztelt egészségügyi javaslatot tolta a nagy nyilvánosság elé. Az elnök már pénteken arról mesélt a Fehér Házban, hogy inkább egyezkedne a többi párttal is egy jobb rendszerért, J. D. Vance alelnök hivatala pedig a múlt héten már össze is hozott egy kört a szenátor csapatával."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -253,7 +266,7 @@
       "image": "https://pcdn.hu/articles/images-xl/c/h/i/chip-computer-620421.jpg",
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "article",
-      "sourceHash": "4935be31c1cc6bf531d725db9a2bb29c4a02b61901513eac43e1ba533b01dda5",
+      "sourceHash": "b069945f52af58b228914545ec029435f71a463e6459fae26487708a7bcad597",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -393,7 +406,20 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Portfolio.hu által közzétett hírfolyam szerint három orosz manőverező robotrepülőgép is lezuhant, miközben benyújtották a törvénymódosításokat is. A közzétett adatok alapján három évtized alatt látványosan közeledett az uniós árszinthez a BB tengely, mivel 1995-ben a régió átlaga az EU-átlag 45,1 százaléka, 2025-ben pedig már 80,7 százaléka volt. Ezen kívül társadalmi egyeztetésre bocsátottak egy olyan törvénytervezetet, amely 2027. január 1-jétől jelentősen egyszerűsítheti a külföldi befektetések ellenőrzését Magyarországon."
+        },
+        "tolkien": {
+          "title": "A futó acél árnyai és a változó idők krónikája",
+          "body": "Íme a hírek a nagyvilágból, hol az égen három orosz manőverező robotrepülőgép hullott alá a porba, s a törvények tekercseit is benyújtották a messzi tanácsok elé. Három hosszú esztendő tizede alatt a BB tengely régiójának árszintje hatalmas ívben emelkedett az unióhoz mérten, hiszen az 1995-ös 45,1 százalékról 2025-re 80,7 százalékra kúszott fel. Küszöbön áll az idő, mikor 2027. január 1-jén a külföldi befektetések ellenőrzése is egyszerűbbé válik a társadalmi egyeztetésre bocsátott törvénytervezet szerint."
+        },
+        "reito": {
+          "title": "Robbanó rakéták, dráguló vidékek és a Nike nagy futballmentőakciója",
+          "body": "A vadkeleti égbolton három orosz manőverező robotrepülőgép is úgy döntött, hogy lehúzza a rolót, miközben a bürokraták is benyújtották a legfrissebb törvénymódosításokat. A BB tengely vidékén sem ülnek a babérjukon: az árszint az 1995-ös 45,1 százalékról szépen felkúszott az uniós átlag 80,7 százalékára 2025-re. Ha mindez nem lenne elég, 2027. január 1-jétől a társadalmi egyeztetésre bocsátott tervezet értelmében jelentősen egyszerűsödik a külföldi befektetések ellenőrzése Magyarországon."
+        }
+      }
     },
     {
       "source": "444.hu",
@@ -425,7 +451,20 @@
           "contentBasis": "article",
           "sourceHash": "b1db7626485270b491202c54b16cafbb204e5caad1cc520d76c2ac39a3a6d215"
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Tisza Párt parlamenti vizsgálóbizottságának elnöke, Csőszi Attila kijelentette, hogy a magyar embereknek joguk van tudni a több száz milliárd forintnyi közvagyon sorsáról. Hozzátette, hogy ha szükséges, akár a börtönben is felkeresik és ott hallgatják meg Matolcsyt. Ezzel a lépéssel a kérdéseket házhoz viszik az érintettnek. Az ügy hátterében a közvagyonnal kapcsolatos elszámoltatási szándék áll."
+        },
+        "tolkien": {
+          "title": "A nemzet kincseinek nyomában – Utánanéznek a rejtélyes százmilliárdoknak",
+          "body": "Az ország népének elidegeníthetetlen joga, hogy tisztán lássa a sötétbe vesző, több száz milliárdra rúgó közvagyon sorsát. Csőszi Attila, a Tisza Párt vizsgálóbizottságának vezére kijelentette, hogy a kérdések elől nincsen menekvés a hatalmas birodalomban. Ha a sors úgy hozza, akár a börtön falai közé is elviszik a felelősségre vonást Matolcsy számára. Így kelnek útra a válaszok, hogy házhoz vigyék a tisztánlátást a messze földön kódorgó vagyon ügyében."
+        },
+        "reito": {
+          "title": "Házhoz megy a felelősség: a börtönben is utolérik Matolcsyt",
+          "body": "Csőszi Attila, a Tisza Párt vizsgálóbizottságának ura kemény fába vágta a fejszéjét a százmilliárdos közvagyon ügyében. Miután a magyar népnek joga van tudni az igazságot, a bizottság nem aprózza el a dolgot. Ha kell, még a börtön mélyére is becsöngetnek a kérdésekkel, hogy meghallgassák Matolcsyt. Végtére is, ha az adatok nem jönnek maguktól, a kérdéseket egyszerűen házhoz viszik."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",

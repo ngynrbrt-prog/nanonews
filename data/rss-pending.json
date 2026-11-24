@@ -344,9 +344,9 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Tue, 24 Nov 2026 17:42:21 +0000",
+      "published": "Tue, 24 Nov 2026 19:21:43 +0000",
       "observed": "2026-11-24T19:23:57.781949+01:00",
-      "title": "Sallai nélkül fogadja az El-győztest a Galata, a sarkkörön túl játszik a LASK – BL-eredménykövető",
+      "title": "Vezet a Galatasaray, Norvégiában továbbra sincs gól – BL-eredménykövető",
       "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/sallai-nelkul-fogadja-az-el-gyoztest-a-galata-a-sarkkoron-tul-jatszik-a-lask-bl-eredmenykoveto",
       "description": "A Villa a hatodik, a török bajnok a 18. helyről várja az összecsapást.",
       "image": "https://cdn.nemzetisport.hu/2026/11/UDzFlaTZJqVkp1J7LxY_oJfR90hZs4dPYMIMyFfnOdA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzRiMzRiYWJlYmE1YzQyYjE4NDdiNmE5MmY4NjA5NzY2.webp"
@@ -511,9 +511,306 @@
       "title": "Likócsi gyilkosság: Gönyűn keresték a körözött férfit, ezt mondták róla a helyiek",
       "link": "https://www.origo.hu/kek-hirek/2026/11/likocsi-gyilkossag-gonyu-korozott-ferfi",
       "description": "A Kisalföld riportja szerint a férfi autószerelőként dolgozott, korábban több konfliktusa is volt, az áldozattal pedig viharos kapcsolatban élt.",
+      "image": "https://cdn.origo.hu/2026/09/QGlOyMa7zpzLsa_k96opnOcw_0-w-JZCD76biut8ffw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM3ZDk4NjQwNjAzMjQ0YWJhOTZiYWI1ZDI1YWZhNTQ5.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Tue, 24 Nov 2026 20:22:57 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Lannert Juditék megerősítették, a Miniszterelnökségnek is volt beleszólása a tankerületi igazgatók kiválasztásába",
+      "link": "https://telex.hu/belfold/2026/11/24/tankerulet-igazgatok-kivalasztas-miniszterelnokseg-oktatasi-es-gyermekugyi-miniszterium",
+      "description": "A pályázatokat egy öttagú szakmai bizottság értékelte, ebbe Ruff Bálinték is delegálhattak egy tagot.",
+      "image": "https://assets.telex.hu/images/20261124/1795546556-temp-blac5a2c1bu0eloffjc_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Tue, 24 Nov 2026 20:13:31 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Zelenszkij Beregszászon: Szimbolikus, hogy itt tartjuk ezt a találkozót",
+      "link": "https://telex.hu/kulfold/2026/11/24/magyar-peter-volodimir-zelenszkij-magyar-ukran-sajtotajekoztato-beregszasz",
+      "description": "A magyar miniszterelnök és az ukrán elnök keddi találkozójáról egy napja még nem lehetett tudni a pontos időpontot sem. Egy ungvári koszorúzás után Beregszászon tartanak sajtótájékoztatót. Politikai, energetikai és infrastrukturális bejelentések várhatók.",
+      "image": "https://assets.telex.hu/images/20261124/1795547952-temp-7mc64ei8bjc9chjbnaa_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 19:25:00 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Légiveszélyt hirdettek egy Dél-Koreához tartozó szigeten, miután orosz repülőgépek közelítették meg",
+      "link": "https://hvg.hu/vilag/20261124_legiveszely-del-korea-sziget-orosz-repulok",
+      "description": "A lakosságot kedd reggel felszólították, hogy vonuljon óvóhelyekre.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ddd9abad-e75f-48dd-b0ef-4c330477ce53.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 19:24:37 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Volodimir Zelenszkij Magyar Péterrel: Sok fontos megállapodást kötöttünk",
+      "link": "https://hvg.hu/itthon/20261124_zelenszkij-magyar-peter-sajtotatekoztato",
+      "description": "Ukrajna készen áll a konstruktív párbeszédre – mondta Zelenszkij. Élőben követjük az ukrán elnök és Magyar Péter közös sajtótájékoztatóját.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7eb90893-e170-471c-860d-daf55b0c2909.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 19:15:00 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Encsi presszóból lett az ország egyik legismertebb vidéki étterme – újabb egységekkel bővül az Anyukám Mondta",
+      "link": "https://hvg.hu/360/20261124_anyukam-mondta-encs-dudas-testverek-pizza",
+      "description": "Pizza, kávé, lampredotto, világbéke, Anyukám Mondta: hogyan lesz egy hatezres borsodi kisváros sarki presszójából olyan étterem, amelyért Budapestről, Miskolcról, sőt Szlovákiából is útnak indulnak a vendégek? A Dudás testvérek történetében az olasz évek, a végtelen kíváncsiság, a családi összefogás és a vendéglátás iránti megszállottság éppen olyan fontos, mint egy jól elkészített pacal. Harmincegy évvel az indulás után Szabolcs és Szilárd továbbra is tele van ötletekkel.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/01835bec-aca4-47be-a416-e900dee8a1b3.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 19:14:16 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Magyar Péter és Zelenszkij diákokkal röplabdáztak Beregszászon",
+      "link": "https://hvg.hu/elet/20261124_magyar-peter-zelenszkij-ukrajna-karpatalja-beregszasz-roplabda",
+      "description": "A meccsen nézőként Orbán Anita is jelen volt.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1a80efa2-35a0-4651-886e-a6e0a71014e4.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 19:03:00 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Melyik a jobb? Egy nagy séta, vagy több kisebb? A tudomány megválaszolta",
+      "link": "https://hvg.hu/tudomany/20261124_seta-egeszseg-testmozgas-vercukorszint",
+      "description": "Amerikai és francia kutatók egy hathetes vizsgálat során derítették ki, jót tesz-e, ha a naponta többször sétál az ember kevesebbet, ahelyett, hogy egyszerre sétál sokat.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7e3b795b-2b91-4189-8c41-eb9d03d55286.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 18:51:20 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "A Lidl megszólalt az árrésstop kivezetéséről",
+      "link": "https://hvg.hu/kkv/20261124_lidl-arresstop-kivezetes-reakcio-uzletlanc-magyar-arak-bolt-uzlet",
+      "description": "Az üzletlánc szerint a piac ezzel visszatér a korábbi, a vásárlók igényei szerint működő rendszerhez.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/125b0720-6afd-4e25-acf5-1742c9b6ddc6.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Tue, 24 Nov 2026 18:27:49 Z",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Vádat emeltek Nicolas Sarkozy felesége, Carla Bruni ellen is",
+      "link": "https://hvg.hu/elet/20261124_sarkozy-bruni-csalas-birosag-franciaorszag",
+      "description": "A volt francia elnöknek és feleségének 2027-ben kell a vádlottak padjára ülnie bűnszövetségben elkövetett csalás kísérletének, valamint tanú befolyásolásának vádjával.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/679d0b61-fb2c-4b33-965f-d63407386ded.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 18:59:51 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Végső búcsút vettek Szekeres Istvántól",
+      "link": "https://nemzetisport.hu/egyeb-egyeni/2026/11/vegso-bucsut-vettek-szekeres-istvantol",
+      "description": "1969-től dolgozott a Népsportnál, majd a Nemzeti Sportnál 1994-ig, 1989-ben a Nemzeti Sport első megválasztott főszerkesztője lett.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/L35Gmvfin3iykaBPsXDUwpOeKyQcZLdHBJbW8uQmWBM/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M1MzJkNmQyNmVjOTQyMTFiOTg2YTRkZTRlMWMzOTM5.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 18:23:28 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Itt van a nagy esély a magyar férfi kosárlabda-válogatottnak!",
+      "link": "https://nemzetisport.hu/kosarlabda/2026/11/itt-van-a-nagy-esely-a-magyar-ferfi-kosarlabda-valogatottnak",
+      "description": "Pénteken Svédországban, hétfőn Szombathelyen Szlovéniával játszik a nemzeti csapat, amely két győzelem esetén nagyon közel kerül a történelmi világbajnoki szerepléshez.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/etcEu21_RsYN-geUVMzRGPF0aUC7psp9TgX8eO-0fOY/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzIwN2U2NmQzYzJkNjRjMDdiNTEzNzVhZmUxN2E4MWEy.webp"
+    },
+    {
+      "source": "444.hu",
+      "published": "Tue, 24 Nov 2026 20:18:46 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Zelenszkij: Jó hangulatú beszélgetést folytattunk Magyar Péterrel",
+      "link": "https://444.hu/2026/11/24/zelenszkij-jo-hangulatu-beszelgetest-folytattunk-magyar-peterrel?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Sajtótájékoztatót tart a magyar kormányfő és az ukrán elnök Kárpátalján.",
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Tue, 24 Nov 2026 20:18:23 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "12 év fegyházat kapott a férfi, aki áramot vezetett a pécsi Zsolnay-mauzóleum kapujába",
+      "link": "https://444.hu/2026/11/24/12-ev-fegyhazat-kapott-a-ferfi-aki-aramot-vezetett-a-pecsi-zsolnay-mauzoleum-kapujaba?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "A biztonsági őr csak a vastag talpú cipőjének köszönhetően úszta meg a halálos áramütést.",
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Tue, 24 Nov 2026 19:49:37 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Bujdosónak nem jósolnak nagy jövőt, Kapitány nehezen találja a helyét",
+      "link": "https://444.hu/2026/11/24/bujdosonak-nem-josolnak-nagy-jovot-kapitany-nehezen-talalja-a-helyet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "A Helyzet: van! legújabb adásában Bábel Vilmossal beszéltük át, hogy miket tudtunk meg a kormány és a kormánypárti parlamenti frakció belső viszonyairól.",
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Tue, 24 Nov 2026 19:36:29 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Friss törvénymódosítások: a szülők és az ovik dönthetik el, mikor menjen iskolába a gyerek, szabadabban választható utónév, nőnek a diákönkormányzatok jogai",
+      "link": "https://444.hu/2026/11/24/a-szulok-es-az-ovik-donthetik-el-mikor-menjen-iskolaba-a-gyerek-szabadabban-lehet-keresztnevet-valasztani-nonek-a-diakonkormanyzatok-jogai-itt-vannak-a-frissen-benyujtott-torvenymodositasok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Kettő helyett öt tankönyv közül választhatnak ezentúl a tanárok, az ELTE-re kerülnek az NKE tanárszakos hallgatói, szétszedik a Demeter Szilárd-féle konglomerátumot.",
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 20:20:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Kiszivárgott Trump újabb nagy dobása: brutális vámcsapás érheti a világ legnagyobb gazdaságait",
+      "link": "https://www.portfolio.hu/global/20261124/kiszivargott-trump-ujabb-nagy-dobasa-brutalis-vamcsapas-erheti-a-vilag-legnagyobb-gazdasagait-878862",
+      "description": "<p>A Trump-adminisztráció rövidesen nyilvánosságra hozza annak a vizsgálatnak az eredményét, amely az Egyesült Államok 16 legfontosabb kereskedelmi partnerének vélt ipari túlkapacitására irányult, és ennek nyomán újabb importvámok jöhetnek. Az amerikai kereskedelmi képviselő hivatala ezzel részben azokat a globális vámokat pótolná, amelyeket a Legfelsőbb Bíróság februárban megsemmisített.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/a/m/e/amerika-geopolitika-hatalom-kina-strategia-verseny-vilaggazdasag-vamok-vamhaboru-kereskedelm-730819.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 20:16:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Korlátozást vezetnek be a magyar patikákban: csak a legsúlyosabb betegek kaphatják meg ezt a két gyógyszert",
+      "link": "https://www.portfolio.hu/gazdasag/20261124/korlatozast-vezetnek-be-a-magyar-patikakban-csak-a-legsulyosabb-betegek-kaphatjak-meg-ezt-a-ket-gyogyszert-878864",
+      "description": "<p>Átmeneti intézkedéseket vezet be az Egészségügyi Minisztérium, a Nemzeti Egészségbiztosítási Alapkezelő (NEAK) és az Országos Gyógyszerészeti Intézet (OGYI) a Kreon és Pangrol gyógyszerek esetében, a hasnyálmirigy elégtelen enzimtermelésére adott készítmények átmenetileg csak kijelölt patikákban lesznek elérhetők - közölte a minisztérium kedden.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1364986081-betegseg-egeszseg-egeszsegugy-gyogyszer-gyogyszeripar-hatoanyag-kes-730089.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 19:56:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Álnéven szerzett új útlevelet Putyin szövetségesének a fia, fény derült a titkos akcióra",
+      "link": "https://www.portfolio.hu/global/20261124/alneven-szerzett-uj-utlevelet-putyin-szovetsegesenek-a-fia-feny-derult-a-titkos-akciora-878858",
+      "description": "<p>Más vezetéknéven kapott szerb állampolgárságot Ramzan Kadirov (címlapképünkön) csecsen vezető 19 éves fia, Ali Kadirov, aki így vízum nélkül utazhat a schengeni övezet országaiba - számolt be kedden a Szabad Európa Rádió balkáni irodája az internetes oldalán.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/v/l/a/vlagymir-putyin-ramzan-kadirov-orosz-csecsen-orosz-ukran-haboru-oroszorszab-643863.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 19:56:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Javított az MVM kilátásain a Moody's, megerősítette a vállalat hitelminősítését",
+      "link": "https://www.portfolio.hu/uzlet/20261124/javitott-az-mvm-kilatasain-a-moodys-megerositette-a-vallalat-hitelminositeset-878860",
+      "description": "<p>Negatívról stabilra javította az MVM Zrt. hitelminősítési kilátását a Moody's Ratings, miközben megerősítette a magyar állami energetikai vállalat Baa2 szintű, befektetésre ajánlott hosszú távú adósbesorolását – <a href=\"https://mvm.hu/-/media/MVMHu/Documents/Befektetoknek/%20Rating_Action-Moodys-Ratings-changes-MVM-24Nov2026-PR_532875.ashx\">derül ki</a> a hitelminősítő kedden közzétett közleményéből.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/m/v/m/mvm-408192.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 19:47:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Óriási üzletet jelentettek be: 41 milliárd dolláros felvásárlás rázza fel a gyógyszeripart",
+      "link": "https://www.portfolio.hu/befektetes/20261124/oriasi-uzletet-jelentettek-be-41-milliard-dollaros-felvasarlas-razza-fel-a-gyogyszeripart-878856",
+      "description": "<p>A francia Sanofi 41 milliárd dollárért vásárolja meg az amerikai Insmed gyógyszergyártót, így ez lehet a Pfizer és a Seagen 2023-as egyesülése óta a gyógyszeripar legnagyobb felvásárlása. A Sanofi részvényenként 175 dollárt fizet készpénzben, és ezzel megszerzi az Insmed két forgalomban lévő légúti gyógyszerét, valamint a fejlesztés alatt álló készítményeit is. Az ügylet várhatóan 2027 első felében zárul le, és 2028 végére már pozitívan járulhat hozzá a francia vállalat nyereségéhez. A befektetők kedvezően fogadták a hírt, hiszen az Insmed árfolyama több mint 14, a Sanofié pedig 8 százalékkal emelkedett. A felvásárlás az idén májusban kinevezett vezérigazgató, Belen Garijo komoly stratégiai lépése, amellyel a cég a Dupixent nevű húzótermékének 2031–2032-ben lejáró szabadalmi védettségére készül.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/g/y/o/gyogyszer-csepp-605938.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 19:39:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Rendkívüli jelenségre lehetünk figyelmesek a napokban: szabad szemmel is látható lesz különleges égi együttállás",
+      "link": "https://www.portfolio.hu/global/20261124/rendkivuli-jelensegre-lehetunk-figyelmesek-a-napokban-szabad-szemmel-is-lathato-lesz-kulonleges-egi-egyuttallas-878854",
+      "description": "<p>Látványos, lapos paralelogramma alakzatban sorakozik fel négy fényes égitest – a Mars, az Oroszlán csillagkép legfényesebb csillagát adó Regulus, a Jupiter és a fogyó Hold – november 30-án, hétfőn hajnalban; a jelenség szabad szemmel is könnyedén megfigyelhető lesz – közölte a Svábhegyi Csillagvizsgáló kedden az MTI-vel.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/u/n/i/univerzum-vilagegyetem-csillagok-stock-662555.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Tue, 24 Nov 2026 19:30:00 +0100",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Újabb nyersanyagpiaci sokk jöhet: a világ legnagyobb kobalttermelője elzárja a csapot",
+      "link": "https://www.portfolio.hu/global/20261124/ujabb-nyersanyagpiaci-sokk-johet-a-vilag-legnagyobb-kobalttermeloje-elzarja-a-csapot-878818",
+      "description": "<p>A világ legnagyobb kobaltkitermelője, a Kongói Demokratikus Köztársaság november 30-tól ismét felfüggeszti az akkumulátorgyártáshoz használt fém exportját. Az állami szabályozó hatóság a túlkínálat visszaszorításával és az elmúlt hónapokban bezuhant árak megemelésével indokolta a lépést.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/k/o/b/kobalt-681773.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:20:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Hatalmas bombát emelnek ki a Velencei-tóból, már az időpont is megvan",
+      "link": "https://www.origo.hu/itthon/2026/11/velencei-to-legibomba-kiemeles",
+      "description": "Egy 250 kilogrammos amerikai légibombát találtak még szeptemberben Gárdony közelében. A tűzszerészek szerdán délelőtt végzik el a kiemelést.",
+      "image": "https://cdn.origo.hu/2026/11/9vMYy5UAP6SVVV4AHjB6JaeuIQtqBMOBTvOYb0Y0Agc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC85NmUxNjQwYzZiYzYxNjA0OGRiOGQ0MDViMzIwZDkwNzkxMWE4Njg4YzUzYjMzMTA5ZjMyNDJkYTBhY2NmM2U5.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:15:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Terepen sem vall szégyent, de az ára az igazi erőssége ennek a kínai plug-in SUV-nak",
+      "link": "https://www.origo.hu/auto/2026/11/geely-terepes-tudas-es-jo-arkepzes",
+      "description": "Alapvetően egy városi SUV, de nem ijed meg a tereptől sem.",
+      "image": "https://cdn.origo.hu/2026/11/wK-w5X6-VrXZtviu0jIEfpANdowge3k5sSv2TpA5oPA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMC9lOGIxZmY1Yjg5NTc5YmM0YTM3ZWUyNTc5N2JiYjg0ZDBlY2IyOGRlYzZkZmNkYWRkZjFlN2E0YTVkNzY0ZGEw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:07:10 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Adó 2027: Drágulnak jövőre a céges utalások is",
+      "link": "https://www.origo.hu/belpol/2026/11/ado-2027-dragulnak-a-ceges-utalasok",
+      "description": "Évi több százezer forinttal emelkedhetnek a vállalkozások banki költségei.",
+      "image": "https://cdn.origo.hu/2026/06/IPOsKYA6xg7pqJ_nh3ud38ZXKUHqg7WrcS3akA66SYs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ZiMmQyYzhlMWQ5YjQ3ZmM5YWY5MDRiNzg2ZWQ0YjVk.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:03:29 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Tragédia Szegeden: 20 éves nő halála miatt vonultak ki a hatóságok",
+      "link": "https://www.origo.hu/kek-hirek/2026/11/szeged-tragedia-20-eves-no",
+      "description": "A szörnyűség körülményeit vizsgálják.",
+      "image": "https://cdn.origo.hu/2026/11/Ux7Ix_iUEM3TXtKnZGW7Wni-TcHh0wcZ31h9RCrkO04/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC8yZmQ1N2VkZjdkNjFiOWRmZTAzNTk2MDAyMGQxN2U3OGNhNGJmOTUwZTBhNjQ2NzQ0Zjk2NmE5MTZkZTUxNmYy.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 19:00:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "A mi kis falunk kvíz: te mennyire ismered Pajkaszeg lakóit? Teszteld a tudásod!",
+      "link": "https://www.origo.hu/eletmod/2026/11/a-mi-kis-falunk-kviz-pajkaszeg",
+      "description": "Mennyire emlékszel Pajkaszeg pletykáira és szereplőire?",
+      "image": "https://cdn.origo.hu/2026/11/NBi0oaLheVaMISx0_qhMWepCWmrTe497lq92XDkXEm8/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMy82ZTE3MzY2NTJiNjQ1MDU1MDM5YTI1ZTJjODg2NzU1ZmUzYzVjMWE5MDY2ZjZlZjNiZTc5Y2U2NGJmNDhhMTMw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 18:55:16 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Két sztárja nélkül utazott el a Liverpool a belgiumi BL-meccsre",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/club-brugge-liverpool-bajnokok-ligaja",
+      "description": "Ryan Gravenberch és Cody Gakpo sem utazott el Belgiumba az angol csapattal.",
+      "image": "https://cdn.origo.hu/2026/11/YOAH5SL3Ch2xAozokLq_J_-BpXmTcPVK12Z1Beqn7uk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC83YzA2NzAzZDk5ZmFmZGE3MmNhZGQwOTYzM2IxZDYwZjljZjU5MGFiNGJlYWNlYTZkOTFhZWVmZTFiZWEzM2E4.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 18:50:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Hajtóvadászat indult Győrben, terrorelhárítók is keresik a likócsi gyilkosság gyanúsítottját",
+      "link": "https://www.origo.hu/kek-hirek/2026/11/likocsi-gyilkossag-terrorelharitok-hajto-vadaszat-gyor",
+      "description": "A rendőrök egy 53 éves gönyűi férfit keresnek, akit volt élettársa megölésével gyanúsítanak.",
       "image": "https://cdn.origo.hu/2026/11/o9NpKQ0AJi89MfgdEjRY2Qtw0VuZ79Dh2Z-bs41AKfo/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC8zNDNhNmRmZjg0NWRmYmMyZjk4MzQ5ZDZhYmI3MmEyNTNlZTliNTVlMDM4YTIxNmU4MjM4YTZkZGU3NGRiZjgz.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 18:45:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "„Te öreg vagy már” – Durván nekimentek Erdélyi Mónikának, aki azonnal videóban reagált",
+      "link": "https://www.origo.hu/teve/2026/11/erdelyi-monika-carson-coma-vini-vita",
+      "description": "Erdélyi Mónika nem köntörfalazott.",
+      "image": "https://cdn.origo.hu/2026/11/kOnZ0VJw7UPOztIU_beHyJ1oFSYczfMXXAmGT5_W8b4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9mOWQ4NzE0NTg2MDE3OTE3OWRlM2Q5OWFlYTk4MWU4ODAwZTMzNjFhY2QwNjM1NTBmMjRmZmY3Y2E4NzhjMTZm.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 18:42:16 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "14 éves fiú lopott el egy kisbuszt, szavak sincsenek arra, ami ezután történt",
+      "link": "https://www.origo.hu/kek-hirek/2026/11/lopott-kisbusz-14-eves",
+      "description": "A fiú egy önkormányzati telephelyről lopott.",
+      "image": "https://cdn.origo.hu/2026/11/XOo_uEML8UQuU9uxm89yyt5vmncx6W3cqjDmFu8U6jM/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMy8zM2U0MzBiMzc3M2QwNmM1ZjdmNDgwNzg1ZDBiNjMxY2VjZmVlZTQ5Njg2MzBlMjk3OWQ2MDkyN2ZlNGFjZGI3.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 18:30:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Mutáns állatok Csernobilban: fekete békák és genetikailag módosult farkasok élnek a tiltott zónában",
+      "link": "https://www.origo.hu/eletmod/2026/11/mutans-allatok-csernobil-darwin",
+      "description": "November 24-én ünnepeljük az evolúció világnapját.",
+      "image": "https://cdn.origo.hu/2026/11/uD-HCrLGUY09ZWc4ttUwh1xtfkLbkGjR8JE0WJzuoZE/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9mODExMjJmNjg0OTMwMTgxZGE2NDI5OTY5MzA3MzQxMmEwMTVjY2MzYmJiNWU2ODBlN2VlZTA4NzQwN2ZjZmYx.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Tue, 24 Nov 2026 18:25:00 +0000",
+      "observed": "2026-11-24T20:28:11.674749+01:00",
+      "title": "Magyar Péter hétmilliárd forintos segélyt ígért Ukrajnának",
+      "link": "https://www.origo.hu/belpol/2026/11/magyar-peter-hetmilliard-forint-segely-ukrajna",
+      "description": "Milliárdos bejelentés Ungváron.",
+      "image": "https://cdn.origo.hu/2026/11/TyG6UqMJFatlFqw02HhDltuHL4i6K3Pk8OoZLMmMmvc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9lOTNjMDE2ZmRlNWJhZTBjNjg1YTZhNWZlNWQwZjI1MjQ3MTYzZjdhMzU4NzQzODZjODc2Njc3ODZjMDVmMjQw.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-24T19:23:57.781949+01:00"
+  "lastRssCollection": "2026-11-24T20:28:11.674749+01:00"
 }
