@@ -102,6 +102,8 @@ A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre
 | Hiányzó változatok pótlása a legfrissebb számban | Kiadások közötti futáskor, futásonként legfeljebb három érintett cikknél |
 | Hivatalos lapszám készítése | Az első megfelelő futásban a reggeli vagy délutáni idősávban |
 
+A kiadások között a legfrissebb hivatalos lapszám hiányzó stíluskivonatainak pótlása az első. Amíg bármelyik cikk pótlásra vár, a következő számhoz az RSS-gyűjtés folytatódik. A kivonatok háttérelőkészítése az első olyan esedékes futásban indulhat, amelynek kezdetén már teljes a legfrissebb hivatalos szám. Ha a legutóbbi futás tesztkiadást mentett, a workflow a legfrissebb hivatalos archív kiadást ellenőrzi.
+
 ## 6. Hírek feldolgozásának folyamata
 
 1. A `refresh_news.py` minden futáskor lekéri a Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu és Origo.hu RSS-listáit. A begyűjtött cikkadatokat a `data/rss-pending.json` őrzi a kiadások között. Az RSS-ből időközben kieső cikk megmarad, ha egy korábbi sikeres futás már látta. Egy forrás hibáját a workflow naplózza, és továbblép a következő forrásra.
@@ -123,8 +125,11 @@ flowchart TD
   issue -->|Igen| select["Rovatba illő friss hírek"]
   select --> reuse["Mentett változatok átvétele és pótlás"]
   reuse --> group["Csoportosítás és közzététel"]
-  issue -->|Nem| prepare["Esedékes háttér-előkészítés és kivonatpótlás"]
-  prepare --> save["Elkészült változatok mentése"]
+  issue -->|Nem| complete{"Teljes a legfrissebb hivatalos szám?"}
+  complete -->|Nem| backfill["Hiányzó kivonatok pótlása"]
+  complete -->|Igen| prepare["Esedékes háttérelőkészítés"]
+  backfill --> save["Elkészült változatok mentése"]
+  prepare --> save
 ```
 
 #### Hasonló hírek, archív összekapcsolással
