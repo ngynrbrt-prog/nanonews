@@ -102,6 +102,18 @@ def football_overrides(title, description, url):
         "premier": "/premier-league/" in url.lower() or (football and bool(re.search(r"\bPL\b", article_text))),
     }
 
+def is_technology_story(title, summary):
+    context = title + " " + summary
+    return (
+        not re.search(r"fidesz|orbán|álcivil|házkutatás|hűtlen kezelés|nyomozóiroda|közbeszerzés|földhasználat|lakópark|tőzsd|részvénypiac|vámokkal|bírság|adatvédelmi incidens|lesz az.{0,40}elnöke|felhívást intéztek|katonai támogatás|komoly dicséretet|nem lesz magyar keret", title, re.I)
+        and not re.search(r"fideszes|orbán-kormány|álcivil", context, re.I)
+        and (
+            bool(re.search(r"találmány|feltalál|új eszköz|új készülék|kütyü|kindle|űrmisszió|űrszonda|mesterséges intelligencia|\bai\b|chatgpt|szoftver|robotika|robotot|\bchip|processzor|okostelefon|laptop|kvantum|kutatás|kutatók|kutatási eredmény|vérvizsgálat|felfedez|innováció|prototípus", title, re.I))
+            or (bool(re.search(r"megmutatta|bemutat|fejleszt|kipróbál|tesztel|felfedez|kísérlet|tanulmány|mérnök|kutató|úttörő|kimutatt|készítenek|mérőműszer", title, re.I)) and bool(re.search(r"találmány|feltalál|új eszköz|új készülék|kütyü|kindle|űrmisszió|űrszonda|mesterséges intelligencia|\bai\b|chatgpt|szoftver|robotika|robotot|\bchip|processzor|okostelefon|laptop|kvantum|kutatás|kutatók|kutatási eredmény|vérvizsgálat|felfedez|innováció|prototípus", context, re.I)))
+            or ("kimutatt" in title.casefold() and bool(re.search(r"egészség|tanulmány|kutatás", context, re.I)))
+        )
+    )
+
 def image_for(item,desc):
     for node in item.iter():
         tag=node.tag.lower()
@@ -199,7 +211,7 @@ def group_similar_stories(items):
         match_ids={id(item) for item in matches}
         pending=[item for item in pending if id(item) not in match_ids]
         lead["relatedStories"]=matches
-        lead["categories"]=sorted(set(lead.get("categories",[])).union(*(set(item.get("categories",[])) for item in matches)))
+        lead["categories"]=sorted(set(lead.get("categories",[])).union(*((set(item.get("categories",[]))-{"technology"}) for item in matches)))
         grouped.append(lead)
         print(f"Grouped {len(matches)} related stories under {lead.get('source')}: {lead.get('title')}")
     return grouped
@@ -563,8 +575,9 @@ for record in inbox.values():
     cats.extend(key for key,matched in football_cats.items() if matched and key not in cats)
     if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
     if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
-    if "technology" in cats and (SPORT_CATEGORIES.intersection(cats) or any(term in hay for term in SPORT_MARKERS)):
-        cats.remove("technology")
+    cats = [key for key in cats if key != "technology"]
+    if is_technology_story(title, desc) and not is_sport_related(hay, cats):
+        cats.append("technology")
     if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
     if is_foreign_political_economic(hay,cats):cats.append("foreign")
     if not cats:continue
