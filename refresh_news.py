@@ -80,12 +80,41 @@ def text(node):
     if node is None:return ""
     return re.sub(r"\s+"," "," ".join(node.itertext())).strip()
 
+WINTER_WEATHER_HEADLINE = re.compile(
+    r"\b(?:havaz\w*|ónos eső|hótérkép|havas\s*eső|hózápor\w*|hószállingóz\w*)", re.I,
+)
+
+
 def is_nature_story(title):
-    return bool(re.search(
+    return bool(WINTER_WEATHER_HEADLINE.search(title) or re.search(
         r"\b(?:élővilág|vadon élő|vadállat|vadmadár|madárvonulás|madárfaj|halfaj|állatfaj|növényfaj|fajmegőrzés|fészkel|beporzó|nemzeti park|természeti jelenség|természeti érték|természetvéd|ökoszisztéma|biodiverzitás|élőhely|erdőirtás|erdőtűz|esőerdő|vizes élőhely|gleccser|vízállás|vízgazdálkodás|vízügyi|vízhiány|vízminőség|árvíz|aszály|havazás|ónos eső|hőhullám|vulkánkitörés|földrengés|égi együttállás|hullócsillag|meteorraj|sarki fény|napfogyatkozás|holdfogyatkozás)",
         title,
         re.IGNORECASE,
     ))
+
+
+DOMESTIC_ISSUER = re.compile(r"\b(?:otp|mol|richter|magyar telekom|mtelekom)\b", re.I)
+MARKET_CONTEXT = re.compile(r"részvény|árfolyam|tőzsd|medvepiac|bikapiac", re.I)
+PRICE_MOVE = r"(?:esik|esés\w*|esett|zuhan\w*|emelked\w*|erősöd\w*|gyengül\w*|drágul\w*|olcsóbbod\w*|raliz\w*)"
+ISSUER_MOVE = re.compile(
+    rf"\b{PRICE_MOVE}\s+(?:az?\s+)?{DOMESTIC_ISSUER.pattern}|"
+    rf"{DOMESTIC_ISSUER.pattern}\s+{PRICE_MOVE}\b",
+    re.I,
+)
+
+
+def is_domestic_market_story(title, summary):
+    return bool(DOMESTIC_ISSUER.search(title) and (
+        MARKET_CONTEXT.search(title + " " + summary) or ISSUER_MOVE.search(title)
+    ))
+
+
+def apply_subject_categories(title, summary, categories):
+    if is_nature_story(title):
+        return ["environment"]
+    if is_domestic_market_story(title, summary) and "hu-market" not in categories:
+        return [*categories, "hu-market"]
+    return categories
 
 
 def match_term(term,hay):
@@ -215,8 +244,26 @@ def nvidia_event_story(story):
     value="".join(char for char in unicodedata.normalize("NFKD",value) if not unicodedata.combining(char))
     return "nvidia" in value and any(term in value for term in ("jensen","huang","vezerigazgato","visszavett","igazgatotanacs","kozbenjaras"))
 
+def winter_weather_day(story):
+    title = story.get("title", "")
+    if not WINTER_WEATHER_HEADLINE.search(title):
+        return None
+    headline = title.casefold()
+    if any(match_term(term, headline) for term in INTERNATIONAL_MARKERS):
+        return None
+    published = parse_published(story.get("published"))
+    return published.date() if published else None
+
+
 def stories_are_similar(left,right,allow_same_source=False):
-    if not left.get("source") or (not allow_same_source and left.get("source")==right.get("source")):return False
+    if not left.get("source") or not right.get("source"):
+        return False
+    left_weather_day = winter_weather_day(left)
+    right_weather_day = winter_weather_day(right)
+    if left_weather_day or right_weather_day:
+        return left_weather_day == right_weather_day
+    if not allow_same_source and left["source"] == right["source"]:
+        return False
     if nvidia_event_story(left) and nvidia_event_story(right):return True
     left_title=story_tokens(left.get("title",""))
     right_title=story_tokens(right.get("title",""))
@@ -238,7 +285,7 @@ def group_similar_stories(items):
             grouped.append(lead);continue
         match_ids={id(item) for item in matches}
         pending=[item for item in pending if id(item) not in match_ids]
-        lead["relatedStories"]=matches
+        lead["relatedStories"] = [*matches, *lead.get("relatedStories", [])]
         lead["categories"]=sorted(set(lead.get("categories",[])).union(*((set(item.get("categories",[]))-{"technology"}) for item in matches)))
         grouped.append(lead)
         print(f"Grouped {len(matches)} related stories under {lead.get('source')}: {lead.get('title')}")
@@ -660,8 +707,9 @@ for key, record in list(inbox.items()):
         if collect_new_edition:
             article_date=parse_published(prepared["published"])
             if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
-                if is_nature_story(record["title"]):
-                    prepared["categories"] = ["environment"]
+                prepared["categories"] = apply_subject_categories(
+                    record["title"], record["description"], prepared["categories"],
+                )
                 if "sourceArticleLinks" not in prepared:
                     _, _, source_links=fetch_article(prepared["url"])
                     if source_links is not None:
@@ -695,8 +743,7 @@ for key, record in list(inbox.items()):
         cats.append("foreign")
         if foreign_deal and re.search(r"magyarországi[^.!?]{0,55}(?:beruház|gyár|üzem|gyártás)|(?:szegedi|debreceni)[^.!?]{0,35}(?:beruház|gyár|üzem)", context, re.I):
             cats.append("belfold")
-    if lake_environment or is_nature_story(title):
-        cats = ["environment"]
+    cats = ["environment"] if lake_environment else apply_subject_categories(title, desc, cats)
     if not cats:
         if expired:
             del inbox[key]

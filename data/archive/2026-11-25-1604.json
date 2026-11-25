@@ -302,7 +302,8 @@
       "url": "https://www.portfolio.hu/befektetes/20261125/fek-nelkul-esik-az-otp-mikor-erdemes-beszallni-879010",
       "published": "Wed, 25 Nov 2026 16:00:00 +0100",
       "categories": [
-        "belfold"
+        "belfold",
+        "hu-market"
       ],
       "image": "https://pcdn.hu/articles/images-xl/o/t/p/otp-872602.jpg",
       "summaryVersion": "short-v2.1-3-4",
@@ -8731,6 +8732,393 @@
           ]
         },
         {
+          "source": "Origo.hu",
+          "title": "Elérte a havazás Budapestet, nagy pelyhekben esik - Fotó",
+          "summary": "Igaza lett az időjárás előjelzéseknek!",
+          "url": "https://www.origo.hu/itthon/2026/11/havazas-budapesten-esik",
+          "published": "Wed, 25 Nov 2026 09:47:05 +0000",
+          "categories": [
+            "environment"
+          ],
+          "image": "https://cdn.origo.hu/2026/11/rnY3CQtJbYBKMLyup-KBtbN2KcCtEZTlT3V6TfvjgxE/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS9mNzM0OWFmYTVlYTE4ZmQ2MGQxZGYxYzEzZjc1YmJlNjYwYjI0MDNkOTc0M2U4MjkyNGE5MTA2NDQ0NzFhNGNj.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "sourceArticleLinks": [
+            "https://www.origo.hu/cimke/budapest-2"
+          ],
+          "contentBasis": "article",
+          "sourceHash": "b80eb3746388d3686f30a8064966d38bee5161168d07896b20b8e5bb3f557ac6",
+          "variants": {
+            "original": {
+              "body": "Budapestet és Pest, Heves, Komárom-Esztergom, Nógrád, valamint Jász-Nagykun-Szolnok megyét érte el a szerdára előre jelzett, riasztással járó havazás, amelynek következtében a főváros II., VIII. és XIII. kerületében nagy pelyhekben hullik a csapadék. A környezetvédelem területét közvetlenül érintő időjárási helyzet miatt a meteorológiai előrejelzések alapján kiadott riasztások érvénybe léptek a megjelölt területeken."
+            },
+            "tolkien": {
+              "title": "A Fehér Leplök Járta Város",
+              "body": "A szerdai nap évszázados jóslata vált valóra, midőn a fagyos fellegek súlya Pest, Heves, Komárom-Esztergom, Nógrád és Jász-Nagykun-Szolnok tartományaira nehezedett, s hivatalos intés hirdette a vihar közeledtét. A tél jeges serege elhatolt Budapest kapuiig, s a II., valamint a VIII. meg a XIII. bástya kerületeiben hatalmas, gomolygó pelyhekben kezdte hullatni ezüstjét."
+            },
+            "reito": {
+              "title": "A Hóember Visszavág: Budapest Nagy Pelyhekben Adja meg Magát",
+              "body": "Szerdára pontosan beteljesedett a meteorológusok baljóslatú jóslata, így Pest, Heves, Komárom-Esztergom, Nógrád és Jász-Nagykun-Szolnok megye hivatalosan is sárga csekk helyett viharjelzést kapott a nyakába. A tél minden átmenet nélkül beletaposott a főváros közepébe, és a II., a VIII., meg a XIII. kerület utcáin már nagy pelyhekben szórja az áldást a környezetünk legnagyobb örömére vagy bánatára. A hirtelen jött időjárási fordulat azonnali gyakorlati következményeként a lakosok kamerái azonnal forró drótba torkollottak, és videók százaival igazolják a fehér inváziót."
+            }
+          }
+        },
+        {
+          "source": "Portfolio.hu",
+          "title": "Megérkezett a csapadékzóna: errefelé várható havazás Magyarországon az időjárás-előrejelzés szerint",
+          "summary": "<p>Elérte a csapadékzóna Magyarországot, így a hét hátralévő részében borult, csapadékos időjárás köszönt be országszerte. A következő napokban esőre, havazásra, több régióban pedig a közlekedést nehezítő ónos esőre is számítani kell - olvasható a HungaroMet<a href=\"https://www.met.hu/idojaras/elorejelzes/\"> időjárás-előrejelzésében</a>. A meteorológiai szolgálat szerint hétvégére felszakadozik a felhőzet és visszatér a napsütés, ezzel együtt azonban jelentősen lehűl a levegő, vasárnapra pedig b",
+          "url": "https://www.portfolio.hu/gazdasag/20261125/megerkezett-a-csapadekzona-errefele-varhato-havazas-magyarorszagon-az-idojaras-elorejelzes-szerint-878938",
+          "published": "Wed, 25 Nov 2026 09:22:00 +0100",
+          "categories": [
+            "environment"
+          ],
+          "image": "https://pcdn.hu/articles/images-xl/m/a/g/magyarorszag-zold-vilag-idojaras-idojaras-elorejelzes-havazas-fagy-onos-eso-ho-csapad-872464.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "sourceArticleLinks": [
+            "https://www.google.com/preferences/source",
+            "https://www.met.hu/idojaras/elorejelzes/",
+            "https://www.portfolio.hu/idojaras/Miskolc",
+            "https://www.portfolio.hu/gazdasag/20261125/biztos-hogy-most-kell-kamatot-csokkentenie-az-mnb-nek-mikor-lephet-ujra-a-lazitas-utjara-a-jegybank-878768",
+            "https://www.portfolio.hu/gazdasag/20261125/tisza-kormany-megallapodott-magyar-peter-zelenszkijjel-ma-folytatodik-a-parlamenti-nagyuzem-878890",
+            "https://www.portfolio.hu/gazdasag/20261125/eljaras-indult-a-magyar-egyetemi-alapitvanynal-egymilliardbol-vettek-luxusingatlant-de-alig-lattak-diakot-a-falai-kozott-878958",
+            "https://www.portfolio.hu/gazdasag/20261124/kuszobon-a-szezon-elso-komolyabb-havazasa-magyarorszagon-az-interneten-is-felporgott-az-erdeklodes-az-idojaras-irant-878664",
+            "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+            "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+            "https://www.portfolio.hu/gazdasag/20261124/eros-szellel-es-faggyal-csap-le-az-idojaras-magyarorszagra-mutatjuk-hol-alakulhat-ki-hozapor-878608",
+            "https://www.portfolio.hu/gazdasag/20261123/kritikus-idoszak-koszontott-be-az-aramellatasban-878022",
+            "https://www.portfolio.hu/global/20261123/megjott-az-elorejelzes-hatalmas-vihar-csap-le-arviz-havazas-es-viharos-szellokesek-lehetnek-a-kozelgo-unnepen-878496",
+            "https://www.portfolio.hu/cimke/Magyarország",
+            "https://www.portfolio.hu/cimke/zöld világ",
+            "https://www.portfolio.hu/cimke/időjárás",
+            "https://www.portfolio.hu/cimke/időjárás előrejelzés",
+            "https://www.portfolio.hu/cimke/havazás",
+            "https://www.portfolio.hu/cimke/fagy",
+            "https://www.portfolio.hu/cimke/ónos eső",
+            "https://www.portfolio.hu/cimke/hó",
+            "https://www.portfolio.hu/cimke/csapadék",
+            "https://www.portfolio.hu/cimke/időjárás magyarországon",
+            "https://www.portfolio.hu/global/20261125/ujabb-reszletek-derultek-ki-az-nvidia-koruli-botranyrol-kiterjedt-kinai-uzleti-halozatot-tartak-fel-878934",
+            "https://www.portfolio.hu/global",
+            "https://www.portfolio.hu/global/20261125/amerikai-vezetok-szolitottak-fel-trumpot-ezt-nem-teheti-meg-putyinnal-azonnal-cselekedni-kell-878930",
+            "https://www.portfolio.hu/bank/20261125/balint-attila-a-vagyonado-felgyorsitotta-a-csaladi-vagyonok-atrendezeset-uj-korszak-johet-a-privatbankolasban-877788",
+            "https://www.portfolio.hu/bank",
+            "https://www.portfolio.hu/uzlet/20261125/megjott-a-bejelentes-igy-valtozik-a-benzin-es-a-dizel-ara-878906",
+            "https://www.portfolio.hu/uzlet",
+            "https://www.portfolio.hu/gazdasag/20261125/trump-ujra-kitekerne-a-vilag-nyakat-keszul-az-ujabb-gazdasagi-remalom-878928",
+            "https://www.portfolio.hu/gazdasag",
+            "https://www.portfolio.hu/gazdasag/20261125/kozel-140-millio-forintot-kapott-a-magyar-tisztsegviselo-mikozben-mar-gyanus-kifizetesek-miatt-vizsgalodtak-utana-878926",
+            "https://www.portfolio.hu/bank/20261125/csaknem-500-milliard-dollaros-rejtett-ertekpapir-vesztesegen-ulnek-az-amerikai-bankok-878924",
+            "https://www.portfolio.hu/ingatlan/20261125/meghuztak-a-hatart-a-magyar-berlok-150-ezer-forint-szamukra-a-plafon-az-uj-lakasprogramban-878912",
+            "https://www.portfolio.hu/ingatlan",
+            "https://indexadhu.hit.gemius.pl/hitredir",
+            "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+            "https://www.portfolio.hu/deviza/20261125/trump-ujabb-vamfenyegetese-tette-ujra-lejtore-a-forintot-visszatert-370-fole-az-euro-878896",
+            "https://www.portfolio.hu/uzlet/20261125/sajat-fejlesztoik-is-aggodnak-az-uj-ai-modellek-miatt-mit-bizonyitanak-az-adatok-878962",
+            "https://www.portfolio.hu/uzlet/20261125/nagyot-esett-tegnap-az-nvidia-nezzuk-mi-tortenik-ma-a-tozsdeken-878904",
+            "https://www.portfolio.hu/ingatlan/20261125/csokkent-a-dh-group-profitja-de-eros-evzarasra-szamit-a-menedzsment-878956",
+            "https://www.portfolio.hu/global/20261125/ukrajna-ellen-fordult-europa-legerosebb-orszaga-lynxek-kerulnek-az-ukran-frontra-hireink-az-orosz-ukran-haborurol-szerdan-878884",
+            "https://www.portfolio.hu/uzlet/20261125/uzent-az-mnb-a-maganegeszsegugyi-cegeknek-jogosulatlan-biztositasi-tevekenyseget-vegeznek-egyesek-878952",
+            "https://www.portfolio.hu/gazdasag/20261125/bajban-az-ikonikus-magyar-marka-gyartoja-csodvedelembe-menekultek-878950",
+            "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+            "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+            "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+            "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+            "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+            "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
+            "https://www.portfolio.hu/podcast",
+            "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
+            "https://www.portfolio.hu/podcast/20261124/a-szappanopera-folytatodik-most-lesz-csak-igazan-nagy-sztori-az-nvidiabol-878820",
+            "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028"
+          ],
+          "contentBasis": "article",
+          "sourceHash": "7518e3cc62be1be631e54d523e81cd7b62f2f167b378a48e9d7d017f1d0f17d1",
+          "variants": {
+            "original": {
+              "body": "Szerdán Magyarországon délnyugat felől egy kiterjedt csapadékzóna érte el az országot, amely a környezetvédelmi szempontból is jelentős meteorológiai előrejelzések szerint esőt, havas esőt, havazást, valamint a Bakonyban, a főváros tágabb környezetében, a Dunántúl északkeleti részén és az Északi-középhegységben ónos esőt hozott. A legmagasabb nappali hőmérséklet szerdán 0 és 5 Celsius-fok között alakult, míg éjszaka -4 és +2 Celsius-fok közé hűlt a levegő, a hétvégén pedig észak felől érkező hideg légtömegekkel tovább hűl a levegő. Csütörtökön és pénteken újabb csapadékzónák alakultak ki országszerte vegyes halmazállapotú csapadékkal, szombaton pedig az erős, helyenként viharos északi széllel hidegebb légtömegek áramlottak a térségbe. Vasárnapra a csapadék esélye minimálisra csökkent, a déli tájakat leszámítva országszerte napos idő várható, ugyanakkor hajnalban -6 és -1 Celsius-fok közötti fagyok nehezítik a környezeti viszonyokat."
+            },
+            "tolkien": {
+              "title": "A hideg leheletű fellegek vonulása a föld hátán",
+              "body": "Szerdán délnyugat felől súlyos fellegek vonultak Magyarország fölé, elhozva a csapadék fagyos árnyékát a tájra, ahol a Bakony és az Északi-középhegység bércein ónos eső fagyasztotta meg a rögöket. A nappalok fagyos fénnyel pislákoltak 0 és 5 Celsius-fok között, míg az éjszakai sötétben -4 és +2 Celsius-fok közé süllyedt a levegő hőmérséklete. A csütörtöki és pénteki napokon makacs, szürke köpeny borította a vidéket, s a hétvége szárnyain északi viharok sodrták be a dermesztő, messzi fagyok leheletét Magyarország határaira. Végül vasárnapra elcsitultak a fellegek, s a déli végek kivételével napfény öntötte el a tájat, ám a hajnal -6 és -1 Celsius-fok közötti jégcsöves fagyokkal köszöntött a mezőkre."
+            },
+            "reito": {
+              "title": "Ahol a havazás és az ónos eső adja egymásnak a kilincset",
+              "body": "Szerdán délnyugat felől olyan kiterjedt csapadékzóna rontott be Magyarországra, amely a környezetvédelmi jelentések szerint a Bakonyban, a főváros tágabb környékén, a Dunántúl északkeleti sarkában és az Északi-középhegységben még ónos esővel is fűszerezte a közlekedést. Nappal 0 és 5 fok között mértek a hőmérékletek, éjszaka pedig -4 és +2 fok közé zuhant a higanyszál, miközben a kedélyeket a keleti, északkeleti szél borzolta. Csütörtökön és pénteken maradt a borús maszkabál vegyes csapadékkal, szombaton pedig egy északi, viharos szélroham söpörte át a térséget újabb hideg árukészlettel. Vasárnapra aztán kitisztult az ég, és a déli tájak kivételével mindenhol kisütött a nap, hogy aztán hajnalban -6 és -1 fok közötti fagyokkal kínálja meg a túlélőket."
+            }
+          },
+          "relatedStories": [
+            {
+              "source": "Portfolio.hu",
+              "title": "Sokkal több múlik a háborún, mint Ukrajna jövője - Meddig mehet el a NATO?",
+              "summary": "<p>Felgyorsulni látszanak az események Ukrajnában. Moszkva és Kijev is igyekszik légicsapásokkal meggyengíteni ellenfelét, utóbbiak az orosz energetikai infrastruktúrát célzó akciókért komoly kritikákat kapnak az Egyesült Államoktól. Az ellátási lánc elleni ukrán támadások csúcspontján a tengerbe szakadt az orosz megszállás jelképének, a krími hídnak egy szakasza is.",
+              "url": "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
+              "published": "Tue, 24 Nov 2026 18:00:00 +0100",
+              "categories": [
+                "foreign"
+              ],
+              "image": "https://pcdn.hu/articles/images-lg/g/i/_/gi-cimlap-1500x844-14-1-872246.jpg",
+              "summaryVersion": "short-v2.1-3-4",
+              "contentBasis": "article",
+              "sourceHash": "34cbfaf25edf983b325a4b66bfe8ec28d3746d69498b3a491926155dd92ab7ca",
+              "variants": {
+                "original": {
+                  "body": "A Portfolio külpolitikai podcastjának, a Global Insightnak a legfrissebb epizódja a Portfolio YouTube-csatornáján, valamint a Spotify és az Apple Podcast felületein érhető el, miközben a szerkesztőség a kéthetente jelentkező műsor következő adásával készül. A külföldi témákhoz és nemzetközi eseményekhez kapcsolódó hírfolyam és podcast-epizódok mellett a tartalom a Portfolio felületein követhető. A műsorhoz kapcsolódó korábbi adások szintén visszanézhetők a megadott hivatkozásokon keresztül. A hallgatók számára lehetőség nyújtódik a csatornára való feliratkozásra is."
+                },
+                "tolkien": {
+                  "title": "A Global Insight Krónikája: Hangok a távolból",
+                  "body": "A Portfolio külföldi tájak eseményeit kutató, Global Insight nevű videós podcastjának legújabb epizódja emelkedett fel a YouTube csatorna vizuális folyamain, valamint a Spotify és az Apple Podcast hangteli mezőin. A kéthetente megújuló, nemzetközi ügyekkel foglalkozó krónika hamarosan újabb adással siet a hallgatók elé, hogy a messzi birodalmak titkait feltárja. A régebbi idők hangfelvételei mind visszanézhetők a feljegyzések hálójában. Az utazók és krónika-olvasók pedig feliratkozással pecsételhetik meg hűségüket, hogy soha el ne mulasszák a következő üzenetet."
+                },
+                "reito": {
+                  "title": "Global Insight: Amikor a világhírű mikrofonok elindulnak",
+                  "body": "A Portfolio Global Insight névre hallgató, külpolitikai videós podcastja immár a YouTube-on, a Spotify-on és az Apple Podcast hullámain is osztja az észt a nemzetközi ügyekről. A kéthetente menetrendszerűen érkező adásgép hamarosan újabb epizóddal robban be, addig is a régiek elől teljesen szabad a pálya a visszanézéshez. Egy gombnyomással feliratkozhatsz a csatornára, ha véletlenül nem szeretnél lemaradni a soron következő világmegváltó tényfeltárásról. A külföldi események hálójában botorkáló hallgatóknak ez legalább annyira kötelező, mint egy rossz helyen hagyott táskás pénz."
+                }
+              },
+              "archiveDate": "2026. 11. 25."
+            },
+            {
+              "source": "Portfolio.hu",
+              "title": "A legmagasabb szintű riasztást rendelte el a Microsoft",
+              "summary": "<p>Code Red, vagyis a legmagasabb szintű belső riasztás lépett életbe a Microsoftnál, miután egy huszonnégy órás globális leállás súlyos hiányosságokat tárt fel a vállalat mérnöki rendszereiben és válságkezelésében. A november 12-13-i üzemzavar idején világszerte elérhetetlenné vált az Outlook, a Teams és több más Microsoft 365-szolgáltatás, ami kormányzati intézmények, légitársaságok és pénzügyi cégek működését is megzavarta. A hibát nem kibertámadás okozta, hanem a Windows egy júliusban bekerü",
+              "url": "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+              "published": "Tue, 24 Nov 2026 17:34:00 +0100",
+              "categories": [
+                "foreign"
+              ],
+              "image": "https://pcdn.hu/articles/images-xl/c/o/d/code-red-kibertamadas-figyelmeztetes-kiberbiztonsag-veszely-hackertamadas-riasztas-veszelyj-872394.jpg",
+              "summaryVersion": "short-v2.1-3-4",
+              "contentBasis": "article",
+              "sourceHash": "1f44f840b96efa7a6fb9c75da940bff8b3bc126236cdf24ccea081504905c62a",
+              "variants": {
+                "original": {
+                  "body": "A Microsoft a legmagasabb szintű belső riasztást (Code Red) rendelte el egy huszonnégy órás, november 12-én és 13-án történt globális leállás után, amely az Egyesült Államoktól Japánig bénította meg kormányzati szervek, légitársaságok, tőzsdék és pénzügyi vállalatok működését. Az üzemzavar – amely nem kibertámadás, hanem egy júliusi Windows-skálázhatósági hiba miatt következett be – elérhetetlenné tette az Exchange Online-t, az Outlookot, a Teamset és a Copilotot, Satya Nadella vezérigazgató pedig nyilvánosan bocsánatot kért. A belső feljegyzések szerint a válságkezelés kaotikus volt, a mérnökök 11 Teams-csatornán több mint 11 ezer üzenetet váltottak, míg a hibás komponens egyetlen nap alatt nagyjából tíz évnyi hibamennyiséget halmozott fel. A cég ötfős fejlesztési területen indított átfogó programot, hogy a jövőben minden globális üzemzavart egy órán belül elháríthassanak, ehhez pedig mesterséges intelligenciát is fognak használni."
+                },
+                "tolkien": {
+                  "title": "A Felhők Birodalmának Nagy Törése és a Vörös Kódex Felsejlése",
+                  "body": "A digitális birodalom alapkövei megrendültek, mikor egy sötét, novemberi napon a huszonnégy órás globális csend bilincsbe verte a távoli földrészeket, Ausztráliától egészen Japán partjaiig. A hatalmas gépezet belső kamráiban felsejlett a Vörös Kódex, a legmagasabb szintű riasztás, mert a mélyben rejtőző, júliusi seb miatt elnémult az Exchange Online, az Outlook és a Teams szent csarnoka. A káosz tornyában a mérnökök tizenegy különálló ösvényen tizenegyezer üzenet parazsát szórták szét, míg a vezérigazgató lehajtott fővel kért bocsánatot a megtévesztett népektől. Most új törvények születnek a túlterhelés ellen és a sebek gyorsabb gyógyításáért, hogy a jövő viharait egyetlen óra alatt elűzzék a mesterséges látnokok segítségével."
+                },
+                "reito": {
+                  "title": "Kódvörös a digitális gályán: tizenegyezer üzenet a semmibe",
+                  "body": "A Microsoftnál a legmagasabb szintű riasztást fújták, miután egy huszonnégy órás, novemberi globális fekete leves pont elegendő volt arra, hogy kormányokat, légitársaságokat és tőzsdéket tegyen parkolópályára. Nem holnap érkezett hackerek akciójáról volt szó, hanem egy még július óta csendben lapuló Windows-hibáról, amitől az Exchange Online és a Teams azonnal lehúzta a rolót, Satya Nadella pedig nyilvánosan tördelhette a kezét a bocsánatkérésért. A válságkezelés annyira volt átlátható, mint egy fazék borsófőzelék, hiszen a mérnökök tizenegy Teams-csatornán több mint tizenegyezer üzenetet küldözgettek egymásnak a vaksötétben, miközben egyetlen nap alatt tíz évnyi hibát hoztak össze. A cég most gyorsan összekapja magát, és ötfős fejlesztési frontot nyit, hogy a jövőben legfeljebb egy óra alatt kipofozzák a rendszerüket egy kis mesterséges intelligencia segítségével."
+                }
+              },
+              "archiveDate": "2026. 11. 24."
+            },
+            {
+              "source": "Portfolio.hu",
+              "title": "A szappanopera folytatódik: most lesz csak igazán nagy sztori az Nvidiából?",
+              "summary": "<p>Már meghallgatható a keddi Checklist. A szappanopera folytatódik: Jensen Huang visszatért, a tőzsde felrobbant: hétfőn több mint 31 százalékot ugrott az Nvidia árfolyama, miután Donald Trump közbenjárásával ismét a társalapító került a vállalat élére. A botrányát feltáró független vizsgálat azonban még nem zárult le.",
+              "url": "https://www.portfolio.hu/podcast/20261124/a-szappanopera-folytatodik-most-lesz-csak-igazan-nagy-sztori-az-nvidiabol-878820",
+              "published": "Tue, 24 Nov 2026 17:10:00 +0100",
+              "categories": [
+                "belfold"
+              ],
+              "image": "https://pcdn.hu/articles/images-xl/c/h/i/chip-computer-620421.jpg",
+              "summaryVersion": "short-v2.1-3-4",
+              "contentBasis": "article",
+              "sourceHash": "b069945f52af58b228914545ec029435f71a463e6459fae26487708a7bcad597",
+              "variants": {
+                "original": {
+                  "body": "A Portfolio.hu által közzétett hírfolyam szerint három orosz manőverező robotrepülőgép is lezuhant, miközben benyújtották a törvénymódosításokat is. A közzétett adatok alapján három évtized alatt látványosan közeledett az uniós árszinthez a BB tengely, mivel 1995-ben a régió átlaga az EU-átlag 45,1 százaléka, 2025-ben pedig már 80,7 százaléka volt. Ezen kívül társadalmi egyeztetésre bocsátottak egy olyan törvénytervezetet, amely 2027. január 1-jétől jelentősen egyszerűsítheti a külföldi befektetések ellenőrzését Magyarországon."
+                },
+                "tolkien": {
+                  "title": "A futó acél árnyai és a változó idők krónikája",
+                  "body": "Íme a hírek a nagyvilágból, hol az égen három orosz manőverező robotrepülőgép hullott alá a porba, s a törvények tekercseit is benyújtották a messzi tanácsok elé. Három hosszú esztendő tizede alatt a BB tengely régiójának árszintje hatalmas ívben emelkedett az unióhoz mérten, hiszen az 1995-ös 45,1 százalékról 2025-re 80,7 százalékra kúszott fel. Küszöbön áll az idő, mikor 2027. január 1-jén a külföldi befektetések ellenőrzése is egyszerűbbé válik a társadalmi egyeztetésre bocsátott törvénytervezet szerint."
+                },
+                "reito": {
+                  "title": "Robbanó rakéták, dráguló vidékek és a Nike nagy futballmentőakciója",
+                  "body": "A vadkeleti égbolton három orosz manőverező robotrepülőgép is úgy döntött, hogy lehúzza a rolót, miközben a bürokraták is benyújtották a legfrissebb törvénymódosításokat. A BB tengely vidékén sem ülnek a babérjukon: az árszint az 1995-ös 45,1 százalékról szépen felkúszott az uniós átlag 80,7 százalékára 2025-re. Ha mindez nem lenne elég, 2027. január 1-jétől a társadalmi egyeztetésre bocsátott tervezet értelmében jelentősen egyszerűsödik a külföldi befektetések ellenőrzése Magyarországon."
+                }
+              },
+              "archiveDate": "2026. 11. 24."
+            },
+            {
+              "source": "Portfolio.hu",
+              "title": "Nem az a kérdés, ki építi meg a lakásokat, hanem hogy ki lesz a több ezres lakásportfóliók tulajdonosa 50 évre",
+              "summary": "<p>A magyar lakásállomány jelentős része felújításra szorul, miközben az új lakások építése sem halad olyan ütemben, amely érdemben felgyorsíthatná a megújulását. A lakáspolitika elsősorban a saját tulajdon megszerzését ösztönzi, holott a vásárlás és a hitelek törlesztése mellett sok háztartásnak már nem marad elegendő pénze az ingatlan hosszú távú fenntartására. Eközben a bérlakások aránya Magyarországon mindössze 10 százalék körüli, pedig egy jóval nagyobb, intézményi befektetők által finanszí",
+              "url": "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028",
+              "published": "Tue, 24 Nov 2026 15:00:00 +0100",
+              "categories": [
+                "property",
+                "belfold"
+              ],
+              "image": "https://pcdn.hu/articles/images-xl/m/l/_/ml-260126-006-872046.jpg",
+              "summaryVersion": "short-v2.1-3-4",
+              "contentBasis": "article",
+              "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
+              "archiveDate": "2026. 11. 24."
+            },
+            {
+              "source": "Portfolio.hu",
+              "title": "Kritikus időszak köszöntött be az áramellátásban",
+              "summary": "<p>November közepén ismét klasszikus sötétszélcsendes időjárás alakult ki Európában, miközben karbantartások miatt jelentős hagyományos erőművi kapacitás is kiesett a termelésből. A kontinens jelentős részét jellemző borult, gyenge légmozgású időben visszaeső nap- és szélenergia-termelést a gázerőművek termelésének fokozása helyettesítette, ami a magas földgázárak miatt több éves csúcsra lökte a nagykereskedelmi villamosenergia-árakat, Magyarországon is. A november 9-10-i árampiaci árcsúcsokat e",
+              "url": "https://www.portfolio.hu/gazdasag/20261123/kritikus-idoszak-koszontott-be-az-aramellatasban-878022",
+              "published": "Mon, 23 Nov 2026 19:00:00 +0100",
+              "categories": [
+                "belfold"
+              ],
+              "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2254394939-871472.jpg",
+              "summaryVersion": "short-v2.1-3-4",
+              "contentBasis": "article",
+              "sourceHash": "c5d8e0c26f66f028f82d2944956552cb2e33b81d7dcdf0abd58c9b6057ba1d4a",
+              "variants": {
+                "original": {
+                  "body": "November első hetében egy lassan mozgó anticiklon és frontrendszer okozta az idei fűtési szezon eddigi legerősebb szélcsendes, borús európai epizódját, amely szinte teljesen leállította a széltermelést. Ez a szélenergia-összeomlás és a négyéves csúcs közelében lévő földgázár Magyarországon és több más európai piacon is 2022 óta nem látott áramárakat eredményezett, így a HUPX-en november 10-én 400 euró/MWh feletti átlagár alakult ki. A helyzetet súlyosbította a gyengébb vízenergia-termelés, a Paksi Atomerőmű karbantartása, a fűtési igény fokozódása, valamint a borús idő miatt visszaeső hazai HMKE napelemes termelés. A november 9–10-i árcsúcsokat azonban jelentős áresés követte az európai szélenergia-termelés visszatérése miatt, ami Magyarországon is visszahúzta a HUPX árait a korábbi 170–245 euró/MWh sávba."
+                },
+                "tolkien": {
+                  "title": "A Nagy Szélcsend Krónikája és a Fény Visszatérése",
+                  "body": "Az ősz derekán, november első napjaiban sötét és lusta fellegek borították el Európa tájait, miközben az égbolt hatalmas uralkodója, egy lomha anticiklon megfékezte a szelek szárnyalását. E szélcsendes napokon a messze földön elterülő kertekben elapadt a szél ajándéka, s a drága földgáz magasságaival egyesülve a villamosság ára magasra szökött; a magyar piac tőzsdéjén november tizedikén a megawattóránkénti ár a négyszáz aranyat is meghaladta, milyet ezer-kétszáz-huszonkettő óta nem láttak a népek. A sötét órákat nehezítette a vizek gyengélkedése, a paksi csarnokok mesterembereinek munkája és a napfény hiánya, míg végül a szellemek visszahozta szél fuvallata meg nem könyörült a világon. A szelek ismételt ébredése mély zuhanást hozott az árakban, s a magyar határokon túlUlról érkező áram ismét a korábbi, százhetven és kétszáznegyvenöt euró közötti tartományba terelte a tőzsdei mérleget."
+                },
+                "reito": {
+                  "title": "Amikor a szél is szabadságra ment, a villanyóra meg belehúzott",
+                  "body": "November elején egy lassan vánszorgó anticiklon úgy döntött, hogy Európában egyszerűen kikapcsolja a szelet, ami a földgáz egekben lévő árával nyakon öntve kiváló alapot teremtett egy kis tőzsdei izgalomra. November 10-ére a HUPX másnapi piacán a villamos energia átlagára 400 euró/MWh fölé szökött, olyan magasságokba, amit 2022 decembere óta nem bámulhattak az érintettek. Ehhez a kis összeghez persze hűségesen asszisztált a gyengélkedő vízenergia, a Paksi Atomerőmű karbantartás alatt álló blokkja, a megnövekedett fűtési igény és a napelemes rendszerek borús idő miatti kényszerpihenője is. Szerencsére, amilyen gyorsan jött a drágulás, olyan lendülettel tűnt el, miután a szél visszatért a kontinens fölé, így az árak gyorsan visszahuppantak a 170–245 euró/MWh sávba."
+                }
+              },
+              "archiveDate": "2026. 11. 24."
+            }
+          ]
+        },
+        {
+          "source": "Origo.hu",
+          "title": "Kiadták a riasztást: nem kímél az időjárás, nyakunkon a havazás és az ónos eső",
+          "summary": "Egy megyében másodfokúra emelték a riasztás fokozatát.",
+          "url": "https://www.origo.hu/itthon/2026/11/riasztas-havazasra-es-onos-eso",
+          "published": "Wed, 25 Nov 2026 09:20:00 +0000",
+          "categories": [
+            "environment"
+          ],
+          "image": "https://cdn.origo.hu/2026/11/Kjd8u3jp_V31W39P3nVE0i5dXo22yXQdWdoRGO9M1sI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzFlMWI5NDhiZDgzNjQ0ZGZiY2NkNTc5NTg2YmFlMzVi.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "sourceArticleLinks": [
+            "https://www.origo.hu/cimke/havazas"
+          ],
+          "contentBasis": "article",
+          "sourceHash": "e2f4538160df69cf11406122df5e48186c4b41ac85c9d1ceda0bc60ed900d0d3",
+          "variants": {
+            "original": {
+              "body": "Szerdán a fagyos, borult időjárás és a környezetvédelem területét közvetlenül érintő meteorológiai változások miatt a HungaroMet havazás és ónos eső miatt adott ki riasztásokat Pest, Heves, Komárom-Esztergom, Nógrád, Jász-Nagykun-Szolnok, Fejér és Veszprém megyében. A legfontosabb gyakorlati következmény, hogy a területek egy részén 12 óra alatt 5 cm-t meghaladó friss hó hullhat, miközben a hajnali −8 és 0 fok közötti hőmérséklet délutánra 1–4 fokig emelkedik. Csütörtökön Győr-Moson-Sopron, Vas és Veszprém megyében folytatódik a télies időjárás elsőfokú figyelmeztetésekkel, valamint megélénkülő északkeleti széllel. A Köpönyeg előrejelzése szerint a csütörtöki hajnal −3 és 2 fok közötti értékei után délután 0–7 fokig melegszik a levegő."
+            },
+            "tolkien": {
+              "title": "A fagy lehelete és a hulló leplek órája",
+              "body": "Szerdán a természet fagyos elemei törnek elő, miután a HungaroMet elsőfokú és másodfokú riasztást adott ki a havazás és az ónos eső veszélye miatt Pest, Heves, Komárom-Esztergom, Nógrád, Jász-Nagykun-Szolnok, Fejér és Veszprém földjén. A legfontosabb gyakorlati következmény, hogy a hajnali −8 és 0 fok sötétjéből ébredő tájon 12 óra forgása alatt öt centiméternél is több friss hó boríthatja be a mezőket, mielőtt a hőmérséklet délután 1 és 4 fok közé szelídülne. Csütörtökön Győr-Moson-Sopron, Vas és Veszprém vidékein újabb figyelmeztetések intenek éberségre a havazás és a gyenge ónos eső árnyékában, miközben feltámad az északkeleti szél viharos lehelete. A hajnal −3 és 2 fok közötti fagyos óráit követően a nappal 0 és 7 fok közötti langyosodást hoz a Köpönyeg krónikái szerint."
+            },
+            "reito": {
+              "title": "Téli meglepetéscsomag: Hó, jég és mínuszok a naptárban",
+              "body": "Szerdán a meteorológiai frontvonalon a HungaroMet élesítette a fegyvereket, és elsőfokú, valamint másodfokú riasztást rendelt el a havazás és az ónos eső miatt Pest, Heves, Komárom-Esztergom, Nógrád, Jász-Nagykun-Szolnok, Fejér és Veszprém megyékben. A legfontosabb gyakorlati következmény, hogy a −8 és 0 fok közötti hajnal után 12 óra alatt több mint 5 centiméternyi friss hó szakadhat a nyakunkba, mielőtt a délutáni 1–4 fokos melegedés megkezdené aolvadást. Csütörtökön sem dőlhetünk hátra, mert Győr-Moson-Sopron, Vas és Veszprém megyében újabb figyelmeztetések várják a havazást és a gyenge ónos esőt, megfejelve egy élénkebb, olykor megerősödő északkeleti széllel. A Köpönyeg adatai szerint a hajnali −3 és 2 fokos tartományból indulva délutánra 0–7 fokig kúszik fel a hőmérő higanyszála."
+            }
+          }
+        },
+        {
+          "source": "HVG",
+          "title": "Szerdán eléri az országot a havazás, estefelé ónos eső várható",
+          "summary": "Vékony, néhány centiméteres hóréteg több helyen kialakulhat, de főként a fővárostól északabbra ennél több hó is hullhat.",
+          "url": "https://hvg.hu/itthon/20261125_idojaras-elorejelzes-havazas-onos-eso-hungaromet",
+          "published": "Wed, 25 Nov 2026 05:49:24 Z",
+          "categories": [
+            "environment"
+          ],
+          "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7fe8c897-f07c-4578-aee6-b4f5adf2407d.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "contentBasis": "article",
+          "sourceHash": "55e5f30affb4464c6b71b7f3e77c6ef494c1b90f84c9b798cc5291bf1d95e6a8",
+          "variants": {
+            "original": {
+              "body": "Szerdán a délelőtti óráktól délnyugat felől egy csapadékzóna éri el Magyarországot, amely havazást, havas esőt, esőt és estefelé nagyobb területen ónos esőt okoz, miközben a környezetvédelmi jelentőségű időjárási változás közvetlenül érinti a Dunántúli-középhegységet, a Dunazug-hegyvidéket, az Északi-középhegység nyugati térségét, a Bakonyt és a fővárost a HungaroMet Zrt. előrejelzése szerint. A gyakorlati következmény az, hogy a fővárostól északabbra fekvő magasabb térszíneken lokálisan akár 10 centiméter körüli hóréteg is kialakulhat, miközben a hőmérséklet napközben 0 és +5 fok között alakul, késő estére pedig -2 és +3 fok közé hűl, és az ónos eső miatt csúszós útviszonyokra kell számítani. A legmagasabb nappali hőmérséklet 0 és +5 fok, a legkevesebb éjszakai hőmérséklet pedig -4 és +2 fok között várható, miközben a délkeleti, keleti, illetve keleti, északkeleti szél többfelé megélénkül vagy erős lökésekkel fúj."
+            },
+            "tolkien": {
+              "title": "A fehér lepel árnyéka és az ónos fagy vihara",
+              "body": "Délnyugat kapuin át fekete fellegek és csapadékzóna vonul be az ország földjére a HungaroMet Zrt. jóslata szerint, könyörtelenül elérve a Dunántúli-középhegységet, a Dunazug-hegyvidéket, az Északi-középhegység nyugati tájait, a Bakony vidékeit és magát a fővárost is. A fagy birodalmában a bércen túl négy-öt centiméternél is vastagabb, sőt magasabb ormokon akár tíz centiméteres hóréteg fehérlik, míg estére az égbolt fémként csillogó, veszedelmes ónos esőt hullat a völgyökre. A nappali hőség parazsa kialszik a 0 és +5 fokos mezsgyén, késő estére pedig a levegő lehelete -2 és +3 fok közé hűl, dermedt fogságba ejtve a tájat."
+            },
+            "reito": {
+              "title": "Hóban, fagyban, csúszós utakon: megérkezett a szerdai front",
+              "body": "Délnyugat felől menetrend szerint robban be szerdán a HungaroMet Zrt. által megjósolt csapadékzóna, amely azonnal nyakon csípi a Dunántúli-középhegységet, a Dunazug-hegyvidéket, az Északi-középhegység nyugati szegletét, a Bakonyt és a fővárost is. A gyakorlati szépséghiba annyi, hogy a természeti elem nem finomkodik: míg délen esernyő kell, addig északon 4-5 centis, a hegyekben akár 10 centis hóréteg tornyosul, az estét pedig egy kis ónos eső fűszerezi meg a csúszásveszély kedvelőinek. A hőmérő higanyszála sem ússza meg szárazon, hiszen nappal 0 és +5 fok között vergődik, estére pedig -2 és +3 fok közé esik, éjszaka pedig -4 fokig süllyed, miközben a szél is kedvvel cibálja a fülünket."
+            }
+          },
+          "sourceArticleLinks": [
+            "https://www.met.hu/idojaras/elorejelzes/",
+            "https://pulzus.hvg.hu/egeszseg/20261125_kronikus-fajdalom-menopauza-perimenopauza-diagnozis-tarsadalmi-eloiteletek-migren-fibromyalgia-hormonterapia",
+            "https://hvg.hu/itthon/20261125_hasnyalmirigy-problemak-gyogyszerek-hiany-egeszsegugyi-miniszterium",
+            "https://hvg.hu/gazdasag/20261125_forint-euro-dollar-arfolyam-gyengules",
+            "https://hvg.hu/360/20261125_mma-turi-attila-szurcsik-jozsef-interju-politikai-kurzusok-fidesz-bukas-kultura",
+            "https://hvg.hu/elet/20261125_madach-szinhaz-igazgatoi-palyazat-nyomasgyakorlas",
+            "https://hvg.hu/360/20261125_ai8-antikvar-konyvek-pusztitasa-mesterseges-intelligencia-betanitasa",
+            "https://hvg.hu/itthon/20261125_matolcsy-gyorgy-mnb-ugy-parlamenti-vizsgalobizottsag-meghallgatas-bilincs-vezetoszar",
+            "https://hvg.hu/itthon/20261125_budapest-fovarosi-kozgyules-hatarozat-javaslat-karacsony-gergely-fopolgarmesteri-hivatal-letszamleepites",
+            "https://hvg.hu/itthon/20261125_felcsuti-kisvasut-uzemszunet",
+            "https://hvg.hu/kkv/20261125_wellis-elbocsatas-kotvenyprogram-leminosites",
+            "https://hvg.hu/itthon/20261125_sesztak-miklos-letartoztatas-ovadek-ugyved",
+            "https://hvg.hu/itthon/20261125_ugyvedje-szerint-csak-megfigyelo-volt-varga-bajusz-veronika-az-nka-ugyben",
+            "https://hvg.hu/itthon/20261125_miniszterelnokseg-semmi-adat-szerzodes-magyar-peter-teteles-atvizsgalas-igeret",
+            "https://hvg.hu/itthon/20261125_marabu-feknyuz-budapest-kijev",
+            "https://hvg.hu/itthon/20261125_feljelentes-szolnok-ipar-park-palyazat-alpolgarmester",
+            "https://hvg.hu/itthon/20261125_mezokovesd-vonat-baleset-valsagos-allapot-fiatal-lany",
+            "https://hvg.hu/elet/20261125_omega-gitaros-molnar-gyorgy-elefant-osszeesett-lezuhant-lepcso",
+            "https://hvg.hu/vilag/20261125_nemetorszag-orosz-ukran-haboru-friedrich-merz-koltsegvetes",
+            "https://hvg.hu/360/20261125_d-tarifa-rezsicsokkentes-okosmero-negyedoras-valtas-hvg",
+            "https://pulzus.hvg.hu/pszichologia/20261125_parkapcsolat-hazimunka-gyerek-es-felnott-felelossegvallalas-maximalizmus-bohemseg",
+            "https://hvg.hu/360/20261118_ukrajnai-rendezesi-javaslatok-nato-vagy-terulet-kijevi-dilemmak-orszagomat-egy-tagsagert-hvg",
+            "https://hvg.hu/360/20261116_hvg-geoffrey-hinton-interju-ai-keresztapja-mesterseges-intelligencia-veszelyei",
+            "https://hvg.hu/360/20261118_radoslaw-sikorski-lengyel-kulugyminiszter-interju",
+            "https://hvg.hu/360/20261118_median-gep-okos-emberek-ovatosak-mesterseges-intelligencia-ai-hvg"
+          ]
+        },
+        {
+          "source": "Origo.hu",
+          "title": "Fagyos reggel és havazás, most fordul igazán téliesre az időjárás",
+          "summary": "Durva mínuszokat és havazást ígérnek az előrejelzések!",
+          "url": "https://www.origo.hu/itthon/2026/11/havazas-tel-idojaras-2",
+          "published": "Wed, 25 Nov 2026 05:30:00 +0000",
+          "categories": [
+            "environment"
+          ],
+          "image": "https://cdn.origo.hu/2026/11/381cNVZDEz65yeF10_voJS1zrVwkKKkSVSxW574m8ho/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC80ZjE0NTJiOGFmZGQxMTIxMGNmNzA2ZTFmNGJiY2U5NTkxMzQ4YWViZmE2OTc5YTAxZTM2NmEzZGYzODhlYzk4.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "contentBasis": "article",
+          "sourceHash": "5274825bc189d36d8a1de880301f443d06ae3e5bdd8be09d4bfb9345402721f2",
+          "variants": {
+            "original": {
+              "body": "A Köpönyeg előrejelzése szerint szerdán és csütörtökön fagyos reggelekkel, borult, szürke idővel, valamint helyenkénti havazással és esővel fordul téliesre az időjárás az országban, amit a környezetvédelem szempontjából meghatározó meteorológiai jelenségek – reggeli fagy, havazás és erős szél – határoznak meg. A változás közvetlen gyakorlati következménye, hogy szerdán −8 és −1 fok közötti fagyos reggel után 0–4 fokig melegszik a levegő nyugaton hószállingózással és élénk széllel, míg csütörtökön −3 és 2 fokos hajnalt követően 1–7 fokos maximumok várhatók több helyen havazással vagy esővel és erősödő északkeleti széllel. A Köpönyeg adatai alapján Borsodban már kövér pelyhekben hullott a hó, ami a környezetvédelem területéhez tartozó látványos téli időjárási jelenségként jelenik meg a forrásban."
+            },
+            "tolkien": {
+              "title": "A Dermesztő Éj Visszatérése és a Fehér Leplök Jötte",
+              "body": "A Köpönyeg jövendölése szerint fagyos reggelek, hószállingózás és zord szelek rontanak rá a vidékre, miközben a környezetvédelem hatáskörébe tartozó elemi erők – a jeges fagy, a hulló hó és a tomboló szél – könyörtelenül megmutatják télies arcukat. E fagyos átalakulás nyomán szerdán −8 és −1 fok közötti dermesztő hajnal után csupán 0–4 fokra enyhül a levegő, nyugaton hószállingózással, csütörtökön pedig −3 és 2 fokos éjszakát követően 1–7 fokos csúcshőmérséklet és több helyen hulló havazás vagy eső várható az erősödő szelek szorításában. A természet ezen változásának ékes bizonyítékaként Borsod földjén már kövér pelyhekben hullott le a hó, megpecsételve e téli idők kezdetét."
+            },
+            "reito": {
+              "title": "Ahol a mínuszok átveszik a hatalmat",
+              "body": "A Köpönyeg jelentése alapján a fagyos reggelek, a havazás és az erős szél triója veszi át a hatalmat a következő napokban, közvetlenül érintve az egész ország időjárását a környezetvédelem által vizsgált meteorológiai terepen. Ennek a hideg fordultnak a gyakorlati következménye, hogy szerdán −8 és −1 fokos fagy után legfeljebb 0–4 fokig kúszik fel a higanyszál némi nyugati hószállingózással kísérve, míg csütörtökön −3 és 2 fokos hajnal után 1–7 fokos csúcsokat mérhetünk, miközben eső, havazás és erősödő északkeleti szél nehezíti a dolgunkat. A természet e szórakoztató játékaként Borsodban már kövér pelyhekben zúdult le a hó, elhozva a téli valóságot."
+            }
+          },
+          "sourceArticleLinks": [
+            "https://www.origo.hu/cimke/havazas"
+          ]
+        },
+        {
+          "source": "Origo.hu",
+          "title": "Komoly havazás érkezik Magyarországra, már az első hó is meglepetést okozott",
+          "summary": "Este újabb havazás kezdődhet, a hét második felében pedig helyenként 10 centiméternél is több hó hullhat. Az első hózáporok már baleseteket okoztak, a közútkezelő több száz munkagéppel készül.",
+          "url": "https://www.origo.hu/itthon/2026/11/havazas-magyarorszag-szerda-este-ho",
+          "published": "Wed, 25 Nov 2026 04:45:00 +0000",
+          "categories": [
+            "environment"
+          ],
+          "image": "https://cdn.origo.hu/2026/11/Um6hrY12XNRI9EuSUV1ToHAI_OccB-aF5ydeL1t4-Lw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9jYWMxY2Q5MGMyOTRiZGJhMzEyYjA1NjgzNDFkOGU0ZjdjZmRiZGM4OGZiN2I2Zjc5YWFjNDQ1ODdiNWViYjJi.jpg",
+          "summaryVersion": "short-v2.1-3-4",
+          "contentBasis": "article",
+          "sourceHash": "268c2425c97a6c7ab396285a723e23b0d8c4aef35662d1df9541ba0b561489a8",
+          "variants": {
+            "original": {
+              "body": "A november 25-én, szerda este kezdődő országos havazás és a már kedden tapasztalt téli időjárás Magyarország több megyéjét, valamint a közlekedőket, a gumiabroncs-tulajdonosokat és a Magyar Közút szervezetét érinti. Szombat reggelig az érintett területeken átlagosan 5 centiméter hó hullhat, a nyugati határ közelében és Salgótarján térségében pedig a 10 centimétert is meghaladhatja a hóréteg vastagsága, ami Szabolcs-Szatmár-Bereg vármegyében már kedden balesetekhez és tükörjéghez vezetett. A gyakorlati következmény az, hogy a sofőröknek a romló útviszonyok és a hosszabb menetidő miatt fokozott óvatossággal kell közlekedniük, ellenőrizniük kell a téli vagy a legalább 4 milliméteres profilmélységű négyévszakos gumiabroncsokat, míg a Magyar Közút november 10 óta 813 munkagéppel, 3300 munkatárssal, valamint 122 ezer tonna sóval és 2,9 millió liter kalcium-klorid-oldattal készül a 31 ezer kilométeres közúthálózat és a 610 kilométernyi kerékpárút tisztítására. A környezetvédelem rovat szempontjából ez a cikk a meteorológiai előrejelzésekhez, a természetes csapadékformákhoz – például a nagy pelyhekben hulló hóhoz és a hózáporokhoz –, valamint az ezek nyomán aktiválódó, környezeti tényezőkhöz igazodó úttisztítási és síkosságmentesítési feladatokhoz kapcsolódik."
+            },
+            "tolkien": {
+              "title": "A Fehér Lepel Eljövetele",
+              "body": "A november huszonötödikének estéjén feltámadó, fagyos égi áradat és a már kedden megvillanó tél Magyarország tartományait, az utakon járó vándorokat, a kerekek köpenyeit őrzőket, valamint a Magyar Közút népét borítja be. Szombat hajnalig a földeket ötszázszor is mérhető, öt centiméteres hótakaró lepi el, míg nyugat bércei és Salgótarján vidéke felett a tíz centimétert is átlépi a fehér sereg. A gyakorlati következmény az, hogy a vándoroknak a fagyott ösvényeken lassabban, nagyobb követési távolsággal és gondosan megvizsgált, téli vagy legalább négy milliméteres barázdájú abroncsokkal kell haladniuk, miközben a Magyar Közút november tizedike óta 813 vaskocsival, 3300 fegyveressel, 122 ezer tonna sóval és 2,9 millió liter fagyűjtő oldattal védi a 31 ezer kilométernyi kőutat és a 610 kilométernyi kerékpárösvényt. E krónika a fellegek változásairól, a hideg évszak hírnökeként érkező égi csapadékról, valamint a természet szeszélyeivel dacoló, földeket megtisztító és sótenger mozgató emberi erők fáradozásáról regél."
+            },
+            "reito": {
+              "title": "Csúszós kanyarok és sóhegyek téli birodalmában",
+              "body": "A szerda este ránk zúduló havazás és a keddi előfutam Magyarország több megyéjét, az aszfalton csúszkáló autósokat, a gumiboltok kínálatát és a Magyar Közút nehéztüzérségét veszi célba. Szombat reggelig simán összejön az átlagos öt centi fehér áldás, de nyugaton és Salgótarján környékén a tíz centit is átlépi a hóréteg, amivel Szabolcsban már kedden koccantak is a kocsik a tükörjégen. A gyakorlati következmény az, hogy a volán mögül ki kell szállni a bámészkodásból, elő kell kaparni a téli gumit vagy a legalább négy milliméteres négyévszakos abroncsot, míg a Magyar Közút november tizedike óta 813 munkagéppel, 3300 munkatárssal, 122 ezer tonna sóval és 2,9 millió liter oldattal sózza szét a 31 ezer kilométeres utat és a 610 kilométernyi kerékpárutat. Ez a történet az égből hulló felesleges vízkészletek kezeléséről, a természet váratlan téli előadásáról és a közútkezelő 12 órás műszakokban izzadó, sót szóró gépcsotakairól szól."
+            }
+          },
+          "sourceArticleLinks": [
+            "https://www.origo.hu/cimke/magyarorszagra"
+          ]
+        },
+        {
           "source": "Portfolio.hu",
           "title": "Sokkal több múlik a háborún, mint Ukrajna jövője - Meddig mehet el a NATO?",
           "summary": "<p>Felgyorsulni látszanak az események Ukrajnában. Moszkva és Kijev is igyekszik légicsapásokkal meggyengíteni ellenfelét, utóbbiak az orosz energetikai infrastruktúrát célzó akciókért komoly kritikákat kapnak az Egyesült Államoktól. Az ellátási lánc elleni ukrán támadások csúcspontján a tengerbe szakadt az orosz megszállás jelképének, a krími hídnak egy szakasza is.",
@@ -13567,37 +13955,6 @@
       ]
     },
     {
-      "source": "Origo.hu",
-      "title": "Elérte a havazás Budapestet, nagy pelyhekben esik - Fotó",
-      "summary": "Igaza lett az időjárás előjelzéseknek!",
-      "url": "https://www.origo.hu/itthon/2026/11/havazas-budapesten-esik",
-      "published": "Wed, 25 Nov 2026 09:47:05 +0000",
-      "categories": [
-        "environment"
-      ],
-      "image": "https://cdn.origo.hu/2026/11/rnY3CQtJbYBKMLyup-KBtbN2KcCtEZTlT3V6TfvjgxE/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS9mNzM0OWFmYTVlYTE4ZmQ2MGQxZGYxYzEzZjc1YmJlNjYwYjI0MDNkOTc0M2U4MjkyNGE5MTA2NDQ0NzFhNGNj.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "sourceArticleLinks": [
-        "https://www.origo.hu/cimke/budapest-2"
-      ],
-      "contentBasis": "article",
-      "sourceHash": "b80eb3746388d3686f30a8064966d38bee5161168d07896b20b8e5bb3f557ac6",
-      "variants": {
-        "original": {
-          "body": "Budapestet és Pest, Heves, Komárom-Esztergom, Nógrád, valamint Jász-Nagykun-Szolnok megyét érte el a szerdára előre jelzett, riasztással járó havazás, amelynek következtében a főváros II., VIII. és XIII. kerületében nagy pelyhekben hullik a csapadék. A környezetvédelem területét közvetlenül érintő időjárási helyzet miatt a meteorológiai előrejelzések alapján kiadott riasztások érvénybe léptek a megjelölt területeken."
-        },
-        "tolkien": {
-          "title": "A Fehér Leplök Járta Város",
-          "body": "A szerdai nap évszázados jóslata vált valóra, midőn a fagyos fellegek súlya Pest, Heves, Komárom-Esztergom, Nógrád és Jász-Nagykun-Szolnok tartományaira nehezedett, s hivatalos intés hirdette a vihar közeledtét. A tél jeges serege elhatolt Budapest kapuiig, s a II., valamint a VIII. meg a XIII. bástya kerületeiben hatalmas, gomolygó pelyhekben kezdte hullatni ezüstjét."
-        },
-        "reito": {
-          "title": "A Hóember Visszavág: Budapest Nagy Pelyhekben Adja meg Magát",
-          "body": "Szerdára pontosan beteljesedett a meteorológusok baljóslatú jóslata, így Pest, Heves, Komárom-Esztergom, Nógrád és Jász-Nagykun-Szolnok megye hivatalosan is sárga csekk helyett viharjelzést kapott a nyakába. A tél minden átmenet nélkül beletaposott a főváros közepébe, és a II., a VIII., meg a XIII. kerület utcáin már nagy pelyhekben szórja az áldást a környezetünk legnagyobb örömére vagy bánatára. A hirtelen jött időjárási fordulat azonnali gyakorlati következményeként a lakosok kamerái azonnal forró drótba torkollottak, és videók százaival igazolják a fehér inváziót."
-        }
-      },
-      "relatedStories": []
-    },
-    {
       "source": "Telex",
       "title": "Elkészült a 120 millió forinttal támogatott Curtis-dokumentumfilm, de még nem tudni, mikor mutatják be",
       "summary": "A bemutatót eredetileg az idei év második felére tervezték, de a produkciónak jelenleg nincs médiapartnere. A vezető producer szerint az összes állami támogatást gond nélkül le tudták hívni és a filmintézettel a vezetőségváltás után is zökkenőmentes az együttműködésük.",
@@ -14746,219 +15103,6 @@
     },
     {
       "source": "Portfolio.hu",
-      "title": "Megérkezett a csapadékzóna: errefelé várható havazás Magyarországon az időjárás-előrejelzés szerint",
-      "summary": "<p>Elérte a csapadékzóna Magyarországot, így a hét hátralévő részében borult, csapadékos időjárás köszönt be országszerte. A következő napokban esőre, havazásra, több régióban pedig a közlekedést nehezítő ónos esőre is számítani kell - olvasható a HungaroMet<a href=\"https://www.met.hu/idojaras/elorejelzes/\"> időjárás-előrejelzésében</a>. A meteorológiai szolgálat szerint hétvégére felszakadozik a felhőzet és visszatér a napsütés, ezzel együtt azonban jelentősen lehűl a levegő, vasárnapra pedig b",
-      "url": "https://www.portfolio.hu/gazdasag/20261125/megerkezett-a-csapadekzona-errefele-varhato-havazas-magyarorszagon-az-idojaras-elorejelzes-szerint-878938",
-      "published": "Wed, 25 Nov 2026 09:22:00 +0100",
-      "categories": [
-        "environment"
-      ],
-      "image": "https://pcdn.hu/articles/images-xl/m/a/g/magyarorszag-zold-vilag-idojaras-idojaras-elorejelzes-havazas-fagy-onos-eso-ho-csapad-872464.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "sourceArticleLinks": [
-        "https://www.google.com/preferences/source",
-        "https://www.met.hu/idojaras/elorejelzes/",
-        "https://www.portfolio.hu/idojaras/Miskolc",
-        "https://www.portfolio.hu/gazdasag/20261125/biztos-hogy-most-kell-kamatot-csokkentenie-az-mnb-nek-mikor-lephet-ujra-a-lazitas-utjara-a-jegybank-878768",
-        "https://www.portfolio.hu/gazdasag/20261125/tisza-kormany-megallapodott-magyar-peter-zelenszkijjel-ma-folytatodik-a-parlamenti-nagyuzem-878890",
-        "https://www.portfolio.hu/gazdasag/20261125/eljaras-indult-a-magyar-egyetemi-alapitvanynal-egymilliardbol-vettek-luxusingatlant-de-alig-lattak-diakot-a-falai-kozott-878958",
-        "https://www.portfolio.hu/gazdasag/20261124/kuszobon-a-szezon-elso-komolyabb-havazasa-magyarorszagon-az-interneten-is-felporgott-az-erdeklodes-az-idojaras-irant-878664",
-        "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
-        "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
-        "https://www.portfolio.hu/gazdasag/20261124/eros-szellel-es-faggyal-csap-le-az-idojaras-magyarorszagra-mutatjuk-hol-alakulhat-ki-hozapor-878608",
-        "https://www.portfolio.hu/gazdasag/20261123/kritikus-idoszak-koszontott-be-az-aramellatasban-878022",
-        "https://www.portfolio.hu/global/20261123/megjott-az-elorejelzes-hatalmas-vihar-csap-le-arviz-havazas-es-viharos-szellokesek-lehetnek-a-kozelgo-unnepen-878496",
-        "https://www.portfolio.hu/cimke/Magyarország",
-        "https://www.portfolio.hu/cimke/zöld világ",
-        "https://www.portfolio.hu/cimke/időjárás",
-        "https://www.portfolio.hu/cimke/időjárás előrejelzés",
-        "https://www.portfolio.hu/cimke/havazás",
-        "https://www.portfolio.hu/cimke/fagy",
-        "https://www.portfolio.hu/cimke/ónos eső",
-        "https://www.portfolio.hu/cimke/hó",
-        "https://www.portfolio.hu/cimke/csapadék",
-        "https://www.portfolio.hu/cimke/időjárás magyarországon",
-        "https://www.portfolio.hu/global/20261125/ujabb-reszletek-derultek-ki-az-nvidia-koruli-botranyrol-kiterjedt-kinai-uzleti-halozatot-tartak-fel-878934",
-        "https://www.portfolio.hu/global",
-        "https://www.portfolio.hu/global/20261125/amerikai-vezetok-szolitottak-fel-trumpot-ezt-nem-teheti-meg-putyinnal-azonnal-cselekedni-kell-878930",
-        "https://www.portfolio.hu/bank/20261125/balint-attila-a-vagyonado-felgyorsitotta-a-csaladi-vagyonok-atrendezeset-uj-korszak-johet-a-privatbankolasban-877788",
-        "https://www.portfolio.hu/bank",
-        "https://www.portfolio.hu/uzlet/20261125/megjott-a-bejelentes-igy-valtozik-a-benzin-es-a-dizel-ara-878906",
-        "https://www.portfolio.hu/uzlet",
-        "https://www.portfolio.hu/gazdasag/20261125/trump-ujra-kitekerne-a-vilag-nyakat-keszul-az-ujabb-gazdasagi-remalom-878928",
-        "https://www.portfolio.hu/gazdasag",
-        "https://www.portfolio.hu/gazdasag/20261125/kozel-140-millio-forintot-kapott-a-magyar-tisztsegviselo-mikozben-mar-gyanus-kifizetesek-miatt-vizsgalodtak-utana-878926",
-        "https://www.portfolio.hu/bank/20261125/csaknem-500-milliard-dollaros-rejtett-ertekpapir-vesztesegen-ulnek-az-amerikai-bankok-878924",
-        "https://www.portfolio.hu/ingatlan/20261125/meghuztak-a-hatart-a-magyar-berlok-150-ezer-forint-szamukra-a-plafon-az-uj-lakasprogramban-878912",
-        "https://www.portfolio.hu/ingatlan",
-        "https://indexadhu.hit.gemius.pl/hitredir",
-        "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
-        "https://www.portfolio.hu/deviza/20261125/trump-ujabb-vamfenyegetese-tette-ujra-lejtore-a-forintot-visszatert-370-fole-az-euro-878896",
-        "https://www.portfolio.hu/uzlet/20261125/sajat-fejlesztoik-is-aggodnak-az-uj-ai-modellek-miatt-mit-bizonyitanak-az-adatok-878962",
-        "https://www.portfolio.hu/uzlet/20261125/nagyot-esett-tegnap-az-nvidia-nezzuk-mi-tortenik-ma-a-tozsdeken-878904",
-        "https://www.portfolio.hu/ingatlan/20261125/csokkent-a-dh-group-profitja-de-eros-evzarasra-szamit-a-menedzsment-878956",
-        "https://www.portfolio.hu/global/20261125/ukrajna-ellen-fordult-europa-legerosebb-orszaga-lynxek-kerulnek-az-ukran-frontra-hireink-az-orosz-ukran-haborurol-szerdan-878884",
-        "https://www.portfolio.hu/uzlet/20261125/uzent-az-mnb-a-maganegeszsegugyi-cegeknek-jogosulatlan-biztositasi-tevekenyseget-vegeznek-egyesek-878952",
-        "https://www.portfolio.hu/gazdasag/20261125/bajban-az-ikonikus-magyar-marka-gyartoja-csodvedelembe-menekultek-878950",
-        "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
-        "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
-        "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
-        "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
-        "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
-        "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
-        "https://www.portfolio.hu/podcast",
-        "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
-        "https://www.portfolio.hu/podcast/20261124/a-szappanopera-folytatodik-most-lesz-csak-igazan-nagy-sztori-az-nvidiabol-878820",
-        "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028"
-      ],
-      "contentBasis": "article",
-      "sourceHash": "7518e3cc62be1be631e54d523e81cd7b62f2f167b378a48e9d7d017f1d0f17d1",
-      "variants": {
-        "original": {
-          "body": "Szerdán Magyarországon délnyugat felől egy kiterjedt csapadékzóna érte el az országot, amely a környezetvédelmi szempontból is jelentős meteorológiai előrejelzések szerint esőt, havas esőt, havazást, valamint a Bakonyban, a főváros tágabb környezetében, a Dunántúl északkeleti részén és az Északi-középhegységben ónos esőt hozott. A legmagasabb nappali hőmérséklet szerdán 0 és 5 Celsius-fok között alakult, míg éjszaka -4 és +2 Celsius-fok közé hűlt a levegő, a hétvégén pedig észak felől érkező hideg légtömegekkel tovább hűl a levegő. Csütörtökön és pénteken újabb csapadékzónák alakultak ki országszerte vegyes halmazállapotú csapadékkal, szombaton pedig az erős, helyenként viharos északi széllel hidegebb légtömegek áramlottak a térségbe. Vasárnapra a csapadék esélye minimálisra csökkent, a déli tájakat leszámítva országszerte napos idő várható, ugyanakkor hajnalban -6 és -1 Celsius-fok közötti fagyok nehezítik a környezeti viszonyokat."
-        },
-        "tolkien": {
-          "title": "A hideg leheletű fellegek vonulása a föld hátán",
-          "body": "Szerdán délnyugat felől súlyos fellegek vonultak Magyarország fölé, elhozva a csapadék fagyos árnyékát a tájra, ahol a Bakony és az Északi-középhegység bércein ónos eső fagyasztotta meg a rögöket. A nappalok fagyos fénnyel pislákoltak 0 és 5 Celsius-fok között, míg az éjszakai sötétben -4 és +2 Celsius-fok közé süllyedt a levegő hőmérséklete. A csütörtöki és pénteki napokon makacs, szürke köpeny borította a vidéket, s a hétvége szárnyain északi viharok sodrták be a dermesztő, messzi fagyok leheletét Magyarország határaira. Végül vasárnapra elcsitultak a fellegek, s a déli végek kivételével napfény öntötte el a tájat, ám a hajnal -6 és -1 Celsius-fok közötti jégcsöves fagyokkal köszöntött a mezőkre."
-        },
-        "reito": {
-          "title": "Ahol a havazás és az ónos eső adja egymásnak a kilincset",
-          "body": "Szerdán délnyugat felől olyan kiterjedt csapadékzóna rontott be Magyarországra, amely a környezetvédelmi jelentések szerint a Bakonyban, a főváros tágabb környékén, a Dunántúl északkeleti sarkában és az Északi-középhegységben még ónos esővel is fűszerezte a közlekedést. Nappal 0 és 5 fok között mértek a hőmérékletek, éjszaka pedig -4 és +2 fok közé zuhant a higanyszál, miközben a kedélyeket a keleti, északkeleti szél borzolta. Csütörtökön és pénteken maradt a borús maszkabál vegyes csapadékkal, szombaton pedig egy északi, viharos szélroham söpörte át a térséget újabb hideg árukészlettel. Vasárnapra aztán kitisztult az ég, és a déli tájak kivételével mindenhol kisütött a nap, hogy aztán hajnalban -6 és -1 fok közötti fagyokkal kínálja meg a túlélőket."
-        }
-      },
-      "relatedStories": [
-        {
-          "source": "Portfolio.hu",
-          "title": "Sokkal több múlik a háborún, mint Ukrajna jövője - Meddig mehet el a NATO?",
-          "summary": "<p>Felgyorsulni látszanak az események Ukrajnában. Moszkva és Kijev is igyekszik légicsapásokkal meggyengíteni ellenfelét, utóbbiak az orosz energetikai infrastruktúrát célzó akciókért komoly kritikákat kapnak az Egyesült Államoktól. Az ellátási lánc elleni ukrán támadások csúcspontján a tengerbe szakadt az orosz megszállás jelképének, a krími hídnak egy szakasza is.",
-          "url": "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
-          "published": "Tue, 24 Nov 2026 18:00:00 +0100",
-          "categories": [
-            "foreign"
-          ],
-          "image": "https://pcdn.hu/articles/images-lg/g/i/_/gi-cimlap-1500x844-14-1-872246.jpg",
-          "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "article",
-          "sourceHash": "34cbfaf25edf983b325a4b66bfe8ec28d3746d69498b3a491926155dd92ab7ca",
-          "variants": {
-            "original": {
-              "body": "A Portfolio külpolitikai podcastjának, a Global Insightnak a legfrissebb epizódja a Portfolio YouTube-csatornáján, valamint a Spotify és az Apple Podcast felületein érhető el, miközben a szerkesztőség a kéthetente jelentkező műsor következő adásával készül. A külföldi témákhoz és nemzetközi eseményekhez kapcsolódó hírfolyam és podcast-epizódok mellett a tartalom a Portfolio felületein követhető. A műsorhoz kapcsolódó korábbi adások szintén visszanézhetők a megadott hivatkozásokon keresztül. A hallgatók számára lehetőség nyújtódik a csatornára való feliratkozásra is."
-            },
-            "tolkien": {
-              "title": "A Global Insight Krónikája: Hangok a távolból",
-              "body": "A Portfolio külföldi tájak eseményeit kutató, Global Insight nevű videós podcastjának legújabb epizódja emelkedett fel a YouTube csatorna vizuális folyamain, valamint a Spotify és az Apple Podcast hangteli mezőin. A kéthetente megújuló, nemzetközi ügyekkel foglalkozó krónika hamarosan újabb adással siet a hallgatók elé, hogy a messzi birodalmak titkait feltárja. A régebbi idők hangfelvételei mind visszanézhetők a feljegyzések hálójában. Az utazók és krónika-olvasók pedig feliratkozással pecsételhetik meg hűségüket, hogy soha el ne mulasszák a következő üzenetet."
-            },
-            "reito": {
-              "title": "Global Insight: Amikor a világhírű mikrofonok elindulnak",
-              "body": "A Portfolio Global Insight névre hallgató, külpolitikai videós podcastja immár a YouTube-on, a Spotify-on és az Apple Podcast hullámain is osztja az észt a nemzetközi ügyekről. A kéthetente menetrendszerűen érkező adásgép hamarosan újabb epizóddal robban be, addig is a régiek elől teljesen szabad a pálya a visszanézéshez. Egy gombnyomással feliratkozhatsz a csatornára, ha véletlenül nem szeretnél lemaradni a soron következő világmegváltó tényfeltárásról. A külföldi események hálójában botorkáló hallgatóknak ez legalább annyira kötelező, mint egy rossz helyen hagyott táskás pénz."
-            }
-          },
-          "archiveDate": "2026. 11. 25."
-        },
-        {
-          "source": "Portfolio.hu",
-          "title": "A legmagasabb szintű riasztást rendelte el a Microsoft",
-          "summary": "<p>Code Red, vagyis a legmagasabb szintű belső riasztás lépett életbe a Microsoftnál, miután egy huszonnégy órás globális leállás súlyos hiányosságokat tárt fel a vállalat mérnöki rendszereiben és válságkezelésében. A november 12-13-i üzemzavar idején világszerte elérhetetlenné vált az Outlook, a Teams és több más Microsoft 365-szolgáltatás, ami kormányzati intézmények, légitársaságok és pénzügyi cégek működését is megzavarta. A hibát nem kibertámadás okozta, hanem a Windows egy júliusban bekerü",
-          "url": "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
-          "published": "Tue, 24 Nov 2026 17:34:00 +0100",
-          "categories": [
-            "foreign"
-          ],
-          "image": "https://pcdn.hu/articles/images-xl/c/o/d/code-red-kibertamadas-figyelmeztetes-kiberbiztonsag-veszely-hackertamadas-riasztas-veszelyj-872394.jpg",
-          "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "article",
-          "sourceHash": "1f44f840b96efa7a6fb9c75da940bff8b3bc126236cdf24ccea081504905c62a",
-          "variants": {
-            "original": {
-              "body": "A Microsoft a legmagasabb szintű belső riasztást (Code Red) rendelte el egy huszonnégy órás, november 12-én és 13-án történt globális leállás után, amely az Egyesült Államoktól Japánig bénította meg kormányzati szervek, légitársaságok, tőzsdék és pénzügyi vállalatok működését. Az üzemzavar – amely nem kibertámadás, hanem egy júliusi Windows-skálázhatósági hiba miatt következett be – elérhetetlenné tette az Exchange Online-t, az Outlookot, a Teamset és a Copilotot, Satya Nadella vezérigazgató pedig nyilvánosan bocsánatot kért. A belső feljegyzések szerint a válságkezelés kaotikus volt, a mérnökök 11 Teams-csatornán több mint 11 ezer üzenetet váltottak, míg a hibás komponens egyetlen nap alatt nagyjából tíz évnyi hibamennyiséget halmozott fel. A cég ötfős fejlesztési területen indított átfogó programot, hogy a jövőben minden globális üzemzavart egy órán belül elháríthassanak, ehhez pedig mesterséges intelligenciát is fognak használni."
-            },
-            "tolkien": {
-              "title": "A Felhők Birodalmának Nagy Törése és a Vörös Kódex Felsejlése",
-              "body": "A digitális birodalom alapkövei megrendültek, mikor egy sötét, novemberi napon a huszonnégy órás globális csend bilincsbe verte a távoli földrészeket, Ausztráliától egészen Japán partjaiig. A hatalmas gépezet belső kamráiban felsejlett a Vörös Kódex, a legmagasabb szintű riasztás, mert a mélyben rejtőző, júliusi seb miatt elnémult az Exchange Online, az Outlook és a Teams szent csarnoka. A káosz tornyában a mérnökök tizenegy különálló ösvényen tizenegyezer üzenet parazsát szórták szét, míg a vezérigazgató lehajtott fővel kért bocsánatot a megtévesztett népektől. Most új törvények születnek a túlterhelés ellen és a sebek gyorsabb gyógyításáért, hogy a jövő viharait egyetlen óra alatt elűzzék a mesterséges látnokok segítségével."
-            },
-            "reito": {
-              "title": "Kódvörös a digitális gályán: tizenegyezer üzenet a semmibe",
-              "body": "A Microsoftnál a legmagasabb szintű riasztást fújták, miután egy huszonnégy órás, novemberi globális fekete leves pont elegendő volt arra, hogy kormányokat, légitársaságokat és tőzsdéket tegyen parkolópályára. Nem holnap érkezett hackerek akciójáról volt szó, hanem egy még július óta csendben lapuló Windows-hibáról, amitől az Exchange Online és a Teams azonnal lehúzta a rolót, Satya Nadella pedig nyilvánosan tördelhette a kezét a bocsánatkérésért. A válságkezelés annyira volt átlátható, mint egy fazék borsófőzelék, hiszen a mérnökök tizenegy Teams-csatornán több mint tizenegyezer üzenetet küldözgettek egymásnak a vaksötétben, miközben egyetlen nap alatt tíz évnyi hibát hoztak össze. A cég most gyorsan összekapja magát, és ötfős fejlesztési frontot nyit, hogy a jövőben legfeljebb egy óra alatt kipofozzák a rendszerüket egy kis mesterséges intelligencia segítségével."
-            }
-          },
-          "archiveDate": "2026. 11. 24."
-        },
-        {
-          "source": "Portfolio.hu",
-          "title": "A szappanopera folytatódik: most lesz csak igazán nagy sztori az Nvidiából?",
-          "summary": "<p>Már meghallgatható a keddi Checklist. A szappanopera folytatódik: Jensen Huang visszatért, a tőzsde felrobbant: hétfőn több mint 31 százalékot ugrott az Nvidia árfolyama, miután Donald Trump közbenjárásával ismét a társalapító került a vállalat élére. A botrányát feltáró független vizsgálat azonban még nem zárult le.",
-          "url": "https://www.portfolio.hu/podcast/20261124/a-szappanopera-folytatodik-most-lesz-csak-igazan-nagy-sztori-az-nvidiabol-878820",
-          "published": "Tue, 24 Nov 2026 17:10:00 +0100",
-          "categories": [
-            "belfold"
-          ],
-          "image": "https://pcdn.hu/articles/images-xl/c/h/i/chip-computer-620421.jpg",
-          "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "article",
-          "sourceHash": "b069945f52af58b228914545ec029435f71a463e6459fae26487708a7bcad597",
-          "variants": {
-            "original": {
-              "body": "A Portfolio.hu által közzétett hírfolyam szerint három orosz manőverező robotrepülőgép is lezuhant, miközben benyújtották a törvénymódosításokat is. A közzétett adatok alapján három évtized alatt látványosan közeledett az uniós árszinthez a BB tengely, mivel 1995-ben a régió átlaga az EU-átlag 45,1 százaléka, 2025-ben pedig már 80,7 százaléka volt. Ezen kívül társadalmi egyeztetésre bocsátottak egy olyan törvénytervezetet, amely 2027. január 1-jétől jelentősen egyszerűsítheti a külföldi befektetések ellenőrzését Magyarországon."
-            },
-            "tolkien": {
-              "title": "A futó acél árnyai és a változó idők krónikája",
-              "body": "Íme a hírek a nagyvilágból, hol az égen három orosz manőverező robotrepülőgép hullott alá a porba, s a törvények tekercseit is benyújtották a messzi tanácsok elé. Három hosszú esztendő tizede alatt a BB tengely régiójának árszintje hatalmas ívben emelkedett az unióhoz mérten, hiszen az 1995-ös 45,1 százalékról 2025-re 80,7 százalékra kúszott fel. Küszöbön áll az idő, mikor 2027. január 1-jén a külföldi befektetések ellenőrzése is egyszerűbbé válik a társadalmi egyeztetésre bocsátott törvénytervezet szerint."
-            },
-            "reito": {
-              "title": "Robbanó rakéták, dráguló vidékek és a Nike nagy futballmentőakciója",
-              "body": "A vadkeleti égbolton három orosz manőverező robotrepülőgép is úgy döntött, hogy lehúzza a rolót, miközben a bürokraták is benyújtották a legfrissebb törvénymódosításokat. A BB tengely vidékén sem ülnek a babérjukon: az árszint az 1995-ös 45,1 százalékról szépen felkúszott az uniós átlag 80,7 százalékára 2025-re. Ha mindez nem lenne elég, 2027. január 1-jétől a társadalmi egyeztetésre bocsátott tervezet értelmében jelentősen egyszerűsödik a külföldi befektetések ellenőrzése Magyarországon."
-            }
-          },
-          "archiveDate": "2026. 11. 24."
-        },
-        {
-          "source": "Portfolio.hu",
-          "title": "Nem az a kérdés, ki építi meg a lakásokat, hanem hogy ki lesz a több ezres lakásportfóliók tulajdonosa 50 évre",
-          "summary": "<p>A magyar lakásállomány jelentős része felújításra szorul, miközben az új lakások építése sem halad olyan ütemben, amely érdemben felgyorsíthatná a megújulását. A lakáspolitika elsősorban a saját tulajdon megszerzését ösztönzi, holott a vásárlás és a hitelek törlesztése mellett sok háztartásnak már nem marad elegendő pénze az ingatlan hosszú távú fenntartására. Eközben a bérlakások aránya Magyarországon mindössze 10 százalék körüli, pedig egy jóval nagyobb, intézményi befektetők által finanszí",
-          "url": "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028",
-          "published": "Tue, 24 Nov 2026 15:00:00 +0100",
-          "categories": [
-            "property",
-            "belfold"
-          ],
-          "image": "https://pcdn.hu/articles/images-xl/m/l/_/ml-260126-006-872046.jpg",
-          "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "article",
-          "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
-          "archiveDate": "2026. 11. 24."
-        },
-        {
-          "source": "Portfolio.hu",
-          "title": "Kritikus időszak köszöntött be az áramellátásban",
-          "summary": "<p>November közepén ismét klasszikus sötétszélcsendes időjárás alakult ki Európában, miközben karbantartások miatt jelentős hagyományos erőművi kapacitás is kiesett a termelésből. A kontinens jelentős részét jellemző borult, gyenge légmozgású időben visszaeső nap- és szélenergia-termelést a gázerőművek termelésének fokozása helyettesítette, ami a magas földgázárak miatt több éves csúcsra lökte a nagykereskedelmi villamosenergia-árakat, Magyarországon is. A november 9-10-i árampiaci árcsúcsokat e",
-          "url": "https://www.portfolio.hu/gazdasag/20261123/kritikus-idoszak-koszontott-be-az-aramellatasban-878022",
-          "published": "Mon, 23 Nov 2026 19:00:00 +0100",
-          "categories": [
-            "belfold"
-          ],
-          "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2254394939-871472.jpg",
-          "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "article",
-          "sourceHash": "c5d8e0c26f66f028f82d2944956552cb2e33b81d7dcdf0abd58c9b6057ba1d4a",
-          "variants": {
-            "original": {
-              "body": "November első hetében egy lassan mozgó anticiklon és frontrendszer okozta az idei fűtési szezon eddigi legerősebb szélcsendes, borús európai epizódját, amely szinte teljesen leállította a széltermelést. Ez a szélenergia-összeomlás és a négyéves csúcs közelében lévő földgázár Magyarországon és több más európai piacon is 2022 óta nem látott áramárakat eredményezett, így a HUPX-en november 10-én 400 euró/MWh feletti átlagár alakult ki. A helyzetet súlyosbította a gyengébb vízenergia-termelés, a Paksi Atomerőmű karbantartása, a fűtési igény fokozódása, valamint a borús idő miatt visszaeső hazai HMKE napelemes termelés. A november 9–10-i árcsúcsokat azonban jelentős áresés követte az európai szélenergia-termelés visszatérése miatt, ami Magyarországon is visszahúzta a HUPX árait a korábbi 170–245 euró/MWh sávba."
-            },
-            "tolkien": {
-              "title": "A Nagy Szélcsend Krónikája és a Fény Visszatérése",
-              "body": "Az ősz derekán, november első napjaiban sötét és lusta fellegek borították el Európa tájait, miközben az égbolt hatalmas uralkodója, egy lomha anticiklon megfékezte a szelek szárnyalását. E szélcsendes napokon a messze földön elterülő kertekben elapadt a szél ajándéka, s a drága földgáz magasságaival egyesülve a villamosság ára magasra szökött; a magyar piac tőzsdéjén november tizedikén a megawattóránkénti ár a négyszáz aranyat is meghaladta, milyet ezer-kétszáz-huszonkettő óta nem láttak a népek. A sötét órákat nehezítette a vizek gyengélkedése, a paksi csarnokok mesterembereinek munkája és a napfény hiánya, míg végül a szellemek visszahozta szél fuvallata meg nem könyörült a világon. A szelek ismételt ébredése mély zuhanást hozott az árakban, s a magyar határokon túlUlról érkező áram ismét a korábbi, százhetven és kétszáznegyvenöt euró közötti tartományba terelte a tőzsdei mérleget."
-            },
-            "reito": {
-              "title": "Amikor a szél is szabadságra ment, a villanyóra meg belehúzott",
-              "body": "November elején egy lassan vánszorgó anticiklon úgy döntött, hogy Európában egyszerűen kikapcsolja a szelet, ami a földgáz egekben lévő árával nyakon öntve kiváló alapot teremtett egy kis tőzsdei izgalomra. November 10-ére a HUPX másnapi piacán a villamos energia átlagára 400 euró/MWh fölé szökött, olyan magasságokba, amit 2022 decembere óta nem bámulhattak az érintettek. Ehhez a kis összeghez persze hűségesen asszisztált a gyengélkedő vízenergia, a Paksi Atomerőmű karbantartás alatt álló blokkja, a megnövekedett fűtési igény és a napelemes rendszerek borús idő miatti kényszerpihenője is. Szerencsére, amilyen gyorsan jött a drágulás, olyan lendülettel tűnt el, miután a szél visszatért a kontinens fölé, így az árak gyorsan visszahuppantak a 170–245 euró/MWh sávba."
-            }
-          },
-          "archiveDate": "2026. 11. 24."
-        }
-      ]
-    },
-    {
-      "source": "Portfolio.hu",
       "title": "Tovább esik az OTP",
       "summary": "<p>A nemzetközi mezőnyből kilógva esik ma a magyar tőzsde, ez elsősorban az OTP 3,6 százalékos mínuszának tudható be.</p>",
       "url": "https://www.portfolio.hu/uzlet/20261125/tovabb-esik-az-otp-878942",
@@ -15138,37 +15282,6 @@
           "archiveDate": "2026. 11. 24."
         }
       ]
-    },
-    {
-      "source": "Origo.hu",
-      "title": "Kiadták a riasztást: nem kímél az időjárás, nyakunkon a havazás és az ónos eső",
-      "summary": "Egy megyében másodfokúra emelték a riasztás fokozatát.",
-      "url": "https://www.origo.hu/itthon/2026/11/riasztas-havazasra-es-onos-eso",
-      "published": "Wed, 25 Nov 2026 09:20:00 +0000",
-      "categories": [
-        "environment"
-      ],
-      "image": "https://cdn.origo.hu/2026/11/Kjd8u3jp_V31W39P3nVE0i5dXo22yXQdWdoRGO9M1sI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzFlMWI5NDhiZDgzNjQ0ZGZiY2NkNTc5NTg2YmFlMzVi.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "sourceArticleLinks": [
-        "https://www.origo.hu/cimke/havazas"
-      ],
-      "contentBasis": "article",
-      "sourceHash": "e2f4538160df69cf11406122df5e48186c4b41ac85c9d1ceda0bc60ed900d0d3",
-      "variants": {
-        "original": {
-          "body": "Szerdán a fagyos, borult időjárás és a környezetvédelem területét közvetlenül érintő meteorológiai változások miatt a HungaroMet havazás és ónos eső miatt adott ki riasztásokat Pest, Heves, Komárom-Esztergom, Nógrád, Jász-Nagykun-Szolnok, Fejér és Veszprém megyében. A legfontosabb gyakorlati következmény, hogy a területek egy részén 12 óra alatt 5 cm-t meghaladó friss hó hullhat, miközben a hajnali −8 és 0 fok közötti hőmérséklet délutánra 1–4 fokig emelkedik. Csütörtökön Győr-Moson-Sopron, Vas és Veszprém megyében folytatódik a télies időjárás elsőfokú figyelmeztetésekkel, valamint megélénkülő északkeleti széllel. A Köpönyeg előrejelzése szerint a csütörtöki hajnal −3 és 2 fok közötti értékei után délután 0–7 fokig melegszik a levegő."
-        },
-        "tolkien": {
-          "title": "A fagy lehelete és a hulló leplek órája",
-          "body": "Szerdán a természet fagyos elemei törnek elő, miután a HungaroMet elsőfokú és másodfokú riasztást adott ki a havazás és az ónos eső veszélye miatt Pest, Heves, Komárom-Esztergom, Nógrád, Jász-Nagykun-Szolnok, Fejér és Veszprém földjén. A legfontosabb gyakorlati következmény, hogy a hajnali −8 és 0 fok sötétjéből ébredő tájon 12 óra forgása alatt öt centiméternél is több friss hó boríthatja be a mezőket, mielőtt a hőmérséklet délután 1 és 4 fok közé szelídülne. Csütörtökön Győr-Moson-Sopron, Vas és Veszprém vidékein újabb figyelmeztetések intenek éberségre a havazás és a gyenge ónos eső árnyékában, miközben feltámad az északkeleti szél viharos lehelete. A hajnal −3 és 2 fok közötti fagyos óráit követően a nappal 0 és 7 fok közötti langyosodást hoz a Köpönyeg krónikái szerint."
-        },
-        "reito": {
-          "title": "Téli meglepetéscsomag: Hó, jég és mínuszok a naptárban",
-          "body": "Szerdán a meteorológiai frontvonalon a HungaroMet élesítette a fegyvereket, és elsőfokú, valamint másodfokú riasztást rendelt el a havazás és az ónos eső miatt Pest, Heves, Komárom-Esztergom, Nógrád, Jász-Nagykun-Szolnok, Fejér és Veszprém megyékben. A legfontosabb gyakorlati következmény, hogy a −8 és 0 fok közötti hajnal után 12 óra alatt több mint 5 centiméternyi friss hó szakadhat a nyakunkba, mielőtt a délutáni 1–4 fokos melegedés megkezdené aolvadást. Csütörtökön sem dőlhetünk hátra, mert Győr-Moson-Sopron, Vas és Veszprém megyében újabb figyelmeztetések várják a havazást és a gyenge ónos esőt, megfejelve egy élénkebb, olykor megerősödő északkeleti széllel. A Köpönyeg adatai szerint a hajnali −3 és 2 fokos tartományból indulva délutánra 0–7 fokig kúszik fel a hőmérő higanyszála."
-        }
-      },
-      "relatedStories": []
     },
     {
       "source": "Portfolio.hu",
@@ -20400,61 +20513,6 @@
     },
     {
       "source": "HVG",
-      "title": "Szerdán eléri az országot a havazás, estefelé ónos eső várható",
-      "summary": "Vékony, néhány centiméteres hóréteg több helyen kialakulhat, de főként a fővárostól északabbra ennél több hó is hullhat.",
-      "url": "https://hvg.hu/itthon/20261125_idojaras-elorejelzes-havazas-onos-eso-hungaromet",
-      "published": "Wed, 25 Nov 2026 05:49:24 Z",
-      "categories": [
-        "environment"
-      ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7fe8c897-f07c-4578-aee6-b4f5adf2407d.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "article",
-      "sourceHash": "55e5f30affb4464c6b71b7f3e77c6ef494c1b90f84c9b798cc5291bf1d95e6a8",
-      "variants": {
-        "original": {
-          "body": "Szerdán a délelőtti óráktól délnyugat felől egy csapadékzóna éri el Magyarországot, amely havazást, havas esőt, esőt és estefelé nagyobb területen ónos esőt okoz, miközben a környezetvédelmi jelentőségű időjárási változás közvetlenül érinti a Dunántúli-középhegységet, a Dunazug-hegyvidéket, az Északi-középhegység nyugati térségét, a Bakonyt és a fővárost a HungaroMet Zrt. előrejelzése szerint. A gyakorlati következmény az, hogy a fővárostól északabbra fekvő magasabb térszíneken lokálisan akár 10 centiméter körüli hóréteg is kialakulhat, miközben a hőmérséklet napközben 0 és +5 fok között alakul, késő estére pedig -2 és +3 fok közé hűl, és az ónos eső miatt csúszós útviszonyokra kell számítani. A legmagasabb nappali hőmérséklet 0 és +5 fok, a legkevesebb éjszakai hőmérséklet pedig -4 és +2 fok között várható, miközben a délkeleti, keleti, illetve keleti, északkeleti szél többfelé megélénkül vagy erős lökésekkel fúj."
-        },
-        "tolkien": {
-          "title": "A fehér lepel árnyéka és az ónos fagy vihara",
-          "body": "Délnyugat kapuin át fekete fellegek és csapadékzóna vonul be az ország földjére a HungaroMet Zrt. jóslata szerint, könyörtelenül elérve a Dunántúli-középhegységet, a Dunazug-hegyvidéket, az Északi-középhegység nyugati tájait, a Bakony vidékeit és magát a fővárost is. A fagy birodalmában a bércen túl négy-öt centiméternél is vastagabb, sőt magasabb ormokon akár tíz centiméteres hóréteg fehérlik, míg estére az égbolt fémként csillogó, veszedelmes ónos esőt hullat a völgyökre. A nappali hőség parazsa kialszik a 0 és +5 fokos mezsgyén, késő estére pedig a levegő lehelete -2 és +3 fok közé hűl, dermedt fogságba ejtve a tájat."
-        },
-        "reito": {
-          "title": "Hóban, fagyban, csúszós utakon: megérkezett a szerdai front",
-          "body": "Délnyugat felől menetrend szerint robban be szerdán a HungaroMet Zrt. által megjósolt csapadékzóna, amely azonnal nyakon csípi a Dunántúli-középhegységet, a Dunazug-hegyvidéket, az Északi-középhegység nyugati szegletét, a Bakonyt és a fővárost is. A gyakorlati szépséghiba annyi, hogy a természeti elem nem finomkodik: míg délen esernyő kell, addig északon 4-5 centis, a hegyekben akár 10 centis hóréteg tornyosul, az estét pedig egy kis ónos eső fűszerezi meg a csúszásveszély kedvelőinek. A hőmérő higanyszála sem ússza meg szárazon, hiszen nappal 0 és +5 fok között vergődik, estére pedig -2 és +3 fok közé esik, éjszaka pedig -4 fokig süllyed, miközben a szél is kedvvel cibálja a fülünket."
-        }
-      },
-      "sourceArticleLinks": [
-        "https://www.met.hu/idojaras/elorejelzes/",
-        "https://pulzus.hvg.hu/egeszseg/20261125_kronikus-fajdalom-menopauza-perimenopauza-diagnozis-tarsadalmi-eloiteletek-migren-fibromyalgia-hormonterapia",
-        "https://hvg.hu/itthon/20261125_hasnyalmirigy-problemak-gyogyszerek-hiany-egeszsegugyi-miniszterium",
-        "https://hvg.hu/gazdasag/20261125_forint-euro-dollar-arfolyam-gyengules",
-        "https://hvg.hu/360/20261125_mma-turi-attila-szurcsik-jozsef-interju-politikai-kurzusok-fidesz-bukas-kultura",
-        "https://hvg.hu/elet/20261125_madach-szinhaz-igazgatoi-palyazat-nyomasgyakorlas",
-        "https://hvg.hu/360/20261125_ai8-antikvar-konyvek-pusztitasa-mesterseges-intelligencia-betanitasa",
-        "https://hvg.hu/itthon/20261125_matolcsy-gyorgy-mnb-ugy-parlamenti-vizsgalobizottsag-meghallgatas-bilincs-vezetoszar",
-        "https://hvg.hu/itthon/20261125_budapest-fovarosi-kozgyules-hatarozat-javaslat-karacsony-gergely-fopolgarmesteri-hivatal-letszamleepites",
-        "https://hvg.hu/itthon/20261125_felcsuti-kisvasut-uzemszunet",
-        "https://hvg.hu/kkv/20261125_wellis-elbocsatas-kotvenyprogram-leminosites",
-        "https://hvg.hu/itthon/20261125_sesztak-miklos-letartoztatas-ovadek-ugyved",
-        "https://hvg.hu/itthon/20261125_ugyvedje-szerint-csak-megfigyelo-volt-varga-bajusz-veronika-az-nka-ugyben",
-        "https://hvg.hu/itthon/20261125_miniszterelnokseg-semmi-adat-szerzodes-magyar-peter-teteles-atvizsgalas-igeret",
-        "https://hvg.hu/itthon/20261125_marabu-feknyuz-budapest-kijev",
-        "https://hvg.hu/itthon/20261125_feljelentes-szolnok-ipar-park-palyazat-alpolgarmester",
-        "https://hvg.hu/itthon/20261125_mezokovesd-vonat-baleset-valsagos-allapot-fiatal-lany",
-        "https://hvg.hu/elet/20261125_omega-gitaros-molnar-gyorgy-elefant-osszeesett-lezuhant-lepcso",
-        "https://hvg.hu/vilag/20261125_nemetorszag-orosz-ukran-haboru-friedrich-merz-koltsegvetes",
-        "https://hvg.hu/360/20261125_d-tarifa-rezsicsokkentes-okosmero-negyedoras-valtas-hvg",
-        "https://pulzus.hvg.hu/pszichologia/20261125_parkapcsolat-hazimunka-gyerek-es-felnott-felelossegvallalas-maximalizmus-bohemseg",
-        "https://hvg.hu/360/20261118_ukrajnai-rendezesi-javaslatok-nato-vagy-terulet-kijevi-dilemmak-orszagomat-egy-tagsagert-hvg",
-        "https://hvg.hu/360/20261116_hvg-geoffrey-hinton-interju-ai-keresztapja-mesterseges-intelligencia-veszelyei",
-        "https://hvg.hu/360/20261118_radoslaw-sikorski-lengyel-kulugyminiszter-interju",
-        "https://hvg.hu/360/20261118_median-gep-okos-emberek-ovatosak-mesterseges-intelligencia-ai-hvg"
-      ],
-      "relatedStories": []
-    },
-    {
-      "source": "HVG",
       "title": "Vízügyi fordulatra készül Magyarország, az izraeli sivatagból hozzák a tudást",
       "summary": "Kevesen vannak, akik jobban tudnák, hogyan lehet hatékonyan bánni a vízkinccsel, mint Izrael. Ez a tapasztalat jól jöhet az idei extrém csapadékhiányos nyár után vízügyi fordulatot végrehajtó Magyarország számára. Több százan gondolkodnak közösen a vízről, öntözésről és energiabiztonságról Budapesten kedden és szerdán a magyar–izraeli Stratégiai Innovációs Fórumon.",
       "url": "https://hvg.hu/gazdasag/20261125_vizgazdalkodas-energiagazdalkodas-magyar-izraeli-strategiai-innovacios-forum-vizet-aszaly-sivatag",
@@ -20613,37 +20671,6 @@
       "relatedStories": []
     },
     {
-      "source": "Origo.hu",
-      "title": "Fagyos reggel és havazás, most fordul igazán téliesre az időjárás",
-      "summary": "Durva mínuszokat és havazást ígérnek az előrejelzések!",
-      "url": "https://www.origo.hu/itthon/2026/11/havazas-tel-idojaras-2",
-      "published": "Wed, 25 Nov 2026 05:30:00 +0000",
-      "categories": [
-        "environment"
-      ],
-      "image": "https://cdn.origo.hu/2026/11/381cNVZDEz65yeF10_voJS1zrVwkKKkSVSxW574m8ho/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC80ZjE0NTJiOGFmZGQxMTIxMGNmNzA2ZTFmNGJiY2U5NTkxMzQ4YWViZmE2OTc5YTAxZTM2NmEzZGYzODhlYzk4.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "article",
-      "sourceHash": "5274825bc189d36d8a1de880301f443d06ae3e5bdd8be09d4bfb9345402721f2",
-      "variants": {
-        "original": {
-          "body": "A Köpönyeg előrejelzése szerint szerdán és csütörtökön fagyos reggelekkel, borult, szürke idővel, valamint helyenkénti havazással és esővel fordul téliesre az időjárás az országban, amit a környezetvédelem szempontjából meghatározó meteorológiai jelenségek – reggeli fagy, havazás és erős szél – határoznak meg. A változás közvetlen gyakorlati következménye, hogy szerdán −8 és −1 fok közötti fagyos reggel után 0–4 fokig melegszik a levegő nyugaton hószállingózással és élénk széllel, míg csütörtökön −3 és 2 fokos hajnalt követően 1–7 fokos maximumok várhatók több helyen havazással vagy esővel és erősödő északkeleti széllel. A Köpönyeg adatai alapján Borsodban már kövér pelyhekben hullott a hó, ami a környezetvédelem területéhez tartozó látványos téli időjárási jelenségként jelenik meg a forrásban."
-        },
-        "tolkien": {
-          "title": "A Dermesztő Éj Visszatérése és a Fehér Leplök Jötte",
-          "body": "A Köpönyeg jövendölése szerint fagyos reggelek, hószállingózás és zord szelek rontanak rá a vidékre, miközben a környezetvédelem hatáskörébe tartozó elemi erők – a jeges fagy, a hulló hó és a tomboló szél – könyörtelenül megmutatják télies arcukat. E fagyos átalakulás nyomán szerdán −8 és −1 fok közötti dermesztő hajnal után csupán 0–4 fokra enyhül a levegő, nyugaton hószállingózással, csütörtökön pedig −3 és 2 fokos éjszakát követően 1–7 fokos csúcshőmérséklet és több helyen hulló havazás vagy eső várható az erősödő szelek szorításában. A természet ezen változásának ékes bizonyítékaként Borsod földjén már kövér pelyhekben hullott le a hó, megpecsételve e téli idők kezdetét."
-        },
-        "reito": {
-          "title": "Ahol a mínuszok átveszik a hatalmat",
-          "body": "A Köpönyeg jelentése alapján a fagyos reggelek, a havazás és az erős szél triója veszi át a hatalmat a következő napokban, közvetlenül érintve az egész ország időjárását a környezetvédelem által vizsgált meteorológiai terepen. Ennek a hideg fordultnak a gyakorlati következménye, hogy szerdán −8 és −1 fokos fagy után legfeljebb 0–4 fokig kúszik fel a higanyszál némi nyugati hószállingózással kísérve, míg csütörtökön −3 és 2 fokos hajnal után 1–7 fokos csúcsokat mérhetünk, miközben eső, havazás és erősödő északkeleti szél nehezíti a dolgunkat. A természet e szórakoztató játékaként Borsodban már kövér pelyhekben zúdult le a hó, elhozva a téli valóságot."
-        }
-      },
-      "sourceArticleLinks": [
-        "https://www.origo.hu/cimke/havazas"
-      ],
-      "relatedStories": []
-    },
-    {
       "source": "HVG",
       "title": "„Nem a politikusok fognak dönteni a magyar utónevekről” – eltörölné a kormány Kósa Lajos törvénymódosítását",
       "summary": "Az Országgyűlésnek kedden benyújtott törvénymódosító indítvány szerint a jövőben kizárólag a Nyelvtudományi Kutatóközpont és a nemzetiségi önkormányzatok dönthetnének arról, mely utónevek adhatók.",
@@ -20734,37 +20761,6 @@
         "https://www.origo.hu/sport/cimke/bajnokok-ligaja-2",
         "https://www.origo.hu/sport/cimke/liverpool-2",
         "https://www.origo.hu/sport/cimke/magyar-valogatott"
-      ],
-      "relatedStories": []
-    },
-    {
-      "source": "Origo.hu",
-      "title": "Komoly havazás érkezik Magyarországra, már az első hó is meglepetést okozott",
-      "summary": "Este újabb havazás kezdődhet, a hét második felében pedig helyenként 10 centiméternél is több hó hullhat. Az első hózáporok már baleseteket okoztak, a közútkezelő több száz munkagéppel készül.",
-      "url": "https://www.origo.hu/itthon/2026/11/havazas-magyarorszag-szerda-este-ho",
-      "published": "Wed, 25 Nov 2026 04:45:00 +0000",
-      "categories": [
-        "environment"
-      ],
-      "image": "https://cdn.origo.hu/2026/11/Um6hrY12XNRI9EuSUV1ToHAI_OccB-aF5ydeL1t4-Lw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9jYWMxY2Q5MGMyOTRiZGJhMzEyYjA1NjgzNDFkOGU0ZjdjZmRiZGM4OGZiN2I2Zjc5YWFjNDQ1ODdiNWViYjJi.jpg",
-      "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "article",
-      "sourceHash": "268c2425c97a6c7ab396285a723e23b0d8c4aef35662d1df9541ba0b561489a8",
-      "variants": {
-        "original": {
-          "body": "A november 25-én, szerda este kezdődő országos havazás és a már kedden tapasztalt téli időjárás Magyarország több megyéjét, valamint a közlekedőket, a gumiabroncs-tulajdonosokat és a Magyar Közút szervezetét érinti. Szombat reggelig az érintett területeken átlagosan 5 centiméter hó hullhat, a nyugati határ közelében és Salgótarján térségében pedig a 10 centimétert is meghaladhatja a hóréteg vastagsága, ami Szabolcs-Szatmár-Bereg vármegyében már kedden balesetekhez és tükörjéghez vezetett. A gyakorlati következmény az, hogy a sofőröknek a romló útviszonyok és a hosszabb menetidő miatt fokozott óvatossággal kell közlekedniük, ellenőrizniük kell a téli vagy a legalább 4 milliméteres profilmélységű négyévszakos gumiabroncsokat, míg a Magyar Közút november 10 óta 813 munkagéppel, 3300 munkatárssal, valamint 122 ezer tonna sóval és 2,9 millió liter kalcium-klorid-oldattal készül a 31 ezer kilométeres közúthálózat és a 610 kilométernyi kerékpárút tisztítására. A környezetvédelem rovat szempontjából ez a cikk a meteorológiai előrejelzésekhez, a természetes csapadékformákhoz – például a nagy pelyhekben hulló hóhoz és a hózáporokhoz –, valamint az ezek nyomán aktiválódó, környezeti tényezőkhöz igazodó úttisztítási és síkosságmentesítési feladatokhoz kapcsolódik."
-        },
-        "tolkien": {
-          "title": "A Fehér Lepel Eljövetele",
-          "body": "A november huszonötödikének estéjén feltámadó, fagyos égi áradat és a már kedden megvillanó tél Magyarország tartományait, az utakon járó vándorokat, a kerekek köpenyeit őrzőket, valamint a Magyar Közút népét borítja be. Szombat hajnalig a földeket ötszázszor is mérhető, öt centiméteres hótakaró lepi el, míg nyugat bércei és Salgótarján vidéke felett a tíz centimétert is átlépi a fehér sereg. A gyakorlati következmény az, hogy a vándoroknak a fagyott ösvényeken lassabban, nagyobb követési távolsággal és gondosan megvizsgált, téli vagy legalább négy milliméteres barázdájú abroncsokkal kell haladniuk, miközben a Magyar Közút november tizedike óta 813 vaskocsival, 3300 fegyveressel, 122 ezer tonna sóval és 2,9 millió liter fagyűjtő oldattal védi a 31 ezer kilométernyi kőutat és a 610 kilométernyi kerékpárösvényt. E krónika a fellegek változásairól, a hideg évszak hírnökeként érkező égi csapadékról, valamint a természet szeszélyeivel dacoló, földeket megtisztító és sótenger mozgató emberi erők fáradozásáról regél."
-        },
-        "reito": {
-          "title": "Csúszós kanyarok és sóhegyek téli birodalmában",
-          "body": "A szerda este ránk zúduló havazás és a keddi előfutam Magyarország több megyéjét, az aszfalton csúszkáló autósokat, a gumiboltok kínálatát és a Magyar Közút nehéztüzérségét veszi célba. Szombat reggelig simán összejön az átlagos öt centi fehér áldás, de nyugaton és Salgótarján környékén a tíz centit is átlépi a hóréteg, amivel Szabolcsban már kedden koccantak is a kocsik a tükörjégen. A gyakorlati következmény az, hogy a volán mögül ki kell szállni a bámészkodásból, elő kell kaparni a téli gumit vagy a legalább négy milliméteres négyévszakos abroncsot, míg a Magyar Közút november tizedike óta 813 munkagéppel, 3300 munkatárssal, 122 ezer tonna sóval és 2,9 millió liter oldattal sózza szét a 31 ezer kilométeres utat és a 610 kilométernyi kerékpárutat. Ez a történet az égből hulló felesleges vízkészletek kezeléséről, a természet váratlan téli előadásáról és a közútkezelő 12 órás műszakokban izzadó, sót szóró gépcsotakairól szól."
-        }
-      },
-      "sourceArticleLinks": [
-        "https://www.origo.hu/cimke/magyarorszagra"
       ],
       "relatedStories": []
     },
