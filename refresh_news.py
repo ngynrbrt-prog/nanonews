@@ -114,8 +114,19 @@ def is_film_story(title, summary):
     text = unescape(re.sub(r"<[^>]*>", " ", title + " " + summary))
     return bool(FILM_TERMS.search(unicodedata.normalize("NFC", text)))
 
+TENNIS_TERMS = re.compile(
+    r"\b(?:tenisz\w*|atp|wta|grand[ -]slam|wimbledon\w*|roland[ -]garros\w*|"
+    r"us open\w*|australian open\w*|davis[ -]kupa\w*|billie jean king[ -]kupa\w*)\b", re.I,
+)
+
+def is_tennis_story(title, summary):
+    context = unescape(re.sub(r"<[^>]*>", " ", title + " " + summary))
+    return bool(TENNIS_TERMS.search(unicodedata.normalize("NFC", context)))
+
 def apply_subject_categories(title, summary, categories):
-    categories = [category for category in categories if category != "films"]
+    categories = [category for category in categories if category not in {"films", "tennis"}]
+    if is_tennis_story(title, summary):
+        categories.append("tennis")
     if is_film_story(title, summary):
         categories.append("films")
     if is_nature_story(title):
@@ -126,6 +137,8 @@ def apply_subject_categories(title, summary, categories):
 
 
 def match_term(term,hay):
+    if term.casefold() in ("atp", "wta"):
+        return bool(re.search(r"\b" + term.casefold() + r"\b", hay))
     if term.casefold() in ("nba","nfl","f1","ner"):
         return bool(re.search(r"(?<![a-z0-9])"+re.escape(term.casefold())+r"(?![a-z0-9])",hay))
     return term.casefold() in hay
@@ -294,7 +307,7 @@ def group_similar_stories(items):
         match_ids={id(item) for item in matches}
         pending=[item for item in pending if id(item) not in match_ids]
         lead["relatedStories"] = [*matches, *lead.get("relatedStories", [])]
-        lead["categories"]=sorted(set(lead.get("categories",[])).union(*((set(item.get("categories",[]))-{"technology"}) for item in matches)))
+        lead["categories"]=sorted(set(lead.get("categories",[])).union(*((set(item.get("categories",[]))-{"technology", "tennis"}) for item in matches)))
         grouped.append(lead)
         print(f"Grouped {len(matches)} related stories under {lead.get('source')}: {lead.get('title')}")
     return grouped
@@ -731,7 +744,9 @@ for key, record in list(inbox.items()):
     desc=record["description"]
     feed_published=record["published"]
     hay=(title+" "+desc+" "+link).casefold()
-    cats=[key for key,terms in rules.items() if any(match_term(term,hay) for term in terms)]
+    cats=[key for key,terms in rules.items() if key != "tennis" and any(match_term(term,hay) for term in terms)]
+    if is_tennis_story(title, desc):
+        cats.append("tennis")
     football_cats=football_overrides(title,desc,link)
     if "arsenal" in cats and not football_cats["arsenal"]:cats.remove("arsenal")
     cats.extend(key for key,matched in football_cats.items() if matched and key not in cats)
