@@ -9707,7 +9707,39 @@
       "title": "Több ezer magyar lakóház kerülhet veszélybe az egyre durvább aszályok miatt",
       "link": "https://telex.hu/belfold/2026/11/25/aszaly-agyag-talaj-hazak-repedes-epitoipar",
       "description": "Az ország több pontjáról hallani beszámolókat az aszály miatt megsüllyedő és szétrepedő házakról. A jelenség hátterében a talajban található agyagásványok állnak, amik a tartós szárazság hatására összezsugorodhatnak. Szakemberek szerint több ezer házat érinthet a probléma, a károsultakat tömörítő Facebook-csoportnak közel 4000 tagja van. A cégek az injektálást javasolják a süllyedés megállítására, de ez sok esetben nem oldja meg a problémát.",
-      "image": "https://assets.telex.hu/images/20261117/1794934391-temp-oarb95gprli2bidoffa_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261117/1794934391-temp-oarb95gprli2bidoffa_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Több ezer magyar lakóház kerülhet veszélybe az egyre durvább aszályok miatt",
+        "summary": "Az ország több pontjáról hallani beszámolókat az aszály miatt megsüllyedő és szétrepedő házakról. A jelenség hátterében a talajban található agyagásványok állnak, amik a tartós szárazság hatására összezsugorodhatnak. Szakemberek szerint több ezer házat érinthet a probléma, a károsultakat tömörítő Facebook-csoportnak közel 4000 tagja van.",
+        "url": "https://telex.hu/belfold/2026/11/25/aszaly-agyag-talaj-hazak-repedes-epitoipar",
+        "published": "Wed, 25 Nov 2026 13:05:47 +0100",
+        "categories": [
+          "environment"
+        ],
+        "image": "https://assets.telex.hu/images/20261117/1794934391-temp-oarb95gprli2bidoffa_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://telex.hu/szerzo/mizsur-andras",
+          "https://telex.hu/kedvenceink"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "db78d372edc8f2ece509d5e7e521817e0c37911296a19ec3338ad7d2e10805d0",
+        "variants": {
+          "original": {
+            "body": "Az ország több pontján – egyebek mellett Szegeden, Egerben, Gyöngyösön és Nagybörzsönyben – az egyre súlyosabb aszályok miatt kiszáradó és zsugorodó agyagos talaj okozta házak megsüllyedését és szétrepedését rögzítették. A környezetvédelem területén a klímaváltozás és a csökkenő talajvízszint közvetlenül befolyásolja az épületek stabilitását, mivel a szakértői becslések szerint Magyarországon már most több tízezer lakóházat, elsősorban a sekély alapú, régebbi épületeket fenyegeti ez a veszély. A biztosítók nem térítik meg az épületsüllyedésből eredő károkat, a védekezéshez pedig olyan költséges műszaki beavatkozások szükségesek, mint a mikrocölöpözés vagy a szakszerű alapmegerősítés. A probléma kezelésére nemrég „Házsüllyedés károsultak, megoldás keresők” néven Facebook-csoport alakult, amelynek közel 4000 tagja van, valamint létrejött a Lakossági Aszálykárosultak Országos Szervezete is."
+          },
+          "tolkien": {
+            "title": "A szikkadt föld haragja",
+            "body": "Íme, a napok heve megfeküdte a tájat, s a mélyben lakó iszonyat megmozdította a fundamentumokat, veszélybe sodorva az emberek lakóházait Szeged, Eger, Gyöngyös és Nagybörzsöny határában. A környezetvédelem viharos évszázadában a kiszáradó föld méhének zsugorodása megrepeszti a falakat, és szakértők szava szerint akár tízezer hajlék is a pusztulás árnyékába borulhat. A meggyötört otthonok védelmére a nép fiai összefogtak, gyülekezőt hirdetve a közel 4000 lelkessé duzzadt táborban és a Lakossági Aszálykárosultak Országos Szervezetének láncai között. Nincs mentség a kárra a kincstárakból, s csak a vasas cölöpök meg a mély alapok vethetnek gátat a süllyedő sötétségnek, míg a felszín alatt tovább folyik a küzdelem a szárazság démonával."
+          },
+          "reito": {
+            "title": "Ahol a grund is meggondolja magát",
+            "body": "Az égből áradó hőség nemcsak a kedvet veszi el, de Szegedtől Egeren, Gyöngyösön át Nagybörzsönyig a lakóházak talaját is megmozgatja, méghozzá nem kis bánatára a tulajdonosoknak. A környezetvédelem aktuális állása szerint a kiszáradó agyag alólunk való elvándorlása miatt akár több tízezer épület is búcsút inthet a stabil egyensúlynak, miközben a biztosítók elegánsan elfordítják a fejüket a károk elől. A bajba jutottak nem tétlenkedtek, hanem hoztak egy közel 4000 fős Facebook-csoportot és egy Lakosz nevű szervezetet, hogy a milliós talajvizsgálatok és a csodaszámba menő injektálások sűrűjében valahogy talpon maradjanak. Amíg a mérnökök mikrocölöpökkel és mély alapozással próbálják meggyőzni a makacs rögöket a maradásról, az aszály rendületlenül húzza lefelé a port."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Telex",
@@ -9770,7 +9802,66 @@
       "title": "Elbocsátja 80 dolgozóját a magyar jakuzzikirály",
       "link": "https://hvg.hu/kkv/20261125_wellis-elbocsatas-kotvenyprogram-leminosites",
       "description": "Nem fogynak a medencék, a 17 milliárd forintnyi hitelét pedig nem tudja fizetni.",
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/333d5f2e-c0d6-499e-9e3d-6fd96c625678.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/333d5f2e-c0d6-499e-9e3d-6fd96c625678.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Elbocsátja 80 dolgozóját a magyar jakuzzikirály",
+        "summary": "Nem fogynak a medencék, a 17 milliárd forintnyi hitelét pedig nem tudja fizetni.",
+        "url": "https://hvg.hu/kkv/20261125_wellis-elbocsatas-kotvenyprogram-leminosites",
+        "published": "Wed, 25 Nov 2026 12:45:51 Z",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/333d5f2e-c0d6-499e-9e3d-6fd96c625678.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://telex.hu/gazdasag/2026/11/25/wellis-magyarorszag-jakuzzikiraly-elbocsatas-80-dolgozo-czafik-zsolt",
+          "https://www.portfolio.hu/uzlet/20261030/milliardos-adossagat-rendezne-a-wellis-a-tulajdonos-mar-a-kovetkezo-huszonot-evet-epitene-872998",
+          "https://hvg.hu/gazdasag/20241207_wellis-jacuzzi-nkp-kotvenyprogram-scope-ratings-visszafizetes",
+          "https://hvg.hu/kkv/20220718_wellis_magyarorszag_zrt_atszervezes_leepites",
+          "https://hvg.hu/kkv/20221008_wellis_medence_jakuzzi_ozd_dolgozo_elbocsatas",
+          "https://hvg.hu/360/20261125_d-tarifa-rezsicsokkentes-okosmero-negyedoras-valtas-hvg",
+          "https://hvg.hu/gazdasag/20261125_forint-euro-dollar-arfolyam-gyengules",
+          "https://hvg.hu/itthon/20261125_budapest-fovarosi-kozgyules-hatarozat-javaslat-karacsony-gergely-fopolgarmesteri-hivatal-letszamleepites",
+          "https://hvg.hu/gazdasag/20261125_vizgazdalkodas-energiagazdalkodas-magyar-izraeli-strategiai-innovacios-forum-vizet-aszaly-sivatag",
+          "https://hvg.hu/360/20261125_mma-turi-attila-szurcsik-jozsef-interju-politikai-kurzusok-fidesz-bukas-kultura",
+          "https://hvg.hu/itthon/20261125_hasnyalmirigy-problemak-gyogyszerek-hiany-egeszsegugyi-miniszterium",
+          "https://hvg.hu/360/20261125_premium-hirlevelek-adatbanyasz-hazassag-valas",
+          "https://hvg.hu/gazdasag/20261125_corvinus-sportfinanszirozas-konferencia-kulcsar-krisztian-vagi-marton-mlsz-gergely-istvan-fradi-mvm",
+          "https://hvg.hu/itthon/20261125_ugyvedje-szerint-csak-megfigyelo-volt-varga-bajusz-veronika-az-nka-ugyben",
+          "https://hvg.hu/itthon/20261125_retvari-bence-magyar-peter-zelenszkij-ukrajna-karpatalja-beregszasz-roplabda",
+          "https://hvg.hu/elet/20261125_sport-osszeferhetetlensegi-torveny-mi-hazank-apati-istvan-fradi-mez-parlament",
+          "https://hvg.hu/kkv/20261125_wellis-elbocsatas-kotvenyprogram-leminosites",
+          "https://hvg.hu/elet/20261125_zelenszkij-lukasenka-putyin-moszkva-haboru",
+          "https://pulzus.hvg.hu/pszichologia/20261125_parkapcsolat-hazimunka-gyerek-es-felnott-felelossegvallalas-maximalizmus-bohemseg",
+          "https://hvg.hu/360/20261125_kert-attila-interju-kozmedia-kozszolgalat-propaganda-politika",
+          "https://hvg.hu/itthon/20261125_marabu-feknyuz-budapest-kijev",
+          "https://hvg.hu/elet/20261125_influenszerek-fidesz-penz-dopeman-szakacs-istvan",
+          "https://hvg.hu/elet/20261125_omega-gitaros-molnar-gyorgy-elefant-osszeesett-lezuhant-lepcso",
+          "https://hvg.hu/itthon/20261125_nagykanizsa-tuz-macska-csaladi-haz",
+          "https://hvg.hu/elet/20261125_ganxsta-zolee-is-megszolalt-a-nogyulolo-rappereket-tamado-carson-coma-dalrol-finoman-bantam-a-nokkel",
+          "https://hvg.hu/360/20261118_ukrajnai-rendezesi-javaslatok-nato-vagy-terulet-kijevi-dilemmak-orszagomat-egy-tagsagert-hvg",
+          "https://hvg.hu/360/20261116_hvg-geoffrey-hinton-interju-ai-keresztapja-mesterseges-intelligencia-veszelyei",
+          "https://hvg.hu/360/20261118_radoslaw-sikorski-lengyel-kulugyminiszter-interju",
+          "https://hvg.hu/360/20261118_median-gep-okos-emberek-ovatosak-mesterseges-intelligencia-ai-hvg"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "73b06973cc63cdd1cfa4ef7e6dcd81e1a2f35e7b265225854cbaa9275ce45a96",
+        "variants": {
+          "original": {
+            "body": "Nyolcvan dolgozóját bocsátotta el a jakuzzikat és masszázsmedencéket gyártó Wellis Magyarország Zrt. a dabasi és az ózdi telephelyéről, ami a szeptemberben alkalmazott 665 fős állomány 12 százalékát érinti. Ez a belföldi ipari leépítés elsősorban a gyártásban, kisebb részben az adminisztrációban dolgozókat sújtotta, a cégvezető tájékoztatása szerint a termékek iránti kereslet szezonális ingadozása miatt. A vállalat évek óta pénzügyi nehézségekkel küzd, tavaly 28,8 milliárd forintos árbevétel mellett 2,5 milliárd forintos veszteséget könyvelt el a korábbi bővítések és a külföldi kereslet visszaesése után."
+          },
+          "tolkien": {
+            "title": "A medencék birodalmának áldozata: nyolcvan lélek távozik a hazai gyárakból",
+            "body": "A dabasi és az ózdi csarnokok szentélyeiben nyolcvan dolgozójától búcsúzott a Wellis Magyarország Zrt., miközben a hazai gazdaság rögös útján a szeptemberi sereglet tizenkét százaléka morzsolódott le. E kegyetlen szeletelés elsősorban a fémeket és formákat hajlító gyártás népét, valamint kisebb részben az írnoki adminisztrációt sújtotta a megrendelések hideg hullámverése közepette. Az óriássá nőtt vállalkozás éveken át viharokkal küzdött, s a 2020-as esztendő nyolcmilliárd-ötszáz milliós ózdi építkezése, valamint a kapott hárommilliárdos királyi segély sem hozott állandó békét. Így a korábbi fénykor után tavaly huszonnyolc milliárd nyolcszáz milliós bevétel mellett kétmilliárd ötszáz milliós veszteség sötét árnya borult a birodalomra, amelynek most a túlélés keserű kenyerét kellett ennie."
+          },
+          "reito": {
+            "title": "Jakuzzikirály fékútban: nyolcvan fős leépítés Dabasról és Ózdról",
+            "body": "A dabasi és az ózdi telephelyeken nyolcvan dolgozójának intett búcsút a Wellis Magyarország Zrt., átalakítva a szeptemberi 665 fős létszámot egy tizenkét százalékos karcsúsítássá. Ez a hazai munkaerőpiaci fordulat főként a gyártósorok népét, kisebb részben pedig az irodai adminisztrációt tette lapátra, miközben a cégvezető a szezonális kereslet ingadozásával magyarázta a manővert. A járvány idején még 8,5 milliárdos ózdi gigaberuházásba és 3 milliárdos állami támogatásba ugrott vállalat mostanra a túlélésért küzd: a 2024-es év 28,8 milliárdos árbevétele mellett egy vaskos, 2,5 milliárd forintos veszteséget könyvelt el."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -9938,7 +10029,135 @@
       "title": "Megint szakadnak a tőzsdék, menekülnek a befektetők az AI-részvényekből",
       "link": "https://www.portfolio.hu/uzlet/20261125/megint-szakadnak-a-tozsdek-menekulnek-a-befektetok-az-ai-reszvenyekbol-878904",
       "description": "<p>Elképesztően turbulens időket élünk a tőzsdéken: az Nvidia vezette hétfői rali után tegnap nagy esést láthattunk az európai és az amerikai piacokon, a magyar tőzsde is lefelé vette az irányt, élen az OTP-vel. Komoly kilengésekből ma sincs hiány, pláne azután, hogy kiderült: újabb importvámokat javasolhat a Trump-adminisztráció annak a vizsgálatnak a nyomán, amely tizenhat jelentős kereskedelmi partner, köztük az Európai Unió és Kína ipari többletkapacitását mérte fel. A hír hatására esni kezdtek az amerikai határidős indexek a Nasdaq-al az élen, az aranyat feljebb tették, a VIX index felpattant.<br /> <br /> Ráadásul érkeznek fontos gazdasági adatok is ma: Amerikában megjelenik a harmadik negyedéves GDP második becslése, valamint a PCE-infláció. Utóbbi, különösen az élelmiszer- és energiaáraktól megtisztított magmutató, fontos támpontot adhat a Fednek a kamatdöntéshez. Egyelőre óvatos emelkedés látszik Európa tőzsdéin, a magyar piac viszont alulteljesít.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/b/u/l/bull-bear-medve-bika-tozsde-506851.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/b/u/l/bull-bear-medve-bika-tozsde-506851.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Megint szakadnak a tőzsdék, menekülnek a befektetők az AI-részvényekből",
+        "summary": "<p>Elképesztően turbulens időket élünk a tőzsdéken: az Nvidia vezette hétfői rali után tegnap nagy esést láthattunk az európai és az amerikai piacokon, a magyar tőzsde is lefelé vette az irányt, élen az OTP-vel. Komoly kilengésekből ma sincs hiány, pláne azután, hogy kiderült: újabb importvámokat javasolhat a Trump-adminisztráció annak a vizsgálatnak a nyomán, amely tizenhat jelentős kereskedelmi partner, köztük az Európai Unió és Kína ipari többletkapacitását mérte fel. A hír hatására esni kezd",
+        "url": "https://www.portfolio.hu/uzlet/20261125/megint-szakadnak-a-tozsdek-menekulnek-a-befektetok-az-ai-reszvenyekbol-878904",
+        "published": "Wed, 25 Nov 2026 13:48:00 +0100",
+        "categories": [
+          "hu-market",
+          "world-market",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/b/u/l/bull-bear-medve-bika-tozsde-506851.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/befektetes/20261125/uzleti-titkok-banki-csalas-es-irani-uzletek-sulyos-itelet-szuletett-a-huawei-ugyeben-879040",
+          "https://www.portfolio.hu/percrol-percre/878904/csunya-nyitas-johet-1067964",
+          "https://www.portfolio.hu/percrol-percre/878904/nagy-esessel-nyithat-az-nvidia-es-az-anthropic-is-1067944",
+          "https://www.portfolio.hu/percrol-percre/878904/pattan-a-felelemindex-1067940",
+          "https://www.portfolio.hu/deviza/20261125/visszatert-a-felelem-a-piacokra-nagy-gyengulesben-a-forint-878896",
+          "https://www.portfolio.hu/percrol-percre/878904/feljebb-tettek-az-aranyat-1067938",
+          "https://www.portfolio.hu/arfolyam/XAUUSD/Arany",
+          "https://indexadhu.hit.gemius.pl/hitredir/id=zNubivCRgCD825KpTYbyZpdSLZpsgVunkIwEl09yr2..e7/stparam=xegqninljh/fastid=jdgwykhkpxmhsxamaorvjgsjyynf/nc=0/url=https://trader.portfolio.hu/tanacsado-kozpont",
+          "https://www.portfolio.hu/percrol-percre/878904/lefordultak-az-amerikai-hataridos-indexek-1067936",
+          "https://www.portfolio.hu/befektetes/20261125/csod-szelere-kerult-a-legitarsasag-valosaggal-foldbe-dongolik-a-reszvenyt-878978",
+          "https://www.cnbc.com/2026/11/25/norse-atlantic-financial-warning-fuel-costs.html",
+          "https://www.portfolio.hu/befektetes/20261124/130-szazalekos-rali-johet-ot-reszvenyt-mutatunk-amire-a-wall-street-szerint-meg-iden-erdemes-lecsapni-878390",
+          "https://www.portfolio.hu/global/20261125/repedezik-az-olajkartell-egysege-ujabb-tagorszag-ment-neki-az-opec-nek-878974",
+          "https://www.bloomberg.com/news/articles/2026-11-24/iraq-rejects-opec-assessment-of-its-oil-production-capacity",
+          "https://www.portfolio.hu/ingatlan/20261125/csokkent-a-dh-group-profitja-de-eros-evzarasra-szamit-a-menedzsment-878956",
+          "https://www.portfolio.hu/uzlet/20261125/tovabb-esik-az-otp-878942",
+          "https://www.portfolio.hu/percrol-percre/878904/europa-piacai-emelkednek-1067880",
+          "https://www.portfolio.hu/arfolyam/BFRA40/baha france 40",
+          "https://www.portfolio.hu/global/20261125/ujabb-reszletek-derultek-ki-az-nvidia-koruli-botranyrol-kiterjedt-kinai-uzleti-halozatot-tartak-fel-878934",
+          "https://www.portfolio.hu/gazdasag/20261125/trump-ujra-kitekerne-a-vilag-nyakat-keszul-az-ujabb-gazdasagi-remalom-878928",
+          "https://www.portfolio.hu/befektetes/20261125/ujabb-fordulat-az-ai-piacon-ketszamjegyu-zuhanasok-raztak-meg-a-tozsdeket-azsiaban-878910",
+          "https://www.portfolio.hu/percrol-percre/878904/zuhant-az-nvidia-es-az-anthropic-1067862",
+          "https://www.portfolio.hu/arfolyam/NVDA.CUS/Nvidia",
+          "https://www.portfolio.hu/percrol-percre/878904/ovatos-emelkedes-johet-europa-piacain-1067860",
+          "https://www.portfolio.hu/uzlet/20260709/a-tortenelem-egyik-legnagyobb-bukasa-figyelmezteti-a-befektetoket-848212",
+          "https://www.portfolio.hu/uzlet/20261120/ujraindult-a-koolajszallitas-a-janaf-vezeteken-878092",
+          "https://www.portfolio.hu/uzlet/20230922/uj-ceg-ment-tozsdere-becsben-csalodas-az-elso-nap-641297",
+          "https://www.portfolio.hu/info/jogi-nyilatkozat",
+          "https://www.portfolio.hu/cimke/tőzsde",
+          "https://www.portfolio.hu/cimke/hang seng",
+          "https://www.portfolio.hu/cimke/CSI 300",
+          "https://www.portfolio.hu/cimke/FTSE MIB",
+          "https://www.portfolio.hu/cimke/IBEX",
+          "https://www.portfolio.hu/cimke/PX",
+          "https://www.portfolio.hu/cimke/10 éves német állampapírhozam",
+          "https://www.portfolio.hu/cimke/10 éves magyar állampapírhozam",
+          "https://www.portfolio.hu/cimke/mol",
+          "https://www.portfolio.hu/cimke/otp",
+          "https://www.portfolio.hu/cimke/richter",
+          "https://www.portfolio.hu/cimke/euró",
+          "https://www.portfolio.hu/cimke/font",
+          "https://www.portfolio.hu/cimke/dollár",
+          "https://www.portfolio.hu/cimke/arany",
+          "https://www.portfolio.hu/cimke/brent",
+          "https://www.portfolio.hu/cimke/wti",
+          "https://www.portfolio.hu/cimke/Nikkei",
+          "https://www.portfolio.hu/cimke/Nasdaq",
+          "https://www.portfolio.hu/cimke/BUX",
+          "https://www.portfolio.hu/cimke/magyar telekom",
+          "https://www.portfolio.hu/cimke/bitcoin",
+          "https://www.portfolio.hu/cimke/dow jones",
+          "https://www.portfolio.hu/cimke/s&p 500",
+          "https://www.portfolio.hu/cimke/eurusd",
+          "https://www.portfolio.hu/cimke/dax",
+          "https://www.portfolio.hu/cimke/ftse",
+          "https://www.portfolio.hu/cimke/cac",
+          "https://www.portfolio.hu/cimke/gbpusd",
+          "https://www.portfolio.hu/cimke/usdjpy",
+          "https://www.portfolio.hu/cimke/atx",
+          "https://www.portfolio.hu/ingatlan/20261125/lazar-janos-utolso-szazmilliardos-tervet-veri-most-szet-a-kormany-879026",
+          "https://www.portfolio.hu/ingatlan",
+          "https://www.portfolio.hu/gazdasag/20261125/budapestet-valasztotta-szingapur-es-nashville-helyett-a-schneider-electric-uj-globalis-vezetoje-878812",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/uzlet/20261125/a-lakasbiztositasi-verseny-eredmenyeit-meg-kell-orizni-878936",
+          "https://www.portfolio.hu/uzlet",
+          "https://www.portfolio.hu/gazdasag/20261125/akar-10-20-centi-ho-is-eshet-a-heten-elarultak-a-meteorologusok-milyen-tel-var-magyarorszagra-878984",
+          "https://www.portfolio.hu/global/20261125/kreml-igen-lehet-hogy-igy-lesz-vege-a-haborunak-879018",
+          "https://www.portfolio.hu/global",
+          "https://www.portfolio.hu/bank/20261125/nem-kegyelmeztek-a-kepviselok-a-legnagyobb-svajci-banknak-de-kaphat-egy-kis-konnyitest-879006",
+          "https://www.portfolio.hu/bank",
+          "https://www.portfolio.hu/uzlet/20261125/lecsapott-a-rendorseg-elfogtak-a-szazmillios-csalassorozatot-iranyito-bunbanda-vezetoit-egy-rakas-keszpenzt-is-lefoglaltak-879012",
+          "https://www.portfolio.hu/unios-forrasok/20261125/brusszel-lecsap-a-pornooldalakra-nehezebb-lesz-hozzaferni-a-felnott-tartalmakhoz-879004",
+          "https://www.portfolio.hu/unios-forrasok",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+          "https://www.portfolio.hu/unios-forrasok/20261125/uzent-ursula-von-der-leyen-a-kremlnek-nem-fog-sikerulni-879046",
+          "https://www.portfolio.hu/gazdasag/20261125/tisza-kormany-vizsgalat-ala-kerulhet-orban-viktor-szigoritas-keszul-a-magyar-cegeknel-878890",
+          "https://www.portfolio.hu/gazdasag/20261125/csucstechnologiara-es-6g-re-dol-a-penz-jelentos-pluszforrast-kapnak-a-hazai-projektek-879044",
+          "https://www.portfolio.hu/global/20261125/ukrajna-ellen-fordult-europa-legerosebb-orszaga-lynxek-kerulnek-az-ukran-frontra-hireink-az-orosz-ukran-haborurol-szerdan-878884",
+          "https://www.portfolio.hu/global/20261125/oriasi-botranyt-robbantott-ki-a-titkos-katonai-misszio-a-parlament-hata-mogott-kerulhet-haboruba-oroszorszaggal-europa-egyik-legerosebb-allama-879038",
+          "https://www.portfolio.hu/befektetes/20261125/titkos-ugyletekre-derult-feny-a-huang-botranyban-szazmillio-dollarok-folytak-el-879034",
+          "https://www.portfolio.hu/uzlet/20261125/megint-szakadnak-a-tozsdek-menekulnek-a-befektetok-az-ai-reszvenyekbol-878904",
+          "https://www.portfolio.hu/deviza/20261125/visszatert-a-felelem-a-piacokra-mar-374-felett-is-jart-az-euro-878896",
+          "https://www.portfolio.hu/global/20261125/olyan-voros-vonalhoz-erkeztunk-amit-soha-korabban-nem-mert-atlepni-a-nato-nyilt-beavatkozas-johet-ukrajnaban-879028",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
+          "https://www.portfolio.hu/podcast/20261124/a-szappanopera-folytatodik-most-lesz-csak-igazan-nagy-sztori-az-nvidiabol-878820",
+          "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "70a56b2302f7b2012ca8828b6193a66f009c3c55b337127b75118dc5a871f446",
+        "variants": {
+          "original": {
+            "body": "Súlyos ítélet született a Huaweijel szemben egy New York-i esküdtszék döntéseként, amely bűnösnek találta a kínai technológiai céget üzleti titkok eltulajdonítására irányuló összeesküvésben, banki csalásban és az Iránnal szembeni szankciók megsértésében. Az amerikai tőzsdéken a mesterséges intelligenciához kapcsolódó részvények, valamint a nemzetközi mezőnyből kilógó magyar tőzsde is eséssel, míg a hazai fizetőeszköz gyengüléssel reagált az újabb amerikai vámfenyegetésekre és a piaci turbulenciákra. A határidős indexek alapján a Nasdaq 3, az S&P 500 2, a Dow Jones pedig 1,4 százalékos mínuszban nyithat, az Anthropic árfolyama pedig a 83 dolláros IPO-ár alá süllyedt a tőzsdei bevezetést követő eladási hullámban. A befektetők a tengerentúlon komoly veszteségeket könyvelhetnek el az olyan vezető cégeknél, mint az Nvidia vagy a Dell, miközben az MNB közzéteszi a hitelintézetek októberi mérleg- és eredményadatait."
+          },
+          "tolkien": {
+            "title": "A szilícium birodalmak alkonya és a tőzsdék viharos órái",
+            "body": "Ítélet villant az Óceánon túl a Huawei tornyai fölött, mert az esküdtek pecsétje eléri a titkokat rablókat és a tiltott frigyek szövetségeseit. A mesterséges intelligencia csarnokaiban megrendült a bizalom, s az amerikai börzék kapuin zúduló eladási hullám sötét árnyként borul a részvényekre, miközben a Nasdaq, az S&P 500 és a Dow Jones süllyedő hajóként merül a mélybe. A magányos magyar tőzsde bástyái is megrendülnek a viharban, s a forint gyötrődő árfolyama mélybe hull a globális kereskedelmi vámok fúvó szelei közepette. Az Anthropic ifjú hajója elmerült a szent IPO-ár küszöve alatt, s az Nvidia gigantikus sarokkövei is megremegnek a piacok haragjától."
+          },
+          "reito": {
+            "title": "Hálózat kikapcsolva: amikor az AI-lufi és a büntetővámok egyszerre köszönnek be",
+            "body": "Egy New York-i esküdtszék hivatalosan is elintézte a Huaweit egy seregnyi kellemetlen vádakkal, az üzleti titkok ellopásától egészen a banki csalásig. A tőzsdéken annyira elszabadult a pokol, hogy a Nasdaq, az S&P 500 és a Dow Jones is mélyrepülésbe kezdett, miután a befektetők hirtelen rájöttek, hogy a mesterséges intelligencia nem hozza magától a sült galambot. Az Anthropic friss részvényei már a 83 dolláros IPO-ár alatt keresik a zuhanási rekordot, miközben a magyar tőzsde és a forint is magányosan feni a fogát a rossz hírű amerikai vámfenyegetésekre. Aki azt hitte, hogy a Dell szép számai megmentik a napot, az csúnyán tévedett, mert a piac még az erős jelentésekre is egy bazi nagy mínusszal válaszolt."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -10258,7 +10477,95 @@
       "title": "Lázár János utolsó százmilliárdos tervét veri most szét a kormány",
       "link": "https://www.portfolio.hu/ingatlan/20261125/lazar-janos-utolso-szazmilliardos-tervet-veri-most-szet-a-kormany-879026",
       "description": "<p>Szűkítené a kormány azoknak a cégeknek a körét, amelyek állami vasúti ingatlanokat kezelhetnek, a védett pályaudvarokon pedig csak a közlekedési közszolgáltatáshoz szükséges fejlesztéseknél engedne kivételt a szigorú tulajdoni szabályok alól. A <a href=\"https://www.parlament.hu//irom43/01161/01161.pdf\">kedd este benyújtott vagyongazdálkodási törvényjavaslat</a> a hosszú koncessziók futamidejét a beruházás megtérüléséhez kötné, és arról is rendelkezne, meddig kell megtartani egy államtól ingyen kapott cégrészesedést.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/v/a/s/vasuti-telephely-872576.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/v/a/s/vasuti-telephely-872576.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Lázár János utolsó százmilliárdos tervét veri most szét a kormány",
+        "summary": "<p>Szűkítené a kormány azoknak a cégeknek a körét, amelyek állami vasúti ingatlanokat kezelhetnek, a védett pályaudvarokon pedig csak a közlekedési közszolgáltatáshoz szükséges fejlesztéseknél engedne kivételt a szigorú tulajdoni szabályok alól. A <a href=\"https://www.parlament.hu//irom43/01161/01161.pdf\">kedd este benyújtott vagyongazdálkodási törvényjavaslat</a> a hosszú koncessziók futamidejét a beruházás megtérüléséhez kötné, és arról is rendelkezne, meddig kell megtartani egy államtól ingye",
+        "url": "https://www.portfolio.hu/ingatlan/20261125/lazar-janos-utolso-szazmilliardos-tervet-veri-most-szet-a-kormany-879026",
+        "published": "Wed, 25 Nov 2026 13:09:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/v/a/s/vasuti-telephely-872576.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.portfolio.hu/szerzo/szabo-daniel",
+          "https://www.google.com/preferences/source",
+          "https://www.parlament.hu//irom43/01161/01161.pdf",
+          "https://www.portfolio.hu/gazdasag/20260328/varatlan-fordulat-meghatralt-lazar-janos-miniszteriuma-megsem-adjak-el-a-rendkivul-ertekesnek-tartott-fovarosi-ingatlanokat-827368",
+          "https://www.portfolio.hu/ingatlan/20260220/eladna-a-vasut-telkeit-lazar-janos-819364",
+          "https://www.portfolio.hu/ingatlan/20261125/hatalmas-fordulat-a-lakasoknal-a-millios-luxusotthonok-epitoi-mar-a-kis-felujitasokert-kuzdenek-amerikaban-878968",
+          "https://www.portfolio.hu/ingatlan/20261125/igy-alakul-at-a-szallodapiac-budapesten-milyen-hotelekre-van-most-nagy-szukseg-878440",
+          "https://www.portfolio.hu/ingatlan/20261125/csokkent-a-dh-group-profitja-de-eros-evzarasra-szamit-a-menedzsment-878956",
+          "https://www.portfolio.hu/gazdasag/20261125/tisza-kormany-vizsgalat-ala-kerulhet-orban-viktor-szigoritas-keszul-a-magyar-cegeknel-878890",
+          "https://www.portfolio.hu/gazdasag/20261125/kozel-140-millio-forintot-kapott-a-magyar-tisztsegviselo-mikozben-mar-gyanus-kifizetesek-miatt-vizsgalodtak-utana-878926",
+          "https://www.portfolio.hu/gazdasag/20261125/szigorit-a-kormany-mar-felmillio-forintos-tartozas-miatt-is-bajba-kerulhetnek-a-magyar-cegek-878922",
+          "https://www.portfolio.hu/cimke/ingatlan",
+          "https://www.portfolio.hu/cimke/lázár jános",
+          "https://www.portfolio.hu/cimke/budai vár",
+          "https://www.portfolio.hu/cimke/mnv zrt.",
+          "https://www.portfolio.hu/cimke/barnamezős terület",
+          "https://www.portfolio.hu/cimke/vitézy dávid",
+          "https://www.portfolio.hu/cimke/koncesszió",
+          "https://www.portfolio.hu/cimke/állami vagyon",
+          "https://www.portfolio.hu/cimke/pályaudvar",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/ingatlan/20261125/lazar-janos-utolso-szazmilliardos-tervet-veri-most-szet-a-kormany-879026",
+          "https://www.portfolio.hu/ingatlan",
+          "https://www.portfolio.hu/gazdasag/20261125/budapestet-valasztotta-szingapur-es-nashville-helyett-a-schneider-electric-uj-globalis-vezetoje-878812",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/uzlet/20261125/a-lakasbiztositasi-verseny-eredmenyeit-meg-kell-orizni-878936",
+          "https://www.portfolio.hu/uzlet",
+          "https://www.portfolio.hu/gazdasag/20261125/akar-10-20-centi-ho-is-eshet-a-heten-elarultak-a-meteorologusok-milyen-tel-var-magyarorszagra-878984",
+          "https://www.portfolio.hu/global/20261125/kreml-igen-lehet-hogy-igy-lesz-vege-a-haborunak-879018",
+          "https://www.portfolio.hu/global",
+          "https://www.portfolio.hu/bank/20261125/nem-kegyelmeztek-a-kepviselok-a-legnagyobb-svajci-banknak-de-kaphat-egy-kis-konnyitest-879006",
+          "https://www.portfolio.hu/bank",
+          "https://www.portfolio.hu/uzlet/20261125/lecsapott-a-rendorseg-elfogtak-a-szazmillios-csalassorozatot-iranyito-bunbanda-vezetoit-egy-rakas-keszpenzt-is-lefoglaltak-879012",
+          "https://www.portfolio.hu/unios-forrasok/20261125/brusszel-lecsap-a-pornooldalakra-nehezebb-lesz-hozzaferni-a-felnott-tartalmakhoz-879004",
+          "https://www.portfolio.hu/unios-forrasok",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+          "https://www.portfolio.hu/unios-forrasok/20261125/uzent-ursula-von-der-leyen-a-kremlnek-nem-fog-sikerulni-879046",
+          "https://www.portfolio.hu/gazdasag/20261125/csucstechnologiara-es-6g-re-dol-a-penz-jelentos-pluszforrast-kapnak-a-hazai-projektek-879044",
+          "https://www.portfolio.hu/global/20261125/ukrajna-ellen-fordult-europa-legerosebb-orszaga-lynxek-kerulnek-az-ukran-frontra-hireink-az-orosz-ukran-haborurol-szerdan-878884",
+          "https://www.portfolio.hu/global/20261125/oriasi-botranyt-robbantott-ki-a-titkos-katonai-misszio-a-parlament-hata-mogott-kerulhet-haboruba-oroszorszaggal-europa-egyik-legerosebb-allama-879038",
+          "https://www.portfolio.hu/befektetes/20261125/titkos-ugyletekre-derult-feny-a-huang-botranyban-szazmillio-dollarok-folytak-el-879034",
+          "https://www.portfolio.hu/uzlet/20261125/megint-szakadnak-a-tozsdek-menekulnek-a-befektetok-az-ai-reszvenyekbol-878904",
+          "https://www.portfolio.hu/befektetes/20261125/uzleti-titkok-banki-csalas-es-irani-uzletek-sulyos-itelet-szuletett-a-huawei-ugyeben-879040",
+          "https://www.portfolio.hu/deviza/20261125/visszatert-a-felelem-a-piacokra-mar-374-felett-is-jart-az-euro-878896",
+          "https://www.portfolio.hu/global/20261125/olyan-voros-vonalhoz-erkeztunk-amit-soha-korabban-nem-mert-atlepni-a-nato-nyilt-beavatkozas-johet-ukrajnaban-879028",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261124/sokkal-tobb-mulik-a-haborun-mint-ukrajna-jovoje-meddig-mehet-el-a-nato-878498",
+          "https://www.portfolio.hu/podcast/20261124/a-szappanopera-folytatodik-most-lesz-csak-igazan-nagy-sztori-az-nvidiabol-878820",
+          "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "fe1c01b06aa928132ea95430e925e564d5d15ffa11f4f4906fc78b3ef05f4065",
+        "variants": {
+          "original": {
+            "body": "A kormány által a parlament elé küldött törvénytervezet jelentősen átalakítja a nagy budapesti pályaudvarok, valamint az országos törzshálózati vasúti ingatlanok hasznosítási és tulajdonosi szabályait, ami szigorítja a vagyonkezelői feltételeket és védi a védett pályaudvari ingatlanokat. A módosítás nyomán 2027. január 1-jétől jelentősen egyszerűsödhet a külföldi befektetések ellenőrzése is. A belföldi parlament előtt fekvő jövőbeli szabályok értelmében a koncesszióknál megmarad a 35 éves felső határ, de a futamidőt a beruházásnak kell indokolnia, miközben a budai Vári Anna utca 1."
+          },
+          "tolkien": {
+            "title": "A Vasút Kapui és a Korona Kincsei",
+            "body": "A belföldi parlament csarnokában egykor Lázár János által hirdetett, a nagy budapesti pályaudvarok kilencvenkilenc évre szóló bitorlását és a vasúti birodalom vagyonát megcsonkító törvénytervezet lépései rávetülnek a birodalom földjeire. Az új törvények vasmarka szigorú korlátok közé szorítja a koncessziók idejét, és megvédi a védett pályaudvari szentélyeket a külső hatalmaktól. A belföld földjén, a Várhegy kőcsarnokai között az Anna utca 1. szám alatti Arany Sas Patikamúzeum szomszédságában rejtőző lakások bérlői végre jogot kapnak otthonaik megváltására, míg az állam kincstárának őrzői ötfős igazgatóságra és hatfős felügyelőbizottságra karcsúsítják a Magyar Nemzeti Vagyonkezelőt."
+          },
+          "reito": {
+            "title": "Ahol a sínek véget érnek, vagyis Lázár milliárdos tervei",
+            "body": "A belföldi parlament küzdőterén a kormány határozott mozdulattal söpri félre a nagy budapesti pályaudvarok 99 éves magánkezelésbe adásának egykori ábrándját, miután a képviselők elé küldött tervezet alapjaiban rendezi át a hazai vasúti birodalom és vagyon sorsát. Az új szigorú szűrők miatt a vasúti ingatlanoknál már leáldozott a törpe tulajdonrészek ideje, így a koncessziók 35 éves felső határát is kőkeményen a valós beruházási költségekhez kötik. A belföldi helyszíneken a budai Várban rekedt Anna utca 1. alatti Arany Sas Patikamúzeum szomszédságában lévő lakások bérlői végre fellélegezhetnek, mert a jogszabály-módosítás végre megnyitja előttük a kaput a lakásvásárláshoz."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
