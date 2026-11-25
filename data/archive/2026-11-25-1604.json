@@ -994,7 +994,7 @@
         "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
       ],
       "contentBasis": "article",
-      "sourceHash": "8645172ff09ce1e0dd68d7f38393d4f732493a7104af8c3c5da4d20c4d82d264",
+      "sourceHash": "b0639dcce2d9868a83a383fb7192538da100b4975d7c1545e189f357e89c13e9",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -1232,7 +1232,20 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Matolcsy György volt jegybankelnök személyesen is részt venne az MNB ügyeit vizsgáló parlamenti bizottság nyilvános ülésén, ha tiszteletben tartják az emberi méltóságát és az ártatlanság vélelmét, míg Bátki Pál ügyvéd a bilincs vagy a vezetőszár használatának indokoltságát is vizsgálná. A legfontosabb gyakorlati következmény az, hogy a meghallgatás helyszínéről és feltételeiről vita alakult ki, miután az ügyészség szerint a testület elé állításra nincs törvényes lehetőség, Csőszi Attila bizottsági elnök pedig a csütörtöki ülésen azt javasolja, hogy a volt jegybankelnököt a büntetés-végrehajtási intézetben hallgassák meg. A bíróság hétfőn újabb három hónappal meghosszabbította Matolcsy letartóztatását, aki a november 5-i ülésre még azt üzente, hogy élni kíván a hallgatás jogával. Az érkezését és a távozását a kamerák látóterén kívül szervezhetik meg, a sajtó pedig szabadon tudósíthatna az elhangzottakról."
+        },
+        "tolkien": {
+          "title": "A bilincsbe vert lángelmék tanácsa és a sötét börtön falai",
+          "body": "Matolcsy György, a Magyar Nemzeti Bank letartóztatásban lévő egykori vezére személyesen állna az MNB dolgait vizsgáló parlamenti bizottság elé, ha a testület tiszteletben tartja méltóságát és ártatlanságát. A bírák parancsára börtönben sínylődő főúr ügyvédje, Bátki Pál kérelmezte, hogy a büntetés-végrehajtás mérlegelje a bilincsek és vezetőszárak használatát, s ha ezeket alkalmazzák, a lépteit a lencséktől elrejtve, rejtve kísérjék. Az igazság bajnokai és az állam törvényhozói most perpatvarba szálltak, miközben Csőszi Attila bizottsági elnök a csütörtöki napon arra tesz indítványt, hogy a várak falain belül, a büntetés-végrehajtási intézet falai között keressék fel a foglyot. A bíróság hétfőn további három holdtöltére, azaz három hónapra meghosszabbította a láncra vert jegybankelnök fogságát, aki korábban még mély hallgatásba burkolózott."
+        },
+        "reito": {
+          "title": "Bilincs, kamera, MNB-vizsgálat: Matolcsy feltételeket szab a belföldi parlamentnek",
+          "body": "Matolcsy György volt jegybankelnök a belföldi parlament MNB ügyeit vizsgáló bizottsága elé járulna, ha az emberi méltóságát és az ártatlanság vélelmét szigorúan tiszteletben tartják. A gyakorlati következmény az, hogy a rácsok mögül kikerülő vagy oda beszoruló egykori bankár ügyvédje, Bátki Pál kipipálná a bilincsek és vezetőszárak indokoltságát, és kérné a kamerák elől való diszkrét távozást is. Mivel az ügyészség szerint törvényes út sincs a bizottság elé hurcolására, Csőszi Attila elnök csütörtökön már inkább házhoz menne, és a büntetés-végrehajtási intézet falai között hallgattatná meg a hirtelen beszédesebbé váló volt vezért. A bíróság hétfőn ráadásul zökkenőmentesen ráhúzott még három hónapot a letartóztatására, szóval a november 5-i hallgatási rekordszösszenet után most komoly logisztikai művelet jön a belföldi politikai porondon."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
