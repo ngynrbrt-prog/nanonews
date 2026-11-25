@@ -19,7 +19,7 @@ A NANONews nyolc hírforrásból válogat a figyelt rovatokhoz. Az oldalon lapsz
 1. Megnyitáskor az oldal a legutóbb elérhető kiadást tölti be. A fejléc dátuma a megnyitott lapszámhoz tartozik.
 2. Ha ugyanarról a napról másik számot szeretnél, válaszd ki a dátum melletti listában. Másik naphoz nyisd le az **Archív lapok** részt.
 3. Nyisd ki a **Rovataim** menüt, és válassz témát. Az összes hír nézet a teljes kiválasztott lapszámot mutatja.
-4. A rovat mellett szereplő darabszám az adott témához illő cikkeket számolja, a hírcsoportok kapcsolódó friss cikkeit is beleértve. Egy több témához illő cikk több rovatban is megjelenhet.
+4. A rovat mellett szereplő darabszám az adott témához illő cikkeket számolja, a hírcsoportok kapcsolódó friss cikkeit is beleértve. Egy több témához illő cikk több rovatban is megjelenhet. A természet, az élővilág és a természeti jelenségek híreit a **Környezetvédelem** rovatban találod.
 
 A hivatalos reggeli és délutáni lapszám a **05:00–05:59** és **16:00–16:59** közötti idősávban készül, budapesti idő szerint. A cikk mellett a forráscikk megjelenési ideje látható, ha rendelkezésre áll. A lapszám frissítési ideje külön szerepel az oldalon.
 

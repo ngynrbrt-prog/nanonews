@@ -298,6 +298,12 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ## 12. Változásnapló
 
+### 2026. november 25. – Természet témájú hírek besorolása
+
+- A természet témájú hírek a Környezetvédelem rovatba kerülnek. A szabály az élővilágra, az élőhelyekre, az időjárási és egyéb természeti jelenségekre, köztük a megfigyelhető égi jelenségekre is kiterjed.
+- A `refresh_news.py` az újonnan és a korábban előkészített cikkek kiadásakor is alkalmazza a szabályt. Az `index.html` az egyetlen Környezetvédelem címkével rendelkező cikkeket ebben a rovatban mutatja.
+- A november 25-i reggeli kiadásban az égi együttállásról szóló cikk besorolása az aktuális és az archív adatfájlban is módosult.
+
 ### 2026-11-24 — kivonatpótlási elsőbbség és napi állapotjelentések
 
 - A következő kiadás háttérelőkészítése akkor indulhat, ha a legfrissebb hivatalos kiadás minden cikkéhez elkészült mindhárom kivonat.

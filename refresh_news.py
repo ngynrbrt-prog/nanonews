@@ -78,6 +78,14 @@ def text(node):
     if node is None:return ""
     return re.sub(r"\s+"," "," ".join(node.itertext())).strip()
 
+def is_nature_story(title):
+    return bool(re.search(
+        r"\b(?:élővilág|vadon élő|vadállat|vadmadár|madárvonulás|madárfaj|halfaj|állatfaj|növényfaj|fajmegőrzés|fészkel|beporzó|nemzeti park|természeti jelenség|természeti érték|természetvéd|ökoszisztéma|biodiverzitás|élőhely|erdőirtás|erdőtűz|esőerdő|vizes élőhely|gleccser|vízállás|vízgazdálkodás|vízügyi|vízhiány|vízminőség|árvíz|aszály|havazás|ónos eső|hőhullám|vulkánkitörés|földrengés|égi együttállás|hullócsillag|meteorraj|sarki fény|napfogyatkozás|holdfogyatkozás)",
+        title,
+        re.IGNORECASE,
+    ))
+
+
 def match_term(term,hay):
     if term.casefold() in ("nba","nfl","f1","ner"):
         return bool(re.search(r"(?<![a-z0-9])"+re.escape(term.casefold())+r"(?![a-z0-9])",hay))
@@ -620,6 +628,8 @@ for record in inbox.values():
         if collect_new_edition:
             article_date=parse_published(prepared["published"])
             if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
+                if is_nature_story(record["title"]):
+                    prepared["categories"] = ["environment"]
                 stories.append(prepared)
         continue
     title=record["title"]
@@ -649,8 +659,8 @@ for record in inbox.values():
         cats.append("foreign")
         if foreign_deal and re.search(r"magyarországi[^.!?]{0,55}(?:beruház|gyár|üzem|gyártás)|(?:szegedi|debreceni)[^.!?]{0,35}(?:beruház|gyár|üzem)", context, re.I):
             cats.append("belfold")
-    if lake_environment:
-        cats.extend(cat for cat in ("belfold", "environment") if cat not in cats)
+    if lake_environment or is_nature_story(title):
+        cats = ["environment"]
     if not cats:continue
     story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
     article_text,article_published=fetch_article(link)
