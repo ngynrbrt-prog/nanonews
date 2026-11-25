@@ -2796,8 +2796,424 @@
         }
       },
       "preparedVividStyles": true
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Tue, 24 Nov 2026 21:59:01 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Vitális kezdett, Varga csereként lépett pályára, az AEK kikapott Comóban",
+      "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/vitalis-kezdett-varga-cserekent-lepett-palyara-az-aek-kikapott-comoban",
+      "description": "Wili Orbánék legyőzték a Lenst, míg a Slovan Bratislava továbbra is pont nélkül áll a Bajnokok Ligájában.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/PZz1pw7aOJGQCGwliX69wPSueLG8rinKpaMWg5k4C6w/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM0Mzc5ZDA4N2M4YjQ3ZDRiNzdlMDMxZmM1Y2ZjNjll.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Vitális kezdett, Varga csereként lépett pályára, az AEK kikapott Comóban",
+        "summary": "Wili Orbánék legyőzték a Lenst, míg a Slovan Bratislava továbbra is pont nélkül áll a Bajnokok Ligájában.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/vitalis-kezdett-varga-cserekent-lepett-palyara-az-aek-kikapott-comoban",
+        "published": "Tue, 24 Nov 2026 21:59:01 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/PZz1pw7aOJGQCGwliX69wPSueLG8rinKpaMWg5k4C6w/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM0Mzc5ZDA4N2M4YjQ3ZDRiNzdlMDMxZmM1Y2ZjNjll.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "927fd92cec4d3d114476a64b4740e175bd6e7399b7a527a941e50bbd7973da85",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok ligája alapszakaszának ötödik fordulójában, a Como és az AEK Athén összecsapásán a hazai olasz csapat 1–0-ra győzte le a görög együttest, amelyben Vitális Milán kezdőként lépett pályára, míg Varga Barnabás csereként kapott lehetőséget. A mérkőzés egyetlen gólját Luis Milla szerezte az 57. percben, amellyel a Como megnyerte a találkozót. Az összecsapáson a görögök oldalán Vitális kezdett a középpálya tengelyében, míg a cserék közé nevezett Varga a második félidőben szállt be a játékba."
+          },
+          "tolkien": {
+            "title": "A Láriani Tavak Partjának Végzete és a Görög Sereg Veresége",
+            "body": "A Bajnokok ligája bajnoki küzdelmeinek viharában Como büszke városa fogadta az AEK Athén vitézeit. A csaták mezőjén Vitális Milán, a középpálya mélyéről indult a harcba, míg Varga Barnabás sorsa ekkor még a kispad csendjéből várt a hívásra. A viharos összecsapást végül Luis Milla győzedelmes találommal pecsételte meg az 57. órában, miközben a görögök seregének minden próbája kudarccal vallott."
+          },
+          "reito": {
+            "title": "Como-i aprítás: Milla beverte, az AEK meg lehúzta a rolót",
+            "body": "A Bajnokok ligája keddi játéknapján a Como 1–0-ra verte az AEK Athént, miközben a magyarok közül Vitális Milán kezdőként izzadt, Varga Barnabás pedig a kispadot koptatta csereként. Luis Milla az 57. percben olyan pontosan tekert tizennyolcról a bal felsőbe, hogy abból a görögöknek nem volt visszatérésük. Vitális hamar átadta a helyét Joao Mariónak, Varga pedig hiába várta a mögötte elszálló beadást, mert gól helyett csak a vereség maradt."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Tue, 24 Nov 2026 23:30:00 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Orlando Magic – Detroit Pistons élő",
+      "link": "https://nbanews.hu/orlando-magic-detroit-pistons-elo/",
+      "description": "Az Orlando Magic a Detroit Pistonst fogadja az orlandói Amway Centerben. Az egymás elleni mérlegben a Magic vezet 3–2-re.",
+      "image": "",
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Orlando Magic – Detroit Pistons élő",
+        "summary": "Az Orlando Magic a Detroit Pistonst fogadja az orlandói Amway Centerben. Az egymás elleni mérlegben a Magic vezet 3–2-re.",
+        "url": "https://nbanews.hu/orlando-magic-detroit-pistons-elo/",
+        "published": "Tue, 24 Nov 2026 23:30:00 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "6ecec9df6d3780f856d1c9b035520597bee239542806cae7abf31bf1fae5f5c0",
+        "variants": {
+          "original": {
+            "body": "Az NBA-ben szereplő Orlando Magic és Detroit Pistons összecsapásáról az Amway Centerben, Orlandóban mesterséges intelligencia segítségével készült automatikus előzetes adatai alapján a két csapat egymás elleni mérlegében a Magic vezet 3–2-re. A legutóbbi, 2026. május 1-jén lejátszott találkozón a Pistons győzött 93–79-re a Magic ellen, az előzetes adatait pedig 2026. november 25-én 00:30-kor frissítették magyar idő szerint."
+          },
+          "tolkien": {
+            "title": "A kosarak csarnokának krónikája: Magic és Pistons ütközete",
+            "body": "Az NBA porondján, az orlandói Amway Center szentélyében az Orlando Magic csapata fogadja a Detroit Pistons harcosait a mesterséges intelligencia által szőtt előzetes krónika szerint. A múlt viharaiban eddig a Magic serege kerekedett felül, hiszen az egymás elleni ütközetek mérlegében 3–2 arányban ők vezetnek. Ám a legutóbbi, 2026. május 1-jén lezajlott ütközetben a Pistons győzedelmeskedett 93–79-re, az adatok sorskönyvét pedig utoljára 2026."
+          },
+          "reito": {
+            "title": "A 3-2-es üzenet: amikor az AI osztja a lapokat Orlandóban",
+            "body": "Az NBA-ben az Orlando Magic és a Detroit Pistons csatája előtt a mesterséges intelligencia által összerakott előzetesből kiderül, hogy az orlandói Amway Center parkettjén a Magic eddig 3–2-re vezeti az egymás elleni örökrangsort. A legutóbbi, 2026. május 1-jén lezajlott meneten viszont a Pistons húzta be a győzelmet 93–79-re, míg a statisztikák friss gombját 2026. november 25-én 00:30-kor nyomták meg magyar idő szerint."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Wed, 25 Nov 2026 00:02:59 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Black Friday az FK!-nál: Óriási akciókkal készülünk a futball ünnepére!",
+      "link": "https://fuzovelkifele.com/2026/11/black-friday-az-fk-nal-oriasi-akciokkal-keszulunk-a-futball-unnepere/?utm_source=rss&utm_medium=rss&utm_campaign=black-friday-az-fk-nal-oriasi-akciokkal-keszulunk-a-futball-unnepere",
+      "description": "<p>Máris itt a Hálaadás és ezzel együtt a Black Friday, így mi is készültünk egy kis akcióval! Az idei szezon előtt – amolyan elő Black Friday gyanánt – összevontuk a Reklámmentés és az Előfizető csomagot, ami már önmagában egy komoly kedvezményt jelentett: aki az éves opciót választotta a havi előfizetés helyett, az a régi árhoz &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/black-friday-az-fk-nal-oriasi-akciokkal-keszulunk-a-futball-unnepere/\">Black Friday az FK!-nál: Óriási akciókkal készülünk a futball ünnepére!</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": ""
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:57:34 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "A legjobb szabadügynök igazolások 2026-ban",
+      "link": "https://fuzovelkifele.com/2026/11/a-legjobb-szabadugynok-igazolasok-2026-ban/?utm_source=rss&utm_medium=rss&utm_campaign=a-legjobb-szabadugynok-igazolasok-2026-ban",
+      "description": "<p>Az offseasonben a legtöbb szurkoló számára reményteli esemény valahányszor új játékost igazol imádott franchise-a. Azonban egyre inkább arra tolódunk, hogy a legjobbjait a csapatok nem engedik el, így sokszor csalódnunk kell. Nem volt ez máshogy az idei offseasonben sem, de azért akadt pár jó szerződés is. A csalódások után, most összeszedtük őket is. Kenneth Walker, &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/a-legjobb-szabadugynok-igazolasok-2026-ban/\">A legjobb szabadügynök igazolások 2026-ban</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "A legjobb szabadügynök igazolások 2026-ban",
+        "summary": "<p>Az offseasonben a legtöbb szurkoló számára reményteli esemény valahányszor új játékost igazol imádott franchise-a. Azonban egyre inkább arra tolódunk, hogy a legjobbjait a csapatok nem engedik el, így sokszor csalódnunk kell. Nem volt ez máshogy az idei offseasonben sem, de azért akadt pár jó szerződés is.",
+        "url": "https://fuzovelkifele.com/2026/11/a-legjobb-szabadugynok-igazolasok-2026-ban/?utm_source=rss&utm_medium=rss&utm_campaign=a-legjobb-szabadugynok-igazolasok-2026-ban",
+        "published": "Tue, 24 Nov 2026 23:57:34 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "ba1993aa0f61c16adbc202d77e02352decdf7745a86decfdd9ce7f4972fdd4cc",
+        "variants": {
+          "original": {
+            "body": "A 2026-os NFL-offseasonben Kenneth Walker az év egyik legjobb szabadügynök-igazolásaként és a liga egyik legkedvezőbb kontraktusaként három évre szóló, 42 millió dolláros szerződést írt alá a Kansas City Chiefs csapatával. Ez a megállapodás kulcsfontosságú gyakorlati következményként új szintre emelte a Chiefs Mahomes-érabeli támadósorát, miközben Walker éves átlaga a futók között csak a kilencedik legmagasabb lett. A pihentetéséig elért kiemelkedő mutatói – köztük a futott yardok, a kontakt utáni yardok és a kikényszerített elrontott szerelések terén elért top3-as helyezések – alapján abszolút elit teljesítményt nyújtott, ami igazolja a szerződés értékét a ligában. Bár a Seahawks-mérkőzés óta a statisztikái visszazökkentek a földre, a Seahawks futójátékának visszaesése is hűen mutatja, mekkora hiányt hagyott maga után a volt csapatánál."
+          },
+          "tolkien": {
+            "title": "A futó, ki Chiefs földjére lépett, mint drágakő a korona viharában",
+            "body": "A 2026-os idény küszöbén Kenneth Walker futó a Kansas City Chiefs hadtestéhez szegődött egy három tavaszra szóló, negyvenkét millió arannyal felértékelődő frigyben, amely a legfényesebb szabadügynök-szerződések csarnokába emelte őt. E paktum ereje új dicsőséget lehelt a Mahomes korabeli seregek addig lankadó támadásaiába, holott az őt illető éves juss csupán a kilencedik helyen szerénykedett a futók seregszemléjén. A harcmezők porában – míg pihenőre nem tért – a futott yardok, a becsapódás után nyert távolságok és a megtévesztett bajnokok viadalában a trónus legmagasabb fokait hódította meg, mint kiérdemelt MVP. Noha a Seahawks elleni viadal után léptei nehezedtek és mutatói visszahullottak a halandók soraiba, a Seattle-i tábor elárvult futójátéka hűen hirdeti, mily hatalmas oszlopa volt ő a győzelemnek."
+          },
+          "reito": {
+            "title": "A futó, akit olcsón mértek, de aranyat ért a Chiefs háza táján",
+            "body": "A 2026-os offseason zűrzavarában Kenneth Walker átnyargalt a Kansas City Chiefs kötelékébe, miután aláírt egy három évre szóló, 42 millió dolláros pecsétes papírt. Ennek a boltnak köszönhetően a Chiefs támadósora olyan magasra törő lendületet kapott, amilyet Mahomes uralkodása alatt eddig csak álmukban láttak, miközben Walker éves fizetése csupán a kilencedik helyen kullog a futók mezőnyében. Amíg a mester pihenőre nem intette, a fiú futott yardokban, kontakt utáni méterekben és a védőket zavarba hozó cselekben egyenesen a top3-ban parádézott, sőt, még az MVP-címért is csatasorba szállhatott volna. Igaz, hogy a Seahawks elleni meccs óta a mutatói kicsit visszahulltak a földre, de elég csak a Seattle megroggyant futójátékára nézni, hogy lássuk: hiánya nagyobb lyukat ütött rajtuk, mint egy ágyúgolyó."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:36:02 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "A pulyka és a tojáslabda – Hálaadás beharangozó",
+      "link": "https://fuzovelkifele.com/2026/11/a-pulyka-es-a-tojaslabda-halaadas-beharangozo/?utm_source=rss&utm_medium=rss&utm_campaign=a-pulyka-es-a-tojaslabda-halaadas-beharangozo",
+      "description": "<p>Kellemes hálaadást és remek fekete pénteki akciókat mindenkinek! A pulyka mellé kiváló mérkőzéseket is kapunk az amerikaiak egyik kedvenc ünnepén, ráadásul már csütörtök hajnalban elkezdődik a buli, és egészen péntek estig meg sem állunk. Nézzük is meg, milyen rangadókkal készült most nekünk az NFL! Csütörtök 02:00 Green Bay Packers (6-4) @ Los Angeles Rams (6-4) &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/a-pulyka-es-a-tojaslabda-halaadas-beharangozo/\">A pulyka és a tojáslabda – Hálaadás beharangozó</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "A pulyka és a tojáslabda – Hálaadás beharangozó",
+        "summary": "<p>Kellemes hálaadást és remek fekete pénteki akciókat mindenkinek! A pulyka mellé kiváló mérkőzéseket is kapunk az amerikaiak egyik kedvenc ünnepén, ráadásul már csütörtök hajnalban elkezdődik a buli, és egészen péntek estig meg sem állunk. Nézzük is meg, milyen rangadókkal készült most nekünk az NFL!",
+        "url": "https://fuzovelkifele.com/2026/11/a-pulyka-es-a-tojaslabda-halaadas-beharangozo/?utm_source=rss&utm_medium=rss&utm_campaign=a-pulyka-es-a-tojaslabda-halaadas-beharangozo",
+        "published": "Tue, 24 Nov 2026 23:36:02 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "7d499089700dbb7709e8d8f976832075b17d2f78f9363183f78054023140e72c",
+        "variants": {
+          "original": {
+            "body": "Az amerikai hálaadás napi NFL-mérkőzéseken – amelyek csütörtök hajnaltól péntek estig tartanak – a Green Bay Packers a Los Angeles Ramsszel, a Chicago Bears a Detroit Lionst fogadja, a Dallas Cowboys az Eagles ellen lép pályára, míg a főműsoridős AFC-rangadón a Kansas City Chiefs a Buffalóval, a záró meccsen pedig a Denver Broncos a Pittsburgh Steelersszel mérkőzik meg. A találkozók során a rájátszási esélyek életben tartása, a sérülések miatti hiányzók (mint például az Eaglesnél Milton és Barkley, vagy a védelemben többek között Micah Parsons visszatérése), valamint a támadó- és védőfalak csatái döntik el a kevés pontosnak vagy ki-ki meccsnek ígérkező összecsapások kimenetelét. A pontos kezdési időpontok helyett a forrás csütörtök hajnali kezdést és péntek esti zárást említ, konkrét naptári dátumok vagy órák nélkül."
+          },
+          "tolkien": {
+            "title": "A Pulyka Napjának Vértesei és a Zöldmezős Hadak",
+            "body": "Íme, eljött a hálaadás szent ünnepe és a fekete péntek vihara, midőn a pulykák áldozata mellett az NFL gigászai csütörtök hajnaltól péntek estig lángra lobbantják a mezőket a rájátszás drágakövéért. A Packers és a Rams csatájában a falak vasökle és a passzsiettetők árnyai vetülnek Love és Stafford harcosaira, míg északon a medvék és az oroszlánok dicső seregei mérlegelik pajzsaikat 8-2-es dicsőséggel. A Dallas és a Philadelphia porondján a sebesült sasok és a csillagosok hadai vívnak ádáz tusát, a főműsoridő szentélyében pedig Mahomes és Allen írnak új legendát a Chiefs és a Bills viadalában. Végül a Denver és a Steelers szürke, de kíméletlen mezsgyéjén dől el a sors, ahol a föld rögén és a levegő nyílzáporán át dicsőül meg a győztes."
+          },
+          "reito": {
+            "title": "Hálaadás, pulyka és szaftos sackek: Így darál az NFL",
+            "body": "Csütörtök hajnaltól péntek estig tüzeskedik az NFL a hálaadás és a fekete péntek jegyében, ahol a Packers–Rams, Bears–Lions, Cowboys–Eagles, valamint a Chiefs–Bills és Broncos–Steelers meccseken dől el a rájátszás sorsa. A pályákon egymást tapossák a sérült falak, a labdát sírva kereső irányítók és a futás ellen kapkodó védelmek, miközben a pulyka mellé pontszegény küzdelmek meg a megszokottnál is nagyobb káosz jut. Nincs itt idő ünnepi szundikálásra, mert Micah Parsons visszatérése, Josh Allen szuperhős-pillanatai és a Steelers haldokló támadójátéka olyan komédiát rendez, ami a legkeményebb edzőket is sírásra fakasztaná. Végül mindenhol a falak csatája meg a taktikai zsonglőrködés dönt, szóval érdemes bekészíteni a popcornt, mielőtt a védelmek teljesen szétszedik a támadásokat."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:35:00 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Így áll a draftsorrend 11 forduló után",
+      "link": "https://fuzovelkifele.com/2026/11/igy-all-a-draftsorrend-11-fordulo-utan-2/?utm_source=rss&utm_medium=rss&utm_campaign=igy-all-a-draftsorrend-11-fordulo-utan-2",
+      "description": "<p>Ha most érne véget a szezon (és tudjuk, hogy ez még odébb van), akkor ilyen sorrendben draftolnának a nem-playoff csapatok (Helyezés, Csapatnév, Mérleg, Sorsoláserősség): Tennessee Titans 1-9, 0.483 Los Angeles Chargers 1-9, 0.531 Miami Dolphins 1-9, 0.592 Indianapolis Colts 3-8, 0.477 (*A Colts helyén a Jets húz majd a Sauce-trade miatt*) New York Jets 3-8, &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/igy-all-a-draftsorrend-11-fordulo-utan-2/\">Így áll a draftsorrend 11 forduló után</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Így áll a draftsorrend 11 forduló után",
+        "summary": "<p>Ha most érne véget a szezon (és tudjuk, hogy ez még odébb van), akkor ilyen sorrendben draftolnának a nem-playoff csapatok (Helyezés, Csapatnév, Mérleg, Sorsoláserősség): Tennessee Titans 1-9, 0.483 Los Angeles Chargers 1-9, 0.531 Miami Dolphins 1-9, 0.592 Indianapolis Colts 3-8, 0.477 (*A Colts helyén a Jets húz majd a Sauce-trade miatt*) New York Jets 3-8, &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/igy-all-a-draftsorrend-11-fordulo-utan-2/\">Így áll a draftsorrend 11 ",
+        "url": "https://fuzovelkifele.com/2026/11/igy-all-a-draftsorrend-11-fordulo-utan-2/?utm_source=rss&utm_medium=rss&utm_campaign=igy-all-a-draftsorrend-11-fordulo-utan-2",
+        "published": "Tue, 24 Nov 2026 23:35:00 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "4afd0b61f59888122330ed3dcea6f4d5786448a3089d51cf424bcf3d5f547649",
+        "variants": {
+          "original": {
+            "body": "A tizenegyedik NFL-forduló után kialakult a nem-playoff csapatok aktuális draftsorrendje, amely a Titans, a Chargers és a Dolphins egy-egy győzelmével az 1/1-es pozíciót, az Eagles számára pedig egy négyhelyes visszaesést hozott. A legfontosabb gyakorlati következmény az, hogy a rájátszás mezőnyének képlékenysége és az elmaradt mérkőzések miatt a sorrend a jövőben még biztosan változni fog. A tabellán jelenleg a Titans vezeti a mezőnyt, míg a Buccaneers és a Saints egyaránt hármat lépett előre a legutóbbi fordulóban."
+          },
+          "tolkien": {
+            "title": "A holnap várományosai: Így rajzolódik ki az NFL sorsa tizenegy harc után",
+            "body": "A bajnokság csatatérén tizenegy viharos megmérettetés után a nem-playoff csapatok között drámai rendben rajzolódik ki az NFL jövőbeli draftsorrendje, amely a Titans, a Chargers és a Dolphins seregét állítja a legfőbb várományosi pozícióba. A harcmező küzdelmeinek következményeként a jövőbeni dicsőség legelső várományosi helyéért most éppen három sereghajtó feszül egymásnak egyetlen győzelemmel, míg a viharban az Eagles mélyre zuhant, a Buccaneers és a Saints pedig dicsőségesen három lépést nyert. Mivel a bajnokság viharai még nem csitultak el teljesen, a meg nem vívott ütközetek és a rájátszás küzdelmei miatt a sorrend végső arca még messze van a teljességtől."
+          },
+          "reito": {
+            "title": "Draft-póker: Így osztják a lapokat tizenegy forduló után az NFL-ben",
+            "body": "Az alapszakasz tizenegyedik fordulója után a nem-playoff csapatok ezen a héten is megkeverték az NFL draftsorrendjének kártyáit, ahol a Titans lépett a trónra, miután a Chargers behúzta első diadalát. A versenyfutás azonnali gyakorlati következménye, hogy az 1/1-es pozícióért most három nyomorult egysikeres ostozik – a Titans, a Chargers és a Dolphins –, miközben az Eagles négy hellyel zuhant alá a mélybe, a Buccaneers és a Saints pedig tiszteletet parancsoló hármas léptekkel somfordált előre. Mivel a szezon vége még messze van, és akadt olyan csapat is, amely eggyel kevesebb meccset tudhat maga mögött, a top18-as mezőnyben még garantáltan borulni fog a bili."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:34:58 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Így áll a playoff-harc 11 forduló után",
+      "link": "https://fuzovelkifele.com/2026/11/igy-all-a-playoff-harc-11-fordulo-utan-2/?utm_source=rss&utm_medium=rss&utm_campaign=igy-all-a-playoff-harc-11-fordulo-utan-2",
+      "description": "<p>Ha most érne véget a szezon (és tudjuk, hogy ez nincs így), akkor így nézne ki a playoff mezőnye: AFC Buffalo Bills 9-1 Denver Broncos 8-2 Jacksonville Jaguars 7-3 Cincinnati Bengals 7-3 Kansas City Chiefs 8-2 Cleveland Browns 6-4 Pittsburgh Steelers 6-4 In the hunt: Patriots (5-5), Texans (4-6) A két héttel ezelőtti állapotokhoz képest a &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/igy-all-a-playoff-harc-11-fordulo-utan-2/\">Így áll a playoff-harc 11 forduló után</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Így áll a playoff-harc 11 forduló után",
+        "summary": "<p>Ha most érne véget a szezon (és tudjuk, hogy ez nincs így), akkor így nézne ki a playoff mezőnye: AFC Buffalo Bills 9-1 Denver Broncos 8-2 Jacksonville Jaguars 7-3 Cincinnati Bengals 7-3 Kansas City Chiefs 8-2 Cleveland Browns 6-4 Pittsburgh Steelers 6-4 In the hunt: Patriots (5-5), Texans (4-6) A két héttel ezelőtti állapotokhoz képest a &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/igy-all-a-playoff-harc-11-fordulo-utan-2/\">Így áll a playoff-harc 11 forduló után</a> fir",
+        "url": "https://fuzovelkifele.com/2026/11/igy-all-a-playoff-harc-11-fordulo-utan-2/?utm_source=rss&utm_medium=rss&utm_campaign=igy-all-a-playoff-harc-11-fordulo-utan-2",
+        "published": "Tue, 24 Nov 2026 23:34:58 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "ac4018d11f6c527c56869a44e4c4eb9394ce8d4ef006667f93853e3bcffe36c8",
+        "variants": {
+          "original": {
+            "body": "A tizenegyedik forduló után a NFL-ben a rájátszásért folyó küzdelemben a Steelers bukdácsolása a Bengals csoportelsőségét hozta magával, míg a Patriots az 5-5-ös mérlege ellenére Tommy DeVitóval nehéz helyzetben van a Texans 4-6-os mutatója mellett. A TheAthletic szimulátora alapján a houstoniaknak 31 százalék esélyük van a bejutásra, míg a Steelers-Browns páros az egyértelmű favorit a wild cardra. Az NFC-ben a Panthers felemelkedése révén nincs negatív mérlegű playoff-csapat, a Giants pedig a Jaguars legyőzésével 68 százalékos esélyt szerzett a csoportgyőzelemre. A 49ers a Vikings megverésével szinte eldöntötte az első kiemelést, a 7."
+          },
+          "tolkien": {
+            "title": "A holtak mezőinek árnyéka és a korona várományosai",
+            "body": "A tizenegyedik nagy ütközet után a bajnokság csatamezején a Steelers megroppant büszkesége a Bengals fiait emelte a csoport trónjára, miközben a Patriots táborában az 5-5-ös mérleg dacára Tommy Devito kardja kevésnek tűnik a dicsőséghez. A houstoniak seregének a TheAthletic szimulátora harmincegy százalék esélyt ad a visszatérésre, de a Steelers és a Browns párosa maradt a wild card viadalának megfellebbezhetetlen ura. Az északi földeken a Panthers felemelkedése elűzte a sötét, negatív mérlegek árnyát, a Giants pedig a Jaguars legyőzésével hatalmas lépést tett a birodalom határainak bebiztosításáért, hatvankolc százalékos eséllyel a rájátszásra. A 49ers a Vikings sereglése felett aratott győzelmével pecsételte meg az első kiemelés sorsát, míg a hetedik pecsétért a Packers, a Seahawks és a Rams fiai marakodnak, ahol a fegyverest a Packers viseli, de a legnagyobb reményt a Seahawks hordozza."
+          },
+          "reito": {
+            "title": "Ahol a labda gömbölyű, a statisztikus meg vakarja a fejét",
+            "body": "A tizenegyedik kör után a bajnokság átrendeződő térképén a Steelers bukdácsolása tálcán kínálta a Bengalsnak a csoportelsőséget, míg a Patriots az 5-5-ös mérlege ellenére Tommy DeVitóval próbálja megváltani a világot a 4-6-os Texans mellett. A TheAthletic számítógépe harmincegy százalékos esélyt dobott a houstoniaknak, de a wild card kártyáit továbbra is a Steelers-Browns duó osztja. Az NFC-ben a Panthers olyan bravúrosan kapaszkodott fel, hogy egyetlen negatív mérlegű csapat sem rondít bele a képbe, a Giants pedig a Jaguars skalpjával zsebre vágta a hatvankolc százalékos rájátszási esélyt. A 49ers a Vikings legyőzésével gyakorlatilag lezárta az első kiemelés vitáját, a hetedik helyért szóló körhintában pedig a Packers, Seahawks és Rams trió marakodik, ahol jelenleg a Packers ül a tuti helyen, de a Seahawks kapta a jobb esélyeket."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:08:06 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Történelmi sorozatban a Chicago Bears, jöhet a bajnoki cím!",
+      "link": "https://fuzovelkifele.com/2026/11/tortenelmi-sorozatban-a-chicago-bears-johet-a-bajnoki-cim/?utm_source=rss&utm_medium=rss&utm_campaign=tortenelmi-sorozatban-a-chicago-bears-johet-a-bajnoki-cim",
+      "description": "<p>Történelmi sorozatot produkál a Chicago Bears, amely a New Orleans Saints elleni vasárnapi győzelmével sorozatban ötödik mérkőzését nyerte meg úgy, hogy egyszer sem került hátrányba. A franchise legutóbb 1985-ben volt képes hasonló teljesítményre, amikor végül a Super Bowlt is megnyerte. A Bears az elmúlt öt mérkőzésén minden alkalommal már az első negyedben megszerezte a vezetést, &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/tortenelmi-sorozatban-a-chicago-bears-johet-a-bajnoki-cim/\">Történelmi sorozatban a Chicago Bears, jöhet a bajnoki cím!</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Történelmi sorozatban a Chicago Bears, jöhet a bajnoki cím!",
+        "summary": "<p>Történelmi sorozatot produkál a Chicago Bears, amely a New Orleans Saints elleni vasárnapi győzelmével sorozatban ötödik mérkőzését nyerte meg úgy, hogy egyszer sem került hátrányba. A franchise legutóbb 1985-ben volt képes hasonló teljesítményre, amikor végül a Super Bowlt is megnyerte. A Bears az elmúlt öt mérkőzésén minden alkalommal már az első negyedben megszerezte a vezetést, &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/tortenelmi-sorozatban-a-chicago-bears-johet-a",
+        "url": "https://fuzovelkifele.com/2026/11/tortenelmi-sorozatban-a-chicago-bears-johet-a-bajnoki-cim/?utm_source=rss&utm_medium=rss&utm_campaign=tortenelmi-sorozatban-a-chicago-bears-johet-a-bajnoki-cim",
+        "published": "Tue, 24 Nov 2026 23:08:06 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "571cd2d7f6da7c00d1c11b2a0990b593a176964effab384a54b33fde37bb46bb",
+        "variants": {
+          "original": {
+            "body": "A Chicago Bears amerikaifutball-csapat a New Orleans Saints elleni vasárnapi győzelmével sorozatban ötödik mérkőzését nyerte meg úgy, hogy egyszer sem került hátrányba, ami a klub NFL-bajnoki esélyeit is erősíti a történeti párhuzamok alapján. Ez a gyakorlatban azt jelenti, hogy a csapat az elmúlt öt összecsapás minden egyes negyedében – összesen húsz negyeden keresztül – szerzett pontot, és az első negyedben megszerzett vezetését végig őrizve idézte fel az 1985-ös Super Bowl-győztes, valamint az 1941-es bajnok alakulat legendás sorozatait. A franchise legutóbb 1985-ben produkált hasonló, öt mérkőzésen át tartó vereségtelen vezetési sorozatot, míg a húsz egymást követő pontszerző negyedre legutóbb 1941-ben volt képes az együttes."
+          },
+          "tolkien": {
+            "title": "A medve büszke hadjárata: Újra íródnak az ősidők krónikái",
+            "body": "A Chicago Bears nevű dicső amerikaifutball-csapat a New Orleans Saints ellen vívott vasárnapi viadalán ötödik alkalommal diadalmaskodott úgy, hogy a harcmezőn egyetlen percig sem süllyedt hátrányba. E fenséges menetelés nyomán a nép az NFL trónját és a bajnoki korona elnyetését reméli e bajnokoktól, miközben a múlt kódexeiből feltámad az 1985-ös esztendő dicsősége. A harcosok az elmúlt öt ütközet minden egyes negyedében – immár húsz harci szakaszon át keservesen és megállíthatatlanul – pontot szakítottak ki az ellenféltől, miután már a legelső percekben magukhoz ragadták a fővezérséget. E csodás tett utoljára az 1941-es és az 1985-ös évad szent krónikáiban esett meg, midőn a medvék fiai végül mindannyiszor a dicsőség magaslatára, a bajnoki trónt birtokolva hágóztak fel."
+          },
+          "reito": {
+            "title": "A Chicago Bears ötgólos gyorsvonata: Nem adja ki a kezéből a vezetést az NFL-ben!",
+            "body": "A Chicago Bears amerikaifutball-csapat a New Orleans Saints elleni vasárnapi csörtén húzta be zsinórban az ötödik olyan győzelmét, amelynél egyetlen pillanatra sem kóstolták meg a hátrány ízét az NFL küzdelmeiben, így a bajnoki cím felé robognak. A gyakorlati haszon az, hogy a fiúk az elmúlt öt meccs mind a húsz negyedében termeltek valami pontfélét, ráadásul már az első negyedben mindig magukhoz ragadták a karmezőt, amivel alaposan ráijesztettek a statisztikusokra. Utoljára az 1985-ös, majd az 1941-es legendás gárda tudott ilyen makulátlan sorozatokat hozni, és mindkét alkalommal bajnoki címmel zárták az idényt. Most pedig rajta a sor, hogy ezt a szép kis hagyományt pénzre, azaz bajnoki aranyra váltsák."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:07:57 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Robert Saleh: Undorító, szégyenletes futballt játszottunk",
+      "link": "https://fuzovelkifele.com/2026/11/robert-saleh-undorito-szegyenletes-futballt-jatszottunk/?utm_source=rss&utm_medium=rss&utm_campaign=robert-saleh-undorito-szegyenletes-futballt-jatszottunk",
+      "description": "<p>Kemény szavakkal bírálta csapata teljesítményét Robert Saleh, a Tennessee Titans vezetőedzője, miután együttese 51-30-as vereséget szenvedett a Dallas Cowboys otthonában. A Titans védelme teljesen összeomlott, a Dallas nyolc támadósorozatából hétszer szerzett touchdownt, és 480 támadóyarddal zárta a találkozót. Rengeteg mindenen kell változtatnunk. Amit ma játszottunk, az undorító futball volt, egyszerűen szégyenletes. És természetesen mindez velem &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/robert-saleh-undorito-szegyenletes-futballt-jatszottunk/\">Robert Saleh: Undorító, szégyenletes futballt játszottunk</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Robert Saleh: Undorító, szégyenletes futballt játszottunk",
+        "summary": "<p>Kemény szavakkal bírálta csapata teljesítményét Robert Saleh, a Tennessee Titans vezetőedzője, miután együttese 51-30-as vereséget szenvedett a Dallas Cowboys otthonában. A Titans védelme teljesen összeomlott, a Dallas nyolc támadósorozatából hétszer szerzett touchdownt, és 480 támadóyarddal zárta a találkozót. Rengeteg mindenen kell változtatnunk.",
+        "url": "https://fuzovelkifele.com/2026/11/robert-saleh-undorito-szegyenletes-futballt-jatszottunk/?utm_source=rss&utm_medium=rss&utm_campaign=robert-saleh-undorito-szegyenletes-futballt-jatszottunk",
+        "published": "Tue, 24 Nov 2026 23:07:57 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "c39c5974a6939003ee6992a297ef967bea2441b5ffee02f28ef4cf1d2b6018fe",
+        "variants": {
+          "original": {
+            "body": "Robert Saleh, a Tennessee Titans vezetőedzője és a védelem problémáival küzdő szakmai stáb kemény szavakkal bírálta csapata teljesítményét, miután az együttes 51-30-as vereséget szenvedett a Dallas Cowboys otthonában az NFL-ben. A Dallas nyolc támadósorozatából hétszer szerzett touchdownt, és 480 támadóyarddal zárta a találkozót, ami a Titans sorozatban harmadik 40 kapott pont és 459 engedett yard feletti mérkőzése lett Jeffery Simmons elcserélése óta. A vezetőedző szerint undorító és szégyenletes futballt játszottak, és a változtatásoknak rajta kell kezdeniük. A gyakorlatban ez azt jelenti, hogy a sorozatos kudarcok miatt a védőkoordinátori múlttal rendelkező Saleh csapatának sürgősen át kell alakítania a hiányosságoktól szenvedő védelmét."
+          },
+          "tolkien": {
+            "title": "A dicsőség csonkja: Amikor a Titans pajzsfala porrá omlott Dallas mezőin",
+            "body": "Robert Saleh, a Tennessee Titans vezetőedzője és az északi mezők viharvert hadvezérei kemény szavakkal bírálták csapata teljesítményét, miután az együttes 51-30-as vereséget szenvedett a Dallas Cowboys otthonában az NFL birodalmában. A Dallas nyolc támadósorozatából hétszer szerzett touchdownt, és 480 támadóyarddal törte át a vonalakat, míg a Titans védelme Jeffery Simmons elcserélése óta harmadik alkalommal engedett legalább 40 pontot és 459 yardot. A vezér szavai szerint undorító és szégyenletes futball ez, amely velem kezdődik a csatatéren, és mély sebeket hagy a sorokon. A gyakorlatban ez azt jelenti, hogy a védőkoordinátori múlttal rendelkező mesternek és elhullott seregének azonnal meg kell tisztítania a rombolás nyomait, különben a sötétség teljesen elemészti őket."
+          },
+          "reito": {
+            "title": "Ötvenegy pont a zsebben, és egy edző, aki legszívesebben eltűnne",
+            "body": "Robert Saleh, a Tennessee Titans vezetőedzője és a védelmet irányító szakember keményen nekiment a saját csapatának, miután 51-30-as zakót kaptak a Dallas Cowboys otthonában az NFL-ben. A Dallas nyolc próbálkozásból hétszer ment át a védelmen touchdownt érően, és 480 yardot pakolt fel a táblára, míg a Titans Jeffery Simmons távozása óta zsinórban harmadszor kapott be legalább 40 pontot és 459 yardot. Az edző nyers őszinteséggel csak undorító és szégyenletes futballnak nevezte a látottakat, hozzátéve, hogy az egész az ő nyakán csattan. A gyakorlatban ez azt hozta, hogy a védőkoordinátori múlttal büszkélkedő főnöknek most sürgősen ki kell találnia, hogyan tömje be a lyukakat a süllyedő hajón."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:07:55 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Hall of Fame szintű szezonkezdetet produkál a Jets újonca",
+      "link": "https://fuzovelkifele.com/2026/11/hall-of-fame-szintu-szezonkezdetet-produkal-a-jets-ujonca/?utm_source=rss&utm_medium=rss&utm_campaign=hall-of-fame-szintu-szezonkezdetet-produkal-a-jets-ujonca",
+      "description": "<p>NFL-történelmet írt a New York Jets újonc linebackere, David Bailey, aki pályafutása első tíz mérkőzésén 9,5 sacket és hat kiharcolt fumble-t szerzett. A sackek 1982-es hivatalos statisztikai bevezetése óta egyetlen játékos sem érte el mindkét mutatót ilyen rövid idő alatt. A 2026-os draft második helyén kiválasztott Bailey a Los Angeles Chargers elleni, 27–24-re megnyert mérkőzésen &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/hall-of-fame-szintu-szezonkezdetet-produkal-a-jets-ujonca/\">Hall of Fame szintű szezonkezdetet produkál a Jets újonca</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Hall of Fame szintű szezonkezdetet produkál a Jets újonca",
+        "summary": "<p>NFL-történelmet írt a New York Jets újonc linebackere, David Bailey, aki pályafutása első tíz mérkőzésén 9,5 sacket és hat kiharcolt fumble-t szerzett. A sackek 1982-es hivatalos statisztikai bevezetése óta egyetlen játékos sem érte el mindkét mutatót ilyen rövid idő alatt. A 2026-os draft második helyén kiválasztott Bailey a Los Angeles Chargers elleni, 27–24-re megnyert mérkőzésen &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/hall-of-fame-szintu-szezonkezdetet-produkal-",
+        "url": "https://fuzovelkifele.com/2026/11/hall-of-fame-szintu-szezonkezdetet-produkal-a-jets-ujonca/?utm_source=rss&utm_medium=rss&utm_campaign=hall-of-fame-szintu-szezonkezdetet-produkal-a-jets-ujonca",
+        "published": "Tue, 24 Nov 2026 23:07:55 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "a1a010619570fe28a8099b5bff1a6e532a121e5cdc90c5db586bfd891a3f6305",
+        "variants": {
+          "original": {
+            "body": "NFL-történelmet írt a New York Jets újonc linebackere, David Bailey, miután pályafutása első tíz mérkőzésén 9,5 sacket és hat kiharcolt fumble-t szerzett. A Los Angeles Chargers elleni, 27–24-re megnyert találkozón a játékos kétszer sackelte Justin Herbertet, és egy fumble-t is kiharcolt, így a sackek 1982-es hivatalos bevezetése óta egyetlen újonc sem ért el ilyen mutatót ilyen rövid idő alatt. A 2026-os draft második helyén kiválasztott Bailey a sérülés miatti egy kihagyott mérkőzés ellenére eddig teljesen beváltja az 1/2-es pozícióhoz fűzött reményeket. Hasonló teljesítményre korábban csak Julius Peppers (10 meccsen 11 sack) és Reggie White (10 sack) volt képes, de ők kiharcolt labdákban elmaradtak a Jets játékosától."
+          },
+          "tolkien": {
+            "title": "Az Újonc Dicső Krónikája a Pályák Mezején",
+            "body": "NFL-történelmet írt a New York Jets újonc linebackere, David Bailey, miközben pályafutása első tíz mérkőzésén 9,5 sacket és hat kiharcolt fumble-t szerzett. E félelmetes fegyverforgató a Los Angeles Chargers elleni, 27–24-es diadalmas ütközetben kétszer terítette le Justin Herbertet, és a labdát is kitépte a kezéből, amivel a sackek 1982-es hivatalos hajnala óta példátlan tettet hajtott végre. A 2026-os draft második helyén kiválasztott ifjú hős egyetlen kihagyott csata dacára is fényesen beváltja a várakozásokat. Olyan legendás elődök nyomdokaiba lépett, mint Julius Peppers vagy Reggie White, bár ők a labdakihordás viharában elmaradtak az ő gazdag termésétől."
+          },
+          "reito": {
+            "title": "Sack-eső Los Angelesben: Hátraarc a rekordok könyvének",
+            "body": "NFL-történelmet írt a New York Jets újonc linebackere, David Bailey, aki az első tíz meccsén összehozott 9,5 sackkel és hat kiharcolt fumble-lel alaposan felkavarta az állóvizet. A Los Angeles Chargers elleni, 27–24-es nyerő meccsen Justin Herbert tiszteletére kétszer is letaglózta az irányítót, sőt még a labdát is kipréselte belőle, amire 1982 óta nem volt példa ilyen gyorsan. A 2026-os draft 1/2-ese ráadásul mindezt egy kihagyott meccs után hozta össze, igazolva a drafton belé fektetett bizalmat. Julius Peppers és Reggie White ugyan megközelítették ezt a szintet a sackek tekintetében, de a fumble-mutatóban csúnyán lemaradtak a Jets ifjú üdvöskéje mögött."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:07:53 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Agyrázkódás protokollba került Justin Herbert",
+      "link": "https://fuzovelkifele.com/2026/11/agyrazkodas-protokollba-kerult-justin-herbert/?utm_source=rss&utm_medium=rss&utm_campaign=agyrazkodas-protokollba-kerult-justin-herbert",
+      "description": "<p>Agyrázkódás protokollba került a Los Angeles Chargers irányítója, Justin Herbert, aki a New York Jets elleni, 27-24-re elveszített vasárnapi mérkőzésen sérült meg. Bár az irányító végigjátszotta a találkozót, utána nem sokkal jelentkeztek a tünetek. Herbert a Jets ellen 21 passzkísérletéből 15-öt teljesített, 131 yardot és két touchdownt szerzett, emellett nyolc futásból 32 yardot és egy &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/agyrazkodas-protokollba-kerult-justin-herbert/\">Agyrázkódás protokollba került Justin Herbert</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Agyrázkódás protokollba került Justin Herbert",
+        "summary": "<p>Agyrázkódás protokollba került a Los Angeles Chargers irányítója, Justin Herbert, aki a New York Jets elleni, 27-24-re elveszített vasárnapi mérkőzésen sérült meg. Bár az irányító végigjátszotta a találkozót, utána nem sokkal jelentkeztek a tünetek. Herbert a Jets ellen 21 passzkísérletéből 15-öt teljesített, 131 yardot és két touchdownt szerzett, emellett nyolc futásból 32 yardot és egy &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/agyrazkodas-protokollba-kerult-justin-h",
+        "url": "https://fuzovelkifele.com/2026/11/agyrazkodas-protokollba-kerult-justin-herbert/?utm_source=rss&utm_medium=rss&utm_campaign=agyrazkodas-protokollba-kerult-justin-herbert",
+        "published": "Tue, 24 Nov 2026 23:07:53 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "4d671489f493744f5aed356f8dea87b9556a738583bcc7da737c93dffdec0df2",
+        "variants": {
+          "original": {
+            "body": "Agyrázkódás protokollba került a Los Angeles Chargers irányítója, Justin Herbert, miután a New York Jets ellen 27-24-re elveszített vasárnapi mérkőzés után tünetei jelentkeztek, pedig végigjátszotta a találkozót. A gyenge támadfal miatt hat alkalommal sackelt és számtalan ütést kapott játékos szereplése erősen kérdéses a következő fordulóban, amikor a Chargers a New England Patriotst fogadja, mivel az esetek többségében a protokoll egyhetes kihagyással jár. A Jets ellen egyébként 21 passzkísérletéből 15-öt teljesített 131 yarddal és két touchdownnal, valamint nyolc futásból 32 yardot és egy futott touchdownt ért el."
+          },
+          "tolkien": {
+            "title": "A Vasfalak Árnyéka és az Irányító Vívmánya",
+            "body": "Agyrázkódás protokollba került a Los Angeles Chargers irányítója, Justin Herbert, kit a New York Jets elleni, 27-24-re elveszített vasárnapi csata után értek utol a rejtőzködő sebek, noha a viadalt végigküzdötte. A hűséges pajzs gyanánt szolgáló, ám e napon roskatag támadfal védelmét hat alkalommal törték át a harcosok, számtalan csapást mérve a vezérre, aki 21 passzából 15-öt juttatott célba 131 yardért és két dicső touchdownért, míg lábbal nyolc roham során 32 yardot és egy futott touchdownt aratott. Mivel a sötét protokoll bilincse rendszerint egy teljes holdtöltésnyi, azaz egyhetes csendet ró a hősre, a New England Patriots elleni következő ütközetben való részvétele sötét homályba vész. E harctéri sebek nyomán a bukás nem lepte meg a népet, hiszen a korábbi viadalok is már sebeket hagytak a bajnokon."
+          },
+          "reito": {
+            "title": "Hat sack és egy fejfájás: Herbert a protokoll fogságában",
+            "body": "Agyrázkódás protokollba került a Los Angeles Chargers irányítója, Justin Herbert, miután a New York Jets elleni 27-24-es vereséggel végződő vasárnapi meccs után – amelyet azért becsülettel végigküzdött – hirtelen jelentkeztek a tünetei. A statisztikái így is csinosak lettek: 21 passzból 15 találat, 131 yard és két touchdown, plusz nyolc futásból 32 yard és egy földön szerzett hatpontos. Cserébe a lyukas támadfalnak köszönhetően hatszor is elterítették a gyepen, ami után nem csoda, hogy a teste benyújtotta a számlát. Mivel ez a protokoll általában egyhetes pihenővel jár, a következő, New England Patriots elleni meccsen való szereplése erősen a csillagok állásán múlik."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Tue, 24 Nov 2026 23:07:50 +0000",
+      "observed": "2026-11-25T01:02:24.891092+01:00",
+      "title": "Komoly veszteség érte a Giantset és Ramset is",
+      "link": "https://fuzovelkifele.com/2026/11/komoly-veszteseg-erte-a-giantset-es-ramset-is/?utm_source=rss&utm_medium=rss&utm_campaign=komoly-veszteseg-erte-a-giantset-es-ramset-is",
+      "description": "<p>Véget ért a Los Angeles Rams tight endjének, Terrance Fergusonnak a 2026-os szezonja, miután műteni kell a bokáját. A támadó korábban már közel állt a visszatéréshez, de az edzéseken combhajlítóizom-sérülést szenvedett, a bokája pedig nem reagált megfelelően a kezelésekre. A 2025-ös draft második körében kiválasztott játékos idén mindössze három mérkőzésen szerepelt, hét elkapásból 63 yardot &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/komoly-veszteseg-erte-a-giantset-es-ramset-is/\">Komoly veszteség érte a Giantset és Ramset is</a> first appeared on <a href=\"https://fuzovelkifele.com\">Fűzővel kifelé!</a>.</p>",
+      "image": "",
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Komoly veszteség érte a Giantset és Ramset is",
+        "summary": "<p>Véget ért a Los Angeles Rams tight endjének, Terrance Fergusonnak a 2026-os szezonja, miután műteni kell a bokáját. A támadó korábban már közel állt a visszatéréshez, de az edzéseken combhajlítóizom-sérülést szenvedett, a bokája pedig nem reagált megfelelően a kezelésekre. A 2025-ös draft második körében kiválasztott játékos idén mindössze három mérkőzésen szerepelt, hét elkapásból 63 yardot &#8230;</p> <p>The post <a href=\"https://fuzovelkifele.com/2026/11/komoly-veszteseg-erte-a-giantset-es",
+        "url": "https://fuzovelkifele.com/2026/11/komoly-veszteseg-erte-a-giantset-es-ramset-is/?utm_source=rss&utm_medium=rss&utm_campaign=komoly-veszteseg-erte-a-giantset-es-ramset-is",
+        "published": "Tue, 24 Nov 2026 23:07:50 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "8e74f60fa4ba365995a0c2b0b6a35edda2963e9cd254fd4805a45dbfe3bb699e",
+        "variants": {
+          "original": {
+            "body": "A Los Angeles Rams tight endjének, Terrance Fergusonnak a 2026-os szezonja véget ért a bokaműtétje miatt, ami az NFL ezen csapatának komoly kiesést jelent. A New York Giants cornerbackje, Greg Newsome magas bokaszalag-rándulás miatt az IR-re került, így a Giants a tavasszal kötött egyéves szerződését három évvel meghosszabbító játékosát veszíti el a keretben. A Baltimore Ravens futója, Derrick Henry a Carolina Panthers elleni meccsen agyrázkódás gyanúja miatt vizsgálaton esett át, de a vizsgálatok megnyugtató eredménye miatt nem került be a protokollba. A Carolina Panthers támadófalembere, Brady Christensen biztosan kihagyja a 2026-os szezon hátralévő részét, mivel a klub nem aktiválta a sérültlistáról a 21 napos edzésidőszak lejártáig."
+          },
+          "tolkien": {
+            "title": "A holtak csarnoka felé lépkedő sorsok krónikája az NFL mezőin",
+            "body": "Íme, a Los Angeles Rams büszkeségének, Terrance Ferguson tight endnek a 2026-os éve éri el végzetes alkonyát a bokáját feszítő acél pengéi és műtétei által az NFL birodalmában. E sötét órában a New York Giants védője, Greg Newsome is a sebesültek csendes, sötét tömlöcébe, az IR-re vettetett magas bokaszalagjának kínjai miatt. Ám a Baltimore Ravens harcosa, Derrick Henry viharos rohamában fejessel érkezett a föld porába a Carolina Panthers ellen, de a vizsgálatok tüzes próbáját kiállva elkerülte az agyrázkódás súlyos igáját. Végül a Carolina Panthers várfalat építő embere, Brady Christensen is az örökös téli álom fogságába esett, mert a huszonegy napos ébredési ideje meddőn múlt el."
+          },
+          "reito": {
+            "title": "Kórházi turné és eltiltott pályák: így dőlnek ki a sztárok az NFL-ben",
+            "body": "A Los Angeles Rams tight endje, Terrance Ferguson a 2026-os szezonját búcsúztatja egy bokaműtéttel, miután az NFL csatamezején a combhajlítója is cserbenhagyta. A New York Giants cornerbackje, Greg Newsome eközben a Jacksonville elleni győzelem után egy magas bokaszalag-rándulással csusszant át az IR-re, éppen amikor a klub három évvel meghosszabbította a szerződését. A Baltimore Ravens futója, Derrick Henry a Carolina Panthers elleni negyed végén egy tizenöt yardos touchdown után még az öltözőbe is letrappolt agyrázkódás gyanújával, de a vizsgálatok után szerencsére megúszta a protokollt. A Carolina Panthers támadófalembere, Brady Christensen pedig a huszonegy napos edzésidőszak leteltével hivatalosan is leiratkozott a 2026-os idény hátralévő részéről a sérültlistán."
+          }
+        }
+      },
+      "preparedVividStyles": true
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-25T00:02:12.574523+01:00"
+  "lastRssCollection": "2026-11-25T01:02:24.891092+01:00"
 }
