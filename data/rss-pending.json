@@ -1276,7 +1276,36 @@
       "title": "50 milliárd eurós technológiai alapot hozhat létre az EU, a kvantumszámítástechnikára fogad Európa",
       "link": "https://www.portfolio.hu/uzlet/20261125/50-milliard-euros-technologiai-alapot-hozhat-letre-az-eu-a-kvantumszamitastechnikara-fogad-europa-878898",
       "description": "<p>Az Európai Unió egy akár 50 milliárd eurós technológiai alap létrehozását tervezi, hogy csökkentse az Egyesült Államokkal és Kínával szembeni lemaradását. A brüsszeli tervek szerint az új finanszírozási eszköz hosszú távú, magas kockázatú befektetésekkel támogatná az európai mesterségesintelligencia- és kvantumszámítástechnikai vállalatokat, erősítve ezzel a kontinens technológiai szuverenitását - írta meg a <a href=\"https://www.ft.com/content/53d4b629-7ae4-4d63-ac37-e773b1dd3af0?syn-25a6b1a6=1\" target=\"_blank\" rel=\"noopener\">Financial Times</a>.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/u/r/s/ursula-von-der-leyen-ep-strasbourg-663925.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/u/r/s/ursula-von-der-leyen-ep-strasbourg-663925.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "50 milliárd eurós technológiai alapot hozhat létre az EU, a kvantumszámítástechnikára fogad Európa",
+        "summary": "<p>Az Európai Unió egy akár 50 milliárd eurós technológiai alap létrehozását tervezi, hogy csökkentse az Egyesült Államokkal és Kínával szembeni lemaradását. A brüsszeli tervek szerint az új finanszírozási eszköz hosszú távú, magas kockázatú befektetésekkel támogatná az európai mesterségesintelligencia- és kvantumszámítástechnikai vállalatokat, erősítve ezzel a kontinens technológiai szuverenitását - írta meg a <a href=\"https://www.ft.com/content/53d4b629-7ae4-4d63-ac37-e773b1dd3af0?syn-25a6b1a6",
+        "url": "https://www.portfolio.hu/uzlet/20261125/50-milliard-euros-technologiai-alapot-hozhat-letre-az-eu-a-kvantumszamitastechnikara-fogad-europa-878898",
+        "published": "Wed, 25 Nov 2026 07:32:00 +0100",
+        "categories": [
+          "technology",
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/u/r/s/ursula-von-der-leyen-ep-strasbourg-663925.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "8a75d22a62d18c298d26cabbc0f67e93851f4f03dd87332dfedacc95974b47e1",
+        "variants": {
+          "original": {
+            "body": "Az Európai Unió egy 50 milliárd eurós technológiai alapot, a Sovereign Tech Equity Fundot (Stef) hozhat létre, amely kifejezetten a kvantumszámítástechnikára és a mesterséges intelligenciára fókuszál. A tervezett konstrukció jelentős gyakorlati következménye, hogy az uniós források magvető tőkeként szolgálnának a magánszektor bevonásához, így minden egyes befektetett uniós euró mellé hat eurónyi magántőkét mozgósítanának. Az Európai Bizottság szerdán mutatja be új kvantumstratégiáját, a működési részleteket pedig várhatóan februárban, az uniós vezetők belgiumi Alden Biesenben tartandó versenyképességi találkozóján ismertetik. A külföldi versenyhátrány leküzdését célzó, független alapkezelő által irányított kezdeményezés pénzügyi szakértelmét az Európai Beruházási Bank (EBB) biztosíthatja."
+          },
+          "tolkien": {
+            "title": "Az Ötvenmilliárdos Kincsestár és a Kvantumok Magas Ércpártfogói",
+            "body": "A Nyugat Tanácsaiban egy hatalmas, ötvenmilliárd eurós kincsestár, a Sovereign Tech Equity Fund terve született meg, hogy a mesterséges intelligencia és a kvantumszámítástechnika rejtett bércein győzedelmeskedjék. E merész és távoli időkig nyúló befektetések áradata arra hivatott, hogy minden egyes birodalmi euró mellé hat aranyat csalogasson elő a magántőke rejtett kamráiból. Az Európai Bizottság szerdán tárja fel új kvantumstratégiájának tekercseit, míg a működés titkait februárban, az alden bieseni fejedelmi találkozón hirdetik ki a belga földön. Hogy a politika árnyéka ne homályosítsa el a szövetség útját, a vagyont független bölcsek őrzik majd, az Európai Beruházási Bank tanácsával kísérve."
+          },
+          "reito": {
+            "title": "A kvantumtúra ára: ötvenmilliárd a kalapban és hat a haveroktól",
+            "body": "Az Európai Unió egy 50 milliárd eurós Sovereign Tech Equity Fund (Stef) nevű pénzügyi bűvészmutatványra készül, amelyben a mesterséges intelligencia és a kvantumszámítástechnika kapja a főszerepet. A ravasz konstrukció lényege, hogy Brüsszel egyetlen elköltött eurójára a magántőkétől azonnal hat újabb eurót csikarnak ki magnaként. Az Európai Bizottság mindezt szerdán dobja be az új kvantumstratégiával, a részleteket pedig februárban, Alden Biesenben, az uniós csúcson terítik ki a nagyközönség elé. A politikusokat finoman kipaterolják a kassza közeléből, így a vagyon sorsát egy független alapkezelő intézi, miközben az EBB vigyázza a lépteiket – már ami a pénzügyi szakértelmet illeti."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
