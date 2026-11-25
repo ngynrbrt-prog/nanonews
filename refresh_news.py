@@ -41,7 +41,6 @@ rules={
  "cycling":["kerékpár","kerékpáros","cycling","tour de france","giro d’italia","vuelta"],
  "darts":["darts","pdc","professional darts corporation","darts-vb","darts vb","darts-világbajnokság"],
  "environment":["környezetvédelem","környezetvédelmi","klímaváltozás","klímavédelem","klímavédelmi","klíma","természetvédelem","természetvédelmi","védett természeti terület","inváziós faj","inváziós halfaj","biodiverzitás","ökoszisztéma","élőhely","erdőirtás","légszennyezés","szennyezés","károsanyag-kibocsátás","üvegházhatású gáz","megújuló energia","fenntarthatóság","aszály","hulladék","műanyag-szennyezés"],
- "films":["film","filmes","mozifilm","filmbemutató","filmfesztivál","filmrendező","filmstúdió","mozi","mozis","movie","cinema"],
  "technology":["találmány","feltaláló","új eszköz","új készülék","technológia","technológiai","kutatás","kutatási","kutató","tudomány","felfedezés","kísérlet","tanulmány","szoftver","szoftverfejlesztés","alkalmazás","digitális","digitalizáció","mesterséges intelligencia","chatgpt","kiberbiztonság","adatvédelem","robotika","robot","chip","processzor","okostelefon","laptop","készülék","startup","innováció","fejlesztés"],
  "property":["ingatlanpiac","ingatlanpiaci","ingatlanár","ingatlanárak","ingatlanfejlesztés","ingatlanfejlesztő","ingatlanbefektetés","lakáspiac","lakásár","lakásárak","lakásépítés","lakásvásárlás","lakáshitel","lakóingatlan","bérlakás","albérlet","négyzetméterár","irodapiac","irodaingatlan","ingatlanállomány","lakásállomány"],
  "tennis":["tenisz","teniszező","teniszbajnokság","teniszverseny","tenisztorna","atp","wta","grand slam","wimbledon","roland garros","us open","australian open","davis-kupa","billie jean king-kupa"],
@@ -109,7 +108,16 @@ def is_domestic_market_story(title, summary):
     ))
 
 
+FILM_TERMS = re.compile(r"\b(?:(?:mozi|dokumentum|játék|rajz|animációs|rövid|néma|tévé|nagyjáték|kis|mese)?film(?:es|et|ek(?:et|ben|hez|ről|nek|kel|ből)?|ben|ből|hez|nek|ről|re|ért|je|jét|jének|jével|jéről|jében|jei|jeit|ünk|ünkben|gyártás[^\W\d_]*|bemutató[^\W\d_]*|fesztivál[^\W\d_]*|rendező[^\W\d_]*|stúdió[^\W\d_]*|kritik[^\W\d_]*|ipar[^\W\d_]*|színház[^\W\d_]*|szerep[^\W\d_]*|világ[^\W\d_]*)?|mozi(?:s|t|k(?:at|ban)?|ba|ban|ból|hoz|nak|ról|val|zás[^\W\d_]*|zik|műsor[^\W\d_]*|premier[^\W\d_]*)?|movies?|cinemas?)\b", re.I)
+
+def is_film_story(title, summary):
+    text = unescape(re.sub(r"<[^>]*>", " ", title + " " + summary))
+    return bool(FILM_TERMS.search(unicodedata.normalize("NFC", text)))
+
 def apply_subject_categories(title, summary, categories):
+    categories = [category for category in categories if category != "films"]
+    if is_film_story(title, summary):
+        categories.append("films")
     if is_nature_story(title):
         return ["environment"]
     if is_domestic_market_story(title, summary) and "hu-market" not in categories:
@@ -710,6 +718,8 @@ for key, record in list(inbox.items()):
                 prepared["categories"] = apply_subject_categories(
                     record["title"], record["description"], prepared["categories"],
                 )
+                if not prepared["categories"]:
+                    continue
                 if "sourceArticleLinks" not in prepared:
                     _, _, source_links=fetch_article(prepared["url"])
                     if source_links is not None:
