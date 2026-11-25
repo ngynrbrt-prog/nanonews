@@ -404,7 +404,7 @@
         "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
       ],
       "contentBasis": "article",
-      "sourceHash": "779e01f32317465c00ab39216af4ef7dfa39da9368377ef7b739266bab9a78e3",
+      "sourceHash": "d3c4d648ee78766bd0dee488a4758dc045575f256b73d21955502870b04e6274",
       "relatedStories": [
         {
           "source": "Telex",
@@ -570,7 +570,20 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A forint árfolyama az euróval szemben már 374 felett is járt, miközben a magyar fizetőeszköz árfolyama a tőkekivonások és a nemzetközi devizapiaci nehézségek közepette gyengült. Ez a folyamat a belföldi gazdasági szereplők és a hazai devizapiac számára komoly árfolyamnyomást és jelentős napi kilengéseket eredményezett. Ezzel párhuzamosan a Nike sportszergyártó három lépéssel készül 2027-re, többek között átvéve a német válogatott mezszállítását. A hír a nemzetközi devizapiaci folyamatok mellett a sportszergyártó piaci mozgásait is érinti."
+        },
+        "tolkien": {
+          "title": "A renyhe forint bús árnya",
+          "body": "Íme, az euró hódító léptei elérték a 374-es bűvös határt, miközben a magyar fizetőeszköz a mélybe zuhant a vad tőkekivonások viharában. Ez a harcmező nem kímélte a belföldi gazdaság gyenge bástzáit, hol a veszteség mérföldkövei emelkednek magasan. Eközben a Nike is új hadjáratra indul, átvéve a német válogatott mezszállítását és az UEFA-klubtornák mezeit, hogy dicsőséget szerezzen. Így fonódik össze a devizák sorsa a sportszergyártók viharos ambícióival."
+        },
+        "reito": {
+          "title": "Háromszázhetvennégy árnyalata",
+          "body": "A forint egy laza mozdulattal átugrotta a 374-es eurós szintet, bizonyítva, hogy a tőkekivonások elől nincs menekvés a belföldi piacon. Ez a kis ársokk pontosan elegendő volt ahhoz, hogy a hazai pénztárcák is megérezzék a nemzetközi viharok szelét. Eközben a Nike is nagyot álmodott, és átveszi a német válogatott mezszállítását, hogy a futballpályák viharában se maradjon bevétele nélkül. Így kerekedik ki a történet, ahol a devizagondok és a sportszergyártói tervek kéz a kézben járnak."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -1281,7 +1294,7 @@
         "https://www.portfolio.hu/podcast/20261124/nem-az-a-kerdes-ki-epiti-meg-a-lakasokat-hanem-hogy-ki-lesz-a-tobb-ezres-lakasportfoliok-tulajdonosa-50-evre-877028"
       ],
       "contentBasis": "article",
-      "sourceHash": "42862a2722655cab360c72691c66883fc032e4d319961f836c44d68d19f8e459",
+      "sourceHash": "56d5d01bb64eccafc35b626649b095b636aaa617907b5a856afc6c4bcf4b5029",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -1399,7 +1412,20 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A szervezett bűnözés elleni ügyészséghez benyújtott feljelentés alapján Aleksandar Vučić volt államfőt, Ana Brnabićot, valamint Predrag Ćulibrk és Vladimir Lučić vezérigazgatókat érintően indult eljárás, míg Dragan J. Vučićević médiavállalkozót 48 órára őrizetbe vették. A belföldi események keretében zajló eljárásban a feljelentők szerint a 2018 és 2026 közötti időszakban túlárazott szerződésekkel 780,7 millió eurós (292 milliárd forint) közvetlen kárt okoztak a stratégiai jelentőségű állami vállalatnak, miközben a működési veszteség 437 millió eurót (163,2 milliárd forint) tett ki. A feljelentés szerint a cselekmények hivatali visszaélés, befolyással üzérkedés, pénzmosás, gazdasági csalás, sikkasztás, valamint szabotázs gyanúját vetik fel, míg az őrizetbe vett médiavállalkozót pánikkeltéssel, zavargáskeltéssel és az igazságszolgáltatás akadályozásával gyanúsítják."
+        },
+        "tolkien": {
+          "title": "A birodalmi hálózat omlása és a hatalmasok felelőssége",
+          "body": "A sorsfordító idők viharában Aleksandar Vučić volt államfő, Ana Brnabić, valamint Predrag Ćulibrk és Vladimir Lučić vezérigazgatók neve merült fel a szervezett bűnözés elleni ügyészséghez benyújtott vádakban, míg Dragan J. Vučićevićet negyvennyolc órára fogságba vetették. A belföldi birodalom falai között 2018 és 2026 között a korona ékkövének számító, stratégiai állami vállalatot hálóként hálózták be a túlárazott szerződések, amelyek 780,7 millió eurós (292 milliárd forint) nyers veszteséget és 437 millió eurós (163,2 milliárd forint) működési romlást mértek a közös vagyonra. A vádak súlya gazdasági bűnöket, pénzmosást, sikkasztást és az alkotmányos rend elleni szabotázst kiált, a láncra vert médiavállalkozót pedig pánikszítéssel és az igazság útjának eltorlaszolásával terhelik."
+        },
+        "reito": {
+          "title": "Számok a rács mögött: milliárdos veszteségek és egy felháborodott párt",
+          "body": "A szervezett bűnözés elleni ügyészség asztalára került paksaméta Aleksandar Vučić volt államfőt, Ana Brnabićot, valamint Predrag Ćulibrk és Vladimir Lučić vezérigazgatókat vette célba, miközben Dragan J. Vučićević médiavállalkozót 48 órára hűvösre tettek. A belföldi színtéren kibontakozó balhé főszereplői a 2018 és 2026 közötti időszakban 780,7 millió eurós (292 milliárd forint) közvetlen kárt és 437 millió eurós (163,2 milliárd forint) működési veszteséget hoztak össze a stratégiai állami vállalatnál a túlárazott szerződésekkel. A listán szereplő vádak a hivatali visszaéléstől a sikkasztáson át egészen a szabotázsig terjednek, míg a rács mögé került médiamágnást pánikkeltéssel és az igazságszolgáltatás akadályozásával gyanúsítják."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
