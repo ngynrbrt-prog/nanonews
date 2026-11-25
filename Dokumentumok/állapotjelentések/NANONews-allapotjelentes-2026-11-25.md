@@ -83,3 +83,25 @@ A mérési időszak budapesti idő szerint 2026-11-25 05:01:03 és 2026-11-25 11
 Az RSS-adatok utolsó elérhető mentése 2026-11-25 11:10:29. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/6e210da7fb2bcfb0b8a1199dd355036ddbc91534) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/13842ad5a9a9585ef377b8467f508b27670a1034)
 
 Mentés indítása budapesti idő szerint 2026-11-25 11:50:33.
+
+## Rendkívüli állapotjelentés – 12:49:56
+
+A mérés a 2026. november 25-i 05:01:03-as reggeli kiadás után begyűjtött cikkekre terjed ki. A következő kiadás tervezett időpontja 16:00. Az időpontok budapesti idő szerint értendők.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 28 | 16 | 16 | 16 | 16 | 16 | 100,0% | 0 |
+| HVG | 49 | 21 | 21 | 21 | 21 | 21 | 100,0% | 0 |
+| Nemzeti Sport | 24 | 12 | 12 | 12 | 12 | 12 | 100,0% | 0 |
+| NBAnews.hu | 4 | 4 | 4 | 4 | 4 | 4 | 100,0% | 0 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 22 | 8 | 8 | 8 | 8 | 8 | 100,0% | 0 |
+| Portfolio.hu | 59 | 45 | 45 | 45 | 45 | 45 | 100,0% | 0 |
+| Origo.hu | 50 | 12 | 12 | 12 | 12 | 12 | 100,0% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 236 | 118 | 118 | 118 | 118 | 118 | 100,0% | 0 |
+
+A 11:50:33-as jelentéshez képest **41-gyel több cikk gyűlt be, és 20-szal nőtt a rovatba illő cikkek száma**. Mind a 118 rovatba illő cikkhez elkészült mindhárom változat. Az éles kiadásban 0 cikk vár stílusváltozatra.
+
+Az utolsó rögzített RSS-lekérés 12:00:41-kor, az ellenőrzött adatmentés 12:07:26-kor történt. A későbbi változások még nem ellenőrizhetők ebből a mentésből. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/94d085b4add4fe5d29721f47df689bdaa7867610) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/blob/94d085b4add4fe5d29721f47df689bdaa7867610/data/latest.json)
