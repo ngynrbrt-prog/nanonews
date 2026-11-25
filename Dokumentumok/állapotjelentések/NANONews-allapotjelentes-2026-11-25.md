@@ -147,3 +147,23 @@ A mérési időszak budapesti idő szerint 2026-11-25 05:01:03 és 2026-11-25 15
 Az RSS-adatok utolsó elérhető mentése 2026-11-25 14:15:06. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/efeaa887410385318ae37c83d6193ab862b6e075) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/efeaa887410385318ae37c83d6193ab862b6e075)
 
 Mentés indítása budapesti idő szerint 2026-11-25 15:55:15.
+
+## 21:00
+
+A mérési időszak budapesti idő szerint **2026-11-25 16:04:54 – 2026-11-25 21:00:00**. A következő reggeli kiadás tervezett ideje **2026-11-26 05:00:00**.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 6 | 3 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| HVG | 9 | 6 | 0 | 0 | 0 | 0 | 0,0% | 6 |
+| Nemzeti Sport | 5 | 1 | 0 | 0 | 0 | 0 | 0,0% | 2 |
+| NBAnews.hu | 1 | 1 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 4 | 1 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Portfolio.hu | 12 | 8 | 0 | 0 | 0 | 0 | 0,0% | 12 |
+| Origo.hu | 11 | 2 | 0 | 0 | 0 | 0 | 0,0% | 2 |
+| Összesen | 48 | 22 | 0 | 0 | 0 | 0 | 0,0% | 24 |
+
+Az utolsó rögzített RSS-gyűjtés 2026-11-25 17:09:12, az RSS-állapot forráscommitjának ideje 2026-11-25 17:24:24. Az utolsó mentés után esetleg begyűjtött vagy előkészített cikkek száma ismeretlen. Hiányzó észlelési idő: 0. Rovatba sorolható, igazolt publikálási idő nélküli rekord: 0. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/d6cb3d42ac471383015116d13383acac4a3f609c) · [A délutáni kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/b3acae2160d3ffabe98f0922afbb37eeafc787af)
+
+Mentés indítása budapesti idő szerint 2026-11-25 21:00:08.
