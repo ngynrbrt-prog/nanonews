@@ -143,6 +143,7 @@ class ArticleTextParser(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.skip=0; self.article=0; self.scope_tags=[]
         self.capture=False; self.paragraph=[]; self.preferred=[]; self.fallback=[]
+        self.article_links=[]; self.related_sections=[]
     def handle_starttag(self,tag,attrs):
         attrs=dict(attrs); classes=(attrs.get("class","")+" "+attrs.get("id","")).casefold()
         if tag in self.blocked:
@@ -151,6 +152,12 @@ class ArticleTextParser(HTMLParser):
         if tag=="article": self.article+=1
         if any(word in classes for word in ("article-body","article-content","story-body","story-content","post-content","content-body")):
             self.scope_tags.append(tag)
+        if tag in {"div", "section", "ul", "ol"} and (
+            self.related_sections or re.search(r"related[-_ ]*(?:article|stor)|kapcsolodo[-_ ]*cikk", classes)
+        ):
+            self.related_sections.append(tag)
+        if tag=="a" and (self.article or self.scope_tags or self.related_sections) and attrs.get("href"):
+            self.article_links.append(attrs["href"])
         if tag=="p":
             self.capture=True; self.paragraph=[]
             self.prefer_current=self.article>0 or bool(self.scope_tags)
@@ -163,6 +170,7 @@ class ArticleTextParser(HTMLParser):
             if self.skip:self.skip-=1
             return
         if self.skip:return
+        if self.related_sections and tag==self.related_sections[-1]:self.related_sections.pop()
         if tag in self.scope_tags:self.scope_tags.remove(tag)
         if tag=="p" and self.capture:
             value=" ".join(self.paragraph).strip()
@@ -175,6 +183,10 @@ class ArticleTextParser(HTMLParser):
 def story_key(url):
     parts=urllib.parse.urlsplit(url)
     return (parts.netloc.lower(),parts.path.rstrip("/"))
+
+def reference_key(url):
+    host, path = story_key(url)
+    return host.removeprefix("www."), path
 
 def parse_published(value):
     if not value:return None
@@ -240,11 +252,12 @@ def attach_archived_stories(items,archive_records):
     for lead in items:
         current_group=[lead]+list(lead.get("relatedStories",[]) or [])
         related=lead.setdefault("relatedStories",[])
-        known_urls={story_key(record.get("url","")) for record in current_group if record.get("url")}
+        known_urls={reference_key(record["url"]) for record in current_group + related if record.get("url")}
+        explicit_urls={reference_key(url) for record in current_group for url in record.get("sourceArticleLinks", [])}
         for archived_at,archived_story in candidates:
-            key=story_key(archived_story.get("url",""))
-            if not key or key in known_urls:continue
-            if any(stories_are_similar(current,archived_story,allow_same_source=True) for current in current_group):
+            key=reference_key(archived_story.get("url",""))
+            if not all(key) or key in known_urls:continue
+            if key in explicit_urls or any(stories_are_similar(current,archived_story,allow_same_source=True) for current in current_group):
                 item=dict(archived_story)
                 item["archiveDate"]=archived_at.strftime("%Y. %m. %d.")
                 item.pop("relatedStories",None)
@@ -282,6 +295,7 @@ for file in issue_files:
         if file.parent.name=="archive" and issue_at:
             for grouped_story in edition_stories:
                 for record in all_story_records(grouped_story):
+                    if record.get("archiveDate"):continue
                     url_key=story_key(record.get("url",""))
                     if not url_key:continue
                     previous_archive=archived_similarity_records.get(url_key)
@@ -307,6 +321,7 @@ def fetch_article(url):
         with urllib.request.urlopen(req,timeout=18) as response:
             raw=response.read(2_000_000)
             charset=response.headers.get_content_charset() or "utf-8"
+            source_url=response.geturl()
         page=raw.decode(charset,errors="replace")
         meta=ArticleMetadataParser();meta.feed(page)
         if not meta.published:
@@ -316,10 +331,19 @@ def fetch_article(url):
         paras=parser.preferred if parser.preferred else parser.fallback
         body="\n\n".join(paras)
         body=re.sub(r"\s+"," ",body).strip()
-        return (body[:18000] if len(body)>250 else "",meta.published)
+        links={}
+        for href in parser.article_links:
+            try:
+                target=urllib.parse.urljoin(source_url,href)
+                parts=urllib.parse.urlsplit(target)
+                if parts.scheme in {"http", "https"} and parts.netloc and parts.path.strip("/"):
+                    links.setdefault(reference_key(target), parts._replace(query="", fragment="").geturl())
+            except ValueError:
+                continue
+        return (body[:18000] if len(body)>250 else "",meta.published,list(links.values()))
     except Exception as exc:
         print(f"Article fetch unavailable {url}: {exc}")
-        return "",""
+        return "","",None
 
 def concise_sentences(value,limit=3):
     value=re.sub(r"\s+"," ",str(value)).strip()
@@ -630,6 +654,10 @@ for record in inbox.values():
             if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
                 if is_nature_story(record["title"]):
                     prepared["categories"] = ["environment"]
+                if "sourceArticleLinks" not in prepared:
+                    _, _, source_links=fetch_article(prepared["url"])
+                    if source_links is not None:
+                        prepared["sourceArticleLinks"]=source_links
                 stories.append(prepared)
         continue
     title=record["title"]
@@ -663,7 +691,9 @@ for record in inbox.values():
         cats = ["environment"]
     if not cats:continue
     story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
-    article_text,article_published=fetch_article(link)
+    article_text,article_published,source_links=fetch_article(link)
+    if source_links is not None:
+        story["sourceArticleLinks"]=source_links
     if not story["published"] and article_published:story["published"]=article_published
     article_date=parse_published(story["published"])
     if article_date and article_date>now:continue
@@ -696,7 +726,7 @@ if api_key and (not manual or pending_current):
         current_variants=pending_story.setdefault("variants",{})
         if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
             not current_variants.get("original",{}).get("body")):
-            article_text,_=fetch_article(pending_story.get("url",""))
+            article_text,_,_=fetch_article(pending_story.get("url",""))
             try:
                 generated=gemini_rewrites(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
                 pending_story["variants"]=generated
@@ -711,7 +741,7 @@ if api_key and (not manual or pending_current):
             continue
         current_tolkien=current_variants.setdefault("tolkien",{})
         current_reito=current_variants.setdefault("reito",{})
-        article_text,_=fetch_article(pending_story.get("url",""))
+        article_text,_,_=fetch_article(pending_story.get("url",""))
         needs_tolkien = not current_tolkien.get("title") or not current_tolkien.get("body")
         needs_reito = not current_reito.get("title") or not current_reito.get("body")
         if needs_tolkien and needs_reito:

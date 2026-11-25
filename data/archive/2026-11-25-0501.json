@@ -1536,7 +1536,37 @@
           "body": "A Helyzet: van! legfrissebb adásában Bábel Vilmossal terítettek ki mindent a kormány és a kormánypárti parlamenti frakció belső viszonyairól. Miközben Bujdosónak már a visszaszámlálás ketyeg, Kapitány még mindig a helyét keresi a sűrűjében. Ebből a gyorstalpalóból mindenki pontosan megtudhatja, hogyan is állnak egymással a kormánypárti törvényhozók."
         }
       },
-      "relatedStories": []
+      "relatedStories": [
+        {
+          "source": "444.hu",
+          "title": "Bujdosó Andreának billeg a széke, a Tisza-frakció keresi az identitását",
+          "summary": "A Médiatanács fideszes és KDNP-s tagjának megválasztása Signalon úszott el, Kaprinyák Tibornál pedig nem csak a luxusvadászatairól készült fotók verték ki a biztosítékot. Cikksorozatunk második része, ezúttal a Tisza-frakció belső ügyeiről.",
+          "url": "https://444.hu/2026/11/24/bujdoso-andreanak-billeg-a-szeke-a-tisza-frakcio-keresi-az-identitasat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+          "published": "Tue, 24 Nov 2026 06:02:19 +0100",
+          "categories": [
+            "parliament",
+            "belfold"
+          ],
+          "image": "",
+          "summaryVersion": "short-v2.1-3-4",
+          "contentBasis": "rss",
+          "sourceHash": "52b313f16dc08283cafd4cd327cd2dfb72905306f9ffc82f0831a374edcfbad5",
+          "variants": {
+            "original": {
+              "body": "A 444.hu cikksorozatának második része a Tisza-frakció belső ügyeivel és identitáskeresésével foglalkozik, kitérve Bujdosó Andrea bizonytalan helyzetére. Az írás részletezi, hogy a Médiatanács fideszes és KDNP-s tagjának megválasztása egy Signal-alkalmazáson keresztül zajló egyeztetésen hiúsult meg. Szintén említést tesz arról, hogy Kaprinyák Tibornál nemcsak a luxusvadászatairól készült fotók keltettek felháborodást."
+            },
+            "tolkien": {
+              "title": "A Tisza frakció belső krónikája Bujdosó Andrea székéről",
+              "body": "Így esett, hogy a Tisza népének tanácsában bizonytalanság támadt, és a közösség ekkor még csak kereste saját kilétét, miközben Bujdosó Andrea tisztsége is megrendülni látszott. A Médiatanácsba szánt fideszes és KDNP-s küldöttek megválasztása végül egy Signal nevű rejtett üzenetváltáson hiúsult meg. Nemkülönben Kaprinyák Tibor dolgai is nagy port kavartak, akinek esetében nem csupán a fényűző vadászatokról szóló felvételek váltottak ki ellenérzést."
+            },
+            "reito": {
+              "title": "A Signal-csoport csapdája és a vadászfotók esete",
+              "body": "A Tisza-frakció éppen az identitását keresi, miközben Bujdosó Andrea széke alaposan megrendült a színfalak mögött. A Médiatanács kormánypárti tagjainak megválasztása annyira simán ment, hogy az egész terv egy Signal nevű alkalmazás üzenetein úszott el. Hogy a hangulat még fokozódjon, Kaprinyák Tibor esetében nemcsak a luxusvadászatokat megörökítő fényképek verték ki a biztosítékot."
+            }
+          },
+          "archiveDate": "2026. 11. 24."
+        }
+      ]
     },
     {
       "source": "Portfolio.hu",

@@ -298,6 +298,11 @@ A helyi tesztek futtatása csak külön kérésre történik; a publikált oldal
 
 ## 12. Változásnapló
 
+### 2026. november 25. – Forrásoldalon hivatkozott előzmények
+
+- A hírgyűjtő a cikk szövegében és a kapcsolódó cikkek blokkjában szereplő linkeket összeveti a korábbi hivatalos lapszámok cikkeivel. Egyező hivatkozás esetén az előzményt a meglévő kapcsolódó hírek között jeleníti meg, eltérő cím vagy azonos hírforrás esetén is.
+- A reggeli lapszám 444-es Bujdosó-videójához a november 24-i reggeli cikk archív előzményként kapcsolódik.
+
 ### 2026. november 25. – Természet témájú hírek besorolása
 
 - A természet témájú hírek a Környezetvédelem rovatba kerülnek. A szabály az élővilágra, az élőhelyekre, az időjárási és egyéb természeti jelenségekre, köztük a megfigyelhető égi jelenségekre is kiterjed.
