@@ -28,7 +28,7 @@ Az adatfeldolgozás ütemezetten vagy kézi indítással történik. A GitHub Ac
 
 ```mermaid
 flowchart TD
-  sources["Telex · HVG · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé! · 444.hu · Portfolio.hu · Origo.hu · IGN Hungary"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
+  sources["Telex · HVG · Nemzeti Sport · NBAnews.hu · Fűzővel kifelé! · 444.hu · Portfolio.hu · Origo.hu · Mafab"] -->|RSS és nyilvános cikkoldalak| actions["GitHub Actions"]
   schedule["Időzített vagy kézi indítás"] --> actions
   secret["GitHub Secret: GEMINI_API_KEY"] -->|futás közbeni környezeti változó| worker["refresh_news.py"]
   actions --> worker
@@ -54,7 +54,7 @@ A források és lekérési módok a refresh_news.py fájlban vannak beállítva:
 - 444.hu — https://444.hu/feed/
 - Portfolio.hu — https://www.portfolio.hu/rss/all.xml
 - Origo.hu — https://www.origo.hu/publicapi/hu/rss/origo/articles
-- IGN Hungary — https://hu.ign.com/feed.xml
+- Mafab — https://www.mafab.hu/rss
 
 A nem elérhető RSS-végpont hibáját a workflow naplózza, a többi feed feldolgozása ettől még folytatódik. A cikkcímeket, hivatkozásokat, kivonatokat és képeket az RSS-feedekből dolgozza fel, majd megpróbálja letölteni a nyilvánosan olvasható cikk szövegét. A forrás neve minden cikk mellett megjelenik. A témába sorolás a cikk címe és RSS-kivonata alapján történik.
 ## 4. Rovatok és szűrés
@@ -132,7 +132,7 @@ A három táblázat azonos napi fájlba kerül a főágon, külön 03:00, 15:00 
 
 ## 6. Hírek feldolgozásának folyamata
 
-1. A `refresh_news.py` minden futáskor lekéri a Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu, Origo.hu és IGN Hungary RSS-listáit. A begyűjtött cikkadatokat a `data/rss-pending.json` őrzi a kiadások között. Az RSS-ből időközben kieső cikk megmarad, ha egy korábbi sikeres futás már látta. Egy forrás hibáját a workflow naplózza, és továbblép a következő forrásra.
+1. A `refresh_news.py` minden futáskor lekéri a Telex, HVG, Nemzeti Sport, NBAnews.hu, Fűzővel kifelé!, 444.hu, Portfolio.hu, Origo.hu és Mafab RSS-listáit. A begyűjtött cikkadatokat a `data/rss-pending.json` őrzi a kiadások között. Az RSS-ből időközben kieső cikk megmarad, ha egy korábbi sikeres futás már látta. Egy forrás hibáját a workflow naplózza, és továbblép a következő forrásra.
 2. A gyűjtő kiszűri a már kiadott hivatkozásokat. Az új számba a legutóbbi hivatalos kiadás után, az aktuális futás kezdetéig megjelent és valamelyik rovatba illő hírek kerülhetnek. A besorolás alapja a cím, az RSS-kivonat és a hivatkozás. Az NBAnews.hu automatikusan NBA, a Fűzővel kifelé! automatikusan NFL besorolást is kap.
 3. Előkészítéskor a rendszer lekéri a nyilvánosan elérhető cikkoldalt. A feldolgozás legfeljebb 18 000 karakternyi törzsszöveget vesz alapul, szükség esetén az RSS-kivonatból dolgozik. A Gemini egy kérésben készíti el az Eredeti összefoglalót, a Tolkien tollából és a Rejtő Jenő változatot. A kivonatok célhossza 3–4 mondat, legfeljebb 1400 karakter változatonként.
 4. A három elkészült változatot a gyűjtő a cikk mellett menti. Kiadáskor az aktuális generálási beállításhoz illeszkedő, változatlan cikkhez tárolt csomagot újra felhasználja. A még hiányzó változatokhoz akkor próbál összefoglalót készíteni, ha az előző hivatalos kiadás feldolgozása teljes. Ha a szolgáltatás nem érhető el vagy kimerül a kvóta, a felület az elérhető kivonatot mutatja, és jelzi a függőben lévő átfogalmazást.

@@ -10,8 +10,6 @@ from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Europe/Budapest")
 REPO = "https://github.com/ngynrbrt-prog/nanonews"
-SOURCES = ("Telex", "HVG", "Nemzeti Sport", "NBAnews.hu", "Fűzővel kifelé!",
-           "444.hu", "Portfolio.hu", "Origo.hu", "IGN Hungary")
 STYLES = ("original", "tolkien", "reito")
 HEADERS = ("Forrás", "Begyűjtött cikk", "Rovatba illő cikk", "Elkészült Eredeti",
            "Elkészült Tolkien tollából", "Elkészült Rejtő Jenő", "Mindhárom elkészült",
@@ -92,7 +90,7 @@ def report(cutoff):
     )
     vivid = next_issue >= rules["VIVID_STYLE_START"]
     pending = load(rss_ref, "data/rss-pending.json")
-    rows = {name: [0] * 7 for name in SOURCES}
+    rows = {name: [0] * 7 for name in live_rules["feeds"]}
     missing_observed = missing_published = 0
     records = {story_key(x["link"]): x for x in
                (pending if isinstance(pending, list) else pending.get("articles", []))}
