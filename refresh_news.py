@@ -323,11 +323,10 @@ def attach_archived_stories(items,archive_records):
         current_group=[lead]+list(lead.get("relatedStories",[]) or [])
         related=lead.setdefault("relatedStories",[])
         known_urls={reference_key(record["url"]) for record in current_group + related if record.get("url")}
-        explicit_urls={reference_key(url) for record in current_group for url in record.get("sourceArticleLinks", [])}
         for archived_at,archived_story in candidates:
             key=reference_key(archived_story.get("url",""))
             if not all(key) or key in known_urls:continue
-            if key in explicit_urls or any(stories_are_similar(current,archived_story,allow_same_source=True) for current in current_group):
+            if any(stories_are_similar(current,archived_story,allow_same_source=True) for current in current_group):
                 item=dict(archived_story)
                 item["archiveDate"]=archived_at.strftime("%Y. %m. %d.")
                 item.pop("relatedStories",None)
