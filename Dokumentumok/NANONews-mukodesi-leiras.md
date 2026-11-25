@@ -793,3 +793,9 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 - A futások az RSS-ből kilépő, már észlelt cikkeket megőrzik a következő kiadásig. Próba során 90 cikk került a kiadásba, köztük 80, amely a feldolgozáskor már eltűnt a feedből.
 - A Portfolio háttér-előkészítése futásonként, a többi forrásé legalább ötóránként esedékes. A teszt igazolta az előkészített Eredeti, Tolkien és Rejtő változatok átvételét.
 - A működési leírás rögzíti az összevonást, az egyedi rovatszámlálást és az archív kapcsolatok megjelenítését. Az Archív lapok listájának tesztlapszűrése az élő oldalon is ellenőrizve.
+
+### 2026-11-25 — A cikkelőnézet mondathatárainak javítása
+
+- Kérés és hiba: a Külföldi rovatban a Portfolio S&P 500-ról szóló cikkének előnézete az „A J. P.” szövegnél véget ért. A rövidítő mondatvégként kezelte a ponttal írt kezdőbetűket.
+- Javítás: az `index.html` közös előnézet-rövidítője egyben tartja a kezdőbetűs rövidítést a nyitócikkben és a cikkkártyákon. A kétmondatos és 280 karakteres korlát továbbra is érvényes.
+- Ellenőrzés: az érintett cikk mindhárom változatának előnézetében szerepel a 2027-es időpont és a 8200 pontos előrejelzés. A teszt a szóközzel írt kezdőbetűket és a tizedespontot is ellenőrizte.
