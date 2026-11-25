@@ -2840,12 +2840,12 @@
       "observed": "2026-11-25T01:02:24.891092+01:00",
       "title": "Orlando Magic – Detroit Pistons élő",
       "link": "https://nbanews.hu/orlando-magic-detroit-pistons-elo/",
-      "description": "Tizenhat ponttal vezet a Detroit Pistons a negyedik negyed elején, Jenkins már tizenöt pontnál jár.",
+      "description": "A Detroit Pistons 104–86-ra, tizennyolc ponttal győzte le az Orlando Magicet.",
       "image": "",
       "prepared": {
         "source": "NBAnews.hu",
         "title": "Orlando Magic – Detroit Pistons élő",
-        "summary": "Tizenhat ponttal vezet a Detroit Pistons a negyedik negyed elején, Jenkins már tizenöt pontnál jár.",
+        "summary": "A Detroit Pistons 104–86-ra, tizennyolc ponttal győzte le az Orlando Magicet.",
         "url": "https://nbanews.hu/orlando-magic-detroit-pistons-elo/",
         "published": "Tue, 24 Nov 2026 23:30:00 +0000",
         "categories": [
@@ -2854,18 +2854,18 @@
         "image": "",
         "summaryVersion": "short-v2.1-3-4",
         "contentBasis": "article",
-        "sourceHash": "4a8dab2473ffbd6fe7cf4436ba4cfb768f2ee95b39a367b8d94d045be966de3c",
+        "sourceHash": "c1873dd69c03ae5d9ce6efa5566e14ce2136a7a7297cc77a8241a0e127baec8c",
         "variants": {
           "original": {
-            "body": "Az Orlando Magic és a Detroit Pistons összecsapásán, az orlandói Amway Centerben rendezett NBA-mérkőzésen a negyedik negyed elején az Orlando Magic 65–81-re áll a Detroit Pistons ellen. A harmadik negyed végén a Detroit 73–61-re vezetett, miután a játékrész döntetlennel (25–25) zárult, és a vendégek előnye korábban a tizennyolc pontot is elérte. A félidőben 48–36 volt az állás a Detroit javára a második negyedben elért 32–14-es részeredmény után, míg az első negyedet az Orlando nyerte 22–16-ra. Az egymás elleni örökmérlegben a Magic vezet 3–2-re, a legutóbbi, 2026."
+            "body": "Az Orlando Magic hazai pályán, az orlandói Amway Centerben 104–86-os vereséget szenvedett a Detroit Pistons csapatától az NBA-ben. A mérkőzésen a Pistons legeredményesebb játékosa Joe volt 21 ponttal, míg az Orlandónál Bane szintén 21 pontig jutott. Az egymás elleni mérlegben a Magic továbbra is 3–2-re vezet a 2026. május 1-jén lejátszott korábbi találkozó után."
           },
           "tolkien": {
-            "title": "Az Amway-csarnok vihara: Magic és Pistons harca az NBA birodalmában",
-            "body": "Az Orlando Magic otthonában, az Amway Center szentélyében feszül egymásnak a kosárlabda harcmezején az Orlando Magic és a Detroit Pistons csapata az NBA bajnokságának küzdelmében. A negyedik negyed hajnalán a Detroit győzedelmes serege tizenhat pontos, 81–65 arányú fórral birtokolja a küzdőteret, miután a harc korábbi óráiban a vendégek legnagyobb előnye a tizennyolc arasznyi magasságot is elérte. Az idők krónikája szerint a félidőben még 48–36 állt a jelek között, az első negyed dicsőségét pedig az Orlando csapata aratta le 22–16-ra. Az ősi párharc lajstromában a Magic birtokolja a 3–2-es előnyt, s a 2026."
+            "title": "A Félelmetes Detroit diadalmas menete az Orlandói Csarnokban",
+            "body": "Az NBA mezején, az orlandói Amway Center szentélyében a Detroit Pistons serege 104–86 arányú győzelmet aratott az Orlando Magic ellen, miközben az egymás elleni dicső múlt krónikája szerint a Magic még 3–2-re őrzi előnyét a 2026. május 1-jén esett csata nyomán. A harc viharában Joe 21 pontot szítva vezette csapata falanxát, míg a hazaiak oldalán Bane szintén 21 pont fénylő kardjával küzdött a 2026. november 25-i napon."
           },
           "reito": {
-            "title": "Pattogó labdák csatája: Detroit robogása az Orlando otthonában",
-            "body": "Az Orlando Magic és a Detroit Pistons NBA-mérkőzésén az orlandói Amway Center parkettáján a negyedik negyed elején a vendég Detroit tizenhat pontos, 81–65-ös előnnyel vezet az Orlando ellen. A harmadik negyed végén még 73–61 volt az állás, miután a harmadik játékrész pontosan döntetlenre vizsgázott, a nagyszünetben pedig 48–36 mutatkozott a táblán a Detroit javára a második negyedbeli harminckettő–tizennégyes roham után. Az első negyedben az Orlando még 22–16-ra elhúzott, az egymás elleni örökmérlegben pedig a Magic vezet 3–2-re a 2026. május 1-jén 93–79-re végződő Pistons-győzelem ellenére is."
+            "title": "Tizennyolc pontos gőzhengerezés az Amway Center parkettáján",
+            "body": "Az NBA vérkeringésében az Orlando Magic saját otthonában, az Amway Centerben futott bele egy masszív, 104–86-os pofonba a Detroit Pistons ellen. A 2026. november 25-i adatok szerint a detroiti hengerből Joe húzta ki a legtöbbet 21 ponttal, míg az orlandói oldalon Bane ugyanennyi egységgel vigasztalódott. A történelmi statisztika azért még őrzi a Magic 3–2-es vezetését a 2026."
           }
         }
       },
@@ -3240,8 +3240,45 @@
         }
       },
       "preparedVividStyles": true
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Wed, 25 Nov 2026 02:30:00 +0000",
+      "observed": "2026-11-25T04:00:32.241138+01:00",
+      "title": "Denver Nuggets – Dallas Mavericks élő",
+      "link": "https://nbanews.hu/denver-nuggets-dallas-mavericks-elo/",
+      "description": "A Denver Nuggets a Dallas Mavericksszel találkozik a denveri Ball Arenában. Az egymás elleni mérlegben a Nuggets vezet 3–2-re.",
+      "image": "",
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Denver Nuggets – Dallas Mavericks élő",
+        "summary": "A Denver Nuggets a Dallas Mavericksszel találkozik a denveri Ball Arenában. Az egymás elleni mérlegben a Nuggets vezet 3–2-re.",
+        "url": "https://nbanews.hu/denver-nuggets-dallas-mavericks-elo/",
+        "published": "Wed, 25 Nov 2026 02:30:00 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "c83d50ffffaa6e5d89558c6809ed66cd276df84f6df1eee80b18cc1dd283c048",
+        "variants": {
+          "original": {
+            "body": "A Denver Nuggets és a Dallas Mavericks összecsapása érinti a kosárlabda-rajongókat és a sportesemény követőit, a mérkőzést a denveri Ball Arenában rendezik meg a mesterséges intelligencia által előállított előzetes adatai alapján. A legfontosabb gyakorlati következmény, hogy a nézők és elemzők a közzétett statisztikák alapján tájékozódhatnak a felek korábbi eredményeiről. Az eddigi egymás elleni mérlegben a Denver Nuggets vezet 3–2-re. A felek legutóbbi felsorolt találkozóján, 2026."
+          },
+          "tolkien": {
+            "title": "A Denveri Aréna Krónikája: Küszöbön a Nuggets és a Mavericks viadala",
+            "body": "A Denver Nuggets és a Dallas Mavericks harca érinti a viadal küzdőterét figyelemmel kísérőket, miközben az összecsapás színhelye a denveri Ball Arena lesz, s a jövő árnyaiból szőtt mesterséges intelligencia hírnöke hozza el az előzetes üzenetet. A próbatétel tétje, hogy a hősök serege szembesüljön a múlt csatáinak súlyával és a harcmező törvényeivel. Az eddigi krónikák szerint az egymás elleni mérlegben a Nuggets vezet 3–2-re. A legutóbbi felsorolt összecsapáson, 2026."
+          },
+          "reito": {
+            "title": "Kosárlabda-háború a palánkok alatt: Nuggets kontra Mavericks",
+            "body": "A Denver Nuggets és a Dallas Mavericks összecsapása érinti a denveri Ball Arena parkettáját és a mérkőzésre kíváncsi sportkedvelőket, miután az algoritmusok zümmögő gépezete kinyomozta az adatokból az előzetest. A tét nem kicsi, hiszen a statisztikák útvesztőjében bizonytalankodók azonnal megtudják, ki áll nyerésre a nagy rangadó előtt. Az eddigi adatok alapján az egymás elleni mérlegben a Nuggets vezet 3–2-re. A legutóbbi felsorolt találkozón, 2026."
+          }
+        }
+      },
+      "preparedVividStyles": true
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-25T03:00:19.981025+01:00"
+  "lastRssCollection": "2026-11-25T04:00:32.241138+01:00"
 }
