@@ -103,6 +103,8 @@ A `.github/workflows/refresh.yml` óránként a :02, :07, :12, …, :57 percekre
 | Hiányzó változatok pótlása az éles kiadásban | Ötpercenként, futásonként összesen legfeljebb tíz cikkhez |
 | Hivatalos lapszám készítése | A reggeli vagy délutáni idősáv első megfelelő futásában |
 
+A rovatba nem sorolható RSS-rekordokat a frissítő legkésőbb a hétnapos határ utáni első sikeres mentéskor kiveszi a várólistából. A határt az észlelés és az elérhető publikációs idő közül a korábbitól számítja. Az új hivatalos lapszám miatti takarítás korábban is eltávolíthatja a rekordot. A Git előzményeiben a korábbi mentések megmaradnak.
+
 A rendszer az RSS-lekérés idejét és a begyűjtött cikkeket a `data/rss-pending.json` fájlban tárolja. A GitHub Actions az óra :02 percére ütemezi az első futást. Ha ez késik vagy kimarad, az adott óra első tényleges futása gyűjt. A stílusfeldolgozás a mentett cikkekből dolgozik az RSS-lekérések között is.
 
 Az éles kiadás feldolgozása akkor teljes, ha a kiadáshoz tartozó minden cikkhez rendelkezésre áll az aktuális verziójú Eredeti, Tolkien és Rejtő változat. Amíg van pótlásra váró cikk, a rendszer az éles kiadást dolgozza fel. A következő szám stílusgenerálása olyan futásban indulhat, amelynek kezdetén az éles kiadás már teljes. Ha közben elérkezik a hivatalos kiadás ideje, a rendszer a meglévő stílusokat és az elérhető kivonatokat használja a közzétételhez. Tesztkiadás esetén a feldolgozás alapja továbbra is a legfrissebb hivatalos kiadás.

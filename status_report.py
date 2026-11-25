@@ -43,7 +43,7 @@ def snapshot_rules(ref):
     scope = {}
     exec(compile(declarations, "refresh_news.py", "exec"), scope)
     start = source.index("    cats=[key for key,terms")
-    end = source.index("    if not cats:continue", start)
+    end = re.search(r"(?m)^    if not cats:", source[start:]).start() + start
     body = dedent(source[start:end])
     exec("def classify(source, title, desc, link):\n"
          "    hay = (title + ' ' + desc + ' ' + link).casefold()\n"

@@ -643,12 +643,18 @@ if collect_rss:
                 print(f"Feed error {source} {url}: {exc}")
 
 inbox_path.parent.mkdir(exist_ok=True)
-for record in inbox.values():
+unclassified_cutoff = now.timestamp() - timedelta(days=7).total_seconds()
+for key, record in list(inbox.items()):
     source=record["source"]
-    if not collect_new_edition and not prepare_in_background:
+    retention_start = parse_published(record.get("observed"))
+    published_for_retention = parse_published(record.get("published"))
+    # Use the earlier available time to prevent old, dated RSS items from being re-added.
+    expired = any(at and at.timestamp() <= unclassified_cutoff
+                  for at in (retention_start, published_for_retention))
+    if not expired and not collect_new_edition and not prepare_in_background:
         continue
     prepared=record.get("prepared")
-    if prepared and prepared.get("summaryVersion")==SUMMARY_VERSION and record.get("preparedVividStyles")==vivid_styles:
+    if (collect_new_edition or prepare_in_background) and prepared and prepared.get("summaryVersion")==SUMMARY_VERSION and record.get("preparedVividStyles")==vivid_styles:
         if collect_new_edition:
             article_date=parse_published(prepared["published"])
             if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
@@ -689,7 +695,12 @@ for record in inbox.values():
             cats.append("belfold")
     if lake_environment or is_nature_story(title):
         cats = ["environment"]
-    if not cats:continue
+    if not cats:
+        if expired:
+            del inbox[key]
+        continue
+    if not collect_new_edition and not prepare_in_background:
+        continue
     story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
     article_text,article_published,source_links=fetch_article(link)
     if source_links is not None:
