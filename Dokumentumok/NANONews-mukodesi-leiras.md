@@ -804,3 +804,7 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 
 - A fejléc szlogenje a logó alatt, a stílusválasztó fölött jelenik meg mobilon és asztali nézetben. A rovatválasztó felirata TÉMAKÖRÖK.
 - Érintett fájlok: `index.html` és a felhasználói kézikönyv. A HTML-ben ellenőrizve a szlogen helye és a menüfelirat.
+
+### 2026-11-25 — A szlogen igazítása a logóhoz
+
+- Az `index.html` fejlécében a szlogen kisebb betűmérettel, közvetlenül a logó alatt jelenik meg. A két sor közös szélességét a logó határozza meg mobilon és asztali nézetben is.
