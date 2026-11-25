@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 TZ = ZoneInfo("Europe/Budapest")
 REPO = "https://github.com/ngynrbrt-prog/nanonews"
 SOURCES = ("Telex", "HVG", "Nemzeti Sport", "NBAnews.hu", "Fűzővel kifelé!",
-           "444.hu", "Portfolio.hu", "Origo.hu")
+           "444.hu", "Portfolio.hu", "Origo.hu", "IGN Hungary")
 STYLES = ("original", "tolkien", "reito")
 HEADERS = ("Forrás", "Begyűjtött cikk", "Rovatba illő cikk", "Elkészült Eredeti",
            "Elkészült Tolkien tollából", "Elkészült Rejtő Jenő", "Mindhárom elkészült",

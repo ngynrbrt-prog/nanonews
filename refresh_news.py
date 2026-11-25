@@ -26,6 +26,7 @@ feeds={
  "444.hu":["https://444.hu/feed/"],
  "Portfolio.hu":["https://www.portfolio.hu/rss/all.xml"],
  "Origo.hu":["https://www.origo.hu/publicapi/hu/rss/origo/articles"],
+ "IGN Hungary":["https://hu.ign.com/feed.xml"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
