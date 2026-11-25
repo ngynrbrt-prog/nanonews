@@ -3247,38 +3247,37 @@
       "observed": "2026-11-25T04:00:32.241138+01:00",
       "title": "Denver Nuggets – Dallas Mavericks élő",
       "link": "https://nbanews.hu/denver-nuggets-dallas-mavericks-elo/",
-      "description": "A Denver Nuggets a Dallas Mavericksszel találkozik a denveri Ball Arenában. Az egymás elleni mérlegben a Nuggets vezet 3–2-re.",
-      "image": "",
-      "prepared": {
-        "source": "NBAnews.hu",
-        "title": "Denver Nuggets – Dallas Mavericks élő",
-        "summary": "A Denver Nuggets a Dallas Mavericksszel találkozik a denveri Ball Arenában. Az egymás elleni mérlegben a Nuggets vezet 3–2-re.",
-        "url": "https://nbanews.hu/denver-nuggets-dallas-mavericks-elo/",
-        "published": "Wed, 25 Nov 2026 02:30:00 +0000",
-        "categories": [
-          "nba"
-        ],
-        "image": "",
-        "summaryVersion": "short-v2.1-3-4",
-        "contentBasis": "article",
-        "sourceHash": "c83d50ffffaa6e5d89558c6809ed66cd276df84f6df1eee80b18cc1dd283c048",
-        "variants": {
-          "original": {
-            "body": "A Denver Nuggets és a Dallas Mavericks összecsapása érinti a kosárlabda-rajongókat és a sportesemény követőit, a mérkőzést a denveri Ball Arenában rendezik meg a mesterséges intelligencia által előállított előzetes adatai alapján. A legfontosabb gyakorlati következmény, hogy a nézők és elemzők a közzétett statisztikák alapján tájékozódhatnak a felek korábbi eredményeiről. Az eddigi egymás elleni mérlegben a Denver Nuggets vezet 3–2-re. A felek legutóbbi felsorolt találkozóján, 2026."
-          },
-          "tolkien": {
-            "title": "A Denveri Aréna Krónikája: Küszöbön a Nuggets és a Mavericks viadala",
-            "body": "A Denver Nuggets és a Dallas Mavericks harca érinti a viadal küzdőterét figyelemmel kísérőket, miközben az összecsapás színhelye a denveri Ball Arena lesz, s a jövő árnyaiból szőtt mesterséges intelligencia hírnöke hozza el az előzetes üzenetet. A próbatétel tétje, hogy a hősök serege szembesüljön a múlt csatáinak súlyával és a harcmező törvényeivel. Az eddigi krónikák szerint az egymás elleni mérlegben a Nuggets vezet 3–2-re. A legutóbbi felsorolt összecsapáson, 2026."
-          },
-          "reito": {
-            "title": "Kosárlabda-háború a palánkok alatt: Nuggets kontra Mavericks",
-            "body": "A Denver Nuggets és a Dallas Mavericks összecsapása érinti a denveri Ball Arena parkettáját és a mérkőzésre kíváncsi sportkedvelőket, miután az algoritmusok zümmögő gépezete kinyomozta az adatokból az előzetest. A tét nem kicsi, hiszen a statisztikák útvesztőjében bizonytalankodók azonnal megtudják, ki áll nyerésre a nagy rangadó előtt. Az eddigi adatok alapján az egymás elleni mérlegben a Nuggets vezet 3–2-re. A legutóbbi felsorolt találkozón, 2026."
-          }
-        }
-      },
-      "preparedVividStyles": true
+      "description": "Öt ponttal vezet a Mavericks a második negyed közepén, de a Nuggets hat pontot szerez sorozatban, és közelebb kerül.",
+      "image": ""
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 04:00:00 Z",
+      "observed": "2026-11-25T05:01:03.435433+01:00",
+      "title": "Magyar Zelenszkijjel találkozott, a parlamentben pörög a törvénygyár – Newscast",
+      "link": "https://hvg.hu/itthon/20261125_magyar-zelenszkijjel-talalkozott-a-parlamentben-porog-a-torvenygyar-newscast",
+      "description": "Megszavazták a minimálbér emelését, a katás adózás kiterjesztését, a minimálnyugdíjat, de a lex-Kubatovot is. Mészáros Lőrinc építkezik, Trump pedig lobbizott. Ez a Newscast, a HVG hétköznap reggelente jelentkező hírpodcastja.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c4e200fa-1eab-40eb-8105-ae2fc5a3b1f8.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 03:05:00 Z",
+      "observed": "2026-11-25T05:01:03.435433+01:00",
+      "title": "Az oltáselleneseknek hála Amerika épp elveszíti a harcot a kanyaróval szemben",
+      "link": "https://hvg.hu/elet/20261125_az-oltaselleneseknek-hala-amerika-epp-elvesziti-a-harcot-a-kanyaroval-szemben",
+      "description": "Elveszítette a kanyarómentes státuszát Bolívia, Mexikó és az USA, de európai és közép-ázsiai országokba is visszatért a világ egyik legfertőzőbb betegsége.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b418ce86-520a-4326-ace0-5fff4f95f620.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 04:00:00 +0000",
+      "observed": "2026-11-25T05:01:03.435433+01:00",
+      "title": "Botrány tört ki Szoboszlaiék BL-meccse előtt, a Liverpool legendás himnusza miatt áll a bál",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/liverpool-fc-bruges-bajnokok-ligaja-elozetes",
+      "description": "A vezetőség végül kénytelen volt meghátrálni.",
+      "image": "https://cdn.origo.hu/2026/11/nwWwLGIISzIlSm6WiGtHwbA8raRRzHWD887M0ocFOlQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC81NjFkYTk0YzA2YzQ5Mjg4NTljNTNlMWY0YmFlNTY2MTQzMTU4ZDBiMWFkZDZhMTYzZWY4YzYyMDBhM2FkY2Jh.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-25T04:00:32.241138+01:00"
+  "lastRssCollection": "2026-11-25T05:01:03.435433+01:00"
 }
