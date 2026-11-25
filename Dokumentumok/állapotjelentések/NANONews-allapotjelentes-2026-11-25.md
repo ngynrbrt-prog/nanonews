@@ -61,3 +61,25 @@ A mérési időszak budapesti idő szerint 2026-11-25 05:01:03 és 2026-11-25 11
 Az RSS-adatok utolsó elérhető mentése 2026-11-25 11:10:29. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/6e210da7fb2bcfb0b8a1199dd355036ddbc91534) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/244bd453c998d3beaf688f338c576f50a179f4d1)
 
 Mentés indítása budapesti idő szerint 2026-11-25 11:16:47.
+
+## Rendkívüli állapotjelentés – 11:50:33
+
+A mérési időszak budapesti idő szerint 2026-11-25 05:01:03 és 2026-11-25 11:50:33 között tartott. A következő kiadás tervezett ideje 2026-11-25 16:00.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 25 | 14 | 14 | 14 | 14 | 14 | 100,0% | 0 |
+| HVG | 36 | 15 | 15 | 15 | 15 | 15 | 100,0% | 0 |
+| Nemzeti Sport | 19 | 10 | 10 | 10 | 10 | 10 | 100,0% | 0 |
+| NBAnews.hu | 4 | 4 | 4 | 4 | 4 | 4 | 100,0% | 0 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 20 | 6 | 6 | 6 | 6 | 6 | 100,0% | 0 |
+| Portfolio.hu | 52 | 39 | 39 | 39 | 39 | 39 | 100,0% | 0 |
+| Origo.hu | 39 | 10 | 10 | 10 | 10 | 10 | 100,0% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 195 | 98 | 98 | 98 | 98 | 98 | 100,0% | 0 |
+
+Az RSS-adatok utolsó elérhető mentése 2026-11-25 11:10:29. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/6e210da7fb2bcfb0b8a1199dd355036ddbc91534) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/13842ad5a9a9585ef377b8467f508b27670a1034)
+
+Mentés indítása budapesti idő szerint 2026-11-25 11:50:33.
