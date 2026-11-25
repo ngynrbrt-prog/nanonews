@@ -293,7 +293,8 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -312,7 +313,8 @@
       ],
       "contentBasis": "article",
       "sourceHash": "81e0bc040a4df86b6832889118809c33262523de1ac2c52b09257aaa9006f567",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -570,7 +572,8 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Telex",
@@ -590,7 +593,8 @@
       ],
       "contentBasis": "article",
       "sourceHash": "93c44cc0309005a90d187b2aaa15acd1243b53f9a1222e4e0831ccd8a9888f43",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -914,7 +918,8 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -995,7 +1000,20 @@
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
           "contentBasis": "rss",
-          "sourceHash": "21edf43cf9e493798034dfddd6e63d3b9ff7f0d4d1f012ff294cf1259bbd5047"
+          "sourceHash": "21edf43cf9e493798034dfddd6e63d3b9ff7f0d4d1f012ff294cf1259bbd5047",
+          "variants": {
+            "original": {
+              "body": "Matolcsy György, a letartóztatott MNB-elnök ügyvédje útján jelölte meg a feltételeket, amelyekkel hajlandó elmenni az MNB ügyeit vizsgáló belföldi parlamenti bizottságba. Az ügyvéd álláspontja szerint eleve nem is kellene bilincs a letartóztatott MNB-elnökre, de ha a bv-sek ragaszkodnak hozzá, akkor ne készüljön róla fotó. Ez a helyzet rávilágít arra, hogyan fonódik össze a jegybanki vezető sorsa a belföldi politikával és a parlamenti ellenőrzéssel. Az érintett feltételek teljesülése esetén a letartóztatott elnök részt vehet a belföldi parlament vizsgálatán."
+            },
+            "tolkien": {
+              "title": "A bilincsek árnyéka a belföldi parlament csarnokában",
+              "body": "Matolcsy György, a börtön mélyén tartott MNB-elnök ügyvédje szigorú feltételekhez kötötte ura megjelenését az MNB ügyeit vizsgáló belföldi parlamenti bizottság előtt. A védő szava szerint a nemes fogságban lévő vezetőt nem illetné meg a vas bilincs rideg szorítása, ám ha a börtön őrei hajthatatlanok, legalább a megörökítés pillanatát kell eltiltani a világtól. E béklyós alkuk drámája közvetlenül köti össze az MNB sorsát a belföldi parlament hatalmasainak asztalával. Így léphet színre a letartóztatott főember a belföldi törvényhozás szentélyében, feltéve, hogy a fém lakatok dacára sem készül róla gyalázatos kép."
+            },
+            "reito": {
+              "title": "Bilincs nélkül vagy fotó nélkül: így kel útra az MNB-elnök a belföldi parlament felé",
+              "body": "Matolcsy György, a letartóztatott MNB-elnök ügyvédje pontos menetrendet szabott arra, miként hajlandó megjelenni az MNB ügyeit vizsgáló belföldi parlamenti bizottság előtt. A jogi képviselő szerint a vasbilincs amúgy sem kötelező kellék, de ha a bv-sek fukarkodnak a jóindulattal, legalább a fényképezőgépeket kell távol tartani. Ez a kiszabott feltételrendszer mutatja meg leginkább, hogyan találkozik a bűnügyi statisztika a belföldi parlament padjaival. Ha a fegyőrök engednek a fotózási tilalomban, a letartóztatott bankár elegánsan átlépi a belföldi törvényhozás küszöbét."
+            }
+          }
         },
         {
           "source": "Telex",
@@ -1205,7 +1223,8 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -1386,7 +1405,8 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -1611,7 +1631,8 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -1783,7 +1804,8 @@
           "sourceHash": "fa453f7a9528f6d60cd0a8f38167d8c72d2899424a2a77e3e581468574d8127f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
