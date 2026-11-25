@@ -105,3 +105,23 @@ A mérés a 2026. november 25-i 05:01:03-as reggeli kiadás után begyűjtött c
 A 11:50:33-as jelentéshez képest **41-gyel több cikk gyűlt be, és 20-szal nőtt a rovatba illő cikkek száma**. Mind a 118 rovatba illő cikkhez elkészült mindhárom változat. Az éles kiadásban 0 cikk vár stílusváltozatra.
 
 Az utolsó rögzített RSS-lekérés 12:00:41-kor, az ellenőrzött adatmentés 12:07:26-kor történt. A későbbi változások még nem ellenőrizhetők ebből a mentésből. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/94d085b4add4fe5d29721f47df689bdaa7867610) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/blob/94d085b4add4fe5d29721f47df689bdaa7867610/data/latest.json)
+
+## Rendkívüli állapotjelentés – 15:32:24
+
+Mérési időszak: 2026. november 25., 05:01:03–15:32:24, budapesti idő szerint. A következő kiadás tervezett időpontja 16:00.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Eredeti | Tolkien | Rejtő Jenő | Mindhárom kész | Készültség | Élesben stílusra vár |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 35 | 17 | 17 | 17 | 17 | 17 | 100,0% | 0 |
+| HVG | 67 | 26 | 26 | 26 | 26 | 26 | 100,0% | 0 |
+| Nemzeti Sport | 32 | 16 | 16 | 16 | 16 | 16 | 100,0% | 0 |
+| NBAnews.hu | 5 | 5 | 5 | 5 | 5 | 5 | 100,0% | 0 |
+| Fűzővel kifelé! | 1 | 1 | 1 | 1 | 1 | 1 | 100,0% | 0 |
+| 444.hu | 26 | 10 | 10 | 10 | 10 | 10 | 100,0% | 0 |
+| Portfolio.hu | 76 | 57 | 57 | 57 | 57 | 57 | 100,0% | 0 |
+| Origo.hu | 69 | 15 | 15 | 15 | 15 | 15 | 100,0% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 311 | 147 | 147 | 147 | 147 | 147 | 100,0% | 0 |
+
+A 12:49-es jelentéshez képest 75-tel több cikk gyűlt be, és 29-cel nőtt a rovatba illő cikkek száma. Az utolsó rögzített RSS-lekérés 14:02:18-kor, az utolsó elérhető adatmentés 14:15:06-kor történt. Az ezt követő változásokat a mentés még nem mutatja. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/efeaa887410385318ae37c83d6193ab862b6e075) · [Éles kiadás](https://github.com/ngynrbrt-prog/nanonews/blob/efeaa887410385318ae37c83d6193ab862b6e075/data/latest.json)
