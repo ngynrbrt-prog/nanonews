@@ -27,6 +27,7 @@ feeds={
  "Portfolio.hu":["https://www.portfolio.hu/rss/all.xml"],
  "Origo.hu":["https://www.origo.hu/publicapi/hu/rss/origo/articles"],
  "Mafab":["https://www.mafab.hu/rss"],
+ "A Hetedik Sor Közepe":["https://hetediksor.hu/feed/"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
