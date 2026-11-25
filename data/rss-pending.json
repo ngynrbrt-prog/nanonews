@@ -1,5 +1,172 @@
 {
-  "articles": [],
+  "articles": [
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 04:39:00 Z",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "Még nyomoznak Koltay András volt NMHH-elnök havi egymilliós „másodállása” miatt",
+      "link": "https://hvg.hu/itthon/20261125_koltay-andras-volt-nmhh-elnok-havi-egymillios-mcc-masodallas-nyomozas",
+      "description": "2023-ban a médiahatóság akkori elnöke havi bruttó négymilliós fizetést kapott, és mint utóbb kiderült, ekkoriban évi 16 milliós jutalmat is felvett. Lehajolt az apróért is: közben az MCC egyszemélyes Szólásszabadság Műhelye is ő volt, havi egymillióért.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c3f3d2ab-f079-4c33-a918-362004d3cbd1.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 04:31:00 Z",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "A két erős személyiség újraindította a magyar-ukrán kapcsolatokat, és ezt két dolog tette lehetővé",
+      "link": "https://hvg.hu/gazdasag/20261125_magyar-peter-zelenszkij-csucstalalkozo-esemenyei-magyar-ukran-kapcsolatok",
+      "description": "Az ungvári hősök sírhelyének megkoszorúzása és az ukrán elnök könnyei adták meg az alaphangot a keddi Zelenszkij–Magyar Péter-csúcstalálkozónak, ahol mindkét fél késznek mutatkozott a kapcsolatok újraépítésére. Magyarország fegyvereket továbbra sem, de humanitárius segítséget és békefenntartókat küldene Ukrajnába. Az együttműködéshez gazdasági érdekei is fűződnek a magyar kormánynak.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/07574a66-ccc4-4eaf-99e5-5444f09e0556.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "A két erős személyiség újraindította a magyar-ukrán kapcsolatokat, és ezt két dolog tette lehetővé",
+        "summary": "Az ungvári hősök sírhelyének megkoszorúzása és az ukrán elnök könnyei adták meg az alaphangot a keddi Zelenszkij–Magyar Péter-csúcstalálkozónak, ahol mindkét fél késznek mutatkozott a kapcsolatok újraépítésére. Magyarország fegyvereket továbbra sem, de humanitárius segítséget és békefenntartókat küldene Ukrajnába. Az együttműködéshez gazdasági érdekei is fűződnek a magyar kormánynak.",
+        "url": "https://hvg.hu/gazdasag/20261125_magyar-peter-zelenszkij-csucstalalkozo-esemenyei-magyar-ukran-kapcsolatok",
+        "published": "Wed, 25 Nov 2026 04:31:00 Z",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/07574a66-ccc4-4eaf-99e5-5444f09e0556.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "738d25d079422ccd843796609da2f844f9c386d325882755bceadeb8c312aace",
+        "variants": {
+          "original": {
+            "body": "Kedden Kárpátalján tárgyalt Magyar Péter magyar miniszterelnök és Volodimir Zelenszkij ukrán államfő, aminek nyomán a résztvevők megerősítették a kétoldalú kapcsolatok normalizálását. A közeledést az tette lehetővé, hogy az új magyar kormány már nem alkalmaz ukránellenes propagandát, Ukrajna pedig harmonizálja törvényeit az EU-s követelményekkel. A megbeszélésen megállapodtak az energetikai, agráriumi és egyéb területekért felelős miniszterek rendszeres egyeztetéséről, miközben Budapest humanitárius segítséget nyújt, fegyvereket viszont nem ad át. A magyar fél emellett a kisebbségi jelképek használatának felgyorsítását, valamint a munkácsi turulmadár visszakerülését kérte, a kisebbségi jelképek határideje eredetileg 2027 vége lenne."
+          },
+          "tolkien": {
+            "title": "A keleti végeken elinduló megbékélés krónikája",
+            "body": "Az ungvári hősök temetőjének fagyos földjén, hol az orosz sereg ellen harcoló elesett katonák nyugszanak, Magyar Péter magyar miniszterelnök és Volodimir Zelenszkij ukrán elnök találkozott, hogy újjáélessze a két nép megroppant szövetségét. Az ősi ellentétek jeges páncélja megtört, mert a magyar uralkodók már nem szítják a viszály lángját, az ukrán hadak népe pedig az uniós törvények igazodásának útjára lépett. A felek ígéretet tettek arra, hogy az energetika és az agrárium követei rendszeresen egybehangolják lépteiket a jövőben. Ám Budapest bástyái megmaradnak a béke szigetén: fegyvert nem küldenek, csupán humánus segítséget nyújtanak, miközben a munkácsi turulmadár visszatértéért és a kisebbségi jelképek szabad használatáért emelik szavukat."
+          },
+          "reito": {
+            "title": "Ungvári csúcstalálkozó: amikor a turulmadár és az uniós harmonizáció asztalhoz ül",
+            "body": "Kárpátalján kedden hivatalosan is kezet rázott Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán államfő, elindítva a magyar-ukrán kapcsolatok tiszta lapról induló fejezetét. A diplomáciai jégtörő motorja az volt, hogy a magyar kormány leállította az ukránellenes szólamokat, Ukrajna pedig serényen igazítja törvényeit az EU-s elvárásokhoz. A miniszterek hamarosan fix menetrend szerint találkoznak majd az energetika és az agrárium ügyeiben, bár Magyarország fegyverek helyett maradt a humanitárius vonalon és a kárpátaljai egészségügyi-infrastrukturális támogatásoknál. A tárgyalóasztalnál előkerült a 2027 végébe mutató kisebbségi jelképhasználat gyorsításának ügye és a munkácsi turulmadár visszakövetelése is, szóval a szimbólumok terén sem maradt üres a kassza."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 04:29:12 Z",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "Három autó rohant egymásba Nyáregyháza és Újhartyán között, egy ember meghalt",
+      "link": "https://hvg.hu/itthon/20261125_autobaleset-nyaregyhaza-ujhartyan-halalos-aldozat",
+      "description": "A kedd esti balesetben öten sérültek meg, az utat teljes szélességében lezárták.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1605a1f4-7502-4889-ab19-6b0c6c9c79a7.jpg"
+    },
+    {
+      "source": "444.hu",
+      "published": "Wed, 25 Nov 2026 06:00:18 +0100",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "Kádár János „egy nagyon édes bácsi”, a Balatont „úgy emlegetik, hogy állóvíz, de igazából tó”, a Pál utcai fiúkat Vörösmarty írta",
+      "link": "https://444.hu/2026/11/25/kadar-janos-egy-nagyon-edes-bacsi-a-balatont-ugy-emlegetik-hogy-alloviz-de-igazabol-to-a-pal-utcai-fiukat-vorosmarty-irta?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Kreténvetélkedőt indított az RTL, hogy kiderüljön, a magyar hírességek közül ki A Nemzet Hülyéje.",
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Wed, 25 Nov 2026 06:00:15 +0100",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "„Hát gyerekek, nem lesz olyan, hogy mindenki pénzt fog kapni” – ismét egymásnak estek a fideszes influenszerek",
+      "link": "https://444.hu/2026/11/25/hat-gyerekek-nem-lesz-olyan-hogy-mindenki-penzt-fog-kapni-ismet-egymasnak-estek-a-fideszes-influenszerek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Miközben sok orbánista influenszer úgy érzi, a Fidesz az út szélén hagyta, elterjedt a hír, hogy a párt a Helyzet nevű új csatornát támogatja, melynek egyik arca a Tisza-képviselő Rost Andrea lánya. A csatornánál ezt cáfolják, de a szóbeszéd elég volt, hogy boruljon a bili.",
+      "image": "",
+      "prepared": {
+        "source": "444.hu",
+        "title": "„Hát gyerekek, nem lesz olyan, hogy mindenki pénzt fog kapni” – ismét egymásnak estek a fideszes influenszerek",
+        "summary": "Miközben sok orbánista influenszer úgy érzi, a Fidesz az út szélén hagyta, elterjedt a hír, hogy a párt a Helyzet nevű új csatornát támogatja, melynek egyik arca a Tisza-képviselő Rost Andrea lánya. A csatornánál ezt cáfolják, de a szóbeszéd elég volt, hogy boruljon a bili.",
+        "url": "https://444.hu/2026/11/25/hat-gyerekek-nem-lesz-olyan-hogy-mindenki-penzt-fog-kapni-ismet-egymasnak-estek-a-fideszes-influenszerek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Wed, 25 Nov 2026 06:00:15 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "rss",
+        "sourceHash": "bd95b772554cdcc737767a5731b7be84b02f776e4f5226de379301baf7edda69",
+        "variants": {
+          "original": {
+            "body": "Elterjedt a hír, hogy a Fidesz támogatja a Helyzet nevű új csatornát – amelynek egyik arca a Tisza-párti országgyűlési képviselő, Rost Andrea lánya –, miközben sok orbánista influenszer úgy érzi, a Fidesz az út szélén hagyta őket. A belföldi politikai életet és a parlamenti szereplőket is érintő szóbeszéd miatt egymásnak estek a fideszes influenszerek, mert a pletyka szerint nem kap mindenki pénzt. A Helyzet csatornánál cáfolják a támogatást, de a vita nyomán teljesen borult a bili a táborban."
+          },
+          "tolkien": {
+            "title": "A Helyzet krónikája: Midőn a hatalom udvari dalnokai harcra keltek az aranyért",
+            "body": "Az orbánista udvar hűséges vándorai és szónokai keserűséggel érezték, hogy a Fidesz hatalma az út szélén hagyta őket, míg a rengetegben egy új csatorna, a Helyzet zászlaja emelkedett magasba. E belföldi birodalom falai között, a törvényhozás és a parlament csarnokait is elérő szóbeszéd szerint ezen az új helyen még a Tisza udvarából való Rost Andrea leánya is arcot öltött. A fideszes influenszerek serege e suttogások hallatán nyomban egymásnak esett, mert a pletyka súlyos köveként zuhant le a felismerés: a bőség kürtője nem önti aranyát minden egyes hűbéresre. Bár a Helyzet őrei hevesen cáfolták a fejedelmi támogatás hírét, a vészterhes szóbeszéd elég volt arra, hogy a bili végleg felboruljon a táborban."
+          },
+          "reito": {
+            "title": "A Helyzet csatorna esete: amikor a fideszes influenszerek pénz helyett csak a bilit borították fel",
+            "body": "Miközben a fideszes influenszerek légiója azon kesereg, hogy a Fidesz egyszerűen az út szélén hagyta őket, a belföldi közélet porondján elterjedt a legújabb pletyka egy Helyzet nevű csatornáról. A szóbeszéd szerint ezt a titokzatos formációt maga a párt tolja, és történetesen a Tisza-képviselő Rost Andrea lánya is az arcai közé tartozik. A parlament környékén is visszhangzó hír hallatán a kormánypárti megmondóemberek azonnal egymás torkának estek, hiszen a drasztikus tények fényében „nem lesz olyan, hogy mindenki pénzt fog kapni”. Bár a Helyzetnél határozottan cáfolják a támogatást, ez a kiszáradt kút szélén eleve elegendő volt ahhoz, hogy a bili végérvényesen boruljon."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 05:00:00 +0000",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "Kerkez Milos megint kimaradhat a Liverpoolból, folyamatosan mellőzik őt a BL-ben",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/kerkez-milos-bajnokok-ligaja-kezdocsapat",
+      "description": "A magyar válogatott játékos kimaradhat a Liverpool BL-kezdőjéből.",
+      "image": "https://cdn.origo.hu/2026/11/NySVcdbpPXimGzNJ95os_vmRfAFoKiq_6iCWme8t7Ac/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC80ZTNlMDFlZWQ3NDkwZGU3OGQxZDM1ZmRlYjg4YzEyMjEwOTRmMTAzZDg0M2VhNGY0ZDFmMzFiMmY5ZmIyNjJl.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Kerkez Milos megint kimaradhat a Liverpoolból, folyamatosan mellőzik őt a BL-ben",
+        "summary": "A magyar válogatott játékos kimaradhat a Liverpool BL-kezdőjéből.",
+        "url": "https://www.origo.hu/sport/sport-futball/2026/11/kerkez-milos-bajnokok-ligaja-kezdocsapat",
+        "published": "Wed, 25 Nov 2026 05:00:00 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/NySVcdbpPXimGzNJ95os_vmRfAFoKiq_6iCWme8t7Ac/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC80ZTNlMDFlZWQ3NDkwZGU3OGQxZDM1ZmRlYjg4YzEyMjEwOTRmMTAzZDg0M2VhNGY0ZDFmMzFiMmY5ZmIyNjJl.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "48f4285d9cbc20e3ba2e5b0df4fcf461be5c7e111c3a3e1934e5905e9622e1a7",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok Ligája alapszakaszának ötödik fordulójában a Liverpool szerdán 21 órától a Club Brugge otthonában lép pályára, és az UEFA, valamint a Sports Mole előzetese szerint a magyar válogatott védő, Kerkez Milos ezúttal kimaradhat a kezdőcsapatból. A helyén a védelem bal oldalán Kosztasz Cimikasz kaphat lehetőséget, míg a Manchester United elleni 4–0-s győzelemben végig a pályán lévő, szabadrúgásból gólt szerző Szoboszlai Dominik ott lehet a kezdőben az első perctől. Kerkez kispadoztatása szakmai döntés lehet, mivel az UEFA nem sorolja őt a sérülés vagy eltiltás miatt hiányzó játékosok közé. Ez a változás azt jelentené, hogy a legutóbbi három BL-meccsen is csak epizódszerepet vagy kispadot kapó magyar védő sorozatban a negyedik Bajnokok Ligája-mérkőzésén szorul ki a kezdőcsapatból."
+          },
+          "tolkien": {
+            "title": "A Bajnokok Ligájának csarnokai: Kerkez árnyéka a kispadon",
+            "body": "A Bajnokok Ligája küzdelmeinek ötödik állomásán, szerdán éji kilenc órakor a Liverpool csapata a Club Brugge kőművesei által emelt belgiumi várak kapuihoz érkezik, ám a magyar bajnok, Kerkez Milos sötét fellegek árnyékában a kispadra kényszerülhet. Az UEFA bölcsei és a Sports Mole krónikásai által megjósolt csatarend szerint a védelem bal szárnyán Kosztasz Cimikasz emelheti pajzsát, míg a Manchester United elleni győzelem dicsőségében szabadrúgásból tüzes nyilat röpítő Szoboszlai Dominik az első perctől kezdve a mezőnyben harcol. E szakmai döntés következtében a harcos nem sérülés vagy átok miatt kerüli el a kezdősorokat, hanem a mester akaratából, így sorozatban a negyedik alkalommal veszítheti el helyét a Bajnokok Ligája legfőbb viadalának első tizenegyében."
+          },
+          "reito": {
+            "title": "A Bajnokok Ligája bűvöletében: Cimikasz fut, Kerkez padot kóstol",
+            "body": "A Bajnokok Ligája szerdai, 21 órakor rajtoló alapszakasz-fordulójában a Club Brugge vendégeként vizslató Liverpool keretében csavar jöhet, ugyanis az UEFA és a Sports Mole előrejelzése szerint Kerkez Milos ezúttal a kispadon nézheti az eseményeket. A Manchester United ellen még végig rohamozó magyar védő helyett a bal oldalon ezúttal Kosztasz Cimikasz kaphat bisszát a kezdőben, míg a szabadrúgásból beköszönő Szoboszlai Dominik az első perctől a gyepen rohangálhat. Mivel az UEFA nem sorolja a hiányzók közé, sérülés sem akadályozza, ez a taktikai húzás csupán azt jelenti, hogy a Bajnokok Ligája csatatérén sorozatban negyedszer is kihagyják a kezdőcsapatból a magyar bekket."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 04:45:00 +0000",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "Komoly havazás érkezik Magyarországra, már az első hó is meglepetést okozott",
+      "link": "https://www.origo.hu/itthon/2026/11/havazas-magyarorszag-szerda-este-ho",
+      "description": "Este újabb havazás kezdődhet, a hét második felében pedig helyenként 10 centiméternél is több hó hullhat. Az első hózáporok már baleseteket okoztak, a közútkezelő több száz munkagéppel készül.",
+      "image": "https://cdn.origo.hu/2026/11/Um6hrY12XNRI9EuSUV1ToHAI_OccB-aF5ydeL1t4-Lw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9jYWMxY2Q5MGMyOTRiZGJhMzEyYjA1NjgzNDFkOGU0ZjdjZmRiZGM4OGZiN2I2Zjc5YWFjNDQ1ODdiNWViYjJi.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 04:30:00 +0000",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "Saját háza előtt verte halálra a szomszédja az édesapát, miközben épp biztonsági kamerát szerelt fel miatta",
+      "link": "https://www.origo.hu/nagyvilag/2026/11/gyilkossag-szomszed-biztonsagi-kamera",
+      "description": "Hónapok óta tartott a viszály köztük.",
+      "image": "https://cdn.origo.hu/2026/11/gJyMNC8T-sLD5rF67rjXIztxudrJ99zA9fPF4egOrog/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC9mMGM2YjI0YmExNTgxODhjZjk4OWU1NzE3NjBlZDNmYjVjYmM4MjZiYWQ2OTE5ZGE3NzQ5ZjAxYzQ0NDM5NzVi.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 04:15:00 +0000",
+      "observed": "2026-11-25T06:01:12.811901+01:00",
+      "title": "A vonaton szexeltek, de a férfi múltja miatt lett igazán kínos a történet",
+      "link": "https://www.origo.hu/nagyvilag/2026/11/vonat-szex-nemetorszag-kinos-tortenet",
+      "description": "Bilincs kattant a férfi csuklóján.",
+      "image": "https://cdn.origo.hu/2026/11/hBJvT4IFOiah0xsR_c02VeSTW8QyHv4hmCEaxRy9XBM/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC81ZDIxMDIwM2FjMDkyZGY5YjI2YzQxMGY2OGVjNzQ3Njc4ZGFlNzE0MzNlZGQ5NzhhNTdlZjk0NmY4MjQ3NzM3.jpg"
+    }
+  ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-25T05:01:03.435433+01:00"
+  "lastRssCollection": "2026-11-25T06:01:12.811901+01:00"
 }
