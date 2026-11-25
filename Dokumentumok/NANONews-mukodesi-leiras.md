@@ -808,3 +808,4 @@ A Belföld-besorolás a parlamenti és NER-jelölés mellett is kizárja a sport
 ### 2026-11-25 — A szlogen igazítása a logóhoz
 
 - Az `index.html` fejlécében a szlogen kisebb betűmérettel, közvetlenül a logó alatt jelenik meg. A két sor közös szélességét a logó határozza meg mobilon és asztali nézetben is.
+- A fejléc magasságának csökkentéséhez az `index.html`-ből kikerült a stílusválasztó fölötti külön „Stílusok” sor. A gombok a szlogen alatt érhetők el.
