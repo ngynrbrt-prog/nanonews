@@ -413,12 +413,12 @@
       "observed": "2026-11-25T07:01:20.324428+01:00",
       "title": "Kora délután kezd el esni a hó",
       "link": "https://444.hu/2026/11/25/kora-delutan-kezd-el-esni-a-ho?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
-      "description": "Csütörtök hajnalig négy centi hullik.",
+      "description": "Csütörtök hajnalig lesz, ahol négy centi is hullhat.",
       "image": ""
     },
     {
       "source": "Portfolio.hu",
-      "published": "Wed, 25 Nov 2026 06:47:00 +0100",
+      "published": "Wed, 25 Nov 2026 07:57:00 +0100",
       "observed": "2026-11-25T07:01:20.324428+01:00",
       "title": "Ukrajna ellen fordult Európa legerősebb országa, Lynxek kerülnek az ukrán frontra - Híreink az orosz-ukrán háborúról szerdán",
       "link": "https://www.portfolio.hu/global/20261125/ukrajna-ellen-fordult-europa-legerosebb-orszaga-lynxek-kerulnek-az-ukran-frontra-hireink-az-orosz-ukran-haborurol-szerdan-878884",
@@ -589,8 +589,797 @@
       "link": "https://www.origo.hu/tudomany/2026/11/belflora-antibiotikum-antidepresszans-szervezet",
       "description": "Nemcsak az antibiotikumok befolyásolhatják a bélrendszerünkben élő baktériumokat",
       "image": "https://cdn.origo.hu/2026/11/vuVOfsJ9XUaHGyS4h_Ez38HtdafcYBIbUa_-vFmMK-c/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMy9kNzljZGE3NDhjYzU1YjI4ZGRjOTlhNTg1NGQ0NjlkODg1Y2RlYzc1ZWVkMWQxMDA4ZTY4Y2Q2YmIyZGI0MzU2.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Wed, 25 Nov 2026 07:29:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Bűnösnek találta a Huaweit az amerikai bíróság üzleti titkok ellopása és az Irán elleni szankciók kikerülése miatt",
+      "link": "https://telex.hu/kulfold/2026/11/25/huawei-birosag-itelet-uzleti-titok-egyesult-allamok",
+      "description": "Az Egyesült Államokban 2018 óta folyik az ügy a kínai cég tevékenységei miatt.",
+      "image": "https://assets.telex.hu/images/20261125/1795587930-temp-pnaokovb1ve39bebaaa_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Bűnösnek találta a Huaweit az amerikai bíróság üzleti titkok ellopása és az Irán elleni szankciók kikerülése miatt",
+        "summary": "Az Egyesült Államokban 2018 óta folyik az ügy a kínai cég tevékenységei miatt.",
+        "url": "https://telex.hu/kulfold/2026/11/25/huawei-birosag-itelet-uzleti-titok-egyesult-allamok",
+        "published": "Wed, 25 Nov 2026 07:29:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://assets.telex.hu/images/20261125/1795587930-temp-pnaokovb1ve39bebaaa_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "a62ac592ec47551839699f827a83c7436ed3eeccfbfbb584a473ff3aa6982e8f",
+        "variants": {
+          "original": {
+            "body": "New York bírósága bűnösnek találta a Huaweit üzleti titkok ellopása, banki csalás, az elektronikus úton történő csalás, a szankciók megsértése, valamint az üzleti titkok ellopására irányuló összeesküvés miatt a külföldi kereskedelmet és nemzetbiztonságot érintő büntetőeljárásban. A 12 vádpontból 10-ben elmarasztalt telekommunikációs cég ellen 2027. szeptember 14-én hirdetnek ítéletet, amikor eldől, milyen büntetéssel néz szembe a vállalat. Az ügyészek a több mint két hónapig tartó tárgyalás során azt bizonyították, hogy a kínai cég amerikai bankokat csapott be az Iránban folytatott tevékenységével kapcsolatban, és ellopta a Cisco Systems routereinek forráskódját, a Quintel antennák technológiáját, valamint hozzáfért a CNEX csipgyártó terveihez."
+          },
+          "tolkien": {
+            "title": "A Nagy Óceánon túl, New York csarnokaiban ítélet született a Huawei birodalma felett",
+            "body": "New York bírái elé járult a hatalmas Huawei vállalat, amelynek birodalmát üzleti titkok elrablásával és banki csalások hálójával terhelték a tengeren túli földrészen. A tizenkét vádpontból tíz súlyos pecsétje ránehezedett a cégre az Irán földjén kötött tiltott alkuk és az amerikai portákról elhurcolt titkok miatt, ám a legsúlyosabb zsarolás bilincseit lefejtették róla. Az igazság pillanata és a büntetés kiszabása 2027. szeptember 14-én virrad majd fel, mikor a bíróság meghozza végső szavát a kínai birodalom sorsáról."
+          },
+          "reito": {
+            "title": "Ahol a Cisco routerei és egy elcsent robotalkatrész is bíróság elé áll: megvan a Huawei ítélete",
+            "body": "New Yorkban egy bíróság hivatalosan is bűnösnek talált a Huaweit üzleti titkok ellopása és banki csalás miatt egy olyan ügyben, ahol a tárgyaláson még egy robot alkatrészét lopó alkalmazottról szóló videót is levetítettek. A tizenkét vádpontból tízben marasztalták el a kínai telekommunikációs óriást az Irán elleni szankciók kijátszása és technológiák – például a Cisco Systems forráskódjának és a Quintel antennáinak – eltulajdonítása miatt. A végső számlát és a büntetést azonban csak 2027. szeptember 14-én nyújtják be a vállalatnak, mert a több mint két hónapig tartó per eddig csak a bűnösség kimondásáig jutott."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Telex",
+      "published": "Wed, 25 Nov 2026 06:59:46 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Megjöttek az első milliárdos utalások az MNB-birodalomból, mire ők fogták magukat, és megvették belőle a bugaci puszta jakuzzis üdülőjét",
+      "link": "https://telex.hu/belfold/2026/11/25/neumann-janos-egyetem-bugac-puszta-udulo-mini-hatvanpuszta-matolcsy",
+      "description": "Negyvenéves borok és temperált szivarok is előkerültek azokból a bugaci ingatlanokból, amelyekről a nagy nyilvánosságnak múlt héten derült ki, hogy a kecskeméti egyetemet fenntartó alapítvány tulajdonai. Egy tiszás képviselő szerint a szállót „a Matolcsy–Szemerey klán” használta pihenésre, az egyetemi alapítvány korábbi kuratóriuma szerint azonban ott a vezetői értekezletek mellett a diákoknak is tartottak képzéseket.",
+      "image": "https://assets.telex.hu/images/20261124/1795533761-temp-snaid1re3ie87bgbepf_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Megjöttek az első milliárdos utalások az MNB-birodalomból, mire ők fogták magukat, és megvették belőle a bugaci puszta jakuzzis üdülőjét",
+        "summary": "Negyvenéves borok és temperált szivarok is előkerültek azokból a bugaci ingatlanokból, amelyekről a nagy nyilvánosságnak múlt héten derült ki, hogy a kecskeméti egyetemet fenntartó alapítvány tulajdonai. Egy tiszás képviselő szerint a szállót „a Matolcsy–Szemerey klán” használta pihenésre, az egyetemi alapítvány korábbi kuratóriuma szerint azonban ott a vezetői értekezletek mellett a diákoknak is tartottak képzéseket.",
+        "url": "https://telex.hu/belfold/2026/11/25/neumann-janos-egyetem-bugac-puszta-udulo-mini-hatvanpuszta-matolcsy",
+        "published": "Wed, 25 Nov 2026 06:59:46 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://assets.telex.hu/images/20261124/1795533761-temp-snaid1re3ie87bgbepf_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "6b12a6d4b2e2dfe27e1b2b6acbc9a72441d54504a6be2f8b4dc6882be6d8e11a",
+        "variants": {
+          "original": {
+            "body": "A Neumann János Egyetemért Alapítvány 2023 elején 1,25 milliárd forintért megvásárolta a bugaci puszta két ingatlanát oktatási és képzési központ céljából a Knorr-Bremse Fékrendszerek Kft.-től, a tranzakciót pedig a 2022 novemberében megtartott döntéshozói üléseken hagyták jóvá. A felmerült bírálatok és az új vezetés vizsgálata nyomán a helyszín használata vitatottá vált, miközben az Állami Számvevőszék is újabb vizsgálatot folytat az alapítvány ügyében. Ez a fejlemény közvetlenül érinti az egyetemi vagyonkezelést és a közpénzek felhasználásának elszámoltathatóságát."
+          },
+          "tolkien": {
+            "title": "A bugaci puszta rejtett csarnokai és a jegybanki kincsek sorsa",
+            "body": "A sárgába és barnába öltözött bugaci pusztán, ahol a fű rikító zölden tündököl, a Neumann János Egyetemért Alapítvány nádtetős hajlékei és föld alatti kincseskamrái 1,25 milliárd forintért vándoroltak új gazdához 2023 elején. A titokzatos falak között szivarszobák és negyvenéves borok rejtőznek, ám a hatalmas fenntartási terhek és a vizsgálatok szele elérte a kuratórium egykori urait is. E birodalom sorsa most az Állami Számvevőszék mélyebb vizsgálatai és a hatóságok szigorú tekintete alatt formálódik tovább."
+          },
+          "reito": {
+            "title": "Jakuzzi a pusztában: milliárdos üdülő a jegybanki apróból",
+            "body": "A Neumann János Egyetemért Alapítvány 2023 elején kereken 1,25 milliárd forintért csapott le a bugaci puszta jakuzzis, szivarszobás és negyvenéves borokat rejtő birtokára a Knorr-Bremsétől. A papírok szerint oktatási központnak szánt, évi több mint százmillióból fenntartott luxuskomplexum körül most hatalmas a vihar, miután az új vezetés és az Állami Számvevőszék is vizsgálódni kezdett a pénzek után. Ez a fordulat garantálja, hogy a békés puszta hamarosan a nyomozók kedvenc terepévé váljon."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Telex",
+      "published": "Wed, 25 Nov 2026 06:41:46 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Ónos esővel és havazással köszönt be a tél",
+      "link": "https://telex.hu/belfold/2026/11/25/hungaromet-elorejelzes-ho-onos-eso",
+      "description": "A HungaroMet előrejelzése szerint az ország több pontján is kialakulhat több centiméteres hóréteg.",
+      "image": "https://assets.telex.hu/images/20261125/1795585420-temp-82o978um6sps3epggae_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Ónos esővel és havazással köszönt be a tél",
+        "summary": "A HungaroMet előrejelzése szerint az ország több pontján is kialakulhat több centiméteres hóréteg.",
+        "url": "https://telex.hu/belfold/2026/11/25/hungaromet-elorejelzes-ho-onos-eso",
+        "published": "Wed, 25 Nov 2026 06:41:46 +0100",
+        "categories": [
+          "environment"
+        ],
+        "image": "https://assets.telex.hu/images/20261125/1795585420-temp-82o978um6sps3epggae_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "fef98177a4bce7908fa7052ed075b483b1d4879458e433fb011a22d5936c279c",
+        "variants": {
+          "original": {
+            "body": "Szerdán az ország lakosságát és közlekedését érintően eső, havas eső, ónos eső és havazás érkezik, miközben a Magyar Közút a téli szezon kezdetére 813 munkagéppel, 3300 munkatárssal, 122 ezer tonna útszóró sóval és 2,9 millió liter kalcium-klorid-oldattal készült fel a hét második felében várható havazásra. A HungaroMet Nonprofit Zrt. előrejelzése szerint a délnyugati és nyugati tájakon eső, máshol havazás várható, amelyet egyes részeken ónos eső válthat fel, különösen a Bakonyban, valamint estefelé a főváros tágabb térségében és a Dunántúl északkeleti tájain. Az ország több pontján vékony, néhány centiméteres hóréteg alakulhat ki, míg a fővárostól északabbra fekvő hegyekben ennél több hó is hullhat, a hőmérséklet pedig 0 és +5 fok között alakul nappal, majd -2 és +3 fok közé hűl."
+          },
+          "tolkien": {
+            "title": "A fagy birodalmának részvéttelen eljövetele",
+            "body": "Íme, szerdán az ég boltozatáról eső, havas eső, ónos eső és hó zúdul az ország földjére, próbára téve minden utazót és a fagy birodalmának arcát formáló elemeket. A HungaroMet Nonprofit Zrt. küldöttei által feltárt jóslat szerint délnyugat felől vaskos felhők árnyéka borul a tájra, míg északkeleten még küzd a napfény, ám a mélyből feltörő fagy elhozza az esőt a nyugati vidékekre és a fehér leplet a többi tartományra. A Bakony bércein, a főváros tágabb lankáin és a Dunántúl északkeleti kapuinál veszedelmes ónos eső marja a köveket, miközben a hegyek koronájára vastagabb hóréteg ül, a síkvidékeket pedig vékony lepel fedi 0 és +5 fok közötti nappali lélegzet mellett."
+          },
+          "reito": {
+            "title": "Sószórók háborúja a fagy birodalmában",
+            "body": "Szerdán az ország lakói és az aszfaltcsíkok kapják az ívet, amikor a tél esővel, havas esővel, ónos esővel és hóval robban be a naptárba. A HungaroMet Nonprofit Zrt. jóslata szerint a délnyugati tájakon még az eső csepergése jut a népnek, de máshol már a havazás és a Bakonyon, valamint a főváros környékén sötétlő ónos eső osztja a lapokat, miközben a hőmérséklet 0 és +5 fok között billeg, hogy aztán estére -2 és +3 fok közé hűljön. Szerencsére a Magyar Közút nem ült tétlenül a babérjain, hanem a hét második felére ígért havazás elleni ellentámadásként pontosan 813 munkagéppel, 3300 bátor munkatárssal, 122 ezer tonna útszóró sóval és 2,9 millió liter kalcium-klorid-oldattal vetette bele magát a fagyos kalandba."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Telex",
+      "published": "Wed, 25 Nov 2026 06:12:51 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "A Fidesz a röplabdázás helyett arra vár választ Magyartól, hogy a kormány részt vesz-e Ukrajna finanszírozásában",
+      "link": "https://telex.hu/belfold/2026/11/25/fidesz-roplabdazas-helyett-valasz-magyar-peter-ukrajna",
+      "description": "A Fidesz szerint Magyar Ukrajnában már nem volt olyan nagylegény, mint egy nappal korábban Pozsonyban.",
+      "image": "https://assets.telex.hu/images/20261125/1795583549-temp-q8tl5ai03c16fnmefbh_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "A Fidesz a röplabdázás helyett arra vár választ Magyartól, hogy a kormány részt vesz-e Ukrajna finanszírozásában",
+        "summary": "A Fidesz szerint Magyar Ukrajnában már nem volt olyan nagylegény, mint egy nappal korábban Pozsonyban.",
+        "url": "https://telex.hu/belfold/2026/11/25/fidesz-roplabdazas-helyett-valasz-magyar-peter-ukrajna",
+        "published": "Wed, 25 Nov 2026 06:12:51 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://assets.telex.hu/images/20261125/1795583549-temp-q8tl5ai03c16fnmefbh_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "c59c446fd8f37869207895abca5285cbbe24b019a1d9852d7a2eae9210e82df8",
+        "variants": {
+          "original": {
+            "body": "A Fidesz a szerda hajnali közleményében arra vár választ Magyar Pétertől, hogy a Tisza-kormány részt vesz-e Ukrajna finanszírozásában. A kormánypárt reakciója Magyar Péter keddi kárpátaljai látogatására érkezett, amely során a politikus Volodimir Zelenszkij ukrán elnökkel koszorúzott Ungváron, közös sajtótájékoztatón vett részt Beregszászon, diákokkal röplabdázott a Kossuth Lajos Líceumban, valamint meglátogatta a felújított beregszászi kórházat is. A Fidesz szerint a magyarok továbbra sem kaptak egyenes válaszokat, és a politikus átveri a magyarokat, miután Pozsony után Beregszászon már nem volt olyan nagylegény. Magyar a sajtótájékoztatón kijelentette, hogy Magyarország jelenlegi költségvetési helyzetében nem tudják elfogadni az EU hétéves büdzséjének és Ukrajna finanszírozásának közvetlen összekapcsolását."
+          },
+          "tolkien": {
+            "title": "A kárpátaljai mezők árnyéka és a Fidesz követelése a tisztaságért",
+            "body": "A Fidesz hírnökei szerda hajnalban szólaltak fel, követelve Magyar Pétertől, hogy adjon választ arra, vajon a Tisza-kormány harcba száll-e és vállalja-e Ukrajna pénzbeli terheinek hordozását. A vándorút során a politikus eljutott Kárpátalja földjére, ahol Volodimir Zelenszkij oldalán koszorút helyezett el az ungvári temető sötét csendjében, majd Beregszász várvidékén lépett a nyilvánosság elé. Ott a diákok körében röplabdát ragadva, a felújított kórház falai között és a sajtó előtt hirdetett új idők hajnalát és logisztikai dicsőséget az újjáépítésben. Ám a Fidesz éber krónikája szerint a vándor elhallgatta a lényeget, és Pozsony bércei után Beregszászban már nem mutatta korábbi büszkeségét, míg maga a politikus úgy nyilatkozott, hogy a kincstár szűkössége miatt az EU és Ukrajna sorsának egybefonódását nem fogadhatják el."
+          },
+          "reito": {
+            "title": "Röplabda Beregszászban, kemény kérdések hajnalban: így találkozott a nagylegény és a Fidesz",
+            "body": "A Fidesz szerda hajnalban kiadott közleményében azonnal lecsapott, és világos választ követel Magyar Pétertől arra, hogy a Tisza-kormány beszáll-e Ukrajna finanszírozásába. A történet főhőse kedden még Volodimir Zelenszkij oldalán koszorúzott az ungvári temetőben, aztán Beregszász utcáin termett, ahol a Kossuth Lajos Líceum diákjaival röplabdázott, és még a helyi kórházat is szemügyre vette a nagy sajtótájékoztató előtt. A kormánypárt szerint a pozsonyi cseh-szlovák védelemből kikerülve a politikus már nem volt olyan nagylegény, és csupa homályos beszéddel veri át a népet ahelyett, hogy tiszta vizet öntene a pohárba. Magyar a helyszínen közölte: Magyarország jelenlegi költségvetési helyzetében nem nyelhetik le, hogy az EU hétéves büdzséjét közvetlenül összekössék Ukrajna pénzelésével."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Telex",
+      "published": "Wed, 25 Nov 2026 05:40:23 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Eltörölné a kormány Kósa Lajos egyik utolsó törvénymódosítását",
+      "link": "https://telex.hu/belfold/2026/11/25/utonevek-engedelyezese-nyelvtudomanyi-kutatokozpont-torvenymodositas",
+      "description": "A miniszter helyett ismét a Nyelvtudományi Központ dönthet az utónevekről.",
+      "image": "https://assets.telex.hu/images/20261125/1795581383-temp-o94c4fgvcq2vbdpgidi_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 07:01:28 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Kibocsátási ár alá zuhant az Anthropic részvényárfolyama",
+      "link": "https://hvg.hu/kkv/20261125_anthropic-ai-claude-reszveny-arfolyam-zuhanas-nyitoar-alatt",
+      "description": "Egy hétig se tartott a tőzsde lelkesedése.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ad1ea9f2-e257-4c7f-a951-cf294bdc2480.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 06:52:23 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Rétvári Bence szerint ízléstelen és kegyeletsértő Magyar Péter és Zelenszkij röpizése",
+      "link": "https://hvg.hu/itthon/20261125_retvari-bence-magyar-peter-zelenszkij-ukrajna-karpatalja-beregszasz-roplabda",
+      "description": "A KDNP frakcióvezetője úgy látja, „a háborús helyzet komolyságát és az együttérzés hitelességét rombolja”, ha a vezetők a temető után a röpipályára mennek.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/4c6f3229-1980-4061-b27a-9624fd348034.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Rétvári Bence szerint ízléstelen és kegyeletsértő Magyar Péter és Zelenszkij röpizése",
+        "summary": "A KDNP frakcióvezetője úgy látja, „a háborús helyzet komolyságát és az együttérzés hitelességét rombolja”, ha a vezetők a temető után a röpipályára mennek.",
+        "url": "https://hvg.hu/itthon/20261125_retvari-bence-magyar-peter-zelenszkij-ukrajna-karpatalja-beregszasz-roplabda",
+        "published": "Wed, 25 Nov 2026 06:52:23 Z",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/4c6f3229-1980-4061-b27a-9624fd348034.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "663f6f3f4ce14fe697ee6511dfe18b606f948d65b5b484af740e3ceae84bfc87",
+        "variants": {
+          "original": {
+            "body": "Rétvári Bence, a KDNP frakcióvezetője kritizálta azt, hogy Magyar Péter és Volodimir Zelenszkij diákokkal röplabdázott Beregszászon, mivel szerinte ez a háború árnyékában ízléstelen és kegyeletsértő. A belföldi parlament és a belföldi közélet szereplőinek eseményeihez kapcsolódóan Rétvári szerda reggel a Facebook-oldalán hangsúlyozta, hogy a temetőlátogatás utáni röplabdázás rombolja a háborús helyzet komolyságát és az együttérzés hitelességét. A keddi kárpátaljai találkozón – ahol a kormányfő és az ukrán elnök látogatást tett a Beregszászi Kossuth Lajos Líceumban – a politikusok a diákok körében játszottak, amit a fideszes politikus előre eltervezett akciónak nevezett a „spontán” bekészített tornacipők miatt. A látogatás során Magyar és Zelenszkij szerda délelőtt Ungváron koszorúzott, majd egymilliárd forintos humanitárius segélyről, a kárpátaljai magyar kisebbség támogatásáról, EU-csatlakozásról és gazdasági együttműködésről tárgyalt."
+          },
+          "tolkien": {
+            "title": "A temetők árnyékában lévő háló felett",
+            "body": "Rétvári Bence, a KDNP frakcióvezetője kemény szavakkal illette azt, miként állt be Magyar Péter és Volodimir Zelenszkij diákokkal röplabdázni Beregszászon, mert a fegyverek zajában ez a cselekedet méltatlan és kegyeletsértő volt a belföldi parlament és belföldi ügyek világában. A belföldi törvényhozás színterét is elérő vitában a politikus úgy ítélte meg, hogy a gyászos sírok látogatását követő sportolás rombolja a harcok sújtotta idők komolyságát és a részvéthez illő méltóságot. A kárpátaljai földön, a Beregszászi Kossuth Lajos Líceum falai között zajló barátságos labdameneteket a KDNP vezetője előre kiterveltnek hitte, mondván, a tornacipők is csak a megrendezett színjátékot szolgálták. Miközben a két vezető Ungvár mezőin a hősök sírjait koszorúzta és egymilliárd forintos segélyek sorsáról, valamint a nemzetek jövőjéről tanácskozott, az élvhajhász röplabdázás mély sebeket hagyott a politikai megítélés mezején."
+          },
+          "reito": {
+            "title": "Hajrá, röpi a frontvonal mögött!",
+            "body": "Rétvári Bence, a KDNP frakcióvezetője a belföldi parlament és belföldi közélet porondján azonnal lecsapott arra a látványosságra, amint Magyar Péter és Volodimir Zelenszkij diákokkal kezdett röplabdázni Beregszászon, mert szerinte a háború árnyékában ez a jófejkedés kimeríti az ízléstelenség fogalmát. A szerda reggeli Facebook-kirohanás szerint a temetőjárás utáni labdázgatás mélyen rombolja a helyzet komolyságát, ráadásul a KDNP-s politikus gyanúja szerint a tornacipők előre jelzték a „spontán” röpipályás jelenetet is. A kárpátaljai hakni során a Beregszászi Kossuth Lajos Líceum diákjai még tapsoltak is a különös meccsnek, miközben Ungváron már komolyabb tétek – gyógyszerek, egymilliárdos támogatások és uniós csatlakozási tervek – forogtak kockán a két vezető asztalán."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 06:47:51 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Csak egy sávon lehet haladni az M0-s autóúton",
+      "link": "https://hvg.hu/itthon/20261125_csak-egy-savon-lehet-haladni-az-m0-s-autouton",
+      "description": "Összeütközött két jármű, a burkolatra nagy mennyiségű szennyeződés került.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8e22793f-dedf-4cbc-86a1-f12672e9b3f0.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 06:35:44 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Olyan súlyos volt az idei aszály, hogy a gazdák már műtrágyát se vettek",
+      "link": "https://hvg.hu/gazdasag/20261125_mutragya-forgalom-visszaeses-agrarkozgazdasagi-intezet",
+      "description": "12 százalékos a visszaesés 2025-höz képest.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/60008a28-2333-4962-8f84-df0dcb2dacd9.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Olyan súlyos volt az idei aszály, hogy a gazdák már műtrágyát se vettek",
+        "summary": "12 százalékos a visszaesés 2025-höz képest.",
+        "url": "https://hvg.hu/gazdasag/20261125_mutragya-forgalom-visszaeses-agrarkozgazdasagi-intezet",
+        "published": "Wed, 25 Nov 2026 06:35:44 Z",
+        "categories": [
+          "environment"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/60008a28-2333-4962-8f84-df0dcb2dacd9.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "be87e7c21b0099e973c15eefefa991e321ca6ed9e50593d3336051623abff218",
+        "variants": {
+          "original": {
+            "body": "Az Agrárközgazdasági Intézet adatai szerint a mezőgazdasági termelőknek értékesített műtrágyaforgalom 12,1 százalékkal esett vissza az első három negyedévben az idei súlyos aszály miatt, így a forgalmazók mindössze 926,3 ezer tonna műtrágyát adtak el közvetlenül. A termelők visszaeső vásárlásai miatt a környezetvédelem és a növénytermesztés alapját jelentő talajok tápanyag-utánpótlása jelentősen átalakult, mivel az egykomponensű és az összetett műtrágyák aránya 80:20-ra módosult a korábbi 74:26-ról. A nitrogénműtrágya eladása 4,1 százalékkal, a káliumé 23,3 százalékkal csökkent, míg a foszforműtrágya iránti kereslet 17,1 százalékkal nőtt, miközben a teljes mennyiség 87 százalékát a 10 legnagyobb forgalmazó értékesítette. Az iráni háború kitörése óta kétszeresére emelkedett a műtrágya világpiaci ára, ami a szakértők szerint akár globális élelmiszerválságot is kirobbanthat."
+          },
+          "tolkien": {
+            "title": "Ínséges esztendő árnyéka a földeken",
+            "body": "Az Agrárközgazdasági Intézet krónikája szerint a mezőgazdasági termelők műtrágyaforgalma 12,1 százalékkal esett vissza az első három negyedévben az idei súlyos aszály keserű csapásai nyomán, amikor a gazdák már 926,3 ezer tonna tápláló port adtak el csupán. E vad szomjúság és aszály sújtotta időkben a földek megóvása érdekében az egykomponensű és az összetett műtrágyák aránya nyolcvan-húsz arányra módosult a korábbi hetvennégy-huszonhatos megoszláshoz képest. A nitrogénből 4,1 százalékkal, a káliumból 23,3 százalékkal kevesebb talajbéli táplálék fogyott, míg a foszfor iránti éhség 17,1 százalékkal nőtt, és a mennyiség nyolcvanhét százalékát tíz hatalmas kereskedő ház osztotta szét. Mióta az iráni háború fáklyája fellobbant, a műtrágya ára a világpiacon a kétszeresére hágott, s a bölcsek szerint ez a vész akár az egész világ élelemkészletét elsöprő válságot is szülhet."
+          },
+          "reito": {
+            "title": "Műtrágya helyett port hintenek a gazdák",
+            "body": "Az Agrárközgazdasági Intézet összesítése szerint a mezőgazdasági termelők műtrágyaforgalma 12,1 százalékkal zuhant be az első három negyedévben az idei súlyos aszály miatt, így a kereskedők mindössze 926,3 ezer tonna árut tudtak rásózni a gazdákra. A környezetet kímélő vagy éppen próbára tevő talajokon az egykomponensű és az összetett szerek aránya 80:20-ra módosult a tavalyi 74:26-os felállásról. A nitrogéneladások 4,1 százalékkal, a káliumeladások 23,3 százalékkal estek vissza, míg a foszforért valósággal sorba álltak a vevők a 17,1 százalékos keresletnövekedéssel, az üzlet 87 százalékát pedig a 10 legnagyobb forgalmazó hozta tető alá. Az iráni háború kitörése óta a műtrágya világpiaci ára a duplájára szökött, a szakértők szerint pedig ez a mutatvány akár egy globális élelmiszerválságot is meghívhat a nép asztalára."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 06:33:00 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Szakadó esőben az enyhe kanyar is elég volt a balesethez az M3-ason – videó",
+      "link": "https://hvg.hu/cegauto/20261125_m3-autopalya-baleset-esoben-megcsuszo-auto-video",
+      "description": "Ilyen tapadásvesztésnél a gázpedál finom felengedése segíthet, a hirtelen fékezés pedig csak ronthat a helyzeten.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c25c70cb-bac9-4b13-bc00-c52608b0d9b7.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 06:24:04 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Nyolc év után kimondta a bíróság: a Huawei amerikai ipari titkokat lopott",
+      "link": "https://hvg.hu/kkv/20261125_huawei-usa-ipari-titok-lopas-birosag",
+      "description": "Az esküdtek a legsúlyosabb vádat ugyanakkor elutasították.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/5c491a98-e4fb-4776-b5c1-168f072734cc.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Nyolc év után kimondta a bíróság: a Huawei amerikai ipari titkokat lopott",
+        "summary": "Az esküdtek a legsúlyosabb vádat ugyanakkor elutasították.",
+        "url": "https://hvg.hu/kkv/20261125_huawei-usa-ipari-titok-lopas-birosag",
+        "published": "Wed, 25 Nov 2026 06:24:04 Z",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/5c491a98-e4fb-4776-b5c1-168f072734cc.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "ee7be1e2ffc1f32a0de06ca7929edd6142a02a0ba25f2ffa021533a2c83e0a3f",
+        "variants": {
+          "original": {
+            "body": "Banki csalásban és ipari titkok ellopásában találta bűnösnek a kínai Huawei vállalatot a New York-i Brooklynban működő szövetségi bíróság esküdtszéke egy több mint nyolc évig tartó eljárás végén. Ez a határozat közvetlenül érinti az amerikai-kínai technológiai kapcsolatokat, valamint a kínai 5G-eszközöket alkalmazó európai távközlési cégeket, köztük a 4iG-t is. A külföldi vonatkozású per során a vád szerint a Huawei és leányvállalatai 2000 és 2020 között amerikai távközlési cégek dolgozóitól szereztek meg technológiai információkat, például internetes útválasztók forráskódjait és használati útmutatóit, valamint antennatechnológiákat és robotok tesztelésére szolgáló technológiákat. Az esküdtek ugyanakkor elutasították a legsúlyosabbnak tartott vádpontot, a szellemi tulajdon eltulajdonítására irányuló bűnszervezetben való részvételt."
+          },
+          "tolkien": {
+            "title": "Az Óceánon túli ítélet és a technológia sötét árnyai",
+            "body": "A New York-i föld szövetségi bíróságának esküdtszéke nyolc esztendő hosszú vajúdás után bűnösnek találtatta a távoli keletről érkezett Huaweit banki csalás és titoktolvajlás bűntettében. E súlyos ítélet szele elérte a tengeren túli birodalmakat és az európai mezők távközlési őrhelyeit is, köztük a 4iG várát, amely a kínaiak acélhálóit és 5G-eszközeit hordozza. A krónikák szerint a vállalat és leányai kétezer és kétezer-húsz között amerikai céhek mestereitől szereztek meg rejtett tudást, így útválasztók titkos kódjait, antennák rajzait és gépezetek próbáinak titkait. Bár a legfőbb vád alól, a bűnös szövetség átka alól felmentést nyertek, a tengerentúli igazságosztás vihara végleg megváltoztatta a két nagy birodalom technológiai harcának sorsát."
+          },
+          "reito": {
+            "title": "Nyolc év bírósági futam után lebukott a routertolvaj óriás",
+            "body": "A New York-i Brooklyn szövetségi bíróságának esküdtszéke pontot tett egy nyolc éve húzódó ügy végére, és banki csalás meg ipari titoklopás miatt mondta ki bűnösnek a kínai Huawei vállalatot. Ez a fordulat nemcsak a tengerentúli igazságügyet hozta lázba, hanem az európai távközlés gépezetét is megakasztotta, különösen a kínai 5G-eszközökre építő 4iG-t, amelyet azonnal meg is kérdeztek az esetleges váltásról. A vád szerint a cégcsoport 2000 és 2020 között amerikai telekomos dolgozóktól szipkázott el olyan kulcsfontosságú technológiákat, mint az internetes útválasztók forráskódjai meg használati útmutatói, valamint antennák és robotok tesztelési eljárásai. Az esküdtek mondjuk a bűnszervezetre vonatkozó legsúlyosabb vádpontot kapásból kuka mellé dobták, de így semúszták meg a felelősségre vonást Donald Trump újabb elnöki ciklusa árnyékában."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "HVG",
+      "published": "Wed, 25 Nov 2026 06:22:44 Z",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Jogtalanul szedte be az állam a bányajáradékot, a parlament ma dönt 117 milliárd forint visszafizetéséről",
+      "link": "https://hvg.hu/itthon/20261125_jogtalanul-szedett-be-az-allam-117-milliard-forintot-a-parlament-dont-ma-a-visszafizeteserol",
+      "description": "Nem összeegyeztethető az uniós joggal a kiegészítő bányajáradék intézménye, ezért Magyarországnak azt kamattal együtt vissza kell térítenie.",
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b7a24afd-d9be-4d7b-826f-426c655233b2.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Jogtalanul szedte be az állam a bányajáradékot, a parlament ma dönt 117 milliárd forint visszafizetéséről",
+        "summary": "Nem összeegyeztethető az uniós joggal a kiegészítő bányajáradék intézménye, ezért Magyarországnak azt kamattal együtt vissza kell térítenie.",
+        "url": "https://hvg.hu/itthon/20261125_jogtalanul-szedett-be-az-allam-117-milliard-forintot-a-parlament-dont-ma-a-visszafizeteserol",
+        "published": "Wed, 25 Nov 2026 06:22:44 Z",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b7a24afd-d9be-4d7b-826f-426c655233b2.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "973307e62721eed3955bec2bc2b0d8eff7a8def2c0eeb0d5566e28027774b256",
+        "variants": {
+          "original": {
+            "body": "Az Országgyűlés szerdai ülésén – amelyen a Szovjetunióba hurcolt magyarokra is emlékeztek – megvitatta a kiegészítő bányajáradék uniós jogba ütközése miatti 117,3 milliárd forintos visszafizetést és Magyarország 2026-os központi költségvetésének módosítását. A Szabályozott Tevékenységek Felügyeleti Hatósága felel a visszafizetés lebonyolításáért, amelyhez a költségvetés biztosítja a forrást. A napirendben szerepelt továbbá az Élőkörnyezet-felügyeleti Főhatóság január 1-jei létrehozása, a dohánykiskereskedelem-ellátási koncesszió jövő év júniusi megszüntetése, valamint a Balaton közvetlen vízparti területeinek fokozottabb védelme is."
+          },
+          "tolkien": {
+            "title": "A bányajáradék árnyéka és a palota törvényhozói",
+            "body": "Az Országgyűlés falai között, a Szovjetunióba hurcolt rabok emlékének szentelt napon a képviselők elé tárult a kiegészítő bányajáradék ügye, miután az Európai Unió Bírósága ítéletet hirdetett. A büdzsé mélyéből 117,3 milliárd ezüstpénz áramlik vissza a Szabályozott Tevékenységek Felügyeleti Hatóságának keze által, hogy jóvátétessék a jogtalan terhek súlya. E szent tanácskozás óráiban új törvények magvai hullnak: január első napján újjáéled a környezet őrzésére rendelt főhatóság, míg a füstös növények kereskedelmének koncessziója a következő év nyarán végleg lehanyatlik. A Balaton hullámait és vízparti vidékeit pedig szigorúbb pajzs védi majd a törvényhozás határozatai szerint."
+          },
+          "reito": {
+            "title": "Százegymilliárdos visszatérítés és a füstös trafikok sorsa",
+            "body": "Az Országgyűlés szerdai szeánszán – miután megemlékeztek a Szovjetunióba hurcolt magyarokról – terítékre került az Európai Unió Bírósága által kifogásolt kiegészítő bányajáradék ügye is, amelynek nyomán az állam 117,3 milliárd forint visszafizetésére készül a Szabályozott Tevékenységek Felügyeleti Hatóságának vezényletével. A költségvetési kalapból előhúzott összeg sorsa mellett a tisztelt ház átfutotta a dohánykiskereskedelem-ellátási koncesszió jövő év júniusi megszüntetését, az új Élőkörnyezet-felügyeleti Főhatóság január 1-jei felállítását, valamint a Balaton partvidékének szigorúbb védelmét is. Ettől aztán garantáltan nem aludtak el a képviselők a padsorokban, hiszen a pénzügyi és környezetvédelmi csavarok gyorsan pörögtek."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Wed, 25 Nov 2026 06:58:02 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Vitorlázás: indul a vb, megvannak a mieink ellenfelei",
+      "link": "https://nemzetisport.hu/egyeb-egyeni/2026/11/vitorlazas-indul-a-vb-megvannak-a-mieink-ellenfelei",
+      "description": "Szerdán elkezdődik a vitorlázók második csapat-vb-je, amelyen a Berecz Zsombor vezette magyar válogatott címvédőként indul, első ellenfelei Ecuador, Észtország és Tahiti.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/DPdK_Eh1hB6OZTYVqqZe0zD2HjiMbLwpcUMuqL5B4UE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2I5ODU1NzVkM2IwMDQ0NDA4NTUzMTBmMmVjOGNhYWJk.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Wed, 25 Nov 2026 06:55:11 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "PWHL: győzött az Odnoga Lottival felálló Toronto Sceptres",
+      "link": "https://nemzetisport.hu/jegkorong/2026/11/pwhl-gyozott-az-odnoga-lottival-felallo-toronto-sceptres",
+      "description": "Van még néhány szabad hely a kanadai csapat keretében, ezért hajt a magyar válogatott hátvéd is.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/6E0xDM4FBnhAV9Cv6tj7cwc1ffA8UkL035fE51pinXg/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzQzYzU0ODgyZWY3YTQyMjBhM2JiMWQyM2NjZTkyMDA5.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Wed, 25 Nov 2026 06:45:15 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Csipes Tamara: Egészen Ausztráliáig mentem egykor a női csapat elviselhetetlen légköre elől",
+      "link": "https://nemzetisport.hu/kajak-kenu/2026/11/csipes-tamara-egeszen-ausztraliaig-mentem-egykor-a-noi-csapat-elviselhetetlen-legkore-elol",
+      "description": "A többszörös olimpiai, világ- és Európa-bajnok kajakos saját pályafutásának nehéz fejezeteit idézte fel, és konkrét javaslatokat is megfogalmazott a biztonságosabb sportközeg megteremtésére.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/VIRUqOcpfJx14TuYb1tKulXSk1iGT2jhrxTpbWsojDE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2RiMzBiYTlhMzJhZDQxODRiMzFiZGQ4ZDk1YzJkMDcx.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Wed, 25 Nov 2026 06:16:46 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "„Három olyan helyzet is adódott, amelyből nem értjük, hogyan nem született gól” – Arteta a Dortmund elleni döntetlen után",
+      "link": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/harom-olyan-helyzet-is-adodott-amelybol-nem-ertjuk-hogyan-nem-szuletett-gol-arteta-a-dortmund-elleni-dontetlen-utan",
+      "description": "Jobe Bellingham: Talán sokakat meg is leptünk.",
+      "image": "https://cdn.nemzetisport.hu/2026/11/F6LVsvcRue_diQT1aLKH4QnfqwPACka-pswczlUoIz4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Y2YjdhNGNkNmMxMzQ2NmM4MzgxZDAwM2ExYjRkOWMy.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "„Három olyan helyzet is adódott, amelyből nem értjük, hogyan nem született gól” – Arteta a Dortmund elleni döntetlen után",
+        "summary": "Jobe Bellingham: Talán sokakat meg is leptünk.",
+        "url": "https://nemzetisport.hu/bajnokok-ligaja/2026/11/harom-olyan-helyzet-is-adodott-amelybol-nem-ertjuk-hogyan-nem-szuletett-gol-arteta-a-dortmund-elleni-dontetlen-utan",
+        "published": "Wed, 25 Nov 2026 06:16:46 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/F6LVsvcRue_diQT1aLKH4QnfqwPACka-pswczlUoIz4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Y2YjdhNGNkNmMxMzQ2NmM4MzgxZDAwM2ExYjRkOWMy.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "13f0dc7fc2e9fd97d5b6f2d8a2f1f262de251c625fa647704ef8b96475e1b7e9",
+        "variants": {
+          "original": {
+            "body": "A Bajnokok ligája alapszakasz 5. fordulójában az Arsenal és a Borussia Dortmund 1–1-es döntetlent játszott a londoni Emirates Stadionban 60 704 néző előtt, miután a hazaiak részéről Gyökeres talált be a 10. percben, míg a vendégeknél Beier egyenlített az 55. percben."
+          },
+          "tolkien": {
+            "title": "A Bajnokok ligája csarnokában: Vér és acél az Emirates mezsgyéjén",
+            "body": "A Bajnokok ligája alapszakaszának ötödik viadalán az Arsenal és a Borussia Dortmund nézett szemmel egymással a londoni Emirates Stadion bástsái alatt, ahol 60 704 lélek tanúskodott a csatáról. A tizedik napfordulón Viktor Gyökeres törte át a pajzsokat egy rohammal, ám az ötvenötödik percben Beier válaszolt, így a harc 1–1-es döntetlennel ért véget Mariani fővezér bíráskodása mellett. Mikel Arteta és hadvezérei, köztük a vihar legjobbjának választott Noni Madueke keserűen bánták a veszendőbe ment dicsőséget és a kihagyott alkalmakat. A németek táborában Jobe Bellingham és Niko Kovac uralkodó úgy ítélte, igazságos osztozkodás született a hatalmas küzdelemben, holott a hősök – köztük a cserként harcba küldött vitézek, mint Guirassy vagy Bruno Guimaraes – mind a nyolc legjobb közé vágyakoznak."
+          },
+          "reito": {
+            "title": "Bajnokok ligája: Döntetlen Londonban, ahol a helyzet ura a kapufa maradt",
+            "body": "A Bajnokok ligája alapszakaszának 5. fordulójában az Arsenal és a Borussia Dortmund 1–1-es békét kötött a londoni Emirates Stadionban 60 704 szurkoló gyűrűjében, Mariani olasz sípszóra indított koncertjén. Gyökeres már a 10. percben megszerezte a hazaiak gólját, de Beier az 55."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Wed, 25 Nov 2026 06:02:28 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Egyre több a sérülés az NBA-ben? Meglepő adatokat közölt a liga",
+      "link": "https://nbanews.hu/nba-serulesek-statisztika-megelozes/",
+      "description": "Szinte alig telik el úgy egy játéknap az NBA-ben, hogy ne érkezne újabb sérüléshír valamelyik meghatározó játékosról. Austin Reaves, Victor Wembanyama és a remekül bemutatkozó újonc Cameron Boozer egészségi állapota is beszédtémát szolgáltatott az elmúlt napokban, a liga frissen közzétett adatai azonban árnyalják a sérülésekkel kapcsolatos általános benyomásokat. A számok mást mutatnak, mint amit a...",
+      "image": "",
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Egyre több a sérülés az NBA-ben? Meglepő adatokat közölt a liga",
+        "summary": "Szinte alig telik el úgy egy játéknap az NBA-ben, hogy ne érkezne újabb sérüléshír valamelyik meghatározó játékosról. Austin Reaves, Victor Wembanyama és a remekül bemutatkozó újonc Cameron Boozer egészségi állapota is beszédtémát szolgáltatott az elmúlt napokban, a liga frissen közzétett adatai azonban árnyalják a sérülésekkel kapcsolatos általános benyomásokat. A számok mást mutatnak, mint amit a...",
+        "url": "https://nbanews.hu/nba-serulesek-statisztika-megelozes/",
+        "published": "Wed, 25 Nov 2026 06:02:28 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "a3b84ac449a25d8e55d17e13b62bb87da4f70addd2cf9e76996c2c62ccaded98",
+        "variants": {
+          "original": {
+            "body": "Az NBA által frissen közzétett adatok árnyalják a sérülésekkel kapcsolatos általános benyomásokat, miközben az elmúlt napokban Austin Reaves, Victor Wembanyama és Cameron Boozer egészségi állapota is beszédtémát szolgáltatott. A hivatalos statisztikák megismerése segíthet a bajnokság szereplőinek és a szurkolóknak pontosabban megítélni a játékosokat érintő egészségügyi helyzetet. A liga közlése így új megvilágításba helyezi a játéknaponként érkező sérüléshíreket az észak-amerikai profi kosárlabda-bajnokságban."
+          },
+          "tolkien": {
+            "title": "A Bajnokok Vére és a Számok Titka",
+            "body": "Az észak-amerikai kosárlabda csarnokainak küzdőterén szinte mindennaposakká váltak a harcosokat sújtó sebek, miközben Austin Reaves, Victor Wembanyama és az ifjú újonc, Cameron Boozer testi épsége is aggodalmat szült a krónikákban. A magasságos liga most a nyilvánosság elé tárta a titkos tekercsek adatait, amelyek fényesen megcáfolják a mindennapos pusztulás sötét árnyait. E mérlegelés által tisztábban láthatóvá válik a küzdőtér bajnokainak valós sorsa és a csaták valódi mérlege."
+          },
+          "reito": {
+            "title": "Csonttörések a tizediken: Mégsem dől romba a liga",
+            "body": "Az észak-amerikai kosárlabda-arénákban annyi a sérült sztár, mint égen a csillag, hiszen Austin Reaves, Victor Wembanyama és az újonc Cameron Boozer is éppen a fájdalmairól értekezik. A vezérkar azonban asztalra csapott a friss statisztikákkal, amelyek szerint a helyzet mégsem olyan sötét, mint ahogy azt a jeges borogatásokat számolgató drukkerek hiszik. A hivatalos adatok így gyorsan lehűtik a kedélyeket, mielőtt még az egész mezőny gipszben kezdené a következő játéknapot."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "444.hu",
+      "published": "Wed, 25 Nov 2026 07:31:54 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Jönnek Trump újabb vámjai",
+      "link": "https://444.hu/2026/11/25/jonnek-trump-ujabb-vamjai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Kína, az Európai Unió és Japán a célpont.",
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Wed, 25 Nov 2026 07:25:39 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Kárpátalja – az új fejezet",
+      "link": "https://444.hu/2026/11/25/karpatalja-az-uj-fejezet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "Magyar–ukrán csúcstalálkozó, a Tisza-frakció belügyei, Szerhij Zsadan-interjú, a Huang-hatás és a nemzet hülyéje a 444 napindító hírlevelében.",
+      "image": "",
+      "prepared": {
+        "source": "444.hu",
+        "title": "Kárpátalja – az új fejezet",
+        "summary": "Magyar–ukrán csúcstalálkozó, a Tisza-frakció belügyei, Szerhij Zsadan-interjú, a Huang-hatás és a nemzet hülyéje a 444 napindító hírlevelében.",
+        "url": "https://444.hu/2026/11/25/karpatalja-az-uj-fejezet?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Wed, 25 Nov 2026 07:25:39 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "rss",
+        "sourceHash": "8bbcfec64ff14128fd48011b0ca671ac4c31a81d119840419dbc9494b1e7a448",
+        "variants": {
+          "original": {
+            "body": "A 444 napindító hírlevelében magyar–ukrán csúcstalálkozó, a Tisza-frakció belügyei, Szerhij Zsadan-interjú, a Huang-hatás és a nemzet hülyéje szerepel. Ezzel a tartalommal a hazai közélet, a parlament munkája és a nemzetközi diplomácia eseményei is a napirendre kerültek. Az olvasók részletes áttekintést kapnak a megjelölt témákról az aktuális hírlevélben."
+          },
+          "tolkien": {
+            "title": "A határok vizein túl és a tanácskozások csarnokában",
+            "body": "A magyarok és ukránok fejedelmei csúcstalálkozóra gyűltek össze, míg a Tisza népének frakciója saját belső ösvényeit járja. Szerhij Zsadan szavai visszhangoznak a krónikákban, miközben a Huang-hatás szele és a nemzet sorsát kísérő balga alakok kísértik a mindennapokat. E fenséges és zord események hírét a 444 napindító levele hozza el a várkapukhoz. Az olvasó e sorok révén szemtanúja lehet a hatalom és a szellem nagy összecsapásainak."
+          },
+          "reito": {
+            "title": "Tisza-parti viharok és a Huang-hatás bűvölete",
+            "body": "Magyar–ukrán csúcstalálkozó borzolja a kedélyeket, miközben a Tisza-frakció házon belül is talál magának elegendő fejtörőt. Szerhij Zsadan interjúja, a megkerülhetetlen Huang-hatás és a nemzet hivatalos balekja mind felbukkannak a 444 reggeli menetrendjében. E pompás keverékből kiderül, hogy a politika és a szellemi élet porondján egy pillanatig sincs unalom. A hírlevél pontban ott csap le, ahol a legkevésbé számítanának rá."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "444.hu",
+      "published": "Wed, 25 Nov 2026 07:20:48 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Magyar Péter és Zelenszkij beálltak röplabdázni a kárpátaljai fiatalokhoz",
+      "link": "https://444.hu/2026/11/25/magyar-peter-es-zelenszkij-bealltak-roplabdazni-a-karpataljai-fiatalokhoz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "description": "De a Fidesz átlát a szitán!",
+      "image": "",
+      "prepared": {
+        "source": "444.hu",
+        "title": "Magyar Péter és Zelenszkij beálltak röplabdázni a kárpátaljai fiatalokhoz",
+        "summary": "De a Fidesz átlát a szitán!",
+        "url": "https://444.hu/2026/11/25/magyar-peter-es-zelenszkij-bealltak-roplabdazni-a-karpataljai-fiatalokhoz?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Wed, 25 Nov 2026 07:20:48 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "rss",
+        "sourceHash": "65f75ea299fb0ec13c679342680324a4fccfaf14a1b9f2b8eee9eb744b6f616b",
+        "variants": {
+          "original": {
+            "body": "Belföldi közéleti vonatkozású eseményként Magyar Péter és Volodimir Zelenszkij kárpátaljai fiatalokkal röplabdázott, amivel kapcsolatban a Fidesz átlát a szitán. A fejlemény gyakorlati következményeként a kárpátaljai fiatalok megjelentek a politikai szereplők közös programján, miközben a kormánypárti álláspont szerint a helyzet mögötti valós szándékok azonnal nyilvánvalóvá váltak. A forrásban további részletek, modellek, szolgáltatások vagy határidők nem szerepelnek."
+          },
+          "tolkien": {
+            "title": "A röplabda árnyéka a bércen",
+            "body": "Íme, a belföldi rögökön megtörtént, hogy Magyar Péter és Volodimir Zelenszkij a kárpátaljai ifjak közt labdát ragadott a magasba, miközben a Fidesz sötét tekintettel átlát a szitán. Ezen cselekedet nyomán a föld népe tanúja lehetett a váratlan találkozásnak, amelynek valódi hálóját a kormánypárt éles szemmel nyomban felismert. További titkos rúnákról vagy határidőkről a krónika nem beszél."
+          },
+          "reito": {
+            "title": "Hálózat a határ mentén, avagy mikor a Fidesz átlát a szitán",
+            "body": "A belföldi színpadon Magyar Péter és Volodimir Zelenszkij hirtelen kárpátaljai fiatalok közt találták magukat egy röplabdameccs keretében, amire a Fidesz azonnal reagált azzal, hogy átlát a szitán. A gyakorlatban ez azt jelenti, hogy a labda röpködött a levegőben, a kormánypárti radar pedig azonnal letapogatta a manővert. Órákat, modelleket vagy egyéb technikai paramétereket a krónikás ezúttal nem hagyott az utókorra."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 08:00:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Innováció a magyar gerincsebészetben: mérnökökkel karöltve forradalmasítják a műtéteket",
+      "link": "https://www.portfolio.hu/gazdasag/20261125/innovacio-a-magyar-gerincsebeszetben-mernokokkel-karoltve-forradalmasitjak-a-muteteket-878880",
+      "description": "<p>Átadták a 3D Sebészeti és In Silico Biomechanikai Laboratórium kibővített részlegét a Budai Egészségközpontban.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/e/g/e/egeszsegugy-budai-egeszsegkozpont-kutatas-fejlesztes-orvostudomany-diagnosztika-betegellat-872416.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Innováció a magyar gerincsebészetben: mérnökökkel karöltve forradalmasítják a műtéteket",
+        "summary": "<p>Átadták a 3D Sebészeti és In Silico Biomechanikai Laboratórium kibővített részlegét a Budai Egészségközpontban.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261125/innovacio-a-magyar-gerincsebeszetben-mernokokkel-karoltve-forradalmasitjak-a-muteteket-878880",
+        "published": "Wed, 25 Nov 2026 08:00:00 +0100",
+        "categories": [
+          "technology"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/e/g/e/egeszsegugy-budai-egeszsegkozpont-kutatas-fejlesztes-orvostudomany-diagnosztika-betegellat-872416.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "6cdbc9f6c1f1c620844c0f2205114b4ee22e09f101c6d2af00695db249219e1d",
+        "variants": {
+          "original": {
+            "body": "A 2026. november 13-i konferencián magyar, svájci, német, holland és szingapúri szakemberek mutatták be az Országos Gerincgyógyászati Központ Királyhágó utcai központjában megújult és kibővített laboratórium fejlesztéseit a technológia és fejlesztések rovat keretében. A közvetlenül a betegellátás helyszínén működő, nyolc éve együttműködő sebészekből, mérnökökből és kutatókból álló egységben képalkotó adatok alapján készülő, személyre szabott 3D-nyomtatott anatómiai modelleket és műtéti segédeszközöket állítanak elő az összetett gerincműtétek pontos előkészítéséhez. A technológia és fejlesztések területéhez tartozó laboratóriumi megoldások és szolgáltatások várhatóan 2027 második negyedévétől válnak elérhetővé a klinikai ellátásban, az EU MDR-nek megfelelő minőségirányítási rendszer kialakítását követően."
+          },
+          "tolkien": {
+            "title": "A csontok építészei és a háromdimenziós varázslat krónikája",
+            "body": "A gyógyítók és a szürke acél mesterei, a mérnökök gyűltek össze a 2026. évi november hava tizenharmadik napján, hogy a technológia és fejlesztések szent csarnokában feltárják a jövő titkait. Az Országos Gerincgyógyászati Központ Királyhágó utcai szentélyében, hol nyolc esztendje fonódik egybe a szike és az értelem, újjászületett a műhely, hogy a hús és a fém határán új utakat törjön. A képalkotás rejtett jeleiből formált, páratlan 3D-nyomtatott testrészek és eszközök készülnek ott, melyek a mély sebeket és a ferde oszlopokat hivatottak egyenessé tenni a technológia és fejlesztések nevében."
+          },
+          "reito": {
+            "title": "Ahol a gerincsebész és a mérnök teát főz: a 3D-s jövő esete",
+            "body": "A 2026. november 13-i konferencián magyar, svájci, német, holland és szingapúri szakemberek rántották le a leplet a technológia és fejlesztések csodáiról az Országos Gerincgyógyászati Központ Királyhágó utcai központjában. A helyszínen, ahol a sebészek és a mérnökök már nyolc éve bűvölik a kütyüket, most ünnepélyesen felavatták a labor megújult, kibővített termeit a technológia és fejlesztések jegyében. A virtuális tervekből kinövő, egyedi 3D-nyomtatott műtéti segédeszközök pontosan azt a célt szolgálják, hogy a gerincműtétek végre ne a tévedésekről szóljanak."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:58:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Nagyot zuhant tegnap az Nvidia - Nézzük, mi vár ma a tőzsdékre",
+      "link": "https://www.portfolio.hu/uzlet/20261125/nagyot-zuhant-tegnap-az-nvidia-nezzuk-mi-var-ma-a-tozsdekre-878904",
+      "description": "<p>Elképesztően turbulens időket élünk a tőzsdéken: az Nvidia vezette hétfői rali után tegnap nagy esést láthattunk az európai és az amerikai piacokon, a magyar tőzsde is lefelé vette az irányt, élen az OTP-vel. Komoly kilengésekből vélhetően ma sem lesz hiány, ráadásul érkeznek fontos gazdasági adatok is: Amerikában megjelenik a harmadik negyedéves GDP második becslése, valamint a PCE-infláció. Utóbbi, különösen az élelmiszer- és energiaáraktól megtisztított magmutató, fontos támpontot adhat a Fednek a kamatdöntéshez. A jelenlegi adatok alapján óvatos emelkedés jöhet Európa tőzsdéin.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/b/u/l/bull-bear-medve-bika-tozsde-506851.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Nagyot zuhant tegnap az Nvidia - Nézzük, mi vár ma a tőzsdékre",
+        "summary": "<p>Elképesztően turbulens időket élünk a tőzsdéken: az Nvidia vezette hétfői rali után tegnap nagy esést láthattunk az európai és az amerikai piacokon, a magyar tőzsde is lefelé vette az irányt, élen az OTP-vel. Komoly kilengésekből vélhetően ma sem lesz hiány, ráadásul érkeznek fontos gazdasági adatok is: Amerikában megjelenik a harmadik negyedéves GDP második becslése, valamint a PCE-infláció. Utóbbi, különösen az élelmiszer- és energiaáraktól megtisztított magmutató, fontos támpontot adhat a ",
+        "url": "https://www.portfolio.hu/uzlet/20261125/nagyot-zuhant-tegnap-az-nvidia-nezzuk-mi-var-ma-a-tozsdekre-878904",
+        "published": "Wed, 25 Nov 2026 07:58:00 +0100",
+        "categories": [
+          "hu-market",
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/b/u/l/bull-bear-medve-bika-tozsde-506851.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "49f63f2980613e1dc1db71dd8a4702e986bd55cb3c17221e6d67979c4e7b4634",
+        "variants": {
+          "original": {
+            "body": "Kedden komoly eladási hullám söpért végig a mesterséges intelligenciához kapcsolódó amerikai részvényeken a külföldi tőzsdéken, amelynek során az Nvidia árfolyama közel 6 százalékot zuhant, az Anthropic pedig 6,5 százalékot veszített értékéből. A tengerentúli piacon lezajlott esést a befektetők profitrealizálása és a mesterséges intelligenciába áramló hatalmas beruházások megtérülése miatti aggodalmak táplálták. Ezzel párhuzamosan belföldön az MNB közzéteszi a hitelintézetek októberi mérleg- és eredményadatait. Az amerikai tőzsdei folyamatok és a hazai adatközlés egyaránt meghatározza a pénzügyi piacok napi mozgásait."
+          },
+          "tolkien": {
+            "title": "Az Óriások Zuhanása és a Pénz Folyói",
+            "body": "A mesterséges intelligencia birodalmának fejedelmi papírjai, az Nvidia és az Anthropic megrendültek a tengerentúli ütközőmezőkön, miközben az Nvidia közel hat százalékot zuhant a mélybe. A vagyonok árnyékában a befektetők kapzsi maroknyi aranyat halmoztak fel, míg a hazai földön az MNB számadó írnokai feltárják a hitelintézetek októberi kincseskamráinak mérlegét. Ezen a napon a nagy amerikai birodalom száműzetésbe küldi a gyarapodás adatait a GDP és az infláció viharos szelén keresztül. A tőzsdei harcmezők tüze jelzi, hogy a beruházások sorsa még a ködös jövő rejtélyes homályába veszik."
+          },
+          "reito": {
+            "title": "Zuhanócsík a Wall Streeten és banki mérlegek Budapesten",
+            "body": "Kedden az amerikai tőzsdéken az Nvidia közel 6 százalékos, míg az Anthropic 6,5 százalékos eséssel ünnepelte a profitrealizálók rohamát, miután a mesterséges intelligencia csodájába fektetett milliárdok megtérülése éppen a béka feneke alatt ünnepel. A tengerentúli pánik közepette a befektetők azon kapják magukat, hogy a pénzük gyorsabban illan el, mint a friss lángos a strandon. Eközben odahaza az MNB is leteszi az asztalra a hitelintézetek októberi mérleg- és eredményadatait, hogy ne unatkozzanak a szám szerelmesei. Az amerikai hálaadás árnyékában pedig olyan adatterápiát kap a piac a GDP-től a PCE-inflációig, ami még a legedzettebb brókert is kávézásra kényszeríti."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:46:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Riasztást adtak ki a titkosszolgálatok: veszélyes módszerekkel próbálja megtörni Európát Oroszország",
+      "link": "https://www.portfolio.hu/global/20261125/riasztast-adtak-ki-a-titkosszolgalatok-veszelyes-modszerekkel-probalja-megtorni-europat-oroszorszag-878902",
+      "description": "<p>Európának nem szabad beletörődnie abba, hogy az orosz hibrid támadások a mindennapok részévé váljanak – figyelmeztetnek vezető európai hadiipari tisztviselők. A védelmi ágazat vállalatai egyre több szabotázskísérlettel, gyújtogatással és a dolgozóikat célzó titkosszolgálati akcióval szembesülnek, miközben a létesítmények védelmére vonatkozó szabályozás továbbra is széttagolt az Európai Unióban - közölte a <a href=\"https://www.ft.com/content/7f57f64e-1f85-4be8-87ec-2db18830ebb2?syn-25a6b1a6=1\" target=\"_blank\" rel=\"noopener\">FT</a>.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/s/z/a/szabotazs-hadiipar-oroszorszag-hibrid-haboru-saab-rheinmetall-armin-papperger-dronelharitas-872432.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Riasztást adtak ki a titkosszolgálatok: veszélyes módszerekkel próbálja megtörni Európát Oroszország",
+        "summary": "<p>Európának nem szabad beletörődnie abba, hogy az orosz hibrid támadások a mindennapok részévé váljanak – figyelmeztetnek vezető európai hadiipari tisztviselők. A védelmi ágazat vállalatai egyre több szabotázskísérlettel, gyújtogatással és a dolgozóikat célzó titkosszolgálati akcióval szembesülnek, miközben a létesítmények védelmére vonatkozó szabályozás továbbra is széttagolt az Európai Unióban - közölte a <a href=\"https://www.ft.com/content/7f57f64e-1f85-4be8-87ec-2db18830ebb2?syn-25a6b1a6=1\"",
+        "url": "https://www.portfolio.hu/global/20261125/riasztast-adtak-ki-a-titkosszolgalatok-veszelyes-modszerekkel-probalja-megtorni-europat-oroszorszag-878902",
+        "published": "Wed, 25 Nov 2026 07:46:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/s/z/a/szabotazs-hadiipar-oroszorszag-hibrid-haboru-saab-rheinmetall-armin-papperger-dronelharitas-872432.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "f657062c81446a65c7619612c6f8719fe27e09e083987e9416e38d7806b3e060",
+        "variants": {
+          "original": {
+            "body": "Külföldön, nevezetesen Oroszország hibrid és szabotázsakciói miatt riasztást adtak ki a titkosszolgálatuk az európai hadiipari létesítmények, repülőterek és kritikus infrastruktúrák védelmében. A támadások és a cégvezetők elleni merényletek és csapdák miatt a hadiipari vállalatok fokozott biztonsági intézkedéseket és egységes uniós, valamint nemzeti szintű védelmet sürgetnek. Észtország például bejelentette, hogy decembertől lezárja az Oroszországgal közös határátkelőit egy dróngyártót ért tűzeset miatt, míg Franciaország a fegyvergyártóknak a telephelyeken drónelhárító eszközök bevetését engedélyező törvényt fogadott el."
+          },
+          "tolkien": {
+            "title": "A keleti homály árnyéka a fegyverkovácsok csarnokain",
+            "body": "Íme, a messzi észak és nyugat földjein, a svéd Saab vezérigazgatója, Micael Johansson és a titkos tanácsok által feltárt veszedelemben Oroszország sötét ügynökei lopakodnak a hadak míves eszközöit őrző bástyák ellen. A birodalom bérgyilkosai a cégvezérek életére törnek, és a tűz leheletével emésztik fel a dróngyártók csarnokait, miközben Észtország népe e fagyos napokban, december havában zárja be határkapuit a keleti veszedelem előtt. A fegyverkovácsok fejedelmei most egységes pajzsot és szigorú őrizetet követelnek, hogy a fenyegető éjszakában megvédjék a szabad birodalmak bástzáit."
+          },
+          "reito": {
+            "title": "Ahol a társkereső csajok és a drónok is Moszkvából üzennek",
+            "body": "Európában az orosz titkos ügynökök olyan tempóban osztogatják a hibrid pofonokat a hadiiparnak, hogy a svéd Saab vezérigazgatója, Micael Johansson szerint Moszkva már a kontinens tűréshatárát is kitolná. A norvég cégvezetők legnagyobb örömére a vidéki hotelekben csinos nők és kínai hölgyek próbálják csapdába csalni a bátor munkatársakat, míg Észtország gyorsan lezárja az orosz határt decemberben, mert egy dróngyártónál kigyulladt a gyufa. Franciaországban a fegyvergyártók már saját drónelhárító cuccokkal lövöldözhetnek, mert a müncheni gyárak felett átutazó gyanús repülő tárgyakból eddig is sok volt a jó."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:38:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Tisza-kormány: megállapodott Magyar Péter Zelenszkijjel, ma folytatódik a parlamenti nagyüzem",
+      "link": "https://www.portfolio.hu/gazdasag/20261125/tisza-kormany-megallapodott-magyar-peter-zelenszkijjel-ma-folytatodik-a-parlamenti-nagyuzem-878890",
+      "description": "<p>Az idei költségvetés módosításának vitájával folytatódik szerdán az Országgyűlés munkája, miközben az Európai Bizottság elégtelennek ítélte a túlzott hiány megszüntetésére tett magyar intézkedéseket. Magyar Péter és Volodimir Zelenszkij keddi kárpátaljai találkozóján energetikai és infrastrukturális együttműködésről is megállapodott, a parlament pedig elfogadta a jövő évi adóváltozások és szociális intézkedések sorát.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/d/n/e/dnems20261124301-872426.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Tisza-kormány: megállapodott Magyar Péter Zelenszkijjel, ma folytatódik a parlamenti nagyüzem",
+        "summary": "<p>Az idei költségvetés módosításának vitájával folytatódik szerdán az Országgyűlés munkája, miközben az Európai Bizottság elégtelennek ítélte a túlzott hiány megszüntetésére tett magyar intézkedéseket. Magyar Péter és Volodimir Zelenszkij keddi kárpátaljai találkozóján energetikai és infrastrukturális együttműködésről is megállapodott, a parlament pedig elfogadta a jövő évi adóváltozások és szociális intézkedések sorát.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261125/tisza-kormany-megallapodott-magyar-peter-zelenszkijjel-ma-folytatodik-a-parlamenti-nagyuzem-878890",
+        "published": "Wed, 25 Nov 2026 07:38:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/d/n/e/dnems20261124301-872426.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "5b759f44d94e536e5bba6169b1a075fd7827096542979f89a710d0c074356f09",
+        "variants": {
+          "original": {
+            "body": "A pedagógusképzés átalakítása keretében megszűnik a Nemzeti Közszolgálati Egyetem Nemeskürty István Tanárképző Kara, amit Lannert Judit oktatási és gyermekügyi miniszter jelentett be. A diákok jövőjéről már megkezdődtek az egyeztetések a kar hallgatói önkormányzatával. Ezzel párhuzamosan szerdán reggel kilenckor folytatja munkáját az Országgyűlés, ahol a képviselők az idei költségvetés módosításáról, a biztosítók szanálási keretrendszeréről, valamint környezetvédelmi, közlekedési és építésügyi javaslatokról tárgyalnak. Napirenden szerepel továbbá az Országos Élőkörnyezet-felügyeleti Főhatóság létrehozásához kapcsolódó törvénymódosítás is."
+          },
+          "tolkien": {
+            "title": "A Tanárképző Kar alkonya és a Törvényhozás csarnokának ébredése",
+            "body": "A pedagógusképzés átalakításának viharában végleg eloszlik a Nemzeti Közszolgálati Egyetem Nemeskürty István Tanárképző Karának sorsa, miután Lannert Judit oktatási és gyermekügyi miniszter bejelentette annak megszűnését. Az otthontalanul maradó diákok jövőjének útjáról már megkezdődtek a tanácskozások a kar hallgatói önkormányzatával. Miközben a felsőoktatás e bástyája összedől, szerdán reggel kilenckor újra megnyitják kapuikat a Törvényhozás tanácstermei, hogy a képviselők kezükbe vegyék a birodalom sorsát. A fővárosi nagytanácson az idei kincstári költségvetés mérlegét, a biztosítók védőhálóját, valamint a természeti védelem, az utak és az építkezések törvényeit rostálják meg, beleértve az Országos Élőkörnyezet-felügyeleti Főhatóság új várainak alapkövét is."
+          },
+          "reito": {
+            "title": "Tanárképző a múltban, költségvetés a porondon",
+            "body": "A pedagógusképzés reformjának nagyszerű napján pont kerül a Nemzeti Közszolgálati Egyetem Nemeskürty István Tanárképző Karának nevére, miután Lannert Judit oktatási és gyermekügyi miniszter pakolásra ítélte az intézményt. A diákok jövője érdekében persze már izgatottan egyeztetnek a hallgatói önkormányzattal, nehogy kétségbeesésükben mindannyian lakatlakatosnak álljanak. Szerdán reggel kilenckor aztán a Parlament is kinyitja a bazárt, hogy a képviselők gyorsan rendet vágjanak az idei költségvetés, a biztosítók szanálási keretrendszere, meg a közlekedési és építésügyi javaslatok sűrűjében. Ha ez nem lenne elég, még az Országos Élőkörnyezet-felügyeleti Főhatóság létrehozásának törvénymódosítását is áttuszkolják a rendszeren, amivel a fővárosi nagyüzem biztosan nem marad látványosság nélkül."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:38:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Felszámolják az NKE tanárképző karát, Lannert Judit elmondta, mi vár a diákokra",
+      "link": "https://www.portfolio.hu/gazdasag/20261125/felszamoljak-az-nke-tanarkepzo-karat-lannert-judit-elmondta-mi-var-a-diakokra-878900",
+      "description": "<p>A pedagógusképzés átalakításának részeként megszűnik a Nemzeti Közszolgálati Egyetem (NKE) Nemeskürty István Tanárképző Kara, a diákok jövőjéről pedig már megkezdődtek az egyeztetések a kar hallgatói önkormányzatával – tudatta <a href=\"https://www.facebook.com/permalink.php?story_fbid=pfbid02xRVYDJges55qSRv1UHKSMvBiNqtJBV6HZyFuHqjLqMR9CeXwzMoxsLaAiZNA7Vgwl&id=61589397058487\">Facebook-bejegyzésében</a> Lannert Judit oktatási és gyermekügyi miniszter.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/d/_/m/d-mtz20261116051-872430.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:32:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "50 milliárd eurós technológiai alapot hozhat létre az EU, a kvantumszámítástechnikára fogad Európa",
+      "link": "https://www.portfolio.hu/uzlet/20261125/50-milliard-euros-technologiai-alapot-hozhat-letre-az-eu-a-kvantumszamitastechnikara-fogad-europa-878898",
+      "description": "<p>Az Európai Unió egy akár 50 milliárd eurós technológiai alap létrehozását tervezi, hogy csökkentse az Egyesült Államokkal és Kínával szembeni lemaradását. A brüsszeli tervek szerint az új finanszírozási eszköz hosszú távú, magas kockázatú befektetésekkel támogatná az európai mesterségesintelligencia- és kvantumszámítástechnikai vállalatokat, erősítve ezzel a kontinens technológiai szuverenitását - írta meg a <a href=\"https://www.ft.com/content/53d4b629-7ae4-4d63-ac37-e773b1dd3af0?syn-25a6b1a6=1\" target=\"_blank\" rel=\"noopener\">Financial Times</a>.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/u/r/s/ursula-von-der-leyen-ep-strasbourg-663925.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:23:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Már megint 370 felett az euró, nyomás alatt a forint",
+      "link": "https://www.portfolio.hu/deviza/20261125/mar-megint-370-felett-az-euro-nyomas-alatt-a-forint-878896",
+      "description": "<p>Gyengült a forint szerda reggel a főbb devizákkal szemben, az euró jegyzése 370 fölé emelkedett, miközben egy dollárért közel 339 forintot kell adni a kora reggeli kereskedésben.</p>",
+      "image": "https://pcdn.hu/articles/images-xl/f/o/r/forint191231-342221.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:13:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Bejelentette Kijev: megteszik, amit Vlagyimir Putyin kért - Ennek egyetlen feltétele van",
+      "link": "https://www.portfolio.hu/global/20261125/bejelentette-kijev-megteszik-amit-vlagyimir-putyin-kert-ennek-egyetlen-feltetele-van-878894",
+      "description": "<p>Ha Oroszország azt szeretné, hogy Ukrajna állítsa le az olajfinomítók és hajók elleni támadásokat, tűzszünetet kell kötnie és Kijev megteszi ezt – jelentette ki Andrij Szibiha ukrán külügyminiszter az ukrán <a href=\"https://www.rbc.ua/rus/news/sibiga-zhorstko-vidpoviv-putinu-obrazi-cherez-1795546869.html\" target=\"_blank\" rel=\"noopener\">RBK beszámolója szerint.</a></p>",
+      "image": "https://pcdn.hu/articles/images-xl/o/r/o/orosz-ukran-haboru-putyin-tuzszunet-olajfinomito-872428.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:03:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Készül a mindent elsöprő katonai akció: Trump célkeresztet rajzolt Amerika ellenségeire - Mindenki a parancsra vár",
+      "link": "https://www.portfolio.hu/global/20261125/keszul-a-mindent-elsopro-katonai-akcio-trump-celkeresztet-rajzolt-amerika-ellensegeire-mindenki-a-parancsra-var-878892",
+      "description": "<p>A Trump-adminisztráció azt fontolgatja, hogy átfogó csapássorozattal likvidálják Irán keményvonalas vezetőit, akik szerintük a potenciális béketárgyalásokat hátráltatják. A terv ellenzői szerint egy ilyen lépés csak még radikálisabb vezetőket juttathat hatalomra Teheránban - értesült mindezekről az <a href=\"https://www.nbcnews.com/politics/national-security/trump-administration-officials-debating-targeting-irans-leaders-source-rcna610889\">NBC News.</a></p>",
+      "image": "https://pcdn.hu/articles/images-xl/d/o/n/donald-trump-public-domain-777114.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Wed, 25 Nov 2026 07:00:00 +0100",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Végzetes hiba lenne betiltani az AI-t az iskolákban: nagy fordulat jöhet a magyar oktatásban",
+      "link": "https://www.portfolio.hu/uzlet/20261125/vegzetes-hiba-lenne-betiltani-az-ai-t-az-iskolakban-nagy-fordulat-johet-a-magyar-oktatasban-878712",
+      "description": "<p>Programozható eszközként indult, amellyel lányok tanulhattak programozni, ma pedig iskolák, tankerületek és kormányzatok vásárolják éves licencben az imagi platformját, ahol a diákok biztonságosan használhatnak valódi AI-eszközöket. Az edtechcég a Brighteye és a Day One Capital friss tőkéjével elsősorban a középiskolásokra, a munkavállalásra való felkészítésre és az AI magabiztos használatára összpontosít. Pálfi Dóra alapító szerint a programozási szintaxis helyett egyre inkább a gondolkodás számít, ezért a probléma pontos megfogalmazását és a kritikus gondolkodást kell fejleszteni. A szakértő, aki <a href=\"https://www.portfolio.hu/rendezvenyek/konferencia-it/ai-digital-transformation-2026/2032/attekintes\">AI & Digital Transformation konferenciánk egyik kiemelt előadója lesz csütörtökön</a>, úgy véli, az AI-t nem betiltani kell, hanem a számológéphez hasonlóan vele és nélküle is tanítani. Itthon is elindult a változás, hiszen edtechalapítók és oktatási szakértők egy csoportjával irányelveket dolgoztak ki az AI oktatási használatáról, és a minisztérium jelezte, hogy az egyeztetés eredményét a szabályozás alapjának tekinti majd.</p>",
+      "image": "https://pcdn.hu/articles/images-lg/p/a/l/palfidora01-872262.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Végzetes hiba lenne betiltani az AI-t az iskolákban: nagy fordulat jöhet a magyar oktatásban",
+        "summary": "<p>Programozható eszközként indult, amellyel lányok tanulhattak programozni, ma pedig iskolák, tankerületek és kormányzatok vásárolják éves licencben az imagi platformját, ahol a diákok biztonságosan használhatnak valódi AI-eszközöket. Az edtechcég a Brighteye és a Day One Capital friss tőkéjével elsősorban a középiskolásokra, a munkavállalásra való felkészítésre és az AI magabiztos használatára összpontosít. Pálfi Dóra alapító szerint a programozási szintaxis helyett egyre inkább a gondolkodás ",
+        "url": "https://www.portfolio.hu/uzlet/20261125/vegzetes-hiba-lenne-betiltani-az-ai-t-az-iskolakban-nagy-fordulat-johet-a-magyar-oktatasban-878712",
+        "published": "Wed, 25 Nov 2026 07:00:00 +0100",
+        "categories": [
+          "technology",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-lg/p/a/l/palfidora01-872262.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "contentBasis": "article",
+        "sourceHash": "d1ebd8543d2118081efbc340d10432a589d02b3d02a54bfa7b488188fc99b874",
+        "variants": {
+          "original": {
+            "body": "Pálfi Dóra edtech startupperrel készült beszélgetés alapján az imagi jelenleg éves licenceket értékesít iskoláknak, tankerületeknek és kormányzatoknak egy olyan platformért, amely biztonságos AI-eszközöket, tananyagot és tanárképzést foglal magában, az OpenAI-tól kapott egymillió dolláros kredit pedig segít a pedagógusok ingyenes kipróbálási lehetőségének fenntartásában. A cikk Technológia / Fejlesztések rovatához kapcsolódóan a fejlesztés célja, hogy a középiskolákra és bizonyos esetekben a felső tagozatosokra fókuszálva olyan szabályozott és biztonságos közvetítő réteget biztosítson, amely védi a diákok adatait, miközben a tanár felügyelheti a folyamatot ahelyett, hogy betiltanák az intelligens eszközöket. A belföldi vonatkozást az adja, hogy idén ősszel a szakember magyar edtechalapítók és oktatási szakértők csoportjával közösen kidolgozott egy „Irányelvek az oktatás emberi jövőjéért” című irányelvcsomagot az AI oktatási alkalmazásáról, amelyet nyílt szakmai egyeztetésre bocsátottak, és a minisztérium jelzése szerint az eredményt a szabályozás alapjának tekintik majd. A gyakorlati következmény az, hogy a startupok gyorsan eljuttathatják a valódi eszközöket az osztálytermekbe, miközben a tanulók elsajátíthatják a kritikus és algoritmikus gondolkodást, a pedagógusok pedig döntéshozóként felügyelhetik a munkát."
+          },
+          "tolkien": {
+            "title": "Az Algoritmusok Csarnoka és a Tudás Őrzői",
+            "body": "Ím, a Technológia és a Fejlesztések birodalmában Pálfi Dóra mester és az imagi népe olyan ezüstösen csillogó hálót kovácsolt, amely az OpenAI egymillió aranytallérjával támogatva biztonságos hidat ver a tanulás ifjú vándorai és a mesterséges értelem hatalmas eszközei közé, megóvva őket a tudatlanság és a tiltás sötét vermétől. A belföldi rögökön ezen a tavaszon és őszön egy új törvény könyve született meg magyar bölcsek kezétől „Irányelvek az oktatás emberi jövőjéért” címen, hogy a minisztérium palotájában pecsétet kapva jelölje ki az utat az iskolák kapui előtt. Legyen bár a gyermek kezében az újkor varázsigéje, a gondolkodás szent lángja nem aludhat ki, mert a pedagógus szigora és méltósága őrködik a tudás szentélyében. Ebből a szövetségből az a sors fakad, hogy az ifjú elméket nem a tudás elzárásával sújtják, hanem a fegyelmezett bölcsesség páncéljában engedik felemelkedni a holnap csatáira."
+          },
+          "reito": {
+            "title": "Hogyan mentsük meg az iskolát a robotok lázadásától egy tál rizstengeren túl?",
+            "body": "Pálfi Dóra edtech kapitány és az imagi csapata éppen arra tanítja a középiskolák ifjúságát, hogyan ne égessék le a jövőjüket az OpenAI egymillió dolláros hitelkeretéből működtetett, szigorúan felügyelt AI-platformokon keresztül. A Technológia és a Fejlesztések frontvonalában a tiltás helyett az eszközök szelídítését hirdetik, miközben a belföldi rögös utakon idén ősszel egy friss, „Irányelvek az oktatás emberi jövőjéért” című papírcsomagot is nyílt egyeztetésre dobtak, amelyhez a minisztérium is asszisztál a szabályozási alapok lerakásakor. A gyakorlatban ez azt jelenti, hogy a diákok végre nemcsak a füstölgő okostelefonjaik bűvöletében élnek, hanem a tanár szigorú felügyelete mellett tanulják meg használni a kódot, mielőtt még a gép írná meg helyettük a házi feladatot."
+          }
+        }
+      },
+      "preparedVividStyles": true
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 07:00:00 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "„Még inkább ragyogni fog” – Szoboszlai Dominik megvédte sokat kritizált csapattársát",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/szoboszlai-dominik-florian-wirtz-liverpool-baratsag",
+      "description": "Kiderült, mi a titka a két liverpooli sztár összhangjának.",
+      "image": "https://cdn.origo.hu/2026/11/tjm4UT926ZsvRWUMy-xvVDj_J2CbTORCrU1NgrqH_GQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC8xZmQxZDAzYjEwOWE5NmExYzRmODFiNmExYjgyNjNjYmI3ODYzNTYwODZkYjJlNDgzNThlYjc5YTVlYjdiOTIw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 06:45:00 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Támad a tél: nem találod ki, hány hókotró áll csatasorba!",
+      "link": "https://www.origo.hu/auto/2026/11/hokotrok-varnak-bevetesre-a-magyar-utakon",
+      "description": "Az ország bizonyos részein már neki is láttak a munkának.",
+      "image": "https://cdn.origo.hu/2026/11/bx8QwzIavGWOwpIKEWWijzyE1TaI5Hc1xsIqkFtPdxU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC84NjM3YzdjZDA5YmVlODM1NWIxNzhlYTQyZDcwMmE5NjY4NTU0OGRiNmU2YmI5ZGEzM2NiNzlhZGU5YjZkZWIz.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 06:30:00 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "„Nem érdemes dolgozni!” – kiakadtak a kommentelők a Tisza adótörvényén",
+      "link": "https://www.origo.hu/belpol/2026/11/adotorveny-tisza-part-kommentmezo-kata-adokedvezmeny",
+      "description": "Indulatos reakciók érkeztek az adóemelésekre.",
+      "image": "https://cdn.origo.hu/2026/11/d4kobCmaJIrL6mg2FjaPKsi_TEpT-F-k57CvzKar4GQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC8xZjJlMmQ2YWM5MTI4NjZiMmU0YjFiYTYzODMxMWQ3ZDQyN2ExYzE4ZDNlNTJhODE4MzM2ZjUwN2M5ZjIzNmQ1.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Wed, 25 Nov 2026 06:15:00 +0000",
+      "observed": "2026-11-25T08:02:34.567561+01:00",
+      "title": "Hét év börtönt kapott a hacker, aki kiszivárogtatta a GTA 6 felvételeit",
+      "link": "https://www.origo.hu/techbazis/2026/11/gta-6-hacker-felvetelek-kiszivarogtatas",
+      "description": "Arion Kurtaj a Rockstar Games rendszerébe tört be, és 90 videót tett közzé a készülő játékból. Más nagyvállalatokat is megtámadott, több millió fontos kárt okozva.",
+      "image": "https://cdn.origo.hu/2026/11/-gHm9kyDxyqT4fANT7AqWyTFNm0socx69TleYhQqFYQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzg5Y2MyMGJhYjVlYjQyNmI5YWJmMzgxMjY0MTE1ZDky.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-25T07:01:20.324428+01:00"
+  "lastRssCollection": "2026-11-25T08:02:34.567561+01:00"
 }
