@@ -99,9 +99,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/e/n/e/energia-nyersanyag-olaj-oroszorszag-iran-haboru-kozel-kelet-hormuzi-szoros-gazdasag-koolaj-872816.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "1a181cafee5846973ec15de6b3a06aca128178f6e168c321d0a22949d873030e",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "5766b060fae7c70f7547f9982a2baa074135b6c428925e379b789af8fd8ade6a",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A hétvégi ülésen az OPEC+ tagállamoknak reagálniuk kell a kitermelési kapacitásukról készült első független felmérésre, amelyet a DeGolyer and MacNaughton és a Shri Chandra Group végzett a 2027-es kvóták meghatározásához. A nem nyilvános eredmények jóváhagyását nehezíti az ukrajnai háború és a közel-keleti konfliktus, emellett Irak már visszautasította a becslést, és Oroszország is várhatóan vitatni fogja a saját adatait. A helyzet éles ellentétet szülhet a szövetség legnagyobb kitermelői között, mivel Szaúd-Arábia nehezményezi a kvótatúllépéseket, Rijád és Bagdad viszonya pedig feszült a szeptemberi olajvezetékes támadás miatt. A 66 éves kartell számára komoly próbatételt jelent a vita, különösen az Egyesült Arab Emírségek májusi kilépése és az esetleges újabb távozások árnyékában, miközben a csoportnak arról is döntenie kell, mennyi kőolajat enged a piacra januárban."
+        },
+        "tolkien": {
+          "title": "A Fekete Arany Krónikája: Megrendül a Korhadó Trón",
+          "body": "Íme, a hétvégi gyűlés napján a föld gyomrából fakadó fekete nedű urai szembesülnek az első független bölcsek, a DeGolyer and MacNaughton, valamint a Shri Chandra Group által emelt mérleg sötét ítéletével, hogy abból kovácsolják a jövő évi bilincseket. Ám a harcok zaja és a közel-keleti tűzfészkek füstje megfertőzte a tanácskozást, és Irak népe, valamint Oroszország serege már most megtagadja a nekik szánt sorsot, éles kardokat rántva a szövetség óriásai ellen. Szaúd-Arábia magányos hegyként viseli a terhek súlyát a hűtlenek árulása közepette, míg a trónokért folyó vetélkedés és a korábbi szövetségesek veszedelmes távozása a hatvanhat éves birodalom romlásával fenyeget. Így állnak éji tanácsra az olaj birodalmainak fejedelmei, hogy eldöntsék, engedik-e áradni a fekete folyamot a fagyos januári napon."
+        },
+        "reito": {
+          "title": "Hordók és puskapor: Amikor a kartellben elszabadul a pokol",
+          "body": "A hétvégén aztán nézhetnek a fejesek a DeGolyer and MacNaughton meg a Shri Chandra Group friss, független jelentésére, amiből majd kigyúrják a jövő évi kvótákat, ha ugyan össze nem marakodnak addig. Irak máris hátat fordított a számoknak, és Oroszország sem készül tisztelegni a saját adatai előtt, miközben Szaúd-Arábia egyedül viseli a balhét a túllépő brancs helyett. A 66 éves kőolajklubban most aztán van izgalom, főleg miután az Egyesült Arab Emírségek már idén májusban kisétált az ajtón, Bagdad meg a saját feje szerint tolja a naponta kitermeltmilliókat. Végül a díszes társaságnak még abba is bele kell υαλωraukolni, hogy mennyi fekete aranyat öntsenek a piacra januárban, mielőtt a bódé végleg összedől."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -114,9 +127,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1337578741-mesterseges-intelligencia-digitalizacio-informacios-technologia-digita-872812.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "9c262c236804a08a232f528b20133f5058b26747b21aed0ac0a1257d35bd3af8",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "b808687232aefc2619f75c00b89feb07ed8369c26e0d7a8510a2f6279685cf2f",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A brit nyugdíjpénztárakat felügyelő The Pensions Regulator (TPR) új iránymutatást adott ki a brit nyugdíjalapok számára a mesterséges intelligenciához köthető részvény- és hitelpiaci túlzott kitettségek miatt. A külföldi pénzügyi piacokat és a brit nyugdíjpénztárak portfólióit érintő intézkedés célja, hogy a vagyonkezelők stressztesztekkel és kockázatkezelési keretrendszerekkel védjék meg pénzeszközeiket. A szabályozó különösen a 100 fő alatti kis nyugdíjpénztárak miatt aggódik, mivel körükben kevésbé elterjedt a hivatalos kockázatkezelés. Az MSCI World részvényindex 25 százalékát nyolc technológiai nagyvállalat adja, és például a Nest nyugdíjpénztár júniusi adatai szerint 68,4 milliárd fontos vagyonának 11 százalékát tizenegy technológiai vállalatban tartotta."
+        },
+        "tolkien": {
+          "title": "A szilikon-bálványok árnyéka és a brit kincstárak törékeny pajzsai",
+          "body": "A britek pénzfelügyeletének őrszeme, a TPR aggasztó jelekre bukkant a távoli tőzsdék birodalmában, ahol a mesterséges intelligencia aranyló leple alatt rejtőző, tátongó mélységek fenyegetik a nyugdíjak roppant várait. A külföldi piacok sötét áramlatai elérték a brit nyugdíjalapok kincstárait is, miután a vagyon jelentős része mindössze tizenegy technológiai titán bűvös körébe sűrűsödött. Hogy e törékeny birodalmak elkerüljék a végzetes zuhanást, a felügyelet szigorú próbákra és a rejtett viharok feltárására kötelezte a pénztárakat, különösen a védtelenül álló, apró seregeket vezérlő kis alapokat. Az óriások birodalmában, ahol nyolc hatalmasság tartja kezében a világ indexeinek negyedét, a kincsek sorsa most a gondos mérlegelés vaspajzsaitól függ."
+        },
+        "reito": {
+          "title": "Ahol az AI-lufi pukkan, ott a brit nyugdíjak is koppannak",
+          "body": "A brit nyugdíjpénztárakat felügyelő TPR emberei hirtelen észrevették, hogy a tőzsdei mesterséges intelligencia hajója talán túlságosan is egyetlen kártyára tette fel a vagyonát a külföldi piacokon. A külföldi techóriások részvényei mögött rejlő milliárdok miatt a brit alapkezelők most hirtelen stressztesztekkel kezdhetik vizsgálni, vajon bírják-e a gyűrődést a portfólióik, ha az Nvidia körül forgó botrányok és a Nasdaq-zuhanások szele tovább fúj. A helyzet pikantériája, hogy míg a nagy alapok már régóta óvatosak voltak, a 100 fő alatti kis nyugdíjpénztárak negyede még saját kockázatkezelési keretrendszerrel sem rendelkezik a vihar eljöveteléhez. Az L&G eközben büszkén dől hátra a maga 200 milliárd fontjával, míg másokat éppen azért rúgtak ki az alapokból, mert nem fektettek elég pénzt az amerikai technológiai papírokba."
+        }
+      }
     },
     {
       "source": "444.hu",
@@ -132,7 +158,20 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "rss",
       "sourceHash": "924c17b26f3d78ffcff10f3d3fa1607fc5a10d7964db798a17ad9585c5ff0791",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A közmédiában sugárzott orosz propaganda hatósági vetületéről is szó esett, miután Kert Attila megválasztott vezérigazgató a belföldi parlamentben fideszes képviselőknek ígéretet tett. Ennek gyakorlati következményeként a mostani ellenzék a Fidesz által uralott belföldi politikai téren korrektebb elbírálásban részesül majd, mint az elmúlt 16 év bármelyik napján volt az akkori ellenzéknek. Az érintett szereplők az Országgyűlés fideszes képviselői és Kert Attila vezérigazgató."
+        },
+        "tolkien": {
+          "title": "A birodalmi kürzsó és a tizenhat esztendős homály",
+          "body": "A belföldi parlament márványcsarnokaiban, a fideszes képviselők gyűrűjében Kert Attila megválasztott vezérigazgató emelte szavát a közmédián átáradó orosz propaganda hatósági vetületeiről. A hatalom tanácskozásán megköttetett a szó, hogy a jelenkor ellenzéke igazságosabb ítéletet és tisztább elbírálást kap, mint amilyen sötét árnyék vetült az elmúlt tizenhat esztendő bármelyik napján a régi ellenzék sorsára. E szent ígéret pecsétje örökre megváltoztatja a hazai médiumok és a politika viharos tengerének áramlatait."
+        },
+        "reito": {
+          "title": "Híradós béketárgyalások: amikor a propaganda is kap egy pecsétet",
+          "body": "A belföldi parlament falai között, a fideszes képviselők asztalánál Kert Attila megválasztott vezérigazgató hozta szóba a közmédia orosz propagandájának finom kis hatósági vetületeit. A nagylelkű osztozkodás pillanatában megígérte, hogy a mai ellenzék olyan korrektebb elbírálásban részesül, amilyet az elmúlt 16 év alatt a régi ellenzék még nyomokban sem láthatott. Így aztán a törvényhozás porondján mindenki megkapja a maga igazát, miközben a múlt kísértetei elegánsan félreállnak az új idők útjából."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -145,9 +184,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261125/1795611479-temp-oveg3ja7gbt43agabbn_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "55856cf6095b758b1b0e360ac341c78530274fe18c1e215863f8505149ef3cad",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "732f2870935ba183f80d8f9be7f5cc0bc97efe9a637bf67cf27a99e68668d76e",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A kormány, a munkaadók és a munkavállalók érdekképviseleti szerveinek múlt heti megállapodása alapján Magyarországon a bruttó minimálbér 2027-ben 7,5 százalékkal 347 ezer forintra, a garantált bérminimum pedig 6,1 százalékkal 396 ezer forintra emelkedik, miközben a minimálbér értéke nem fogja elérni jövőre a bruttó rendszeres keresetek 50 százalékát. Ennek gyakorlati következménye, hogy miközben az uniós irányelv szerinti bruttó kereseti arányos célkitűzés elmarad, a Pénzügyminisztérium és a jegybank adatai szerint a bruttó átlagbér növekedése mellett a nettó minimálbér tekintetében mégis sikerült teljesíteni a ratifikált uniós minimálbér-irányelv elvárásait. A korábbi, 2024-ben kötött hároméves bérmegállapodás eredetileg 2025-re 9, 2026-ra 13, 2027-re pedig 14 százalékos emelést irányzott elő, ám a friss adatok és megállapodások ezt módosították. A hazai gazdaságpolitikai és uniós kötelezettségek mellett továbbra is érvényben maradt a 2024-ben tett kormányzati ígéret, amely szerint a minimálbér 2028-ra elérheti az 1000 eurós szintet."
+        },
+        "tolkien": {
+          "title": "A bérbérc csúcsai és a meg nem érintett határok",
+          "body": "A kormány, a munkaadók és a munkavállalók érdekképviseleti szerveinek múlt heti megállapodása nyomán Magyarország földjén a bruttó minimálbér 2027-ben 7,5 százalékkal 347 ezer forintra, a garantált bérminimum pedig 6,1 százalékkal 396 ezer forintra emelkedik, ám a minimálbér értéke elmarad a bruttó rendszeres keresetek 50 százalékának elérésétől. Ezen bérrögök árnyékában a Pénzügyminisztérium és a jegybank előrejelzései szerint a bruttó átlagbér tovább növekszik, míg a LIGA Szakszervezetek elnöke, Hatvani Jácint tanúsága szerint a nettó minimálbér révén mégis teljesül a ratifikált uniós minimálbér-irányelv szelleme. A korábbi, 2024-ben hirdetett hároméves egyezség ösvényei eltorlaszoltattak a 2025-re szóló 9, a 2026-os 13 és a 2027-es 14 százalékos ígéretek romjain. Mindeközben a távoli jövő ködében, 2028 esztendejére még pislákol az ezer eurós küszöb elérésének régi ígérete."
+        },
+        "reito": {
+          "title": "Háromszázalékos csodák és ezer eurós délibábok",
+          "body": "A kormány, a munkaadók és a munkavállalók érdekképviseleti szerveinek múlt heti megállapodása értelmében Magyarországon a bruttó minimálbér 2027-ben 7,5 százalékkal 347 ezer forintra, a garantált bérminimum pedig 6,1 százalékkal 396 ezer forintra hág fel, miközben a minimálbér értéke fittyet hány a bruttó rendszeres keresetek 50 százalékos elvárására. A gyakorlatban ez azt jelenti, hogy az uniós irányelv szerinti bruttó arány ugyan elúszik, de Hatvani Jácint, a LIGA Szakszervezetek elnöke szerint a nettó minimálbér révén bravúros módon mégis kipipálható a nemzetközi elvárás. A 2024-ben köttetett hároméves bérmegállapodás korábbi, 9, 13, illetve 14 százalékos lépcsői a feledés homályába vesztek a Pénzügyminisztérium és a jegybank növekedési jelentései mellett. A történet végén pedig ott lebeg a kormányzati ígéret, amely szerint 2028-ra még így is meglesz az 1000 eurós minimálbér."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -161,8 +213,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/s/z/g/szg-9345-872770.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "c360178434e0bcbabf02a9304c50fa47fb808f1465bc786e29c3f069586e19d4",
+      "contentBasis": "article",
+      "sourceHash": "03d6c55a87f5e76863976c996d6a5122a7524950a0e486c9fc0f88b8e82eb094",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -243,7 +295,20 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Budapesti Értéktőzsdén az AKKO Invest meghatározó tulajdonosa, a WING Csoporthoz tartozó Mevinvest kezdeményezte közel 7,46 millió darab D sorozatú részvény C sorozatú törzsrészvénnyel való átalakítását, aminek következtében közel 29,84 millió új C sorozatú részvény érkezik a hazai tőzsdére. A tranzakció nyomán az AKKO C sorozatú törzsrészvényeinek száma 40 millióról mintegy 69,9 millióra emelkedik, míg a D sorozatú papírok megszűnnek, az alaptőke és a szavazatok száma pedig változatlan marad. A szükséges cégbírósági és egyéb eljárások lezárását követően az új részvényeket a Budapesti Értéktőzsde Prémium kategóriájába vezetik be. A lépés a nagytulajdonos tőzsdei elkötelezettségét mutatja, míg a BÉT-en forban lévő papírok számának növekedése elvileg a likviditás javulásához is vezethet."
+        },
+        "tolkien": {
+          "title": "A Ház Új Részvényeinek Krónikája a Magyar Tőzsde Csarnokában",
+          "body": "Íme, a Budapesti Értéktőzsde kapuin belül az AKKO Invest hatalmas birtokosa, a WING Csoport égisze alatt álló Mevinvest határozott úgy, hogy a D sorozatú, egyenként 100 forint névértékű köveit átváltoztatja közel 29,84 millió darab C sorozatú törzsrészvénnyé. E fenséges csere nyomán az AKKO C sorozatú törzsrészvényeinek serege 40 millióról közel 69,9 millióra duzzad, míg a régi D sorozatú részvények örökre elenyésznek. Miután a cégbíróság és a hatalom láncai lehullanak, e friss részvények a Budapesti Értéktőzsde Prémium kategóriájának trónjára lépnek be. Ez a nemes lépés a birtokos rendíthetetlen hűségét hirdeti a tőzsde csarnokai iránt, s a részvények áradata talán a kereskedés tengerét is mélyebbé és élénkebbé teszi."
+        },
+        "reito": {
+          "title": "Negyvenmillióból mennyi? Az AKKO tőzsdei átalakulásának meséje",
+          "body": "A Budapesti Értéktőzsdén az AKKO Invest főnöke, a WING Csoporthoz tartozó Mevinvest úgy döntött, hogy szétporlasztja a meglevő D sorozatú papírokat, és közel 29,84 millió darab friss C sorozatú törzsrészvényt zúdít a piaczra. Ennek a bűvészmutatványnak köszönhetően az AKKO C sorozatú törzsrészvényeinek állománya 40 millióról mintegy 69,9 millióra ugrik, míg a D sorozatú részvények hamuvá válnak, bár az alaptőke és a szavazatok száma megmakacsolja magát, és egy jottányit sem változik. Amint a cégbíróság és a papírmunka bürökratikus malmai leőrlik a kötelező kököröket, ezeket a részvényeket bepasszolják a Budapesti Értéktőzsde Prémium kategóriájába. Az egész manőver csupán a főtulajdonos olthatatlan tőzsdei szerelmét igazolja, a pénzmozgások élénkülése pedig majd akkor jön el, ha a nagymenő a részvényei értékesítésére adja a fejét."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -257,9 +322,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261125/1795619744-temp-kl4lkh2461su7aephii_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "abcf5eac3335f031d6f263e3a4c4018398e443e792547c302a4222aed9e2b586",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "c1d69fa945d74bd54637077a9de1805f864fb22dae5af1a86bc8905e6fef81c9",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A kedd este benyújtott vagyongazdálkodási törvényjavaslat miatt szigorodnak a vasúti ingatlanok hasznosításának feltételei a parlament által tárgyalt szabályozásban, ami közvetlenül érinti a magánbefektetőket, a vasúti ingatlanokat fejlesztő vagy üzemeltető cégeket, az önkormányzatokat, valamint a budai Várban található Anna utca 1. alatti Arany Sas Patikamúzeum melletti bérlakások bérlőit. A gyakorlatban ez azt jelenti, hogy eltörölnék a 10 százalékos állami részesedésű vagyonkezelői lehetőséget, a védett ingatlanoknál kizárólag állami többségű személyszállító cég kaphat földhasználati jogot, a koncessziók 5 évnél hosszabb futamidejét indokolni kell az észszerű hozam eléréséig, az ingyen kapott cégrészesedéseket pedig 15 évig tilos továbbadni az állam kivételével. A tervezet véglegesíti, hogy a koncessziók felső határa megmarad 35 évnél, míg a budai Vári épületnél engedélyezik a társasházzá alakítást, így a bérlők megvehethetik a lakásaikat, miközben a múzeum állami vagyon marad."
+        },
+        "tolkien": {
+          "title": "A Vasút és a Korona Törvénye: Új igák a vaspályák építőinek",
+          "body": "A parlament oltárán benyújtott vagyonjogi rendelet szigorú láncokra veri a vasúti ingatlanok birodalmát birtokló magánbefektetőket és cégeket, véget vetve a régi idők szabad portyáinak. Mostantól a tizedrésznyi királyi vagy állami részesedés sem elegendő ahhoz, hogy holmi vállalkozás vasúti földeket kezeljen, és a szent, védett falak földhasználatát kizárólag a személyszállító, államfő többségű céhek kaphatják meg. A koncessziók ideje harmincöt esztendőben éri el a csillagos plafont, de öt év túlúszásához már vaskos magyarázat kell, amíg a beruházó meg nem leli a maga tisztes zsákmányát és megtérülését. Az ingyen osztogatott cégrészesedések kincseit pedig tizenöt hosszú télen át tilos idegen kézbe adni az állam trónján ülők kivételével, míg a budai Vár kőfalaiban az Arany Sas Patikamúzeum szomszédságában lévő lakások bérlői végre megválthatják otthonaikat."
+        },
+        "reito": {
+          "title": "A pályaudvarok zsákutcája: Akik eddig ingyen nyalták a mézet, most fizethetnek a kanálért",
+          "body": "A kedd este benyújtott vagyongazdálkodási törvényjavaslat alaposan meghúzza a gyeplőt a vasúti ingatlanokra és állami vagyontárgyakra áhítozó magánbefektetők, valamint cégek nyakán a parlamentben. A gyakorlati pofon az, hogy füstbe megy a régi terv a 99 éves magánkezelésről, egy füst alatt pedig eltörölik azt a kiskaput is, amivel már egy sovány 10 százalékos állami részesedéssel is be lehetett fészkelni magát egy vasúti ingatlanfejlesztő cégbe. Aki eddig ingyen kapott cégrészesedést a nemzeti vagyonból, az mostantól tizenöt évig kötelezően ül rajta, mint macska a tejfölön, és eladhatatlan marad a papírja az államon kívül bárkinek. A budai Várban, az Arany Sas Patikamúzeum szomszédságában lévő bérlakások bérlői viszont fellélegezhetnek, mert a ház társasházzá alakulhat, így végre megvehetik a saját lakásukat, miközben maga a múzeum szigorúan állami kézben marad."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -273,9 +351,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/m/e/s/mesterseges-intelligencia-nyelvi-modell-chatbot-tozsdei-bevezetes-ipo-nasdaq-openai-spacex-google-872762.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "18ed6b43f5604fd7cf02493591d11bde6c0d32ee543bf822f816625d602974e4",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "255627a82c68f5afb8b5943fcb7253c6d33994694c53e65f0fa73b16f5881e62",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Claude nyelvi modellt fejlesztő Anthropic november 19-én ANT ticker alatt debütált a New York-i Nasdaq-on, miután júniusban bizalmasan tőzsdei bevezetési kérelmet nyújtott be az amerikai tőzsdefelügyelethez. A magas kereslet miatt a papírokat a tervezett 70-78 dolláros sávnál magasabbra, 83 dollárra árazták, a nyilvános kibocsátás pedig 81,34 milliárd dollárt hozott a külföldi tőzsdén. Az első napon a részvény 111,50 dolláron nyitott, majd percek alatt 115 dollárig emelkedett, amivel a cég értéke meghaladta a 2000 milliárd dollárt, és a világ hatodik legértékesebb tőzsdei vállalatává vált; a lendület azonban nem tartott ki, és a nyitás előtti kereskedésben a kibocsátási ár alá is benézett az árfolyam. A Google Trends adatai szerint az Anthropic tőzsdei rajta idején az internetes keresési érdeklődés globálisan megugrott, bár a SpaceX idei rekordjától és az OpenAI, valamint a ChatGPT iránti keresésektől elmaradt."
+        },
+        "tolkien": {
+          "title": "Az Anthropic fénye a tőzsdék viharos egén",
+          "body": "A Claude mesterséges szellemét megidéző Anthropic november tizenkilencedikén, az ANT rúnája alatt lépett ki a New York-i Nasdaq csarnokába, hogy megmérettessék magukat a külföldi tőzsde hatalmas piacán. A halandó vágyak vihara miatt a papírok ára a hetven és hetvennyolc aranytallér közötti várakozást túlszárnyalva nyolcvanhárom dolláron született meg, s a kibocsátás nyolcvanegyezer-egyszázharminchárommillió dollár kincsét hozta meg a cégnél. Az első óra ragyogásában a részvény száztizenegy dollár ötven centen nyitott, majd száztizenötig szökkent, s a vállalat értéke átlépte a kétezermilliárdos határt, a világ hatodik legfényesebb trónusára emelve a birodalmat. Ám a harcmező szelei hamar megfordultak: az árfolyam a nap végére kilencvenhét dollárra süllyedt, majd a hajnali órákban a kezdeti sáv alá is alábukott, miközben a Google Trends krónikája szerint a világ népei az OpenAI és a SpaceX csodáival vetélkedve keresték a neveket."
+        },
+        "reito": {
+          "title": "Amikor a Claude megmutatta, hogyan kell tőzsdét robbantani",
+          "body": "A Claude nyelvi modellt fejlesztő Anthropic november 19-én ANT ticker néven robbant be a New York-i Nasdaq-ra, miután még júniusban csendben benyújtotta a papírjait az amerikai tőzsdefelügyelethez. A befektetői éhség akkora volt, hogy a tervezett 70-78 dolláros ársávot simán átlépve 83 dolláron lőtték be a külföldi tőzsdére szánt részvényeket, amelyek így 81,34 milliárd dollárt hoztak a konyhára. A nyitónapon a papír 111,50 dollárról indulva percek alatt 115-ig száguldott, ezzel a cég értéke átlépte a 2000 milliárd dollárt, és beparkolt a világ hatodik legértékesebb tőzsdei cégeinek élmezőnyébe. A tüzijáték azonban gyorsan kifulladt, mert mire a nap végére 97 dollár környékére esett, kedden reggelre meg is kóstolta a kibocsátási ár alatti szintet, miközben a Google Trends adatai szerint a netezők inkább a SpaceX-et, a Geminit vagy az OpenAI-t keresték."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -288,9 +379,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/z/o/l/zold-vilag-energia-idojaras-nyersanyag-gazar-gaztarolo-lng-hormuzi-szoros-gaz-kozel-kele-866892.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "42d9ae5e21f2922f7f14b3c91ea893426f6f295a2cfe3a966696149e78f0fb01",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "39d6d43e6f91be3b97c6b2b5f0238dd08bc16f39ebb57277218803089e69e977",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A New York-i árutőzsdén (NYMEX) csökkent a földgáz ára, ami az Egyesült Államok energiapiacát és tőzsdei jegyzéseit érinti; a decemberi szállítású gáz 1 százalékkal 3,28 dollárra esett MMBtu-ként, míg a januári határidős jegyzés ugyancsak 1 százalékkal 3,64 dollárra csökkent. Emiatt a tőzsdei befektetőknek és energiapiaci szereplőknek alacsonyabb árakkal kell számolniuk a hálaadás napi ünnep miatt szerdára előrehozott szövetségi készletjelentési várakozások és az enyhébb időjárási előrejelzések közepette. Az ármozgások szorosan kapcsolódnak a tőzsdei és külföldi energiapiaci folyamatokhoz, miközben a kilenc legnagyobb amerikai LNG-exportterminálra irányuló gázszállítás novemberben napi átlagban rekordot jelentő 552 millió köbméterre rúgott. A meteorológiai előrejelzések szerint december 10-ig országszerte a szokásosnál enyhébb marad az időjárás."
+        },
+        "tolkien": {
+          "title": "A hideg mélységek lehelete és a tengerentúli kincsek özöne",
+          "body": "A New York-i tőzsde csarnokában a földgáz árfolyama csekély mértékben, 1 százalékkal hanyatlott alá: a decemberi jegyzés 3,28 dollárra esett millió brit hőegységenként, míg a januári határidő 3,64 dollárra apadt. E változás következtében a fűtési idény küszöbén az energiapiac vándorai enyhébb terhekkel szembesülnek, miközben a mélyből feltörő kincsek árama mit sem veszít erejéből. Az amerikai föld kútjaiból és a kilenc nagy exportterminál kapuin át a cseppfolyósított kincsek szállítása soha nem látott magasságokba, napi 552 millió köbméteres csúcsra hágott. E rovat határain túl a fagyos csillagok alatt a december 10-ig kitartó szelíd időjárás parancsol megálljt a tüzes vágyaknak."
+        },
+        "reito": {
+          "title": "Gázcső, tőzsde és a rekordokat döntögető cseppfolyós fuvallatok",
+          "body": "A New York-i tőzsdén (NYMEX) a decemberi földgáz ára 1 százalékos bukáriával 3,28 dollárra esett MMBtu-nként, és a januári rokon is lekövette a lépést 3,64 dolláros árcédulával. Így a tőzsdei befektetők most olcsóbban mérik a portékát, miközben az elemzők a szerdára hozott szövetségi készletjelentést és a gáztárolók adatait bújják. A tengerentúli energiapiac forgatagában a kilenc legnagyobb amerikai LNG-exportterminál gázszállítása közben új csúcsra törve napi 552 millió köbméterre hízott novemberben. December 10-ig ráadásul az időjárás is a lusta tavaszt idézi, ami nem kis fejtörést okoz a fűtéssel kalkulálóknak."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -303,9 +407,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261125/1795609867-temp-q5bun4rk92ek2fnlihe_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "1797bb8f3464acd383bdc1ad3dc4eed67aaebfc124a878f4686d21ee69332121",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "e704cb3c185dd3e61d777236b5a2d934d073538d7ab034305ac9732a97b7c48e",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Kedden Kárpátalján találkozott Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán elnök, ahol az ukrán kukoricaimport kérdéséről is tárgyaltak az agrárium ellátási gondjai miatt. A hazai mezőgazdaságot a klímaváltozás és az aszály sújtja, mivel a Magyarországon megtermelt, alig 1,4-1,5 millió tonnás kukoricatermés nem fedezi a feldolgozóipar és a takarmányozás szükségleteit, ráadásul a Gabonaszövetség szerint 800 ezer tonna beszerzése továbbra is megoldatlan. Az ukrán gabonabehozatal 2023 óta érvényben lévő tilalma és a hazai hiány miatt komoly szakmai és politikai viták alakultak ki, miközben a GMP+ International besorolása alapján Ukrajna alacsony, addig Magyarország magas aflatoxinkockázatú országnak számít. Ezzel a belföldi agrárhelyzettel és a szűkös készletekkel kapcsolatban a feldolgozók és az állattartók komoly veszélyeket látnak a döntéshozói korlátozásokban."
+        },
+        "tolkien": {
+          "title": "A sárguló földek árnyéka és az éhes magtárak sorsa",
+          "body": "Kárpátalján, a messze földön emlékezetes keddi napon találkozott Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán elnök, hogy a gabona múlhatatlan sorsáról és az ukrán kukorica kapuinak lehetséges megnyitásáról tanácskozzanak. Az ég perzselő haragja és az aszály tüze miatt a magyar határok renyhe földjein mindössze 1,4-1,5 millió tonna termés született, miközben az éhes szájak és a Gabonaszövetség által jelzett 800 ezer tonnás hiány sötét árnyként borul a gazdaságra. A tiltások vaspántjai és a fojtogató hőség közt a GMP+ International krónikája szerint Ukrajna alacsony, míg a hazai mezőgazdaság magas aflatoxinkockázatú vidékként végezte az évad nagykönyvében. E belföldi küzdelemben a magyar agrárium és az állattenyésztés népe most attól remél megváltást, hogy a vaskos korlátok fogságából kiszabaduló tiszta alapanyag elűzze a közelgő inséget."
+        },
+        "reito": {
+          "title": "Kukoricakaland a határ mentén: amikor a siló kong az ürességtől",
+          "body": "A kárpátaljai sasfészekben kedden találkozott Magyar Péter miniszterelnök és Volodimir Zelenszkij ukrán elnök, hogy megbeszéljék, miként lehetne némi sárga kincset átoperálni Magyarországra. A helyzet annyira festői, mint egy száraz sivatagi revü: a hazai kukoricatermés rekordalacsony, mindössze 1,4-1,5 millió tonnára rúg, a Gabonaszövetség pedig az egekbe kiált a 800 ezer tonnás, elégedetlenkedő hiány miatt. A fene sem gondolta volna, de a GMP+ International friss listája szerint a forró aszályban a magyar föld épp magas aflatoxinkockázatúvá vált, miközben az ukrán portékát még mindig papíron rángatják a belföldi tilalmak láncai. Így aztán a magyar agrárium szereplői most azon törhetik a fejüket, hogy miként etessék meg az állatokat, ha egyszer a törvény szerint tiltott a szemes, de enélkül üresen marad a jászol."
+        }
+      }
     },
     {
       "source": "Origo.hu",
@@ -318,9 +435,22 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/m_vY8glCbz9BWBHh3qmYppNQgreWS635cSF2SZl5iJA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS9jOTVkOGQ3N2NhYTcwZGM5ZmY5MTYyMGM1OGU2OTM1YTg2NGQwNjRmZWM0OGZmN2FkNTA0NWQxMDc3YWFiY2U5.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "a9130846ed39c8292d86b060704d6e79ddcb6dacb1de709a7f3edd73c4b0237e",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "40b6c9ea8b8f76d170ed6d745fd8a44e24601818ce526f4fa42d56a66dca2386",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A belföldi futballéletben a Ferencváros vezetőedzője, Borbély Balázs bejelentette, hogy a csapat az Európa-liga alapszakaszának csütörtök 21 órakor a Groupama Arénában kezdődő, szlovén bajnok Celje elleni mérkőzésén titokban tartja a támadósor összeállítását. A négy forduló után százszázalékos, 12 pontos teljesítménnyel a harmadik helyen álló Fradinak az ETO FC-től elszenvedett bajnoki vereség után kell pályára lépnie az eltiltott Bamidele Yusuf nélkül, míg Lenny Joseph formáját keresve tért vissza a haiti válogatottól. A hazai együttes a szakmai és gazdasági szempontból is kiemelten fontos első nyolc hely valamelyikéért küzd a megmérettetésen. A csütörtöki találkozón a kerethez tartozó, korábban a Celjétől igazolt Franko Kovacevic is nyilatkozott, aki szerint a szlovénok játékstílusa a Twentéhez hasonlít."
+        },
+        "tolkien": {
+          "title": "A zöld-fehér seregek rejtélyes haditerve a zöld mezők felett",
+          "body": "A belföldi futballélet várva várt viadalán a Ferencváros mestere, Borbély Balázs fátyol mögé rejti a csütörtök éji összecsapás legfőbb titkait a Groupama Arénában. A százszázalékos diadalok fényében tündöklő, tizenkét pontos zöld-fehér hadtest a szlovén Celje ellen vonul harcba, hogy megpecsételje sorsát a nemzetközi mezőny viharos alapszakaszában. Az eltiltott Bamidele Yusuf hiánya és Lenny Joseph viharvert visszatérése árnyékot vet a táborra, ám a támadósor éles kardjai a sötétben maradnak a csütörtök 21 órakor kezdődő csatáig. Franko Kovacevic, a horvát harcos pedig jól ismeri az ellenfél portyázóit, kiknek szívós serege a Twente viharos útjait idézi."
+        },
+        "reito": {
+          "title": "Titkos fegyverek és cseh(oroszországi helyett szlovén) manőverek a Groupama Arénában",
+          "body": "A belföldi zöld-fehér klubélet háza táján Borbély Balázs vezetőedző úgy döntött, hogy a csütörtök este 21 órakor rajtoló Ferencváros–Celje Európa-liga-meccs előtt mélyen hallgat a támadósor pontos összetételéről. Az ETO-tól kapott pofon után a tizenkét pontos, harmadik helyen tanyázó Fradi mestere az eltiltott Bamidele Yusuf hiányával és a válogatottól későn hazaérkező Lenny Joseph keresgélt formájával zsonglőrködik a Groupama Arénában. A rivális szlovén bajnok ellen esélyesként kifutó alakulatnál nem osztják meg a taktikát, hadd izguljon a publikum a meglepetésen. A celjei múltú Franko Kovacevic ráadásul kíméletlenül leleplezte a Twente-stílusú ellenfelet, így a mérkőzés minden lesz, csak nem egyhangú délutáni séta."
+        }
+      }
     },
     {
       "source": "HVG",
