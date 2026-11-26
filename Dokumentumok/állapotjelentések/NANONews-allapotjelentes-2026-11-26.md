@@ -422,3 +422,52 @@ A **2026-11-26 16:00-s** szám előzetes alapja a **15:48:04** időpontban rögz
 **169 különböző cikk** kerülhetne a délutáni számba. Egy cikk több rovatsorban is szerepelhet.
 
 Mentés indítása budapesti idő szerint 2026-11-26 16:00:41.
+
+## 17:00
+
+A mérési időszak budapesti idő szerint **2026-11-26 16:13:24–17:00:00**. Az éles kiadás oszlopa a délutáni szám állapotát mutatja.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 7 | 3 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| HVG | 5 | 3 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Nemzeti Sport | 4 | 1 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| NBAnews.hu | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 7 | 2 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Portfolio.hu | 8 | 4 | 0 | 0 | 0 | 0 | 0,0% | 2 |
+| Origo.hu | 7 | 2 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Összesen | 38 | 15 | 0 | 0 | 0 | 0 | 0,0% | 3 |
+
+### A következő kiadás adatállapota
+
+A **2026-11-27 05:00-s** szám előzetes alapja a **2026-11-26 16:45:07** időpontban rögzített RSS-gyűjtés. A forráscommit **16:45:12** időpontú. A gyűjtés kora **14 perc 52 másodperc** volt. A kiadásig újabb mentés érkezhet. A határidőig el nem mentett gyűjtés és feldolgozás mennyisége ismeretlen. Hiányzó észlelési idő 0, igazolt publikálási idő nélküli gyűjtött rekord 0. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/4979384fffd7b6cfaf07b5e1724077afd5d372e9) · [A délutáni kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/dbe7facd2fca28cb5c31e09b34910818fab8e650)
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Bajnokok ligája | 0 |
+| Premier League | 0 |
+| Arsenal | 0 |
+| Bayern München | 0 |
+| Manchester United | 0 |
+| Como | 0 |
+| F1 | 0 |
+| NBA | 1 |
+| NFL | 0 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Belföld | 8 |
+| Technológia / Fejlesztések | 2 |
+| Tőzsde | 0 |
+| Környezetvédelem | 3 |
+| Filmek | 0 |
+| Ingatlan | 0 |
+| Külföld | 2 |
+| Tenisz | 0 |
+
+**15 különböző cikk** kerülhetne a reggeli számba. Egy cikk több rovatsorban is szerepelhet.
+
+Mentés indítása budapesti idő szerint 2026-11-26 17:01:41.
