@@ -205,7 +205,8 @@ class ArticleTextParser(HTMLParser):
         self.capture=False; self.paragraph=[]; self.preferred=[]; self.fallback=[]
         self.article_links=[]; self.related_sections=[]
     def handle_starttag(self,tag,attrs):
-        attrs=dict(attrs); classes=(attrs.get("class","")+" "+attrs.get("id","")).casefold()
+        attrs=dict(attrs)
+        classes=((attrs.get("class") or "")+" "+(attrs.get("id") or "")).casefold()
         if tag in self.blocked:
             self.skip+=1; return
         if self.skip:return
