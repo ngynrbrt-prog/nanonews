@@ -6928,8 +6928,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "3fc0ebfb3a9dcb3922be0eb958493216f5e0ac3d4ccea90f6c35afefd82773d9",
+      "contentBasis": "article",
+      "sourceHash": "7db866f3f7cc8a2821c8ec70bb00cbc5e359ff8acda8dc016569eb9c1a2468d3",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -6946,7 +6946,19 @@
           "archiveDate": "2026. 11. 24."
         }
       ],
-      "variants": {}
+      "variants": {
+        "original": {
+          "body": "A győri közgyűlés csütörtökön arról tárgyalt, hogy a Győri Audi ETO felnőttcsapatát működtető kft. kérésére a következő évre szóló 100 millió forintos önkormányzati szponzorációs támogatást rendkívüli módon, már januárban egy összegben folyósítsák az összeomlás szélére került klubnak. A helyi belföldi ügyeket érintő döntés gyakorlati következményeként a pénzt csak szigorú feltételekkel utalják át: a csapatnak le kell játszania a szezon minden kötelező meccsét, be kell fejeznie a szezont, valamint biztosítania kell a vállalt szponzoráció és városmarketing szolgáltatások teljesítését. Az átmeneti segítség feltételeinek hátterében az áll, hogy a múlt héten rendkívüli elnökségi ülést hívtak össze az ETO-nál, mivel a játékosok a jelenlegi vezetés miatt távozni akartak, így Fata Edina ügyvezető és Görbicz Anita elnök lemondott a klub megmentése érdekében."
+        },
+        "tolkien": {
+          "title": "A Rába vizén túl: Százmillió aranypénz a megrendült várért",
+          "body": "A győri közgyűlés csütörtökén tárgyalta Pintér Bence polgármester indítványát, mely szerint a Győri Audi ETO nem új ajándékként, hanem a következő esztendőre szánt 100 millió forintos szponzorációs jussából részesüljön már januárban egyetlen, mindent eldöntő, egyösszegű segélyben. E királyi kincs ígérete köti a belföldi csapat sorsát: a kincstár aranyát csak akkor kapják meg kézbe, ha a bajnokok serege végigküzdi a szezon minden kötelező viadalát, és hűen beváltja a városmarketing ígért terheit. Ez a mentőöv a viharvert falak között éppen inogva állt, miután a kézilabdázók viharos hirtelenséggel sötét jövőt kiáltottak a régi urak alatt, mire Fata Edina ügyvezető és Görbicz Anita elnök lemondott a hatalomról, hogy megmentsék a dicső egyesületet a teljes pusztulástól."
+        },
+        "reito": {
+          "title": "Januári jackpot a süllyedő hajónak: Előrehozott milliók és távozó vezérek Győrben",
+          "body": "A győri közgyűlés csütörtökön átfutotta Pintér Bence polgármester javaslatát, amely a Győri Audi ETO-nak szánt következő évi 100 millió forintos szponzorációs büdzsé azonnali, januári, egy összegben történő kifizetéséről szólt az összeomlás szélén táncoló klub számára. A belföldi sportélet ezen fordulata azt jelenti a gyakorlatban, hogy a pénzt csak akkor utalják át, ha a csapat minden kötelező meccsét lejátssza, végigküszködi a szezont, és szállítja a vállalt városmarketing szolgáltatásokat. A mentőakciót az indokolta, hogy a játékosok múlt héten bejelentették: a régi vezetéssel kukázzák a jövőjüket, így Fata Edina ügyvezető és Görbicz Anita elnök azonnal vett egy egy jegyet a távozásra, hogy így mentsék a menthetőt."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -7872,7 +7884,8 @@
       "sourceArticleLinks": [],
       "contentBasis": "rss",
       "sourceHash": "45942e026a16c3fc9069c4e0a4e20990d48c2f58db0c40d47372d32b26b0a63d",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -8413,9 +8426,22 @@
         "https://www.facebook.com/profile.php",
         "https://x.com/nbanews_hu"
       ],
-      "contentBasis": "rss",
-      "sourceHash": "49ce5db4494c8eb30fad9e7c390e1bd3c7a6e2ae8623eb9bd37faed03eea92ef",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "f34351671f0a2d039169881d816fc8aea1c62ab201cb9cb7fce99163e1ae66f9",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Balbokasérülést szenvedett és csapattársai segítségével hagyta el a pályát LaMelo Ball az Oklahoma City Thunder elleni NBA Kupa-mérkőzésen, amelyen a Minnesota Timberwolves 113–106-os győzelmet aratott. A 25 éves irányító sérülése miatt Chris Finch vezetőedzőnek a kezdőötös és a rotáció átalakításán kell gondolkodnia, valamint a kétirányú szerződéses játékosok bevonására is szükség lehet. A mérkőzésből két perc és 29 másodperc volt hátra, amikor Ball egy védekező akció során Isaiah Hartenstein lábára érkezett, és kifordult a bokája. Egyelőre nem érkezett hivatalos tájékoztatás a sérülés súlyosságáról és a várható kihagyási időről, így a Minnesota a következő orvosi vizsgálatok eredményére vár."
+        },
+        "tolkien": {
+          "title": "A Farkasok Birodalma sötét árnyékba borul: LaMelo Ball elbukik az Oklahoma City csatájában",
+          "body": "Az Oklahoma City Thunder elleni viadal hajrájában, két perccel és huszonkilenc másodperccel a harc vége előtt súlyos balbokasérülést szenvedett LaMelo Ball, a Minnesota Timberwolves vezére, miközben csapat 113–106 arányban diadalmaskodott. E sorsfordító csapás nyomán Chris Finch hadvezérnek kell átkovácsolnia a kezdőcsapatot és a rotációt, akár a kétirányú szerződéses harcosok bevonásával is, miközben Anthony Edwards és Donte DiVincenzo hiánya tovább súlyosbítja a viharfelhőket. A huszonöt éves irányító, ki tizenkilenc pontot és nyolc gólpasszt gyűjtött az ütközetben, Isaiah Hartenstein pajzsára lépve terült el a mezőnyön, s bajtársai vállán, sántikálva hagyta el a szentélyt. A gyógyítók még nem hirdettek végítéletet a sérülés mértékéről, így a következő napok vizsgálatai pecsételik meg a bajnokcsapat sorsát a pénteki, Memphis Grizzlies elleni viadal előtt."
+        },
+        "reito": {
+          "title": "Fél lábbal a padlón: LaMelo Ball adhat fejtörést a Minnesotának",
+          "body": "Balbokasérülést szenvedett LaMelo Ball az Oklahoma City Thunder ellen 113–106-ra megnyert NBA Kupa-találkozó hajrájában, így a Minnesota Timberwolves újabb kulcsemberét veszítheti el. Chris Finch vezetőedző most törheti a fejét a kezdőcsapat és a rotáció átalakításán, sőt akár a kétirányú szerződéses játékosok bevetésére is rákényszerülhet Anthony Edwards és Donte DiVincenzo távollétében. A 25 éves irányító a meccsből hátralévő két perc 29 másodpercnél Isaiah Hartenstein lábára érkezett egy védekező akcióban, majd csapattársai segítségével, sántikálva vonult az öltözőbe. A pontos diagnózis és a kihagyás időtartama még nem ismert, így a csapat a pénteki, Memphis Grizzlies elleni összecsapás előtt türelmetlenül várja a vizsgálatok eredményét."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11306,9 +11332,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "d076e7608317da9a736945771cf3b7c5f5d8d96847ab059ec3075cf788d9a5c1",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8f166040afd2a695aa16f66de2a8b2c088d4f51f57766402f1e48b8ce8d35eb7",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Csütörtök kora reggel a spanyolországi Ibiza szigetétől mintegy 46 kilométerre elsüllyedt a máltai zászló alatt hajózó Med Emre vegyi tartályhajó, amely akár 7000 tonna gázolajat is szállíthatott Algecirasból Barcelonába. A hajókatasztrófa nyomán aktivált második legmagasabb szintű nemzeti tengeri szennyezés-elhárítási terv és a kiküldött olajszennyezés-elhárító hajó, repülőgép, valamint helikopterek révén a hatóságok azonnal megkezdték a környezetvédelmi kockázatok felmérését és a következmények kezelését. A balesetben a 17 fős személyzetet kimentették, ám egyikük az ibizai Can Misses kórházba szállítása után meghalt, hatan pedig könnyű sérüléseket szenvedtek."
+        },
+        "tolkien": {
+          "title": "A Med Emre veszte és a mélység fekete árnya Ibiza partjainál",
+          "body": "Csütörtök kora reggel a habok nyelték el a máltai zászló alatt hajózó Med Emre vegyi tartályhajót mintegy 46 kilométerre Ibiza partjaitól, miközben Algecirasból Barcelonába tartott értékes rakományával, akár 7000 tonna gázolajjal. E sötét veszedelem ellen a spanyol tengeri mentőszolgálat és a hatóságok éberen felemelték pajzsukat, aktiválva a második legmagasabb szintű nemzeti tengeri szennyezés-elhárítási tervet, míg a Clara Campoamor nevű hajó, repülőgép és három helikopter indult a hullámok közé a környezet megóvásáért. A viharos mentés során a 17 fős legénységet kimentették a veszedelemből, ám egy vitéz életét vesztette a can misses-i kórház kapujában, hatan pedig könnyebb sebekkel kerüldék el a végzetet."
+        },
+        "reito": {
+          "title": "Olaj a tűzre: búcsút vett a felszíntől a Med Emre",
+          "body": "Csütörtök kora reggel mintegy 46 kilométerre Ibiza szigetétől búcsút intett a szárazföldnek a máltai lobogó alatt futó Med Emre vegyi tartályhajó, amely Algecirasból Barcelonába igyekezett akár 7000 tonna gázolaj gyomrában. A hajó fenékre kerülésével a spanyol tengerészeti hatóság azonnal rántott egyet a kormányon, és aktiválta a második legmagasabb szintű nemzeti tengeri szennyezés-elhárítási tervet, hogy elejét vegye a tengeri ökoszisztémát fenyegető fekete áradatnak. A fedélzeten tartózkodó 17 fős legénységet három helikopter, kereskedelmi hajók, valamint a Clara Campoamor nevű olajszennyezés-elhárító hajó segítségével mentették ki, ám a kaland végül tragédiával torkollott: egy matróz életét vesztette az ibizai Can Misses kórházban, hatan pedig könnyebb sérülésekkel úszták meg."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11922,9 +11961,22 @@
         "https://www.facebook.com/profile.php",
         "https://x.com/nbanews_hu"
       ],
-      "contentBasis": "rss",
-      "sourceHash": "77e4e5227b19efb657cff2fcf414f30882f7db3bbc40b7a2c91af24ee887a2f3",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "417a47fe1362ee4faaf2f565900ef8376360f3d68e148dd9ea9cbd3dd7206a38",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Golden State Warriors 129–110-re legyőzte a Sacramento Kingst az NBA Kupában, a változás pedig a Steve Kerr irányította győztes együttest, a húsz sikeres hárompontost hozó meccsen vezérré előlépő De’Anthony Meltont, a kispadról 22 pontot szerző Gui Santost, az 59 pontot jegyző többi cserejátékost, a 15 pontos és 8 lepattanós újonc Yaxel Lendeborgot, a 11 gólpasszt osztó Draymond Green-t, a 27 pontos, 10 lepattanós és 6 gólpasszal záró Domantas Sabonist, a 22 pontos és 9 gólpasszos újonc Darius Acuff Jr.-t, valamint a jobb oldali ferde hasizom szakadása miatt lassan két hete hiányzó, pénteken újabb orvosi vizsgálaton áteső Stephen Curryt érinti. A siker révén a sorozatban második győzelmét arató Golden State megőrizte továbbjutási esélyét az NBA Kupában, és a Portland Trail Blazers otthonában vívja utolsó csoportmérkőzését, míg Curry pénteki vizsgálata pontosabb képet adhat a felépüléséről, bár visszatérésére még nincs megerősített időpont. A mérkőzésen a hazaiak 44 hárompontos kísérletükből húszat értékesítettek, a nyitó játékrészben 44–19-es idényrekordot hoztak össze, a cserék pedig összesen 61 pontot szereztek, amivel szezoncsúcsot állítottak fel. A Sacramento négy vereséggel fejezte be a kupasorozat csoportkörét, a Warriors pedig Curry jelenlegi kihagyása alatt a hatodik meccséből a másodikat nyerte meg."
+        },
+        "tolkien": {
+          "title": "A dárdatörés hajnala és a sebesült vezér várakozása",
+          "body": "A Golden State Warriors csapata 129–110 arányú diadalt aratott a Sacramento Kings felett az NBA Kupában, ami a diadalmas sereget, a nyílzáporban magát hőssé avató De’Anthony Meltont, a kispadról előtörő Gui Santost, a fegyverhordozó cserejátékosokat, az újonc Yaxel Lendeborgot, a szálfaalkatú Draymond Green-t, az ellenség vezérét, Domantas Sabonist, a harcmezőre lépő ifjú Darius Acuff Jr.-t, valamint a ferde hasizom szakadása miatt lassan két hete harcképtelen, pénteken újabb orvosi próbára járuló Stephen Curryt érinti. A fegyverropogás és a húsz találatot hozó égi nyílzápor nyomán a Warriors megőrizte reményét az NBA Kupa küzdelmében, és a Portland csarnokába vezeti utolsó portyáját, míg a mesterlövész Curry pénteki vizsgálata elhozhatja a várt jelet a gyógyulásról, bár visszatérésének órája még rejtve marad. A harc mezején a hazaiak első negyedbeli rohama 44–19 arányú diadalt szült, a cserék serege pedig 61 pontot hozott a kincstárba, míg a Sacramento négy vereséggel zárta e viadal kapuit. A bajnokcsapat ezen a napon nem egyetlen hős kardjára bízta a sorsát, hanem sok kéz erejével törte meg a királyok pajzsát."
+        },
+        "reito": {
+          "title": "Húsz tripla a zsákban, és egy sebhelyes bajnok pénteki nagy napja",
+          "body": "A Golden State Warriors 129–110-es győzelmet aratott a Sacramento Kings ellen az NBA Kupában, s a fordulat a Steve Kerr vezette győztes csapatot, a 12-ből 8 triplát beszóró De’Anthony Meltont, a kispadról berobbanó 22 pontos Gui Santost, a csereként 61 pontot termelő brigádot, a 15 pontos újonc Yaxel Lendeborgot, a 11 gólpasszal jelentkező Draymond Green-t, a 27 pontos Domantas Sabonist, a 22 pontos ifjonc Darius Acuff Jr.-t, valamint a jobb oldali ferde hasizom szakadása miatt közel két hete partvonalon kívül lévő, pénteken vizsgálatra járó Stephen Curryt érinti. A végeredmény az, hogy a Warriors megőrizte továbbjutási esélyét az NBA Kupában, és a Portland otthonában kell kivívnia a sorsát, míg Curry pénteki leletei eldöntik, mikor vetheti be magát újra a sűrűjébe, bár a visszatérésére még nincs fix időpont. A találkozón a hazaiak 44 kísérletből 20 triplát pörköltek be, az első negyedben 44–19-es rohamot rendeztek, a Sacramento pedig négy vereséggel húzta le a rolót a csoportkörben. Curry hiánya eddig hat meccsből négy vereséget hozott a konyhára, de most a cserék 61 pontos szezoncsúcsa és Melton éles keze simán kihúzta a családot a bajból."
+        }
+      }
     },
     {
       "source": "HVG",
