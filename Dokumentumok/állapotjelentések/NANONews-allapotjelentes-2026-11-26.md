@@ -656,43 +656,6 @@ A mérési időszak budapesti idő szerint 2026-11-26 16:13:24 és 2026-11-26 21
 | BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
 | Összesen | 160 | 72 | 72 | 72 | 72 | 72 | 100,0% | 0 |
 
-A BringaSport a felhasznált RSS-mentés után került be a források közé. A mentésben még nincs hozzá cikk.
-
-### A következő kiadás adatállapota
-
-A **2026-11-27 05:00**-s kiadás előzetes adatállapota. Az utolsó rögzített RSS-gyűjtés ideje **2026-11-26 20:28:01**. A gyűjtés kora a mérési határnál **31 perc 58 másodperc**. A kiadásig frissebb mentés érkezhet.
-
 Az RSS-adatok utolsó elérhető mentése 2026-11-26 20:29:23. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/e8730bc440923e18c5fb7670dfd0150f2fa6007a) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/327439e6d5bff42187a54a61877d5f052d3c6d6e)
 
-### Rovatok a következő kiadáshoz
-
-| Rovat | Besorolt cikkek |
-|---|---:|
-| Bajnokok ligája | 0 |
-| Premier League | 0 |
-| Arsenal | 0 |
-| Bayern München | 0 |
-| Manchester United | 0 |
-| Como | 0 |
-| F1 | 2 |
-| NBA | 2 |
-| NFL | 0 |
-| Seattle Seahawks | 0 |
-| Kerékpár | 0 |
-| Darts | 0 |
-| Belföld | 51 |
-| Technológia / Fejlesztések | 4 |
-| Tőzsde | 0 |
-| Környezetvédelem | 7 |
-| Filmek | 2 |
-| Ingatlan | 1 |
-| Külföld | 9 |
-| Tenisz | 1 |
-| Manchester City | 0 |
-| Belföldi parlament | 10 |
-| Belföldi tőzsde | 1 |
-| Külföldi tőzsde | 0 |
-
-**72 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
-
-Mentés indítása budapesti idő szerint 2026-11-26 21:02:26.
+Mentés indítása budapesti idő szerint 2026-11-26 21:44:43.
