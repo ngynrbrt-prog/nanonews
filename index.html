@@ -413,7 +413,10 @@ function topicMatches(s,id){if(s.categories?.length===1&&s.categories[0]==='envi
  // A ponttal írt kezdőbetűk (például J.P. Morgan) a mondat részei.
  const sentences = full.split(/(?<=[.!?])(?<!(?<![\p{L}\p{N}])\p{Lu}\.)\s+/u, 2);
  const preview = sentences.join(' ');
- return preview.length > 280 ? preview.slice(0, 277).replace(/\s+\S*$/, '') + '…' : preview;
+ if (preview === full && preview.length <= 280) return preview;
+ const limit = preview.slice(0, 277);
+ const excerpt = preview.length > 277 ? limit.replace(/\s+\S*$/, '') : limit;
+ return excerpt.trimEnd().replace(/[.?!…]+$/, '') + '...';
 }
 function topicLabelForStory(s){const matches=topics.filter(t=>topicMatches(s,t.id));const chosen=selected!=='all'?matches.find(t=>t.id===selected):matches[0];return chosen?.label||''}
 const storyPreviews = [];
