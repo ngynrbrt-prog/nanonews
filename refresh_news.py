@@ -367,6 +367,33 @@ def remove_rss_excerpt(story, description=""):
                 break
 
 
+WINTER_SPORTS = re.compile(
+    r"téli (?:sport|olimpia)|alpesi sí|síelés|síugr|sífut|sílöv|síző|síverseny|biatlon|"
+    r"hódeszk|snowboard|műkorcsolya|gyorskorcsolya|jégkorong|\bnhl\b|curling|bobverseny|"
+    r"\bskeleton\b|szánkóverseny"
+)
+SPORT_BUSINESS = re.compile(
+    r"sportgazdaság|sportfinanszírozás|sportüzlet|klubbevétel|jegybevétel|átigazolási díj|"
+    r"szponzor|közvetítési jog|médiajog|árbevétel|költségvetés|nyereség|"
+    r"felvásár|tulajdonosváltás|befektető|stadionépítés"
+)
+
+
+def add_new_topics(title, description, link, categories):
+    context = f"{title} {description}".casefold()
+    if WINTER_SPORTS.search(f"{context} {link.casefold()}"):
+        if "winter-sports" not in categories:
+            categories.append("winter-sports")
+    if (
+        "sports-business" not in categories
+        and SPORT_BUSINESS.search(context)
+        and (is_sport_related(context, categories) or "winter-sports" in categories
+             or "klubbevétel" in context or "átigazolási díj" in context)
+    ):
+        categories.append("sports-business")
+    return categories
+
+
 def classify_article(source, title, desc, link):
     hay=(title+" "+desc+" "+link).casefold()
     cats=[key for key,terms in rules.items() if key != "tennis" and any(match_term(term,hay) for term in terms)]
@@ -396,7 +423,7 @@ def classify_article(source, title, desc, link):
     cats = ["environment"] if lake_environment else apply_subject_categories(title, desc, cats)
     if source == "BringaSport":
         cats = ["cycling"]
-    return cats
+    return add_new_topics(title, desc, link, cats)
 
 
 published_before=set()
@@ -489,6 +516,7 @@ TOPIC_LABELS = {
     "man-united": "Manchester United", "como": "Como", "premier": "Premier League",
     "champions-league": "Bajnokok ligája", "f1": "F1", "nba": "NBA", "nfl": "NFL",
     "seahawks": "Seattle Seahawks", "cycling": "Kerékpár", "darts": "Darts",
+    "sports-business": "Sportgazdaság", "winter-sports": "Téli sportok",
     "environment": "Környezetvédelem", "films": "Filmek", "property": "Ingatlan",
     "technology": "Technológia / Fejlesztések", "tennis": "Tenisz", "parliament": "Belföldi parlament",
     "belfold": "Belföld", "domestic": "Belföld", "foreign": "Külföld",
@@ -768,6 +796,8 @@ def prepare_inbox_record(record):
     description=record.pop("description", None)
     if "categories" not in record:
         record["categories"]=classify_article(record["source"], record["title"], description or "", record["link"])
+    else:
+        add_new_topics(record["title"], description or "", record["link"], record["categories"])
     if record.get("prepared"):
         remove_rss_excerpt(record["prepared"], description or "")
         if not record["prepared"].get("variants", {}).get("original", {}).get("body"):
