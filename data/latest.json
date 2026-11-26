@@ -239,8 +239,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "c952cd4ef36bc7cb624f4c8513d3f86d0875d095d8b4e8f9899577b50a594794",
+      "contentBasis": "article",
+      "sourceHash": "241b849d98d6948cddff5f0c082009701b5d4830989d15584e05e69222187867",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -299,7 +299,20 @@
             }
           }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Szabolcs-Szatmár-Bereg Megyei Kormányhivatal csütörtöki bejelentése szerint a nyíregyházi ipari parkban működő, német tulajdonú Boysen Battery Components Hungary Kft. akkumulátoripari üzemében környezetvédelmi, vízvédelmi és tűzvédelmi előírások megszegése miatt összesen 60 millió forint bírságot szabtak ki, és azonnali hatállyal felfüggesztették az ipari termelő tevékenységet. A határozat értelmében a 10 millió forint tűzvédelmi és 50 millió forint környezetvédelmi bírsággal sújtott, elektromos autókhoz acéllemez tartóházakat gyártó, a BMW debreceni gyárának is beszállító cég esetében a 2025 óta működő üzem 2025-ben elvégzett hatósági ellenőrzései 17 ponton tártak fel jogsértéseket. A helyszíni mintavételek során a felszín alatti vizekben határérték feletti alumínium-, benzol-, króm- és nikkelszennyezést, valamint két légszennyező forrásnál az illékony szerves anyagok és a nitrogén-oxidok megengedett határértékét meghaladó kibocsátását mutatták ki."
+        },
+        "tolkien": {
+          "title": "A nyíregyházi kohók csendje és a mélység megdermedt vizei",
+          "body": "A Szabolcs-Szatmár-Bereg Megyei Kormányhivatal ítélete nyomán azonnali hatállyal megbénult és leállt a nyíregyházi ipari parkban fekvő, német urak birtokában lévő Boysen Battery Components Hungary Kft. akkumulátoripari üzeme, miután a környezetvédelmi, vízvédelmi és tűzvédelmi törvényeket tizenhét rendbeli súlyos bűnnel hágta át. A 2025 óta fennálló üzem – mely az elektromos szekerek acéllemez házaival szolgál és a debreceni BMW várának is hordja portékáját – hatvanmillió ezüsttel felérő büntetést, név szerint ötvenmillió környezetvédelmi és tízmillió tűzvédelmi sarat kapott nyakába a hatóságoktól. A mélyből vett minták feketén hirdetik, hogy az alumínium, a benzol, a króm és a nikkel mérgei elöntötték a föld alatti vizek ereit, míg a levegő égboltját az illékony szerves anyagok és nitrogén-oxidok lehelete sötétítette el."
+        },
+        "reito": {
+          "title": "Alumíniumkoktél a föld alatt: hatvanmillióért lakat került a német akkuplázára",
+          "body": "A Szabolcs-Szatmár-Bereg Megyei Kormányhivatal csütörtöki műsorában azonnali hatállyal lekapcsolta a villanyt a nyíregyházi ipari park díszletében működő, német tulajdonú Boysen Battery Components Hungary Kft. akkumulátoripari üzemben, miután a cég tizenhét ponton lépett át mindenféle környezet-, víz- és tűzvédelmi határt. A BMW debreceni gyárának acéllemez tartóházakat gyártó, 2025 óta üzemelő kisiparos-telep most egy csinos, összesen 60 millió forintos számlát kapott – amiből 50 millió a környezetvédelmi, 10 millió pedig a tűzvédelmi tétel. A hatósági mintavétel igazán nagylelkűre sikeredett a felszín alatti vizekben, ahol alumínium, benzol, króm és nikkel ünnepelt határérték-túllépést, míg a levegőbe az illékony szerves anyagok és nitrogén-oxidok duója áramlott két forrásból is."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -945,9 +958,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "81cfb35ef32a5414c3507331356e22935a19ab787cf24590147aa2fa1968f6aa",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "dd106cbfe2149df65c0ef2162026d48c342bf6996bd5b61150d0695458685e66",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Nemzeti Média- és Hírközlési Hatóság Médiatanácsa keddi ülésén négy ügyben állapított meg jogsértést, amellyel megbüntette az ukránozó Tényeket és az áldozathibáztató Hajdú Pétert, miközben nem talált jogsértőnek egy Gryllus Dorka közreműködésével készült kampányt. A gyakorlatban ez azt jelenti, hogy a Médiatanács a magyar joghatóság alá tartozó YouTube-csatornákra is kiterjesztheti eljárásait, ha azok megfelelnek a lekérhető médiaszolgáltatás fogalmának. A külföldi ügyekkel és hazai médiahatósági döntésekkel foglalkozó testület emellett módosította a korhatár-besorolásról szóló ajánlását, eltávolítva abból bizonyos élethelyzetek megjelenítését, és tilalmakat vezetve be a szexuális erőszakra vagy kizsákmányolásra ösztönző tartalmakkal szemben. A szabályok változása nyomán a jövőben a médiaszolgáltatók online platformjain közzétett anyagok is szigorúbb médiaigazgatási vizsgálat alá eshetnek."
+        },
+        "tolkien": {
+          "title": "Az Éter Bíráinak Ítélete és a Törvények Árnyéka",
+          "body": "Az Ítélet Napján a Nemzeti Média- és Hírközlési Hatóság Médiatanácsa emelte fel szavát a képernyők birodalmában, megbüntetve a Tények ukránozó krónikásait és a Hajdú Péter által vezetett áldozathibáztató szózatot, míg a Gryllus Dorka nevével fémjelzett menopauzakampány felett elnézően hunyt szemet. E messze ható határozat nyomán a törvény vaspolcai a rejtőzködő YouTube-csatornák portáljait is elérik, ha azok e hazának joghatósága alatt feszengnek. A külföld határait átívelő médiumok ügyeit tárgyaló testület ezen felül átírta a korhatárok ősi tekercseit is, kitörölve a nemi önazonosság kérdéseit, hogy helyüket a szexuális erőszak és kizsákmányolás tilalmának szigora vegye át. E szigorú rendelkezések tüze perzseli majd mindazokat, akik a képernyők útján tévesztik meg a nép egyszerű gyermekeit."
+        },
+        "reito": {
+          "title": "Ahol a Médiatanács Kaszája Csattan, és a YouTube Sem Menekül",
+          "body": "A Nemzeti Média- és Hírközlési Hatóság Médiatanácsa kedden alaposan osztotta az észt: megbüntették az ukránozó Tényeket és az áldozathibáztató Hajdú Pétert, de Gryllus Dorka menopauzakampányát békén hagyták. A gyakorlatban ez annyit tesz, hogy a hatóság kiterjesztette fennhatóságát a YouTube-csatornákra is, így a magyar joghatóság alatt álló videósok sem dőlhetnek hátra nyugodtan a fotelükben. A külföldi sajtóügyeket is érintő ülésen a testület ráadásul átírta a korhatár-ajánlást: kikerültek belőle a nemváltoztatásra és homoszexualitásra vonatkozó részek, hogy helyüket a szexuális erőszak és manipuláció népszerűsítésének tilalmai vegyék át. Így aztán a képernyők előtt ülőknek sem marad más dolguk, mint figyelni, mikor csap le a cenzúra kíméletlen ökle a következő videóra."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -1132,8 +1158,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "rss",
-          "sourceHash": "8a4ce91997cfbb3fad8525b958522676389324cc72ff99f0d311432a6585f5ab"
+          "contentBasis": "article",
+          "sourceHash": "6cebee28cd993cd99dbc0b800705b5a58ec7c81de05e8b9b0d552f4157c2e324",
+          "variants": {
+            "original": {
+              "body": "A Livecounts adatai szerint 2026. november 26-án reggel 9:45-kor Magyar Péter követőinek száma a Facebookon meghaladta Orbán Viktor volt miniszterelnökét, így a hazai politikai közéletben jelentős változás történt a közösségi média nyilvánosságában. Ezzel a nappal a korábbi miniszterelnök megelőzésre került a követők számának tekintetében. Magyar Péter szeptemberben már elérte az 1,7 milliós követőszámot, amellyel akkor még csak utolérte ellenfelét, mostanra azonban véglegesen átvette a vezetést."
+            },
+            "tolkien": {
+              "title": "Az Éter Végtelen Mezején: Új Király Lépett a Hírnév Trónusára",
+              "body": "A Livecounts adatai szerint 2026. november 26-án reggel 9:45-kor a digitális birodalom hazai határvidékén, a Facebook mezsgyéjén Magyar Péter túlszárnyalta Orbán Viktor volt miniszterelnököt a követők viharos tengerében. Ezzel a hirtelen fordulat patrónusaként a korábbi miniszterelnök hátrább szorult a láthatatlan seregek felsorakozásában. Már szeptemberben eljutott az 1,7 milliós táborig Magyar Péter, amikor csupán utolérte a trónus birtokosát, ám mostanra teljesen maga mögött hagyta őt a virtuális csatatéren."
+            },
+            "reito": {
+              "title": "Lájkvadászok küzdelme: Amikor a kihívó átlépi a célegyenest",
+              "body": "A Livecounts adatai szerint 2026. november 26-án reggel 9:45-kor Magyar Péter egy elegánsnak mondható ugrással a Facebookon megelőzte Orbán Viktor volt miniszterelnököt a követők futamában. Ezzel a manőverrel a korábbi miniszterelnök hirtelen a hátunk mögött talalta magát a digitális aszfalton. Magyar Péter már szeptemberben bedobta az 1,7 milliós tempót, amivel akkor még csak beérte riválisát, most viszont állva hagyta a mezőnyt."
+            }
+          }
         },
         {
           "source": "Portfolio.hu",
@@ -3051,8 +3090,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "rss",
-          "sourceHash": "a7a557008eb136381490793871a260768dc0a4b650bc656e0cf95eecbb0fa589"
+          "contentBasis": "article",
+          "sourceHash": "24c193ec52d28e7faafbeeffa6822c40ce20714a49f8a9823da1beef2e277e26",
+          "variants": {
+            "original": {
+              "body": "Budapesten az előrejelzések ellenére, amelyek havazást főként az Alpokalja környékére ígértek, legalább egy órája intenzíven, hatalmas pelyhekben szakad a hó. A kialakult környezetvédelmi és időjárási helyzet miatt a katasztrófavédelem arra kéri a riasztással érintett terület lakóit, hogy se gyalog, se járművel ne induljanak útnak, hacsak nem létszükséglet. Azok a budapestiek, akik kizárólag az előrejelzésekre hagyatkoznak ahelyett, hogy kinéznének az ablakon, most szembesülnek a hirtelen lecsapott téli időjárással. A hirtelen jött intenzív havazás komoly akadályt jelent a közlekedésben az érintett fővárosban."
+            },
+            "tolkien": {
+              "title": "A fehér zuhatag krónikája a tornyok vára felett",
+              "body": "Budapest kőbe zárt vármegyéjében a csütörtök reggeli szél titkos jóslatai csupán az Alpokalja távoli bérceire ígértek fagyos szürkeséget, ám a főváros felett mégis váratlanul leszakadt a hatalmas, nehéz pelyhekben hulló égi hó. E hirtelen ránk törő, elemi téli zivatar és környezeti próbatétel közepette a katasztrófavédelem szigorú intéssel lépett elő, kérve a riasztott vidék népét, hogy se lábon, se vaspatajú szekereken ne merészkedjen útnak, hacsak a túlélés rideg törvénye ezt nem követeli. Aki nem az ablak üvegén át kémleli a tájat, hanem a hiú jóslatokban bízik, az most e sűrű fehér lepelben találja magát. A zord időjárás írott szabályai szerint a sürgető szükségleten kívül minden mozdulatnak meg kell állnia a fagyos utcákon."
+            },
+            "reito": {
+              "title": "Hóesésből is megárt a sok, különösen, ha elfelejtik szólni róla",
+              "body": "Budapesten a csütörtök reggeli meteorológiai jóslatok még az Alpokaljára tartogatták a havazást, mire a fővárosban hirtelen, már legalább egy órája intenzíven szakadni kezdett a hatalmas pelyhes hó. Az időjárás ezen környezetvédelmi szeszélye nyomán a katasztrófavédelem azonnal korlátozáshoz folyamodott, és arra kéri a riasztással érintett területek népét, hogy se gyalog, se járművel ne mozduljanak ki, hacsak az életük függ tőle. Aki vakon bízik az előrejelzésekben ahelyett, hogy kidugná az orrát az ablakon, az most garantáltan meglepődik a fővárosi útviszonyokon. A hirtelen érkezett sűrű havazás így pillanatok alatt otthonszülésre kényszeríti a gyanútlan budapesti utazókat."
+            }
+          }
         },
         {
           "source": "Origo.hu",
@@ -3125,8 +3177,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "rss",
-          "sourceHash": "a50ab25cba3398592a4d7c304e1b54ef09d8f8bc556b09ddb3027395f4c3b34d"
+          "contentBasis": "article",
+          "sourceHash": "2911fcd860dc2260c806f439605a57efef89060be6e677ed5eab87926815b761",
+          "variants": {
+            "original": {
+              "body": "Ónos eső és jelentős havazás miatt adtak ki meteorológiai figyelmeztetéseket a Dunántúlon és az ország más térségeiben, közvetlenül érintve Veszprém, Fejér, Heves, Komárom-Esztergom, Nógrád, Pest, Vas és Zala megyét. A környezeti veszélyhelyzet következtében a Dunántúlon a tartós ónos eső mennyisége meghaladhatja az 1 millimétert, míg az északnyugati harmadban estig 5 centi, magasan fekvő helyeken pedig 10 centinél több hóréteg alakulhat ki. Az Országos Katasztrófavédelmi Főigazgatóság a veszélyes időjárási viszonyok miatt azt kérte, hogy a riasztással érintett területeken létszükséglet hiányában senki ne induljon útnak gyalog vagy járművel. Aki mégis elindul, az érvényes riasztások és útviszonyok ellenőrzése mellett téli időjárásra felkészített, megfelelő műszaki állapotú autóval közlekedjen, tankoljon a szokásosnál többet a fűtés biztosításához, és vigyen magával feltöltött mobiltelefont, élelmiszert, italt, plusz kabátot meg takarót."
+            },
+            "tolkien": {
+              "title": "A fagyott eső és a hulló téli leplek vihara a Dunántúl földjén",
+              "body": "Veszprém megye egyes járásait másodfokú, narancs színű riasztás sújtotta az ónos eső fagyos ostroma miatt, míg Fejér, Heves, Komárom-Esztergom, Nógrád, Pest, Vas és Zala földjén elsőfokú figyelmeztetés lépett életbe a csúszós veszedelem ellen, hogy a természet elemi erői próbára tegyék a tájat. A délelőtti órákban a fagyott eső mennyisége túllépheti az 1 millimétert, csütörtök reggel pedig délnyugatról újabb viharzóna érkezett, amelynek nyomán az északnyugati harmadban estig 5 centiméternyi, a magasabb bérceken és az Északi-középhegység szlovák határhoz közeli csúcsain pedig akár 10 centinél is több fehér hóréteg hullhat alá. E zord környezeti viszontagságok közepette az Országos Katasztrófavédelmi Főigazgatóság parancsa úgy rendelkezett, hogy a riasztással érintett vidékeken senki se merészkedjen útnak se gyalog, se lovon vagy vaspataegű szekéren, hacsak azt a puszta lét nem követeli. Az utazóknak tüzes üzemanyaggal feltöltött, télre acélosított kocsikkal, élelemmel, itallal, meleg takarókkal és a messziről szóló varázslatos ércdobozzal, a feltöltött mobiltelefonnal kell felszerelkezniük a fagy birodalmában."
+            },
+            "reito": {
+              "title": "Milliméteres jégpáncél és tízcentis hótorlaszok: amikor a téli időjárás átveszi a stafétát",
+              "body": "Veszprém megye egyes járásaira másodfokú, narancs színű riasztást mértek ki az ónos eső miatt, míg Fejér, Heves, Komárom-Esztergom, Nógrád, Pest, Vas és Zala megye területén elsőfokú figyelmeztetés vigyázza a csúszkáló kedvű lakosságot a környezeti veszélyhelyzetben. A délelőtt folyamán érkező, 1 millimétert is meghaladó ónos eső mellé csütörtök reggel megérkezett a délnyugati csapadékzóna, amely az északnyugati harmadban estig 5 centi, a magasabb pontokon pedig 10 centinél is több havatpakol le a tájra. Az Országos Katasztrófavédelmi Főigazgatóság józan tanácsa szerint a riasztással érintett zónákban gyalogosan vagy járművel kizárólag létszükségletből érdemes utcára lépni, elkerülve a felesleges kalandokat. Aki mégis volán mögé ül, az ellenőrizze az útviszonyokat, készítse fel a kocsit a télre, tankoljon túl a biztonság kedvéért a fűtéshez, és pakoljon be élelmiszert, italt, takarót meg egy feltöltött telefont a túléléshez."
+            }
+          }
         }
       ]
     },
@@ -3383,8 +3448,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "d12837c0f8a0f86917616bd3e66000f71df766a4388ff90307d144a8ffd48c60",
+      "contentBasis": "article",
+      "sourceHash": "434c5892fc071fb7cf08caed20251ed9defdf5ade9dbcec2e43abb78cd26541a",
       "relatedStories": [
         {
           "source": "Origo.hu",
@@ -3416,7 +3481,20 @@
             }
           }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A XII. kerületi Hegyvidéki Önkormányzat képviselő-testülete a csütörtöki ülésén Kovács Gergely polgármester javaslatára, titkos szavazáson 11 igen és 2 nem szavazattal alpolgármesterré választotta Pásztor Tibort, a Magyar Kétfarkú Kutya Párt politikusát, aki letette az esküjét, miután a tisztség július óta betöltetlen volt. A kerületben a belföldi helyi közélet eddigi eseményei során májusban Kocsik Tekla, júliusban pedig Vadász Gábor távozott az alpolgármesteri posztról, míg októberben és csütörtök reggel Visi Piroska kezdeményezésére a képviselő-testület a saját feloszlatásáról is szavazott, de a javaslat elbukott, így Kovács Gergely polgármester és a testület a helyén maradt. Pásztor Tibor korábban, 2006 és 2014 között a piaci ár feléért jutott ingatlanhoz Belváros-Lipótvárosban, jelenleg pedig csoportvezetőként dolgozik egy banknál, ahonnan a munkaszerződésének titoktartási kötelezettségére hivatkozva a tiszteletdíján felüli fizetését kihagyta a vagyonnyilatkozatából."
+        },
+        "tolkien": {
+          "title": "A Hegyvidék tornyában újraéled az alpolgármesteri méltóság",
+          "body": "A XII. kerületi Hegyvidéki Önkormányzat belföldi tanácstermében, a csütörtöki nap árnyai alatt Kovács Gergely polgármester szavára Pásztor Tibort, a Magyar Kétfarkú Kutya Párt küldöttét választották a titkos voksok tizenegy igent számláló pajzsán alpolgármesterré, mióta a tisztség júliusi pusztulása óta üresen állt a trón. E belföldi parlament falai között a viharos időkben májusban Kocsik Tekla, majd júliusban Vadász Gábor hagyta el a posztot, míg Visi Piroska intésére a testület önmaga feloszlatásának viharába is belenézett, ám a fideszes és kutyapárti képviselők pajzsa megvédte a testületet, így Kovács Gergely polgármester és a tanács a helyén maradt. Az új tisztségviselő letette az esküjét, hátrahagyva a 2006 és 2014 közötti belvárosi ingatlanok emlékét, míg banki csoportvezetői fizetését a munkaszerződés titkának láncai miatt tartotta távol a vagyonnyilatkozat fényétől."
+        },
+        "reito": {
+          "title": "Ahol a kutyapárti alpolgármester és a banki titok kéz a kézben jár a belföldi parlamentben",
+          "body": "A XII. kerületi Hegyvidéki Önkormányzat belföldi mindennapjaiban csütörtökön Kovács Gergely polgármester indítványára titkos szavazással, 11 igen és 2 nem mellett Pásztor Tibor, a Magyar Kétfarkú Kutya Párt politikusa lett az alpolgármester, véget vetve a július óta tartó üresjáratnak. Mivel a belföldi parlament ezen időszaka alatt májusban Kocsik Tekla, júliusban pedig Vadász Gábor is vett egy kalapot, Visi Piroska kezdeményezésére a testület csütörtök reggel a saját feloszlatásáról is szavazott, de a fideszes és kutyapárti ellenszavazatok betonkemény falán elbukott a terv, így Kovács Gergely polgármester és a képviselők maradtak a posztjukon. Az újdonsült alpolgármester letette az esküjét, miközben a vagyonnyilatkozatából azért hagyta ki a banki fizetését, mert a csoportvezetői munkaszerződése ezt titokban tartatja velük, emellett a múltból a 2006 és 2014 közötti belvárosi ingatlanmutyi is a tarsolyában van."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4252,9 +4330,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "365bd0ac1abd3aaeabe3e09911d51696396d6015073cbde278f620645aebc699",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "009690e55037da31df3632efa36b70d883755255562ff4459be11bdbbd592d92",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Közönségdíjat nyert a 444 újságírója, Fődi Kitti Bakpakk című egész estés dokumentumfilmje a Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztiválon. A fesztivál mintegy 80 dokumentumfilmje közül a nézői szavazatok alapján az első helyezett film bemutatja 14 budapesti kamasz egy teljes tanévét egy különleges osztályban. A fesztiválon debütált, kétszer telt házzal vetített mű közel 140 órányi felvételből készült kilenc hónap alatt, és a 444 olvasóinak támogatásával, közösségi finanszírozással jött létre. A csütörtökön elindult Online Verzió kínálatában a Bakpakk nem szerepel, de a következő vetítéseiről hamarosan hírt adnak."
+        },
+        "tolkien": {
+          "title": "A Bakpakk krónikája: Fény gyúlt a kamaszok ösvényén",
+          "body": "A Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztiválon diadalt aratott a Bakpakk, a 444 krónikásának, Fődi Kittinek a filmje, elnyomhatatlan diadalt aratva a közönség szavazatai által. Ez az egész estés, telt házas csarnokban duplán felzúduló mozgóképes krónika tizennégy budapesti ifjú egy teljes tanévének küzdelmes vándorlását tárja elénk egy olyan rendhagyó közösségben, ahol az empátia és a megértés fegyverzetével vértezik fel a korábban megtörött lelkeket. Kilenc holdtöltén át formálódott ez a csaknem száznegyven órás filmfolyam, amely olvasók ezreinek összefogásából, szövetségéből született meg a 444 lapjain. Bár csütörtökön megnyílt az Online Verzió kapuja a távoli szemlélők előtt, e mű ezen a digitális ösvényen most nem érhető el, ám a jövőbeli találkozásokról hamarosan hírt hoznak a hírnökök."
+        },
+        "reito": {
+          "title": "Bakpakk: Amikor a bukdácsolókból fesztiválgyőztesek lesznek",
+          "body": "Közönségdíjat zsebelt be a Verzió Nemzetközi Emberi Jogi Dokumentumfilm Fesztiválon a Bakpakk, a 444 újságírója, Fődi Kitti filmje. A közel 140 órányi nyersanyagból összerakott, telt házas vetítésekkel debütáló alkotás 14 budapesti kamasz kilenc hónapját kapja lencsevégre egy olyan iskolai osztályban, ahol a hagyományos tantárgyak helyett a kommunikáció és az empátia áll a középpontban. A fesztivál mintegy 80 filmje közül a nézők voksai emelték a csúcsra ezt a közösségi finanszírozásból, a 444 olvasóinak pénzéből felépült mozit. Miközben csütörtökön elindult az Online Verzió, a Bakpakk ezúttal kimaradt az otthoni digitális felhozatalból, de a következő nyilvános vetítésekről nem marasztalják el a közönséget, hamarosan jönnek az infók."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -5013,8 +5104,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "rss",
-          "sourceHash": "c30cd2f9d789ec7f5ea96c681f0bc4bcc8a0eacdd40df641994eaa786612dede"
+          "contentBasis": "article",
+          "sourceHash": "a5c47a6f7cdaac6c9919ef0a6a094faa2ecb25ee1ab993e1e22084fc521e8a85",
+          "variants": {
+            "original": {
+              "body": "Németh Balázs (Fidesz) országgyűlési képviselő, egykori közmédiás híradós a parlamentben a médiaszolgáltatásokról és a tömegkommunikációról szóló törvény módosításának vitáján agymosó gépnek nevezte a közmédiát külföldi kapcsolatok és belpolitikai ügyek kapcsán. Kifejtette, hogy a finanszírozásról nincs értelme beszélni, mert a Tisza bosszúvágyának és a brüsszeli parancsoknak megfelelő, elfogult működés tapasztalható, amely szerinte elhallgatott két hírt Varga-Bajusz Veronika volt államtitkár fogvatartási körülményeiről és a nők elleni erőszak témájában megszólaló legnagyobb ellenzéki párt álláspontjáról. Ezzel összefüggésben példaként említette az Orbán-korszak egy lehetséges napját, 2025. április 7-ét, amikor a reggeli közmédiás híradóban a Tisza párt és Magyar Péter neve dominált, miközben az ügyészségnél enyhébb kényszerintézkedés elrendelését kezdeményezték az NKA-ügyben pszichikai bűnsegédként gyanúsított volt államtitkár ügyében, akit Kecskemétről a kiskunhalasi börtönbe szállítottak át."
+            },
+            "tolkien": {
+              "title": "Apropó sötétség és a hangos kürtök: Németh Balázs a parlament csarnokában ítélte meg a krónikák és a közmédia sorsát",
+              "body": "A törvényhozás kőcsarnokában Németh Balázs (Fidesz), a messziről jött egykori híradós emelte szavát a közmédia tornyai ellen, mondván, hogy az intézmény falai között nem csend ül, hanem a propaganda mindennél harsányabb üvöltése lakozik. Szavai szerint a brüsszeli parancsok igájába hajtott és a Tisza bosszúvágyától fűtött agymosó gépként működik a hírgyártás, amely mélyen elhallgatta Varga-Bajusz Veronika volt államtitkár börtönkörülményeit és a nők elleni erőszak ügyében hallgatózó legnagyobb ellenzéki párt hangját. A látomások napján, 2025. április 7-én a reggeli hírek árnyai között a Tisza és Magyar neve visszhangzott, miközben az ügyészség az NKA-ügyben pszichikai bűnsegédként gyanúsított egykori tisztségviselőt Kecskemétről a kiskunhalasi börtön tömlöcébe hurcolta."
+            },
+            "reito": {
+              "title": "Németh Balázs a parlamentben tisztázta, hogy a közmédia jelenleg csupán egy hangos, brüsszeli üzemmódra állított agymosó gép",
+              "body": "Németh Balázs (Fidesz) képviselő a parlamentben tisztázta a helyzetet a médiaszolgáltatásokról szóló törvény vitáján, és nyersen rögzítette, hogy a közmédia az elsötétítés óta nem elcsendesedett, hanem minden eddiginél hangosabban üvöltő agymosó gépezetté vált. A volt híradós szerint felesleges a költségvetési finanszírozásról vitatkozni, ha a végeredmény csupán a Tisza zsigeri gyűlöletét és a brüsszeli parancsokat szolgálja, miközben a híradó sikeresen elhallgatta Varga-Bajusz Veronika volt államtitkár fogvatartási körülményeit és a legnagyobb ellenzéki párt megszólalását a nők elleni erőszak ügyében. Hogy a gépezet miként zakatol, azt egy véletlenszerű napon, 2025. április 7-én a reggeli híradó is mutatta a Tisza és Magyar nevének ritmusával, miközben az NKA-ügyben pszichikai bűnsegédként gyanúsított volt államtitkárt Kecskemétről kényelmesen átköltöztették a kiskunhalasi börtönbe, az ügyészség pedig enyhébb kényszerintézkedést kezdeményezett."
+            }
+          }
         },
         {
           "source": "Telex",
@@ -6547,9 +6651,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "9c494dbbf53c59e3ba8c39d9da70a535bc31df18b290a72ae5ce755c53f70d56",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "e943b5a6eb619d1c765ae750e8903107b219d28c880d5f91462b89d40fba1d93",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Jogerősen, másodfokon is pert nyert Konok Péter publicista Nemes Dániel Izrael-párti aktivista ellen a Fővárosi Ítélőtáblán, miután a bíróság megállapította, hogy Konoknak joga volt 2025 márciusi Facebook-bejegyzéséhez. A külföldi közéleti és nemzetközi konfliktusok hazai visszhangjai közé tartozó perben Nemes a jó hírnévhez és becsülethez való jogának megsértésére hivatkozva indított eljárást, mivel Konok a bejegyzésében egyebek mellett azt írta, hogy Nemes „a palesztinok kiirtását üdvözli”, és benne „Radnóti Miklós elborzadva ismerhetne saját gyilkosaira”. A felperes sérelemdíjat, a perköltségek megtérítését, valamint a bejegyzés bizonyos részeinek törlését követelte amiatt, hogy Konok kritizálta Nemes 2025-ös kitüntetését, a Magyar Ellenállók és Antifasiszták Szövetsége által átadott Radnóti Miklós Antirasszista Díjat. A Fővárosi Ítélőtábla helybenhagyta a tavaszi elsőfokú ítéletet, így a bíróság elutasította Nemes Dániel keresetét, és őt marasztalta el a perköltségben."
+        },
+        "tolkien": {
+          "title": "A Fővárosi Ítélőtábla csarnokában dőlt el a szavak kardjának sorsa",
+          "body": "Másodfokon is jogerős diadalt aratott Konok Péter publicista Nemes Dániel Izrael-párti aktivista ellen a Fővárosi Ítélőtáblán, amikor a bírói ítélet megpecsételte a külföldi háborúk szellemi csatatérén elhangzott kijelentések sorsát. Az összecsapás gyökerei az el nem csendesülő nemzetközi viharok hazai hullámveréséig nyúlnak vissza, ahol Konok 2025 márciusi Facebook-bejegyzésében arra méltatlankodott, hogy Nemes – aki a Magyar Ellenállók és Antifasiszták Szövetségétől Radnóti Miklós Antirasszista Díjat vehetett át – szerinte „a palesztinok kiirtását üdvözli”, és akiben „Radnóti Miklós elborzadva ismerhetne saját gyilkosaira”. A porondra lépő felperes a jó hírnév pajzsának csorbulása miatt sérelemdíjat, perköltséget és a súlyos szavak törlését követelte a jog tüzében. Ám a testület az elsőfokú tavaszi diadal után most másodfokon is a publicista igazát hirdette ki, elutasítva a keresetet és a vesztesre róva a terheket."
+        },
+        "reito": {
+          "title": "Közéleti csörtéből jogi viadal: Konok másodfokon is mattolta Nemes Dánielt",
+          "body": "Másodfokon, jogerősen is győztesként hagyta el a Fővárosi Ítélőtáblát Konok Péter publicista Nemes Dániel Izrael-párti aktivista ellen, miután a bíróság pecsétet nyomott arra, hogy a szókimondó Facebook-poszt belefér a megengedett kategóriába. A nemzetközi politikából a hazai jogi ringbe átültetett ügy ott kezdődött, hogy Konok rácsodálkozott: a Magyar Ellenállók és Antifasiszták Szövetsége Radnóti Miklós Antirasszista Díjjal tüntette ki Nemest, aki szerinte „a palesztinok kiirtását üdvözli”, és akiben „Radnóti Miklós elborzadva ismerhetne saját gyilkosaira”. Nemes a becsületét és jó hírnevét féltve azonnal perbe fogta a publicistát, sérelemdíjat, perköltséget és a bűnös mondatok eltüntetését követelve a bíróságtól. A tavaszi elsőfokú feketeleves után a Fővárosi Ítélőtábla most pontot tett az ügy végére: elutasította a felperes keresetét, és a perköltséget is a nyakába varrta."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -6828,7 +6945,8 @@
           "sourceHash": "2d75f66003ac97b21b94cc47640970adcb93af0498a5901c832af1914697fbd5",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {}
     },
     {
       "source": "Telex",
