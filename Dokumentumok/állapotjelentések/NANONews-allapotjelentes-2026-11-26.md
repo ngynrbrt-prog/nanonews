@@ -349,3 +349,56 @@ A **2026-11-26 16:00-s** szám előzetes alapja a **13:42:42** időpontban rögz
 **118 különböző cikk** kerülhetne a következő számba. Egy cikk több rovat sorában is szerepelhet, az összesítésben egyszer számít.
 
 Mentés indítása budapesti idő szerint 2026-11-26 14:00:37.
+
+## 15:00
+
+A mérési időszak budapesti idő szerint **2026-11-26 08:30:04–15:00:00**.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 40 | 19 | 11 | 11 | 11 | 11 | 57,9% | 0 |
+| HVG | 62 | 25 | 15 | 15 | 15 | 15 | 60,0% | 5 |
+| Nemzeti Sport | 27 | 10 | 6 | 6 | 6 | 6 | 60,0% | 1 |
+| NBAnews.hu | 4 | 4 | 3 | 3 | 3 | 3 | 75,0% | 1 |
+| Fűzővel kifelé! | 1 | 1 | 1 | 1 | 1 | 1 | 100,0% | 0 |
+| 444.hu | 26 | 10 | 5 | 5 | 5 | 5 | 50,0% | 0 |
+| Portfolio.hu | 86 | 57 | 28 | 28 | 28 | 28 | 49,1% | 0 |
+| Origo.hu | 64 | 23 | 7 | 7 | 7 | 7 | 30,4% | 1 |
+| Összesen | 311 | 149 | 76 | 76 | 76 | 76 | 51,0% | 8 |
+
+Az összesítésben A Hetedik Sor Közepe is szerepel (1 begyűjtött, 0 rovatba illő, 0 éles kiadásban stílusra váró cikk).
+
+A 14:00-s mentésben kész változattal szereplő öt cikk előkészített változatai hiányoznak a 14:57:44-es gyűjtési mentésből. Ez négy Portfolio.hu-cikket és egy Telex-cikket érint. A csökkenés oka a mentett állapotból nem állapítható meg biztosan.
+
+### A következő kiadás adatállapota
+
+A **2026-11-26 16:00-s** szám előzetes alapja a **14:57:40** időpontban rögzített RSS-gyűjtés. A forráscommit ideje **14:57:44**. A gyűjtés kora a mérési határnál **2 perc 19 másodperc**. A kiadásig újabb mentés érkezhet. A forráscommit után esetleg begyűjtött vagy feldolgozott, még mentetlen cikkek száma ismeretlen. Hiányzó észlelési idő 0, ellenőrizhető publikálási idő nélküli gyűjtött rekord 0. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/0ba745826157959bc84a58ec187dc315bec069af) · [A reggeli kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/65bfc2d3a66d33f998df23a5ea3ef2f1de0a20c7)
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Bajnokok ligája | 6 |
+| Premier League | 0 |
+| Arsenal | 0 |
+| Bayern München | 2 |
+| Manchester United | 2 |
+| Como | 0 |
+| F1 | 2 |
+| NBA | 6 |
+| NFL | 2 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 1 |
+| Darts | 0 |
+| Belföld | 64 |
+| Technológia / Fejlesztések | 14 |
+| Tőzsde | 7 |
+| Környezetvédelem | 13 |
+| Filmek | 2 |
+| Ingatlan | 1 |
+| Külföld | 39 |
+| Tenisz | 3 |
+
+**149 különböző cikk** kerülhetne a következő számba. A több rovatba illő cikk minden érintett sorban szerepel, az összesítésben egyszer számít.
+
+Mentés indítása budapesti idő szerint 2026-11-26 15:00:45.
