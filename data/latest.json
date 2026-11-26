@@ -142,8 +142,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/c/s/e/csen-jining-sanghaj-polgarmestere-kina-tisztogatas-korrupcio-politikai-leszamolas-873180.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "de0a45cd38a55a3cc43f0b6223d7a713014a484a3ee11376d5de9d0f1a5c7411",
+      "contentBasis": "article",
+      "sourceHash": "2cc70cd551be3cf36a1efc42a24154ec642648aaaad2b69673df23dd001b5cda",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -160,7 +160,20 @@
           "sourceHash": "d5c0b65d0cc20d05bbce2bdab5929ed82751ae1dcdfcd1046583077bde9f520b",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Hszinhua állami hírügynökség bejelentése szerint Csen Csi-ning ellen a korrupcióellenes hatóság vizsgálódik a pártfegyelem és a törvények súlyos megsértése miatt, ami a külföldi tőzsdéken is figyelt nemzetközi kapcsolatokat, például a Citigroup vezérigazgatójával folytatott sanghaji találkozót is érinti. A vizsgálat következtében eltávolították az állami médiából Csen utolsó nyilvános szerepléseit, és a külföldi elemzők szerint az eset jól mutatja, hogy a 73 éves Hszi Csin-ping vezette külföldön is vizsgált szuperhatalom Pekingben nem enyhít a politikai szigoron a gazdasági nehézségek ellenére sem. A sanghaji vezetés pótlásáról is döntenie kell a várhatóan a 2027 végi pártkongresszuson negyedik ciklusát megszerző Hszi Csin-pingnek, akinek döntése nyomán az új megbízott párttitkár szinte biztosan bekerül a Politikai Bizottságba. Csen bukása a reformkorszak utáni Kína példátlan fejleménye, amely emlékeztet a 2002 és 2006 között a sanghaji pártszervezetet vezető Csen Liang-jü korrupciós ügyére is."
+        },
+        "tolkien": {
+          "title": "A Sárkány Árnyéka és a Sanghaji Trónfosztás",
+          "body": "A Hszinhua állami hírügynökség krónikája szerint a korrupcióellenes hatóság súlyos vádakkal vizsgálódik Csen Csi-ning ellen a pártfegyelem és a törvények megsértése miatt, akinek bukása mély sebeket ejt a külföldi tőzsdék viharos tengerén is visszhangzó nemzetközi kapcsolatokon, mint a Citigroup vezérigazgatójával, Jane Fraserrel kötött szövetségen. A hatalom csarnokaiból és az állami krónikákból eltörölték a bukott méltóság utolsó nyilvános lépteit is, miközben a 73 éves uralkodó, Hszi Csin-ping vastag vasmarokkal jelöli ki a birodalom fegyelmének útját, megmutatva a külföldnek, hogy a gazdasági viharok szelét sem engedi átjutni a palota kapuin. A 2027 végén negyedik koronájára váró vezérnek most a sanghaji trón örököséről kell határoznia, akinek kiléte a legfelsőbb tanács, a Politikai Bizottság titkos kamaráiba emeli a kiválasztottat. Ez a példátlan tisztogatás sötét árnyként borul a reformkorszak óta épített birodalomra, megidézve Csen Liang-jü egykori bukásának sötét kísértetét."
+        },
+        "reito": {
+          "title": "A sanghaji kaszás napja: amikor a technokrata is a hatóság hálójába akad",
+          "body": "A Hszinhua hírügynökség száraz közleménye hozta nyomára a korrupcióellenes hatóságot Csen Csi-ningnek, akit a pártfegyelem és a törvények súlyos megsértésével, valamint külföldi tőzsdéken is vizsgált sanghaji pénzügyi kapcsolatokkal, például a Citigroup vezérigazgatójával lefolytatott tárgyalásokkal terhelnek. A büntetés nem késett: Csen utolsó nyilvános mosolyait nyomban eltüntették az állami médiából, a külföldi megfigyelők legnagyobb ámulatára pedig a 73 éves Hszi Csin-ping pontosan megmutatta, hogy a gazdasági nehézségek sem írják át a fegyelmi szabályzatot. A sanghaji vezetés üresen maradt székébe most új ember kell, és a 2027 végén negyedik ciklusára készülődő Hszi által kiválasztott utód garantáltan ott feszít majd a Politikai Bizottság legfelső asztalánál. A reformkorszak mintaképnek szánt, szerény sorsból indult mérnöke így írja újra Csen Liang-jü egykori bukásának sötét, de legalábbis tanulságos krónikáját."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -173,9 +186,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/r/a/l/rali-tozsde-reszvenypiac-arfolyam-grafikon-technikai-elemzes-kereskedes-befektetes-penzugy-830072.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "efd5b066cafac578577032dfd930e2a9ac0d6460837c2d776a6b76df35055aa0",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "eed715554ffbc44cd62f3e76c8654cceca2355b32d5354e47928b350c4e41eca",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Húsz tőzsdei vállalat vett részt azon az előkészítő egyeztetésen, amelyen tizenöten jelezték csatlakozási szándékukat egy új érdekképviseleti egyesület, a MIRE megalakítására. A szervezet szakmai fórumot nyújtana a cégeknek, képzésekkel, befektetői napokkal, valamint nemzetközi kapcsolatépítéssel fejlesztené a befektetői kapcsolattartást, és a januári alakuló közgyűlésig további tőzsdei társaságok csatlakozását várja. A kezdeményezés célja, hogy képviselje a kibocsátói oldalt a felügyeleti szervekkel és a Budapesti Értéktőzsdével folytatott tárgyalásokon, ösztönözze az új tőzsdei bevezetéseket, valamint élénkítse a részvénypiaci forgalmat."
+        },
+        "tolkien": {
+          "title": "A Kibocsátók Céhe – Új szövetség születik a tőzsde csarnokaiban",
+          "body": "Húsz tőzsdei vállalat küldöttei gyűltek össze az előkészítő tanácskozáson, hogy tizenöten közülük hűségesküt téve elindítsák a MIRE nevű szakmai tömörülést. Ez az újonnan ébredő céh arra hivatott, hogy erős pajzsként védelmezze a kibocsátók igazát a hatóságok és a hatalmas piac uraival vívott egyeztetéseken. A januári alakuló gyűlés kapujáig további nemes vállalatok csatlakozását várják e zászló alá, hogy tudással, befektetői napok fényével és távoli tájak – Bécs, Prága, Varsó és Bukarest – tőkepiaci kapuinak megnyitásával erősítsék meg a magyar részvénypiac gyökereit. E szövetség ígéretként fénylik: serkenteni fogja a tőzsdei gyümölcsözést és élénkíteni a forgalom lüktető erejét."
+        },
+        "reito": {
+          "title": "Húsz tőzsdei cég ült asztalhoz, hogy megmondja a tutit a hatóságoknak",
+          "body": "Húsz hazai tőzsdei vállalat gyűlt össze az előkészítő haknin, és első körben tizenöten alá is írták a csatlakozási szándékot a frissen formálódó MIRE nevű egyesületbe. A társaság nem aprózza el: képzésekkel, befektetői napokkal és nemzetközi paktumokkal – például bécsi, prágai, varsói és bukaresti kapcsolatokkal – rántaná fel a hazai befektetői kapcsolattartás színvonalát a januári alakuló közgyűlésig. Mivel eddig hiányzott a porondról egy vagány érdekképviselet, a szervezet mostantól kőkeményen odalép a Budapesti Értéktőzsdének, a hatóságoknak és a kormánynak is, hogy beindítsa a tőzsdei bevezetéseket és felpörgesse a forgalmat."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -190,9 +216,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/k/a/r/karman-004-873176.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "cd5d7e1b6960564afaef24c0b20bf11468189b46a725f4ca0076f968a3f5d749",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "bb74072b245320771ff59ced5d3f2c5be3a307bc64cff901b0e129290b662946",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A kormányzat, a munkaadók és a munkavállalók képviselői által a Versenyszféra és a Kormány Állandó Konzultációs Fórumán megkötött bérmegállapodást a felek aláírták, amelynek értelmében jövőre a minimálbér bruttó összege 7,5 százalékkal 347 ezer forintra, a garantált bérminimum pedig 6,1 százalékkal 396 ezer forintra emelkedik. Az Országgyűlés által elfogadott új adójóváírás következtében a minimálbér szja-terhe 9 százalékra csökken, így a minimálbér nettó összege 17,2 százalékkal, 37 ezer forinttal, pontosabban 36 913 forinttal nő, és 251 575 forint lesz. A garantált bérminimumot keresők nettó fizetése 13,3 százalékkal, azaz 33 042 forinttal emelkedve 281 220 forintra változik. Emellett a munkáltatói és a munkavállalói oldal 5 százalékos általános bérajánlást fogalmazott meg a versenyszférára."
+        },
+        "tolkien": {
+          "title": "A Korona és a Céhek Egysége: A Büszke Bércsúcsok Új Adója",
+          "body": "A kormányzat, a munkaadók és a munkavállalók képviselői a Versenyszféra és a Kormány Állandó Konzultációs Fórumán egyezségre jutottak, s e szövetséget a felek hivatalosan is megpecsételték a béralku aláírásával. A mélyből feltörő bérfolyam harcában a minimálbér bruttó összege 7,5 százalékkal, 347 ezer ezüströgnyire – azaz forintra –, míg a garantált bérminimum 6,1 százalékkal, 396 ezerre növekszik. Az adóterhek láncait az Országgyűlés által elfogadott új adójóváírás törte meg, így a minimálbérre mért adó 9 százalékra apad, a tiszta nettó juss pedig 17,2 százalékos szárnyalással 251 575 forintra duzzad. A garantált bérminimum vitézei szintén diadalmaskodnak, hiszen keresetük 13,3 százalékos gyarapodással 281 220 forintra hág, míg a nagykirályság versenyszférájára a felek egy 5 százalékos általános bérajánlás pajzsát kovácsolták."
+        },
+        "reito": {
+          "title": "Ahol a papírra hányt számokból hirtelen vastagabb boríték lesz",
+          "body": "A kormányzat, a munkaadók és a munkavállalók képviselői a Versenyszféra és a Kormány Állandó Konzultációs Fórumán nyélbe ütötték a bulit, és ezt a papírt a felek máris aláírták. A nagykönyv szerint jövőre a minimálbér bruttó 7,5 százalékos ugrással 347 ezer forintra rúg, míg a garantált bérminimum szerényebb, 6,1 százalékos meneteléssel éri el a 396 ezer forintot. Szerencsére az Országgyűlés is bedobta a magáéit egy új adójóváírással, így a minimálbért sújtó adó 9 százalékra olvad, a kézbe kapott nettó összeg pedig 17,2 százalékos vargabetűvel 251 575 forintra hízik. A garantált bérminimumosok sem maradnak pácban, mert az ő nettójuk 13,3 százalékos plusszal 281 220 forintra kúszik fel, miközben a békesség kedvéért a felek a versenyszférára egy 5 százalékos általános bérajánlást is odabiggyesztettek."
+        }
+      }
     },
     {
       "source": "444.hu",
@@ -221,8 +260,21 @@
           ],
           "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2284123015-akkumultorgyrts-akkumultor-akkumultoripar-automatizls-robot-gy-851730.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "rss",
-          "sourceHash": "e04eb78119a19a2e8f0af96417a1b760a7f0d3268d8c0166965b5a4792d76bb3"
+          "contentBasis": "article",
+          "sourceHash": "83f96814258b4788da2458f32ccfb8e0c3f5eb54ee49135a123a74fd940c9238",
+          "variants": {
+            "original": {
+              "body": "Azonnali hatállyal felfüggesztették az ipari termelő tevékenységet, és tényfeltárást rendeltek el a Nyíregyházi Ipari Parkban működő, elektromos autókhoz acéllemez tartóházakat gyártó német tulajdonú Boysen Battery Components Hungary Kft. akkumulátoripari üzemében. Ez a belföldi ipari egység a BMW debreceni gyárának is beszállítója, az ellenőrzés során pedig környezetvédelmi, vízvédelmi és tűzvédelmi előírások megsértését, valamint környezetszennyezést állapítottak meg. A felszín alatti vizekben határérték feletti alumínium-, benzol-, króm- és nikkelszennyezést, míg két légszennyező forrásnál illékony szerves anyagok és nitrogén-oxidok túllépését mutatták ki."
+            },
+            "tolkien": {
+              "title": "Az acél csarnokainak mélyén megrázkódott a föld, és a méreg árnyéka vetült a vizekre",
+              "body": "Azonnali hatállyal lakat került a Nyíregyházi Ipari Parkban álló, német földről szakadt Boysen Battery Components Hungary Kft. akkumulátoripari üzemének kapujára, amely az elektromos szekerek acéllemez tartóházait formálva a debreceni BMW gyárának is hűséges beszállítója volt. A belföldi földek őrzői és a természet védelmének bírái szigorú vizsgálat hálóját vetették ki a portára, miután az elemek rendje megtört, és a mély vizek tiszta ereiben alumínium, benzol, króm, valamint nikkel sötét árnyai szennyezték a határt. A levegő égboltját is megterhelték a rejtett erők, mert illékony szerves anyagok és gőzölgő nitrogén-oxidok törtek elő a kazánokból, büntetésül pedig a hatóságok szigorú mértékkel 10 millió tűzvédelmi és 50 millió környezetvédelmi aranyat, azaz forintot követeltek a bűnös céhtől."
+            },
+            "reito": {
+              "title": "Amikor a német acélház és a helyi talajvíz csúnyán összeveszett a bírságok asztalán",
+              "body": "Azonnali hatállyal leállították a termelést a Nyíregyházi Ipari Parkban tanyázó Boysen Battery Components Hungary Kft. akkumulátoripari üzemében, amely német tulajdonban lévő, elektromos autókhoz acéllemez tartóházakat gyártó belföldi bázisként a debreceni BMW gyárnak is szorgos beszállítója. A hatóságok szigorú nagytakarítást tartottak, és kiderítették, hogy a környezetvédelmi, vízvédelmi, valamint tűzvédelmi szabályok nemcsak hogy csorbát szenvedtek, de a felszín alatti vizekben alumíniumból, benzolból, krómból és nikkelből is mértéktelen koktél lötyögött, míg két légszennyező forrás az illékony szerves anyagok és a nitrogén-oxidok bűzét okádta a belföldi levegőbe. A hivatal nem tétovázott: azonnal kiállított egy 10 millió forintos tűzvédelmi és egy 50 millió forintos környezetvédelmi csekket a cégnek, miközben lakatot tett a gépekre, amíg a mesterek fel nem derítik, hol csúszott félre a technológia."
+            }
+          }
         },
         {
           "source": "Telex",
@@ -255,7 +307,20 @@
             }
           }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Hatvanmillió forintra bírságolták és leállították a BMW debreceni gyárának is beszállító Boysen Battery Components Hungary Kft. nyíregyházi akkumulátoripari üzemét, miután a kormányhivatal megállapítása szerint a cég 17 pontban sértette meg a környezetvédelmi, vízvédelmi és tűzvédelmi előírásokat. Az intézkedések következtében a telephelyen azonnal felfüggesztették a tevékenységet, és a bírság megfizetésére kötelezték a vállalkozást. A belföldi ipari szereplőt érintő hatósági határozat a környezetvédelem, a vízvédelmi és a tűzvédelmi szabályok súlyos megsértése miatt lépett életbe a nyíregyházi gyárban."
+        },
+        "tolkien": {
+          "title": "A nyíregyházi kohók csendje és a hatvannymillió ezüst árnyéka",
+          "body": "Hatvanmillió forint bírsággal sújtották és azonnali hatállyal lakat került a BMW debreceni birodalmának is alkatrészeket adó Boysen Battery Components Hungary Kft. nyíregyházi akkumulátoripari üzemére, miután a kormányhivatal szigorú tekintete tizenhét súlyos vétket talált a törvények pajzsán. E döntés nyomán füstmentessé váltak a csarnokok, mert a környezetvédelem, a vízvédelmi óvintézkedések és a tűzvédelmi bástyák megvédése érdekében a törvény szigora leparancsolta a munkát a földre. A belföldi ipar e bástyáján a természet és a vizek védelmének megsértése miatt kondult meg a vészharang, amikor a hatóság emberei lepecsételték a gyár kapuit."
+        },
+        "reito": {
+          "title": "A hatvanmilliós villámcsapás és a leállított akkumulátorgyár esete",
+          "body": "Hatvanmillió forintos csekkel és egy határozott stoppal jutalmazta a kormányhivatal a BMW debreceni gyárának beszerzőjét, a Boysen Battery Components Hungary Kft. nyíregyházi üzemét, amely összesen tizenhét ponton felejtette el betartani a játékszabályokat. A gyakorlatban ez azt jelenti, hogy a gépek leálltak, a kasszából pedig hiányozni fog a hatvanmillió forint, miközben a hatóságok éppen a környezetvédelem, valamint a vízvédelmi és tűzvédelmi előírások számonkérésével voltak elfoglalva. Ez a belföldi kaland bizonyította, hogy a nyíregyházi akkumulátoripari telephelyen nem éri meg félvállról venni a környezetvédelmi és vízvédelmi határvonalakat."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -358,9 +423,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-lg/g/e/t/gettyimages-2205806561-akkumulator-autoipar-automatizalas-elektromos-auto-gyartas-innovacio-769221.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "3e18e5e855a3899373bbaa58598371f6c97de8921046e0432f22ca748308eb5c",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "43115732e15afd7d31034e2e7b29b9feb3cdcbf32fef49f3f22c6c7c8fbb0598",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A több mint 14 millió járművet biztosító német HUK Coburg és az első három negyedévet összesítő adatai alapján a magánvásárlók körében megugrott a tisztán elektromos autók (BEV) forgalomba helyezése, miközben a növekedésből a német gyártók helyett a külföldi márkák, legfőképpen a Tesla profitáltak. A harmadik negyedévben az új autót vásárlók közel 30 százaléka választott villanyautót, aminek hátterében az iráni háború nyomán drasztikusan megemelkedett benzinárak és az újból bevezetett állami támogatás állnak. A belső égésű motorról elektromosra váltók körében a Tesla részesedése 4,5-ről 10,1 százalékra ugrott, megszerezve az első helyet, míg a Volkswagen aránya 9,7-ről 4,5 százalékra zuhant. A külföldi márkák térnyerése különösen Kelet-Németországban szembetűnő, ahol az egykori NDK területén a Tesla 16,4 százalékos aránnyal vezeti a piacot, a kínai Leapmotor pedig minden egyes német autógyártót megelőzött."
+        },
+        "tolkien": {
+          "title": "A villám szekerinek harca a keleti vidéki kapuknál",
+          "body": "A több mint tizennégy millió járművet óvó, birodalmi méretű HUK Coburg krónikája arról ad hírt, hogy az első három holdtöltés idényében a magánkézre jutó, tisztán elektromos szekerek áradata sosem látott módon árasztotta el a német földet. Az új batárt vásárlók közel harmada választotta a tüzes villanyparipákat a harmadik negyedévben, miután az iráni háború szele megperzselte a kőolaj kútjait, és az állam újra kinyitotta kincstárának kapuit. Ám a diadalmas mécstollak nem a hazai kovácsok műhelyeit ékesítik, hanem a messzi földről érkező Tesla zászlaját emelték a csúcsra 10,1 százalékos aranysúllyal, míg a régi nemzetségek, így a Volkswagen hatalma a felére olvadt. Az egykori NDK bérce között a küldönc márkák vihara még félelmetesebb: a Tesla 16,4 százalékkal tapossa a rögöt, a kínai Leapmotor pedig minden ősi német céhet maga mögé utasított ezen a tájon."
+        },
+        "reito": {
+          "title": "Villanyautó-vétel Németországban: amikor a német vevő inkább amerikai és kínai kulcsot fordít a zárban",
+          "body": "A több mint 14 millió járgányt pártfogoló HUK Coburg statisztikái szerint a német magánvásárlók idén az első három negyedévben rákaptak a tisztán elektromos autók ízére, így a harmadik negyedévben már az új autót keresők közel 30 százaléka váltott villanyosra. A benzinkutak iráni háború miatti ársoktató üzemmódja és a visszatérő állami ajándékpénz csodákra volt képes, csak éppen a német autógyárak nézhetnek a távolodó hátfalak után. A Tesla 4,5-ről 10,1 százalékra tornázta magát az első helyre, míg a hazai pályán játszó Volkswagen 9,7 százalékról 4,5-re zuhant a belső égésűről váltók körében. Kelet-Németországban aztán végképp elszabadult a hajó: a Tesla 16,4 százalékkal tarol, a Leapmotor pedig finoman szólva minden egyes német márkát lekörözött a porondon."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -373,9 +451,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/d/e/v/deviza-forint-valuta-euro-unios-forras-unios-tamogatas-keszpenz-775714.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "83c46285e81df46fac1c30f5bb336642cc8cbd77862387741a7b944dde6b7220",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "47770b23b57d58a230e4db944d81f2f08595746fd1626798580b02bb369d597f",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az ING Bank elemzői szerint a 374-es szintek jelenthetik az euró-forint kurzus plafonját, miután a határozottabb korábbi tesztelések ellenére az árfolyam képtelen volt ezek felett maradni. A hét utolsó napjaiban éppen ezért csökkenhet a magyar fizetőeszközre nehezedő nyomás, különösen a hálaadás ünnepe miatti amerikai piaczárva tartás fényében. Az MNB külföldi felszólalásokat is ismertető közleménye szerint a pénzügyi stabilitás megőrzése és az óvatos, adatvezérelt monetáris politika továbbra is kiemelt jelentőségű. A devizapiaci kitekintésben megfogalmazottak alapján ez a hazai gazdasági és külföldi jegybanki fejleményeket bemutató hír szorosan kapcsolódik a Külföld rovat nemzetközi pénzügyi eseményeihez."
+        },
+        "tolkien": {
+          "title": "A rőt folyó gátja és a frankfurti trónus árnyéka",
+          "body": "Íme, az euró-forint árfolyamának hajótörései közepette a rúnák rajzolói megállapítják, hogy a hármasas-hutas-négyes számú bástya – a 374-es magasság – jelenti a határt, melyen túl a magyar fizetőeszköz nem szenvedhet tovább a veszedelmes hullámoktól. Az amerikai földek hálaadás ünnepének éjszakáján lakat záródik a kapukra, s e lakat enyhíti a ránk nehezedő sötét igát, míg a messzi frankfurti csarnokokban Varga Mihály és Kurali Zoltán szavai védőpajzsként emelkednek a deviza bércei elé. E nemzetek felett átívelő gazdasági vihar és a Külföld rovat krónikáiba illő birodalmi sorsok hitelesen rajzolják ki a globális pénzverem sorsfordító óráit."
+        },
+        "reito": {
+          "title": "Ahol a forint plafonba ütközik, és az amerikai pulykák mentik meg a napot",
+          "body": "Az ING Bank szakembereinek szigorú számításai szerint a 374-es szintnél van a forintgyengülés plafonja, mivel a magyar deviza eddig még minden lelkes próbálkozása ellenére sem tudott tartósan ezen oszlop felett ragadni. A hálaadás ünnepe miatt hirtelen lekapcsolt amerikai tőzsdék hoznak némi üdítő nyugalmat, így a hét utolsó napjain a piacok is kifújhatják magukat a nagy rohanás után. Közben a jegybankárok óvatos beszédei tartják a frontot, nehogy a pénzromlás végleg átvegye az irányítást a Külföld rovat határein túl is zajló nagy pénzügyi csetepatéban."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -389,8 +480,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/k/o/p/kopasz-janos-taylor-wessing-ugyvedi-iroda-ai-digital-konferencia-873160.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "881ff2858e161ee0a248904ba3b51c87963e4f488432c8401cb1c72f3058bbbd",
+      "contentBasis": "article",
+      "sourceHash": "a8608008e98a21a79f4ad87680d8190f988bb39ea5a77a8c4554ec4fcd4a26ee",
       "relatedStories": [
         {
           "source": "HVG",
@@ -420,7 +511,20 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A holland adatvédelmi hatóság augusztus végi határozatában 825 millió eurós bírságot szabott ki az Uber utasszállító platformra az automatizált döntéshozatal miatt, mivel a cég emberi felügyelet nélkül tiltotta le a sofőrök fiókját. A technológia rohamléptékű térnyerése és az EU AI Act egyes hatályos előírásai miatt a vállalati fejlesztésekben és a NIS 2 irányelv hatálya alá tartozó cégeknél az év végéig kötelező kiberbiztonsági és kockázatkezelési képzéseket kell tartani. A határozat ellen fellebbeztek, így az még nem jogerős, de a kontroll nélküli Shadow AI használat, a hibás chatbotok és a hiányos szerződéses háttér miatt a cégek négy oldalról is kártérítési kockázatnak vannak kitéve. A technológia és fejlesztések területén ez a szabályozási szigor és az ellenőrizetlen szoftverfrissítések kezelése alapvető kihívást jelent, míg belföldön a hazai vállalatoknak is fel kell készülniük a digitális megfelelőség szigorú követelményeire."
+        },
+        "tolkien": {
+          "title": "A gépek árnyéka és a nyolcévszázados ítélet",
+          "body": "Íme, a holland hatóságok palotájában született végzés, mely 825 millió euró súlyú bírságot rótt az Uber népére az automatizált, emberi szemet nem ismerő ítéletek miatt. A törvények szigora nem vár az idők végezetéig, hiszen az EU AI Act kardja máris suhog, és a NIS 2 rendelet által megjelölt uraknak s vezetőinek még ezen esztendő végéig kiberbiztonsági tudással kell vértezniük magukat. A lenti homályban rejtőző, titkos árnyék-mesterséges intelligenciák és a felügyelet nélkül hagyott ügynökök mind a cégek vesztét okozhatják, hacsak a szerződések pajzsa meg nem védi őket a bíróságok és a hatóságok haragjától. E technológiai viharban a fejlesztések birodalma és a hazai belföldi bástyák sem lelhetnek menedéket a digitális kor könyörtelen számvetése elől."
+        },
+        "reito": {
+          "title": "Hajrá, Uber, fizess nyolcszázhuszonöt milliót a gép helyett!",
+          "body": "A holland adatvédelmi osztag augusztus végén csapott le, és rögtön ki is sózott egy csinos, 825 millió eurós büntetést az Ubernek, mert az algoritmusuk emberi kéz vagy ész nélkül tiltogatta a sofőröket. Persze a fellebbezés miatt még nem dőlt hátra senki, ráadásul az EU AI Act sem a jövő zenéje, hiszen a NIS 2 hatálya alá tartozó cserkészeknek még az év végéig le kell vizsgázniuk kiberbiztonságból. Aki meg azt hiszi, hogy a titokban a gépre bízott privát ChatGPT-k és a kontroll nélküli Shadow AI majd megvédi a céget, az hamar megnézheti magát a hatóságok, a bíróságok és a biztosítók keresztüzemében. Így aztán a technológiai fejlesztések piacán és a belföldi céges irodákban sem árt észnél lenni, mielőtt a digitális automaták átveszik az irányítást a kassza felett."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -433,9 +537,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/n/v/i/nvidia-technologia-chip-felvezeto-mesterseges-intelligencia-techceg-vallalat-irodahaz-kina-r-869624.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "d9576e63fa18a6ef5c890a2388a2c2b183523166b8018ca76547eca7c39f5400",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "a2255dbcfa872093ca44a29b551ba7934046beb3d14b68ee29c7cfeac4f41def",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az Nvidia-chipeket szerverekbe építő partnerek, köztük a Dell és a Supermicro leállították a kiszállításokat Malajziában, Szingapúrban, Thaiföldön és Indonéziában, miután az Egyesült Államok Kereskedelmi Minisztériuma a múlt héten új szabályokat vezetett be a kínai mesterségesintelligencia-fejlesztők általi kiskapuk bezárására. A korlátozások miatt a szingapúri székhelyű Aolani felhőszolgáltató projektjét finanszírozó bankok felfüggesztették egy mintegy 500 millió dolláros hitel folyósítását a ByteDance számára, miután a szállítmányok leálltak a délkelet-ázsiai országokban. Az új amerikai szabályozás 90 napos határidőt szabott a felhőszolgáltatóknak a működési engedély megszerzésére, amihez bizonyítaniuk kell, hogy a végfelhasználóik között nincsenek feketelistás vállalatok. A külföldi piacokat közvetlenül érintő amerikai korlátozások nyomán a régióban dollármilliárdos adatközpont-építési beruházások kerültek veszélybe, miközben az Nvidia szingapúri leányvállalata tavaly még 104 milliárd dolláros árbevételt könyvelt el."
+        },
+        "tolkien": {
+          "title": "A Kék Óceán Túloldalán Megdermednek az Acélkövek",
+          "body": "A távoli dél tengerpartjai felett, Malajzia, Szingapúr, Thaiföld és Indonézia földjén az Nvidia szent rúnáit hordozó szerverek kiszállítása fagyott meg egyetlen szempillantás alatt, miután az amerikai birodalom ura a múlt héten új törvényeket kovácsolt a tiltott kapuk zárására. A Dell és a Supermicro mesterei által épített gépezetek útja elakadt, így a ByteDance számára szánt ötszázmillió aranytallérnyi hitel patakja is megrekedt a szingapúri Aolani tornyai felett. Kilencven nap éjszakája adatott a felhők uraiként járóknak, hogy igazolják: tiszták a láncaik a feketelisták árnyékaitól, ám a birodalom külhonában hatalmas fellegek gyülekeznek e szigorú rendeletek súlya alatt. A gigászi adatközpontok építésének földjén, hol egykor száznégy milliárd dolláros kincsek áramlottak át a szingapúri kapun, most néma csend és bénító vihar fojtja meg a kínai kutatók ambícióit."
+        },
+        "reito": {
+          "title": "Ahol a dollármilliárdok füstbe mennek: amikor az Nvidia elzárja a csapot",
+          "body": "A Dell és a Supermicro elegáns mozdulattal leállította a szerverszállítást Malajziában, Szingapúrban, Thaiföldön és Indonéziában, miután Washington egyetlen tollvonással bezárta a kínai mesterségesintelligencia-fejlesztők kiskapuit. A külföldi piacon tátongó kráter azonnal megakasztotta a pénzmozgásokat is: a szingapúri Aolani és a TikTokot birtokló ByteDance félmilliárd dolláruknál tartó hitelcsapját egyszerűen elzárták a bankok. Az új amerikai szabályok csupán egy laza 90 napos határidőt dobnak odavetőleg a felhőszolgáltatóknak, hogy hirtelen bebizonyítsák: a szürke zónás kuncsaftjaik listáján hiába is keresnének feketelistás arcokat. Miközben a szingapúri Nvidia-leányvállalat tavaly még 104 milliárd dolláros büszke árbevétellel büszkélkedhetett, a friss bürokratikus akadályok miatt most teljes a fejetlenség a délkelet-ázsiai adatközpontok építési frontján."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -481,9 +598,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/e/u/r/eurofighter-typhoon-nemet-legiero-nemetorszag-frisian-flag-hollandia-616361.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "2a558603632b6efb0393faaa845bf4147aba88f59317aae1c0a7587231eb311b",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "540f91b6f6513503e0e54c0a5fc880d2a462deb86d12a9b27beab593abae6081",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Olaszországban tizenhat együléses F-2000A és tíz kétüléses TF-2000A gépből álló, huszonhat darabos Tranche 1-es Eurofighter-flotta Ukrajnába történő esetleges átadása vetődött fel, ami az ország vadászflottájának 10–20 százalékos csökkenését okozná átmenetileg, miközben a parlament belföldi parlament szereplői, így a Liga és az Öt Csillag Mozgalom szenátorai költségvetési jóváhagyáshoz kötik a szállítást, Matteo Salvini pedig ellenzi a katonai segélyeket. A tíz-húsz repülőgép átengedése komoly logisztikai kihívást jelentene Ukrajnának, mert az eddigi F-16-os, Mirage 2000-es, Gripen és Rafale tervek mellett egy hatodik nyugati hajtóműcsaládot is bevezetne, tovább nehezítve a karbantartást. A gépek kivonását az indokolja, hogy elavult elektronikájuk miatt nem éri meg őket a Tranche 2-es vagy 3-as szintre fejleszteni, helyükre pedig egy 2024 decemberében aláírt, 7,47 milliárd eurós program keretében huszonnégy új Tranche 4+ generációs Eurofighter érkezik 2035-ig. Ez a cikk a külföld és a hazai politikai csatározások metszéspontjában mutatja be a vadászgép-transzfer akadályait, hiszen a külföldi fegyverszállítások sorsáról a római törvényhozásnak kell határoznia."
+        },
+        "tolkien": {
+          "title": "Az égi ezüstmének alkonya és az acél árnyéka",
+          "body": "A déli birodalom tornyaiban döntés született a tizenhat együléses F-2000A és tíz kétüléses TF-2000A solymáról, melyek sorsa az olasz Tranche 1-es flotta lángoló alkonyát hirdeti, hogy huszonhat viharvert madár talán új mezők felé repüljön. E fegyverek átadása azonban a belföldi parlament csarnokában éles kardcsapásokat szül, hol a Liga és az Öt Csillag Mozgalom szenátorai, valamint Matteo Salvini törvényhozói pajzsai állják útját a segélyeknek, míg a külföld harcmezei újabb logisztikai láncokat követelnek. Ha e gépek a messzi észak ege alá szállnak, hat különböző nyugati hajtómű ordas fúvása rázza meg az ukrán táborokat, megnehezítve a kovácsok és a fegyverhordozók dolgát a kopott sárkányok hátán. Róma már bélyeggel pecsételte meg a jövőt egy 7,47 milliárd aranytallér értékű, 2035-ig szóló szövetséggel, melyben huszonnégy új Tranche 4+ generációs égi sas érkezése feledteti a régi flotta búcsúját."
+        },
+        "reito": {
+          "title": "Ahol a sasszárnyak ára a költségvetési pecséten bukik el",
+          "body": "Az olasz égbolt rég szolgáló veteránjai, a tizenhat együléses F-2000A és a tíz kétüléses TF-2000A gépből álló Tranche 1-es osztag talán Ukrajnában köthet ki, ha a bürokrácia és a katonai logisztika meg nem békél egymással. A belföldi parlament porondján a Liga és az Öt Csillag Mozgalom szenátorai azonnal kőkemény költségvetési pecsétet követelnek a transzferre, Matteo Salvini pedig inkább a fékre lép a katonai segélyek ügyében, mintsem hogy áldását adja az üzletre. A külföldi frontra tartó madarak hiánya átmenetileg tíz-húsz százalékkal vágja vissza az olasz légierőt, Kijevben meg egészen fejtörést okozna, hogyan etessenek egyszerre hat különböző nyugati hajtóműcsaládot a már meglévő F-16-os, Mirage, Gripen és Rafale tervek mellett. Róma mindenesetre már bebiztosította magát egy 7,47 milliárd eurós, 2035-ig futó szerződéssel, amely huszonnégy vadiúj, csillogó Tranche 4+ generációs Eurofightert rendel a régi vasak helyére, mielőtt a Tornado flotta is végleg lehúzza a rolót 2027-ben."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
