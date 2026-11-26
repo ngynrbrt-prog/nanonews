@@ -3,19 +3,16 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Tesztfutás, hivatalos kiadás vagy legfrissebb kiadás összefoglalóinak frissítése"
+        description: "Tesztfutás vagy a legfrissebb kiadás összefoglalóinak frissítése"
         required: true
         type: choice
         options:
           - test
-          - official
           - reito-backfill
           - style-refresh
         default: test
   schedule:
     # Check styles every five minutes. The worker limits RSS collection to once per hour.
-    # Target the start of the Budapest publication hours in winter and summer.
-    - cron: '0 3,4,14,15 * * *'
     - cron: '2,7,12,17,22,27,32,37,42,47,52,57 * * * *'
 permissions:
   contents: write
@@ -34,30 +31,18 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Közzététel a mentett cikkekből
-        env:
-          REQUEST_MODE: ${{ inputs.mode }}
-        run: |
-          set -euo pipefail
-          if [[ "$GITHUB_EVENT_NAME" != schedule && "$REQUEST_MODE" != official ]]; then
-            exit 0
-          fi
-          bash .github/scripts/refresh-batch.sh official 90s
-          bash .github/scripts/refresh-batch.sh official 90s
-
       - name: RSS-gyűjtés és mentés
         if: github.event_name == 'schedule'
-        run: bash .github/scripts/refresh-batch.sh collect 5m
+        run: timeout --kill-after=5s 7m bash .github/scripts/refresh-batch.sh collect 5m
 
       - name: Stílusok feldolgozása és mentése
-        if: github.event_name == 'schedule' || inputs.mode != 'official'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           REQUEST_MODE: ${{ inputs.mode }}
         run: |
           set -euo pipefail
           if [[ "$GITHUB_EVENT_NAME" == schedule ]]; then
-            bash .github/scripts/refresh-batch.sh background 4m
+            timeout --kill-after=5s 7m bash .github/scripts/refresh-batch.sh background 4m
           else
-            bash .github/scripts/refresh-batch.sh "$REQUEST_MODE" 4m
+            timeout --kill-after=5s 7m bash .github/scripts/refresh-batch.sh "$REQUEST_MODE" 4m
           fi

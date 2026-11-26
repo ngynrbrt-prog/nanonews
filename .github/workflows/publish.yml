@@ -1,0 +1,33 @@
+name: Publish NANONews
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 5,16 * * *'
+      timezone: Europe/Budapest
+    # Pick up an issue if the exact-hour event was delayed or dropped.
+    - cron: '10,40 5-23 * * *'
+      timezone: Europe/Budapest
+
+permissions:
+  contents: write
+concurrency:
+  group: nanonews-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Esedékes kiadások közzététele
+        run: |
+          set -euo pipefail
+          bash .github/scripts/refresh-batch.sh official 90s
+          bash .github/scripts/refresh-batch.sh official 90s

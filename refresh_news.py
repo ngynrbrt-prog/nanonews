@@ -1,3 +1,4 @@
+import subprocess
 import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time, unicodedata
 from collections import deque
 from concurrent.futures import ThreadPoolExecutor
@@ -669,12 +670,7 @@ if publish_only and not due_slots:
     print("No unpublished official issue is due today.", flush=True)
     raise SystemExit(0)
 scheduled_at, scheduled_issue_number = due_slots[0] if publish_only else (None, None)
-following_slots = [
-    now.replace(hour=hour, minute=0, second=0, microsecond=0)
-    for hour in sorted(ISSUE_HOURS)
-    if scheduled_at and hour > scheduled_at.hour
-]
-cutoff = min([now, *following_slots])
+cutoff = scheduled_at if publish_only else now
 previous_cutoff = parse_published(previous_edition.get("contentCutoff")) or latest_official_at
 collect_new_edition=manual or publish_only
 prepare_in_background=bool(api_key) and background and not pending_current
@@ -686,10 +682,25 @@ next_issue = min(
 vivid_styles=(scheduled_at or (now if manual else next_issue))>=VIVID_STYLE_START
 # Keep items between issue runs, even when a source's RSS list rolls over.
 inbox_path=Path("data/rss-pending.json")
-try:
-    inbox_state=json.loads(inbox_path.read_text(encoding="utf-8"))
-except FileNotFoundError:
-    inbox_state={}
+snapshot_ref=os.getenv("NANONEWS_SNAPSHOT_REF")
+snapshot_sha=None
+if publish_only and snapshot_ref:
+    snapshot_sha=subprocess.check_output(
+        ["git", "log", "-1", f"--before={cutoff.isoformat()}", "--format=%H",
+         snapshot_ref, "--", str(inbox_path)],
+        text=True,
+    ).strip()
+    if not snapshot_sha:
+        raise SystemExit(f"No saved inbox found by {cutoff.isoformat()}")
+    inbox_state=json.loads(subprocess.check_output(
+        ["git", "show", f"{snapshot_sha}:{inbox_path}"], text=True,
+    ))
+    print(f"Publishing from inbox snapshot {snapshot_sha} at {cutoff.isoformat()}")
+else:
+    try:
+        inbox_state=json.loads(inbox_path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        inbox_state={}
 if isinstance(inbox_state,list):
     inbox_state={"articles":inbox_state}
 inbox={story_key(record["link"]):record for record in inbox_state.get("articles",[])}
@@ -1002,6 +1013,8 @@ edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_nu
 if publish_only:
     edition.update(scheduledAt=scheduled_at.isoformat(), contentCutoff=cutoff.isoformat())
     # Give overdue slots distinct archive names even when published in the same minute.
+    if snapshot_sha:
+        edition["inboxSnapshot"] = snapshot_sha
     edition["archiveFile"] = f"{scheduled_at:%Y-%m-%d-%H%M}.json"
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
