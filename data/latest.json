@@ -626,8 +626,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/b/e/t/bet-327217.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "3f58c85093bf84e26bac717536d527fce73785689f74a86672578586f053e1e3",
+      "contentBasis": "article",
+      "sourceHash": "724cbec0ddab25d5795cafe6c54f7e4364faa9ba0f8f394b25b15f134d9e066d",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -758,7 +758,20 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A magyar tőzsdén a BUX index 2023 márciusi mélypontja óta 246 százalékkal emelkedett, értéke közel három és félszeresére nőtt az elmúlt szűk négy évben, ami a belföldi tőzsdei piacot érinti. A jelentős növekedés következtében a hazai piac az utóbbi évek egyik legnagyobb sikersztorijává vált régiós és nemzetközi összehasonlításban egyaránt. A cikk további része a Portfolio Signature PRO előfizetés megvásárlásával érhető el, amelynek havi díja 2 990 forint, míg az egyéves hozzáférés díja 29 845 forint. Az éves előfizetés keretében az olvasók 10 havi díjért cserébe kapnak 12 havi szolgáltatást."
+        },
+        "tolkien": {
+          "title": "A BUX aranyló szárnyalása és a belföldi tőzsde krónikája",
+          "body": "A belföldi tőzsde birodalmában a BUX index 2023 márciusi legsötétebb mélypontja óta 246 százalékkal emelkedett, s értéke közel három és félszeresére nőtt az elmúlt szűk négy évben. Ez a diadalmas menetelés az utóbbi évek egyik legnagyobb sikersztorijává emelte a hazai piacot régiós és nemzetközi összehasonlításban egyaránt. Az út ezután a tudás kapujához vezet, amely a Portfolio Signature PRO előfizetéssel nyitható meg havi 2 990 forintért. Az egyéves hozzáférés ára 29 845 forint, melynek keretében a vándorok 10 havi díjért cserébe 12 havi szolgáltatást kapnak."
+        },
+        "reito": {
+          "title": "A tőzsdei szárnyalás ára és a számok bűvölete",
+          "body": "A belföldi tőzsdén a BUX index 2023 márciusi mélypontja óta 246 százalékkal emelkedett, így az értéke közel három és félszeresére nőtt az elmúlt szűk négy évben. Ezzel a bravúrral a hazai porond az utóbbi évek egyik legnagyobb sikersztorijává vált régiós és nemzetközi összehasonlításban is. Akinek ez a száguldás nem lenne elég, a Portfolio Signature PRO szolgáltatásra havi 2 990 forintért fizethet be. Az egyéves, 29 845 forintos hozzáférés pedig csupa fekete leves helyett gazcsuvas kedvezményt kínál: 10 havi díjért cserébe 12 havi szolgáltatást adnak az olvasóknak."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -771,9 +784,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/d/k/c/dkcsz20261112041-873070.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "3e8083970491c9d019b72ddcb7a9a6715492f3ef7033d37f92c892de20b1f09d",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "bab4ec3293ae2d848c97b487e5125f6c6c3788634bab75777ade4f262fc6776c",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Megállapodás született a Rákosrendező fejlesztéséhez kapcsolódóan, amelynek értelmében az állam beszáll a projektbe, a fővárosnak pedig nem kell kifizetnie a fennmaradó vételárat, miután élt az elővásárlási jogával, és a létrehozott közös projektcégnek 25-30 százalékban válik tulajdonosává. Ez a belföldi megállapodás azt eredményezi, hogy Budapest mentesül a fennmaradó vételár teljes kifizetése alól, miközben a közös vállalatban a ráfordítások arányában szerez tulajdonrészt. A felek a jövőben szindikátusi szerződésben rögzítik a közös állami-fővárosi projektcég irányítási és döntéshozatali mechanizmusait."
+        },
+        "tolkien": {
+          "title": "A Vasút és a Korona Egyeztsége Rákos Kertjeiben",
+          "body": "Így esett, hogy a Rákosrendező sorsáról szóló tanácskozáson a hatalmas állam és a főváros küldöttei megegyezésre jutottak, midőn a birodalom kiterjesztette karját a földek felett, és Budapest népének nem kell megfizetnie a fennmaradó vételár árnyékát. E szent szövetség gyümölcseként a főváros birtokba veszi az elővásárlás jogát, s a leendő közös műhelyben huszonöt-harminc százalékos részesedéssel bír majd. A hatalmasok ígéretet tettek arra, hogy a birodalmi és városi akaratot egyaránt vezérlő törvényeket később, szindikátusi tekercsekbe zárva pecsételik meg."
+        },
+        "reito": {
+          "title": "A rákosrendezői ingyen-kanyar és a bürokraták békéje",
+          "body": "A főváros és a kormány rábólintott a Rákosrendező sorsát pecsételő üzletre, aminek köszönhetően az állam beszáll a buliba, a fővárosnak pedig egy vasa sem bánja a fennmaradó vételár hátralévő részét. Ennek a belföldi paktumnak a gyümölcseként Budapest a ráfordítások arányában, azaz csinos 25-30 százalékos tulajdonosként vethet horgonyt az újonnan alakuló projektcégben. A részleteket, vagyis hogy ki nyomja majd a gombokat az irányítómotorban, egy későbbi szindikátusi szerződés papírjaira bízzák."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -3383,8 +3409,8 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/8ZXB2L1v7ReFNDXxGnByo95W6nTIYzmB4Gz-Zx4MyvI/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xMi83OTJiNzUzZmFkYWIzYWY0N2E3ZmExYzU2ZTA2NDljYzUyNmJiNzU5YmI2MjYwZDM5MDE0ZTQ3NTQzNThmMzA4.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "rss",
-      "sourceHash": "11aeca315b0b5e4c9c6b0e469f1441b4686c649a6146208f738ff5dd7a9efedc",
+      "contentBasis": "article",
+      "sourceHash": "c7ce32292a1fa9ae611c5e3ba9df558653e8212b3472f8c2de4817f9cb3a5019",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -3445,7 +3471,20 @@
             }
           }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A súlyos pénzügyi nehézségekkel küzdő Győri Audi ETO KC női kézilabdaklubot érintően a győri közgyűlés egyhangúlag megszavazta, hogy a jövő évre járó 100 millió forintos önkormányzati szponzori támogatást már januárban, egy összegben megkapják. A döntés következtében a klub azonnal hozzájut a pénzhez, de garanciákhoz kötötten: a felnőttcsapatnak le kell játszania a 2026–2027-es idény valamennyi kötelező mérkőzését, be kell fejeznie a szezont, teljesítenie kell a szponzorációs szerződésben vállalt kötelezettségeit, valamint a városmarketinggel kapcsolatos feladatokat. A novemberben nehéz helyzetbe került, november óta költségcsökkentésre kényszerülő klub csütörtökön köszönetet mondott a belföldi városvezetésnek, emellett a szurkolók 111 felajánlásából csaknem ötmillió forint gyűlt össze, és a további szponzori tárgyalások is biztatóan haladnak. Az ETO közlése szerint a támogatási rendszer változása miatt kialakult gazdasági problémákat a mostani döntés önmagában még nem oldja meg teljesen, miközben a belföldi önkormányzat ellenőrizhető ellenszolgáltatást vár."
+        },
+        "tolkien": {
+          "title": "A győri vár urai megmentik a dicső csapatot",
+          "body": "A súlyos ínségben és pénzügyi viharokban vergődő Győri Audi ETO KC női kézilabdaklubot érintve a győri közgyűlés egyhangú akaratával úgy határozott, hogy a jövő esztendőre esedékes 100 millió forintos önkormányzati szponzori támogatást már január első napjaiban, egyetlen tömör aranyrögként megkapják. E sorsfordító döntés révén a csapat azonnal erőt meríthet, ám szigorú eskü terhe alatt: a felnőttcsapatnak végig kell küzdenie a 2026–2027-es idény minden kötelező viadalát, meg kell érnie a szezon végtét, és teljességgel be kell töltenie a szponzorációs szerződés szent kötelezettségeit, valamint a belföldi városmarketing feladatait. A novemberi fagyos idők óta gazdasági sebeket nyalogató egyesület hálás szívvel köszöntötte e belföldi segítő kezet, miközben a hűséges szurkolók 111 adományából közel ötmillió ezüstpénz gyűlt össze, és újabb szövetségek köttetnek. Az ETO óvatosan jelzi, hogy bár ez a belföldi kincs ideiglenes menedék, a birodalom gazdasági viharait önmagában még nem csillapítja el teljesen."
+        },
+        "reito": {
+          "title": "Százmillió a kasszába, avagy hogyan veszi kézbe a város a győri kézisek sorsát",
+          "body": "A pénzügyi viharban fuldokló Győri Audi ETO KC női kézilabdaklub mentőövét dobták ki a győri közgyűlés termében, ahol egyhangú igennel pecsételték meg, hogy a jövő évi 100 millió forintos szponzori pénzt már januárban, egy füst alatt kipréselik a büdzséből. A gyors pénzkezelés apró szépséghibája, hogy a belföldi városvezetés nem adja ingyen a bankót: a felnőttcsapatnak le kell darálnia a 2026–2027-es idény összes kötelező meccsét, becsülettel végig kell küzdeni a szezont, és még a városmarketinges papírmunkát is le kell tudni a szponzori kötelezettségek mellett. A november óta spórolásra kényszerülő klub csütörtökön illedelmesen megköszönte a belföldi segélyt, amíg a szurkolók 111 felajánlása összekapart mintegy ötmillió forintot, és a cégekkel is zökkenőmentesen zajlanak a tárgyalások. Az ETO azért a földön járva elismerte, hogy ez a belföldi gyorssegély még nem oldja meg a teljes gazdasági fejfájásukat, de legalább van miért izgulni."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
