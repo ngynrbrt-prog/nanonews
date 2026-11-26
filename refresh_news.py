@@ -14,7 +14,10 @@ VIVID_STYLE_START=datetime(2026,11,24,17,0,tzinfo=TZ)
 now=datetime.now(TZ)
 dispatch_mode=os.getenv("NANONEWS_MODE","test" if os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" else "").strip().lower()
 manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="test"
-force_issue=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="official"
+publish_only=dispatch_mode=="official"
+collect_only=dispatch_mode=="collect"
+background=dispatch_mode=="background"
+work_deadline=time.monotonic()+150
 force_backfill=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode in {"reito-backfill","style-refresh"}
 
 feeds={
@@ -339,10 +342,7 @@ published_before=set()
 archived_similarity_records={}
 latest_official_at=None
 latest_official_path=None
-today_issue_count=0
-today_issued_hours=set()
 today_issued_numbers=set()
-counted_editions=set()
 issue_files=list(Path("data/archive").glob("*.json"))+[Path("data/latest.json")]
 for file in issue_files:
     if file.name=="index.json" or not file.exists():continue
@@ -353,12 +353,9 @@ for file in issue_files:
         if issue_at and (latest_official_at is None or issue_at>=latest_official_at):
             latest_official_at=issue_at
             latest_official_path=file
-        issue_id=edition_data.get("updatedAt") or file.name
-        if issue_at and issue_at.date()==now.date() and issue_id not in counted_editions:
-            today_issue_count+=1
-            counted_editions.add(issue_id)
-            today_issued_hours.add(issue_at.hour)
-            today_issued_numbers.add(edition_data.get("issueNumber"))
+        scheduled_at=parse_published(edition_data.get("scheduledAt")) or issue_at
+        if scheduled_at and scheduled_at.date()==now.date():
+            today_issued_numbers.add(edition_data.get("issueNumber") or ISSUE_HOURS.get(scheduled_at.hour))
         edition_stories=edition_data.get("stories",[])
         published_before.update(story_key(record.get("url","")) for story in edition_stories for record in all_story_records(story) if record.get("url"))
         if file.parent.name=="archive" and issue_at:
@@ -460,10 +457,13 @@ def request_gemini(request):
     global gemini_next_request
     for attempt in range(3):
         remaining = gemini_next_request - time.monotonic()
+        if (background or force_backfill) and time.monotonic() + max(remaining, 0) >= work_deadline:
+            raise TimeoutError("Gemini retry deferred to a later processing batch")
         if remaining > 0:
             time.sleep(remaining)
         gemini_next_request = time.monotonic() + 1
         try:
+            print("Requesting Gemini style processing.", flush=True)
             with urllib.request.urlopen(request, timeout=50) as response:
                 return json.loads(response.read().decode("utf-8"))
         except HTTPError as exc:
@@ -632,7 +632,7 @@ try:
     if not previous_edition.get("testEdition"):
         issue_at=parse_published(previous_edition.get("updatedAt"))
         if issue_at:
-            current_archive_path=Path("data/archive")/f"{issue_at.strftime('%Y-%m-%d-%H%M')}.json"
+            current_archive_path=Path("data/archive")/previous_edition.get("archiveFile", f"{issue_at:%Y-%m-%d-%H%M}.json")
         # One-off editorial handoff for the November 24 issue.
         if issue_at and issue_at.date().isoformat() == "2026-11-24":
             print("Skipping style backfill for the November 24 issue to prepare the next edition.")
@@ -645,18 +645,30 @@ try:
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
 stories=[]
-scheduled_issue_number=ISSUE_HOURS.get(now.hour)
-official_slot_available=scheduled_issue_number is not None and now.hour not in today_issued_hours and scheduled_issue_number not in today_issued_numbers and not force_backfill
-if force_issue and not official_slot_available:
-    raise SystemExit("Manual official issue can only be generated in an unused 05:00 or 16:00 Budapest slot.")
-collect_new_edition=manual or force_issue or official_slot_available
-prepare_in_background=bool(api_key) and not collect_new_edition and not force_backfill and not pending_current
+due_slots = [
+    (now.replace(hour=hour, minute=0, second=0, microsecond=0), number)
+    for hour, number in sorted(ISSUE_HOURS.items())
+    if hour <= now.hour and number not in today_issued_numbers
+]
+if publish_only and not due_slots:
+    print("No unpublished official issue is due today.", flush=True)
+    raise SystemExit(0)
+scheduled_at, scheduled_issue_number = due_slots[0] if publish_only else (None, None)
+following_slots = [
+    now.replace(hour=hour, minute=0, second=0, microsecond=0)
+    for hour in sorted(ISSUE_HOURS)
+    if scheduled_at and hour > scheduled_at.hour
+]
+cutoff = min([now, *following_slots])
+previous_cutoff = parse_published(previous_edition.get("contentCutoff")) or latest_official_at
+collect_new_edition=manual or publish_only
+prepare_in_background=bool(api_key) and background and not pending_current
 next_issue = min(
     slot for day in (now, now + timedelta(days=1))
     for hour in ISSUE_HOURS
     if (slot := day.replace(hour=hour, minute=0, second=0, microsecond=0)) > now
 )
-vivid_styles=(now if collect_new_edition else next_issue)>=VIVID_STYLE_START
+vivid_styles=(scheduled_at or (now if manual else next_issue))>=VIVID_STYLE_START
 # Keep items between issue runs, even when a source's RSS list rolls over.
 inbox_path=Path("data/rss-pending.json")
 try:
@@ -669,15 +681,16 @@ inbox={story_key(record["link"]):record for record in inbox_state.get("articles"
 last_rss_collection=parse_published(inbox_state.get("lastRssCollection"))
 # Use UTC hour slots so the repeated local hour at the end of daylight saving time still runs twice.
 rss_hour=now.timestamp()//3600
-collect_rss=last_rss_collection is None or last_rss_collection.timestamp()//3600<rss_hour
+collect_rss=(collect_only or manual) and (last_rss_collection is None or last_rss_collection.timestamp()//3600<rss_hour)
 
 for key,record in list(inbox.items()):
     published=parse_published(record["published"])
     observed=parse_published(record["observed"])
-    if key in published_before or (latest_official_at and (published or observed)<=latest_official_at):
+    if key in published_before or (previous_cutoff and (published or observed) and (published or observed)<=previous_cutoff):
         del inbox[key]
 
 if collect_rss:
+    print("Starting RSS collection.", flush=True)
     inbox_state["lastRssCollection"]=now.isoformat()
     for source,urls in feeds.items():
         for url in urls:
@@ -693,7 +706,7 @@ if collect_rss:
                     key=story_key(link)
                     published=text(item.find("pubDate"))
                     published_at=parse_published(published)
-                    if key in published_before or (latest_official_at and published_at and published_at<=latest_official_at):
+                    if key in published_before or (previous_cutoff and published_at and published_at<=previous_cutoff):
                         continue
                     desc=text(item.find("description"))
                     existing=inbox.get(key)
@@ -711,7 +724,18 @@ if collect_rss:
             except Exception as exc:
                 print(f"Feed error {source} {url}: {exc}")
 
-inbox_path.parent.mkdir(exist_ok=True)
+def save_inbox():
+    inbox_path.parent.mkdir(exist_ok=True)
+    inbox_state["articles"] = list(inbox.values())
+    inbox_path.write_text(json.dumps(inbox_state, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+
+if collect_only:
+    save_inbox()
+    print(f"RSS collection complete; {len(inbox)} stored articles.", flush=True)
+    raise SystemExit(0)
+
+print("Assembling official edition from saved articles." if publish_only else "Starting article and style processing.", flush=True)
+
 unclassified_cutoff = now.timestamp() - timedelta(days=7).total_seconds()
 for key, record in list(inbox.items()):
     source=record["source"]
@@ -720,19 +744,23 @@ for key, record in list(inbox.items()):
     # Use the earlier available time to prevent old, dated RSS items from being re-added.
     expired = any(at and at.timestamp() <= unclassified_cutoff
                   for at in (retention_start, published_for_retention))
+    if background and time.monotonic() >= work_deadline:
+        break
+    if publish_only and retention_start and retention_start > cutoff:
+        continue
     if not expired and not collect_new_edition and not prepare_in_background:
         continue
     prepared=record.get("prepared")
     if (collect_new_edition or prepare_in_background) and prepared and prepared.get("summaryVersion")==SUMMARY_VERSION and record.get("preparedVividStyles")==vivid_styles:
         if collect_new_edition:
             article_date=parse_published(prepared["published"])
-            if article_date and (not latest_official_at or latest_official_at<article_date) and article_date<=now:
+            if article_date and (not previous_cutoff or previous_cutoff<article_date) and article_date<=cutoff:
                 prepared["categories"] = apply_subject_categories(
                     record["title"], record["description"], prepared["categories"],
                 )
                 if not prepared["categories"]:
                     continue
-                if "sourceArticleLinks" not in prepared:
+                if not publish_only and "sourceArticleLinks" not in prepared:
                     _, _, source_links=fetch_article(prepared["url"])
                     if source_links is not None:
                         prepared["sourceArticleLinks"]=source_links
@@ -775,13 +803,13 @@ for key, record in list(inbox.items()):
     if not collect_new_edition and not prepare_in_background:
         continue
     story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
-    article_text,article_published,source_links=fetch_article(link)
+    article_text,article_published,source_links=("",None,None) if publish_only else fetch_article(link)
     if source_links is not None:
         story["sourceArticleLinks"]=source_links
     if not story["published"] and article_published:story["published"]=article_published
     article_date=parse_published(story["published"])
-    if article_date and article_date>now:continue
-    if latest_official_at and (not article_date or article_date<=latest_official_at):
+    if article_date and article_date>cutoff:continue
+    if previous_cutoff and (not article_date or article_date<=previous_cutoff):
         print(f"Skipping story without a post-issue publication date: {link}")
         continue
     basis_text=article_text or story["summary"]
@@ -790,7 +818,7 @@ for key, record in list(inbox.items()):
     cached=previous.get(link,{})
     if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
         story["variants"]=cached["variants"]
-    elif api_key and not pending_current:
+    elif not publish_only and api_key and not pending_current:
         try:
             story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
@@ -801,12 +829,14 @@ for key, record in list(inbox.items()):
         record["preparedVividStyles"]=vivid_styles
         print(f"Prepared all three variants: {link}")
 
-inbox_state["articles"]=list(inbox.values())
-inbox_path.write_text(json.dumps(inbox_state,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+if not publish_only:
+    save_inbox()
 
 pending_updated=False
-if api_key and (not manual or pending_current):
+if api_key and not publish_only and (not manual or pending_current):
     for pending_story in pending_current[:10]:
+        if (background or force_backfill) and time.monotonic() >= work_deadline:
+            break
         current_variants=pending_story.setdefault("variants",{})
         if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
             not current_variants.get("original",{}).get("body")):
@@ -888,20 +918,13 @@ def sync_pending_archive():
         current_archive_path.write_text(json.dumps(archived,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     except Exception as exc:print(f"Could not sync pending summaries to current issue archive: {exc}")
 
-if not stories:
-    if not pending_updated and not (force_issue or official_slot_available):
+if not stories and not publish_only:
+    if not pending_updated:
         print("No new stories or missing Tolkien/Rejto rewrites; leaving the current edition and archive unchanged.")
         raise SystemExit(0)
-    if force_issue or official_slot_available:
-        print("No new matching stories; publishing the official issue with an empty story list.")
     if pending_updated and latest_official_path is not None:
         latest_official_path.write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
-    round_signal = os.getenv("NANONEWS_ROUND_SIGNAL")
-    if (round_signal and pending_updated and not official_slot_available
-            and gemini_next_request - time.monotonic() <= 1
-            and any(needs_style_refresh(story) for story in pending_current)):
-        Path(round_signal).write_text("continue\n", encoding="utf-8")
     print(f"Completed missing style rewrites in the current issue; {len(pending_current)} stories were checked.")
     raise SystemExit(0)
 sync_pending_archive()
@@ -910,11 +933,15 @@ stories=group_similar_stories(stories)
 stories=attach_archived_stories(stories,archived_similarity_records.values())
 issue_number=None if manual else scheduled_issue_number
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories}
+if publish_only:
+    edition.update(scheduledAt=scheduled_at.isoformat(), contentCutoff=cutoff.isoformat())
+    # Give overdue slots distinct archive names even when published in the same minute.
+    edition["archiveFile"] = f"{scheduled_at:%Y-%m-%d-%H%M}.json"
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 archive=Path("data/archive");archive.mkdir(exist_ok=True)
 stamp=now.strftime("%Y-%m-%d-%H%M")
-(archive/f"{stamp}.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(archive/edition.get("archiveFile", f"{stamp}.json")).write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 items=[]
 for file in archive.glob("*.json"):
     if file.name=="index.json": continue
