@@ -636,3 +636,63 @@ Az RSS-adatok utolsó elérhető mentése 2026-11-26 19:26:56. Az ezután esetle
 **62 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
 
 Mentés indítása budapesti idő szerint 2026-11-26 20:00:07.
+
+## 21:00
+
+A mérési időszak budapesti idő szerint 2026-11-26 16:13:24 és 2026-11-26 21:00 között tartott. A következő kiadás tervezett ideje 2026-11-27 05:00.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 21 | 14 | 14 | 14 | 14 | 14 | 100,0% | 0 |
+| HVG | 31 | 15 | 15 | 15 | 15 | 15 | 100,0% | 0 |
+| Nemzeti Sport | 16 | 4 | 4 | 4 | 4 | 4 | 100,0% | 0 |
+| NBAnews.hu | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 17 | 8 | 8 | 8 | 8 | 8 | 100,0% | 0 |
+| Portfolio.hu | 33 | 23 | 23 | 23 | 23 | 23 | 100,0% | 0 |
+| Origo.hu | 40 | 7 | 7 | 7 | 7 | 7 | 100,0% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 2 | 1 | 1 | 1 | 1 | 1 | 100,0% | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 160 | 72 | 72 | 72 | 72 | 72 | 100,0% | 0 |
+
+A BringaSport a felhasznált RSS-mentés után került be a források közé. A mentésben még nincs hozzá cikk.
+
+### A következő kiadás adatállapota
+
+A **2026-11-27 05:00**-s kiadás előzetes adatállapota. Az utolsó rögzített RSS-gyűjtés ideje **2026-11-26 20:28:01**. A gyűjtés kora a mérési határnál **31 perc 58 másodperc**. A kiadásig frissebb mentés érkezhet.
+
+Az RSS-adatok utolsó elérhető mentése 2026-11-26 20:29:23. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/e8730bc440923e18c5fb7670dfd0150f2fa6007a) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/327439e6d5bff42187a54a61877d5f052d3c6d6e)
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Bajnokok ligája | 0 |
+| Premier League | 0 |
+| Arsenal | 0 |
+| Bayern München | 0 |
+| Manchester United | 0 |
+| Como | 0 |
+| F1 | 2 |
+| NBA | 2 |
+| NFL | 0 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Belföld | 51 |
+| Technológia / Fejlesztések | 4 |
+| Tőzsde | 0 |
+| Környezetvédelem | 7 |
+| Filmek | 2 |
+| Ingatlan | 1 |
+| Külföld | 9 |
+| Tenisz | 1 |
+| Manchester City | 0 |
+| Belföldi parlament | 10 |
+| Belföldi tőzsde | 1 |
+| Külföldi tőzsde | 0 |
+
+**72 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+
+Mentés indítása budapesti idő szerint 2026-11-26 21:02:26.
