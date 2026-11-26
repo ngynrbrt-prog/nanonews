@@ -853,6 +853,9 @@ for key, record in list(inbox.items()):
     if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
         story["variants"]=cached["variants"]
     elif preparation_pool is not None:
+        # The RSS inbox can contain both www and non-www URLs for a story.
+        if preparations and reference_key(preparations[0][1]["url"]) == reference_key(link):
+            finish_preparation(*preparations.popleft())
         future = preparation_pool.submit(
             gemini_rewrites, story, article_text, api_key, vivid_styles=vivid_styles,
         )
@@ -944,10 +947,21 @@ def backfill_story(pending_story):
     return updated
 
 
+def backfill_group(stories):
+    updated = False
+    for story in stories:
+        if backfill_story(story):
+            updated = True
+    return updated
+
+
 pending_updated = False
 if api_key and not publish_only and (not manual or pending_current) and pending_current:
+    stories_by_article = {}
+    for story in pending_current[:10]:
+        stories_by_article.setdefault(reference_key(story.get("url", "")), []).append(story)
     with ThreadPoolExecutor(max_workers=GEMINI_WORKERS) as backfill_pool:
-        backfill_results = list(backfill_pool.map(backfill_story, pending_current[:10]))
+        backfill_results = list(backfill_pool.map(backfill_group, stories_by_article.values()))
     pending_updated = any(backfill_results)
 
 
