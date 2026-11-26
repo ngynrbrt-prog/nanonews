@@ -5,7 +5,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Mr. Szabadrúgás: Szoboszlai Dominik; 9-es osztályzat Szendreinek",
-      "summary": "A Nemzeti Sporthétfői számából ajánljuk:Szoboszlai Dominik adta meg az alaphangot.&nbsp;A magyar válogatott csapatkapitánya Premier League-pályafutása ötödik szabadrúgásgólját lőtte a Manchester Unitednek, amúgy pedig a 17. PL-találatát szerezte, amivel beérte Gera Zoltánt. Minden, ami a „vörös” rangadóról, Mauricio Pochettino MU-edző kínos bemutatkozásáról tudni érdemes – egy oldalon.",
       "url": "https://nemzetisport.hu/napilap/2026/11/mr-szabadrugas-szoboszlai-dominik-9-es-osztalyzat-szendreinek",
       "published": "Sun, 22 Nov 2026 22:43:06 +0000",
       "categories": [
@@ -25,7 +24,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Nyolc gól és iksz a fekete-kék rangadón Bergamóban, avagy Esposito triplája is kevés volt az Inter-sikerhez",
-      "summary": "Az Inter köröbelül bő egy óráig uralta a meccset, majd Sarri cseréi nyomán feltámadtak a hazaiak.",
       "url": "https://nemzetisport.hu/olasz-labdarugas/2026/11/nyolc-gol-es-iksz-a-fekete-kek-rangadon-bergamoban-avagy-esposito-triplaja-is-keves-volt-az-inter-sikerhez",
       "published": "Sun, 22 Nov 2026 22:06:00 +0000",
       "categories": [
@@ -44,7 +42,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Az Atlético Madrid könnyedén nyert a Getafe otthonában",
-      "summary": "A madridi derbin esélye sem volt a hazai csapatnak.",
       "url": "https://nemzetisport.hu/spanyol-labdarugas/2026/11/az-atletico-madrid-konnyeden-nyert-a-getafe-otthonaban",
       "published": "Sun, 22 Nov 2026 22:02:11 +0000",
       "categories": [
@@ -63,7 +60,6 @@
     {
       "source": "NBAnews.hu",
       "title": "Hat NBA-meccs az éjszaka: a bajnok Knicksre is komoly feladat vár, Miamiban sztárok játéka kérdéses",
-      "summary": "Hat mérkőzéssel folytatódik az NBA alapszakasza vasárnapról hétfőre virradóra, és az éjszakai program több olyan összecsapást is tartogat, amelynek komoly jelentősége lehet a csapatok számára. A címvédő New York Knicks az Indiana Pacerst fogadja, a Boston Celtics a Golden State Warriors otthonában lép pályára, míg Miamiban két olyan együttes találkozik, amelynek felkészülését meghatározó játékosok sérülései...",
       "url": "https://nbanews.hu/nba-hat-meccs-knicks-thunder-celtics/",
       "published": "Sun, 22 Nov 2026 20:40:59 +0000",
       "categories": [
@@ -82,7 +78,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Férfi kézilabda MK: a Gyöngyössel találkozik a címvédő Veszprém a negyeddöntőben",
-      "summary": "A Szeged a Csurgóval méri össze az erejét.",
       "url": "https://nemzetisport.hu/kezilabda/2026/11/ferfi-kezilabda-mk-a-gyongyossel-talalkozik-a-cimvedo-veszprem-a-negyeddontoben",
       "published": "Sun, 22 Nov 2026 20:01:25 +0000",
       "categories": [
@@ -101,7 +96,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Debreceni gólparádé Nyíregyházán – a keleti rangadó legjobb képei",
-      "summary": "A Loki fél tucat gólig jutott az NB I keleti rangadóján.",
       "url": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/nezze-meg-a-dvsc-nyiregyhazi-golparadejanak-legjobb-kepeit",
       "published": "Sun, 22 Nov 2026 19:05:14 +0000",
       "categories": [
@@ -109,18 +103,11 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/OBYXRrUG_BGFbAa3Lq6OngS1cNd35cQX2TxQSG-9dCk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkYjljYmRlMzIzZjQ5ZGI4MzFmMDA3MGMxMDg4NDA0.webp",
       "contentBasis": "rss",
-      "sourceHash": "32a4fcb3b9d726bb065b523df8215c073dffad76b25562e8cacb0920f32e5824",
-      "variants": {
-        "tolkien": {
-          "title": "A debreceni hadak diadalmas vihara Nyíregyháza mezsgyéjén",
-          "body": "Íme, megíratott a napok krónikájában, hogy az NB I keleti viadalán a Loki népe hatalmas diadalt aratott. A harc színhelyén a debreceni bajnokok fél tucat találatig jutottak ellenfelük kapujában. E fegyvertény által dicsőségesen zárult a keleti vidékek nagy megmérettetése."
-        }
-      }
+      "sourceHash": "32a4fcb3b9d726bb065b523df8215c073dffad76b25562e8cacb0920f32e5824"
     },
     {
       "source": "NBAnews.hu",
       "title": "Egy döntés, amely 13 év után nem hagyja nyugodni Dwight Howardot",
-      "summary": "Több mint tizenhárom év telt el azóta, hogy Dwight Howard egyetlen Los Angelesben töltött idény után hátat fordított Kobe Bryantnek és a Lakersnek, a döntése azonban még mindig az NBA egyik legtöbbet emlegetett története. A korábbi háromszoros Év Védőjátékosa most minden eddiginél őszintébben beszélt arról, miért választotta 2013 nyarán a Houston Rocketset, és miért gondolja...",
       "url": "https://nbanews.hu/dwight-howard-kobe-bryant-lakers-tavozas/",
       "published": "Sun, 22 Nov 2026 18:54:08 +0000",
       "categories": [
@@ -139,7 +126,6 @@
     {
       "source": "Telex",
       "title": "Szoboszlai tökéletes szabadrúgásával szerzett vezetést a Liverpool a Manchester United ellen",
-      "summary": "A 10. percben 18 méterről nagy erővel, laposan bombázott a kapuba a magyar középpályás. A Pool négyet lőtt ősi riválisának.",
       "url": "https://telex.hu/sport/2026/11/22/szoboszlai-liverpool-manchester-united-szabadrugasgol",
       "published": "Sun, 22 Nov 2026 17:50:52 +0100",
       "categories": [
@@ -158,7 +144,6 @@
     {
       "source": "Telex",
       "title": "Hamarosan történelmet ír a demokrata képviselő, aki a Trumppal szembeni többség legfontosabb arca lesz",
-      "summary": "A félidős választáson 35 éve nem látott többségig erősödött demokraták úgy döntöttek, hogy Hakeem Jeffriest jelölik a képviselőház elnökének. Ha január elején megválasztják, akkor az egyszerre szókimondó és zárkózott politikus lesz az, aki felveszi a kesztyűt Mr. Vétóval szemben. A Trump-kormány elleni vizsgálatok, a meghallgatások, de a törvényjavaslatok is a nevéhez kötődnek majd.",
       "url": "https://telex.hu/kulfold/2026/11/22/hakeem-jeffries-egyesult-allamok-kongresszus-kepviselohaz-hazelnok-felidos-valasztas-trump-demokrata-part-republikanus",
       "published": "Sun, 22 Nov 2026 17:35:11 +0100",
       "categories": [
@@ -177,7 +162,6 @@
     {
       "source": "HVG",
       "title": "Többen megsérültek a Nyíregyháza és a Debrecen szurkolóinak tömegverekedésében",
-      "summary": "Tömegverekedés tört ki a Nyíregyháza Spartacus és Debrecen szurkolói között a két focicsapat bajnoki találkozója előtt.",
       "url": "https://hvg.hu/itthon/20261122_tobben-megserultek-a-nyiregyhaza-es-a-debrecen-szurkoloinak-tomegverekedeseben",
       "published": "Sun, 22 Nov 2026 17:11:00 Z",
       "categories": [
@@ -196,7 +180,6 @@
     {
       "source": "NBAnews.hu",
       "title": "Keleti rangadó a Sport2-n: a Hawks és a Pistons csatája az NBANews.hu-n is élőben követhető",
-      "summary": "Vasárnap este két remekül rajtoló keleti csapat találkozik az NBA-ben: az Atlanta Hawks hazai pályán fogadja a Detroit Pistonst. A mérkőzés magyar idő szerint 21:30-kor kezdődik, a Sport2 élőben közvetíti az összecsapást, az NBANews.hu-n pedig folyamatosan követhetők lesznek az eredmények és a találkozó legfontosabb eseményei. A tét sem kicsi, hiszen a két együttes közvetlenül egymás...",
       "url": "https://nbanews.hu/hawks-pistons-keleti-rangado-elo-kozvetites/",
       "published": "Sun, 22 Nov 2026 16:09:57 +0000",
       "categories": [
@@ -216,7 +199,6 @@
     {
       "source": "NBAnews.hu",
       "title": "„Meg kellett mutatnom Selenának” – Wembanyama 50 pontja történelmet írt",
-      "summary": "Victor Wembanyama egy hónapon belül másodszor dobott 50 pontot, ezzel olyan statisztikai sort hozott össze, amilyenre az NBA történetében még nem volt példa. A San Antonio Spurs 114–91-re kivégezte a New Orleans Pelicanst, a francia center pedig csak 32 percet töltött a pályán. Egy félidő alatt többet dobott, mint az ellenfél kezdőötöse Wembanyama az első...",
       "url": "https://nbanews.hu/wembanyama-50-pont-pelicans/",
       "published": "Sun, 22 Nov 2026 10:02:31 +0000",
       "categories": [
@@ -235,7 +217,6 @@
     {
       "source": "Telex",
       "title": "A Fidesz és a Mi Hazánk totális diktatúrában érzi magát – a parlamenti házszabály módosításáról vitáztak",
-      "summary": "Apáti István azt javasolta a Tiszának, hogy tiltsák be az ellenzéket, Tuzson Bence pedig állítása szerint még soha nem olvasott ilyen fércművet. A Tisza szerint a parlamenti szabályokat teljesen át kell szabni, és ez csak ráncfelvarrás.",
       "url": "https://telex.hu/belfold/2026/11/23/parlament-hazszabaly-orszaggyulesi-torveny-igazsagugyi-bizottsag-tisza",
       "published": "Mon, 23 Nov 2026 11:43:06 +0100",
       "categories": [
@@ -254,7 +235,6 @@
     {
       "source": "Telex",
       "title": "Letartóztatták a férfit, aki szándékosan elgázolt egy Lidl-dolgozót Csepelen",
-      "summary": "A sofőr ráadásul úgy ült volán mögé, hogy korábban eltiltották a járművezetéstől, emellett több büntetőeljárás is folyamatban van ellene.",
       "url": "https://telex.hu/belfold/2026/11/23/letartoztattak-a-ferfit-aki-szandekosan-elgazolt-egy-bolti-dolgozot-budapesten",
       "published": "Mon, 23 Nov 2026 11:39:10 +0100",
       "categories": [
@@ -273,7 +253,6 @@
     {
       "source": "Telex",
       "title": "Magyar bejelentette, hogy hamarosan Kárpátaljára utazik",
-      "summary": "A miniszterelnök napirend előtt arról beszélt, szeretné egyértelművé tenni, hogy ebben a háborúban Oroszország az agresszor, Ukrajna pedig az áldozat. Parlament percről percre.",
       "url": "https://telex.hu/belfold/2026/11/23/parlament-percrol-percre-november-23",
       "published": "Mon, 23 Nov 2026 11:11:45 +0100",
       "categories": [
@@ -293,7 +272,6 @@
     {
       "source": "Telex",
       "title": "Nyolc járatot kellett törölnie a budapesti repülőtérnek a belgiumi sztrájk miatt",
-      "summary": "Három érkező és öt induló járatot törölt a Budapest Airport a belga légi forgalmi dolgozók országos sztrájkja miatt.",
       "url": "https://telex.hu/belfold/2026/11/23/budapest-airport-jarattorles-belgium-sztrajk",
       "published": "Mon, 23 Nov 2026 11:07:44 +0100",
       "categories": [
@@ -312,7 +290,6 @@
     {
       "source": "Telex",
       "title": "Most bárki leverhet 40 milliót egy volt fideszes képviselőn a lombkorona-sétányos cég helyett",
-      "summary": "Vagy 120 milliót a vállalat korábbi tulajdonosán. Igaz, előtte tizedáron meg kell venni a cég követeléseit.",
       "url": "https://telex.hu/g7/kozelet/2026/11/23/lombkorona-setany-koveteles-felszamolas",
       "published": "Mon, 23 Nov 2026 11:03:21 +0100",
       "categories": [
@@ -331,7 +308,6 @@
     {
       "source": "HVG",
       "title": "Megszüntetné a kormány a könyvek árkötöttségét",
-      "summary": "Ha az országgyűlés elfogadja a módosítási javaslatot, az olvasók is jól járnak.",
       "url": "https://hvg.hu/itthon/20261123_megszunteti-a-kormany-a-konyvek-arkotottseget-szabadabban-donthetnek-a-kereskedok",
       "published": "Mon, 23 Nov 2026 10:52:35 Z",
       "categories": [
@@ -350,7 +326,6 @@
     {
       "source": "Telex",
       "title": "Döntött a kormány az árkötöttség megszüntetéséről, visszaadnák a könyvkereskedők árképzési szabadságát",
-      "summary": "Hamarosan az Országgyűlés elé kerül az árkötöttséget megszüntető módosító javaslat.",
       "url": "https://telex.hu/karakter/kultura/2026/11/23/arkotottseg-konyvkiadas-modosito-javaslat-elfogadas-arkepzes-kormany",
       "published": "Mon, 23 Nov 2026 10:41:33 +0100",
       "categories": [
@@ -369,7 +344,6 @@
     {
       "source": "HVG",
       "title": "Nyolc budapesti járatot töröltek a belgiumi repülőtéri sztrájk miatt",
-      "summary": "A törölt járatok között három érkező és öt induló van.",
       "url": "https://hvg.hu/kkv/20261123_belgium-repuloteri-sztrajk-budapest-airport-jarattorlesek",
       "published": "Mon, 23 Nov 2026 10:24:17 Z",
       "categories": [
@@ -388,7 +362,6 @@
     {
       "source": "Telex",
       "title": "Magyar Péter együttérzéséről biztosította az ukránokat – parlamenti közvetítés",
-      "summary": "Folytatódik a parlament, Magyar Péter napirend előtt szólal fel. Előtte Hunyadi Bulcsúval, a Political Capital elemzőjével beszéltük át a Seszták-ügyet, Bús Balázs kiengedését, Orbán külföldi útjait, és azt is, ki miatt van egyre rosszabb állapotban a magyar közbeszéd.",
       "url": "https://telex.hu/video/2026/11/23/parlament-magyar-peter-napirend-elott-hunyadi-bulcsu",
       "published": "Mon, 23 Nov 2026 10:17:28 +0100",
       "categories": [
@@ -407,7 +380,6 @@
     {
       "source": "HVG",
       "title": "Újra kilőhet az Anthropic és az Nvidia árfolyama hétfőn",
-      "summary": "A kereskedés előtti határidős ügyletek meredek emelkedést vetítenek előre hétfőn az amerikai tőzsdéken.",
       "url": "https://hvg.hu/kkv/20261123_usa-tozsde-nasdaq-sp-dow-jones-anthropic-nvidia-hataridos-ugyletek",
       "published": "Mon, 23 Nov 2026 10:12:45 Z",
       "categories": [
@@ -426,7 +398,6 @@
     {
       "source": "HVG",
       "title": "Magyar Péter rövidesen Kárpátaljára utazik – élő közvetítés a parlamenti ülésről",
-      "summary": "A parlament a héten minden nap ülésezik, a napirenden több mint negyven törvényjavaslat, határozati javaslat szerepel.",
       "url": "https://hvg.hu/itthon/20261123_magyar-peter-felszolalasa-parlamenti-ules-elo-kozvetites-orszaggyules",
       "published": "Mon, 23 Nov 2026 09:54:40 Z",
       "categories": [
@@ -445,7 +416,6 @@
     {
       "source": "HVG",
       "title": "Látványos drónvideó készült az ország karácsonyfájának szállításáról",
-      "summary": "Kéttonnás és 12,5 méter magas fenyő egy péceli családi ház kertjéből érkezett a Parlamenthez.",
       "url": "https://hvg.hu/elet/20261123_orszag-karacsonyfaja-parlament-pecel-tuzolto",
       "published": "Mon, 23 Nov 2026 09:36:11 Z",
       "categories": [
@@ -464,7 +434,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Szoboszlai Dominik előre tudta, hová lövi a szabadrúgást",
-      "summary": "A magyar középpályás szerint a Manchester United elleni mérkőzések mindig különlegesek a csapat és a szurkolók számára is.",
       "url": "https://nemzetisport.hu/legiosok/2026/11/szoboszlai-dominik-elore-tudta-hova-lovi-a-szabadrugast",
       "published": "Mon, 23 Nov 2026 09:31:38 +0000",
       "categories": [
@@ -483,7 +452,6 @@
     {
       "source": "Telex",
       "title": "Kezdődnek a budai fonódó munkálatai, Vitézy szerint ez fog zavart okozni a város közlekedésében",
-      "summary": "De még nem akkorát, mint amekkora a következő években lesz – jegyezte meg.",
       "url": "https://telex.hu/belfold/2026/11/23/budai-fonodo-villamos-budapest-lezaras",
       "published": "Mon, 23 Nov 2026 09:29:36 +0100",
       "categories": [
@@ -502,7 +470,6 @@
     {
       "source": "NBAnews.hu",
       "title": "Visszavont tripla és drámai végjáték: egyetlen pont döntött a Warriors és a Celtics között",
-      "summary": "Egészen különös végjáték után szakította meg ötmeccses vereségsorozatát a Golden State Warriors, amely hazai pályán 88–87-re legyőzte a Boston Celticset. A találkozó utolsó másfél percében egy videózás után visszavont hárompontos, egy kihagyott büntető és több elszalasztott bostoni lehetőség is borzolta a kedélyeket. A Warriors végül úgy őrizte meg minimális előnyét, hogy az utolsó két és...",
       "url": "https://nbanews.hu/warriors-celtics-visszavont-tripla-dramai-vegjatek/",
       "published": "Mon, 23 Nov 2026 09:20:54 +0000",
       "categories": [
@@ -521,7 +488,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Verstappen a káoszkirály ‒ a Las Vegas-i Nagydíj nemzetközi sajtóvisszhangja",
-      "summary": "„Egészen az utolsó kanyarokig nehezebb feladat volt megtippelni az első öt helyezett pontos sorrendjét, mint nyerni egy bingójátékon.”",
       "url": "https://nemzetisport.hu/f1/2026/11/verstappen-a-kaoszkiraly-a-las-vegas-i-nagydij-nemzetkozi-sajtovisszhangja",
       "published": "Mon, 23 Nov 2026 09:06:16 +0000",
       "categories": [
@@ -540,7 +506,6 @@
     {
       "source": "HVG",
       "title": "Fekete hétfő helyett felpattanással kezdték a hetet az európai tőzsdék",
-      "summary": "Nem folytatódott a részvények pénteki zuhanása.",
       "url": "https://hvg.hu/kkv/20261123_bux-tozsde-otp-4ig-telekom-mol-richter-cac-dax",
       "published": "Mon, 23 Nov 2026 08:57:35 Z",
       "categories": [
@@ -560,7 +525,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "NBA: Jokics tripla duplája és Murray 45 pontja is kellett a Denvernek a Bulls ellen",
-      "summary": "A Boston sorozatban negyedik meccsén is kikapott; Adebayo volt a Heat vezére.",
       "url": "https://nemzetisport.hu/amerikai-sportok/2026/11/nba-jokics-tripla-duplaja-es-murray-45-pontja-is-kellett-a-denvernek-a-bulls-ellen",
       "published": "Mon, 23 Nov 2026 08:36:12 +0000",
       "categories": [
@@ -579,7 +543,6 @@
     {
       "source": "HVG",
       "title": "Bujdosó Andrea: Azt kértem, hogy ne nyúljanak át a fejem fölött",
-      "summary": "A szüleim generációját okoltam, miért hagyták, hogy idáig jusson az a rendszer – emlékszik vissza temesvári egyetemi éveire Bujdosó Andrea, aki 19 évesen élte át a romániai forradalmat. Azóta több nagy váltás is volt az életében, ebből csak az egyik volt, amikor egyik napról a másikra belevágott a politikába. Milyen feltételekkel vállalta el a Tisza frakcióvezetését? Vannak-e viták a színfalak mögött, és beszélget-e ellenzéki képviselőkkel? HVG-portré.",
       "url": "https://hvg.hu/360/20261123_bujdoso-andrea-tisza-frakciovezeto-portreinterju",
       "published": "Mon, 23 Nov 2026 08:33:25 Z",
       "categories": [
@@ -598,7 +561,6 @@
     {
       "source": "HVG",
       "title": "Rendőrautó és villamos ütközött Budapesten",
-      "summary": "A rendőrség vizsgálja a baleset körülményeit.",
       "url": "https://hvg.hu/cegauto/20261123_budapest-4-6-os-17-es-villamos-baleset-utkozes-rendorauto",
       "published": "Mon, 23 Nov 2026 08:24:52 Z",
       "categories": [
@@ -617,7 +579,6 @@
     {
       "source": "NBAnews.hu",
       "title": "296 pont és NBA-rekordok Chicagóban: Jokićék elképesztő meccset nyertek meg",
-      "summary": "Egészen rendkívüli mérkőzést hozott a Denver Nuggets chicagói vendégjátéka, amelyen a két csapat összesen 296 pontot szerzett, és több történelmi egyéni teljesítmény is született. Jamal Murray 45 ponttal, Nikola Jokić pedig újabb tripla-duplával vezette a Denvert, de a Chicago Bulls Josh Giddey 22 gólpasszának köszönhetően az utolsó pillanatokban még hosszabbításra mentette a találkozót. A Nuggets...",
       "url": "https://nbanews.hu/denver-chicago-jokic-murray-giddey-rekord/",
       "published": "Mon, 23 Nov 2026 08:17:23 +0000",
       "categories": [
@@ -636,7 +597,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "Magyar gól Angliában és Hollandiában, gólpassz Németországból",
-      "summary": "Szoboszlai Dominik beérte Gera Zoltánt a magyar gólok számában a Premier League-ben.",
       "url": "https://nemzetisport.hu/legiosok/2026/11/magyar-gol-angliaban-es-hollandiaban-golpassz-nemetorszagbol",
       "published": "Mon, 23 Nov 2026 08:17:00 +0000",
       "categories": [
@@ -655,7 +615,6 @@
     {
       "source": "Telex",
       "title": "A kínaiak egyelőre nem egyeztek bele, hogy nyilvánosak legyenek a Budapest–Belgrád-vasútvonal szerződései",
-      "summary": "A Közlekedési és Beruházási Minisztérium tovább egyeztet a kínai féllel.",
       "url": "https://telex.hu/gazdasag/2026/11/23/budapest-belgrad-szerzodes-reszletek-nyilvanossagra-hozatal",
       "published": "Mon, 23 Nov 2026 07:32:53 +0100",
       "categories": [
@@ -674,7 +633,6 @@
     {
       "source": "Nemzeti Sport",
       "title": "„Még a világ legjobb csapata is kikapott volna így” – Pochettino megvédte játékosait a liverpooli pofon után",
-      "summary": "Andoni Iraola elismerte, hogy a korai kiállítás jelentősen megnehezítette a Manchester United dolgát, ugyanakkor hangsúlyozta: a hazaiaknak így is el kellett végezniük a munkát.",
       "url": "https://nemzetisport.hu/angol-labdarugas/2026/11/meg-a-vilag-legjobb-csapata-is-kikapott-volna-igy-pochettino-megvedte-jatekosait-a-liverpooli-pofon-utan",
       "published": "Mon, 23 Nov 2026 06:55:00 +0000",
       "categories": [
@@ -694,7 +652,6 @@
     {
       "source": "HVG",
       "title": "Magyarországon az RS-nél is erősebb legújabb Kodiaq",
-      "summary": "Megkezdődött a nagyobb teljesítményű plugin hibrid Skoda Kodiaq hazai forgalmazása.",
       "url": "https://hvg.hu/cegauto/20261123_magyarorszagon-az-rs-nel-is-erosebb-legujabb-kodiaq",
       "published": "Mon, 23 Nov 2026 06:21:00 Z",
       "categories": [
@@ -713,7 +670,6 @@
     {
       "source": "NBAnews.hu",
       "title": "Chet Holmgren súlyos sérülése után is bizakodó: egy korábbi bajnoki cím ad neki reményt",
-      "summary": "Chet Holmgren számára ismét a rehabilitációról szól az NBA-idény első szakasza, az Oklahoma City Thunder centere azonban ezúttal egészen másként éli meg a kényszerpihenőt, mint korábbi súlyos sérülése után. A 24 éves játékos szerint a felépülése megfelelő irányba halad, és bár a pályára való visszatérés még odébb van, úgy érzi, most nem kell mindent elölről...",
       "url": "https://nbanews.hu/chet-holmgren-serules-felepules-thunder/",
       "published": "Mon, 23 Nov 2026 06:05:02 +0000",
       "categories": [
@@ -732,7 +688,6 @@
     {
       "source": "HVG",
       "title": "A kínaiak egyelőre nem engedélyezik, hogy Vitézyék közzétegyék a Budapest–Belgrád vasút dokumentumait",
-      "summary": "Az új magyar kormány szeretné feloldani a szerződés és a dokumentumok titkosítását, de a kínai hozzájárulást nem kapták meg ehhez.",
       "url": "https://hvg.hu/gazdasag/20261123_budapest-belgrad-vasut-szerzodes-miniszterium-kina",
       "published": "Mon, 23 Nov 2026 06:00:00 Z",
       "categories": [
@@ -751,7 +706,6 @@
     {
       "source": "HVG",
       "title": "Ezen a héten minden nap ülésezik a parlament, a hétfői nap Magyar Péter felszólalásával kezdődik",
-      "summary": "Több mint negyven javaslat a napirenden.",
       "url": "https://hvg.hu/itthon/20261123_orszaggyules-parlament-torvenyjavaslat-hatarozati-javaslat-kata-vagyonado",
       "published": "Mon, 23 Nov 2026 04:16:43 Z",
       "categories": [

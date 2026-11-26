@@ -40,6 +40,9 @@ def snapshot_rules(ref):
         raise RuntimeError("A forráscommit kiadási szabályai nem olvashatók.")
     scope = {}
     exec(compile(declarations, "refresh_news.py", "exec"), scope)
+    if "classify_article" in scope:
+        scope["classify"] = scope["classify_article"]
+        return scope
     start = source.index("    cats=[key for key,terms")
     end = re.search(r"(?m)^    if not cats:", source[start:]).start() + start
     body = dedent(source[start:end])
@@ -107,8 +110,10 @@ def report(cutoff):
             continue
         row = rows[item["source"]]
         row[0] += 1
-        if key in prior or not rules["classify"](item["source"], item["title"],
-                                                item.get("description", ""), item["link"]):
+        categories = item.get("categories")
+        if categories is None:
+            categories = rules["classify"](item["source"], item["title"], item.get("description", ""), item["link"])
+        if key in prior or not categories:
             continue
         if published is None:
             missing_published += 1

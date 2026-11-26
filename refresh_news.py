@@ -269,7 +269,7 @@ def story_tokens(value):
     return {token for token in re.findall(r"[a-z0-9]{4,}",value) if token not in SIMILAR_STOPWORDS}
 
 def nvidia_event_story(story):
-    value=unescape(re.sub(r"<[^>]*>"," ",str(story.get("title",""))+" "+str(story.get("summary","")))).casefold()
+    value=unescape(re.sub(r"<[^>]*>"," ",str(story.get("title",""))+" "+str(story.get("variants",{}).get("original",{}).get("body","")))).casefold()
     value="".join(char for char in unicodedata.normalize("NFKD",value) if not unicodedata.combining(char))
     return "nvidia" in value and any(term in value for term in ("jensen","huang","vezerigazgato","visszavett","igazgatotanacs","kozbenjaras"))
 
@@ -297,8 +297,8 @@ def stories_are_similar(left,right,allow_same_source=False):
     left_title=story_tokens(left.get("title",""))
     right_title=story_tokens(right.get("title",""))
     shared_title=left_title&right_title
-    left_tokens=story_tokens(left.get("title","")+" "+left.get("summary",""))
-    right_tokens=story_tokens(right.get("title","")+" "+right.get("summary",""))
+    left_tokens=story_tokens(left.get("title","")+" "+left.get("variants",{}).get("original",{}).get("body",""))
+    right_tokens=story_tokens(right.get("title","")+" "+right.get("variants",{}).get("original",{}).get("body",""))
     shared=left_tokens&right_tokens
     union=left_tokens|right_tokens
     title_ratio=len(shared_title)/max(1,min(len(left_title),len(right_title)))
@@ -342,6 +342,54 @@ def attach_archived_stories(items,archive_records):
                 known_urls.add(key)
                 print(f"Linked archive story from {item['archiveDate']}: {item.get('source')} · {item.get('title')}")
     return items
+
+def remove_rss_excerpt(story, description=""):
+    summary=story.pop("summary", "")
+    if story.get("contentBasis") == "rss":
+        story.pop("variants", None)
+        return
+    original=story.get("variants", {}).get("original", {})
+    body=original.get("body", "")
+    if body:
+        normalized=" ".join(unescape(re.sub(r"<[^>]*>", " ", body)).split())
+        for excerpt in (description, summary):
+            candidate=" ".join(unescape(re.sub(r"<[^>]*>", " ", excerpt)).split())
+            if candidate and (candidate == normalized or candidate.startswith(normalized + " ")):
+                story["variants"].pop("original", None)
+                break
+
+
+def classify_article(source, title, desc, link):
+    hay=(title+" "+desc+" "+link).casefold()
+    cats=[key for key,terms in rules.items() if key != "tennis" and any(match_term(term,hay) for term in terms)]
+    if is_tennis_story(title, desc):
+        cats.append("tennis")
+    football_cats=football_overrides(title,desc,link)
+    if "arsenal" in cats and not football_cats["arsenal"]:cats.remove("arsenal")
+    cats.extend(key for key,matched in football_cats.items() if matched and key not in cats)
+    if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
+    if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
+    cats = [key for key in cats if key != "technology"]
+    if is_technology_story(title, desc) and not is_sport_related(hay, cats):
+        cats.append("technology")
+    if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
+    if is_foreign_political_economic(hay,cats):cats.append("foreign")
+    context = title + " " + desc
+    foreign_nvidia = re.search(r"nvidi[aá]", title, re.I) and re.search(r"jensen huang|árfolyam|tőzsd|vezérigazgató|vállalat élére", context, re.I)
+    foreign_deal = re.search(r"franciaország|németország|olaszország|spanyolország", title, re.I) and re.search(r"autógyár|felvásárl|üzemet|gyárat|beruház", title, re.I)
+    lake_environment = re.search(r"balaton|velencei-tó|fertő tó|tisza-tó", context, re.I) and re.search(r"vízállás|vízhiány|vízpótlás|vízminőség|vízszennyezés", context, re.I)
+    foreign_nvidia = foreign_nvidia and not re.search(r"bemutat|új (?:chip|processzor|grafikus kártya|technológia)|fejleszt", title, re.I)
+    if foreign_nvidia or foreign_deal:
+        cats = [cat for cat in cats if cat not in {"belfold", "parliament", "foreign"}
+                and not (foreign_nvidia and cat == "technology")]
+        cats.append("foreign")
+        if foreign_deal and re.search(r"magyarországi[^.!?]{0,55}(?:beruház|gyár|üzem|gyártás)|(?:szegedi|debreceni)[^.!?]{0,35}(?:beruház|gyár|üzem)", context, re.I):
+            cats.append("belfold")
+    cats = ["environment"] if lake_environment else apply_subject_categories(title, desc, cats)
+    if source == "BringaSport":
+        cats = ["cycling"]
+    return cats
+
 
 published_before=set()
 archived_similarity_records={}
@@ -497,8 +545,10 @@ def request_gemini(request):
 
 
 def gemini_rewrites(story,article_text,api_key,vivid_styles=False,*,styles_only=False):
-    source_text=article_text or story["summary"]
-    basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    if not article_text:
+        raise ValueError("Article text unavailable; leaving source link as fallback")
+    source_text=article_text
+    basis="a cikk nyilvánosan elérhető törzsszövege"
     tolkien_direction=("merészen epikus, gazdag képekben és erőteljes ritmusban, ősi krónikák emelkedettségével; használj emlékezetes, költői címet és bátrabb, kevésbé visszafogott szóképeket. A képek és hasonlatok maradjanak egyértelműen költőiek, ne állítsanak új tényt." if vivid_styles else "határozottan emelkedett, ünnepélyes, régies krónikás hangú, gazdagabb ritmussal és választékos szóhasználattal")
     reito_direction=("szabadjára engedett, csattanós kalandregényes hangon: száraz humorral, pimasz fordulatokkal, merész kontrasztokkal, váratlan, de tényekhez kötött szóképekkel és emlékezetes címmel. A humor és a képek legyenek bátrabbak, de ne állítsanak új tényt." if vivid_styles else "markánsan csattanós, száraz humorú, pörgős kalandregényes hangon")
     requested = (
@@ -537,9 +587,7 @@ Alapanyag ({basis}):
     if not styles_only:
         original=re.sub(r"\s+"," ",str(parsed.get("original",{}).get("body",""))).strip()
         if not original:
-            source=re.sub(r"<[^>]*>"," ",source_text)
-            sentences=re.split(r"(?<=[.!?])\s+",re.sub(r"\s+"," ",source).strip())
-            original=" ".join(sentences[:4]).strip()
+            raise ValueError("Missing original rewrite")
         original=concise_sentences(original,4)
         if original:variants["original"]={"body":original[:1400]}
     value=parsed.get("tolkien",{})
@@ -555,8 +603,10 @@ Alapanyag ({basis}):
     return variants
 
 def gemini_tolkien_rewrite(story,article_text,api_key,vivid_styles=False):
-    source_text=article_text or story["summary"]
-    basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    if not article_text:
+        raise ValueError("Article text unavailable; leaving source link as fallback")
+    source_text=article_text
+    basis="a cikk nyilvánosan elérhető törzsszövege"
     tolkien_direction=("merészen epikus, gazdag képekben és erőteljes ritmusban, ősi krónikák emelkedettségével; használj emlékezetes, költői címet és bátrabb, kevésbé visszafogott szóképeket. A képek és hasonlatok maradjanak egyértelműen költőiek, ne állítsanak új tényt." if vivid_styles else "emelkedett, ünnepélyes, régies krónikás hangú, választékos ritmusú")
     prompt=f"""Feladat: készíts kizárólag Tolkien hangulatú NANONews-változatot magyarul.
 Minden kért összefoglaló első mondatában nevezd meg, mi történt és pontosan kit vagy mit érint a változás. Ha a forrás megadja az érintett modelleket, szolgáltatásokat vagy a határidőt, írd ki őket konkrétan. A második mondatban tedd világossá a legfontosabb gyakorlati következményt. Kerüld a tartalmat nem közlő felvezetést.\nCsak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
@@ -588,8 +638,10 @@ Alapanyag ({basis}):
     if not title or not body:raise ValueError("Missing Tolkien rewrite")
     return {"title":title[:180],"body":body[:1400]}
 def gemini_reito_rewrite(story,article_text,api_key,vivid_styles=False):
-    source_text=article_text or story["summary"]
-    basis="a cikk nyilvánosan elérhető törzsszövege" if article_text else "az RSS-ben elérhető kivonat"
+    if not article_text:
+        raise ValueError("Article text unavailable; leaving source link as fallback")
+    source_text=article_text
+    basis="a cikk nyilvánosan elérhető törzsszövege"
     reito_direction=("szabadjára engedett, csattanós kalandregényes hangon: száraz humorral, pimasz fordulatokkal, merész kontrasztokkal, váratlan, de tényekhez kötött szóképekkel és emlékezetes címmel. A humor és a képek legyenek bátrabbak, de ne állítsanak új tényt." if vivid_styles else "csattanós, száraz humorú, pörgős kalandregényes hangon")
     prompt=f"""Feladat: készíts kizárólag Rejtő hangulatú NANONews-változatot magyarul.
 Minden kért összefoglaló első mondatában nevezd meg, mi történt és pontosan kit vagy mit érint a változás. Ha a forrás megadja az érintett modelleket, szolgáltatásokat vagy a határidőt, írd ki őket konkrétan. A második mondatban tedd világossá a legfontosabb gyakorlati következményt. Kerüld a tartalmat nem közlő felvezetést.\nCsak a megadott forrás tényeit használd; ne adj hozzá következtetést, idézetet vagy kitalált részletet.
@@ -704,7 +756,19 @@ else:
         inbox_state={}
 if isinstance(inbox_state,list):
     inbox_state={"articles":inbox_state}
-inbox={story_key(record["link"]):record for record in inbox_state.get("articles",[])}
+def prepare_inbox_record(record):
+    description=record.pop("description", None)
+    if "categories" not in record:
+        record["categories"]=classify_article(record["source"], record["title"], description or "", record["link"])
+    if record.get("prepared"):
+        remove_rss_excerpt(record["prepared"], description or "")
+        if not record["prepared"].get("variants", {}).get("original", {}).get("body"):
+            record.pop("prepared")
+            record.pop("preparedVividStyles", None)
+    return record
+
+
+inbox={story_key(record["link"]):prepare_inbox_record(record) for record in inbox_state.get("articles",[])}
 last_rss_collection=parse_published(inbox_state.get("lastRssCollection"))
 # Use UTC hour slots so the repeated local hour at the end of daylight saving time still runs twice.
 rss_hour=now.timestamp()//3600
@@ -743,7 +807,7 @@ if collect_rss:
                         "observed":existing["observed"] if existing else now.isoformat(),
                         "title":title,
                         "link":link,
-                        "description":desc,
+                        "categories":classify_article(source,title,desc,link),
                         "image":image_for(item,desc),
                     }
                     if existing is None or any(existing.get(field)!=value for field,value in record.items()):
@@ -801,9 +865,7 @@ for key, record in list(inbox.items()):
         if collect_new_edition:
             article_date=parse_published(prepared["published"])
             if article_date and (not previous_cutoff or previous_cutoff<article_date) and article_date<=cutoff:
-                prepared["categories"] = apply_subject_categories(
-                    record["title"], record["description"], prepared["categories"],
-                )
+                prepared["categories"] = record["categories"]
                 if not prepared["categories"]:
                     continue
                 if not publish_only and "sourceArticleLinks" not in prepared:
@@ -814,43 +876,15 @@ for key, record in list(inbox.items()):
         continue
     title=record["title"]
     link=record["link"]
-    desc=record["description"]
     feed_published=record["published"]
-    hay=(title+" "+desc+" "+link).casefold()
-    cats=[key for key,terms in rules.items() if key != "tennis" and any(match_term(term,hay) for term in terms)]
-    if is_tennis_story(title, desc):
-        cats.append("tennis")
-    football_cats=football_overrides(title,desc,link)
-    if "arsenal" in cats and not football_cats["arsenal"]:cats.remove("arsenal")
-    cats.extend(key for key,matched in football_cats.items() if matched and key not in cats)
-    if source=="NBAnews.hu" and "nba" not in cats:cats.append("nba")
-    if source=="Fűzővel kifelé!" and "nfl" not in cats:cats.append("nfl")
-    cats = [key for key in cats if key != "technology"]
-    if is_technology_story(title, desc) and not is_sport_related(hay, cats):
-        cats.append("technology")
-    if (("parliament" in cats or is_domestic_economy(hay,cats) or any(match_term(term,hay) for term in NER_MARKERS)) and not is_sport_related(hay,cats)) or is_domestic_sport_economy(hay,cats):cats.append("belfold")
-    if is_foreign_political_economic(hay,cats):cats.append("foreign")
-    context = title + " " + desc
-    foreign_nvidia = re.search(r"nvidi[aá]", title, re.I) and re.search(r"jensen huang|árfolyam|tőzsd|vezérigazgató|vállalat élére", context, re.I)
-    foreign_deal = re.search(r"franciaország|németország|olaszország|spanyolország", title, re.I) and re.search(r"autógyár|felvásárl|üzemet|gyárat|beruház", title, re.I)
-    lake_environment = re.search(r"balaton|velencei-tó|fertő tó|tisza-tó", context, re.I) and re.search(r"vízállás|vízhiány|vízpótlás|vízminőség|vízszennyezés", context, re.I)
-    foreign_nvidia = foreign_nvidia and not re.search(r"bemutat|új (?:chip|processzor|grafikus kártya|technológia)|fejleszt", title, re.I)
-    if foreign_nvidia or foreign_deal:
-        cats = [cat for cat in cats if cat not in {"belfold", "parliament", "foreign"}
-                and not (foreign_nvidia and cat == "technology")]
-        cats.append("foreign")
-        if foreign_deal and re.search(r"magyarországi[^.!?]{0,55}(?:beruház|gyár|üzem|gyártás)|(?:szegedi|debreceni)[^.!?]{0,35}(?:beruház|gyár|üzem)", context, re.I):
-            cats.append("belfold")
-    cats = ["environment"] if lake_environment else apply_subject_categories(title, desc, cats)
-    if source == "BringaSport":
-        cats = ["cycling"]
+    cats=record["categories"]
     if not cats:
         if expired:
             del inbox[key]
         continue
     if not collect_new_edition and not prepare_in_background:
         continue
-    story={"source":source,"title":title,"summary":concise_sentences(desc,3)[:500],"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
+    story={"source":source,"title":title,"url":link,"published":feed_published,"categories":cats,"image":record["image"],"summaryVersion":SUMMARY_VERSION}
     article_text,article_published,source_links=("",None,None) if publish_only else fetch_article(link)
     if source_links is not None:
         story["sourceArticleLinks"]=source_links
@@ -860,13 +894,13 @@ for key, record in list(inbox.items()):
     if previous_cutoff and (not article_date or article_date<=previous_cutoff):
         print(f"Skipping story without a post-issue publication date: {link}")
         continue
-    basis_text=article_text or story["summary"]
-    story["contentBasis"]="article" if article_text else "rss"
+    basis_text=article_text or ""
+    story["contentBasis"]="article" if article_text else "title"
     story["sourceHash"]=hashlib.sha256(basis_text.encode("utf-8")).hexdigest()
     cached=previous.get(link,{})
     if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
         story["variants"]=cached["variants"]
-    elif preparation_pool is not None:
+    elif preparation_pool is not None and article_text:
         # The RSS inbox can contain both www and non-www URLs for a story.
         if preparations and reference_key(preparations[0][1]["url"]) == reference_key(link):
             finish_preparation(*preparations.popleft())
@@ -877,7 +911,7 @@ for key, record in list(inbox.items()):
         if len(preparations) == GEMINI_WORKERS:
             finish_preparation(*preparations.popleft())
         continue
-    elif not publish_only and api_key and not pending_current:
+    elif not publish_only and api_key and not pending_current and article_text:
         try:
             story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
@@ -1011,6 +1045,9 @@ sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
 stories=group_similar_stories(stories)
 stories=attach_archived_stories(stories,archived_similarity_records.values())
+for story in stories:
+    for record in all_story_records(story):
+        remove_rss_excerpt(record)
 issue_number=None if manual else scheduled_issue_number
 edition={"updatedAt":now.isoformat(),"testEdition":manual,"issueNumber":issue_number,"stories":stories}
 if publish_only:

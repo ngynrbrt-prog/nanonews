@@ -428,7 +428,7 @@ function appendRewriteDot(el,story){
  el.append(document.createTextNode(' '),dot);
 }
 function renderArticleTitle(el,s){el.replaceChildren(document.createTextNode(storyTitle(s)));appendRewriteDot(el,s)}
-function storyTitle(s,mode=localStorage.getItem('nanonews-style')||'original'){return mode==='tolkien'?(s.variants?.tolkien?.title||s.title):mode==='reito'?(s.variants?.reito?.title||s.title):s.title}function storyBody(s,mode=localStorage.getItem('nanonews-style')||'original'){const variants=s.variants||{};const fallback=(s.summary||s.title).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();return mode==='tolkien'?(variants.tolkien?.body||fallback):mode==='reito'?(variants.reito?.body||fallback):(variants.original?.body||s.summary||s.title).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim()}let dialogStory=null,dialogParentStory=null,dialogComparisonStories=[],dialogStyle=localStorage.getItem('nanonews-style')||'original';const dialogStyleOptions = [...storyDialog.querySelectorAll('[data-dialog-style]')];
+function storyTitle(s,mode=localStorage.getItem('nanonews-style')||'original'){return mode==='tolkien'?(s.variants?.tolkien?.title||s.title):mode==='reito'?(s.variants?.reito?.title||s.title):s.title}function storyBody(s,mode=localStorage.getItem('nanonews-style')||'original'){const variants=s.variants||{};const fallback=(variants.original?.body||s.summary||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim();return mode==='tolkien'?(variants.tolkien?.body||fallback):mode==='reito'?(variants.reito?.body||fallback):(variants.original?.body||s.summary||'').replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim()}let dialogStory=null,dialogParentStory=null,dialogComparisonStories=[],dialogStyle=localStorage.getItem('nanonews-style')||'original';const dialogStyleOptions = [...storyDialog.querySelectorAll('[data-dialog-style]')];
 dialogStyleOptions.forEach(button => {
   button.onclick = () => {
     if (!dialogStory || dialogStyle === button.dataset.dialogStyle) return;
@@ -439,7 +439,7 @@ dialogStyleOptions.forEach(button => {
   };
 });
 function updateAiSummaryLabel(label, story, mode = localStorage.getItem('nanonews-style') || 'original') {
-  label.hidden = !story.variants?.[mode]?.body?.trim();
+  label.hidden = !(story.variants?.[mode]?.body?.trim() || story.variants?.original?.body?.trim());
 }
 function addAiSummaryLabel(source, story, mode) {
   const label = document.createElement('span');
