@@ -3381,8 +3381,10 @@
       "observed": "2026-11-26T19:24:21.608001+01:00",
       "title": "Reagált az MVM arra, miért mondta le a vezérigazgató a találkozót Kubatovval",
       "link": "https://telex.hu/sport/2026/11/26/mvm-kubatov-gabor-bertalan-zsolt-talalkozo-tamogatasi-rendszer-varhato-atrendezodese",
-      "image": "https://assets.telex.hu/images/20261126/1795714973-temp-ld9d5dsnbudr1mbljch_cimlap-normal.jpg",
-      "categories": []
+      "categories": [
+        "sports-business"
+      ],
+      "image": "https://assets.telex.hu/images/20261126/1795714973-temp-ld9d5dsnbudr1mbljch_cimlap-normal.jpg"
     },
     {
       "source": "Telex",
@@ -4026,7 +4028,9 @@
       "title": "Női curling-vb-selejtező: újabb magyar vereség, nem sikerült kiharcolni a világbajnoki szereplést",
       "link": "https://nemzetisport.hu/egyeb-egyeni/2026/11/noi-curling-vb-selejtezo-ujabb-magyar-vereseg-nem-sikerult-kiharcolni-a-vb-szereplest",
       "image": "https://cdn.nemzetisport.hu/2026/11/exNyEZ6Ql871xqHMrYjDGmTeYiqY44G-kNirgUUl4nE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2E2MjA4NmZjODY5NDRjMDViMGFiZmUzYzQ2OWEwMTc3.webp",
-      "categories": []
+      "categories": [
+        "winter-sports"
+      ]
     },
     {
       "source": "444.hu",
@@ -5605,7 +5609,7 @@
       "source": "Nemzeti Sport",
       "published": "Thu, 26 Nov 2026 19:54:48 +0000",
       "observed": "2026-11-26T21:23:57.452348+01:00",
-      "title": "Schultz Levente: Csak az első gólig lesz nehéz a meccs",
+      "title": "Schultz Levente: Meddő mezőnyfölény, nem volt meg az átütő erő",
       "link": "https://nemzetisport.hu/europa-liga/2026/11/schultz-levente-szerint-a-ferencvarosi-tamadok-kepesek-lesznek-megzavarni-a-celje-labdakihozatalait",
       "categories": [],
       "image": "https://cdn.nemzetisport.hu/2026/11/DkIZ1u4UuAumX_Ogp5Fb4P0ai7ln77N_ExwYUd8Q9Yo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2JhZDYwNTg1MDk4YTQxOGI4YTdhZGVjZDM0ZjEwYmY1.webp"
@@ -6005,7 +6009,7 @@
       "source": "Origo.hu",
       "published": "Thu, 26 Nov 2026 19:45:00 +0000",
       "observed": "2026-11-26T21:23:57.452348+01:00",
-      "title": "Élő: a Fradi egyelőre nem bír a Celjével az Európa-ligában",
+      "title": "Nem bírt a szlovén bajnokkal a Fradi az Európa-ligában",
       "link": "https://www.origo.hu/sport/sport-futball/2026/11/ferencvaros-celje-europa-liga-elo-kozvetites",
       "categories": [],
       "image": "https://cdn.origo.hu/2026/11/653M52EkmPFy3IsxqvH0kU8Pl_vcbEnINOfv4RMJamE/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi80ZDc4ZmQ0NTg0MDA2OGNlMzlhNzk4OWY3MWM5ZWIxNmM1MWZmZTZhNjQ5ZDVhMmIwZjA1YzBhZDBmM2E5MDIz.jpg"
@@ -6073,7 +6077,7 @@
       "source": "Nemzeti Sport",
       "published": "Thu, 26 Nov 2026 20:41:13 +0000",
       "observed": "2026-11-26T22:16:35.946923+01:00",
-      "title": "Fordulatos meccsen győzött a magyar bajnok BJA az Erste Ligában",
+      "title": "Fordulatos meccsen győzött a magyar bajnok az Erste Ligában",
       "link": "https://nemzetisport.hu/jegkorong/2026/11/fordulatos-meccsen-gyozott-a-magyar-bajnok-bja-az-erste-ligaban",
       "categories": [],
       "image": "https://cdn.nemzetisport.hu/2026/11/9iEuRuNGNEiFZpS5Dl8LBfHzI7Kb0xmy4ZhdZf7OqU0/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzkxZWU0MzM0NmRlNjQwNWE4ZjZlNGI3ZDhmZjg0NzJi.webp"
@@ -6200,8 +6204,157 @@
       "link": "https://www.origo.hu/auto/2026/11/ferrari-hibrid-hajtas-nelkul",
       "categories": [],
       "image": "https://cdn.origo.hu/2026/11/cbuMscGzuNpFmZgdfiCE_rw45G5yr-HiMxEzkwE7wME/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNC83YTI0OTFiOGEyYTQ4ZDRiZmI0NjdkNjkwMzBkYzkzMjY2NzAyMzdiMzMxMjhiNjRhOWUzNjIxYWI1OWJjM2Vl.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 22:58:24 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Már nem százszázalékos, de még mindig veretlen a Fradi az El-ben",
+      "link": "https://telex.hu/sport/2026/11/26/europa-liga-futball-ferencvaros-fradi-celje",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261126/1795730227-temp-hd23lnl2o5bcenkofgp_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 22:53:54 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Személyi juttatásokra kap 13,2 milliárd forint pluszforrást a rendőrség",
+      "link": "https://telex.hu/belfold/2026/11/26/rendorseg-szemelyi-juttatas-belugyminiszterium-plusz-forras-17-milliard",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261126/1795729941-temp-5vn5jvgsm7cn7ohacng_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 22:50:32 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "2,6 millió magyar nem tudja biztosan fűteni az otthonát, rendszeresen húst enni vagy kifizetni egy váratlan kiadást",
+      "link": "https://telex.hu/belfold/2026/11/26/egyensuly-intezet-megelhetesi-nehezsegek-szegenyseg",
+      "categories": [
+        "world-market",
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261126/1795729821-temp-dqmj0isdiftd3onlpnb_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 22:21:30 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "A Tiborcz Istvánhoz köthető Waberer’s reagált a postai ügyekben tett minisztériumi feljelentésre",
+      "link": "https://telex.hu/gazdasag/2026/11/26/waberers-kapitany-istvan-posta-biztosito-ecseri-kozpont-feljelentes-reakcio",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261126/1795728031-temp-61r561bmikvh7cfkdee_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 22:08:09 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Tarr Zoltán minisztériuma a kifizetés előtt újra átnézi a Nagy Ervinék által odaítélt kulturális támogatások teljes folyamatát",
+      "link": "https://telex.hu/karakter/kultura/2026/11/26/tarr-zoltan-miniszterium-kifizetes-atnezi-nagy-ervin-kulturalis-tamogatas-harom-milliard-forint",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261126/1795726896-temp-0m6hhavih51n0pddmnp_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 22:02:46 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Még nem tudni, léket kaptak-e a tiszai nyaralóhajók vagy még révbe érhetnek",
+      "link": "https://telex.hu/szepkilatas/2026/11/26/nyaralohajo-tisza-bodrog-veszteseg-turizmus",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261117/1794947334-temp-vofd3t9n7sg4blgdmme_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Thu, 26 Nov 2026 21:30:40 +0100",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Hegedűs Zsolt feljelentést tett, közbeszerzéseknél tapasztalt visszaélések gyanúja miatt nyomoznak",
+      "link": "https://telex.hu/belfold/2026/11/26/unios-kozbeszerzes-visszaeles-gyanu-feljelentes-hegedus-zsolt",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261126/1795724815-temp-od7onnhu21plbjjncen_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Thu, 26 Nov 2026 21:53:31 Z",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Rengeteg elpuskázott helyzet, gólnélküli döntetlenre futotta a Fradinak a szlovén bajnok ellen",
+      "link": "https://hvg.hu/sport/20261126_ferencvaros-fradi-eredmeny-europa-liga-meccs-celje",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8cc51b8c-ebe1-41d1-8243-73431e19ae5d.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Thu, 26 Nov 2026 22:08:44 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Hátrányból nyert a Juve, a Hoffenheim és Kovács Bendegúz csapata is",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/hatranybol-nyert-a-juve-a-hoffenheim-es-kovacs-bendeguz-csapata-is",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/4MVIFyNIfUtPVUcW52__9aNUL1dqOfd_gUQMigC3_a4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzllYTY1NmFhYjdkMzQ0OTQ5YWRjYzQ1YTI5ZjBiNWY0.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Thu, 26 Nov 2026 21:54:57 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Értékelje a Ferencváros játékosainak Celje ellen nyújtott teljesítményét!",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/ertekelje-a-ferencvaros-jatekosainak-celje-ellen-nyujtott-teljesitmenyet",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/6ojZqXT5H587hbRp4xIe5meo5GcGRbi-hUM4utiaIao/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzFkNzg5NWI3YjNmODQ0Y2FhMzRjZWQwYTk0NWM2OTM2.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Thu, 26 Nov 2026 21:53:08 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "A gól ezúttal hiányzott a Ferencváros játékából, oda a hibátlan mérleg az El-ben",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/a-gol-ezuttal-hianyzott-a-ferencvaros-jatekabol-oda-a-hibatlan-merleg-az-el-ben",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/ELYQZ2eZQCZMv8SoS9LQvACnS_83ykyYXtGjZjfHRnk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzBjMWNhMGIzNjg3MDRjNmVhMGQ3ZmFkM2E4OWZhMjUz.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Thu, 26 Nov 2026 21:47:28 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Hálaadáshoz méltó rangadó: a Chicago utolsó másodperces TD-vel nyert Detroitban – videó",
+      "link": "https://nemzetisport.hu/amerikai-sportok/2026/11/halaadashoz-melto-rangado-a-chicago-utolso-masodperces-td-vel-nyert-detroitban-video",
+      "categories": [
+        "nfl"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/uzDpr1BKmwrizb05tBKP3ZkLYJXjRYEKKRCkzz0_dbI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Q1YjU5NTMyMjRiMjRiZTc5NWQyZWViOGNlNmYwNGVm.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Thu, 26 Nov 2026 21:32:02 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Férfi kézi BL: továbbra is hibátlan a Barca, Párizsban játszott döntetlent a Wisla Plock",
+      "link": "https://nemzetisport.hu/kezilabda/2026/11/ferfi-kezi-bl-tovabbra-is-hibatlan-a-barca-parizsban-jatszott-dontetlent-a-wisla-plock",
+      "categories": [
+        "champions-league"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/dd-QmnawooEWf1ut9v8FUARipHUwPVlp_6eBs17j4yc/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzBiY2M1MzU1MzZlMjQ4OTk5ZDA3ZTNiZGI2MTIxMDZk.webp"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Thu, 26 Nov 2026 21:53:15 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Klubrekord és keserű szájíz – megszakadt a Fradi fantasztikus sorozata",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/ferencvaros-celje-europa-liga-osszefoglalo",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/427K810mpfvTDUfzS-OgFySHSlF8PcUAOrAD4Cc1F_E/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi8xMmQ2NTYzYjQ1MGIyMDJmODE5ZjVmNjAwZGE0ZjdmNmVmMzQ5ZmE0N2UzOTlhM2YyYzQ3YmZjYTM3YTg3MmRk.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Thu, 26 Nov 2026 21:29:08 +0000",
+      "observed": "2026-11-26T23:10:32.135265+01:00",
+      "title": "Fordulat a Nagy Ervin körüli botrányban: Tarr Zoltán minisztériuma döntést hozott",
+      "link": "https://www.origo.hu/belpol/2026/11/kulturalis-tamogatasok-nagy-ervin-harom-milliard-tarr",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/h1Ol5bi2byx9CFtXOvEv6bo3SmJ79YZsLQJ1e0i3FSg/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi8wMjc4ODlmY2Q4MzEwMDYwMDQxMzdmMTkxZjg4N2MyNjRmYmY1NzA5ZmMxOTY0NzIwOTU5MGRiMDM5NjQ2NTQ4.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-26T22:16:35.946923+01:00"
+  "lastRssCollection": "2026-11-26T23:10:32.135265+01:00"
 }
