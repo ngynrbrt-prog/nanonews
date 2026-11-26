@@ -143,3 +143,56 @@ Az utolsó mentés után esetleg összegyűjtött vagy feldolgozott cikkek szám
 **29 különböző cikk kerülhetne a következő számba.** A több rovatba illő cikk minden érintett rovatsorban szerepel.
 
 Mentés indítása budapesti idő szerint 2026-11-26 10:00:25.
+
+## 11:00
+
+A mérési időszak budapesti idő szerint **2026-11-26 08:30:04–11:00:00**.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 14 | 4 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| HVG | 21 | 8 | 2 | 2 | 2 | 2 | 25,0% | 5 |
+| Nemzeti Sport | 12 | 4 | 2 | 2 | 2 | 2 | 50,0% | 1 |
+| NBAnews.hu | 3 | 3 | 2 | 2 | 2 | 2 | 66,7% | 1 |
+| Fűzővel kifelé! | 1 | 1 | 1 | 1 | 1 | 1 | 100,0% | 0 |
+| 444.hu | 13 | 4 | 3 | 3 | 3 | 3 | 75,0% | 0 |
+| Portfolio.hu | 38 | 25 | 5 | 5 | 5 | 5 | 20,0% | 0 |
+| Origo.hu | 20 | 4 | 1 | 1 | 1 | 1 | 25,0% | 1 |
+| Összesen | 123 | 53 | 16 | 16 | 16 | 16 | 30,2% | 8 |
+
+Az összesítés további forrásokat is tartalmaz. A Hetedik Sor Közepe (1 begyűjtött, 0 rovatba illő, 0 éles várakozó).
+
+### A következő kiadás adatállapota
+
+A **2026-11-26 16:00-s** szám előzetes alapja a **10:54:27** idejű RSS-gyűjtés. A forráscommit **10:57:14** időpontú. A gyűjtés kora a méréskor **5 perc 32 másodperc**. A kiadásig újabb mentés érkezhet. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/7aafd061404999781861d31ec2dfcde3a89088a4) · [A reggeli kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/65bfc2d3a66d33f998df23a5ea3ef2f1de0a20c7)
+
+A forráscommit után rögzítetlen gyűjtés vagy feldolgozás mennyisége ismeretlen. Hiányzó észlelési idő 0, ellenőrizhető publikálási idő nélküli gyűjtött rekord 0.
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Bajnokok ligája | 3 |
+| Premier League | 0 |
+| Arsenal | 0 |
+| Bayern München | 2 |
+| Manchester United | 2 |
+| Como | 0 |
+| F1 | 1 |
+| NBA | 4 |
+| NFL | 1 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Belföld | 23 |
+| Technológia / Fejlesztések | 1 |
+| Tőzsde | 3 |
+| Környezetvédelem | 2 |
+| Filmek | 0 |
+| Ingatlan | 1 |
+| Külföld | 14 |
+| Tenisz | 2 |
+
+**53 különböző cikk** kerülhetne a következő számba. Egy cikk több rovat sorában is szerepelhet.
+
+Mentés indítása budapesti idő szerint 2026-11-26 11:00:20.
