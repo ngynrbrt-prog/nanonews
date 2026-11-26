@@ -35,6 +35,7 @@ feeds={
  "Origo.hu":["https://www.origo.hu/publicapi/hu/rss/origo/articles"],
  "Mafab":["https://www.mafab.hu/rss"],
  "A Hetedik Sor Közepe":["https://hetediksor.hu/feed/"],
+ "BringaSport":["https://bringasport.hu/feed/"],
 }
 rules={
  "arsenal":["arsenal"],"man-city":["manchester city","man city"],"bayern":["bayern münchen","bayern munchen","bayern"],
@@ -841,6 +842,8 @@ for key, record in list(inbox.items()):
         if foreign_deal and re.search(r"magyarországi[^.!?]{0,55}(?:beruház|gyár|üzem|gyártás)|(?:szegedi|debreceni)[^.!?]{0,35}(?:beruház|gyár|üzem)", context, re.I):
             cats.append("belfold")
     cats = ["environment"] if lake_environment else apply_subject_categories(title, desc, cats)
+    if source == "BringaSport":
+        cats = ["cycling"]
     if not cats:
         if expired:
             del inbox[key]

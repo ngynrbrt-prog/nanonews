@@ -56,6 +56,7 @@ A források és lekérési módok a refresh_news.py fájlban vannak beállítva:
 - Origo.hu — https://www.origo.hu/publicapi/hu/rss/origo/articles
 - Mafab — https://www.mafab.hu/rss
 - A Hetedik Sor Közepe — https://hetediksor.hu/feed/
+- BringaSport — https://bringasport.hu/feed/
 
 A nem elérhető RSS-végpont hibáját a workflow naplózza, a többi feed feldolgozása ettől még folytatódik. A cikkcímeket, hivatkozásokat, kivonatokat és képeket az RSS-feedekből dolgozza fel, majd megpróbálja letölteni a nyilvánosan olvasható cikk szövegét. A forrás neve minden cikk mellett megjelenik. A témába sorolás a cikk címe és RSS-kivonata alapján történik.
 ## 4. Rovatok és szűrés
