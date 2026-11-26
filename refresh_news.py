@@ -1,4 +1,7 @@
 import hashlib, json, re, urllib.request, urllib.parse, xml.etree.ElementTree as ET, os, time, unicodedata
+from collections import deque
+from concurrent.futures import ThreadPoolExecutor
+from threading import Lock
 from urllib.error import HTTPError
 from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
@@ -450,18 +453,24 @@ def topic_summary_direction(story):
     )
 
 
+GEMINI_WORKERS = 2
 gemini_next_request = 0.0
+gemini_request_lock = Lock()
 
 
 def request_gemini(request):
     global gemini_next_request
     for attempt in range(3):
-        remaining = gemini_next_request - time.monotonic()
-        if (background or force_backfill) and time.monotonic() + max(remaining, 0) >= work_deadline:
-            raise TimeoutError("Gemini retry deferred to a later processing batch")
-        if remaining > 0:
+        while True:
+            with gemini_request_lock:
+                started = time.monotonic()
+                remaining = gemini_next_request - started
+                if (background or force_backfill) and started + max(remaining, 0) >= work_deadline:
+                    raise TimeoutError("Gemini request deferred to a later processing batch")
+                if remaining <= 0:
+                    gemini_next_request = started + 1
+                    break
             time.sleep(remaining)
-        gemini_next_request = time.monotonic() + 1
         try:
             print("Requesting Gemini style processing.", flush=True)
             with urllib.request.urlopen(request, timeout=50) as response:
@@ -478,7 +487,8 @@ def request_gemini(request):
                     delay = max(delay, parsedate_to_datetime(retry_after).timestamp() - time.time())
                 except (TypeError, ValueError, OverflowError):
                     pass
-            gemini_next_request = time.monotonic() + delay
+            with gemini_request_lock:
+                gemini_next_request = max(gemini_next_request, time.monotonic() + delay)
             print(f"Gemini HTTP {exc.code}; next request after {delay:.0f}s.")
             if attempt == 2:
                 raise
@@ -741,6 +751,25 @@ if collect_only:
 
 print("Assembling official edition from saved articles." if publish_only else "Starting article and style processing.", flush=True)
 
+def save_prepared_story(record, story):
+    if all(story.get("variants", {}).get(style, {}).get("body")
+           for style in ("original", "tolkien", "reito")):
+        record["prepared"] = story
+        record["preparedVividStyles"] = vivid_styles
+        print(f"Prepared all three variants: {story['url']}")
+
+
+def finish_preparation(record, story, future):
+    try:
+        story["variants"] = future.result()
+    except Exception as exc:
+        print(f"Rewrite unavailable {story['url']}: {exc}")
+    save_prepared_story(record, story)
+
+
+preparation_pool = ThreadPoolExecutor(max_workers=GEMINI_WORKERS) if prepare_in_background else None
+preparations = deque()
+
 unclassified_cutoff = now.timestamp() - timedelta(days=7).total_seconds()
 for key, record in list(inbox.items()):
     source=record["source"]
@@ -823,85 +852,103 @@ for key, record in list(inbox.items()):
     cached=previous.get(link,{})
     if cached.get("summaryVersion")==SUMMARY_VERSION and cached.get("sourceHash")==story["sourceHash"] and cached.get("variants",{}).get("original",{}).get("body") and cached.get("variants",{}).get("tolkien",{}).get("body") and cached.get("variants",{}).get("reito",{}).get("body"):
         story["variants"]=cached["variants"]
+    elif preparation_pool is not None:
+        future = preparation_pool.submit(
+            gemini_rewrites, story, article_text, api_key, vivid_styles=vivid_styles,
+        )
+        preparations.append((record, story, future))
+        if len(preparations) == GEMINI_WORKERS:
+            finish_preparation(*preparations.popleft())
+        continue
     elif not publish_only and api_key and not pending_current:
         try:
             story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
     if collect_new_edition:
         stories.append(story)
-    elif all(story.get("variants",{}).get(style,{}).get("body") for style in ("original","tolkien","reito")):
-        record["prepared"]=story
-        record["preparedVividStyles"]=vivid_styles
-        print(f"Prepared all three variants: {link}")
+    else:
+        save_prepared_story(record, story)
+
+if preparation_pool is not None:
+    preparation_pool.shutdown()
+    for preparation in preparations:
+        finish_preparation(*preparation)
 
 if not publish_only:
     save_inbox()
 
-pending_updated=False
-if api_key and not publish_only and (not manual or pending_current):
-    for pending_story in pending_current[:10]:
-        if (background or force_backfill) and time.monotonic() >= work_deadline:
-            break
-        current_variants=pending_story.setdefault("variants",{})
-        if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
-            not current_variants.get("original",{}).get("body")):
-            article_text,_,_=fetch_article(pending_story.get("url",""))
-            try:
-                generated=gemini_rewrites(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
-                pending_story["variants"]=generated
-                pending_story["summaryVersion"]=SUMMARY_VERSION
-                if article_text:
-                    pending_story["contentBasis"]="article"
-                    pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
-                pending_updated=True
-                print(f"Refreshed v2 summary and styles for {pending_story.get('url')}")
-            except Exception as exc:
-                print(f"Pending v2 summary unavailable {pending_story.get('url')}: {exc}")
-            continue
-        current_tolkien=current_variants.setdefault("tolkien",{})
-        current_reito=current_variants.setdefault("reito",{})
+def backfill_story(pending_story):
+    if (background or force_backfill) and time.monotonic() >= work_deadline:
+        return False
+    updated = False
+    current_variants=pending_story.setdefault("variants",{})
+    if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
+        not current_variants.get("original",{}).get("body")):
         article_text,_,_=fetch_article(pending_story.get("url",""))
-        needs_tolkien = not current_tolkien.get("title") or not current_tolkien.get("body")
-        needs_reito = not current_reito.get("title") or not current_reito.get("body")
-        if needs_tolkien and needs_reito:
-            try:
-                generated = gemini_rewrites(
-                    pending_story, article_text, api_key,
-                    vivid_styles=edition_uses_vivid_styles(previous_edition), styles_only=True,
-                )
-                for style, current in (("tolkien", current_tolkien), ("reito", current_reito)):
-                    for field in ("title", "body"):
-                        if not current.get(field):
-                            current[field] = generated[style][field]
-                pending_updated = True
-                if article_text:
-                    pending_story["contentBasis"] = "article"
-                    pending_story["sourceHash"] = hashlib.sha256(article_text.encode("utf-8")).hexdigest()
-            except Exception as exc:
-                print(f"Pending combined style rewrite unavailable {pending_story.get('url')}: {exc}")
-            continue
-        if needs_tolkien:
-            try:
-                generated=gemini_tolkien_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
-                if not current_tolkien.get("title"):current_tolkien["title"]=generated["title"]
-                if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
-                pending_updated=True
-                print(f"Completed missing Tolkien rewrite for {pending_story.get('url')}")
-            except Exception as exc:print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
-        if not current_reito.get("title") or not current_reito.get("body"):
-            try:
-                generated=gemini_reito_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
-                if not current_reito.get("title"):current_reito["title"]=generated["title"]
-                if not current_reito.get("body"):current_reito["body"]=generated["body"]
-                pending_updated=True
-                print(f"Completed missing Rejto rewrite for {pending_story.get('url')}")
-            except Exception as exc:print(f"Pending Rejto rewrite unavailable {pending_story.get('url')}: {exc}")
-        if current_tolkien.get("title") and current_tolkien.get("body") and current_reito.get("title") and current_reito.get("body"):
-            if current_variants.get("original",{}).get("body"):
-                pending_story["summaryVersion"]=SUMMARY_VERSION
+        try:
+            generated=gemini_rewrites(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
+            pending_story["variants"]=generated
+            pending_story["summaryVersion"]=SUMMARY_VERSION
             if article_text:
                 pending_story["contentBasis"]="article"
                 pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+            updated=True
+            print(f"Refreshed v2 summary and styles for {pending_story.get('url')}")
+        except Exception as exc:
+            print(f"Pending v2 summary unavailable {pending_story.get('url')}: {exc}")
+        return updated
+    current_tolkien=current_variants.setdefault("tolkien",{})
+    current_reito=current_variants.setdefault("reito",{})
+    article_text,_,_=fetch_article(pending_story.get("url",""))
+    needs_tolkien = not current_tolkien.get("title") or not current_tolkien.get("body")
+    needs_reito = not current_reito.get("title") or not current_reito.get("body")
+    if needs_tolkien and needs_reito:
+        try:
+            generated = gemini_rewrites(
+                pending_story, article_text, api_key,
+                vivid_styles=edition_uses_vivid_styles(previous_edition), styles_only=True,
+            )
+            for style, current in (("tolkien", current_tolkien), ("reito", current_reito)):
+                for field in ("title", "body"):
+                    if not current.get(field):
+                        current[field] = generated[style][field]
+            updated = True
+            if article_text:
+                pending_story["contentBasis"] = "article"
+                pending_story["sourceHash"] = hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+        except Exception as exc:
+            print(f"Pending combined style rewrite unavailable {pending_story.get('url')}: {exc}")
+        return updated
+    if needs_tolkien:
+        try:
+            generated=gemini_tolkien_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
+            if not current_tolkien.get("title"):current_tolkien["title"]=generated["title"]
+            if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
+            updated=True
+            print(f"Completed missing Tolkien rewrite for {pending_story.get('url')}")
+        except Exception as exc:print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
+    if not current_reito.get("title") or not current_reito.get("body"):
+        try:
+            generated=gemini_reito_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
+            if not current_reito.get("title"):current_reito["title"]=generated["title"]
+            if not current_reito.get("body"):current_reito["body"]=generated["body"]
+            updated=True
+            print(f"Completed missing Rejto rewrite for {pending_story.get('url')}")
+        except Exception as exc:print(f"Pending Rejto rewrite unavailable {pending_story.get('url')}: {exc}")
+    if current_tolkien.get("title") and current_tolkien.get("body") and current_reito.get("title") and current_reito.get("body"):
+        if current_variants.get("original",{}).get("body"):
+            pending_story["summaryVersion"]=SUMMARY_VERSION
+        if article_text:
+            pending_story["contentBasis"]="article"
+            pending_story["sourceHash"]=hashlib.sha256(article_text.encode("utf-8")).hexdigest()
+    return updated
+
+
+pending_updated = False
+if api_key and not publish_only and (not manual or pending_current) and pending_current:
+    with ThreadPoolExecutor(max_workers=GEMINI_WORKERS) as backfill_pool:
+        backfill_results = list(backfill_pool.map(backfill_story, pending_current[:10]))
+    pending_updated = any(backfill_results)
 
 
 def sync_pending_archive():
