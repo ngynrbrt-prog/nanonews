@@ -199,9 +199,12 @@ def image_for(item,desc):
 
 class ArticleTextParser(HTMLParser):
     blocked={"script","style","nav","footer","aside","noscript","svg","form"}
+    containers={"article","div","main","section"}
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.skip=0; self.article=0; self.scope_tags=[]
+        self.skip=0; self.article=0
+        self.container_depth={tag: 0 for tag in self.containers}
+        self.content_scopes=set()
         self.capture=False; self.paragraph=[]; self.preferred=[]; self.fallback=[]
         self.article_links=[]; self.related_sections=[]
     def handle_starttag(self,tag,attrs):
@@ -211,17 +214,19 @@ class ArticleTextParser(HTMLParser):
             self.skip+=1; return
         if self.skip:return
         if tag=="article": self.article+=1
-        if any(word in classes for word in ("article-body","article-content","story-body","story-content","post-content","content-body")):
-            self.scope_tags.append(tag)
+        if tag in self.container_depth:
+            self.container_depth[tag]+=1
+            if any(word in classes for word in ("article-body","article-content","story-body","story-content","post-content","content-body")):
+                self.content_scopes.add((tag,self.container_depth[tag]))
         if tag in {"div", "section", "ul", "ol"} and (
             self.related_sections or re.search(r"related[-_ ]*(?:article|stor)|kapcsolodo[-_ ]*cikk", classes)
         ):
             self.related_sections.append(tag)
-        if tag=="a" and (self.article or self.scope_tags or self.related_sections) and attrs.get("href"):
+        if tag=="a" and (self.article or self.content_scopes or self.related_sections) and attrs.get("href"):
             self.article_links.append(attrs["href"])
         if tag=="p":
             self.capture=True; self.paragraph=[]
-            self.prefer_current=self.article>0 or bool(self.scope_tags)
+            self.prefer_current=self.article>0 or bool(self.content_scopes)
     def handle_data(self,data):
         if self.capture and not self.skip:
             value=re.sub(r"\s+"," ",data).strip()
@@ -232,7 +237,9 @@ class ArticleTextParser(HTMLParser):
             return
         if self.skip:return
         if self.related_sections and tag==self.related_sections[-1]:self.related_sections.pop()
-        if tag in self.scope_tags:self.scope_tags.remove(tag)
+        if tag in self.container_depth and self.container_depth[tag]:
+            self.content_scopes.discard((tag,self.container_depth[tag]))
+            self.container_depth[tag]-=1
         if tag=="p" and self.capture:
             value=" ".join(self.paragraph).strip()
             if len(value)>35:
