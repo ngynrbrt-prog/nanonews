@@ -2644,7 +2644,36 @@
       "title": "Bécsben ragadt a magyar férfi kosárlabda-válogatott",
       "link": "https://nemzetisport.hu/kosarlabda/2026/11/becsben-ragadt-a-magyar-ferfi-kosarlabda-valogatott",
       "description": "A nemzeti csapat világbajnoki selejtezők L-csoportjában péntek este Stockholmban lép(ne) pályára Svédország ellen, igen fontos mérkőzésen.",
-      "image": "https://cdn.nemzetisport.hu/2026/11/Y9OSg1h7ynWCqZHOx9gCGlIKFcEds9EW7MsUiQu6rVQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzMyZmMyMTVlNWE0YzQxYWFiZmI4NzY2MmZmMTkxOGFj.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/Y9OSg1h7ynWCqZHOx9gCGlIKFcEds9EW7MsUiQu6rVQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzMyZmMyMTVlNWE0YzQxYWFiZmI4NzY2MmZmMTkxOGFj.webp",
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Bécsben ragadt a magyar férfi kosárlabda-válogatott",
+        "summary": "A nemzeti csapat világbajnoki selejtezők L-csoportjában péntek este Stockholmban lép(ne) pályára Svédország ellen, igen fontos mérkőzésen.",
+        "url": "https://nemzetisport.hu/kosarlabda/2026/11/becsben-ragadt-a-magyar-ferfi-kosarlabda-valogatott",
+        "published": "Thu, 26 Nov 2026 16:48:13 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/Y9OSg1h7ynWCqZHOx9gCGlIKFcEds9EW7MsUiQu6rVQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzMyZmMyMTVlNWE0YzQxYWFiZmI4NzY2MmZmMTkxOGFj.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "c0f6ddde834c12a4bd280bd1d27893d1f6970b8c2db111572f3c398d9b69005f",
+        "variants": {
+          "original": {
+            "body": "Bécsben ragadt a szakadó hó ellenére a bécsi repülőtérre tizenegy óra után megérkező magyar férfi kosárlabda-válogatott, mert törölték a péntek este Stockholmban, a világbajnoki selejtezők L-csoportjában Svédország ellen esedékes mérkőzésére tartó stockholmi, majd az amszterdami járatát is. A csapat vezetősége és a szövetség gőzerővel dolgozott a megoldáson, de az újabb törlések miatt még 17 óra után sem tudta senki bizonyosan, hogy a delegáció elindulhat-e csütörtökön Svédország felé. A válogatott türelmesen várt a reptéren a pénteki, rendkívül tartalékos svédek elleni kulcsfontosságú összecsapásra, amelynek esélyeit alapvetően megváltoztathatja, ha a csapat nem érkezik meg csütörtökön Stockholmba."
+          },
+          "tolkien": {
+            "title": "A hófúvás fogságában: a magyar kosarasok viharos odüsszeiája",
+            "body": "Bécs ezüstös, fagyos kapujában rekedt a magyar férfi kosárlabda-válogatott, miután a Svédország felé vezető égi ösvényeket elzárták előlük a vihar fellegei. A Gasper Okorn vezette sereget a stockholmi, majd az amszterdami szárnyas járatok törlése kényszerítette várakozásra a repülőtér csarnokában, ahol a keret tagjai rendíthetetlen türelemmel viselték a hányattatásokat. A szövetség és a vezetőség kétségbeesett küzdelmat vívott az idővel, ám délután öt óra után sem pislákolt még bizonyosság a csütörtöki továbbindulás felől. Így sötét árnyék vetült a pénteki, L-csoportbeli világbajnoki selejtezőre a tartalékos svédek ellen, hiszen a késlekedés súlyosan megváltoztathatja a nemzeti csapat diadalmaskodási esélyeit."
+          },
+          "reito": {
+            "title": "Leszállópálya helyett zsákutca: Bécsben vizsgázik a magyar kosárcsapat türelme",
+            "body": "Bécs betonrengetegében ragadt a magyar férfi kosárlabda-válogatott, miután a svédországi világbajnoki selejtezőre igyekvő csapat stockholmi, majd amszterdami repülőjáratát is törölték a szakadó hó közepette. A Gasper Okorn irányította küldöttség mindenesetre higgadtan tűrte a reptári kényszerpihenőt, míg a háttérben a szövetség és a vezetőség gőzerővel próbált utat törni Svédország felé. A délután öt óra után is bizonytalan indulás komoly fejtörést okozott a pénteki, tartalékos svédek elleni meccs előtt, amelynek esélyeit drasztikusan átírhatja, ha a gárda csütörtökön egyáltalán nem jut el Stockholmba."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -3396,7 +3425,39 @@
       "title": "Magyar Péter is reagált a mezőkövesdi vonatbalesetre, szerinte morális mélypont, amit a Fidesz művel",
       "link": "https://telex.hu/belfold/2026/11/26/magyar-peter-reakcio-mezokovesdi-vonatbaleset",
       "description": "A miniszterelnök szerint a Fidesz „egy szörnyű tragédiából igyekszik politikai tőkét kovácsolni”.",
-      "image": "https://assets.telex.hu/images/20261126/1795716472-temp-31qk94ml2er06mlnhbl_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261126/1795716472-temp-31qk94ml2er06mlnhbl_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Magyar Péter is reagált a mezőkövesdi vonatbalesetre, szerinte morális mélypont, amit a Fidesz művel",
+        "summary": "A miniszterelnök szerint a Fidesz „egy szörnyű tragédiából igyekszik politikai tőkét kovácsolni”.",
+        "url": "https://telex.hu/belfold/2026/11/26/magyar-peter-reakcio-mezokovesdi-vonatbaleset",
+        "published": "Thu, 26 Nov 2026 19:23:12 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://assets.telex.hu/images/20261126/1795716472-temp-31qk94ml2er06mlnhbl_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://telex.hu/szerzo/pupli-anna-sara",
+          "https://telex.hu/kedvenceink"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "85a7457a7e5cccdd7184ba9b518ab2cb47f990a0597445e4946bcf5813427b58",
+        "variants": {
+          "original": {
+            "body": "A mezőkövesdi vonatbalesetben életveszélyesen megsérült 18 éves lánnyal kapcsolatban Magyar Péter és a hazai politikai szereplők nyilatkoztak, miután a Fidesz kezdeményezte Vitézy Dávid és Hegyi Zsolt MÁV-vezérigazgató soron kívüli meghallgatását a parlament Közlekedési és Beruházási Bizottságában, valamint a MÁV 5 millió forintos gyorssegélyt biztosít a családnak. A gyakorlati következmény az, hogy a hatóságok egy Volánbusz kamerájának felvétele alapján is vizsgálják a baleset körülményeit, a célzott véradás sikeres volt, és elegendő vér áll rendelkezésre. A hazai közlekedési ügyeket és politikai vitákat is érintő eseményben Magyar Péter morális mélypontnak nevezte a Fidesz lépését, miközben Lázár János korábbi miniszter felelősségvállalásról írt, Vitézy Dávid pedig az előző kormány beszerzésleállításait emlegette. A belföldi közéletet felkavaró tragédia miatt a politikai viták mellett a hatósági vizsgálatok is zajlanak."
+          },
+          "tolkien": {
+            "title": "A vasút árnyéka és a mezőkövesdi gyász krónikája",
+            "body": "A mezőkövesdi vasútvonal mentén, ahol a fémtestű vadállatként robogó vonat magával rántotta a tizennyolc esztendős Vivit, mély gyász és feszültség terhe nehezedik a belföldi hazára. A végzetes órában életveszélyes sebeket szerzett leányért egy egész ország fogott össze, és a véradók áradata elegendőnek bizonyult a túléléshez, miközben a MÁV ötmillió aranyat ésszel mérő gyorssegélyt nyújt a családnak. A hatalom csarnokaiban és a bizottságok asztalainál azonban vihar Támadt: a Fidesz követelésére Vitézy Dávid és Hegyi Zsolt MÁV-vezérigazgató elszámoltatása lebeg, Lázár János pedig a korábbi ígéretek és a leállított harminckilenc InterCity-szerelvény szellemét idézi meg. Magyar Péter a politikai csatározásokat morális mélypontnak bélyegezte, holott a Volánbusz szemtanúként szolgáló lencséje már rögzítette a tragédia arcát a hatóságok vizsgálódása számára."
+          },
+          "reito": {
+            "title": "Sínre futott indulatok: amikor a gyorsvonat találkozik a parlamenti bizottsággal",
+            "body": "Mezőkövesdnél egy ismeretlen körülmények között közlekedő vonat rántotta magával a kritikus állapotban lévő 18 éves lányt, mire a belföldi közélet azonnal teljes gőzzel kapcsolva indította el a politikai vagonokat. A gyakorlati fordulat az, hogy a MÁV rögtön kipengetett 5 millió forintos gyorssegélyt a családnak, a nép pedig annyi vért adott össze, hogy az Országos Vérellátó Szolgálat szerint nincs hiány. Miközben a Fidesz azonnal soron kívüli meghallgatást követelt Vitézy Dávidnak és Hegyi Zsolt MÁV-vezérigazgatónak a parlament Közlekedési és Beruházási Bizottságában, Lázár János a régi lemondós videóival nosztalgiázott. Magyar Péter morális mélypontnak minősítette a manővert, Vitézy pedig a leállított IC-ket kérte számon, ám a hatóságoknak nem a viták, hanem egy Volánbusz fedélzeti kamerája mutatja majd meg a tiszta igazságot."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Telex",
@@ -3488,7 +3549,41 @@
       "title": "Nekünk bármilyen módosítás hátrányos, az ellenzéknek meg kedvező – a választási rendszer átalakításáról beszélt a Tisza képviselője",
       "link": "https://telex.hu/belfold/2026/11/26/valasztasi-torveny-reform-konferencia-parlament-mellethei-barna-marton-gardos-orosz-fruzsina",
       "description": "Melléthei-Barna Márton eltörölné a győzteskompenzáció és a levélszavazás rendszerét. Szerinte a Tisza Párt önmérsékletéről szólna a győztesnek kedvező szabályok módosítása.",
-      "image": "https://assets.telex.hu/images/20261126/1795711051-temp-e7ui109erisr8filppe_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261126/1795711051-temp-e7ui109erisr8filppe_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Nekünk bármilyen módosítás hátrányos, az ellenzéknek meg kedvező – a választási rendszer átalakításáról beszélt a Tisza képviselője",
+        "summary": "Melléthei-Barna Márton eltörölné a győzteskompenzáció és a levélszavazás rendszerét. Szerinte a Tisza Párt önmérsékletéről szólna a győztesnek kedvező szabályok módosítása.",
+        "url": "https://telex.hu/belfold/2026/11/26/valasztasi-torveny-reform-konferencia-parlament-mellethei-barna-marton-gardos-orosz-fruzsina",
+        "published": "Thu, 26 Nov 2026 18:43:18 +0100",
+        "categories": [
+          "parliament",
+          "belfold",
+          "foreign"
+        ],
+        "image": "https://assets.telex.hu/images/20261126/1795711051-temp-e7ui109erisr8filppe_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://telex.hu/szerzo/cseke-balazs",
+          "https://telex.hu/kedvenceink"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "00596641cc7a3e17a96fa3e6f0a208aede9d9c74e6ae3a157642a4c9655d50e1",
+        "variants": {
+          "original": {
+            "body": "Melléthei-Barna Márton, a Tisza Párt frakcióvezető-helyettese és Gárdos-Orosz Fruzsina, az Igazságügyi Minisztérium közigazgatási államtitkára egy csütörtöki konferencián a választási rendszer, az alkotmányos berendezkedés és a kétharmados törvények átalakításáról tárgyalt. A megbeszélésen elhangzott, hogy a Tisza Párt támogatná a Fidesz által bevezetett győzteskompenzáció és levélszavazás eltörlését, valamint a Nemzeti Választási Bizottság függetlenségének és működésének átalakítását. A politikusok célja, hogy az új alkotmányos rendszerek és a fékek, valamint ellensúlyok révén megakadályozzák a korábbi, tizenhat éven át tapasztalt monolitikus döntéshozatalt és a kétharmados hatalommal való visszaélést. A folyamatba a jövőben be kívánják vonni a civileket és a szakértőket is."
+          },
+          "tolkien": {
+            "title": "A választás hatalmas mérlege és a kétharmad árnyéka",
+            "body": "Az ELTE ÁJK Alkotmányjogi Tanszék, a Bibó István Szakkollégium és a Political Capital által egybehangolt csütörtöki gyűlésen Melléthei-Barna Márton, a Tisza Párt frakcióvezető-helyettese és Gárdos-Orosz Fruzsina államtitkár emelt szót a birodalom választási törvényeinek sorsáról. A tanácskozás kútforrása szerint a Fidesz tizenhat esztendőn át formálta a birodalom alapköveit saját képére, ám a Tisza vezérei most a győzteskompenzáció és a levélszavazás sötét intézményének eltörlését, valamint a Nemzeti Választási Bizottság megtisztítását követelik. E változások kardja és pajzsa megfékezné a teljhatalom korlátlan uralmát, hogy az új rendben soha többé ne emelkedhessen egyetlen akarat az állam összes törvénye fölé. A régmúlt hibáiból okulva a nép fiai új törvénykönyvet és szigorúbb mértéket kívánnak kovácsolni az eljövendő idők számára."
+          },
+          "reito": {
+            "title": "Ahol a győzteskompenzáció és a levélszavazás is a süllyesztőbe tart",
+            "body": "Egy csütörtöki konferencián Melléthei-Barna Márton, a Tisza Párt frakcióvezető-helyettese és Gárdos-Orosz Fruzsina, az Igazságügyi Minisztérium közigazgatási államtitkára vetette bele magát a választási rendszer és az alkotmány átalakításának sűrűjébe. A Tisza embere kapásból eltörölné a Fidesz által bevezetett győzteskompenzációt és a levélszavazás intézményét, sőt, a Nemzeti Választási Bizottságot is alaposan átszabná, hogy ne maradjon kő kövön. A pimasz csavar az egészben az, hogy a Tisza saját magának teszi kellemetlenné az eddig kedvező szabályokat, miközben a kétharmados törvényeket is átvizsgálnák, mielőtt a kis pártok vagy a kormány a saját plakátjai között botladozna. A szakértők és civilek pedig csak pislognak, miközben a tizenhat éve épített bástyákat éppen darabjaira szedik."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Telex",
@@ -3730,7 +3825,39 @@
       "title": "Háromezer dolgozót vesz át a BP-től az indiai Wipro, magyarországi munkavállalók is érintettek",
       "link": "https://telex.hu/gazdasag/2026/11/26/magyarorszag-dolgozo-bp-india-wipro-kiszervezes",
       "description": "A brit olajvállalat Magyarországon budapesti és szegedi irodával is rendelkezik, egyelőre nem tudni, ezeknél pontosan hány munkavállalót érint a megállapodás.",
-      "image": "https://assets.telex.hu/images/20261126/1795710309-temp-63m5fsnir5k2alogpal_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261126/1795710309-temp-63m5fsnir5k2alogpal_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "Háromezer dolgozót vesz át a BP-től az indiai Wipro, magyarországi munkavállalók is érintettek",
+        "summary": "A brit olajvállalat Magyarországon budapesti és szegedi irodával is rendelkezik, egyelőre nem tudni, ezeknél pontosan hány munkavállalót érint a megállapodás.",
+        "url": "https://telex.hu/gazdasag/2026/11/26/magyarorszag-dolgozo-bp-india-wipro-kiszervezes",
+        "published": "Thu, 26 Nov 2026 17:25:56 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://assets.telex.hu/images/20261126/1795710309-temp-63m5fsnir5k2alogpal_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://telex.hu/szerzo/devai-laszlo",
+          "https://telex.hu/kedvenceink"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "7a243bf152ee4e3232386cf5247dedbfb6b6518241dfa0fdf94a569908187f62",
+        "variants": {
+          "original": {
+            "body": "Megállapodást kötött a brit olajipari óriás, a BP és az indiai technológiai szolgáltató, a Wipro, amelynek értelmében utóbbi mintegy 3000 pénzügyi területen dolgozó munkavállalót vesz át Indiában, Magyarországon és Malajziában. A gyakorlati következmény az, hogy az érintett munkavállalók a vonatkozó feltételek teljesülése esetén 2027-ben kerülnek át a Wipróhoz, míg a működési előírások és az adatok felügyelete továbbra is a BP-nél marad. A belföldi helyzetet tekintve a Magyarországon budapesti és szegedi irodával rendelkező BP-nél több mint 3300-an dolgoznak, és bár pontos számot hivatalosan nem közöltek, két munkavállaló nem hivatalos becslése szerint Magyarországon akár 400-600 dolgozót is érinthet a megállapodás. A folyamat hátterében az áll, hogy a BP adósságának és működési költségeinek csökkentésére összpontosít, a munkavállalók pedig a jelenlegi irodájukban dolgozhatnak tovább."
+          },
+          "tolkien": {
+            "title": "A fekete arany birodalmából az keleti céh kezeibe kerülő seregek krónikája",
+            "body": "Megállapodást kötött a brit olajipari óriás, a BP és az indiai technológiai szolgáltató, a Wipro, amelynek értelmében utóbbi mintegy 3000 pénzügyi területen dolgozó munkavállalót vesz át Indiában, Magyarországon és Malajziában. A változás gyümölcseként az érintett lelkek sorsa a vonatkozó feltételek teljesülése esetén 2027-ben átvándorol a Wipróhoz, míg a parancsok és a titkok lajstromának felügyelete a régi trónon, a BP-nél marasztaltatik. E távoli birodalom magyarországi tartományaiban, ahol a budapesti és szegedi várakban több mint 3300 szolga míveli a napi munkát, a hatalmasok még nem hirdették ki a pontos létszámot, de a belső suttogások szerint ezerarcú vihar készülődik a hazai belföldi vidéken. A brit olajurak e lépéssel igyekeznek könnyíteni nehéz terheiken és aranyaik fogyásán, hogy az írnokok új uraságuk udvarában, de régi falaik között folytathassák vándorlásukat."
+          },
+          "reito": {
+            "title": "Feketearanyból átutalva: háromezer lélek vándorol Indiába és hazai irodákba",
+            "body": "Megállapodást kötött a brit olajipari óriás, a BP és az indiai technológiai szolgáltató, a Wipro, amelynek értelmében utóbbi mintegy 3000 pénzügyi területen dolgozó munkavállalót vesz át Indiában, Magyarországon és Malajziában. Ennek nyomán a pénzügyi katonák a feltételek teljesülése esetén 2027-ben hivatalosan is átköltöznek a Wipro papírjai alá, miközben az adatok kulcsa és a szabályzat feletti hatalom a BP zsebében marad. A hazai fronton, azaz a budapesti és szegedi irodákkal rendelkező magyarországi BP-nél, ahol több mint 3300 ember dolgozik, egyelőre nem verték nagydobra a pontos áthelyezési létszámot, ám a belső borkóstolós becslések szerint akár 400-600 magyar dolgozó is érintett lehet a költözésben. A költségcsökkentést hajtszó brit óriás így passzolja át a pénzügyi csapatokat, akik egyelőre a megszokott helyükön koptatják a székeket, amíg a naptár 2027-et nem mutat."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Telex",
@@ -4730,7 +4857,39 @@
       "title": "MNB-ügy: 70 milliót adtak egy magyar–ázsiai projektre, ATM-ből felvett készpénzzel fizették ki a kutatókat",
       "link": "https://telex.hu/gazdasag/2026/11/26/azsia-kapcsolat-kutato-bt-mnb-padme-tamogatas",
       "description": "Az MNB-alapítvány által támogatott cég egy ázsiai–magyar kapcsolatokat bemutató platformot hozott létre a pénzből: ez el is készült, de az alapítvány utólag problémásnak találta a papírmunkát.",
-      "image": "https://assets.telex.hu/images/20261126/1795699443-temp-odrpnclm5tn99lbankg_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261126/1795699443-temp-odrpnclm5tn99lbankg_cimlap-normal.jpg",
+      "prepared": {
+        "source": "Telex",
+        "title": "MNB-ügy: 70 milliót adtak egy magyar–ázsiai projektre, ATM-ből felvett készpénzzel fizették ki a kutatókat",
+        "summary": "Az MNB-alapítvány által támogatott cég egy ázsiai–magyar kapcsolatokat bemutató platformot hozott létre a pénzből: ez el is készült, de az alapítvány utólag problémásnak találta a papírmunkát.",
+        "url": "https://telex.hu/gazdasag/2026/11/26/azsia-kapcsolat-kutato-bt-mnb-padme-tamogatas",
+        "published": "Thu, 26 Nov 2026 19:27:39 +0100",
+        "categories": [
+          "technology"
+        ],
+        "image": "https://assets.telex.hu/images/20261126/1795699443-temp-odrpnclm5tn99lbankg_cimlap-normal.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://telex.hu/szerzo/krasz-zsombor",
+          "https://telex.hu/kedvenceink"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "ad7bd46635f2a94332590d613c4ad21005f7eb1329e6f0178391e2ff1c1d3601",
+        "variants": {
+          "original": {
+            "body": "A Pallas Athéné Domus Meriti Alapítvány (PADME) 2020 és 2022 között összesen 69,78 millió forint támogatást nyújtott az Ázsia Kapcsolat Kutató Bt.-nek a magyar–ázsiai kapcsolattörténeti adatbank, vagyis az Orient Projekt létrehozására. A PADME 2024 januárjában feltárta, hogy a támogatott cég vezetője, Nagy Elek az előírt utalás helyett ATM-es készpénzfelvételekkel és magánszámlájáról fizette ki a kutatókat, ráadásul a vállalt feladatok egy része sem készült el. Az alapítvány ezért 2024 januárjában több millió forint visszatérítésére kötelezte a bt.-t, amelynek honlapját és kiadói feladatait később átvette a Neumann János Egyetem Eurázsia Központja. A fejlesztések során a Magyar Nemzeti Bank (MNB) alapítványi háttere és a keleti nyitás stratégiájához kapcsolódó társadalomtudományi, humán kutatási projektek összefonódásai kerültek napvilágra."
+          },
+          "tolkien": {
+            "title": "A keleti utak kincsei és a homályos számadások krónikája",
+            "body": "A Pallas Athéné Domus Meriti Alapítvány kincstárából 2020 és 2022 között közel hetvenmillió ezüstpénz – pontosan 69,78 millió forint – áramlott az Ázsia Kapcsolat Kutató Bt. barlangjába, hogy ott a magyar és ázsiai népek ősi szövetségének adataiból épüljön fel a Hungorient néven hívott tudástár. Ám a pénzkezelés ösvényein sötét árnyak suhantak át, mert a vezető, Nagy Elek a szigorú törvényeket hágta át, midőn a bölcseknek járó bért banki pecsétek helyett ATM-ek mélyéről előbányászott készpénzzel és rejtett magánszámlákról rótta le. Ezen hiányosságok és elmaradt vállalások miatt a PADME őrei 2024 januárjában szigorú elszámolásra és a kincsek visszakövetelésére kényszerítették a társaságot, míg végül a titkos tudományok könyvei és az Orient Projekt terhei a Neumann János Egyetem Eurázsia Központjának tornyába vándoroltak."
+          },
+          "reito": {
+            "title": "Ahol a keleti szél fúj, de a kutatói díjakat ATM-ből bányásszák elő",
+            "body": "A Pallas Athéné Domus Meriti Alapítvány (PADME) 2020 és 2022 között szűk 69,78 millió forinttal tolta meg az Ázsia Kapcsolat Kutató Bt. szekerét, hogy a magyar–ázsiai kapcsolatokból egy csillogó honlap szülessen. A pénzügyi svindli ott vált igazán kalandossá, amikor kiderült: ahelyett, hogy a nagykönyv szerint utaltak volna, Nagy Elek saját magánszámlájáról és ATM-es készpénzfelvételekből fizette ki a kutatókat, miközben az ígért életutaknak és térképeknek csak a töredéke készült el. Az alapítvány bürokratái 2024 januárjában ébredtek fel igazán, és miután megvizsgálták a papírokat, rögtön követelni kezdték a 23,3 milliós visszatérítést."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -4775,7 +4934,65 @@
       "title": "Ruff Bálint állítja: rendet rakna, ha a Tisza körül is megjelennének az „intézőemberek”",
       "link": "https://hvg.hu/itthon/20261126_ruff-balint-allit-lemond-rendrakas-tisza-intezo-emberek",
       "description": "Ruff Bálint nem tart attól, hogy a Tisza a Fideszhez hasonló politikai pályát jár majd be, és saját embereiket hozzák helyzetbe. Arról is beszélt, miért küldték el Feledy Botondot a Külügyi Intézet éléről, miután kiderült, hogy Lázár János minisztériumának is bedolgozott a kormányváltás előtt.",
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b36da574-bc70-44a1-91af-4370d598a998.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b36da574-bc70-44a1-91af-4370d598a998.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Ruff Bálint állítja: rendet rakna, ha a Tisza körül is megjelennének az „intézőemberek”",
+        "summary": "Ruff Bálint nem tart attól, hogy a Tisza a Fideszhez hasonló politikai pályát jár majd be, és saját embereiket hozzák helyzetbe. Arról is beszélt, miért küldték el Feledy Botondot a Külügyi Intézet éléről, miután kiderült, hogy Lázár János minisztériumának is bedolgozott a kormányváltás előtt.",
+        "url": "https://hvg.hu/itthon/20261126_ruff-balint-allit-lemond-rendrakas-tisza-intezo-emberek",
+        "published": "Thu, 26 Nov 2026 18:59:07 Z",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b36da574-bc70-44a1-91af-4370d598a998.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://444.hu/2026/11/26/ruff-balint-ez-nem-egyszeru-kormanyvaltas-hiaba-gondoljak-ezt-volt-kollegaim",
+          "https://hvg.hu/cimke/kormanykozeli-cegek",
+          "https://hvg.hu/360/20261104_paraszka-boroka-voros-ho-feledy-botond-lazar-szerzodes-velemeny-hvg",
+          "https://hvg.hu/itthon/20261124_tankeruleti-igazgatok-ruff-balint-lannert-judit-kivalasztas",
+          "https://pulzus.hvg.hu/egeszseg/20261126_szuperelelmiszerek-a-kertunkben-gyozo-molnar-anna-taplalkozastudomany",
+          "https://hvg.hu/itthon/20261126_szerdan-kerdore-vontuk-a-kulugyet-csutortokon-levaltottak-a-hungary-helps-vezetoit",
+          "https://hvg.hu/itthon/20261126_magyar-peter-mezokovesdi-vonatbaleset-lany-sulyos-serules-miniszterelnok",
+          "https://hvg.hu/gazdasag/20261126_kubatov-gabor-ferencvaros-fradi-mvm-talalkozo-lemondas-szponzor-allami-tamogatas",
+          "https://hvg.hu/360/20261126_hvg-hartung-attila-a-pokol-elovilaga-film-misztikus-thriller-ugynokaktak-multfeldolgozas",
+          "https://hvg.hu/360/20261126_munkaeropiac-fejvadasz-allaskereses-humanfield-molontay-patrik-diploma",
+          "https://hvg.hu/itthon/20261126_tarsoly-villa-csaba-lakas-quaestor-csalad",
+          "https://hvg.hu/itthon/20261126_matolcsy-gyorgy-meghallgatas-borton-parlament-vizsgalobizottsag",
+          "https://hvg.hu/itthon/20261126_orban-viktor-orban-balazs-pro-patria-alapitvany-kutatas",
+          "https://hvg.hu/itthon/20261126_ruff-balint-allit-lemond-rendrakas-tisza-intezo-emberek",
+          "https://hvg.hu/itthon/20261126_kiskunhalas-borton-fidesz-varga-bajusz-veronika-melegviz",
+          "https://hvg.hu/itthon/20261126_lazar-janos-idezet-uzenet-vitezy-david-mezokovesd-baleset",
+          "https://hvg.hu/itthon/20261126_szakaly-sandor-szerint-nagyaranyu-letszamleepitesre-lesz-szukseg-a-veritasnal",
+          "https://hvg.hu/360/20261126_media-televizios-piac-network4-atv-mediaworks-kesma",
+          "https://hvg.hu/itthon/20261126_kapitany-istvan-atvilagitos-magyar-posta-feljelentes",
+          "https://hvg.hu/vilag/20261126_koalicio-megallapodas-netanjahu-levaltas-izrael-part",
+          "https://hvg.hu/kkv/20261126_kornyezetszennyezes-akkumulatorgyar-leallit-birsag-nyiregyhaza",
+          "https://hvg.hu/vilag/20261126_ukran-hirszerzes-oroszorszag-eszak-koreav-katonai-szallitmanyok",
+          "https://hvg.hu/vilag/20261126_zelenszkij-oroszorszag-tamadas-raketa",
+          "https://hvg.hu/vilag/20261126_elrabol-bedrogoz-szexualis-bantalmazas-nagybanya-polgarmester-video-zsarolas",
+          "https://hvg.hu/360/20261124_a-fidesz-beagyazottsaga-egyszerre-rendult-meg-minden-tarsadalmi-retegben",
+          "https://hvg.hu/360/20261126_hamvay-peter-most-mulik-pontosan-fulszoveg-lapajanlo",
+          "https://hvg.hu/360/20261125_para-kovacs-imre-bunos-viszony-semjen-zsolt-velemeny",
+          "https://hvg.hu/360/20261126_network4-media-borsany-gyenes-andras-interju"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "074f7c01f7f3daa811a6508e67c794952a7b409f045f335c88baf3b6a2a69d2e",
+        "variants": {
+          "original": {
+            "body": "Ruff Bálint Miniszterelnökséget vezető miniszter csütörtökön a 444 stúdiójában adott interjút, amelyben kijelentette, hogy a közjogi területen jól halad a NER lebontása, de az Orbán-kormányok alatt az állam kárára megvalósított támogatásokkal kiépített gazdasági rendszer felszámolása hosszabb időt igényel. A gazdaság NER-es cégektől való megtisztítására semmilyen céldátumot nem volt hajlandó meghatározni, ehelyett a választók türelmét kérte, hangsúlyozva, hogy a gazdaság átalakítása közben arra is oda kell figyelni, hogy a hirtelen változások ne okozzanak összeomlást. Az interjú során az is elhangzott, hogy az új rendszer snájdig szakértője akkor szegődött Lázár Jánoshoz, amikor az Budapest és Belgrád között építette az EU-ellenes szövetség hídfőállását. A belföldi közélet kérdéseihez kapcsolódóan az oktatási minisztérium közlése szerint csupán arról van szó, hogy a tárca egy tagja is részt vett a pályázatok elbírálásában."
+          },
+          "tolkien": {
+            "title": "A NER bástyáinak ostroma és a gazdaság mély folyóinak mederváltása",
+            "body": "Ruff Bálint Miniszterelnökséget vezető miniszter a 444 csarnokában adott nyilatkozatában hirdette meg, hogy míg a hatalom magas tornyainak közjogi rendje omladozik, a gazdaság mély gyökereinek kiásása még hosszú évszakokat emészt fel. Céldátumot nem szabott a birodalom kincstárát terhelő hálózatok felszámolására, csupán a nép türelmét kérte, óvva a birodalmat attól, hogy a hirtelen változások vihara teljes összeomlásba taszítsa a földeket. Az új idők snájdig krónikás-szakértője egykor Lázár János zászlaja alá szegődött, mikor az Budapest és Belgrád határvidékén építette az uniós falak elleni hídfőket. A belföldi tanácsok termeiben pedig, miként az oktatási minisztérium híréből kiderül, egyetlen tisztségviselő is bekapcsolódott a pecsétes pályázatok elbírálásának ősi szertartásába."
+          },
+          "reito": {
+            "title": "A NER-mentesítés öröknaptára és a türelmi zóna",
+            "body": "Ruff Bálint Miniszterelnökséget vezető miniszter csütörtökön a 444 stúdiójában osztotta meg a belföldi valóságot, megállapítva, hogy míg a papírmunka és a közjog sebesen porlad, a NER gazdasági alapjainak kiirtásához határidő nélküli türelemre lesz szükség. A hirtelen bekövetkező gazdasági összeomlás elkerülése érdekében semmilyen céldátumot nem árult el a cégek megtisztítására, miközben a snájdig szakértő múltjából kiderült, hogy egykor Lázár János mellé szegődött a Budapest-Belgrád tengely EU-ellenes építkezése idején. Az állami gépezet olajozott működését jelzi az is, hogy az oktatási minisztérium hivatalos közlése szerint a tárca egyik embere csupán a pályázatok elbírálásában vállalt szerepet."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -4784,7 +5001,67 @@
       "title": "Orbán Viktor alapítványt hozott létre, Orbán Balázs az egyetlen kuratóriumi tag",
       "link": "https://hvg.hu/itthon/20261126_orban-viktor-orban-balazs-pro-patria-alapitvany-kutatas",
       "description": "Egyebek mellett a Magyarországon „tapasztalható liberális autoriter rendszerrel” szembeni ellenállást szervezik majd Orbánék.",
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/71cdeed1-7420-445b-aafd-9c564fbbbab4.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/71cdeed1-7420-445b-aafd-9c564fbbbab4.jpg",
+      "prepared": {
+        "source": "HVG",
+        "title": "Orbán Viktor alapítványt hozott létre, Orbán Balázs az egyetlen kuratóriumi tag",
+        "summary": "Egyebek mellett a Magyarországon „tapasztalható liberális autoriter rendszerrel” szembeni ellenállást szervezik majd Orbánék.",
+        "url": "https://hvg.hu/itthon/20261126_orban-viktor-orban-balazs-pro-patria-alapitvany-kutatas",
+        "published": "Thu, 26 Nov 2026 18:33:27 Z",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/71cdeed1-7420-445b-aafd-9c564fbbbab4.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.facebook.com/photo.php",
+          "https://hvg.hu/itthon/20261004_tombor-andras-birosag-mcc-alapito",
+          "https://hvg.hu/itthon/20260923_alapjogokert-kozpont-hazkutatas-nni-reakcio-fidesz",
+          "https://hvg.hu/itthon/20250425_Az-Alapjogokert-Kozpontban-dolgozik-a-Magyarorszagon-menedekjogot-kapott-Marcin-Romanoswki-ebx",
+          "https://hvg.hu/kkv/20261002_leepit-es-nevet-valt-a-szazadveg-konjunkturakutato-zrt-magyar-gazdasagkutato-es-tanacsado-zrt-ner",
+          "https://hvg.hu/360/20260912_valasztas-2026-fidesz-ner-holdudvar-propagandistak-alapitvanyok-kutatointezetek-kifizetohelyek-elvesztese",
+          "https://pulzus.hvg.hu/egeszseg/20261126_szuperelelmiszerek-a-kertunkben-gyozo-molnar-anna-taplalkozastudomany",
+          "https://hvg.hu/itthon/20261126_szerdan-kerdore-vontuk-a-kulugyet-csutortokon-levaltottak-a-hungary-helps-vezetoit",
+          "https://hvg.hu/itthon/20261126_magyar-peter-mezokovesdi-vonatbaleset-lany-sulyos-serules-miniszterelnok",
+          "https://hvg.hu/gazdasag/20261126_kubatov-gabor-ferencvaros-fradi-mvm-talalkozo-lemondas-szponzor-allami-tamogatas",
+          "https://hvg.hu/360/20261126_hvg-hartung-attila-a-pokol-elovilaga-film-misztikus-thriller-ugynokaktak-multfeldolgozas",
+          "https://hvg.hu/360/20261126_munkaeropiac-fejvadasz-allaskereses-humanfield-molontay-patrik-diploma",
+          "https://hvg.hu/itthon/20261126_tarsoly-villa-csaba-lakas-quaestor-csalad",
+          "https://hvg.hu/itthon/20261126_matolcsy-gyorgy-meghallgatas-borton-parlament-vizsgalobizottsag",
+          "https://hvg.hu/itthon/20261126_orban-viktor-orban-balazs-pro-patria-alapitvany-kutatas",
+          "https://hvg.hu/itthon/20261126_ruff-balint-allit-lemond-rendrakas-tisza-intezo-emberek",
+          "https://hvg.hu/itthon/20261126_kiskunhalas-borton-fidesz-varga-bajusz-veronika-melegviz",
+          "https://hvg.hu/itthon/20261126_lazar-janos-idezet-uzenet-vitezy-david-mezokovesd-baleset",
+          "https://hvg.hu/itthon/20261126_szakaly-sandor-szerint-nagyaranyu-letszamleepitesre-lesz-szukseg-a-veritasnal",
+          "https://hvg.hu/360/20261126_media-televizios-piac-network4-atv-mediaworks-kesma",
+          "https://hvg.hu/itthon/20261126_kapitany-istvan-atvilagitos-magyar-posta-feljelentes",
+          "https://hvg.hu/vilag/20261126_koalicio-megallapodas-netanjahu-levaltas-izrael-part",
+          "https://hvg.hu/kkv/20261126_kornyezetszennyezes-akkumulatorgyar-leallit-birsag-nyiregyhaza",
+          "https://hvg.hu/vilag/20261126_ukran-hirszerzes-oroszorszag-eszak-koreav-katonai-szallitmanyok",
+          "https://hvg.hu/vilag/20261126_zelenszkij-oroszorszag-tamadas-raketa",
+          "https://hvg.hu/vilag/20261126_elrabol-bedrogoz-szexualis-bantalmazas-nagybanya-polgarmester-video-zsarolas",
+          "https://hvg.hu/360/20261124_a-fidesz-beagyazottsaga-egyszerre-rendult-meg-minden-tarsadalmi-retegben",
+          "https://hvg.hu/360/20261126_hamvay-peter-most-mulik-pontosan-fulszoveg-lapajanlo",
+          "https://hvg.hu/360/20261125_para-kovacs-imre-bunos-viszony-semjen-zsolt-velemeny",
+          "https://hvg.hu/360/20261126_network4-media-borsany-gyenes-andras-interju"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "b42e27b0db27195fde84c544cb9d5e2ae52cffe826e57d2d45fe19eae67b1b6b",
+        "variants": {
+          "original": {
+            "body": "Orbán Viktor Pro Patria néven új alapítványt hozott létre a Fidesz Stefánia úti székházába bejegyzett székhellyel, amelynek alapító okiratát október 16-án keltezték, vezetője és egyetlen kuratóriumi tagja pedig Orbán Balázs, a volt miniszterelnök korábbi politikai igazgatója. A szervezet célja egy olyan nemzetközi kutatóintézet felépítése, amely erősíti a nemzeti erők együttműködését, összekapcsolja a szuverenitás és a hagyományos értékek híveit, valamint az első években feladatának tekinti a Magyarországon tapasztalható liberális autoriter rendszerrel szembeni ellenállás szervezését és támogatását. A belföldi közéletet és a kormányzati holdudvart érintő változások részeként az elmúlt időben sorra szűntek meg vagy alakultak át a Fidesz-kormány által támogatott kutatóintézetek, amint azt a Mathias Corvinus Collegium augusztus 31-én lezárult felszámolása, a kekvák megszüntetésével 1284 milliárd forint könyv szerinti értékű közvagyon állami ellenőrzés alá kerülése, az Alapjogokért Központnál tartott házkutatás és a Századvég Konjunktúrakutató Zrt. támogatások elapadása miatti leépítése és névváltása is mutatja."
+          },
+          "tolkien": {
+            "title": "A Pro Patria zászlaja alatt: Új bástya emelkedik a nemzeti erők viharában",
+            "body": "Orbán Viktor megalapította a Pro Patria nevű új szervezetét a Fidesz Stefánia úti székházának falai között, melynek okiratát október tizenhatodikán hitelesítették, és amelynek élén magányos őrként Orbán Balázs, a volt miniszterelnök korábbi politikai igazgatója áll egyetlen kuratóriumi tagként. E bástya célja egy olyan nemzetközi kutatóintézet felépítése, amely egybefonja a szuverenitás és a régi idők értékei mellett kitartó gondolkodók sorait, míg az első esztendőkben a Magyarország földjén uralkodó liberális autoriter rendszer ellen viaskodó ellenállás zászlaját emeli magasba. E belföldi változások viharos árjában a kormány holdudvarának régi sziklái – a Mathias Corvinus Collegium augusztus végi felszámolása, a kekvák eltörlésével állami kézbe vett 1284 milliárd forintos közvagyon, az Alapjogokért Központ háza táján dulakodó hatóságok és a Századvég elapadt forrásai miatti sorvadása – mind arról tanúskodnak, hogy a hatalom áramlása újjáformálja a magyar hazai tájat. A harc mezején az új intézet most arra hivatott, hogy a nemzeti erők szövetségét kovácsolja egybe e változó idők sodrában."
+          },
+          "reito": {
+            "title": "Egyfős birodalom a Stefánia úton: Megszületett a Pro Patria",
+            "body": "Orbán Viktor elindította a Pro Patria alapítványt a Fidesz Stefánia úti címe alatt, az alapító okiratot október 16-án pecsételték le, a kulcsokat pedig egyedüli kuratóriumi tagként Orbán Balázs, a volt miniszterelnök korábbi politikai igazgatója kapta meg. A friss szervezet azzal a tervvel lépett porondra, hogy nemzetközi kutatóintézetet épít a hagyományos értékeket valló szuverenisták összekötésére, miközben az első éveiben a hazai liberális autoriter rendszer elleni ellenállás szervezését is felvállalja. Miközben a magyar közélet színpadán a Mathias Corvinus Collegium augusztus 31-i bezárásával, a kekvák lekapcsolásával állami felügyelet alá vándorolt 1284 milliárd forintnyi közvagyonnal, az Alapjogokért Központnál csattanó rendőri házkutatással és a Századvég Konjunktúrakutató Zrt. pénzhiányos névváltásával és leépítésével éppen átalakul a táj, a holdudvar ezen új bástyája magányos, de határozott léptekkel kezdi meg működését."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -4829,7 +5106,80 @@
       "title": "Elutasították a Magyar Péterrel szembeni feljelentést",
       "link": "https://www.portfolio.hu/gazdasag/20261126/elutasitottak-a-magyar-peterrel-szembeni-feljelentest-879510",
       "description": "<p>Elutasította a Fővárosi Nyomozó Ügyészség a Magyar Péterrel szembeni feljelentést, amit Ékes Ilona korábbi fideszes országgyűlési képviselő tett a miniszterelnök ellen - közölte az MTI megkeresésére a Központi Nyomozó Főügyészség.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/d/_/h/d-hr20261125018-873262.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/d/_/h/d-hr20261125018-873262.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Elutasították a Magyar Péterrel szembeni feljelentést",
+        "summary": "<p>Elutasította a Fővárosi Nyomozó Ügyészség a Magyar Péterrel szembeni feljelentést, amit Ékes Ilona korábbi fideszes országgyűlési képviselő tett a miniszterelnök ellen - közölte az MTI megkeresésére a Központi Nyomozó Főügyészség.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261126/elutasitottak-a-magyar-peterrel-szembeni-feljelentest-879510",
+        "published": "Thu, 26 Nov 2026 19:59:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/d/_/h/d-hr20261125018-873262.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/cimke/Magyar Péter",
+          "https://www.portfolio.hu/cimke/fidesz",
+          "https://www.portfolio.hu/cimke/bűncselekmény",
+          "https://www.portfolio.hu/cimke/feljelentés",
+          "https://www.portfolio.hu/cimke/válás",
+          "https://www.portfolio.hu/cimke/igazságügyi miniszter",
+          "https://www.portfolio.hu/cimke/politika",
+          "https://www.portfolio.hu/cimke/zsarolás",
+          "https://www.portfolio.hu/cimke/erőszak",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-valasztasi-rendszer-jon-megszuntetne-a-gyozteskompenzaciot-a-tisza-879502",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261126/magyar-peter-is-megszolalt-a-sulyos-vasuti-baleset-kapcsan-879500",
+          "https://www.portfolio.hu/gazdasag/20261126/meg-egy-nagy-hullamban-erkezik-a-csapadek-mielott-szarazabb-idoszak-kovetkezik-879492",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-intezet-jon-letre-a-vituki-nyomdokain-879490",
+          "https://www.portfolio.hu/uzlet/20261126/vezervaltas-a-dorsumnal-fischer-balint-a-fintechceg-uj-vezetoje-879496",
+          "https://www.portfolio.hu/uzlet",
+          "https://www.portfolio.hu/gazdasag/20261126/varatlan-otlettel-allt-elo-orban-viktor-879494",
+          "https://www.portfolio.hu/gazdasag/20261126/kiszervez-a-bp-magyar-dolgozok-is-erintettek-879486",
+          "https://www.portfolio.hu/gazdasag/20261126/gigantikus-leepitest-tervez-a-szoftverceg-10-ezer-munkahely-szunhet-meg-879482",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+          "https://www.portfolio.hu/gazdasag/20261126/kritikussa-valt-a-helyzet-az-influenzajarvany-miatt-angliaban-879512",
+          "https://www.portfolio.hu/gazdasag/20261126/elutasitottak-a-magyar-peterrel-szembeni-feljelentest-879510",
+          "https://www.portfolio.hu/gazdasag/20261126/szemtanukat-keres-a-rendorseg-a-vasuti-balesettel-osszefuggesben-879508",
+          "https://www.portfolio.hu/gazdasag/20261126/van-ahol-20-centimeteres-a-hotakaro-879506",
+          "https://www.portfolio.hu/gazdasag/20261126/figyelmeztet-a-szakerto-komoly-veszelybe-kerulhet-europa-legnagyobb-gazdasaga-879488",
+          "https://www.portfolio.hu/gazdasag/20261126/ruff-balint-a-ner-teljes-lebontasahoz-meg-ido-kell-de-kormanyvaltasnal-tobb-tortent-aprilisban-879504",
+          "https://www.portfolio.hu/gazdasag/20261126/nincs-elzart-telepules-az-orszagban-879498",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+          "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261126/euro-ide-vagy-oda-nem-usszuk-meg-a-koltsegvetesi-rendrakast-879354",
+          "https://www.portfolio.hu/podcast/20261126/globalis-tozsdepanik-melyik-magyar-reszveny-marad-utesallo-879462",
+          "https://www.portfolio.hu/podcast/20261126/gyuricza-csaba-ha-most-nem-lepunk-10-ev-mulva-vege-a-magyar-elelmiszertermelesnek-879408"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "50dfad33b9b1c3f246b8f9e782aa7325fcea58d258ab23877a3f66b14b8f3620",
+        "variants": {
+          "original": {
+            "body": "Elutasították a Magyar Péterrel szembeni feljelentést, amelyet Ékes Ilona november 13-án nyújtott be a kormányfő ellen a Fidesz közleménye szerint zsarolás és kapcsolati erőszak gyanúja miatt. A döntés következtében a Varga Judit volt igazságügyi miniszter sérelmére, a 2023 januárja és 2024 márciusa közötti időszakra vonatkozóan feltárt, hangfelvétellel kapcsolatos állítások ügyében nem indul eljárás a beadvány alapján. Az eset a hazai belföldi parlament és belföldi politikai közélet színterén zajlott, miután a kormánypárti közlemény a végrehajtási visszaéléseket feltáró vizsgálóbizottsági nyilatkozatokra hivatkozva lépett fel. A beadvány elutasítása lezárja ezt a konkrét, jogi indokolással és Varga Judit volt miniszter helyzetével alátámasztott fejezetet."
+          },
+          "tolkien": {
+            "title": "A titkos hang árnyéka eloszlik a törvény csarnokában",
+            "body": "Elutasították a Magyar Péterrel szembeni feljelentést, amelyet Ékes Ilona november 13-án zsarolás és kapcsolati erőszak vádjával emelt a kormányfő ellen a Fidesz közleménye szerint. E szigorú ítélet nyomán eloszlanak azok a sötét fellegek, amelyek Varga Judit volt igazságügyi miniszter feje fölött tornyosultak a 2023 januárja és 2024 márciusa között készült titkos hangfelvételek miatt. A belföldi parlament és belföldi hatalom bástsái között zajló ügyben a vizsgálóbizottság elé tárt vallomások és a megfékezhetetlennek hitt zsarolási kísérletek végül nem találtak utat a büntetés pallosához. A törvény mérlege ezen a napon mozdulatlan maradt, s a régóta zúgó vádak vihara elcsitult e falak között."
+          },
+          "reito": {
+            "title": "A felvétel, ami a fiókban maradt – Elutasítva",
+            "body": "Elutasították a Magyar Péterrel szembeni feljelentést, amelyet Ékes Ilona november 13-án zsarolás és kapcsolati erőszak miatt sózott a kormányfő nyakába a Fidesz közleménye szerint. Ennek köszönhetően a Varga Judit volt igazságügyi miniszter emlékezetes, 2023 januárja és 2024 márciusa közötti kálváriája papíron maradt, így a titkos hangfelvételekkel fűszerezett fenyegetések nem váltják valóra a börtönnel fenyegető jóslatokat. A belföldi parlament és belföldi közélet porondján ezzel egy füstbe ment akció zárult le, hiszen a vizsgálóbizottsági tanúvallomásokra épülő jogi manőver nem érte el a kívánt hatást. A zsarolás árnyéka így hirtelen felszívódott, hagyva a feleket újabb kalandok nélkül."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -4838,7 +5188,80 @@
       "title": "Szemtanúkat keres a rendőrség a vasúti balesettel összefüggésben",
       "link": "https://www.portfolio.hu/gazdasag/20261126/szemtanukat-keres-a-rendorseg-a-vasuti-balesettel-osszefuggesben-879508",
       "description": "<p>Szemtanúk jelentkezését várja a rendőrség a kedden este Mezőkövesden történt súlyos vasúti baleset ügyében. A Hernád Intercityről leszállni próbáló 18 éves lány életveszélyes sérüléseket szenvedett, a hatóságok pedig továbbra is vizsgálják a történtek pontos körülményeit. Az ügyben Magyar Péter miniszterelnök is megszólalt, a MÁV pedig 5 millió forintos gyorssegélyt biztosít a sérült családjának.</p>",
-      "image": ""
+      "image": "",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Szemtanúkat keres a rendőrség a vasúti balesettel összefüggésben",
+        "summary": "<p>Szemtanúk jelentkezését várja a rendőrség a kedden este Mezőkövesden történt súlyos vasúti baleset ügyében. A Hernád Intercityről leszállni próbáló 18 éves lány életveszélyes sérüléseket szenvedett, a hatóságok pedig továbbra is vizsgálják a történtek pontos körülményeit. Az ügyben Magyar Péter miniszterelnök is megszólalt, a MÁV pedig 5 millió forintos gyorssegélyt biztosít a sérült családjának.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261126/szemtanukat-keres-a-rendorseg-a-vasuti-balesettel-osszefuggesben-879508",
+        "published": "Thu, 26 Nov 2026 19:48:00 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/gazdasag/20261126/kritikussa-valt-a-helyzet-az-influenzajarvany-miatt-angliaban-879512",
+          "https://www.portfolio.hu/gazdasag/20261126/elutasitottak-a-magyar-peterrel-szembeni-feljelentest-879510",
+          "https://www.portfolio.hu/gazdasag/20261126/van-ahol-20-centimeteres-a-hotakaro-879506",
+          "https://www.portfolio.hu/gazdasag/20261126/magyar-peter-is-megszolalt-a-sulyos-vasuti-baleset-kapcsan-879500",
+          "https://www.portfolio.hu/gazdasag/20261126/megszolalt-vitezy-david-a-sulyos-vasuti-baleset-utan-otmillio-forint-gyorssegelyt-ajanlott-fel-a-mav-a-sebesult-fiatal-csaladjanak-879396",
+          "https://www.portfolio.hu/cimke/máv",
+          "https://www.portfolio.hu/cimke/Magyar Péter",
+          "https://www.portfolio.hu/cimke/Intercity",
+          "https://www.portfolio.hu/cimke/baleset",
+          "https://www.portfolio.hu/cimke/rendőrség",
+          "https://www.portfolio.hu/cimke/borsod-abaúj-zemplén megye",
+          "https://www.portfolio.hu/cimke/vitézy dávid",
+          "https://www.portfolio.hu/cimke/mezőkövesd",
+          "https://www.portfolio.hu/cimke/vasúti közlekedés",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-valasztasi-rendszer-jon-megszuntetne-a-gyozteskompenzaciot-a-tisza-879502",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261126/meg-egy-nagy-hullamban-erkezik-a-csapadek-mielott-szarazabb-idoszak-kovetkezik-879492",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-intezet-jon-letre-a-vituki-nyomdokain-879490",
+          "https://www.portfolio.hu/uzlet/20261126/vezervaltas-a-dorsumnal-fischer-balint-a-fintechceg-uj-vezetoje-879496",
+          "https://www.portfolio.hu/uzlet",
+          "https://www.portfolio.hu/gazdasag/20261126/varatlan-otlettel-allt-elo-orban-viktor-879494",
+          "https://www.portfolio.hu/gazdasag/20261126/kiszervez-a-bp-magyar-dolgozok-is-erintettek-879486",
+          "https://www.portfolio.hu/gazdasag/20261126/gigantikus-leepitest-tervez-a-szoftverceg-10-ezer-munkahely-szunhet-meg-879482",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+          "https://www.portfolio.hu/gazdasag/20261126/szemtanukat-keres-a-rendorseg-a-vasuti-balesettel-osszefuggesben-879508",
+          "https://www.portfolio.hu/gazdasag/20261126/figyelmeztet-a-szakerto-komoly-veszelybe-kerulhet-europa-legnagyobb-gazdasaga-879488",
+          "https://www.portfolio.hu/gazdasag/20261126/ruff-balint-a-ner-teljes-lebontasahoz-meg-ido-kell-de-kormanyvaltasnal-tobb-tortent-aprilisban-879504",
+          "https://www.portfolio.hu/gazdasag/20261126/nincs-elzart-telepules-az-orszagban-879498",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+          "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261126/euro-ide-vagy-oda-nem-usszuk-meg-a-koltsegvetesi-rendrakast-879354",
+          "https://www.portfolio.hu/podcast/20261126/globalis-tozsdepanik-melyik-magyar-reszveny-marad-utesallo-879462",
+          "https://www.portfolio.hu/podcast/20261126/gyuricza-csaba-ha-most-nem-lepunk-10-ev-mulva-vege-a-magyar-elelmiszertermelesnek-879408",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "dc0112a18099e9e61188bcf61cac4b5bfc26168e0c18ebde5618814d930f9b5e",
+        "variants": {
+          "original": {
+            "body": "A Borsod-Abaúj-Zemplén Vármegyei Rendőr-főkapitányság és a Mezőkövesdi Rendőrkapitányság szemtanúkat keres a november 24-én este 20 óra körül a mezőkövesdi vasútállomáson történt vasúti balesettel összefüggésben, amely során egy 18 éves lány a Hernád Intercity utolsó kocsijának hátsó ajtajáról leszállva súlyos, életveszélyes sérüléseket szenvedett. A helyszínen tartózkodók a hatóságokat a 06-46/514-506-os számon, a 06-80-555-111-es Telefontanú zöldszámon vagy a 112-es segélyhívón érhetik el. A belföldi eseményhez kapcsolódóan a MÁV-csoport 5 millió forintos azonnali gyorssegélyt biztosít a családnak, miközben a rendőrség mellett a Közlekedésbiztonsági Szervezet és a MÁV vasútbiztonsági szakemberei is vizsgálják a baleset körülményeit."
+          },
+          "tolkien": {
+            "title": "A mezőkövesdi vasútállomás árnyéka",
+            "body": "November huszonnegyedikének éjjelén, este nyolc óra tájban a mezőkövesdi vasútállomás vasútvonalán súlyos, életveszélyes csapás érte a Hernád Intercity utolsó kocsijának ajtaján leckéjét vesztő tizennyolc éves leányt, kit a mozduló szerelvény magával ragadott. A belföldi vasutak birodalmában e sötét órák tanúit hívja most a Borsod-Abaúj-Zemplén Vármegyei Rendőr-főkapitányság, hogy a sors könyvét tisztára mossák a 06-46/514-506-os számon, a Telefontanú zöldszámán vagy a 112-es segélyhívón át. Miközben a Közlekedésbiztonsági Szervezet és a MÁV szakemberei vizsgálják az esetet, a MÁV-csoport ötmillió aranyat érdemlő gyorssegéllyel siet a gyászoló és szenvedő család oltalmára."
+          },
+          "reito": {
+            "title": "Intercity-kaland a mezőkövesdi peronon",
+            "body": "November 24-én este 8 óra körül a mezőkövesdi vasútállomáson egy 18 éves lány próbált meg leszállni a Hernád Intercity utolsó kocsijának hátsó ajtajáról, aminek következtében súlyos, életveszélyes sérüléseket szenvedett, amikor az induló szerelvény magával rántotta. A belföldi vasúti hálózat e váratlan drámájához most a Mezőkövesdi Rendőrkapitányság keresi a nézőközönséget, akik a 06-46/514-506-os számon, a 06-80-555-111-es Telefontanú zöldszámon vagy a 112-es segélyhívón adhatnak jelentést. Míg a rendőrség, a Közlekedésbiztonsági Szervezet és a MÁV szakemberei buzgón vizsgálják a sínpárok titkait, a MÁV-csoport egy laza 5 millió forintos gyorssegéllyel fejezi ki nagylelkűségét a család felé."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -4856,7 +5279,79 @@
       "title": "Figyelmeztet a szakértő: komoly veszélybe kerülhet Európa legnagyobb gazdasága",
       "link": "https://www.portfolio.hu/gazdasag/20261126/figyelmeztet-a-szakerto-komoly-veszelybe-kerulhet-europa-legnagyobb-gazdasaga-879488",
       "description": "<p>Németországnak további két, rendkívül nehéz évre kell felkészülnie Donald Trump amerikai elnöksége alatt – figyelmeztetett a Német Gazdaságkutató Intézet (DIW) vezetője. Marcel Fratzscher azután nyilatkozott a Reutersnek, hogy az Egyesült Államok újabb vámokat jelentett be, amelyek komoly bizonytalanságot okoznak, és ronthatják a német gazdaság 2027-es növekedési kilátásait.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2277729588-873246.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2277729588-873246.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Figyelmeztet a szakértő: komoly veszélybe kerülhet Európa legnagyobb gazdasága",
+        "summary": "<p>Németországnak további két, rendkívül nehéz évre kell felkészülnie Donald Trump amerikai elnöksége alatt – figyelmeztetett a Német Gazdaságkutató Intézet (DIW) vezetője. Marcel Fratzscher azután nyilatkozott a Reutersnek, hogy az Egyesült Államok újabb vámokat jelentett be, amelyek komoly bizonytalanságot okoznak, és ronthatják a német gazdaság 2027-es növekedési kilátásait.</p>",
+        "url": "https://www.portfolio.hu/gazdasag/20261126/figyelmeztet-a-szakerto-komoly-veszelybe-kerulhet-europa-legnagyobb-gazdasaga-879488",
+        "published": "Thu, 26 Nov 2026 19:37:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2277729588-873246.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/gazdasag/20261126/kritikussa-valt-a-helyzet-az-influenzajarvany-miatt-angliaban-879512",
+          "https://www.portfolio.hu/gazdasag/20261126/elutasitottak-a-magyar-peterrel-szembeni-feljelentest-879510",
+          "https://www.portfolio.hu/gazdasag/20261126/szemtanukat-keres-a-rendorseg-a-vasuti-balesettel-osszefuggesben-879508",
+          "https://www.portfolio.hu/cimke/Donald Trump",
+          "https://www.portfolio.hu/cimke/EKB",
+          "https://www.portfolio.hu/cimke/németország",
+          "https://www.portfolio.hu/cimke/európai központi bank",
+          "https://www.portfolio.hu/cimke/monetáris politika",
+          "https://www.portfolio.hu/cimke/gazdasági növekedés",
+          "https://www.portfolio.hu/cimke/kamatemelés",
+          "https://www.portfolio.hu/cimke/német gazdaság",
+          "https://www.portfolio.hu/cimke/vámok",
+          "https://www.portfolio.hu/cimke/energiaárak",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-valasztasi-rendszer-jon-megszuntetne-a-gyozteskompenzaciot-a-tisza-879502",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261126/magyar-peter-is-megszolalt-a-sulyos-vasuti-baleset-kapcsan-879500",
+          "https://www.portfolio.hu/gazdasag/20261126/meg-egy-nagy-hullamban-erkezik-a-csapadek-mielott-szarazabb-idoszak-kovetkezik-879492",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-intezet-jon-letre-a-vituki-nyomdokain-879490",
+          "https://www.portfolio.hu/uzlet/20261126/vezervaltas-a-dorsumnal-fischer-balint-a-fintechceg-uj-vezetoje-879496",
+          "https://www.portfolio.hu/uzlet",
+          "https://www.portfolio.hu/gazdasag/20261126/varatlan-otlettel-allt-elo-orban-viktor-879494",
+          "https://www.portfolio.hu/gazdasag/20261126/kiszervez-a-bp-magyar-dolgozok-is-erintettek-879486",
+          "https://www.portfolio.hu/gazdasag/20261126/gigantikus-leepitest-tervez-a-szoftverceg-10-ezer-munkahely-szunhet-meg-879482",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+          "https://www.portfolio.hu/gazdasag/20261126/van-ahol-20-centimeteres-a-hotakaro-879506",
+          "https://www.portfolio.hu/gazdasag/20261126/figyelmeztet-a-szakerto-komoly-veszelybe-kerulhet-europa-legnagyobb-gazdasaga-879488",
+          "https://www.portfolio.hu/gazdasag/20261126/ruff-balint-a-ner-teljes-lebontasahoz-meg-ido-kell-de-kormanyvaltasnal-tobb-tortent-aprilisban-879504",
+          "https://www.portfolio.hu/gazdasag/20261126/nincs-elzart-telepules-az-orszagban-879498",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+          "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261126/euro-ide-vagy-oda-nem-usszuk-meg-a-koltsegvetesi-rendrakast-879354",
+          "https://www.portfolio.hu/podcast/20261126/globalis-tozsdepanik-melyik-magyar-reszveny-marad-utesallo-879462",
+          "https://www.portfolio.hu/podcast/20261126/gyuricza-csaba-ha-most-nem-lepunk-10-ev-mulva-vege-a-magyar-elelmiszertermelesnek-879408"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "40a9485318be51bf1e41341275dd0da6df58747dae17a2feef92821f36ae4e76",
+        "variants": {
+          "original": {
+            "body": "A szövetségi kormány tanácsadójaként működő DIW kutatóintézet elnöke, Fratzscher szerint az új amerikai vámok és a bizonytalan gazdasági feltételek súlyos terhet jelentenek Németország, vagyis Európa legnagyobb gazdasága számára. Bár a szervezet jelenleg még 1 százalékot meghaladó növekedést prognosztizál 2027-re, a jövő év a vártnál gyengébben is alakulhat a vállalatok alacsony beruházási kedve és a globális konfliktusok miatt. A növekedést így a lakossági fogyasztás vagy a vállalati beruházások helyett továbbra is az állami kiadások jelentik majd. A monetáris politikát illetően a szakértő hangsúlyozta, hogy az Európai Központi Banknak a következő egy évben kamatot kell emelnie, és ha Pablo Hernández de Cost erősítik meg az elnöki poszton, két vagy akár három kamatemelésre is számít tőle."
+          },
+          "tolkien": {
+            "title": "Az Óriás Árnyéka és a Vámok Vihara",
+            "body": "Európa legnagyobb bástyája, Németország földje remeg az új amerikai vámok súlyos terhe alatt, miközben a DIW elnöke arra figyelmeztet, hogy a jövő évi sors sötétebb lehet a vártnál. A vállalkozások csarnokai hallgatnak, a magánberuházások lángja pislákol, és a gazdaság hajóját csupán az állami kincstár ereje tartja a felszínen a mérgező bizonytalanság viharában. A sötét fellegek között az Európai Központi Bank trónusán ülőknek acélos kézzel kell megfeszíteniük az íjat, és Pablo Hernández de Cos esetleges uralma alatt két vagy három kamatemelés villámcsapásával kell megvédeniük a pénz birodalmának hitelét. Így sodródik a birodalom a 2027-es esztendő felé, miközben a háborúk és kereskedelmi viharok hullámai ostromolják a határokat."
+          },
+          "reito": {
+            "title": "Vámok, bürokrácia és a kamatemelés svájcifokszíne",
+            "body": "Németország, Európa büszke és roppant gazdasága éppen arra készül, hogy egy maréknyi amerikai vám és némi háborús bizonytalanság közepette próbáljon meg talpon maradni. Fratzscher, a DIW elnöke szerint a vállalatok jelenleg annyira félnek a magas adóktól és a túlburjánzó bürokráciától, hogy a pénzüket inkább a párna alatt őrzik ahelyett, hogy beruháznának. A gazdasági szekeret így egyedül az állami kiadások rángatják, miközben a cégek csak a 2027-es év kockázatait számolgatják. Ha pedig ez nem lenne elég, az Európai Központi Bank is élesíti a karmait, és Pablo Hernández de Cos vezetésével kapásból két-három kamatemeléssel fenyegetőzik a következő évben."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -4865,7 +5360,81 @@
       "title": "Ruff Bálint: a NER teljes lebontásához még idő kell, de kormányváltásnál több történt áprilisban",
       "link": "https://www.portfolio.hu/gazdasag/20261126/ruff-balint-a-ner-teljes-lebontasahoz-meg-ido-kell-de-kormanyvaltasnal-tobb-tortent-aprilisban-879504",
       "description": "<p>A Tisza Párt kétharmados áprilisi győzelme óta eltelt időszak nem csupán kormányváltást, hanem valódi rendszerváltást hozott Magyarországon – hangsúlyozta Ruff Bálint Miniszterelnökséget vezető miniszter a <a href=\"https://444.hu/2026/11/26/ruff-balint-a-444-nek-a-politikai-rendszervaltas-jol-mukodik-a-gazdasagihoz-meg-turelem-kell\">444</a> interjújában. A tárcavezető beszélt a NER-hez köthető cégek \"gazdasági rombolásának\" óvatos felszámolásáról, az ügynökakták körüli végrehajtási hibákról, valamint Feledy Botond menesztéséről is.</p>",
-      "image": "https://pcdn.hu/articles/images-xl/d/s/z/dszzs20260608055-1-873258.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/d/s/z/dszzs20260608055-1-873258.jpg",
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Ruff Bálint: a NER teljes lebontásához még idő kell, de kormányváltásnál több történt áprilisban",
+        "summary": "<p>A Tisza Párt kétharmados áprilisi győzelme óta eltelt időszak nem csupán kormányváltást, hanem valódi rendszerváltást hozott Magyarországon – hangsúlyozta Ruff Bálint Miniszterelnökséget vezető miniszter a <a href=\"https://444.hu/2026/11/26/ruff-balint-a-444-nek-a-politikai-rendszervaltas-jol-mukodik-a-gazdasagihoz-meg-turelem-kell\">444</a> interjújában. A tárcavezető beszélt a NER-hez köthető cégek \"gazdasági rombolásának\" óvatos felszámolásáról, az ügynökakták körüli végrehajtási hibákról, ",
+        "url": "https://www.portfolio.hu/gazdasag/20261126/ruff-balint-a-ner-teljes-lebontasahoz-meg-ido-kell-de-kormanyvaltasnal-tobb-tortent-aprilisban-879504",
+        "published": "Thu, 26 Nov 2026 19:28:00 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/d/s/z/dszzs20260608055-1-873258.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://444.hu/2026/11/26/ruff-balint-a-444-nek-a-politikai-rendszervaltas-jol-mukodik-a-gazdasagihoz-meg-turelem-kell",
+          "https://www.portfolio.hu/gazdasag/20261126/kritikussa-valt-a-helyzet-az-influenzajarvany-miatt-angliaban-879512",
+          "https://www.portfolio.hu/gazdasag/20261126/elutasitottak-a-magyar-peterrel-szembeni-feljelentest-879510",
+          "https://www.portfolio.hu/gazdasag/20261126/szemtanukat-keres-a-rendorseg-a-vasuti-balesettel-osszefuggesben-879508",
+          "https://www.portfolio.hu/gazdasag/20261009/ruff-balint-az-elmult-16-evben-magyarorszagon-a-normaszeges-valt-uralkodova-az-allam-pedig-egy-szuk-elit-erdekeit-szolgalta-868558",
+          "https://www.portfolio.hu/cimke/kormány",
+          "https://www.portfolio.hu/cimke/Magyar Péter",
+          "https://www.portfolio.hu/cimke/fidesz",
+          "https://www.portfolio.hu/cimke/nők",
+          "https://www.portfolio.hu/cimke/államigazgatás",
+          "https://www.portfolio.hu/cimke/magántőkealap",
+          "https://www.portfolio.hu/cimke/magyar gazdaság",
+          "https://www.portfolio.hu/cimke/magyar kormány",
+          "https://www.portfolio.hu/cimke/tisza párt",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-valasztasi-rendszer-jon-megszuntetne-a-gyozteskompenzaciot-a-tisza-879502",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261126/magyar-peter-is-megszolalt-a-sulyos-vasuti-baleset-kapcsan-879500",
+          "https://www.portfolio.hu/gazdasag/20261126/meg-egy-nagy-hullamban-erkezik-a-csapadek-mielott-szarazabb-idoszak-kovetkezik-879492",
+          "https://www.portfolio.hu/gazdasag/20261126/uj-intezet-jon-letre-a-vituki-nyomdokain-879490",
+          "https://www.portfolio.hu/uzlet/20261126/vezervaltas-a-dorsumnal-fischer-balint-a-fintechceg-uj-vezetoje-879496",
+          "https://www.portfolio.hu/uzlet",
+          "https://www.portfolio.hu/gazdasag/20261126/varatlan-otlettel-allt-elo-orban-viktor-879494",
+          "https://www.portfolio.hu/gazdasag/20261126/kiszervez-a-bp-magyar-dolgozok-is-erintettek-879486",
+          "https://www.portfolio.hu/gazdasag/20261126/gigantikus-leepitest-tervez-a-szoftverceg-10-ezer-munkahely-szunhet-meg-879482",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/premium/20261125/tizezreket-kap-aki-most-valik-nyugdijpenztari-tagga-877658",
+          "https://www.portfolio.hu/gazdasag/20261126/van-ahol-20-centimeteres-a-hotakaro-879506",
+          "https://www.portfolio.hu/gazdasag/20261126/figyelmeztet-a-szakerto-komoly-veszelybe-kerulhet-europa-legnagyobb-gazdasaga-879488",
+          "https://www.portfolio.hu/gazdasag/20261126/ruff-balint-a-ner-teljes-lebontasahoz-meg-ido-kell-de-kormanyvaltasnal-tobb-tortent-aprilisban-879504",
+          "https://www.portfolio.hu/gazdasag/20261126/nincs-elzart-telepules-az-orszagban-879498",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
+          "https://www.portfolio.hu/gazdasag/20261120/itt-a-friss-idojaras-elorejelzes-kiderult-mekkora-ho-es-milyen-tel-varhat-magyarorszagra-877914",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261126/euro-ide-vagy-oda-nem-usszuk-meg-a-koltsegvetesi-rendrakast-879354",
+          "https://www.portfolio.hu/podcast/20261126/globalis-tozsdepanik-melyik-magyar-reszveny-marad-utesallo-879462",
+          "https://www.portfolio.hu/podcast/20261126/gyuricza-csaba-ha-most-nem-lepunk-10-ev-mulva-vege-a-magyar-elelmiszertermelesnek-879408",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3044",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "b9d6edbac13a01254812c640549e0dec19d23f9e8fa6c681d8e83ecc70a09022",
+        "variants": {
+          "original": {
+            "body": "Ruff Bálint tárcavezető értékelése szerint a közjogi, politikai és közhangulati átalakulás már sikeres, de a NER gazdasági lebontásához, a rejtett összefonódások felszámolásához még idő és óvatosság szükséges a magántőkealap-törvények módosításával. A legsúlyosabb gyakorlati következmény, hogy a gazdaság összeomlásának elkerülése érdekében az állami összefonódások felszámolását és a korábbi felelőtlen hitelezések rendezését rendkívül óvatosan kell végrehajtaniuk, miközben az állambiztonsági akták nyilvánosságra hozatala kapcsán hibás listázások miatt belső vizsgálat indult, és a Fidesz korábbi kettős játékos tanácsadóját, Feledy Botondot is menesztették. A belföldi politikai és közélet ezen fejleményei alapjaiban érintik a magyar gazdaság szereplőit és a kormányzati struktúrákat. A folyamatok eredményeként a kormány lépéseket tesz az Orbán–Gyurcsány-korszak örökségének felszámolására és a transzparencia növelésére."
+          },
+          "tolkien": {
+            "title": "A Hálók Szakadása és a Múlt Árnyai",
+            "body": "A belföldi rögökön újjászülető rend kapujában Ruff Bálint zsoldosként és kormányzóként hirdeti, hogy a korona országaiban a lelkek átformálódása már kivirágzott, ám a mély gyökerekkel bíró NER-birodalom vasbilincseinek lefejtéséhez még türelemre van szükség. Az idők alkonyán a magántőkealapok törvényeinek kardjával vágják át a rejtett hálókat, miközben az állambiztonsági akták poraiból feltámadó, téves listák vihara miatt belső ítéletidő suhog a levéltár falai között. E sötét órán Feledy Botond, a kettős alkuk vándora is elbukott, mert köpönyege alatt rejtette a múlt titkait a hatalom szeme elől. A változás szele fúj e földön, ám a birodalom építői vigyáznak, hogy a gazdaság aranyoszlopai ne dőljenek romba a tisztulás tűzvészében."
+          },
+          "reito": {
+            "title": "A NER-talanítás lassú menete és a levéltári elírások komédiája",
+            "body": "A belföldi tájék bűvös körében Ruff Bálint osztja az észt a gazdaság rendbetételéről, megállapítva, hogy a NER lebonthatatlan bástyái ellen a türelem a legjobb fegyver. A gyakorlati eredmény kézzelfogható: a magántőkealapok törvényeivel matatnak, mint egy túlbuzos órás, miközben az állambiztonsági akták nyilvánosságra hozatala annyira jól sikerült, hogy belső vizsgálatot indítottak az ügynöklistára tévedésből felkerült megfigyeltek miatt. A mókás kettős játékot űző Feledy Botondot pedig hamarabb lapátra tették, mint hogy kiejthette volna a tanácsadói címet. A kormányzat így menetel előre, miközben péntekenként vidéken keresi a valóságot, ha már a fővárosban néha összekeverik a listákat."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -4928,7 +5497,43 @@
       "title": "Hamiltonnak igaza van? Az érzelmek döntenek, Leclerc-rel kivételezik a Ferrari",
       "link": "https://www.origo.hu/sport/f1/2026/11/lewis-hamilton-charles-leclerc-ferrari-kivetelezes",
       "description": "A két pilóta között egyre feszültebb a viszony.",
-      "image": "https://cdn.origo.hu/2026/11/SR5EdwNZLxy9Kt6pj516IpbskSTJf0c58GNgUNSk02E/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xOC9hN2Y1N2FjY2VlZjdkMmYzNjNlNzUzZDZkNzViN2M5YWJhMTFmYzE5ODc4MTYzNzUxMWUzMDUxMjk3YjgwNDkz.jpg"
+      "image": "https://cdn.origo.hu/2026/11/SR5EdwNZLxy9Kt6pj516IpbskSTJf0c58GNgUNSk02E/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xOC9hN2Y1N2FjY2VlZjdkMmYzNjNlNzUzZDZkNzViN2M5YWJhMTFmYzE5ODc4MTYzNzUxMWUzMDUxMjk3YjgwNDkz.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Hamiltonnak igaza van? Az érzelmek döntenek, Leclerc-rel kivételezik a Ferrari",
+        "summary": "A két pilóta között egyre feszültebb a viszony.",
+        "url": "https://www.origo.hu/sport/f1/2026/11/lewis-hamilton-charles-leclerc-ferrari-kivetelezes",
+        "published": "Thu, 26 Nov 2026 18:45:00 +0000",
+        "categories": [
+          "f1"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/SR5EdwNZLxy9Kt6pj516IpbskSTJf0c58GNgUNSk02E/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xOC9hN2Y1N2FjY2VlZjdkMmYzNjNlNzUzZDZkNzViN2M5YWJhMTFmYzE5ODc4MTYzNzUxMWUzMDUxMjk3YjgwNDkz.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.origo.hu/sport/szerzo/klar-bence-1",
+          "https://www.origo.hu/sport/f1/2026/11/lewis-hamilton-charles-leclerc-ferrari-kivetelezes/kommentek",
+          "https://www.origo.hu/sport/cimke/ferrari",
+          "https://www.origo.hu/sport/cimke/charles-leclerc",
+          "https://www.origo.hu/sport/cimke/forma-1-2",
+          "https://www.origo.hu/sport/cimke/lewis-hamilton"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "f23bf980a8e8e48d90a7d5900aeccf4c4a1dbc47e7e4f871bf554bbed746acb6",
+        "variants": {
+          "original": {
+            "body": "A Max Verstappen győzelmével zárult Forma-1-es Las Vegas-i Nagydíj után a Ferrari istállónál Lewis Hamilton és Charles Leclerc kapcsolatát, valamint a csapaton belüli feszültségeket Riccardo Ceccarelli mental tréner elemezte. A szakember megállapítása szerint a nyolc éve a csapathoz tartozó, tisztelettudó Leclerc érzelmi kötődés és védelem élvez a két éve érkező, korábban máshol vb-címeket nyerő Hamiltonnal szemben, akit a környezet és a szurkolók nehezebben fogadnak el. A helyzet hátterében nem a pilóták megkérdőjelezhetetlen képességei, hanem az emberi tényezők, az empátia és az érzelmek állnak, miközben a felek a szezon során már harmadszor ütköztek a pályán. A Forma-1 2026-os versenynaptára november 27–29."
+          },
+          "tolkien": {
+            "title": "A vörös vár falai között a régi kötelékek törvénye uralkodik",
+            "body": "A Las Vegas mezején lezajlott viadal után sötét árnyék vetült a Ferrari istállójára, miután Lewis Hamilton és Charles Leclerc harcosai harmadszor is összecsaptak a porondnapon. Riccardo Ceccarelli bölcs krónikásként feltárta, hogy a gépek adatai mellett az emberi szívek hajlamai és a nyolc esztendeje ültetett gyökerek döntik el, kit ölel át a tisztelet pajzsa. A messziről jött, hétkoronás bajnok, Hamilton nehezen talál utat a maranellói nép és a belső körök bizalmához, míg a hűséges Leclerc a szurkolók elhivatott védelmét élvezi. E viharos idők után a Forma-1 serege 2026 novemberének végén Katar homokja felé veszi útját, hogy Abu-Dhabi kapuinál zárja le a bajnoki viadalt."
+          },
+          "reito": {
+            "title": "Ahol a grafikonok bedobják a törölközőt, ott lépnek színre a Ferraris érzelmek",
+            "body": "A Las Vegas-i Forma-1-es aszfaltszaggatót Max Verstappen nyerte, de a valódi show a Ferrarinál ment, ahol Lewis Hamilton és Charles Leclerc idén már harmadszor kóstolgatta egymást pályán kívül és belül. Riccardo Ceccarelli mental tréner szerint a stopperórákat és az adatokat csúfosan felülírja a puszta nosztalgia: a nyolc éve házon belüli, mintagyerekként viselkedő Leclerc mögött bástyaként áll a csapat, míg a hét bajnoki címmel érkező Hamiltonnak még a saját szurkolói is nehezen adják meg a kulcsot a maranellói garázshoz. A pilóták közti feszültség így garantáltan kitart a november 27–29-i Katari Nagydíjig, majd a tengerparti fináléig Abu-Dzabiban."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -4937,7 +5542,38 @@
       "title": "Váratlan felfedezést tett a sötét univerzum titkait kutató űrtávcső",
       "link": "https://www.origo.hu/tudomany/2026/11/ustokos-euclid-urtavcso-felfedezes",
       "description": "Az Európai Űrügynökség Euclid teleszkópját távoli galaxisok vizsgálatára tervezték, most mégis egy korábban ismeretlen üstököst talált. Az égitest különleges pályán mozog, amelynek megtétele több ezer évig tarthat.",
-      "image": "https://cdn.origo.hu/2026/11/24C7qDnr17Ic-SQKY6UciO3BqqNr-kqZ54j5NqHUf40/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS81Njg3YTlhMWYyMWVjZmRiYTdjMjkyYjgxNzNhMzI3ZmUxNDY1MGQwYzFkOGVhODM1NjU5MTIxZDUxMzVlYjU4.jpg"
+      "image": "https://cdn.origo.hu/2026/11/24C7qDnr17Ic-SQKY6UciO3BqqNr-kqZ54j5NqHUf40/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS81Njg3YTlhMWYyMWVjZmRiYTdjMjkyYjgxNzNhMzI3ZmUxNDY1MGQwYzFkOGVhODM1NjU5MTIxZDUxMzVlYjU4.jpg",
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Váratlan felfedezést tett a sötét univerzum titkait kutató űrtávcső",
+        "summary": "Az Európai Űrügynökség Euclid teleszkópját távoli galaxisok vizsgálatára tervezték, most mégis egy korábban ismeretlen üstököst talált. Az égitest különleges pályán mozog, amelynek megtétele több ezer évig tarthat.",
+        "url": "https://www.origo.hu/tudomany/2026/11/ustokos-euclid-urtavcso-felfedezes",
+        "published": "Thu, 26 Nov 2026 18:30:00 +0000",
+        "categories": [
+          "technology"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/24C7qDnr17Ic-SQKY6UciO3BqqNr-kqZ54j5NqHUf40/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS81Njg3YTlhMWYyMWVjZmRiYTdjMjkyYjgxNzNhMzI3ZmUxNDY1MGQwYzFkOGVhODM1NjU5MTIxZDUxMzVlYjU4.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.origo.hu/cimke/naprendszerben-2"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "b94598b79e547b3b854624982587235d2b721c597c2488aece436c13e763eef5",
+        "variants": {
+          "original": {
+            "body": "Az Európai Űrügynökség Euclid űrtávcsöve a sötét univerzum kutatása közben, a 2026. szeptember 16. és 24. között az Euclid Deep Field North területén készített 16 felvételen egy korábban ismeretlen üstököst fedezett fel a Naprendszerben."
+          },
+          "tolkien": {
+            "title": "A csillagok mélyéről felbukkanó vándor krónikája",
+            "body": "Az Európai Űrügynökség Euclid nevű égi lencséje, mely a sötét idők messzi galaxisainak őrzésére szolga, a csillagok birodalmában váratlan kincset talált, miközben 2026. szeptember 16. és 24. között az Euclid Deep Field North földjén járt."
+          },
+          "reito": {
+            "title": "Hogyan ugrott ki egy üstökös a sötét galaxisok vadászának hálójából?",
+            "body": "Az Európai Űrügynökség Euclid elnevezésű, galaxisvadászatra tervezett űrtávcsöve annyira belemerült a sötét univerzum bámulásába, hogy 2026. szeptember 16. és 24. között a Naprendszer közepén bóklászva egy addig senki által sem látott üstökösbe botlott az Euclid Deep Field North égterületén."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "A Hetedik Sor Közepe",
@@ -4946,7 +5582,57 @@
       "title": "A leggyengédebb érintés – kritika",
       "link": "https://hetediksor.hu/2026/11/26/a-leggyengedebb-erintes-kritika/",
       "description": "Rachel Fleit dokumentumfilmjében, A leggyengédebb érintésgyönyörűen beleolvadnak az élet kérdései a körülöttük lévő világ csodáiba, miközben lírai, de közben teljesen hétköznapi képet fest két középkorú ember barátságáról. Az egyiknek ritka betegsége van, és Emma Fogartynak hívják. A másiknak szokatlan a munkája, és Colin Farrell a neve.",
-      "image": ""
+      "image": "",
+      "prepared": {
+        "source": "A Hetedik Sor Közepe",
+        "title": "A leggyengédebb érintés – kritika",
+        "summary": "Rachel Fleit dokumentumfilmjében, A leggyengédebb érintésgyönyörűen beleolvadnak az élet kérdései a körülöttük lévő világ csodáiba, miközben lírai, de közben teljesen hétköznapi képet fest két középkorú ember barátságáról. Az egyiknek ritka betegsége van, és Emma Fogartynak hívják. A másiknak szokatlan a munkája, és Colin Farrell a neve.",
+        "url": "https://hetediksor.hu/2026/11/26/a-leggyengedebb-erintes-kritika/",
+        "published": "Thu, 26 Nov 2026 18:44:43 +0000",
+        "categories": [
+          "films"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://hetediksor.hu/category/filmkritika/",
+          "https://hetediksor.hu/category/fooldal/",
+          "https://hetediksor.hu/author/takaslany/",
+          "https://hetediksor.hu/2026/11/26/a-leggyengedebb-erintes-kritika/",
+          "https://www.facebook.com/sharer.php",
+          "https://twitter.com/intent/tweet",
+          "https://pinterest.com/pin/create/button/",
+          "https://plus.google.com/share",
+          "https://www.linkedin.com/cws/share",
+          "https://hetediksor.hu/wp-content/uploads/2026/11/leggyengebb-erintes-4.jpg",
+          "https://hetediksor.hu/wp-content/uploads/2026/11/leggyengebb-erintes-3.jpg",
+          "https://hetediksor.hu/2025/06/02/colin-farrell-es-danny-devito-ket-zsenialis-pingvin-barati-csevegese-video/",
+          "https://hetediksor.hu/2024/11/22/pingvin-kritika/",
+          "https://hetediksor.hu/wp-content/uploads/2026/11/leggyengebb-erintes-2.jpg",
+          "https://hetediksor.hu/2023/01/26/a-sziget-szellemei-kritika/",
+          "https://hetediksor.hu/2022/08/15/a-tizenharmak-kritika/",
+          "https://hetediksor.hu/2025/01/24/smoke-sauna-sisterhood-kritika/",
+          "https://hetediksor.hu/wp-content/uploads/2026/11/leggyengebb-erintes-5.webp",
+          "https://hetediksor.hu/wp-content/uploads/2017/05/85.png",
+          "https://hetediksor.hu/2019/09/30/akik-szeket-vettek-a-hetedik-sor-kozepere/"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "ae9f8b372823feb5a731b3afcc0181f53b41b531874516390b810f06ba881b39",
+        "variants": {
+          "original": {
+            "body": "A Rachel Fleit által rendezett, amerikai-ír gyártású, 103 perces, 13+ korhatár-besorolású A leggyengédebb érintés (The Slightest Touch) című dokumentumfilm az HBO Max platformon látható, és a filmek rovatához kapcsolódóan két középkorú ember, a ritka és gyógyíthatatlan, rendkívül érzékeny bőrrel járó Epidermolysis Bullosában szenvedő, 2024-ben negyvenedik évét betöltő Emma Fogarty, valamint az Írországban született, Hollywoodban is dolgozó, két gyerekes színész, Colin Farrell barátságát mutatja be. A film legfontosabb gyakorlati következménye és tétje az, hogy a nézők nyomon követhetik és izgulhatnak egy két évvel ezelőtti jótékonysági maratonfutásért, amelynek során Colin Farrell eltolta Emmát azon a 4000 méteren, ami a negyven évének nehézségeit volt hivatott legyőzni. A történet során kibontakozik a szereplők élete, függetlensége, a kutatásra és a betegek életminőségének javítására szánt elenyésző pénzösszegek ellenére vállalt figyelem, valamint a Smoke Sauna Sisterhood érzékenységét idéző, méltó és odaforduló filmbeli ábrázolás."
+          },
+          "tolkien": {
+            "title": "A törékeny bőr krónikája és a selymes érintések hídja",
+            "body": "A Rachel Fleit kezét dicsérő, amerikai-ír földön született, 103 perces és 13+ korhatár-pecsétes A leggyengédebb érintés (The Slightest Touch) című filmalkotás az HBO Max csarnokában tárja elénk a filmek művészetén keresztül Emma Fogarty, a ritka és gyógyíthatatlan kór láncait viselő lélek, valamint Colin Farrell, a messzi Hollywoodból és Írország rögös útjairól érkező színész sorsának összefonódását. Mint fénylő fáklya a legsötétebb éjszakában, úgy villan fel a műben a megmérettetés napja, midőn Colin erejét megfeszítve tolta végig Emmát azon a 4000 méteres maratonfutáson, mely a negyven esztendő súlyát hivatott porba dönteni. E sorsfordító órákban a törékeny testű bajnok és a harcedzett színész barátsága nemes szövetséggé érik, méltóságteljesen mutatva meg a Smoke Sauna Sisterhood érzékenységét idéző tisztasággal, miként győzi le a tiszta törődés a mindenség viharait."
+          },
+          "reito": {
+            "title": "Maraton futópad helyett: amikor egy színész eltolja a negyven évet",
+            "body": "Az HBO Max műsorán futó, 103 perces, 13+ korhatáros amerikai-ír A leggyengédebb érintés (The Slightest Touch) című dokumentumfilm Rachel Fleit rendezésében a filmek rovatában rántja le a leplet arról a nem mindennapi szövetségről, amelyet a ritka, gyógyíthatatlan Epidermolysis Bullosával élő Emma Fogarty és az ír származású, Hollywoodban is megforduló színész, Colin Farrell hozott össze. A gyakorlatban ez a film arra kényszeríti a gyanútlan nézőt, hogy izguljon egy két évvel ezelőtti jótékonysági futásért, ahol Colin a tettek mezőjére lépve pontosan 4000 méteren át tolta maga előtt Emmát a negyvenedik születésnapja körüli akadályok ellenére. A Smoke Sauna Sisterhood stílusát idéző alkotásban éjszakai los angelesi futások, szaunák és hangüzenetek váltják egymást, miközben a szereplők a legkeményebb testi nehézségek közepette is bizonyítják, hogy az élet nem a végpontokon, hanem a negyvenezer apró hétköznapi rezdülésen dől el."
+          }
+        }
+      },
+      "preparedVividStyles": true
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
