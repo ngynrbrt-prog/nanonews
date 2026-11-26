@@ -311,7 +311,10 @@ body:has(.story-dialog[open]) {
 }
 .dialog-content:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
 .dialog-image { height: 220px; }
-.dialog-image[hidden], .dialog-style-switch { display: none; }
+.dialog-image[hidden] { display: none; }
+.dialog-style-switch { margin: 8px 0 0; }
+.dialog-style-switch button { min-height: 44px; }
+.dialog-style-switch button:focus-visible { outline: 2px solid var(--red); }
 @media (max-width: 760px) {
   .storylist, .story-group-cards {
     --story-gap: 12px;
@@ -320,9 +323,6 @@ body:has(.story-dialog[open]) {
   .story-dialog { height: 90vh; height: 90dvh; }
   .dialog-toolbar { padding: 8px 16px; }
   .dialog-content { padding: 0 16px 16px; }
-  .dialog-style-switch { display: grid; margin: 8px 0 0; }
-  .dialog-style-switch button { min-height: 44px; }
-  .dialog-style-switch button:focus-visible { outline: 2px solid var(--red); }
 }
 </style></head>
 <body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><div class="edition-switcher"><span id="today" class="edition-date"></span><select id="issue-picker" class="issue-picker" aria-label="Az aznapi kiadás kiválasztása"><option value="latest">A mai szám</option></select></div></div></header><div class="brand-lockup"><div class="brand-inner"><div class="brand-heading"><div class="brand">NANO<span>News</span></div><p class="strap"><span>Hírek röviden, a stílus rajtad áll.</span></p></div><div class="style-control-wrap"><div class="brand-style-selector" role="group" aria-label="Írás stílusa"><button class="mode" type="button" data-style="original">Eredeti összefoglaló</button><button class="mode" type="button" data-style="tolkien">Tolkien tollából</button><button class="mode" type="button" data-style="reito">Rejtő Jenő stílus</button></div></div></div></div><nav class="nav topic-nav" aria-label="Témakörök"><details class="topic-accordion" open><summary class="topic-nav-title"><span>TÉMAKÖRÖK</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav>
