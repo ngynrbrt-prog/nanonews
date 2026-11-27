@@ -37,7 +37,6 @@ jobs:
 
       - name: Stílusok feldolgozása és mentése
         env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           REQUEST_MODE: ${{ inputs.mode }}
         run: |
