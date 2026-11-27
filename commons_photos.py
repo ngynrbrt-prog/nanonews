@@ -8,7 +8,12 @@ from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
 
+PHOTO_VERSION = 2
+NAME = re.compile(r"\b[A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ-]{2,}(?: [A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ-]{2,}){1,2}\b")
+
 TOPICS = (
+    (r"kézilabd|kézi bl", "handball match"),
+    (r"megélhet|szegénység|energiaszegénység|fűteni", "household heating radiator"),
     (r"\b(?:f1|formula[- ]?1|forma[- ]?1)\b", "formula race car"),
     (r"\b(?:nfl|super bowl|touchdown)\b|seahawks|amerikai futball", "american football"),
     (r"\bnba\b|kosárlabda", "basketball court"),
@@ -21,25 +26,21 @@ TOPICS = (
     (r"napenerg|napelem", "solar panels"),
     (r"szélenerg|szélerőmű", "wind turbines"),
     (r"ingatlan|lakáspiac", "apartment buildings"),
-    (r"\btőzsde|részvénypiac|\bbux\b|\bnasdaq\b", "stock market"),
+    (r"\btőzsde|részvénypiac|\bbux\b|\bnasdaq\b", "stock exchange trading floor"),
 )
-CATEGORY_QUERIES = {
-    "nba": "basketball court", "nfl": "american football",
-    "f1": "formula race car", "cycling": "road cycling",
-    "tennis": "tennis court", "darts": "dartboard",
-    "property": "apartment buildings",
-}
-
-
 def photo_query(story):
     original = (story.get("variants") or {}).get("original") or {}
-    for value in (original.get("body"), story.get("title")):
-        plain_text = unescape(re.sub(r"<[^>]*>", " ", value or "")).casefold()
-        for pattern, query in TOPICS:
-            if re.search(pattern, plain_text):
-                return query
-    return next((CATEGORY_QUERIES[cat] for cat in story.get("categories", [])
-                 if cat in CATEGORY_QUERIES), None)
+    for value in (story.get("title"), original.get("body")):
+        plain_text = unescape(re.sub(r"<[^>]*>", " ", value or ""))
+        topic = next((query for pattern, query in TOPICS
+                      if re.search(pattern, plain_text.casefold())), None)
+        if not topic:
+            continue
+        name = NAME.search(plain_text)
+        if name and name.group() not in {"Premier League", "Tour de France", "Super Bowl"}:
+            return '"' + name.group() + '" ' + topic.split()[0]
+        return topic
+    return None
 
 
 def on_host(url, hosts):
@@ -62,7 +63,12 @@ def search_photo(query):
     if "error" in payload:
         raise ValueError("Commons API error")
     pages = payload.get("query", {}).get("pages", [])
-    for page in sorted(pages, key=lambda item: item.get("index", 0)):
+    for page in sorted(pages, key=lambda item: item.get("index") or 0):
+        if query.startswith('"'):
+            name = query.split('"')[1].casefold()
+            filename = page.get("title", "").replace("_", " ").casefold()
+            if name not in filename:
+                continue
         info = next(iter(page.get("imageinfo", [])), {})
         if info.get("mime") not in {"image/jpeg", "image/png", "image/webp"}:
             continue
@@ -89,18 +95,16 @@ def search_photo(query):
 
 
 def enrich_photos(stories, within_budget):
-    """Return the article URLs whose Pexels metadata was populated."""
+    """Return the article URLs whose Commons metadata was populated."""
     results = {}
     updated = {}
     for story in stories:
         if not within_budget():
             break
-        if story.get("archiveDate") or story.get("commonsPhoto") or not story.get("url"):
+        if story.get("archiveDate") or (story.get("commonsPhoto") or {}).get("version") == PHOTO_VERSION or not story.get("url"):
             continue
         query = photo_query(story)
-        if not query:
-            continue
-        if query not in results:
+        if query and query not in results:
             if len(results) >= 4:
                 continue
             try:
@@ -111,7 +115,7 @@ def enrich_photos(stories, within_budget):
             except (URLError, TimeoutError, ValueError) as error:
                 print(f"Wikimedia Commons: {type(error).__name__}", flush=True)
                 break
-        photo = results[query] or {"unavailable": True}
+        photo = dict(results.get(query) or {"unavailable": True}, version=PHOTO_VERSION)
         story["commonsPhoto"] = photo
         updated[story["url"]] = photo
     return updated
