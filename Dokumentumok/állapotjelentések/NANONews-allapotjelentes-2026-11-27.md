@@ -139,43 +139,6 @@ A mérési időszak budapesti idő szerint 2026-11-26 16:13:24 és 2026-11-27 03
 | BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
 | Összesen | 237 | 104 | 68 | 68 | 68 | 68 | 65,4% | 1 |
 
-### A következő kiadás adatállapota
+Az RSS-adatok utolsó elérhető mentése 2026-11-27 01:45:30. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/af422a819707271090660645f087ff49693c5d1d) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/62d19726f8df43adcbc8ba995f6a6f43393d0490)
 
-A **2026-11-27 05:00**-s kiadás előzetes alapja **104** rovatba illő cikk, közülük **68** mindhárom stílusban kész. Az utolsó rögzített RSS-gyűjtés **2026-11-27 01:45:22**, a gyűjtés kora **74 perc 37 másodperc**. A 02:00-s mérés óta 03:00-ig nem érkezett új RSS-mentés. A kiadásig frissebb mentés érkezhet.
-
-Az RSS-adatok utolsó elérhető mentése 2026-11-27 01:45:30. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/af422a819707271090660645f087ff49693c5d1d)
-
-### Rovatok a következő kiadáshoz
-
-| Rovat | Besorolt cikkek |
-|---|---:|
-| Arsenal | 0 |
-| Manchester City | 0 |
-| Bayern München | 0 |
-| Manchester United | 0 |
-| Como | 0 |
-| Premier League | 0 |
-| Bajnokok ligája | 1 |
-| F1 | 3 |
-| NBA | 3 |
-| NFL | 8 |
-| Seattle Seahawks | 0 |
-| Kerékpár | 0 |
-| Darts | 0 |
-| Környezetvédelem | 7 |
-| Technológia / Fejlesztések | 6 |
-| Ingatlan | 1 |
-| Tenisz | 2 |
-| Belföldi parlament | 12 |
-| Belföldi tőzsde | 1 |
-| Külföldi tőzsde | 1 |
-| Belföld | 67 |
-| Külföld | 11 |
-| Filmek | 2 |
-| Tőzsde | 0 |
-| Téli sportok | 1 |
-| Sportgazdaság | 1 |
-
-**104 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
-
-Mentés indítása budapesti idő szerint 2026-11-27 03:04:23.
+Mentés indítása budapesti idő szerint 2026-11-27 03:47:18.
