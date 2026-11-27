@@ -324,3 +324,63 @@ A mérési határ után a reggeli szám 06:03:43-as időbélyeggel megjelent. A 
 **106 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
 
 Mentés indítása budapesti idő szerint 2026-11-27 06:05:41.
+
+## 07:00
+
+A mérési időszak budapesti idő szerint 2026-11-27 06:03:43 és 2026-11-27 07:00 között tartott. A következő kiadás tervezett ideje 2026-11-27 16:00.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 1 | 1 | 0 | 0 | 0 | 0 | 0,0% | 8 |
+| HVG | 2 | 2 | 0 | 0 | 0 | 0 | 0,0% | 3 |
+| Nemzeti Sport | 0 | 0 | 0 | 0 | 0 | 0 | — | 5 |
+| NBAnews.hu | 0 | 0 | 0 | 0 | 0 | 0 | — | 1 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 2 |
+| 444.hu | 4 | 2 | 0 | 0 | 0 | 0 | 0,0% | 10 |
+| Portfolio.hu | 2 | 2 | 0 | 0 | 0 | 0 | 0,0% | 3 |
+| Origo.hu | 5 | 0 | 0 | 0 | 0 | 0 | — | 1 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 14 | 7 | 0 | 0 | 0 | 0 | 0,0% | 33 |
+
+### A következő kiadás adatállapota
+
+A **2026-11-27 16:00**-s kiadás előzetes alapja **7** rovatba illő cikk, közülük **0** mindhárom stílusban kész. Az utolsó rögzített RSS-gyűjtés ideje **2026-11-27 06:46:38**, a gyűjtés kora **13 perc 21 másodperc**. A kiadásig újabb mentés érkezhet.
+
+Az RSS-adatok utolsó elérhető mentése 2026-11-27 06:46:50. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/be7bcb05f00a156fc93f2926b36f46f7f7ecbf1b) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/427323614b21b6c69ce4fead6525ddd70bb19410)
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Arsenal | 0 |
+| Manchester City | 0 |
+| Bayern München | 0 |
+| Manchester United | 0 |
+| Como | 0 |
+| Premier League | 0 |
+| Bajnokok ligája | 0 |
+| F1 | 0 |
+| NBA | 0 |
+| NFL | 0 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Környezetvédelem | 2 |
+| Technológia / Fejlesztések | 0 |
+| Ingatlan | 0 |
+| Tenisz | 0 |
+| Belföldi parlament | 0 |
+| Belföldi tőzsde | 0 |
+| Külföldi tőzsde | 0 |
+| Belföld | 2 |
+| Külföld | 3 |
+| Filmek | 0 |
+| Tőzsde | 0 |
+| Sportgazdaság | 0 |
+| Téli sportok | 0 |
+
+**7 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+
+Mentés indítása budapesti idő szerint 2026-11-27 07:04:45.
