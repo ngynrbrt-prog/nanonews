@@ -3213,120 +3213,14 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Fri, 27 Nov 2026 14:56:00 +0100",
+      "published": "Fri, 27 Nov 2026 15:19:00 +0100",
       "observed": "2026-11-27T09:08:13.353363+01:00",
       "title": "Még mindig nem működik az ukránok egyik legfontosabb fegyvere, több száz kilométerre a határtól lángol az orosz gyár - Háborús híreink pénteken",
       "link": "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2304407776-873274.jpg",
-      "prepared": {
-        "source": "Portfolio.hu",
-        "title": "Még mindig nem működik az ukránok egyik legfontosabb fegyvere, több száz kilométerre a határtól lángol az orosz gyár - Háborús híreink pénteken",
-        "url": "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
-        "published": "Fri, 27 Nov 2026 14:56:00 +0100",
-        "categories": [
-          "foreign"
-        ],
-        "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2304407776-873274.jpg",
-        "summaryVersion": "short-v2.1-3-4",
-        "sourceArticleLinks": [
-          "https://www.google.com/preferences/source",
-          "https://www.portfolio.hu/global/20261127/bemondta-az-ukran-vezeto-egyetlen-dolog-kell-ahhoz-hogy-ukrajna-konnyeden-megnyerje-a-haborut-879746",
-          "https://www.rbc.ua/rus/news/kbi-evropa-potroyila-pidtrimku-ukrayini-mi-1795699300.html",
-          "https://www.portfolio.hu/percrol-percre/879532/fold-alatti-bazist-semmisitettek-meg-az-ukran-erok-1068480",
-          "https://www.portfolio.hu/global/20261127/elokerultek-a-felvetelek-az-orosz-teveben-bukkant-fel-a-titokzatos-szu-75-os-prototipusa-879704",
-          "https://www.armyrecognition.com/news/aerospace-news/2026/russia-reveals-new-clues-about-su-75-checkmate-prototype-at-key-military-aircraft-factory",
-          "https://www.portfolio.hu/global/20261127/evtizedes-lepteku-fegyvervasarlas-megduplazhatja-lanctalpas-flottajat-az-eszaki-allam-879700",
-          "https://www.armyrecognition.com/news/army-news/2026/finland-orders-160-cv9035-mkiv-infantry-fighting-vehicles-for-eur2-billion-to-replace-soviet-bmp-2",
-          "https://www.portfolio.hu/global/20261127/riasztast-adtak-ki-a-keleti-hataron-levegobe-emelkedett-a-nato-uj-fegyvere-879698",
-          "https://www.armyrecognition.com/news/aerospace-news/2026/nato-scrambles-fighter-jets-and-latvia-launches-interceptor-drone-after-airspace-breach",
-          "https://www.portfolio.hu/percrol-percre/879532/szentpetervar-is-kapott-dronokat-1068462",
-          "https://tass.ru/proisshestviya/28361275",
-          "https://www.portfolio.hu/global/20261127/zelenszkij-sem-birta-szo-nelkul-hagyni-trump-amokfutasat-ennyi-erovel-hitlerrel-is-baratkozhatna-879642",
-          "https://www.portfolio.hu/global/20261127/lancreakciotol-tart-a-katonai-szovetseg-europa-szomszedsagaba-terjedhet-ki-ukrajna-es-oroszorszag-haboruja-879652",
-          "https://breakingdefense.com/2026/11/nato-sees-no-russian-naval-buildup-in-the-med-after-strike-near-libya-but-analysts-warn-of-wider-risks/",
-          "https://www.portfolio.hu/percrol-percre/879532/sebesultek-ukrajnaban-1068436",
-          "https://www.portfolio.hu/global/20261127/europa-fellelegezhet-amerika-elhalasztotta-a-nagy-dontest-amitol-annyira-tartanak-a-kontinensen-879618",
-          "https://english.alarabiya.net/News/world/2026/11/26/us-to-delay-review-of-military-presence-in-europe-sources",
-          "https://www.portfolio.hu/percrol-percre/879532/jelentett-az-ukran-legvedelem-1068414",
-          "https://www.portfolio.hu/global/20261127/sulyos-figyelmeztetes-erkezett-most-johet-az-europa-elleni-orosz-akciok-java-879566",
-          "https://edition.cnn.com/2026/11/26/europe/russias-europe-ukraine-iiss-report-intl-hnk-ml",
-          "https://www.portfolio.hu/global/20261127/varatlan-bejelentest-tett-trump-orommel-latna-vlagyimir-putyint-a-kozelgo-amerikai-g20-csucson-879554",
-          "https://www.portfolio.hu/global/20261127/ejszakai-drontamadas-oroszorszagban-a-raketagyartas-szempontjabol-kulcsfontossagu-uzem-kapott-talalatot-879540",
-          "https://kyivindependent.com/explosions-reported-at-power-plant-synthetic-rubber-factory-in-russias-tula-oblast-following-drone-attack/",
-          "https://www.portfolio.hu/percrol-percre/879532/ujabb-hidat-lottek-az-ukranok-1068386",
-          "https://www.portfolio.hu/global/20261127/trukkos-lepes-az-amerikai-elnoktol-trump-utolag-irta-at-a-nato-val-kozos-nyilatkozatot-879536",
-          "https://kyivindependent.com/trump-adds-ukraine-to-warning-against-expanding-war-diverging-from-joint-nato-statement/",
-          "https://www.portfolio.hu/global/20261127/olyat-mondott-trump-hogy-csak-nezunk-nem-is-segit-annyira-irannak-oroszorszag-879538",
-          "https://www.portfolio.hu/global/20261127/kimondta-zelenszkij-lekorlatoztak-a-csucstechnologiat-tehetetlenul-nezik-az-orosz-csapasokat-ukrajnaban-879534",
-          "https://kyivindependent.com/starshield-restrictions-still-hampering-ukraines-drone-defenses-zelensky-tells-bbc/",
-          "https://www.portfolio.hu/percrol-percre/879532/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-pentekenaz-orosz-1068380",
-          "https://www.portfolio.hu/global/20261126/tortenelmet-irt-ukrajna-a-lezerfegyver-bevetesevel-elveszitheti-egyik-fo-szovetsegeset-putyin-hireink-az-orosz-ukran-haborurol-csutortokon-879200",
-          "https://www.portfolio.hu/global/20261126/megfordult-a-kocka-csufos-kudarcba-fulladt-az-oroszok-nagy-terve-a-fronton-mar-vedekezesre-kenyszerulnek-879456",
-          "https://www.portfolio.hu/global/20261126/magyarorszag-szomszedjaban-mar-latjak-a-fenyt-az-alagut-vegen-ekkor-johet-el-a-beke-ukrajnaban-879450",
-          "https://www.portfolio.hu/cimke/drón",
-          "https://www.portfolio.hu/cimke/oroszország",
-          "https://www.portfolio.hu/cimke/műhold",
-          "https://www.portfolio.hu/cimke/ukrajna",
-          "https://www.portfolio.hu/cimke/volodimir zelenszkij",
-          "https://www.portfolio.hu/cimke/dróntámadás",
-          "https://www.portfolio.hu/cimke/orosz-ukrán háború",
-          "https://www.portfolio.hu/cimke/zaporizzsja",
-          "https://www.portfolio.hu/cimke/front",
-          "https://www.portfolio.hu/cimke/Starshield",
-          "https://www.portfolio.hu/global/20261127/beerhet-az-egyesult-allamok-strategiaja-a-totalis-osszeomlas-szelere-sodrodhatott-az-iszlamista-rezsim-879730",
-          "https://www.portfolio.hu/global",
-          "https://www.portfolio.hu/global/20261127/38-eve-nem-latott-veszjelzes-a-vilagpiacon-sulyos-kovetkezmenyei-lehetnek-a-nyersanyaghianynak-879692",
-          "https://www.portfolio.hu/befektetes/20261127/extrem-lehetoseget-talaltunk-a-profik-szerint-639-szazalekkal-tobbet-erhet-ez-a-reszveny-879664",
-          "https://www.portfolio.hu/portfolio-signature",
-          "https://www.portfolio.hu/uzlet/20261127/exporttilalom-ala-eso-csucskategorias-nvidia-chipeket-talaltak-kinaban-egy-alice-huanghoz-kotheto-cegnel-879722",
-          "https://www.portfolio.hu/uzlet",
-          "https://www.portfolio.hu/global/20261127/megszuletett-a-strategiai-megallapodas-modern-katonai-jarmuvek-gyartasa-erkezik-magyarorszagra-879720",
-          "https://www.portfolio.hu/gazdasag/20261127/milliardos-gyanus-kifizetesekre-es-politikai-befolyasra-derult-feny-a-kozmediaban-879718",
-          "https://www.portfolio.hu/gazdasag",
-          "https://www.portfolio.hu/gazdasag/20261127/veszelyben-a-szuperhatalom-katonai-titkai-feltortek-az-amerikai-hadero-kulcsfontossagu-rendszeret-879714",
-          "https://indexadhu.hit.gemius.pl/hitredir",
-          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
-          "https://www.portfolio.hu/global/20261127/sorsdonto-fordulat-johet-a-vilag-legfontosabb-chipgyartojanal-amerika-retteg-mi-fog-most-tortenni-879104",
-          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
-          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
-          "https://www.portfolio.hu/gazdasag/20261127/ujabb-letartoztatas-az-nka-botrany-ugyeben-879744",
-          "https://www.portfolio.hu/uzlet/20261127/oldoklo-verseny-indulhat-a-generali-reszvenyeiert-a-ket-legnagyobb-olasz-bank-kozott-879742",
-          "https://www.portfolio.hu/uzlet/20261127/folytatodik-a-felpattanas-a-tozsdeken-ralizik-az-otp-879544",
-          "https://www.portfolio.hu/befektetes/20261127/tobb-mint-egyeves-melypont-utan-felpattant-az-arany-879738",
-          "https://www.portfolio.hu/gazdasag/20261127/csunya-szifiliszjarvany-tombol-magyarorszagon-lepett-a-hatosag-879740",
-          "https://www.portfolio.hu/gazdasag/20261127/hirtelen-lefordult-az-europai-gazar-pedig-meg-csak-most-kezdodik-az-igazi-tel-879736",
-          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
-          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
-          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
-          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
-          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
-          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
-          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
-          "https://www.portfolio.hu/podcast",
-          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
-          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
-          "https://www.portfolio.hu/podcast/20261126/euro-ide-vagy-oda-nem-usszuk-meg-a-koltsegvetesi-rendrakast-879354"
-        ],
-        "contentBasis": "article",
-        "sourceHash": "e0ce0ba9777adf192a7751476a1ccc29e13e0c14547832462bf0787d86fd7fa2",
-        "variants": {
-          "original": {
-            "body": "Az amerikai Starshield műholdas kommunikációs rendszer korlátozásai miatt továbbra is fennakadások tapasztalhatók az ukrán drónok irányításában, ami közvetlenül rontja az ukrán légvédelem hatékonyságát az orosz támadódrónokkal szemben. A BBC-nek adott interjúban Volodimir Zelenszkij ukrán elnök emellett bírálta Washington késlekedését a Patriot elfogórakéták szállításával kapcsolatban, miközben Oroszország fokozza az ukrán energetikai infrastruktúra elleni támadásait. A technológiai akadályok ellenére az ukrán drónok eltaláltak egy helyi hőerőművet és egy műkaucsukgyárat az oroszországi Tula megyében lévő Jefremov városában. Az események hűen mutatják, hogy a frontvonalon zajló katonai cselekmények és technológiai korlátozások miként határozzák meg a nemzetközi konfliktus mindennapjait."
-          },
-          "tolkien": {
-            "title": "A Csillagpajzs homálya és Jefremov lángoló bástyái",
-            "body": "A mindenséget pásztázó Csillagpajzs – azaz a Starshield műholdas rendszere – rejtélyes gátak fogságába esett, s e korlátozás mély sebeket ejt az ukrán védők éberségén az éji sötétből alászálló orosz hollók, a támadó drónok ellen. Volodimir Zelenszkij király az északi krónikásoknak elpanaszta a fegyverek késését is, miközben a Tula földjén emelkedő Jefremov városa – hol hőerőművek és harci kaucsuk gyárai füstölögnek – drónok tüzes csapásától bujdosik a pusztulás árnyékában. E gigászi küzdelemben, hol a technológia láthatatlan szálai gabalyodnak össze a tűzözönnel, a harctér sorsa továbbra is a lángok nyelvén íródik."
-          },
-          "reito": {
-            "title": "Csillagfényes zuhanás és tulai műkaucsuk-koktél",
-            "body": "A Starshield nevű csodarendszer aprócska adminisztratív fékjei miatt az ukrán drónok épphogy csak nem tapogatatóznak botbottal a levegőben, ami finoman szólva sem gyorsítja meg a drónelhárítást. Volodimir Zelenszkij a BBC-nek jajveszékelve adta hírül, hogy a Patriot rakéták szállítása nagyjából olyan pontos ütemezéssel halad, mint egy téli vakációra induló csiga, miközben Tula megyében, Jefremov városában valaki nagyon komolyan vette a füstölést. A helyi hőerőmű és a rakétagyártáshoz kötődő műkaucsukgyár ugyanis egy hamisítatlan éjszakai drónlátogatás után hirtelen lángra lobbant, igazolva, hogy a technológiai akadályok ellenére a drónok pontosan tudják, hol a kijárat."
-          }
-        }
-      },
-      "preparedVividStyles": true
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2304407776-873274.jpg"
     },
     {
       "source": "Portfolio.hu",
@@ -6443,134 +6337,14 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Fri, 27 Nov 2026 14:43:00 +0100",
+      "published": "Fri, 27 Nov 2026 15:34:00 +0100",
       "observed": "2026-11-27T11:15:00.556114+01:00",
       "title": "Folytatódik a felpattanás a tőzsdéken, ralizik az OTP",
       "link": "https://www.portfolio.hu/uzlet/20261127/folytatodik-a-felpattanas-a-tozsdeken-ralizik-az-otp-879544",
       "categories": [
-        "world-market",
         "hu-market"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg",
-      "prepared": {
-        "source": "Portfolio.hu",
-        "title": "Folytatódik a felpattanás a tőzsdéken, ralizik az OTP",
-        "url": "https://www.portfolio.hu/uzlet/20261127/folytatodik-a-felpattanas-a-tozsdeken-ralizik-az-otp-879544",
-        "published": "Fri, 27 Nov 2026 14:43:00 +0100",
-        "categories": [
-          "world-market",
-          "hu-market"
-        ],
-        "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg",
-        "summaryVersion": "short-v2.1-3-4",
-        "sourceArticleLinks": [
-          "https://www.google.com/preferences/source",
-          "https://www.portfolio.hu/befektetes/20261127/tobb-mint-egyeves-melypont-utan-felpattant-az-arany-879738",
-          "https://www.portfolio.hu/percrol-percre/879544/a-bux-joval-az-europai-mezony-elott-jar-1068476",
-          "https://www.portfolio.hu/uzlet/20261127/exporttilalom-ala-eso-csucskategorias-nvidia-chipeket-talaltak-kinaban-egy-alice-huanghoz-kotheto-cegnel-879722",
-          "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang",
-          "https://www.portfolio.hu/uzlet/20261127/ugrik-a-spacex-elon-musk-bejelentese-utan-879684",
-          "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
-          "https://www.portfolio.hu/percrol-percre/879544/megint-nagyot-megy-az-otp-1068456",
-          "https://www.portfolio.hu/uzlet/20261127/tul-sok-a-csuszas-megint-visszavagta-varakozasait-a-rheinmetall-879666",
-          "https://www.portfolio.hu/uzlet/20261127/hatalmas-osszecsapas-keszul-a-volkswagennel-egymasnak-feszul-a-menedzsment-es-a-szakszervezet-879646",
-          "https://www.portfolio.hu/uzlet/20261127/ujabb-botrany-alakul-az-nvidia-felsovezeteseben-879632",
-          "https://www.wsj.com/finance/stocks/nvidia-china-executive-affair-jay-puri-cenly-chen-a42d733b",
-          "https://www.portfolio.hu/percrol-percre/879544/folytatodik-az-emelkedes-az-europai-tozsdeken-1068432",
-          "https://www.portfolio.hu/uzlet/20261127/kilott-a-magyar-tozsde-tepik-az-otp-t-879620",
-          "https://www.portfolio.hu/befektetes/20261127/kozel-a-piaci-osszeomlas-egy-friss-tanulmany-szerint-evekig-tarthat-a-hatasa-879604",
-          "https://www.cnbc.com/2026/11/27/ai-bubble-burst-market-study.html",
-          "https://www.portfolio.hu/befektetes/20261127/befutott-az-eddigi-legmagasabb-celar-a-richterre-879596",
-          "https://www.portfolio.hu/befektetes/20261127/evek-ota-nem-latott-emelkedes-a-tozsden-mentoovet-dob-az-allam-a-piacoknak-879572",
-          "https://www.portfolio.hu/uzlet/20261127/a-tozsdei-eladasi-hullam-kozben-biztonsagos-menedek-lett-az-europai-egeszsegugyi-reszvenyekbol-879560",
-          "https://www.bloomberg.com/news/articles/2026-11-27/european-healthcare-profit-streak-offers-shelter-from-ai-swings",
-          "https://www.portfolio.hu/uzlet/20261127/donald-trump-elkezdett-aggodni-a-tozsde-miatt-879556",
-          "https://www.portfolio.hu/percrol-percre/879544/folytatodhat-az-emelkedes-1068390",
-          "https://www.portfolio.hu/deviza/20261123/ennyi-volt-a-tisza-szerelem-vagy-valami-mas-horpasztotta-be-a-forint-serthetetlennek-hitt-panceljat-878088",
-          "https://www.portfolio.hu/podcast/20261126/globalis-tozsdepanik-melyik-magyar-reszveny-marad-utesallo-879462",
-          "https://www.portfolio.hu/befektetes/20261124/van-egy-uj-jatekszabaly-a-tozsdeken-donald-trumpnak-hivjak-878660",
-          "https://www.portfolio.hu/info/jogi-nyilatkozat",
-          "https://www.portfolio.hu/cimke/tőzsde",
-          "https://www.portfolio.hu/cimke/hang seng",
-          "https://www.portfolio.hu/cimke/CSI 300",
-          "https://www.portfolio.hu/cimke/FTSE MIB",
-          "https://www.portfolio.hu/cimke/IBEX",
-          "https://www.portfolio.hu/cimke/PX",
-          "https://www.portfolio.hu/cimke/10 éves német állampapírhozam",
-          "https://www.portfolio.hu/cimke/10 éves magyar állampapírhozam",
-          "https://www.portfolio.hu/cimke/mol",
-          "https://www.portfolio.hu/cimke/otp",
-          "https://www.portfolio.hu/cimke/richter",
-          "https://www.portfolio.hu/cimke/euró",
-          "https://www.portfolio.hu/cimke/font",
-          "https://www.portfolio.hu/cimke/dollár",
-          "https://www.portfolio.hu/cimke/arany",
-          "https://www.portfolio.hu/cimke/brent",
-          "https://www.portfolio.hu/cimke/wti",
-          "https://www.portfolio.hu/cimke/Nikkei",
-          "https://www.portfolio.hu/cimke/Nasdaq",
-          "https://www.portfolio.hu/cimke/BUX",
-          "https://www.portfolio.hu/cimke/magyar telekom",
-          "https://www.portfolio.hu/cimke/bitcoin",
-          "https://www.portfolio.hu/cimke/dow jones",
-          "https://www.portfolio.hu/cimke/s&p 500",
-          "https://www.portfolio.hu/cimke/eurusd",
-          "https://www.portfolio.hu/cimke/dax",
-          "https://www.portfolio.hu/cimke/ftse",
-          "https://www.portfolio.hu/cimke/cac",
-          "https://www.portfolio.hu/cimke/gbpusd",
-          "https://www.portfolio.hu/cimke/usdjpy",
-          "https://www.portfolio.hu/cimke/atx",
-          "https://www.portfolio.hu/global/20261127/beerhet-az-egyesult-allamok-strategiaja-a-totalis-osszeomlas-szelere-sodrodhatott-az-iszlamista-rezsim-879730",
-          "https://www.portfolio.hu/global",
-          "https://www.portfolio.hu/global/20261127/38-eve-nem-latott-veszjelzes-a-vilagpiacon-sulyos-kovetkezmenyei-lehetnek-a-nyersanyaghianynak-879692",
-          "https://www.portfolio.hu/befektetes/20261127/extrem-lehetoseget-talaltunk-a-profik-szerint-639-szazalekkal-tobbet-erhet-ez-a-reszveny-879664",
-          "https://www.portfolio.hu/portfolio-signature",
-          "https://www.portfolio.hu/uzlet",
-          "https://www.portfolio.hu/global/20261127/elokerultek-a-felvetelek-az-orosz-teveben-bukkant-fel-a-titokzatos-szu-75-os-prototipusa-879704",
-          "https://www.portfolio.hu/global/20261127/megszuletett-a-strategiai-megallapodas-modern-katonai-jarmuvek-gyartasa-erkezik-magyarorszagra-879720",
-          "https://www.portfolio.hu/gazdasag/20261127/milliardos-gyanus-kifizetesekre-es-politikai-befolyasra-derult-feny-a-kozmediaban-879718",
-          "https://www.portfolio.hu/gazdasag",
-          "https://www.portfolio.hu/gazdasag/20261127/veszelyben-a-szuperhatalom-katonai-titkai-feltortek-az-amerikai-hadero-kulcsfontossagu-rendszeret-879714",
-          "https://indexadhu.hit.gemius.pl/hitredir",
-          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
-          "https://www.portfolio.hu/global/20261127/sorsdonto-fordulat-johet-a-vilag-legfontosabb-chipgyartojanal-amerika-retteg-mi-fog-most-tortenni-879104",
-          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
-          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
-          "https://www.portfolio.hu/gazdasag/20261127/ujabb-letartoztatas-az-nka-botrany-ugyeben-879744",
-          "https://www.portfolio.hu/global/20261127/bemondta-az-ukran-vezeto-egyetlen-dolog-kell-ahhoz-hogy-ukrajna-konnyeden-megnyerje-a-haborut-879746",
-          "https://www.portfolio.hu/uzlet/20261127/oldoklo-verseny-indulhat-a-generali-reszvenyeiert-a-ket-legnagyobb-olasz-bank-kozott-879742",
-          "https://www.portfolio.hu/uzlet/20261127/folytatodik-a-felpattanas-a-tozsdeken-ralizik-az-otp-879544",
-          "https://www.portfolio.hu/gazdasag/20261127/hirtelen-lefordult-az-europai-gazar-pedig-meg-csak-most-kezdodik-az-igazi-tel-879736",
-          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
-          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
-          "https://www.portfolio.hu/gazdasag/20261120/tisztazta-a-miniszterium-tizszeresere-no-a-haztartasok-rendszerhasznalati-dija-de-jar-melle-egy-90-szazalekos-kompenzacio-878148",
-          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
-          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
-          "https://www.portfolio.hu/podcast",
-          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
-          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
-          "https://www.portfolio.hu/podcast/20261126/euro-ide-vagy-oda-nem-usszuk-meg-a-koltsegvetesi-rendrakast-879354",
-          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
-          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
-        ],
-        "contentBasis": "article",
-        "sourceHash": "3831925674cb12dffe60cdd523bd37ff0baf709e75989888fa947f733f3d4194",
-        "variants": {
-          "original": {
-            "body": "A Budapesti Értéktőzsde részvényindexe, a BUX kora délutánra 2,8 százalékos pluszba került, miközben a magyar piacot a 4,4 százalékkal emelkedő OTP húzta. Az OTP ezen felül lezárta az üzbég Ipoteka Bank újabb 17,5 százalékos csomagjának megvásárlását, amivel a részesedése 90,4 százalékra nőtt, valamint két privatizáció előtt álló ukrán bankot is vizsgál. A belföldi tőzsdei szereplők közül a Mol 2,5 százalékkal, a Richter 1,8 százalékkal, a Magyar Telekom pedig 0,8 százalékkal került feljebb. A külföldi tőzsdéken a páneurópai Stoxx 600 két százalékponttal alacsonyabb felülteljesítést mutatott a magyar piac mögött, miközben Milánóban az FTSE MIB 1,6 százalékkal, Madridban az IBEX 35 pedig 1,4 százalékkal emelkedett."
-          },
-          "tolkien": {
-            "title": "Az Arany Támadása és a Bankok Magas Várakozása",
-            "body": "A mélyből feltámadó arany árfolyama közel három százalékkal drágult pénteken, midőn a dollár láncai meglazultak és a részvénypiacok vihara elcsitult. A belföldi tőzsde zászlóshajója, az OTP papírja hatalmas iramban, 4,4 százalékkal szárnyalt felfelé, miközben a birodalom határain túl az üzbég Ipoteka Bank 17,5 százalékos újabb várományos részét is birtokba vette, s ezzel részesedését 90,4 százalékra duzzasztotta. A külföldi tőzsdék csarnokaiban, Milánó és Madrid bércein az olasz FTSE MIB 1,6, a spanyol IBEX 35 pedig 1,4 százalékos győzelmet aratott a Stoxx 600 seregei előtt. E fénylő diadalok nyomán a kereskedők csarnokai végre megszabadultak a sötét árnyaktól, és a tőzsdék kapui kinyíltak a gazdagság új korszaka előtt."
-          },
-          "reito": {
-            "title": "Ahol az OTP robbant, a dollár pedig visszakozik",
-            "body": "Pénteken az arany közel három százalékot drágult, miután feltápászkodott a kora egyéves mélypontjáról, mert a dollár végre befogta a száját, a tőzsdei kedélyek pedig lecsillapodtak. A belföldi tőzsde élmezőnyében az OTP 4,4 százalékos ugrással száguldott előre, miközben az üzbég Ipoteka Bankban a pakliból még 17,5 százalékot felmarkolt, így a tulajdoni hányada már kerek 90,4 százalékra hízott. A külföldi tőzsdék sem maradtak szégyenben: a páneurópai Stoxx 600-at két százalékponttal lehagyva Milánóban az FTSE MIB 1,6, Madridban az IBEX 35 pedig 1,4 százalékos plusszal vigasztalta a befektetőket. Ettől a frenetikus hajrátol a részvények hirtelen elfelejtették a hét eleji gyászt, és a kasszák csilingelése kíséretében ünnepelték a hét végét."
-          }
-        }
-      },
-      "preparedVividStyles": true
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg"
     },
     {
       "source": "Portfolio.hu",
@@ -9040,7 +8814,7 @@
       "source": "Nemzeti Sport",
       "published": "Fri, 27 Nov 2026 13:04:13 +0000",
       "observed": "2026-11-27T13:57:38.037332+01:00",
-      "title": "Megérkezett Stockholmba a férfi kosárlabda-válogatott",
+      "title": "Viszontagságok után megérkezett Stockholmba a férfi kosárlabda-válogatott",
       "link": "https://nemzetisport.hu/kosarlabda/2026/11/a-hohelyzet-utan-elindult-stockholmba-a-ferfi-kosarlabda-valogatott",
       "categories": [
         "nba"
@@ -9153,7 +8927,7 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Fri, 27 Nov 2026 14:19:00 +0100",
+      "published": "Fri, 27 Nov 2026 16:04:00 +0100",
       "observed": "2026-11-27T13:57:38.037332+01:00",
       "title": "Két hét szenvedés után próbál magára találni a forint",
       "link": "https://www.portfolio.hu/deviza/20261127/ket-het-szenvedes-utan-probal-magara-talalni-a-forint-879570",
@@ -9436,7 +9210,7 @@
       "source": "Telex",
       "published": "Fri, 27 Nov 2026 15:04:36 +0100",
       "observed": "2026-11-27T15:14:01.534604+01:00",
-      "title": "Újabb letartóztatás az NKA-ügyben, egy választókerület munkatársat vittek be",
+      "title": "Újabb letartóztatás az NKA-ügyben, egy választókerületi munkatársat vittek be",
       "link": "https://telex.hu/belfold/2026/11/27/nka-letartoztatas-monor-valaszkeruleti-munkatars",
       "categories": [],
       "image": ""
@@ -9521,7 +9295,7 @@
       "source": "HVG",
       "published": "Fri, 27 Nov 2026 13:34:44 Z",
       "observed": "2026-11-27T15:14:01.534604+01:00",
-      "title": "„A képviselőink elsősorban emberek, nem politikusok” – védte meg a parlamentben sírva fakadó tagját a Tisza-frakció",
+      "title": "„A képviselőink elsősorban emberek, nem politikusok” – Magyar Péter és a Tisza-frakció is megvédte a parlamentben sírva fakadó tagját",
       "link": "https://hvg.hu/elet/20261127_goroghne-bocskai-eva-tisza-frakcio-parlament-siras-politikus",
       "categories": [
         "parliament",
@@ -9620,14 +9394,14 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Fri, 27 Nov 2026 13:22:23 +0000",
+      "published": "Fri, 27 Nov 2026 14:35:23 +0000",
       "observed": "2026-11-27T15:14:01.534604+01:00",
-      "title": "Verstappen újabb lépést tehet meg a bajnoki második hely felé – Katari Nagydíj, 1. szabadedzés",
+      "title": "Mercedes-fölényt hozott a katari nyitány; a Ferrari óriási hátrányban kezdett",
       "link": "https://nemzetisport.hu/f1/2026/11/verstappen-ujabb-lepest-tehet-meg-a-bajnoki-masodik-hely-fele-katari-nagydij-1-szabadedzes",
       "categories": [
         "f1"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/XHHJ9IcU4T0kv9OVQDUYuMCuFcGsA2Gcp7xUrOK65Lw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVhNDVhMzRkYzM0YTRiOTFiODcwNjJhZGM3NWEzOTli.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/_hEEcO-qUkIpnOE8FB8jd8yjmFYqWd7Ygd_g3vrq1FM/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzIxNGI0ZmNjZmM1MDRlNDlhOGQyODVjZjYzYWVhMDZi.webp"
     },
     {
       "source": "Fűzővel kifelé!",
@@ -9644,7 +9418,7 @@
       "source": "444.hu",
       "published": "Fri, 27 Nov 2026 15:00:23 +0100",
       "observed": "2026-11-27T15:14:01.534604+01:00",
-      "title": "Fideszes gúnyolódás után elsírta magát egy tiszás képviselő az ülésteremben, a frakció kiáll mellette",
+      "title": "Fideszes gúnyolódás után elsírta magát egy tiszás képviselő az ülésteremben, a frakció kiáll mellette, Magyar videóban reagált",
       "link": "https://444.hu/2026/11/27/fideszes-gunyolodas-utan-elsirta-magat-egy-tiszas-kepviselo-az-ulesteremben-a-frakcio-kiall-mellette?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
       "categories": [
         "parliament",
@@ -9724,7 +9498,7 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Fri, 27 Nov 2026 14:56:00 +0100",
+      "published": "Fri, 27 Nov 2026 15:45:00 +0100",
       "observed": "2026-11-27T15:14:01.534604+01:00",
       "title": "Tisza-kormány: óriási a különbség a kormánypárt és a Fidesz között",
       "link": "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
@@ -9944,8 +9718,306 @@
       "link": "https://hetediksor.hu/2026/11/27/ecstatica-i-ii-jatekteszt/",
       "categories": [],
       "image": ""
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 16:00:51 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Megszavazta a közgyűlés: 65 dolgozót küldhetnek el a Főpolgármesteri Hivataltól",
+      "link": "https://telex.hu/belfold/2026/11/27/fovarosi-kozgyules-fopolgarmesteri-hivatal-kirugasok-szavazas",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795785933-temp-b5vienohs9341jegnjl_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 15:40:57 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Meghalt a nő, akit magával sodort egy vonat Mezőkövesden",
+      "link": "https://telex.hu/belfold/2026/11/27/meghalt-a-no-akit-mezokovesden-elsodort-a-vonat",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795790820-temp-0t7c3ob7itcp9bfogpm_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 15:28:59 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "„Nem volt sírógörcs. Nem volt jelenet. Nem volt színjáték” – mondta a tiszás képviselő, akit videókkal támadott be a Fidesz",
+      "link": "https://telex.hu/belfold/2026/11/27/goroghne-bocskai-eva-elsirta-magat-a-parlamentben-bizottsagi-ules-radics-bohar",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795789479-temp-os5fuh6hb796dekbeek_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 15:03:00 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Önvezető rendszert fejlesztett a drónoknak egy középiskolás ukrán diák, GPS-jel nélkül is célba érnek",
+      "link": "https://hvg.hu/tudomany/20261127_orosz-ukran-haboru-onvezeto-dron-gps-jel",
+      "categories": [
+        "technology",
+        "foreign"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1b928fe9-0535-4ee5-b8c8-83f828f100eb.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:53:38 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Meghalt a mezőkövesdi vonatbaleset sérültje",
+      "link": "https://hvg.hu/itthon/20261127_meghalt-a-mezokovesdi-vonatbaleset-serultje",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/53578854-48d7-44fe-b80c-d6f9024475ac.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:41:15 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Globális egyetemi rangsorok: még mindig csak futunk az élmezőny után",
+      "link": "https://hvg.hu/360/20261127_globalis-egyetemi-rangsorok-diploma-rangsor",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/29f20bd3-931e-4fa7-8174-e6d6923ceda8.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:39:28 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Osztrák katonai szakértő: A gigantikus veszteségek ellenére korai leírni az orosz hadsereget",
+      "link": "https://hvg.hu/360/20261127_lapszemle-spiegel-franz-stefan-gady-katonai-szakerto-oroszukran-haboru",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/dba8bd11-214f-40ed-b826-adba4fe3bcd6.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:33:00 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Utazáskor jöhet jól: megvásárolható eSIM-ek jönnek a WhatsAppba",
+      "link": "https://hvg.hu/tudomany/20261127_meta-whatsapp-esim-utazas-uj-funkcio",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fc40acf8-105f-4393-9f7c-59f27d0bf923.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:29:35 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Felújítást és tavaszi újraindulást ígér a felcsúti kisvasút üzemeltetője",
+      "link": "https://hvg.hu/gazdasag/20261127_felujitas-uzemszunet-felcsuti-kisvasut",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/e7db87d3-05f6-498f-a3fd-280adcecd404.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:22:11 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "A 75 éves Cicciolina bejelentette, hogy indul Róma polgármesteri posztjáért",
+      "link": "https://hvg.hu/elet/20261127_roma-polgarmester-cicciolina-politika-olasz-onkormanyzati-valasztas",
+      "categories": [
+        "parliament",
+        "belfold",
+        "foreign"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a75b7c38-081d-4f06-bd90-97f4ff01e9a4.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 14:16:11 Z",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Videó: Róka tévedt be a tallinni repülőtérre, a poggyászok között kapták el",
+      "link": "https://hvg.hu/elet/20261127_roka-tallinni-repuloter-video",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/3e261659-90da-43d1-8e6b-3fb6a2c9daad.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 14:39:33 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Első a második ellen: az ETO 13 éves szünet után győzné le újra a Lokit",
+      "link": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/elso-a-masodik-ellen-az-eto-13-eves-szunet-utan-gyozne-le-ujra-a-lokit",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/FZVOA0zBX2wxFv2caaev0TfyoxvMVGXk_JsSNLRiwcA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzgyYzEyMzI2OGE0YzQ5NzZiMzY5MjVhODMxMDZkNWQw.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 14:32:55 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Olvasóink szerint Varga Ádám volt az FTC legjobbja a Celje ellen",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/olvasoink-szerint-varga-adam-volt-a-fradi-legjobbja-a-celje-ellen",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/5SJSdEOdsAtcjLsQKY2LKE9YaJbrXw1Ln0NBdB46ZGQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ZlN2YwM2Q4OGYzZTRmMDM5OTI1NWI4ODQxNGVjOGJj.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 14:32:44 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Michael Apelgren távozik a Pick Szegedtől – hivatalos",
+      "link": "https://nemzetisport.hu/kezilabda/2026/11/michael-apelgren-tavozik-a-pick-szegedtol-hivatalos",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/XeFuBFqdoWrMX1B0xtpKoDDg75xxDgt05BLKTFqJSIs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2UyMzgwM2FjN2FhNjRiZThiZTQ4YTBkZDIxNmU4YzZl.webp"
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Fri, 27 Nov 2026 14:28:39 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "A Warriors újonca szerint több NBA-csapat is nagy hibát követett el a drafton",
+      "link": "https://nbanews.hu/yaxel-lendeborg-darius-acuff-nba-draft-ujoncrangsor/",
+      "categories": [
+        "nba"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 15:51:01 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "A KDNP képviselője sajnálja a kigúnyolt képviselőt",
+      "link": "https://444.hu/2026/11/27/a-kdnp-kepviseloje-sajnalja-a-kigunyolt-kepviselot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 15:46:30 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Meghalt a mezőkövesdi vonatbaleset sérültje",
+      "link": "https://444.hu/2026/11/27/meghalt-a-mezokovesdi-vonatbaleset-serultje?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 15:43:20 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Flexszel ment neki a helyi tiszás képviselő és Siófok polgármestere a Balaton-parti sétány szállodasori szakaszát elzáró kerítésnek",
+      "link": "https://444.hu/2026/11/27/flexszel-ment-neki-a-helyi-tiszas-kepviselo-es-siofok-polgarmestere-a-balaton-parti-setany-szallodasori-szakaszat-elzaro-keritesnek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 15:58:00 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Trump meglépheti a váratlant: teljesen áttervezhetik az Egyesült Államok új repülőgép-hordozóját",
+      "link": "https://www.portfolio.hu/global/20261127/trump-meglepheti-a-varatlant-teljesen-attervezhetik-az-egyesult-allamok-uj-repulogep-hordozojat-879756",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/r/e/p/repulogep-hordozo-usa-nato-hajo-flotta-603346.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 15:45:00 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Elhunyt a mezőkövesdi vonatbaleset sérültje",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/elhunyt-a-mezokovesdi-vonatbaleset-serultje-879758",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-lg/k/o/r/korhazi-agy-egeszsegugy-korhaz-409824.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 15:42:00 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Megvan az új német költségvetés: jelentős hitelfelvétel jöhet",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/megvan-az-uj-nemet-koltsegvetes-jelentos-hitelfelvetel-johet-879752",
+      "categories": [
+        "parliament",
+        "belfold",
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2192243260-785366-hamburg-kikt-hajzs-logisztika-kontner-teherhaj-szlltm-805380.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 15:33:00 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Csődbe ment egy európai légitársaság",
+      "link": "https://www.portfolio.hu/uzlet/20261127/csodbe-ment-egy-europai-legitarsasag-879750",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/t/z/s/tzsde-rszvny-rali-befektets-pnz-dollr-papr-razs-profit-hajtm-engine-replg-842162.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 15:32:00 +0100",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Izzik az internet a Black Friday napján, de itthon már közel sem olyan népszerű az esemény",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/izzik-az-internet-a-black-friday-napjan-de-itthon-mar-kozel-sem-olyan-nepszeru-az-esemeny-879748",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/b/l/a/black-friday-november-akcio-873536.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 15:00:00 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Automata vagy karos kávéfőző? Nem biztos, hogy a drágább a jobb választás",
+      "link": "https://www.origo.hu/techbazis/2026/11/automata-vagy-karos-kavefozo-vasarlas",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/kXUKsV5NxvR2_z3L4uDyvr3VLJzTnCZsFK6HxWD--1w/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9iNDZjNmQ3OWExYWE3YmVhZTVhMTg1Y2I3MDcwY2IzMjc3ZDlmZGUxZmQ2Yzg3N2M1MTE4ZjQ5Y2VmMTJiYzg3.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 14:49:37 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Azbesztmentesítés: nem kapott támogatást Zalaegerszeg",
+      "link": "https://www.origo.hu/belpol/2026/11/azbesztmentesites-tamogatas-zalaegerszeg",
+      "categories": [
+        "environment"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/i9lH4-f2Sp8MURlZcEzoEHM29vvhzM_ISLzwZEOlf-w/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy82MzE0ODM1MjFlMjQ5ZjllYzExZDY5MTYxMDRmNzY3ZTZhOGRiOGJmMWU1ZWViMDY1NmUxZWI0NjA5MTMyOTMz.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 14:34:33 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Meghalt a mezőkövesdi vonatbaleset áldozata",
+      "link": "https://www.origo.hu/itthon/2026/11/mezokovesdi-vonatbaleset-aldozata-elhunyt",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/zY18m0Xotcl1aXJoiv4MbKdabrOsP1dRy3GnxGZfhmw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9iNjVmYzhjMTJmYjE4Mzc2NDg5ZTFiNGU5YWY5MTM0ZjdiNDhhYjBhZDljOWE1ZDFkMjg2MjBkN2FkYTIwMmU2.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 14:33:00 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Háborúra készül Nagy-Britannia? Rendkívüli lépésre szánta el magát a hadsereg",
+      "link": "https://www.origo.hu/kulpol/2026/11/brit-hadsereg-veteran-behivas-100-ezer-katona",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/SQiA9hg1I66L7jP-GKQZU-OTGWN3euQYGToDzpcrjrw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9jYzcxMTQyZmEyOGNjOWE1YTU3OGFiNGQ0NmVhNjRkZjkzZjM4NDRiNzdiOTAwNmExOGJjZjhmYjQ4NTczYzQ5.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 14:30:00 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Felpörgetnéd az anyagcserédet? Ez a 11 élelmiszer segíthet",
+      "link": "https://www.origo.hu/eletmod/2026/11/anyagcsere-gyorsitasa-11-elelmiszer-egeszseges-etrend",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/oRSgqvu_lUr2mp1vRtLBtDuY_-R1A2PHFI-9C4cdZ2A/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS85NzI2MGZlYjI4OWJmZmJjNzAwNTUwMmUwN2NhN2I3ZDhjZjBiYmIzY2I0ZmRkNjFhZTQyMzMyOGI0ZDFhMDky.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 14:24:00 +0000",
+      "observed": "2026-11-27T16:08:15.805004+01:00",
+      "title": "Tömegbaleset a jégpályává vált autópályán: 37 jármű ütközött, sokan megsérültek",
+      "link": "https://www.origo.hu/nagyvilag/2026/11/tomegbaleset-autopalya-svajc-37-jarmu",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/FzuYT4jG7bPVzKVTXMmPh9L4WMm2EfONXYUYllVXNew/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy83ZGI2NTBhZWIwYzNjNDMzNDY5YzEzOTg0ODQ0M2ViYzQzZWIyN2RkMjMzMzA3MTY1N2QxNWVkMmM1NjJlNjlh.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-27T15:14:01.534604+01:00"
+  "lastRssCollection": "2026-11-27T16:08:15.805004+01:00"
 }
