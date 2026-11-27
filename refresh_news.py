@@ -851,6 +851,9 @@ if collect_rss:
                         "image":image_for(item,desc),
                     }
                     if existing is None or any(existing.get(field)!=value for field,value in record.items()):
+                        if (existing and existing.get("title") == title
+                                and existing.get("commonsPhoto")):
+                            record["commonsPhoto"] = existing["commonsPhoto"]
                         inbox[key]=record
             except Exception as exc:
                 print(f"Feed error {source} {url}: {exc}")
@@ -865,11 +868,39 @@ if collect_only:
     print(f"RSS collection complete; {len(inbox)} stored articles.", flush=True)
     raise SystemExit(0)
 
+if background:
+    photo_candidates = []
+    pending_by_url = {}
+    for record in inbox.values():
+        prepared = record.get("prepared") or {}
+        published = parse_published(record.get("published")) or parse_published(prepared.get("published"))
+        observed = parse_published(record.get("observed"))
+        if (not record["categories"] or not published or published > now
+                or (previous_cutoff and published <= previous_cutoff)
+                or not observed or observed > now):
+            continue
+        url = record["link"]
+        pending_by_url[url] = record
+        photo_candidates.append({
+            "url": url, "title": record["title"], "categories": record["categories"],
+            "variants": prepared.get("variants"), "commonsPhoto": record.get("commonsPhoto"),
+        })
+    photo_deadline = min(work_deadline, time.monotonic() + 20)
+    pending_photos = enrich_photos(photo_candidates,
+                                  lambda: time.monotonic() + 4 < photo_deadline)
+    if pending_photos:
+        for url, photo in pending_photos.items():
+            pending_by_url[url]["commonsPhoto"] = photo
+        save_inbox()
+        print(f"Pending issue: {sum(bool(photo.get('image')) for photo in pending_photos.values())} Commons images prepared.", flush=True)
+
 print("Assembling official edition from saved articles." if publish_only else "Starting article and style processing.", flush=True)
 
 def save_prepared_story(record, story):
     if all(story.get("variants", {}).get(style, {}).get("body")
            for style in ("original", "tolkien", "reito")):
+        if not record.get("prepared") and (record.get("commonsPhoto") or {}).get("unavailable"):
+            record.pop("commonsPhoto")
         record["prepared"] = story
         record["preparedVividStyles"] = vivid_styles
         print(f"Prepared all three variants: {story['url']}")
@@ -912,6 +943,8 @@ for key, record in list(inbox.items()):
                     _, _, source_links=fetch_article(prepared["url"])
                     if source_links is not None:
                         prepared["sourceArticleLinks"]=source_links
+                if (photo := record.get("commonsPhoto")) and photo.get("image"):
+                    prepared["commonsPhoto"] = photo
                 stories.append(prepared)
         continue
     title=record["title"]
@@ -956,6 +989,8 @@ for key, record in list(inbox.items()):
             story["variants"]=gemini_rewrites(story,article_text,api_key,vivid_styles=vivid_styles)
         except Exception as exc:print(f"Rewrite unavailable {link}: {exc}")
     if collect_new_edition:
+        if (photo := record.get("commonsPhoto")) and photo.get("image"):
+            story["commonsPhoto"] = photo
         stories.append(story)
     else:
         save_prepared_story(record, story)
