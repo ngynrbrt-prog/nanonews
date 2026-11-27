@@ -817,3 +817,61 @@ A mérési időszak budapesti idő szerint 2026-11-27 06:03:43 és 2026-11-27 15
 Az RSS-adatok utolsó elérhető mentése 2026-11-27 14:00:19. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/73a0ede265aeb1780fdb365cb1ecebd8a67f8d4d) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/b732b2bc4f89a4589ed35e4cef12e62543bd9450)
 
 Mentés indítása budapesti idő szerint 2026-11-27 15:46:50.
+
+## 16:00
+
+Mérési időszak 2026-11-27 06:03:43–16:00. A mentés indítása 16:02:24. Az időpontok budapesti idő szerint értendők. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/0a55a2c46c505f169175771dc8f916ff7d8c3f30) · [Éles kiadás](https://github.com/ngynrbrt-prog/nanonews/commit/2040d8a644b22a8f5b3582a544df5d9ea73fdf62)
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Rovatba illő cikk talált képpel | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 43 | 23 | 0 | 17 | 17 | 17 | 17 | 73,9% | 0 |
+| HVG | 65 | 28 | 0 | 14 | 14 | 14 | 14 | 50,0% | 0 |
+| Nemzeti Sport | 33 | 12 | 0 | 6 | 6 | 6 | 6 | 50,0% | 0 |
+| NBAnews.hu | 3 | 3 | 0 | 2 | 2 | 2 | 2 | 66,7% | 0 |
+| Fűzővel kifelé! | 2 | 2 | 0 | 1 | 1 | 1 | 1 | 50,0% | 0 |
+| 444.hu | 38 | 15 | 0 | 9 | 9 | 9 | 9 | 60,0% | 0 |
+| Portfolio.hu | 98 | 62 | 0 | 47 | 47 | 47 | 47 | 75,8% | 0 |
+| Origo.hu | 70 | 11 | 0 | 4 | 4 | 4 | 4 | 36,4% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 1 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 353 | 156 | 0 | 100 | 100 | 100 | 100 | 64,1% | 0 |
+
+A határidőig el nem mentett feldolgozás állapota ismeretlen. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba sorolható jelöltnél fordult elő. A felhasznált mentés a kiadás előtti Commons-képkeresés bevezetése előtt készült.
+
+### A következő kiadás adatállapota
+
+A **2026-11-27 16:00**-ra tervezett kiadás megjelenését a mérési határig nem igazolta hivatalos mentés. Előzetes alapja **156 rovatba illő cikk**, közülük **100** teljes stíluskészlettel és **0** mentett Commons-képpel. Az utolsó RSS-gyűjtés **15:14:01**, az RSS-forráscommit **15:16:44** időpontú. A gyűjtés kora **45 perc 58 másodperc**. A tényleges megjelenésig frissebb mentés érkezhet.
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Arsenal | 0 |
+| Manchester City | 1 |
+| Bayern München | 1 |
+| Manchester United | 0 |
+| Como | 0 |
+| Premier League | 1 |
+| Bajnokok ligája | 1 |
+| F1 | 2 |
+| NBA | 4 |
+| NFL | 3 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 1 |
+| Darts | 0 |
+| Környezetvédelem | 4 |
+| Technológia / Fejlesztések | 13 |
+| Ingatlan | 8 |
+| Tenisz | 0 |
+| Belföldi parlament | 21 |
+| Belföldi tőzsde | 3 |
+| Külföldi tőzsde | 5 |
+| Belföld | 70 |
+| Külföld | 49 |
+| Filmek | 6 |
+| Tőzsde | 0 |
+| Sportgazdaság | 0 |
+| Téli sportok | 2 |
+
+**Összesen 156 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
