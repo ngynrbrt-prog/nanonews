@@ -736,3 +736,61 @@ A **2026-11-27 16:00**-ra tervezett kiadás előzetes alapja **99 rovatba illő 
 | Téli sportok | 1 |
 
 **Összesen 99 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+
+## 14:00
+
+Mérési időszak 2026-11-27 06:03:43–14:00. A mentés indítása 14:00:32. Az időpontok budapesti idő szerint értendők. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/efd1d819ccc7c5caed4437aec6af18dea00c54d8) · [Az éles kiadás forráscommitja](https://github.com/ngynrbrt-prog/nanonews/commit/2040d8a644b22a8f5b3582a544df5d9ea73fdf62)
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Rovatba illő cikk talált képpel | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 37 | 22 | 0 | 5 | 5 | 5 | 5 | 22,7% | 0 |
+| HVG | 56 | 24 | 0 | 6 | 6 | 6 | 6 | 25,0% | 0 |
+| Nemzeti Sport | 28 | 10 | 0 | 2 | 2 | 2 | 2 | 20,0% | 0 |
+| NBAnews.hu | 3 | 3 | 0 | 1 | 1 | 1 | 1 | 33,3% | 0 |
+| Fűzővel kifelé! | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 100,0% | 0 |
+| 444.hu | 31 | 12 | 0 | 7 | 7 | 7 | 7 | 58,3% | 0 |
+| Portfolio.hu | 85 | 57 | 0 | 14 | 14 | 14 | 14 | 24,6% | 0 |
+| Origo.hu | 60 | 8 | 0 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 301 | 137 | 0 | 36 | 36 | 36 | 36 | 26,3% | 0 |
+
+A határidőig el nem mentett gyűjtés és feldolgozás állapota ismeretlen. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba sorolható jelöltnél fordult elő. A Commons-képkeresés a már megjelent kiadáson fut, ezért a képoszlop a következő kiadás mentett állapotát mutatja.
+
+### A következő kiadás adatállapota
+
+A **2026-11-27 16:00**-ra tervezett kiadás előzetes alapja **137 rovatba illő cikk**, közülük **36** kész mindhárom stílusban és **0** rendelkezik mentett Commons-képpel. Az utolsó RSS-gyűjtés ideje **13:57:38**, az RSS-forráscommit ideje **13:57:43**. A gyűjtés kora a mérési határnál **2 perc 22 másodperc**. A kiadásig frissebb mentés érkezhet.
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Arsenal | 0 |
+| Manchester City | 1 |
+| Bayern München | 1 |
+| Manchester United | 0 |
+| Como | 0 |
+| Premier League | 1 |
+| Bajnokok ligája | 1 |
+| F1 | 1 |
+| NBA | 4 |
+| NFL | 2 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 1 |
+| Darts | 0 |
+| Környezetvédelem | 4 |
+| Technológia / Fejlesztések | 11 |
+| Ingatlan | 8 |
+| Tenisz | 0 |
+| Belföldi parlament | 16 |
+| Belföldi tőzsde | 3 |
+| Külföldi tőzsde | 5 |
+| Belföld | 63 |
+| Külföld | 42 |
+| Filmek | 4 |
+| Tőzsde | 0 |
+| Sportgazdaság | 0 |
+| Téli sportok | 1 |
+
+**Összesen 137 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
