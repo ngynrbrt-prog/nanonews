@@ -7,6 +7,18 @@ git config user.name 'github-actions[bot]'
 git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 if [[ "$mode" == official ]]; then
   export NANONEWS_SNAPSHOT_REF=origin/main
+  # A scheduled run can start a few minutes before the edition cutoff.
+  # Wait before pulling main so the cutoff snapshot is available locally.
+  read -r hour minute second <<< "$(TZ=Europe/Budapest date '+%H %M %S')"
+  seconds_today=$((10#$hour * 3600 + 10#$minute * 60 + 10#$second))
+  for slot_hour in 5 16; do
+    seconds_until_slot=$((slot_hour * 3600 - seconds_today))
+    if (( seconds_until_slot > 0 && seconds_until_slot <= 240 )); then
+      echo "Waiting ${seconds_until_slot}s for the NANONews edition cutoff."
+      sleep "$seconds_until_slot"
+      break
+    fi
+  done
 fi
 
 refresh_window_open() {
