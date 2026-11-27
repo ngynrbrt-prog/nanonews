@@ -4487,12 +4487,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2281204061-873490.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "d4401cd2ccea22c6cbb6412e49529f87f2fb851609fb0c06190fa28d0bca1150",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Novemberben tovább nőtt a különbség a Tisza és a Fidesz-KDNP között a belföldi közvélemény-kutatások szerint, a teljes népességben 4, a biztos szavazóknál 6 százalékponttal. Emiatt a Republikon Intézet friss adatai alapján a Fidesz-KDNP támogatottsága a belföldi listás választási eredményének mindössze 23 százalékára esett vissza, míg a Tisza a választók kétharmadának támogatását bírja. A kutatás rávilágít arra is, hogy a belföldi megkérdezettek kétharmada esélytelennek tartja a Fidesz-KDNP talpra állását, és 60 százalékuk rendszerszintű korrupciót vél a háttérben. A belföldi politikai erőket érintő mérésben a Mi Hazánk minden szinten 1-1 százalékpontot veszített, míg a bizonytalanok aránya 15 százalék maradt."
+        },
+        "tolkien": {
+          "title": "A vöröslő mezők krónikája: elváltak az utak",
+          "body": "November hűvös leheletén túl a belföldi népek birodalmában tovább tágult a szakadék a Tisza és a Fidesz-KDNP seregei között, a teljes népsereg körében négy, a hűségesen fegyverforgatók között pedig hat singgel. Ezen sorsfordító órában a Fidesz-KDNP zászlaja megfakult, s támogatottsága a korábbi dicsőség harmadára olvadt, míg a Tisza tábora a nép kétharmadát hódította meg, negyvenkétötvenezer lélekkel gyarapodva. A belföldi várúr népeinek kétharmada úgy véli, e mélységből már nincs felébredés a bukott urak számára, és a birodalom hatvan esztendeje korhadó oszlopait rendszerszintű rothadás emészti. Miközben a Mi Hazánk tornyai egy-egy árnyékot veszítettek e viharban, a bizonytalanok serege rendületlenül őrzi helyét a belföldi mezőkön."
+        },
+        "reito": {
+          "title": "A számok makacs makacssága: amikor a százalékok szárnyra kelnek",
+          "body": "Novemberben aztán megmutatta a belföldi közmorál, hogyan kell alulról szagolni az ibolyát: a Tisza és a Fidesz-KDNP közötti szakadék a teljes népességben 4, a biztos szavazóknál pedig kerek 6 százalékponttal nőtt. Ennek köszönhetően a Fidesz-KDNP belföldi szekere olyan mélyre süllyedt, hogy a korábbi választási eredményének alig a huszonhárom százalékát bírja, miközben a Tisza a választók kétharmadát édesgette magához. A belföldi megkérdezettek szellemesnek éppen nem mondható kétharmada már a temetést szervezi, és hatvan százalékuk szerint nem holmi elszigetelt balhékról, hanem rendszerszintű korrupcióról dalol a kórus. A Mi Hazánk eközben minden szinten leadott egy-egy csinos százalékot a belföldi placcon, míg a bizonytalanok tábora mozdulatlanul őrzi a tizenöt százalékos állóvizét."
+        }
       }
     },
     {
@@ -4505,12 +4518,25 @@
       ],
       "image": "https://assets.telex.hu/images/20261125/1795628167-temp-3eppt6nf9vmoddgpphg_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7fb75d5c2a21e7f4c86cbd57c04a0399c7b1c902a034bed31102c20db3dbe294",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Nemzeti Népegészségügyi és Gyógyszerészeti Központ (NNGYK) – amely november elsejétől Országos Népegészségügyi Intézetként (ONI) és Országos Gyógyszerészeti Intézetként (OGYI) működik tovább – által az iskolai kampányoltások keretében a 11 éves, hatodik osztályos tanulók számára idén ősszel biztosított, torokgyík, tetanusz és szamárköghöz elleni dTaP-védőoltások beszerzése és kiszállítása során bizonytalanságot okozott, hogy a szülőknek előzetesen megnevezett Adacel helyett Triaxis feliratú, külföldi csomagolású vakcinák érkeztek a háziorvosi és iskolaorvosi praxisokba. A néveltérés és az adatok nehézkes elérhetősége miatt egyes szülők aggódnak és bizonytalanok, pécsi szülők nem engedik beadatni a szert, míg a védőnők fokozott jogi kockázattal szembesülnek a betegtájékoztatás terén, miközben a hatóságok, a gyártó Sanofi és a Hungaropharma Zrt. megerősítése szerint a két kereskedelmi név ugyanazt az azonos összetételű és hatóanyagú gyógyszert takarja, amelyre augusztus 19-én alaki hibás engedélyt adtak ki. Az NNGYK április 29-én írta ki a közbeszerzést augusztus 5-i ajánlattételi határidővel az Adacel 2024-es gyártási gondjai miatt, a Triaxis vakcinák pedig október elején érkeztek meg az orvosokhoz az EGT-tagállamokból történő átcsoportosítás révén."
+        },
+        "tolkien": {
+          "title": "A Nevek Árnyéka és a Triaxis Küldötte",
+          "body": "A Hatodik Kör tizenegyedik tavaszán a Nemzeti Népegészségügyi és Gyógyszerészeti Központ – melynek neve ezentúl Országos Népegészségügyi Intézetre és Országos Gyógyszerészeti Intézetre változott – útnak indította a dTaP-védőoltások seregét a torokgyík, a tetanusz és a szamárköhögés veszedelme ellen, ám a szülők seregében félelem ébredt, mert az Adacel várt neve helyett Triaxis pecsétjét viselték a csomagok. Október hajnalán a vakcinák megérkeztek a gyógyítók sátraiba, nyomukban bizonytalansággal és pécsi zúgolódással, miközben a védőnők törékeny tojáshéjakon lépkedve őrizték a betegjogok kényes ösvényeit a jogi viharok közepette. A Sanofi mágusai és a hatóságok krónikái szerint azonban a két név egyetlen tőről fakad, s augusztus tizenkilencedikén az alaki hibák pecsétjével nyitották meg útjukat a hazai gyermekek oltási ösvényén, hogy a logisztika szűkös határidején túl se maradjon üresen a védőpajzs."
+        },
+        "reito": {
+          "title": "A Névtelen Vakcina Veszélyes Kalandjai",
+          "body": "A Nemzeti Népegészségügyi és Gyógyszerészeti Központ – novembertől Országos Népegészségügyi Intézet és Országos Gyógyszerészeti Intézet néven futó alakulat – a tizenegy éves hatodikosoknak szánt dTaP-védőoltások, vagyis a torokgyík, tetanusz és szamárköhögés elleni szerek kapcsán olyan papírháborúba keveredett, ahol az Adacel névre szóló megrendelésből október elejére hirtelen Triaxis feliratú, külföldi dobozos vakcina lett a praxisokban. A papírok és a dobozok ezen cseréje miatt Pécsen máris betiltották a könytárat a szülők, a védőnők pedig olyan tojáshéjakon egyensúlyoznak a betegjogok viharában, mint akik taposóakna-mezőn adnak be injekciót. Szinguláris módon a Sanofi és a hatóságok írásos gyónása szerint az augusztus 19-én alaki hibásnak minősített, de jogilag jóváhagyott szer ugyanaz az áru, mint a hiánycikké vált Adacel, így a papírok mágiája nélkül is pont ugyanazt a tűt kapják a gyerekek."
+        }
       }
     },
     {
@@ -4523,12 +4549,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ef90bf0a-fd90-4fe6-904b-705d23328d37.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "1aa41422cbe0c70a1329f1ee257defbf6114a65244656646207e71b1bf2526da",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Együttműködési megállapodást írtak alá Törökországban a török fejlesztésű Gidrán és Nomád páncélozott járművek magyarországi gyártásáról, amely a hazai belföldi védelempolitikai fejlesztéseket és a Magyar Honvédséget érinti. A megállapodást – amelyet magyar részről a HM EI Zrt. vezérigazgató-helyettese írt alá a török gyártó, a Nurol Makina telephelyén, Ruszin-Szendi Romulusz honvédelmi miniszter helyszíni beszámolója szerint – egy fele-fele arányú török és magyar tulajdonú közös vállalkozás alapításával készítik elő a végleges szerződéshez. A tervek szerint a végső szerződést pár hónapon belül aláírhatják, így a gyártás és összeszerelés akár már jövőre elindulhat, nemcsak a Magyar Honvédség lövészegységeinek alapjárműveit biztosítva, hanem exportra is termelve."
+        },
+        "tolkien": {
+          "title": "A vasat formáló szövetség krónikája",
+          "body": "Messzi földön, a törökök csarnokaiban pecsételték meg a sorsát a Gidrán és Nomád acélpáncélosoknak, amelyek megépítése a hazai belföldi honvédelem és a magyar fegyveres erők jövőjét formálja. Ruszin-Szendi Romulusz vezetésével és a HM EI Zrt. kézjegyével egyenlő arányú, török-magyar vérvonalú szövetség kovácsolódik a Nurol Makina küszöbén. Ha az évszakok fordulásával, néhány hónapon belül a végleges paktum is megköttetik, már a következő esztendőben megindulhat a harci szekerek, mentők és aknarontók hazai munkája."
+        },
+        "reito": {
+          "title": "Páncélosok gyóntatószéke: török vasat a magyar porba",
+          "body": "Törökországban pecsételték meg a Gidrán és Nomád nehézfiúk sorsát, amivel a hazai belföldi honvédelem gépezete kap friss lendületet. A Nurol Makina udvarán Ruszin-Szendi Romulusz felügyeletével, a HM EI Zrt. kézjegyével egy fele-fele arányú magyar-török vegyesbolt alapjait rakták le, hogy előkészítsék a végleges papírokat. Ha minden a terv szerint halad, pár hónap múlva már alá is írnak, jövőre meg a gyártósor ontja a lövészegységeknek szánt alapjárműveket, mentőket és aknamentesítőket, sőt még a határokon túlra is jut a portékából."
+        }
       }
     },
     {
@@ -4541,8 +4580,8 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/33rYvmNg-btJFRFqsRpPsvfYssYdetUpQehFZKoSD30/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzM1ODQyNzk5MmI2MjQwNWE5NTA0NjYwYTk3OWE0ZjBj.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "9a435d09e3e55f871760bed84f28ae4514cd7e97e392204df68f12973b548130",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -4598,6 +4637,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A magyar öregfiúk-válogatott lépett pályára a szlovénok ellen a Fáy utcában, ahol a hazaiak 4-0-s vereséget szenvedtek az UEFA elnöke, Aleksander Ceferin és csapata ellen. A mérkőzésen olyan korábbi játékosok szerepeltek a magyar csapatban, mint Fehér Csaba, Juhász Roland, Gera Zoltán, Tököli Attila, Priskin Tamás, Nikolics Nemanja és Torghelle Sándor, a kapuban pedig Csank János kezdett, akit Király Gábor váltott. A találkozón a szlovénok győztek, Milivoje Novakovic három gólt szerzett az első félidőben. A havas, lucskos, jéghideg időjárási körülmények ellenére a találkozót leejtették, amelyen a magyar labdarúgók gól nélkül maradtak."
+        },
+        "tolkien": {
+          "title": "A Hómezők Krónikája és a Déli Szomszédok Viadala",
+          "body": "A Fáy utca fagyos és fehérbe öltözött mezején, hol csupán maroknyi didergő lélek gyűlt össze a viadal előtt, a magyar öregfiúk-válogatott csapata lépett harcba a délnyugati szomszédok ellen. A csillogó nevű hősök – mások mellett Fehér Csaba, Juhász Roland, Gera Zoltán, Tököli Attila, Priskin Tamás, Nikolics Nemanja és Torghelle Sándor – az elemek dacára is tüzes szívvel vetették magukat a küzdelembe, míg a sorokat maga az UEFA ura, Aleksander Ceferin is erősítette kapitányi karszalaggal. A kaput a nyolcvanadik esztendejét idéző Csank János övezte védelemmel, majd a hálót őrző Király Gábor vette át a terhet, ám a szlovén hódítók, élükön a gólvágó Milivoje Novakoviccsal, végül négy találattal kerekedtek felül. A havas gyepen zajló ütközet végén a magyar harcosok találat nélkül, vereséggel hagyták el a csatateret."
+        },
+        "reito": {
+          "title": "Hóban, fagyban, Ceferinnel: így dőlt el a szlovén túlóra Angyalföldön",
+          "body": "A Fáy utcai jéghideg, havas prérin a magyar öregfiúk-válogatott adott randevút a délnyugati szomszédoknak, nem kímélve sem a csontjaikat, sem a nézőket. A pályán olyan sztárok igyekeztek móresre tanítani a riválisokat, mint Fehér Csaba, Juhász Roland, Gera Zoltán, Tököli Attila, Priskin Tamás, Nikolics Nemanja és Torghelle Sándor, sőt, maga az UEFA elnöke, Aleksander Ceferin is kapitányi karszalaggal feszített a gyepen. A kapuban a 80-as mezszámmal indító Csank János az első hazaadás után elegánsan le is vonult, hogy átadja a terepet a mackónadrágos Király Gábornak, aki aztán nem maradt szárazon – vagyis inkább kapott gól nélkül –, hiszen a szlovénok oldaláról Milivoje Novakovic mesterhármasával befékezett a pakk. A magyarok végül 4–0-s vereséggel és lőtt gól nélkül zárták a havas kalandot."
+        }
       }
     },
     {
@@ -4610,12 +4662,25 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/jkyDdACqMsETl8m8iLLvgIfrkYzjv8g8Ju2__RKkOjs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzhiYjVjYjliOTNiMTRmMWI5N2IwMDY3YjQ0ZDlmZTk1.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "f247626f6cc9eab20dacc2bed48e042a271928b8d009146c1b8cca583ca1cb49",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A José Mourinho által irányított Real Madrid sorozatban tíz győzelemnél jár minden sorozatot figyelembe véve, és szombaton 21 órától a Bernabéuban az Alavés ellen lép pályára a spanyol La Liga 14. fordulójában, miközben a Bajnokok Ligája és a vasárnapi spanyolországi előrehozott parlamenti választás is téma volt a sajtótájékoztatón. A vezetőedző kijelentése szerint a három nap elegendő idő a regenerálódásra a mérkőzések között, így nem lesz probléma a pihenéssel az Alavés elleni találkozó előtt. A tréner kitért a Jude Bellingham és Zinédine Zidane közötti összehasonlítás elől, kritizálta a mesterséges intelligencia szuperszámítógépét, és megjegyezte, hogy vasárnap nem lesz edzés, mivel spanyol játékosaik is alig vannak, csupán három vagy négy."
+        },
+        "tolkien": {
+          "title": "A fehér sereg tizedik diadala és a gépek orákuluma",
+          "body": "A José Mourinho vezette Real Madrid félelmetes falanxként tíz győzelem láncolatát kovácsolta össze, s a sereg szombaton este kilenc órakor a Bernabéuban az Alavés ellen vívja meg a tizenegyedik ütközetet a spanyol La Liga 14. fordulójában. A harcok viharában a mester bölcsen ügyel a test megújulására, vallván, hogy a három nap elegendő pajzs a fáradtság ellen az újabb próbatétel előtt. Miközben a bűvös szuperszámítógép jóslatait a porba sújtotta a tréner, a Bajnokok Ligája sorsáról és a spanyol föld vasárnapi előrehozott parlamenti választásáról is szót ejtett, megjegyezve, hogy azon a napon fegyvernyugvás lesz, és amúgy sem gyülekezik ott sok hazai vitéz, csupán három vagy négy."
+        },
+        "reito": {
+          "title": "Tíz győzelem, egy morcos mester és a szuperszámítógép bosszúja",
+          "body": "A José Mourinho vezette Real Madrid eddig tíz győzelmet gyűjtött össze, és szombaton este kilenckor a Bernabéuban az Alavés ellen próbálja meg növelni ezt a számot a spanyol La Liga 14. fordulójában. Az edzői szigor és a naptár kegyelme – hiszen a meccsek közötti három nap bőségesen elég a regenerálódásra – biztosítja, hogy a játékosok frissen érkezzenek a pályára. A mester lapos pillantásokkal illette a mesterséges intelligencia szuperszámítógépét, miközben a Bajnokok Ligája viszontagságairól és a spanyolországi vasárnapi előrehozott parlamenti választásról is beszélt, utóbbival kapcsolatban megjegyezve, hogy vasárnap nem lesz edzés, mert spanyol játékosuk amúgy is alig akad, csupán három vagy négy."
+        }
       }
     },
     {
@@ -4635,7 +4700,8 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
-      }
+      },
+      "variants": {}
     },
     {
       "source": "Portfolio.hu",
@@ -4647,8 +4713,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/s/p/a/spacex-falcon-9-raketa-urkutatas-uripar-elon-musk-technologia-vallalat-usa-836224.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "f8697e7b50717ff8645247c350e2bec72d7613c0ccd18d0f97ee9daff7dcc757",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -4735,6 +4801,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A SpaceX papírjai több mint 7 százalékot ugrottak az éjszakai kereskedést biztosító Blue Ocean ATS platformon, miután Elon Musk az X-en bejelentette, hogy minden évben egy-egy újabb SpaceX-részvényt adományoz minden amerikai gyermeknek. A nyitás előtti kereskedés későbbi szakaszában az árfolyam 4 százalékos pluszban állt a csütörtöki amerikai tőzsdei ünnepnap után. Ez a vállalás a cég szerdai bejelentését fejeli meg, amely szerint a SpaceX egy darab A osztályú részvényt ír jóvá minden aktív, adókedvezményes Trump-számlán, amelyet a Fehér Ház adatai szerint októberig közel 70 millió darabban nyitottak meg az Egyesült Államokban. A külföldi tőzsdéken zajló kereskedés és a tengerentúli gazdasági intézkedések hírei a globális piaci folyamatokat érintik, amelyekhez hasonlóan a hírben említett egyéb nemzetközi gazdasági kitekintések is a külföldi rovat témaköretébe illeszkednek."
+        },
+        "tolkien": {
+          "title": "A csillagok kovácsának ajándéka",
+          "body": "Az éjszakai kereskedés csarnokában, a Blue Ocean ATS bűvös mezőin a SpaceX papírjai több mint hét százalékot szöktek magasra, miután Musk úr az X rovátról bejelentette, hogy minden esztendőben újabb részvénnyel ajándékozza meg a birodalom ifjú gyermekeit. E nemes ígéret a szerdai cselekedetet tetézi be, melyben a vállalat egyetlen A osztályú tulajdonjogot helyezett el minden egyes szentelt Trump-számlán, míg a Fehér Ház krónikái közel hetvenmillió nyitott kincstárat számlálnak októberig. E távoli földek birodalmi rezdülései, mint ahogy a perzsa állam megszorításai vagy a nemzetközi vizek sorsa is, a Külföld messzeségbe mutató rovatának lapjait ölelik át. A vállalat hozzájárulása már a következő holdtölte haván megérkezik a számlákra, ám Musk saját kincse jövő év júniusában, az eladás tilalmának lejártakor árad majd szét a nép között."
+        },
+        "reito": {
+          "title": "A tőzsdei varázsló megint elejtett egy morzsát",
+          "body": "A Blue Ocean ATS nevű éjszakai pultján a SpaceX papírok hirtelen több mint hét százalékot ugriszkodtak, miután Musk az X-en kinyögte a tutit: minden évben ad egy-egy újabb SpaceX-részvényt az összes amerikai kölyöknek. A nyitás előtti órákban ez még szerényebb, csupán 4 százalékos pluszban ragadt, míg a tengerentúli börzék éppen a csütörtöki ünnepet pihenték ki. Mivel ez a balhé odafent, a nagy USA-ban zajlik, a külföldi hírek kedvelői most csettinthetnek, akárcsak a perzsa megszorításokat vagy a globális aranyspekulációkat bámulók. A cég saját részvényei már a következő hónapban megérkeznek a Trump-számlákra, míg Musk saját adományára jövő júniusig, azaz a lock-up tilalom lejárta előtti pillanatig várni kell."
+        }
       }
     },
     {
@@ -4833,12 +4912,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/97886671-2738-4d9b-8fc0-8473b93d9d95.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "f03d21d8581c4f407313d48d26b559335e6e17debde4f26765bfb8664e79d3e2",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Novemberben hibahatáron belül, két százalékponttal erősödött a Tisza, míg a Fidesz–KDNP ugyanennyit veszített a támogatottságából a Republikon Intézet 1000 fő bevonásával, a kontroll.hu megbízásából készített reprezentatív mérése szerint. A teljes népességben a Tisza 56, a Fidesz–KDNP 20 százalékon áll, ami a Tiszának körülbelül 4,25 millió, a kormánypártnak pedig 1,5 millió szavazót jelent. A felmérés rámutat, hogy a válaszadók kétharmada szerint a Fidesz–KDNP nem tud talpra állni a jelenlegi támogatottsági mélypontról, és 60 százalékuk rendszerszintű korrupcióként értékeli a közelmúlt ügyeit. Ezzel a hazai közpolitikai és pártpreferencia-helyzetet érintő adatokkal a hazai belföldi nyilvánosság szereplői és folyamatai formálódnak át."
+        },
+        "tolkien": {
+          "title": "A síkságok vándorainak emelkedése és a hatalom bástyáinak árnyéka",
+          "body": "November fagyos napjaiban a Tisza népe két arasszal nőtt, míg a Fidesz–KDNP serege ugyanennyit vesztett erejéből a Republikon Intézet ezer lélekre kiterjedő, a kontroll.hu megbízásából szőtt vizsgálata szerint. A teljes népesség birodalmában az arány ötvenhat és húsz, ami a Tiszának mintegy négymillió-kétszázvaskilencezer, míg ellenfelének másfél millió követőt számlál. A nép kétharmada úgy véli e belföldi sorsfordulóban, hogy a Fidesz–KDNP nem képes feltámadni e mély szakadék széléről, hatvan százalékuk pedig a hatalom gyökérzetét rágó, mélyről fakadó korrupciót lát a történtek mögött. E birodalmi súlyú átrendeződés végleg átrajzolja a magyar hazai táj politikai határait."
+        },
+        "reito": {
+          "title": "Ahol a számok beszélnek, a szavazók meg a szakadék szélén egyensúlyoznak",
+          "body": "Novemberben a Tisza két százalékponttal húzott el, míg a Fidesz–KDNP ugyanennyit olvadt a Republikon Intézet ezerfős, a kontroll.hu megbízásából készült reprezentatív mérése szerint. A teljes népességben így 56:20 az állás, ami a Tiszának nagyvonalú 4,25 milliós, a kormánypártnak meg szolid 1,5 milliós tábort hozott a konyhára. A belföldi porondon a nép kétharmada szerint a Fidesz–KDNP már esélytelenül táncol a szakadék szélén, miközben 60 százalékuk nem holmi félresikerült magánakciót, hanem rendszerszintű korrupciót lát a háttérben. Ez a hazai politikai valóság most alaposan átrendezi a belföldi erőviszonyokat."
+        }
       }
     },
     {
@@ -4852,12 +4944,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c716b0eb-13e3-4560-90df-7452b7d88d69.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "e6c7cd2adea9e8d8f624c0066c79bd3150aee9fe7fb64fd125e89a3216330d2b",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Siófokon Lengyel Róbert polgármester és Csatári Ernő országgyűlési képviselő péntek délelőtt flexszel bontotta meg a szállodasori lezárt partszakasz kerítését a város képviselő-testületének döntése nyomán, amely a lakosság számára kívánja elérhetővé tenni a területet. A gyakorlati következmény az, hogy a lakosok negyven év után újra használhatják a sétányt, bár a helyszínen a biztonsági őrök és a rendőrség is intézkedett, sőt egy második kerítés is feltűnt, amelynek sorsáról hamarosan intézkednek. Az esemény szorosan kapcsolódik a helyi önkormányzati döntésekhez és a belföldi parlamenti munkához is, mivel a Balaton-part használatát kormányrendelet és a Vízparti Terv szabályozza, amely szerint a parti sétány mentén legalább 5 méter széles közösségi területet kell biztosítani, és a vízpart meg a tómeder közé tilos kerítést vagy kaput tenni. Csatári Ernő országgyűlési képviselő a helyszínen történelmi pillanatnak nevezte a rácsok eltávolítását a belföldi törvényi előírások jegyében."
+        },
+        "tolkien": {
+          "title": "A vasrácsok bukása a magyar tenger partján",
+          "body": "Siófokon Lengyel Róbert polgármester és Csatári Ernő országgyűlési képviselő péntek délelőtt acélvágó szerszámmal rontott neki a szállodasori lezárt partszakasz falainak a város testületének akarata szerint, hogy a nép előtt megnyissa a Balaton vizét. A legfőbb következményként negyven esztendő fogsága után a megcsonkított sétány ismét a gyülekező tömegé lett, miközben a helyszínen őrök és a rend törvény őrzői is fegyverrel keresték az igazságot a rácsok árnyékában. Ez a harc összefonódik a belföldi parlament és a helyi tanácsterem döntéseivel, hiszen kormányrendelet és a Vízparti Terv szigorú igéje parancsolja meg, hogy a tómeder és a sétány között nem állhat kapu vagy korlát, és legalább öt lépésnyi szabad tért kell adni a közösségnek. Csatári Ernő országgyűlési képviselő e napot a belföldi törvények tüzében álló, történelmi pillanatnak kiáltotta ki, jelezve, hogy a tó minden vándoré."
+        },
+        "reito": {
+          "title": "Ahol a flex vág, a rendőr meg igazoltat: így szabadult fel a siófoki part",
+          "body": "Siófokon Lengyel Róbert polgármester és Csatári Ernő országgyűlési képviselő péntek délelőtt rontott neki flexszel a szállodasori lezárt partszakasz kerítésének a képviselő-testület parancsára, hogy a lakosság birtokba vegye a vizet. A gyakorlati eredmény annyi, hogy negyven év után a helyiek újra sétálhatnak a terepen, habár a biztonságiak és a rendőrök gyorsan igazoltattak mindenkit, és kiderült, hogy egy második kerítés is várja még a sorát. Az akció látványosan köti össze a helyi ügyeket a belföldi parlamenti valósággal, mivel a kormányrendelet és a Vízparti Terv egyértelműen előírja: a parti sétánynál legalább öt méter széles közterület kell, a víz és a sétány közé pedig tilos kerítést építeni. Csatári Ernő országgyűlési képviselő a belföldi szabályozás jegyében történelmi pillanatnak nevezte a bátor fémvágást a helyszínen."
+        }
       }
     },
     {
@@ -4870,8 +4975,8 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/0fa1f3d3-74f5-4f9e-a788-a8366eef94a4.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "4ed9491fe8eb690961206a3a88ea74966865327e579f5e8def09afde060f6427",
       "relatedStories": [
         {
           "source": "Telex",
@@ -5096,6 +5201,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Volodimir Zelenszkij ukrán elnök a BBC-nek adott pénteki interjújában arról beszélt, hogy furcsa barátság köti össze Donald Trumpot és Vlagyimir Putyint, miután az amerikai elnök múlt csütörtökön a sencseni csúcson a barátjának nevezte az orosz államfőt. Az ukrán vezető szerint ez ahhoz hasonlítható, mintha valaki a második világháború idején Adolf Hitlert nevezte volna a barátjának, miközben Jay Clayton amerikai hírszerzési igazgató úgy fogalmazott, hogy Putyin nem Amerika barátja Ukrajnában. A nemzetközi kapcsolatokat és a külföldi fejleményeket érintő helyzetben Zelenszkij kijelentette, hogy a konfliktus rendezéséről szóló tárgyalások várhatóan decemberben folytatódnak amerikai közvetítéssel, és az ukrán légvédelem jelenleg a legnagyobb sebességű orosz drónok 70 százalékát tudja megsemmisíteni. A háborús helyzet gyakorlati következményeként az ukrán elnök jelezte, hogy nagy a hiány a ballisztikus rakéták ellen bevethető elfogó rakétákból az Egyesült Államok késlekedése miatt, és az amerikai Starlink, valamint Starshield rendszerek korlátozott hozzáférése is nehezíti a védekezést."
+        },
+        "tolkien": {
+          "title": "Az Északi Szelek és a Két Trónus Árnyéka",
+          "body": "Volodimir Zelenszkij ukrán fejedelem a BBC krónikásainak adott pénteki szav তানban rögzítette, hogy furcsa szövetség köti össze a távoli birodalom urát, Donald Trumpot és a fagyos keleti földek gyilkos uralkodóját, Vlagyimir Putyint. Az ukrán vezér a régmúlt sötét idõire emlékeztetett, mondván, e barátság olyabb, mintha valaki a második nagy háború napjaiban Adolf Hitler barátságával dicsekedett volna. A távoli sencseni gyűlésen megkötött négyes egyezmény árnyékában az idegen földekről érkező hírek szerint a békéről szóló újabb tanácskozások fonalát várhatóan decemberben veszik fel amerikai kézen. E birodalmi viharokban az ukrán harcosok acélos védőpajzsa ugyan megsemmisíti a sebes röptű orosz vasdrónok hetven részét, ám az égboltot oltalmazó drága elfogó nyílvesszők híján a földi népek súlyos árat fizetnek."
+        },
+        "reito": {
+          "title": "Sencseni barátok és a decemberi számla",
+          "body": "Volodimir Zelenszkij ukrán elnök a BBC pénteki mikrofonjai előtt hitetlenkedve konstatálta, hogy Donald Trump amerikai elnök a múlt csütörtöki sencseni csúcson egyszerűen a barátjának nevezte Vlagyimir Putyint. Az ukrán államfő szerint ez a haverkodás annyira logikus, mint amikor valaki a második világháború sűrűjében Adolf Hitlert nevezte volna kebelbarátjának, bár Jay Clayton amerikai hírszerzési igazgató gyorsan hozzátette, hogy Putyin azért nem Amerika pajtása Ukrajnában. A nemzetközi diplomácia színterén ezzel egy időben Trump, Putyin és Hszi Csin-ping letolt egy négypontos papírt a sencseni asztalra, ami máris elindította a Jalta 2.0-s paranoiát a világ felosztásáról. A gyakorlati mindennapokban ez úgy néz ki, hogy az ukrán légvédelem ugyan lekapkodja a gyors orosz drónok hetven százalékát, de a Patriot-rakétákra továbbra is hiába várnak a Közel-Keletre irányított amerikai figyelm miatt, ráadásul Elon Musk Starlinkje is csak takarékon ketyeg az ukránok felett."
+        }
       }
     },
     {
@@ -12399,7 +12517,11 @@
           "body": "Tokióban a friss élelmiszerek nélküli fogyasztói árindex hirtelen 2,9 százalékos éves ütemmel robbant be, elérve a 2025 júliusa óta ismert legmagasabb csúcsot. Miközben a rezsitámogatás kifutása miatt az áram és a gáz ára nagyot ugrott, a rizs ára történetes módon, közel 34 százalékkal zuhant, megmutatva, hogy még az inflációs motorok is kifulladhatnak. A friss adatok láttán az elemzők már veszik is elő a kristálygömbjüket, és mérget vennének arra, hogy a jegybank december 18-án megllépi a 25 bázispontos kamatemelést. Takaicsi Szanae miniszterelnök asszony mindeközben a támogatások visszapakolásával és adócsökkentéssel keveri a kártyákat, miközben Ueda Kazuo jegybankelnök hétfői beszéde döntheti el, hogy a decemberi kamatdöntés valóban ünnepnap lesz-e a bankároknak."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -12467,7 +12589,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -12785,7 +12911,17 @@
           "body": "A Premier League ármánykodó színpadán a Manchester City épp azt próbálja megmagyarázni, hogy a 2009 és 2018 közötti időszakban miként tűnt el a semmiben mintegy 900 millió fontnyi bevétel, mire három élvonalbeli rivális nemes egyszerűséggel a tulajdonosok csomagolását követeli. Manszúr sejk birodalma, az Abu Dhabi United Group most a Független Labdarúgást Szabályozó Hatóság célkeresztjébe került, amely a Football Governance Act 34. szakasza alapján akár arra is kötelezheti a klubot, hogy írjon ki egy gyors eladó táblát a stadion ajtajára. Míg a City fellebbezésbe menekül, az Etihad és az Etisalat nevű szponzoróriások már a jogi kesztyűt húzzák fel, az IFR pedig hősiesen összekapar kétmillió fontot a következő két évre, hogy ne fillérekért kelljen pereskedni."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Petrovskiy_football_stadium_in_SPB.jpg/960px-Petrovskiy_football_stadium_in_SPB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Petrovskiy_football_stadium_in_SPB.jpg",
+        "author": "Alex 'Florstein' Fedorov",
+        "credit": "Own work",
+        "title": "Petrovskiy football stadium in SPB.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14052,7 +14188,11 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
