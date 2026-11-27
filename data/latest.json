@@ -15,7 +15,8 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {}
     },
     {
       "source": "Fűzővel kifelé!",
@@ -27,9 +28,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "ba70bdfef9e860b0b167bcad13c79298fba4b6e827f7bccc4f5a2e88277b58da",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Pittsburgh Steelers megpróbálhatja elkerülni a szerződése alapján Aaron Rodgers irányító hátralévő, 7,33 millió dolláros fizetésének kifizetését az alapszakasz utolsó hat hetére. A csapatnak ahhoz, hogy visszatartsa ezt az összeget a Pat McAfee műsorában tett kijelentések miatt, egy választottbíró előtt kellene bizonyítania a csapat érdekeit sértő, rendkívüli magatartást. A kollektív szerződés alapján Rodgers mindezek ellenére jogosult lehet a pénzre az első heti kerettagsága miatt, ami súlyos jogi harcot és negatív reklámot jelenthet a franchise számára. Az NFL-csapat a reputációjának védelmében mérlegeli a lépést, miközben az irányító biztosan vitatná a büntetést."
+        },
+        "tolkien": {
+          "title": "A futballmezők vihara: Az arany visszatartása",
+          "body": "Az amerikai futball szentélyében, a Pittsburgh Steelers csapatában vihar kavarodott, mikor Aaron Rodgers irányító Pat McAfee műsorában elhangzott szavai nyomán a vezetőség megkísérli elzárni a hátralévő hat hétre járó, hétmilliós aranytartalékot. A csapat ifjú és idős harcosai arra hivatkoznának, hogy az irányító magatartása megsebesítette a birodalom becsületét, ám a kollektív szerződés törvénye szerint az első napi hűség miatt a kincs mégis az övé lehet. Hogy a pénz a kamrában maradjon, a rend bírái előtt kell megvívni a csatát, bizonyítva, hogy a bűn nagyobb a szokásos büntetéseknél. A franchise népe azonban retteg a hírnév sötét árnyától, miközben a vezérek a küzdelem súlyát mérlegelik."
+        },
+        "reito": {
+          "title": "Hétmillió dolláros bedobás: Amikor a szennyes a kasszáig ér",
+          "body": "A Pittsburgh Steelersnél hirtelen nagyon fontos lett, mit mond Aaron Rodgers irányító a tévében, ugyanis a Pat McAfee műsorában elejtett szavai miatt megpróbálhatják megúszni a 7,33 millió dolláros hátralévő fizetés kifizetését. A csapat pénztárcájának megmentéséhez egy választottbírósági párbajban kellene bebizonyítaniuk, hogy az irányító botrányos viselkedése bőven túlmutat a megszokott büntetéseken. A kollektív szerződés persze keresztbe tehet a tervnek az első heti kerettagság miatt, így a pénzért még komoly csata jöhet. A franchise nyilván kerülné a kínos balhét és a negatív reklámot, de a sérült büszkeség talán mégis ringbe kényszeríti őket."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -41,8 +55,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "bf5bc9d78a03f3bd83073c620986d816aeed86eb5b2ec446bf6a5990f660f924",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -72,7 +86,20 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Pittsburgh Steelers lecserélte Aaron Rodgerst Mason Rudolphra, miután a csapat vezetésében felmerült a változás szükségessége az NFL-ben. A statisztikák és a csapat eddigi, 6-4-es idei mérlege alapján a két irányító teljesítménye szinte megegyezik, így a váltás nem jelent különösebb visszaesést. Rodgers idén 86,6-os passer ratinget és passzkísérletenként 6,2 yardot hozott, míg Rudolph karrierje során 86,2-es értéket és 6,6 yardos átlagot ért el a Steelersnél, ötszöri kezdőként pedig 8-5-1-es mutatót tudhat magáénak. Mivel Rodgers nem találta a helyét a futásközpontú rendszerben, Rudolph érkezése akár javíthat is az offense teljesítményén és hozhat egy-két extra győzelmet."
+        },
+        "tolkien": {
+          "title": "A passzok völgyének árnyéka és az új vezér",
+          "body": "Megingott a pittsburghi seregek rendje az NFL csatamezején, mikor Aaron Rodgerst elküldték, és a helyére Mason Rudolph lépett, hogy vezesse a Steelers alakulatát. A számok ősi mágiája szerint alig van különbség a két harcos erejében: Rodgers idei passer ratingje 86,6, míg Rudolph pittsburghi öröksége 86,2-es mutatót rejt, s előbbi kísérletenként 6,2, utóbbi pedig 6,6 yardot szerzett. A csapat sorsa sem fordult meg drasztikusan a viharban, hiszen Rodgers 6-4-es idei mérleggel bír, míg Rudolph korábbi öt idényéből 8 győzelemmel, 5 vereséggel és 1 döntetlennel távozott a kezdő sorból. Mivel az elűzött Rodgers nem akart harcolni a futásközpontú birodalom szabályai szerint, az új vezér érkezése nem hoz sötétséget, sőt, akár újabb diadalt is szerezhet a klánnak."
+        },
+        "reito": {
+          "title": "A cserepad csendje, vagyis miért nem dőlt romba Pittsburgh",
+          "body": "Az NFL porondján a Pittsburgh Steelers egy elegáns mozdulattal lecserélte Aaron Rodgerst Mason Rudolphra, mintha csak egy lyukas zoknit hajítana el. A statisztikai mérlegen megmérettetve a két irányító szinte ikertestvér: Rodgers 86,6-os idei passer ratingje és passzkísérletenkénti 6,2 yardja alig lóg ki Rudolph 86,2-es pittsburghi karrier-mutatójából és 6,6 yardos átlagából. A csapat szekere eddig is döcögött vagy gurult a maga 6-4-es mérlegével, Rudolph pedig korábbi 14 kezdő meccsén 8 győzelmet, 5 vereséget és 1 döntetlent szuperált össze a franchise-nak. Mivel Rodgers eddig látványosan sértődötten nézte a futásközpontú rendszert, a szófogadóbb Rudolph beállítása még hozhat is a konyhára egy-két extra győzelmet."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -86,7 +113,8 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {}
     },
     {
       "source": "Fűzővel kifelé!",
@@ -98,9 +126,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8a4fc57a3b20b681c55cd352d6c051dfb10044139a50955928e79469b8287fab",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Pro Football Hall of Fame közzétette a 2027-es évfolyam 52 továbbjutott játékosának nevét, akik között első alkalommal választható be Rob Gronkowski, Adrian Peterson, Ben Roethlisberger, Antonio Brown és Richard Sherman. Az idén módosított kiválasztási rendszerben már nem különítik el a modern korszak és a korábbi évtizedek játékosait, így a mezőnyt a következő szavazási fordulóban 25 főre szűkítik. A szűkítést követően 13 finalistát választanak ki, akikhez Bill Belichick és Robert Kraft is csatlakozik, végül a választóbizottság három-hét új tagot iktat be a Hírességek Csarnokába."
+        },
+        "tolkien": {
+          "title": "A Hírhedtek Csarnokának kapui megnyíltak a 2027-es dicsőség előtt",
+          "body": "A Pro Football Hall of Fame megnyitotta a kapuit, és nyilvánosságra hozta azon 52 kiváló harcos nevét, akik továbbjutottak a 2027-es évfolyam dicsőséges ösvényén. A hősök viadalán most először lép a választhatottak szent mezőjére Rob Gronkowski, Adrian Peterson, Ben Roethlisberger, Antonio Brown és Richard Sherman. Az új idők szelében a kiválasztás rítusa megváltozott, és a modern kor bajnokai egybeolvadtak a letűnt évtizedek legendáival a 25 fős szűkítés felé vezető úton. A rostán átkelő 13 finalista sorához Bill Belichick és Robert Kraft is csatlakozik, míg a választóbizottság szigorú tanácsa végül három-hét új halhatatlant emel a Hírességek Csarnokába."
+        },
+        "reito": {
+          "title": "Bakancslistás legendák: megindult a roham a Hall of Fame felé",
+          "body": "A Pro Football Hall of Fame hivatalosan is kifűzte a cipőket, és kiadta annak az 52 játékosnak a listáját, akik továbbjutottak a 2027-es évfolyam következő fordulójába. A kezdő ötös most debütál a jelöltek sorában: Rob Gronkowski, Adrian Peterson, Ben Roethlisberger, Antonio Brown és Richard Sherman is ott lóg a kalapban. Az idei évben ráadásul bedobták a gyeptéglát a régi rendszer alá, így már senkit semkülönítenek el korosztály szerint, miközben a mezőny 25 főre, majd 13 finalistára olvad. A végállomás felé haladva Bill Belichick és Robert Kraft is behúzza a maga helyét, a bizottság pedig három-hét szerencsés kiválasztottat pecsétel majd be a Hírességek Csarnokába."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -112,9 +153,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "ecf55a67ac6ed4b6c9629f7b1eae276421b38781dfa738bf874a2315bd0d0465",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az NFL-ben szereplő Aaron Rodgers korábbi Green Bay-es csapattársai, James Jones és T.J. Lang az NFL-hez kapcsolódó Pat McAfee műsorában, illetve a detroiti 97.1 The Ticket rádióban nyilvánosan kiálltak Mike McCarthy vezetőedző mellett, miután az irányító kritizálta a trénert. A gyakorlati következmény az, hogy a korábbi játékostársak egyértelműen elítélik Rodgers nyilvános bírálatát, mondván, hogy a hosszú közös múlt után az ilyen ügyeket négyszemközt kellene rendezni. Jones és Lang egybehangzó véleménye szerint az irányító átlépett egy határt, ráadásul képmutató is, hiszen az elmúlt tíz évben maga is rendszeresen kifogásolta, ha mások a médiában beszéltek a sérelmeikről."
+        },
+        "tolkien": {
+          "title": "A tizenkettedik árnyéka és a hűség pajzsa",
+          "body": "Az északi ligák mezején, az NFL csatatérén Aaron Rodgers, a Green Bay-i sereg egykori vezére a nyilvánosság viharos szószékéről bírálta Mike McCarthy fővezért, mire felebarátai, James Jones és T.J. Lang a hűség acélfalát emelték a mester köré Pat McAfee és a 97.1 The Ticket krónikáin keresztül. E megosztó dörgedelem nyomán a harcostársak zárt táborai felbolydultak, és a telefonok üzenetei dörögnek, mert senki sem áll a 12-es számú vándor zászlója alá. Jones és Lang szózata mint éles kard metssze át a kötelékeket, hirdetve, hogy a régi bajtársaknak a sátrak csendjében kellett volna vitájukat elrendezniük."
+        },
+        "reito": {
+          "title": "A tizenkettes számú bumeráng visszaszáll",
+          "body": "Az NFL porondján Aaron Rodgers irányító úgy döntött, hogy Pat McAfee műsorának mikrofonja előtt teregeti ki a szennyest a Green Bay korábbi vezetőedzőjéről, Mike McCarthykról, mire a volt csapattársak, James Jones és T.J. Lang azonnal golyóálló mellényt húztak a mesterre. Ennek a látványos összecsapásnak az lett a kézzelfogható eredménye, hogy a telefonok izzanak a csoportos üzenettől, és a 12-es számú fenegyerek mögött hirtelen elfogyott a népes rajongótábor. Jones szerint mindez olyan vita, amit kettesben kellett volna letudni, míg Lang rámutatott a büszke irányító képmutatására, aki évtizeden át nyafogott, ha mások beséltek róla a médiában, most meg maga feketelistázza a kritikusait."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -126,9 +180,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "e7d0d4aa1b1838a57480fbe8e9485faad7db04784e01b37aad23db5fa8151d3b",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Aaron Rodgers irányító esetleges NFL-pályafutásának végén, a Philadelphia Eagles elleni vasárnapi mérkőzésen egy Max Hurlemannek adott touchdownddal búcsúzott, ami az elkapó első és Rodgers 543. NFL-touchdownja volt. A 44 passzkísérlettel záruló összecsapás és a jövő héten 43. születésnapját ünneplő játékos kirúgása után a waiverről senki sem szedte fel a 22 szezont, 274 alapszakasz-mérkőzést, 68 515 passzolt yardot, 129 interceptiont, valamint négy MVP-címet és egy 2010-es Super Bowl-győzelmet számláló irányítót, így ő jelenleg szabadon igazolható."
+        },
+        "tolkien": {
+          "title": "A negyvenkét esztendős vezér utolsó dobása a csatamezőn",
+          "body": "Az észak-amerikai hivatásos ligában, az NFL mezőin huszonkét vihart megért Aaron Rodgers irányító talán utolsó hadjáratát vívta, amikor a Philadelphia Eagles elleni vasárnapi ütközetben negyvennégy próbálkozásból Max Hurlemennek adta át az utolsó, ötszáznegyvenharmadik touchdown-pecsétet hordozó labdát. E dicső pillanat mentette meg a krónikákat attól, hogy a sötét mélységbe vesző, Houston Texans ellen elbukott interception legyen a hős utolsó tette, bár a padra kényszerítés vihara után e nevet is széttépték a szelek, és a jövő héten negyvenharmadik évét betöltő harcost a szabad préda jogán senki sem emelte fel a waiver oltáráról. A csatatereken elért kétszázhetvennégy alapszakasz-ütközet, hatvankoltezer-ötszáztizenöt passzolt yard és százhuszonkilenc interception évezredekig zengő dicsősége őrzi nevét, miközben négyszer nyerte el a legfőbb viharverő, azaz az MVP címet, és egyszer a Super Bowl trófeáját is a Green Bay Packers lobogója alatt. Így áll ő az örök ranglétrák magasságában, ötödikként a yardok viharában és harmadikként a touchdownok csillagai között, mielőtt a bizonytalanság ködébe veszne."
+        },
+        "reito": {
+          "title": "Búcsúpassz a padról: Rodgers szabad préda lett az NFL-ben",
+          "body": "A jövő héten 43. gyertyáját fújó Aaron Rodgers irányító a Philadelphia Eagles elleni vasárnapi NFL-meccsen 44 passzkísérletből egy Max Hurlemannek dobott touchdownnal zárta le – vagy éppen nyújtotta meg – a 22 szezonos, 274 alapszakasz-mérkőzést számláló karrierjét. Ez a bizonyos utolsó passz legalább megmentette a szezont attól, hogy egy Houston Texansnak ajándékozott pick-six legyen a legharsányabb emlék a 68 515 passzolt yardot, 543 TD-t és 129 interceptiont hozó pályafutás végén. Miután a padra ültetés utáni kirohanása után kitették a szűrét, a waiver-drót hálójából senki sem halászta ki a négyszeres MVP, tízszeres Pro Bowler és Super Bowl-győztes veteránt, így a pasas jelenleg szabadon igazolható."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -142,7 +209,8 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {}
     },
     {
       "source": "Nemzeti Sport",
@@ -154,8 +222,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "8308338bd9e1304f52f0699347d3506008950e2b4e6c084f62fa82a7075cf85d",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -167,7 +235,20 @@
           ],
           "archiveDate": "2026. 11. 22."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Ferencváros hazai pályán döntetlent játszott a szlovén Celjével az Európa-ligában, amivel a fővárosi csapat 13 ponttal a harmadik helyen áll a 36 csapatos mezőnyben, míg a hazai sportéletet érintő további hírek szerint az NB I-ben az ETO a DVSC-t fogadja, a Formula–1-ben pedig elindult a Katari Nagydíj hétvégéje a csütörtöki médianappal. A Fradi ezzel a döntetlennel elveszítette százszázalékos mérlegét a sorozatban. A hazai labdarúgás eseményeihez kapcsolódóan az ETO győri bajnokként lép pályára a legjobb formában lévő DVSC ellen, amelyben a századik NB I-es meccsére készülő Kocsis Dominik készül a pályára lépésre, míg a finn első osztályú Liigában Galló Vilmos a KooKoo játékosaként érte el 160. pontját, ezzel a klub valaha volt legeredményesebb játékosává válva az alapszakaszban."
+        },
+        "tolkien": {
+          "title": "A Groupama falaitól a Liiga fagyos csarnokaiig – Küzdelmek és csúcsok a nemzeti porondon",
+          "body": "A Ferencváros küzdött közelről és távolról a gólszerzésért a Groupama Arénában, ám a szlovén Celje elragadott egy pontot, így a Fradi 13 ponttal a harmadik helyen áll a 36 csapatos mezőnyben a hazai labdarúgás színterén. E harc nyomán a fővárosiak elveszítették szent százszázalékosságukat az Európa-ligában. Miközben az ETO az Üllői úti diadala után a bajnokság csúcsrangadójára készül a DVSC ellen, és a Formula–1 vihara is megérkezett a Katari Nagydíj csütörtöki médianapjával, Galló Vilmos a finn jégmezőkön, ötödik idényében érte el 160. pontját a KooKoo harcosaként."
+        },
+        "reito": {
+          "title": "Pontvesztés a stadionban, sprint a gyepért és korongos rekordok északon",
+          "body": "A Ferencváros hiába próbálkozott közelről és távolról, a szlovén Celje behúzta egy pontot a Groupama Arénából, így a Fradi mérlege már nem szent és szeplőtelen az Európa-ligában, bár 13 ponttal még így is a harmadik helyen rostokol a 36 csapatos mezőnyben a hazai sportélet mindennapjaiban. Ezzel a bravúrral a vendégek elrontották a Fradi százszázalékos buliját. Az élet persze nem áll meg: a bajnok ETO az Üllői úti 3–1-es győzelem után a legjobb formában lévő DVSC-t fogadja egy újabb meccsre, ahol a századik NB I-es fellépésére készülődő Kocsis Dominik már a tizedik, tizenegyedik és tizenkettedik gólját vadássza a pályán, míg északon Galló Vilmos, a KooKoo magyar csatára ötödik idényében összekapart 160 pontjával a finn Liiga alapszakaszának csúcstartójává avanzsált."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -180,9 +261,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261126/1795729821-temp-dqmj0isdiftd3onlpnb_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "5f34e587feb13c4c4cd809c21f65ddd47d616f712b25c7a19d309d093eb82506",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az Egyensúly Intézet 2026-os szegénységkutatása szerint mintegy 2,6 millió magyar felnőtt számára bizonytalan az otthona fűtése, nem jut elég pénze arra, hogy legalább minden második nap húst vagy halat egyen, vagy nem tudna saját erőből kifizetni egy 120 ezer forintos váratlan kiadást. Az adatok alapján a belföldi háztartások anyagi helyzete és a szegénységből való kitörés nehézségei különösen a növekvő vagy csökkenő bevételi kilátásokkal küzdő lakosságot érintik, miközben a külső tőzsdei vagy makrogazdasági összefüggésekről a forrás nem tesz említést. A megélhetési nehézségek a nők, az idősek és a legfeljebb nyolc általánost végzettek körében a leggyakoribbak, míg a fűtési, étkezési és váratlan kiadási problémák mindegyikével 633 ezren küzdenek. A válaszadók a szűkös megélhetéshez fejenként havi nettó 300 ezer, az átlagos életszínvonalhoz 500 ezer, a gondtalan élethez pedig 800 ezer forintot tartanak szükségesnek."
+        },
+        "tolkien": {
+          "title": "A hideg árnyéka és a szűkös esztendők krónikája",
+          "body": "Az Egyensúly Intézet 2026-os szegénységkutatásának tekercsei szerint mintegy 2,6 millió magyar felnőtt otthonában vált bizonytalanná a tűz melege, a mindennapi hús vagy hal adagja, valamint egy 120 ezer ezüstpénznek felelő váratlan teher saját erőből való viselése. E sötét adatok azt hirdetik, hogy e belföldi vidék makacsul az Unió legszegényebb tartományai közé tartozik, ahol a társadalmi mobilitás fagyott vizén átkelni lassú és gyötrelmes küzdelem. A fagy és aínség terhe különösen súlyosan nehezedik az asszonyokra, az ősz vénekre és a kevés betűt vetőkre, miközben a kincstári tőzsdék viharairól a krónika mélyen hallgat. Végül 633 ezer lélek osztozik abban a keserű sorsban, hogy a fűtés, az asztal és a hirtelen csapások viharában egyszerre vonul védekezésre kényszerülve."
+        },
+        "reito": {
+          "title": "Fűtés, hús és a 120 ezres fejtörő",
+          "body": "Az Egyensúly Intézet 2026-os szegénységkutatása feketén-fehéren mutatja, hogy mintegy 2,6 millió magyar felnőtt az otthona fűtésével, a kétnaponta sorra kerülő hússal vagy halakkal, illetve egy 120 ezer forintos váratlan számlával birkózik. Amíg a belföldi polgárok a havi nettó 300 ezres szűkös megélhetéstől a 800 ezres gondtalan életig számolgatják a pénzt, a tőzsdei árfolyamok ingadozásairól ez a statisztika egyetlen bátor szót sem ejt. A baj ráadásul nem válogat: a nők, a hatvanként túllépők és az alacsonyabb iskolázottságúak kapták a legnehezebb lapokat ebben a gazdasági partiban. Nem kevés, pontosan 633 ezer ember pedig azt a bravúrt hajtja végre, hogy egyszerre küzd a fűtetlen szobával, az üres tányérral és a váratlan kiadások hiányzó ezreseivel."
+        }
+      }
     },
     {
       "source": "Telex",
