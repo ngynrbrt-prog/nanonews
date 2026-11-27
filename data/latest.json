@@ -231,10 +231,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/gj4Ky08omgoaZjXSm0LgaY-TLWWJnDEGYa7_q437rrA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Q5NWUwMWFmZGI0NTQ1Mzg4MzE5MjM3NWY2MzkzMzI4.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "fc8cd5159818f6d040c85729400ba0e89bd1f7c85dff95f0453bc66117ee3fb8",
       "relatedStories": [],
-      "variants": {}
+      "variants": {
+        "original": {
+          "body": "Pénteken a Nemzeti Sport által közölt sportműsor szerint az ETO FC és a Debreceni VSC mérkőzik meg az NB I 15. fordulójában, míg nemzetközi porondon a katari Formula–1-es nagydíj szabadedzései, a JYSK-kupa keretében rendezett Magyarország–Szlovákia női kézilabda-felkészülési mérkőzés, valamint számos európai labdarúgó-bajnoki találkozó, amerikai futball, jégkorong, kosárlabda, téli sport és egyéb esemény kerül képernyőre vagy lebonyolításra. A hazai és nemzetközi közvetítések következtében a sportkedvelők az M4 Sporton, az NSO-n, valamint a többi vonalas és online csatornán követhetik figyelemmel a nap eseményeit. A kínálatban szerepel többek között az angol, francia, német, olasz és spanyol futballbajnokság egy-egy meccse, valamint a darts, a biliárd és a vízilabda OB I is."
+        },
+        "tolkien": {
+          "title": "A viadalok napja: futamok tüze és csarnokok zö Owing",
+          "body": "Így szól a feljegyzés a pénteki napról, mikor az ETO FC és a Debreceni VSC feszül egymásnak az NB I tizenötödik állomásán, míg a katari nagydíj mezőnye a sebesség szárnyain szeli a levegőt az első és második szabadedzésen. A JYSK-kupa szent csarnokában a magyar női kézilabda-válogatott csap össze Szlovákiával, miközben az európai ligák, a téli sportok viharos pályái és a tengerentúli arénák küzdelmei vonzzák a tekinteteket. Ennek rendjén a rajongók seregére számtalan élő közvetítés vár az M4 Sporton és más adókon keresztül, hogy szemtanúi legyenek a góloknak, futamoknak és a küzdelmek végső tanulságának. Zúgnak a motorok, pattan a korong a jégen, és a bajnokok sorsa pecsételődik meg ezen a gazdag sportnapon."
+        },
+        "reito": {
+          "title": "A stopperóra bosszúja: amikor a kanapé is pályára lép",
+          "body": "Pénteken annyi sportesemény zúdul a nézőkre a Nemzeti Sport kínálatából, hogy az ETO FC és a Debreceni VSC NB I-es meccse, valamint a katari Formula–1-es nagydíj szabadedzései mellett a JYSK-kupás Magyarország–Szlovákia női kézilabda-felkészülés is alig fér el a tévé képernyőjén. A gyakorlati következmény annyi, hogy a távirányító gombjai hamar izzásba jönnek, miközben az angol, spanyol, olasz bajnokságok, az NFL, a darts és a jégkorong ligák meccsei váltják egymást az M4 Sporton, a Sport1-en és a többi csatornán. Aki bírja szusszal, az a rákövetkező jégkorong-, kosárlabda- és vízilabda-dömpingben is elmerülhet hajnalig. Így aztán a kanapén ülés idén sem ígérkezik veszélytelen kalandnak a krónikák szerint."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -822,8 +834,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261126/1795724815-temp-od7onnhu21plbjjncen_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "b7c3a16be88234248fda5fa74f4267d32b88ec7f858d667caf1f72a9179c0216",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -836,8 +848,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "2658441ed07303f426eddafc30ab100cda9d1452a13accb06e36ecd97b524ce8",
+          "variants": {
+            "original": {
+              "body": "Elutasította a Fővárosi Nyomozó Ügyészség a Magyar Péter ellen tett feljelentést, amit Ékes Ilona volt fideszes országgyűlési képviselő nyújtott be november 13-án zsarolás és kapcsolati erőszak gyanúja miatt. A döntés következtében a Központi Nyomozó Főügyészség tájékoztatása szerint lezárult az ügyészségi szakasz ebben az eljárásban, amely a Varga Judit volt igazságügyi miniszter vizsgálóbizottsági nyilatkozatain és sajtóinformációkon alapult. A belföldi parlament és a hazai közélet színterén zajló fejleményekhez kapcsolódóan a feljelentő zsarolás és kapcsolati erőszak gyanújával fordult a hatóságokhoz, miközben az érintettek a nyilvánosság előtt is üzenetet váltottak. Az eset előzményeként Varga Judit a végrehajtási visszaéléseket feltáró vizsgálóbizottság előtt tett vallomást volt férjére vonatkozóan, mire Magyar Péter és volt felesége között kommentháború és a tartásdíjról szóló képernyőfotók megosztása zajlott."
+            },
+            "tolkien": {
+              "title": "A fővárosi paloták igazságszolgáltatásának ítélete és a törvény mérlege",
+              "body": "A Fővárosi Nyomozó Ügyészség elutasította a Magyar Péter ellen emelt vádakat, amelyeket Ékes Ilona volt fideszes országgyűlési képviselő hozott napvilágra november tizenharmadik napján. Ez a hivatalos határozat pecsétet ütött a zsarolás és kapcsolati erőszak gyanújával indított, ám végül elvetett vizsgálatra. A belföldi parlament termeiből kiinduló, majd a hatóságok asztalára érkező ügyben Varga Judit volt igazságügyi miniszter bizottság előtt tett szavai és a sajtó hírei szolgáltak alapul a kezdeti beadványhoz. A felek között a nyilvánosság mezsgyéjén zajló szóváltások, a tartásdíj körüli viták és a közzétett bizonylatok sötét árnyként kísérték végig ezt az időszakot, amelynek hivatalos végét most az ügyészségi határozat pecsételte meg."
+            },
+            "reito": {
+              "title": "Papírháború a belföldi fronton: az ügyészség leintette a feljelentést",
+              "body": "A Fővárosi Nyomozó Ügyészség egy elegáns mozdulattal elutasította a Magyar Péter ellen benyújtott feljelentést, amelyet Ékes Ilona volt fideszes országgyűlési képviselő küldött be november 13-án zsarolás és kapcsolati erőszak gyanújával. Ezzel a pecséttel hivatalosan is lezárult a Központi Nyomozó Főügyészség asztalán ez a kör, amely a belföldi parlament falai közül kiszivárgó, Varga Judit volt igazságügyi miniszter vizsgálóbizottsági nyilatkozataiból táplálkozott. A papírok szerint a gyanúsítgatások és a sajtóhírek nem győzték meg a hatóságot, miközben a főszereplők a nyilvánosság előtt kommentháborúval, idézetekkel és tartásdíjas átutalási képernyőfotókkal fűszerezték a mindennapokat. Az ügyészségi elutasítás után a feleknek már csak a digitális üzenetváltások és a múltbeli bizottsági vallomások maradtak meg emlékbe."
+            }
+          }
         },
         {
           "source": "HVG",
@@ -1962,7 +1987,20 @@
           "sourceHash": "623c2f629a67595947748017933364c06784ac665b2c5d8c892732bb21c33950",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Büntetőfeljelentést tett ismeretlen tettes ellen Hegedűs Zsolt egészségügyi miniszter az Európai Unió helyreállítási alapját érintő közbeszerzések során tapasztalt visszaélések megalapozott gyanúja miatt a belföldi közéletben. A rendőrség elrendelte a nyomozást, amelynek érdekeire való tekintettel a miniszter egyelőre nem közöl további részleteket. Az ügy a belföldi parlament által is jóváhagyott, a koronavírus-járvány kárainak enyhítésére létrehozott uniós helyreállítási alapot érinti, amelynek keretében a tagállami gazdasági és pénzügyminiszterek július közepén elfogadott módosított terve mintegy 10 milliárd euró kifizetését teszi lehetővé. Ebből a forrásból körülbelül 6,5 milliárd euró vissza nem térítendő támogatás, 3,5 milliárd euró pedig hitel, amelyek a gazdaságélénkítő reformokat és beruházásokat segítik."
+        },
+        "tolkien": {
+          "title": "A Helyreállítás Alapjának Árnyai és a Törvény Kardja",
+          "body": "Hegedűs Zsolt egészségügyi miniszter büntetőfeljelentést tett ismeretlen tettes ellen a belföldi birodalom földjén az Európai Unió helyreállítási alapját érintő közbeszerzések sötét visszaéléseinek megalapozott gyanúja miatt. A rendőrség hatalmas gépezete elindította a nyomozást, amelynek titkos ösvényeiről a miniszter egyelőre semmilyen további részelteket nem fed fel. Ez a titokzatos ügy a koronavírus viharai után a belföldi parlament által is felügyelt helyreállítási alap kincseit érinti, amelynek terhére a július közepén elfogadott módosított terv mintegy 10 milliárd euró áramlását teszi lehetővé. Ebből az aranyözönből körülbelül 6,5 milliárd euró tiszta, vissza nem térítendő adomány, míg 3,5 milliárd euró nehéz hitelként szolgálja a birodalom reformjait."
+        },
+        "reito": {
+          "title": "Tízmilliárd eurós fejtörő: amikor a miniszter feljelentést tesz a saját udvarában",
+          "body": "Hegedűs Zsolt egészségügyi miniszter ismeretlen tettes ellen tett büntetőfeljelentést a belföldi közigazgatás mezején az Európai Unió helyreállítási alapját érintő közbeszerzési visszaélések gyanúja miatt. A rendőrség azonnal lecsapott és elrendelte a nyomozást, ám a nyomozás érdekeire hivatkozva a miniszter egyelőre lakatot tett a szájára. Az eset a belföldi parlament által is figyelemmel kísért uniós pénzeket bolygatja fel, hiszen a koronavírus okozta károk enyhítésére szánt alapból július közepén fogadták el a mintegy 10 milliárd eurós kifizetést lehetővé tevő módosított tervet. Ebből a csinos összegből körülbelül 6,5 milliárd euró vissza nem térítendő támogatás, 3,5 milliárd euró pedig hitel formájában várja a sorsát."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1975,8 +2013,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/k/u/k/kukorica-608942.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "2e3ca0f2902178f32cd5dbf9d66933ec7302f154fb991fd411fe2812e698d350",
       "relatedStories": [
         {
           "source": "Origo.hu",
@@ -2008,7 +2046,20 @@
             }
           }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Bóna Szabolcs agrár- és élelmiszergazdaságért felelős miniszter bejelentése szerint ukrán kukorica továbbra sem érkezik Magyarországra, a behozatal kizárólag a két ország szakminisztériumainak egyeztetését követően, megfelelő ellenőrzési és kvótarendszer mellett nyílhat meg. A döntés megakadályozza a magyar kukorica árelégtelenítését, miközben a környezetvédelem területén a hazai állattenyésztés takarmányellátásának biztosítása és a folyókba kerülő hulladék kérdése is kiemelt figyelmet kap a strukturális kihívásoközepette. A megvalósuló ágazati stratégiák, a 2027 első felére tervezett társadalmi véleményezés, valamint a Nemzeti Agrárgazdasági Kamara feladatai a tudásszerzésben mind hozzájárulnak a belföldi piac versenyképességéhez és a fenntartható fejlődéshez. Molnár János István államtitkár tájékoztatása alapján az idei károk összege megközelítőleg ezer milliárd forint, ebből 550-600 milliárd forintot az időjárási szélsőségek okoztak."
+        },
+        "tolkien": {
+          "title": "A gabona kapui zárva maradnak: Ítélet született a határvidéken",
+          "body": "Ukrán gabona nem lépi át a magyar határok sáncait, csupán a két birodalom fõembereinek tanácskozása és szigorú mértékkel mért ellenõrzés nyithatja meg egykor a kapukat. A zöldellõ rónák és folyók védelmében a hazai gazdák ezermilliárdos kárt szenvedtek el a fagyok és viharok haragjától, miközben a fenntartható jövõ és a belföldi piac élelmiszer-önrendelkezése új törvényeket követel. A Nemzeti Agrárgazdasági Kamara zászlója alatt új idõk szelleme ébred, hogy 2027 elsõ felére kövekbe vésve alkossák meg a termékpályák és intézmények megújuló stratégiáját. Az idõ próbája nemcsak kihívás, de kemény tanulópénz is, melyben a csapatmunka acélként kovácsolja egybe a magyar föld mívelõit."
+        },
+        "reito": {
+          "title": "A kukoricaháború szünetel: Nincs belépõjegy az ukrán termésnek",
+          "body": "Ukrán kukorica egyelõre csak a térképen létezik a magyar határokon belül, ugyanis a behozatalhoz minisztériumi nagytakarítás, egyeztetés és egy szigorú kvótarendszer kell. Miközben a gazdák az idõjárás féktelen dühétõl övezett, közel ezer milliárd forintos számlát bámulják – amibõl 550-600 milliárdot a cudar idõ hozott össze –, a Nemzeti Agrárgazdasági Kamara és a miniszterek tüstént nekilátnak a 2027 elsõ felére idõzített, újrafuttatott stratégiáknak. A túlvállalt pályázatok és a sorban állók sehol sem lévõ támogatói okiratai miatt itt bizony nem osztogatnak többé ingyen pénzt, hanem mindenki magáról gondoskodik a jövõben. A rendszer megújul, a támogatások pedig a tiszta haszon és a mûködõképes projektek talajára tévednek, ha tetszik, ha nem."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2091,9 +2142,22 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/rcmbngEQ76uYVd5OKiuhEwGKHZlibmaGSR6oT4c61v4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS9iODRhMTA4MmQwODNiNGRhNTFlNzBlOWFiNjJlY2NkYzkwMjFkNGY4MTEyNDQ1OWY1ZjIxZDE5MmRkOWFhNDY3.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "7d118468cbc5c8650d425593ce997800f5008ddf8de8da76498d3960abfdc35a",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Mexikói-öbölben, mintegy 1500 méteres mélységben háztartási gépekkel teli szállítókonténerre bukkantak az amerikai Nemzeti Óceán- és Légkörkutatási Hivatal (NOAA) 2017-es expedíciójának kutatói. A hajóroncs helyett talált, körülbelül 12 méter hosszú konténerből kiömlött háztartási gépek – köztük mosógépek, hűtőszekrények és fagyasztóládák – a tengerfenéken hevernek, némelyiket üledék temette be, míg másokat birtokba vett a tengeri élővilág, például halak és egy mosógépen megtelepedett mélytengeri korall. A Technológia rovatba tartozó fejlesztések és eszközök közül az azonosított tárgyak mellett a kutatáshoz használt távirányítású mélytengeri eszköz említhető, amely révén a szakemberek a kiemelést követően egy német gyártmányú, SC250 típusú, lemerült energiaforrású, működésképtelen elektromos gyújtószerkezetes légibombát is azonosítottak. A sorozatszám alapján a rakomány egy része 1993 és 2002 között készülhetett, a konténer pedig a kutatók feltevése szerint viharos időben esett a tengerbe egy teherhajóról, és a most nyilvánosságra hozott felvételek a Daily Mail beszámolója szerint azt mutatják, hogy az emberi tevékenység nyomai hatalmas mélységben is jelen vannak."
+        },
+        "tolkien": {
+          "title": "A habok mélyének fémbe zárt emlékei",
+          "body": "Az amerikai Nemzeti Óceán- és Légkörkutatási Hivatal (NOAA) kutatói a Mexikói-öböl sötét hullámai alatt, másfél kilométeres mélységben hajóroncsot kerestek, ám helyette egy harminc láb hosszúságot meghaladó, tizenkét méteres rozsdás szállítókonténerre bukkantak egy távirányítású mélytengeri eszköz szeme által. A Technológia rovat ágainak hálójában e mélységi vizeken emberi művek – mosógépek, hűtőszekrények, fagyasztóládák és egy német gyártmányú, SC250 típusú, működésképtelen légibomba – süllyedtek a feledés homályába, melyek közül az egyik sorozatszáma az 1993 és 2002 közötti évekből való időt tanúsít. E fémbörtönök sarka felszakadt a viharos idők harcában, mikor a teherhajóról a habok közé zuhantak, és azóta a tengeri üledék, valamint halak és mosógépen telepedő mélytengeri korallok népesítették be a roncsokat. Ez a rejtekhely hűen mutatja, hogy a földi világ árnyéka még a legmélyebb vizek birodalmába is eljut."
+        },
+        "reito": {
+          "title": "Mélytengeri fehérnemű-mosás és egyéb hajmeresztő leletek",
+          "body": "A Mexikói-öböl habjai alatt, másfél kilométeres mélységben az amerikai Nemzeti Óceán- és Légkörkutatási Hivatal (NOAA) kutatói egy szonárral észlelt objektumot vizsgáltak távirányítású mélytengeri eszközzel, amikor hajóroncs helyett egy tizenkét méteres szállítókonténerre bukkantak. A Technológia rovat e váratlan mélységi leleteként mosógépek, hűtőszekrények, fagyasztóládák és egy német gyártmányú, SC250 típusú légibomba borult ki a tengerfenékre, miután a konténer egy teherhajóról a viharban a mélybe esett. A sorozatszámok szerint az 1993 és 2002 között gyártott gépek közül némelyiket üledék temetett be, míg másokon halak húzódtak meg, egy mosógépen pedig mélytengeri korall vert tanyát. A kiemelést követően kiderült, hogy a bombának már lemerült az elektromos gyújtószerkezete, így a Daily Mail által is bemutatott leletcsoport békésen tűri, hogy a tengeri élővilág lakberendezési tárgyként használja."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -2106,8 +2170,8 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c3df0ec0-9c75-497a-9d71-0b9588051a60.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "4493d46238110d6b4542ad70859a650aa92f3ae873057be56c5457885e0f8519",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -2363,7 +2427,20 @@
           "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Elutasította a Fővárosi Nyomozó Ügyészség a Magyar Péterrel szembeni feljelentést, amelyet Ékes Ilona volt fideszes országgyűlési képviselő tett Varga Judit parlamenti bizottsági meghallgatása és a Fidesz közleménye nyomán. A zsarolás és kapcsolati erőszak gyanúja miatt november 13-án benyújtott beadvány elutasításával a hatóság lezárta ezt az ügyet. A Fidesz korábbi közleménye szerint a feljelentés alapjául szolgáló események Varga Judit egykori igazságügyi miniszter és Répássy Róbert volt államtitkár parlamenti vizsgálóbizottsági meghallgatásához, valamint a Völner–Schadl-ügyhöz kapcsolódtak. A vizsgálóbizottság szerdán hallgatta meg a volt minisztert és az államtitkárt, pénteken pedig további hét ember meghallgatását tervezi."
+        },
+        "tolkien": {
+          "title": "A Fővárosi Nyomozó Ügyészség ítélete a Magyar Péter elleni feljelentés ügyében",
+          "body": "A Fővárosi Nyomozó Ügyészség elutasította a Magyar Péter ellen emelt vádakat, amelyeket Ékes Ilona, a Fidesz egykori törvényhozója fogalmazott meg Varga Judit volt igazságügyi miniszter parlamenti bizottsági meghallgatását követően. E döntés nyomán eloszlottak a zsarolás és a házastársi kapcsolatban elkövetett lelki terror sötét árnyai, amelyeket a Fidesz november 13-i közleménye idézett meg a Völner–Schadl-ügy viharos napjaiban. A törvényhozás csarnokaiban, a Végrehajtási Visszaéléseket Feltáró Vizsgálóbizottság előtt szerdán Varga Judit és Répássy Róbert volt államtitkár emelte szavát, míg a vizsgálat küszöbén, pénteken újabb hét tanú meghallgatása várható a bíráló testület előtt."
+        },
+        "reito": {
+          "title": "Az ügyészségi elutasítás bravúrja Magyar Péter ügyében",
+          "body": "A Fővárosi Nyomozó Ügyészség elegáns mozdulattal elutasította a Magyar Péter ellen benyújtott feljelentést, amit Ékes Ilona korábbi fideszes országgyűlési képviselő adott be november 13-án. Ezzel a papírok hirtelen a kuka mélyén landoltak, füstbe borítva a Fidesz zsarolásról és kapcsolati erőszakról szóló jogi okfejtéseit. A parlamenti vizsgálóbizottság szerdai szeánszán Varga Judit volt igazságügyi miniszter és Répássy Róbert volt államtitkár már osztotta az igazságot a Völner–Schadl-ügy árnyékában, miközben a bizottság péntekre újabb hét szerencsést rángat asztalhoz."
+        }
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -2376,8 +2453,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "6fa62e0eee5e4c868f1cdd1d3e291b5fff011bb99dd7d986a2e397474c0ada60",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -2390,7 +2467,20 @@
           ],
           "archiveDate": "2026. 11. 22."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A San Antonio Spurs játékosa, Victor Wembanyama kijelentette, hogy csapatának kötelező győznie a Los Angeles Lakers elleni pénteki NBA-rangadón, amely a nyugati élmezőny erőviszonyai és az NBA Kupa szempontjából is meghatározó lesz. A két együttes magyar idő szerint szombat hajnalban, 3:30-kor találkozik a San Antonio otthonában, a Frost Bank Centerben, miután a Spurs szerdán 116–111-es vereséget szenvedett a Portland vendégeként a 2–1-es kupamérleggel álló C csoportban. A mérkőzés gyakorlati következménye, hogy a San Antonio jelenlegi +48-as pontkülönbsége és kedvező helyzete ellenére a Portland elleni vereség után nem engedhet meg magának újabb botlást a szoros csoportban, míg a bajnokesélyesek közé tartozó Lakers számára a texasi vendégjáték az idény eddigi egyik legfontosabb erőpróbája lesz. A találkozón a palánkok alatt Walker Kessler próbálja majd feltartóztatni a jelentős fejlődésen átesett Wembanyamát, míg támadásban a Luka Dončić és Kessler közötti kettő-kettő elleni játék jelenthet komoly kihívást a Spurs számára."
+        },
+        "tolkien": {
+          "title": "A San Antonio bástyáin túl – Victor Wembanyama küldetése a Lakers ellen",
+          "body": "Victor Wembanyama, a San Antonio Spurs francia óriása kinyilvánította, hogy seregének győzedelmeskednie kell a Los Angeles Lakers elleni pénteki ütközetben a Frost Bank Center mélyén, mert ez a viadal pecsételi meg a nyugati birodalom erőviszonyait és az NBA Kupa sorsát. A harcmezőn a felek magyar idő szerint szombat hajnalban, 3:30-kor feszülnek egymásnak, miután a Spurs a Portland ellen 116–111 arányban alulmaradt, s így a 2–1-es mérlegű C csoport küzdelmeiben a +48-as pontkülönbség ellenére nem tűrhető újabb botlás. A küzdelem súlyos következményekkel jár, hiszen a porondon Walker Kesslernek kell megfékeznie a mindenkori riválist, miközben Luka Dončić és csapatai a bajnoki dicsőségért és a továbbjutás szent ösvényéért vívják meg sorsfordító csatájukat."
+        },
+        "reito": {
+          "title": "Ahol Wembanyama és Dončić összecsap: éjszakai műszak a Frost Bank Centerben",
+          "body": "Victor Wembanyama, a San Antonio Spurs francia különítményese világossá tette, hogy kötelező behúzniuk a Los Angeles Lakers elleni pénteki NBA-randevút a Frost Bank Centerben, amely a nyugati élmezőny és az NBA Kupa sorsáról is határoz. A felek magyar idő szerint szombat hajnalban, 3:30-kor ugranak egymás torkának, miután a Spurs szerdán egy 116–111-es pofonba futott bele Portlandben, így a 2–1-es C csoportban a +48-as gólkülönbség dacára égető szükség van a javításra. A meccs legfőbb tanulsága, hogy a portlandi botlás után a hazaiak nem blundolhatnak, míg a palánkok alatt Walker Kessler próbálja majd megállítani az izmosodó Wembanyamát, szembenézve Luka Dončićék élesre töltött támadógépezetével."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -2402,9 +2492,22 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/e7a270b0-6c7a-4685-938d-6bedd9d31ec4.png",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "cd1445edd41965b0b1f7bcb1265d88be5442f5b3a0c8598834d05f75482087d1",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Négyszázezer vendég részvételével tartotta meg lánya esküvőjét Anant Singh, India Bihar államának 2005 óta törvényhozási tagja, akivel szemben jelenleg huszonnyolc büntetőeljárás – többek között gyilkosság, gyilkossági kísérlet, zsarolás és emberrablás – van folyamatban. A külföldön, a Guardian beszámolója szerint zajló eseményen a vőlegény egy 151 autóból álló konvojban érkezett, a vendégeket pedig hat helikopterleszálló, ötszáz szakács, ötszázezer hagyományos indiai sütemény, egy tonna birkahúsból készült curry és kebab, Kínából importált virágok, tűzijáték és egy leállított lóverseny várta. Hivatalos elismervény hiányában a világrekord továbbra is az 1995-ös, V.N. Sudhakaran nevéhez fűződő, 150 ezer fős indiai esküvövé marad."
+        },
+        "tolkien": {
+          "title": "A Bihar földjén emelt nász és a huszonnyolc váddal terhelt főúr seregnyi vendége",
+          "body": "A távoli külföldön, India legszegényebb tartományában, Bihar székhelyén Anant Singh törvényhozási tag négyszázezer lelket gyűjtött egybe leánya menyegzőjére, miközben huszonnyolc sötét vád – gyilkosság, zsarolás és emberrablás terhe – árnyékolja be a nevét. E fenséges lakodalomban, melyet a Guardian híradása tár a világ elé, ötszáz szakács sütött ötszázezer édességet és főzött egy tonna húsból lakomát, a vőlegény pedig százötvenegy szekérből álló konvoj közepén érkezett a Kínából hozott virágok és az égbe szökkenő tűzijátékok földjére. Hat helikopterleszálló épült a vendégseregnek, és bár a világrekordot hivatalos okirat híján nem hódították el az 1995-ös, százvönvenezres lakodalomtól, a novembertől februárig tartó esküvői évszak e bihari napokban öltött legfényesebb alakot. A forgatagban tartott lóversenyt végül a feltorlódó tömeg fergetegében félbeszakították."
+        },
+        "reito": {
+          "title": "Négyszázezer vendég, egy megállított lóverseny és a huszonnyolc vád alatt álló após esete",
+          "body": "A külföldi hírek mezőnyében is ritkán látni olyan lakodalmat, amelyet az indiai Bihar állam törvényhozója, a huszonnyolc büntetőeljárással – egyebek mellett gyilkossággal és zsarolással – gyanúsított Anant Singh rendezett meg lánya számára négyszázezer vendéggel. A Guardian tudósítása szerint a vőlegény egy 151 autós konvojból intett a szerencsésnek vélt páratlan számú kocsisor közepéről, míg a helyszínen hat helikopterleszálló, Kínából hozott virág, tűzijáték és ötszáz szakács várta a tömeget, akik egy tonna birkahússal és ötszázezer süteménnyel laktak jól. A hivatalos elismervény hiányában az 1995-ös, szerényebb, 150 ezres indiai világrekord azért megmaradt, a nagyszabású lóversenyt pedig a tizenegyedik órában le kellett inteni a hatalmas tülekedés miatt. Az indiai esküvődömping novembertől februárig tart a kedvező időjárás és asztrológia miatt, így Singh csak az első fecske volt ebben a szezonban."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2522,8 +2625,8 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/oURRjHnyWzNj0odhM4JWssklPSPN6IyzW55SiHjuuFE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzc5ZDI1OTcxYzM4ZjQ1OWFhMDU3ZjUwZmI1MTlmMGNl.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "48b741dc261f1cf6f5c2984f9717916c6866b675fb0acf50850dd3b21d0f44ec",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -2579,7 +2682,20 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A bolognai Davis-kupa-világdöntő negyeddöntőjében a spanyol teniszválogatott Carlos Alcaraz nélkül, 2–0-ra legyőzte Ausztriát. A spanyolok győzelmét Daniel Merida Aguilar (6:4, 6:4 Joel Josef Schwaerzler ellen) és a világranglistán tizedik Rafael Jódar (2:6, 6:0, 6:1 Jurij Rodionov ellen) egyesbeli sikere hozta meg, így a tervezett páros mérkőzésre már nem került sor. A továbbjutott spanyol csapat az elődöntőben szombaton 12.00 órától a britekkel csap össze. A tornán korábban Nagy-Britannia, Olaszország és Csehország is bejutott a legjobb mezőnybe."
+        },
+        "tolkien": {
+          "title": "A bolognai csatatér vihara – Spanyolország diadala Alcaraz kardja nélkül",
+          "body": "A bolognai Davis-kupa porondján a spanyol teniszcsapat fiai Carlos Alcarazt csupán a holt tengerű páros küzdelemre szánták, ám a harc eldőlt az egyes ütközetek dicső mezsgyéjén. Daniel Merida Aguilar és a világranglistán tizedik Rafael Jódar viharos győzelmet aratott ausztriai ellenfelei, Joel Josef Schwaerzler és Jurij Rodionov felett, így a hálók alatti összecsapás 2–0-s eredménnyel zárult. E fegyvertény révén a spanyol nemzetség szombaton délben a brit seregek ellen lép pályára a teniszvilág trónjáért vívott csata elődöntőjében."
+        },
+        "reito": {
+          "title": "Alcaraz pados napja: a spanyol B-terv is bedarálta Ausztriát a Davis-kupán",
+          "body": "A bolognai Davis-kupa negyeddöntőjében a spanyolok anélkül nyertek 2–0-ra Ausztria ellen, hogy a friss ATP-világbajnok Carlos Alcaraznak a páros pályára kellett volna lépnie. A piszkos munkát Daniel Merida Aguilar és a világranglistán tizedik Rafael Jódar végezte el az egyes meccseken, így Joel Josef Schwaerzler és Jurij Rodionov legyőzésével idő előtt lakat került a találkozóra. A spanyol teniszcsapat így pihenten készülhet a szombat déli, brit–spanyol elődöntőre."
+        }
+      }
     },
     {
       "source": "Origo.hu",
@@ -3003,8 +3119,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "aa08cfdd7f9885a049c6772c93ae0f48c526c869dd31104d07d231abaa27e863",
+          "variants": {
+            "original": {
+              "body": "A Miniszterelnökséget vezető miniszter, Ruff Bálint a 444-nek adott stúdióinterjújában arról beszélt, hogy míg a közjogi, a politikai és a közhangulati rendszerváltás jól működik, a gazdaságihoz még türelem kell. A gyakorlati következmény az, hogy a kormány óvatosan, a gazdaság összeomlását elkerülve számolja fel a NER-es cégek versenyromboló gazdasági struktúráit, miközben törvénymódosításokkal lép fel a magántőkealapok és a hátrányos állami hitelkonstrukciók ellen. A belföldi közéletet érintő interjúban a tárcavezető kitért az ügynökakták nyilvánosságra hozatala körüli hibákra, valamint Feledy Botond Külügyi Intézetből való menesztésére is a fideszes és ellenzéki megbízatások kettőssége miatt."
+            },
+            "tolkien": {
+              "title": "A gazdaság árnyéka és az ügynökök kihűlt tekercsei",
+              "body": "A Miniszterelnökséget vezető miniszter, Ruff Bálint a 444-nek adott stúdióinterjújában kijelentette, hogy a közjogi és a politikai rendszerváltás győzedelmesen halad, ám a gazdasági megújulás óvatos türelmet követel. Ezen mély titkok és átkozott szerződések felszámolása aprólékos munkát kíván, hogy a birodalom gazdasága ne omoljon romba a tisztogatás viharában. A belföldi vidékek tényei szerint a 35 év után nyíltnak mondott ügynökakták tekercsei is napvilágra kerültek a parlamenti törvények pecsétjével, bár a múltszázadi írnokok munkáját hálátlan malőrök árnyékolták be. Az el nem számolt uradalmak, a NER torzító hálói és a Külügyi Intézet viharai mind azt hirdetik, hogy a régi idők mételye makacsul gyökerezik a hazai földben."
+            },
+            "reito": {
+              "title": "Kávé helyett álmatlanság: törvények, akták és titkos adatok a belföldi fronton",
+              "body": "A Miniszterelnökséget vezető miniszter, Ruff Bálint a 444 stúdiójában terítette a kártyákat: míg a közjogi és politikai rendszerváltás már robog, a gazdasági verzióhoz még némi gyógyszerári türelem szükségeltetik. A gyakorlati tanulság az, hogy a NER-es cégek által mélyre ásott, állami hitellel megtámogatott szerződések olyan vad pénzügyi kombinációkat rejtenek, amelyek megnézése után esti kávé helyett legfeljebb a hideg veríték törhet ránk. A belföldi ügyek sűrűjében a parlament által jóváhagyott törvény nyomán 35 év után előkerült ügynökakták listája is okozott néhány meglepő pofont – például Lezsák Sándor esetében –, míg Feledy Botond a kettős könyvelésű elemzői karrierje miatt vesztette el a külügyi állását."
+            }
+          }
         },
         {
           "source": "Portfolio.hu",
