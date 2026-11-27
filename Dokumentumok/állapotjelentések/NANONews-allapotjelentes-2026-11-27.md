@@ -1110,58 +1110,23 @@ A következő hivatalos kiadás tervezett ideje **2026-11-28 05:00**. A mentés 
 
 ## 21:00
 
-Mérési időszak 2026-11-27 16:16:30–21:00. Mentés indítása 21:00:07. Minden időpont budapesti idő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/219c5b9c9848a4965312b41472f7424cd2bea5a8) · [Éles kiadás](https://github.com/ngynrbrt-prog/nanonews/blob/219c5b9c9848a4965312b41472f7424cd2bea5a8/data/latest.json)
+A mérési időszak budapesti idő szerint 2026-11-27 16:16:30 és 2026-11-27 21:00 között tartott. A következő kiadás tervezett ideje 2026-11-28 05:00.
 
-| Forrás | Begyűjtött cikk | Rovatba illő cikk | Rovatba illő cikk talált képpel | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
-|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Telex | 20 | 6 | 0 | 0 | 0 | 0 | 0 | 0,0% | 2 |
-| HVG | 23 | 6 | 0 | 0 | 0 | 0 | 0 | 0,0% | 7 |
-| Nemzeti Sport | 17 | 3 | 0 | 0 | 0 | 0 | 0 | 0,0% | 2 |
-| NBAnews.hu | 2 | 2 | 1 | 0 | 0 | 0 | 0 | 0,0% | 2 |
-| Fűzővel kifelé! | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0,0% | 0 |
-| 444.hu | 14 | 7 | 0 | 0 | 0 | 0 | 0 | 0,0% | 3 |
-| Portfolio.hu | 34 | 23 | 1 | 0 | 0 | 0 | 0 | 0,0% | 2 |
-| Origo.hu | 34 | 2 | 0 | 0 | 0 | 0 | 0 | 0,0% | 2 |
-| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
-| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
-| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
-| Összesen | 145 | 50 | 2 | 0 | 0 | 0 | 0 | 0,0% | 20 |
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 20 | 6 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| HVG | 23 | 6 | 0 | 0 | 0 | 0 | 0,0% | 4 |
+| Nemzeti Sport | 17 | 3 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| NBAnews.hu | 2 | 2 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Fűzővel kifelé! | 1 | 1 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| 444.hu | 14 | 7 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Portfolio.hu | 34 | 23 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Origo.hu | 34 | 2 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 145 | 50 | 0 | 0 | 0 | 0 | 0,0% | 7 |
 
-A határig el nem mentett feldolgozás állapota ismeretlen. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba sorolható jelöltnél.
+Az RSS-adatok utolsó elérhető mentése 2026-11-27 20:45:38. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/219c5b9c9848a4965312b41472f7424cd2bea5a8) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/219c5b9c9848a4965312b41472f7424cd2bea5a8)
 
-### A következő kiadás adatállapota
-
-A következő hivatalos kiadás tervezett ideje **2026-11-28 05:00**. A mentés előzetes állapota **50 rovatba illő cikk**, közülük **0** mindhárom stílussal és **2** Commons-képpel. A kiadásig frissebb mentés érkezhet. Az utolsó RSS-gyűjtés **20:45:01**, az RSS-forráscommit ideje **20:45:38**, a gyűjtés kora **14 perc 58 másodperc**.
-
-### Rovatok a következő kiadáshoz
-
-| Rovat | Besorolt cikkek |
-|---|---:|
-| Arsenal | 0 |
-| Manchester City | 0 |
-| Bayern München | 0 |
-| Manchester United | 0 |
-| Como | 0 |
-| Premier League | 0 |
-| Bajnokok ligája | 1 |
-| F1 | 2 |
-| NBA | 2 |
-| NFL | 1 |
-| Seattle Seahawks | 0 |
-| Kerékpár | 0 |
-| Darts | 0 |
-| Sportgazdaság | 0 |
-| Téli sportok | 0 |
-| Környezetvédelem | 2 |
-| Filmek | 2 |
-| Ingatlan | 0 |
-| Technológia / Fejlesztések | 8 |
-| Tenisz | 1 |
-| Belföldi parlament | 8 |
-| Belföld | 27 |
-| Külföld | 11 |
-| Belföldi tőzsde | 3 |
-| Külföldi tőzsde | 1 |
-| Tőzsde | 0 |
-
-**Összesen 50 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+Mentés indítása budapesti idő szerint 2026-11-27 21:44:57.
