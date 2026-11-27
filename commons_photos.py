@@ -8,7 +8,7 @@ from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
 
-PHOTO_VERSION = 2
+PHOTO_VERSION = 3
 NAME = re.compile(r"\b[A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ-]{2,}(?: [A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ-]{2,}){1,2}\b")
 
 TOPICS = (
@@ -48,10 +48,10 @@ def on_host(url, hosts):
     return parts.scheme == "https" and parts.netloc in hosts
 
 
-def search_photo(query):
+def search_photos(query):
     params = urlencode({
         "action": "query", "format": "json", "formatversion": 2,
-        "generator": "search", "gsrnamespace": 6, "gsrlimit": 5,
+        "generator": "search", "gsrnamespace": 6, "gsrlimit": 10,
         "gsrsearch": query + " filetype:bitmap",
         "prop": "imageinfo", "iiprop": "url|mime|extmetadata", "iiurlwidth": 800,
         "iiextmetadatafilter": "Artist|Credit|Attribution|LicenseShortName|LicenseUrl",
@@ -63,6 +63,7 @@ def search_photo(query):
     if "error" in payload:
         raise ValueError("Commons API error")
     pages = payload.get("query", {}).get("pages", [])
+    photos = []
     for page in sorted(pages, key=lambda item: item.get("index") or 0):
         if query.startswith('"'):
             name = query.split('"')[1].casefold()
@@ -88,14 +89,19 @@ def search_photo(query):
         if not on_host(image, {"upload.wikimedia.org", "thumb.wikimedia.org"}) or not on_host(source, {"commons.wikimedia.org"}):
             continue
         credit = " ".join(unescape(re.sub(r"<[^>]*>", " ", field("Credit"))).split())
-        return {"image": image, "page": source, "author": author, "credit": credit,
+        photos.append({"image": image, "page": source, "author": author, "credit": credit,
                 "title": page.get("title", "").removeprefix("File:"),
-                "license": license_name, "licenseUrl": license_url}
-    return None
+                "license": license_name, "licenseUrl": license_url})
+    return photos
 
 
 def enrich_photos(stories, within_budget):
     """Return the article URLs whose Commons metadata was populated."""
+    used_pages = {
+        photo["page"] for story in stories
+        if (photo := story.get("commonsPhoto") or {}).get("version") == PHOTO_VERSION
+        and photo.get("image") and photo.get("page")
+    }
     results = {}
     updated = {}
     for story in stories:
@@ -108,14 +114,18 @@ def enrich_photos(stories, within_budget):
             if len(results) >= 4:
                 continue
             try:
-                results[query] = search_photo(query)
+                results[query] = search_photos(query)
             except HTTPError as error:
                 print(f"Wikimedia Commons: HTTP {error.code}", flush=True)
                 break
             except (URLError, TimeoutError, ValueError) as error:
                 print(f"Wikimedia Commons: {type(error).__name__}", flush=True)
                 break
-        photo = dict(results.get(query) or {"unavailable": True}, version=PHOTO_VERSION)
+        candidate = next((photo for photo in results.get(query, [])
+                          if photo["page"] not in used_pages), None)
+        if candidate:
+            used_pages.add(candidate["page"])
+        photo = dict(candidate or {"unavailable": True}, version=PHOTO_VERSION)
         story["commonsPhoto"] = photo
         updated[story["url"]] = photo
     return updated
