@@ -1594,7 +1594,11 @@
         "parliament",
         "belfold"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -2227,7 +2231,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795816988-temp-76s18lnpgf9r5knlgnk_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795816988-temp-76s18lnpgf9r5knlgnk_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -2256,7 +2264,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/LfXbrFg50P6PMl6J-PsO71D-NJ7SqrZFDCio6IqW390/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzliMTY1MjAyMzc4NzQ2MDI5NGVhZDFiMTIxNDg2MTU5.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/LfXbrFg50P6PMl6J-PsO71D-NJ7SqrZFDCio6IqW390/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzliMTY1MjAyMzc4NzQ2MDI5NGVhZDFiMTIxNDg2MTU5.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2285,7 +2297,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/zWo9oNkfVg5J7I8L_GAgJu9Apus47UK7pjvoLFWOOg0/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdkNDBjMzhmZTU3ODRkMDNiYzdkYWM5ODg4NmRkYmNi.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/zWo9oNkfVg5J7I8L_GAgJu9Apus47UK7pjvoLFWOOg0/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdkNDBjMzhmZTU3ODRkMDNiYzdkYWM5ODg4NmRkYmNi.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2323,7 +2339,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-538536825-parizs-franciaorszag-muemlek-autoforgalom-nap-varoskep-kozlekedes-tur-860596.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-538536825-parizs-franciaorszag-muemlek-autoforgalom-nap-varoskep-kozlekedes-tur-860596.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
