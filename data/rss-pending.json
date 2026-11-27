@@ -854,7 +854,7 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Fri, 27 Nov 2026 09:59:00 +0100",
+      "published": "Fri, 27 Nov 2026 10:29:00 +0100",
       "observed": "2026-11-27T09:08:13.353363+01:00",
       "title": "Két hét szenvedés utén próbál magára találni a forint",
       "link": "https://www.portfolio.hu/deviza/20261127/ket-het-szenvedes-uten-probal-magara-talalni-a-forint-879570",
@@ -917,7 +917,7 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Fri, 27 Nov 2026 09:28:00 +0100",
+      "published": "Fri, 27 Nov 2026 10:29:00 +0100",
       "observed": "2026-11-27T09:08:13.353363+01:00",
       "title": "Még mindig nem működik az ukránok egyik legfontosabb fegyvere, több száz kilométerre a határtól lángol az orosz gyár - Háborús híreink pénteken",
       "link": "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
@@ -1107,9 +1107,10 @@
       "source": "Telex",
       "published": "Fri, 27 Nov 2026 09:58:59 +0100",
       "observed": "2026-11-27T10:11:33.578183+01:00",
-      "title": "A Fidesz szerint kirúgásokkal kíván boldog karácsonyt Karácsony",
+      "title": "A várható csoportos leépítés miatt kiabáltak egymással a tiszás és fideszes képviselők a Fővárosi Közgyűlésben",
       "link": "https://telex.hu/belfold/2026/11/27/fovaros-leepitesek-fovarosi-kozgyules-november-27-fovarosi-kozfejlesztesek-tanacsa-karacsony-gergely",
       "categories": [
+        "parliament",
         "belfold"
       ],
       "image": "https://assets.telex.hu/images/20261127/1795769546-temp-atpblnfpi5v80oaoocc_cimlap-normal.jpg"
@@ -1602,7 +1603,7 @@
       "source": "Origo.hu",
       "published": "Fri, 27 Nov 2026 08:22:08 +0000",
       "observed": "2026-11-27T10:11:33.578183+01:00",
-      "title": "Összeült a Fővárosi Közgyűlés – kövesse az Origón élőben!",
+      "title": "Fővárosi Közgyűlés: A kerületek rovására spórolna a Karácsony Gergely",
       "link": "https://www.origo.hu/belpol/2026/11/fovarosi-kozgyules-budapest-karacsony-gergely-fidesz",
       "categories": [
         "parliament",
@@ -1618,8 +1619,421 @@
       "link": "https://www.origo.hu/filmklub/2026/11/arnold-schwarzenegger-sylvester-stallone-sorozat",
       "categories": [],
       "image": "https://cdn.origo.hu/2026/11/rq7DkotJ2_EmHEsIuANKOdGIXZvGRYYIaqASt0GH7fU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi9mZmEwMjE1NDcyZTFiZGQzZjA4MjI3ZWY3ZmJlYTFhZDQ3YjJhMWE1ZDY1MmQ1ZGEyODhjNTk5ZDg5ZWU1NDY5.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 11:09:07 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "BioTechUSA az Egészségért díj: idén is hat kezdeményezés kapott támogatást",
+      "link": "https://telex.hu/tamogatott-tartalom/2026/11/27/biotechusa-az-egeszsegert-dij-iden-is-hat-kezdemenyezes-kapott-tamogatast",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795765661-temp-7u6g1m62g9q15amelfl_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 11:05:20 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Kibertámadás érte a francia hírügynökséget, leállította az egyik platformját",
+      "link": "https://telex.hu/kulfold/2026/11/27/kibertamadas-afp-francia-hirugynokseg",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795773351-temp-t02deed9k24qdndpokb_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 11:00:51 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Szekeres Eszter: évekre előre kell fixálni az energiaárakat (x)",
+      "link": "https://telex.hu/g7/pr-cikk/2026/11/27/szekeres-eszter-evekre-elore-kell-fixalni-az-energiaarakat-x",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261123/1795447783-temp-duulr9mq3i428fnhbnk_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 10:55:02 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Első csúszás itthon, első lesiklás Ausztriában",
+      "link": "https://telex.hu/tamogatott-tartalom/2026/11/27/elso-csuszas-itthon-elso-lesiklas-ausztriaban",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261126/1795698960-temp-014dmfd3i4lk9hmcoen_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 10:53:30 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Trump veje méltatta Putyint, hogy nem használt atomfegyvert",
+      "link": "https://telex.hu/kulfold/2026/11/27/kushner-putyin-meltatas-visszafogottsag",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795772463-temp-7cj3jsdc0r1tenocajg_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 10:42:39 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Vádat emeltek a tiszafüredi férfi ellen, aki engedély nélkül tartott szibériai tigrissel és selyemmajommal is lebukott",
+      "link": "https://telex.hu/belfold/2026/11/27/alig-hozta-be-a-selyemmajmot-szlovakiabol-meg-aznap-lebukott-vele-a-tiszafuredi-ferfi-aki-elotte-sziberiai-tigrist-tartott-az-otthonaban",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795772427-temp-1t7hvuu6l4dvccfgbfc_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 10:25:47 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "A túlélésért küzd az autósport-szövetség, 850 milliós tartozást örököl az új elnök",
+      "link": "https://telex.hu/g7/elet/2026/11/27/autosport-szovetseg-tartozas-tisztujitas-valsag",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261126/1795687090-temp-nqrh7c70h8tn2jhaocp_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 10:20:56 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Jellinek Dániel visszavonul, teljesen átadja az Indotek-csoport vezetését",
+      "link": "https://telex.hu/gazdasag/2026/11/27/jellinek-daniel-tiborcz-istvan-hak-kovacs-tamas-indotek",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795770498-temp-lsuesod67plabbkjnmm_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 09:55:05 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Példaképek címmel készítettek dokumentumfilmet Orbán és Dodik barátságáról",
+      "link": "https://telex.hu/kulfold/2026/11/27/orban-dodik-peldakepek-dokumentumfilm",
+      "categories": [
+        "films"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795767837-temp-qlr7vh6ms6lldmkhkpa_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 10:03:00 Z",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "A NASA 2022-ben űrszondát vezetett egy aszteroidába – most magyar kutatók is elemzik, mivel járt ez",
+      "link": "https://hvg.hu/tudomany/20261127_dimorphos-aszteroida-bolygomento-terv-magyar-kutatok-vizsgalat",
+      "categories": [
+        "technology"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/15c5f7e3-c0e4-474b-9817-a45e3f4b9459.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 10:00:47 Z",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Miért a dolgozókon spórol 20 milliárd forintot a főváros? – személyeskedésbe csapott a fővárosi közgyűlés leépítésekkel kapcsolatos vitája",
+      "link": "https://hvg.hu/itthon/20261127_budapest-fovarosi-kozgyules-november-fopolgarmesteri-hivatal-letszamleepites-vita",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/5fd6947e-44dd-4856-9a82-635bc7245be1.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 09:40:47 Z",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Éjszakára lezárják a Corvin Plaza passzázsát, de a „megbízhatónak tűnő” embereket átengedik",
+      "link": "https://hvg.hu/kkv/20261127_ejszakai-lezaras-corvin-plaza-passzazs-jozsefvaros",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d7510de2-6c5c-46eb-9531-ade132f02825.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 09:38:49 Z",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Jellinek Dániel visszavonul az Indotek Group vezetésétől",
+      "link": "https://hvg.hu/gazdasag/20261127_jellinek-daniel-visszavonul-indotek-group",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/787cade2-ca15-4d04-ad3b-c03c2a52759b.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 09:21:08 Z",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Októberben is csökkent a magyarok száma",
+      "link": "https://hvg.hu/gazdasag/20261127_statisztika-nepessegfogyas-demografia-szuletesszam-ksh",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/edc6427f-1aee-4ae4-ac6b-c2c245f3a580.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 09:16:31 Z",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Jakupcsek Gabriella szerint féktelen gyűlölet ömlik rá a Dér Henivel készült interjú miatt",
+      "link": "https://hvg.hu/elet/20261127_jakupcsek-gabriella-der-heni-interju-hiba-kritika-tamadas",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/93b7e1ec-7ff2-4cbd-8cc9-ba7bbe0b5d95.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 10:10:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Csak erős idegzetűeknek: nőt is ütöttek a Marseille ultrái a lelátón – videó",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/csak-eros-idegzetueknek-not-is-utottek-a-marseille-ultrai-a-lelaton-video",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/ECeKpxadX3Kwe2T_fs-DJMUSvYfMd5zDusUrq8IlFt8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzljZDEzMzg5ODY1OTQyMzE4ODc4MTcwN2E2OTBhOGMw.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 10:04:05 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Szendrei Norbert: Nagyobb dolog volt a derbin játszani, mint a Magyar Kupa-döntőben",
+      "link": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/szendrei-norbert-nagyobb-dolog-volt-a-derbin-jatszani-mint-a-magyar-kupa-dontoben",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/DeDyP9S0im4wFGLD6sWYJoBmw6_KP2vs2I0jsRwDvXU/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzhlMzlkYzEwNjhkODQyZTA4MTE0ZTllZTYxZjM4ZDgw.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 10:01:43 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Nico Paz jelenleg nem szeretne visszatérni a Real Madridhoz",
+      "link": "https://nemzetisport.hu/olasz-labdarugas/2026/11/nico-paz-jelenleg-nem-szeretne-visszaterni-a-real-madridhoz",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/fXM1ohjBFM1j03-3MBLiEluN4i68yRgmpNnuMoUdB5A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzZmZDY2ZDBmZTQwZTQ2ZDk4MmE0YWU2MmU1OTE1NDRm.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 09:20:09 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Osváth Attila: Uraltuk a mérkőzést, sokkal több helyzetünk volt!",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/osvath-attila-uraltuk-a-merkozest-sokkal-tobb-helyzetunk-volt",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/SLkkyhfD_u0pTGM3J74VARiy_qkuUIZccY8ftzIm-20/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2RiMThhZTFlYTMzNDQ0MDVhYjE4OGE4NTk2MmM3NWI5.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 09:19:41 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Mikulás Kupa a Balatonnál – kettő vagy négy keréken",
+      "link": "https://nemzetisport.hu/csupasport/2026/11/mikulas-kupa-a-balatonnal-ketto-vagy-negy-kereken",
+      "categories": [
+        "cycling"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/VWgrXzMMfB4XV2re7qj6xIbquAnY-qr-4GYPyHbVE6E/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ZmNDc2YWU1OWVmODQ4YzY5YzQ3ZTU1ZmFlY2ExNzQ3.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 09:18:23 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "A parlamenti döntés miatt mondta le az MVM a találkozót Kubatov Gáborral",
+      "link": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/a-parlamenti-dontes-miatt-mondta-le-az-mvm-a-talalkozot-kubatov-gaborral",
+      "categories": [
+        "parliament"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/RZu3DZXa8rvJ9Ito_fNVWxdtv6cSucMvpCu2yT7T87c/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzJjMTk1MTY2M2YyNDQ1YWRiODNiOTdhZGY3OGIxYWU1.webp"
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 11:10:55 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Feladta internetes sztárrá vált túlsúlyos leopárd fogyókúráztatását az állatkert",
+      "link": "https://444.hu/2026/11/27/feladta-internetes-sztarra-valt-tulsulyos-leopard-fogyokuraztatasat-az-allatkert?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 10:57:26 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Jellinek Dániel visszavonul cégcsoportja vezetésétől",
+      "link": "https://444.hu/2026/11/27/jellinek-daniel-visszavonul-cegcsoportja-vezetesetol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 10:35:51 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Érdemben csökkentené a tananyagot a miniszteri biztos, hogy megszüntesse az elmúlt időszakban kialakult zsúfoltságot",
+      "link": "https://444.hu/2026/11/27/erdemben-csokkentene-a-tananyagot-a-miniszteri-biztos-hogy-megszuntesse-az-elmult-idoszakban-kialakult-zsufoltsagot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 11:05:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Folytatódik a felpattanás a tőzsdéken, ralizik az OTP",
+      "link": "https://www.portfolio.hu/uzlet/20261127/folytatodik-a-felpattanas-a-tozsdeken-ralizik-az-otp-879544",
+      "categories": [
+        "world-market",
+        "belfold",
+        "hu-market"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 11:03:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Történelmi lépésre szánta el magát a szuperhatalom: óriási haderőt tett partra külföldön",
+      "link": "https://www.portfolio.hu/global/20261127/tortenelmi-lepesre-szanta-el-magat-a-szuperhatalom-oriasi-haderot-tett-partra-kulfoldon-879670",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/k/i/n/kinai-partraszallo-hajo-dokkol-hadgyakorlat-873446.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:58:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Szintet lépett a magyar tőzsdén Oszkó Péter cége",
+      "link": "https://www.portfolio.hu/uzlet/20261127/szintet-lepett-a-magyar-tozsden-oszko-peter-cege-879680",
+      "categories": [
+        "hu-market"
+      ],
+      "image": "https://pcdn.hu/articles/images-lg/o/3/_/o3-partners-oszko-peter-standard-873442.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:38:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Átalakulnak az Auchan-áruházak",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/atalakulnak-az-auchan-aruhazak-879660",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/0/0/0/0008-auchan-solymar-large-26-11-26-sg100289-873430.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:34:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Túl sok a csúszás, megint visszavágta várakozásait a Rheinmetall",
+      "link": "https://www.portfolio.hu/uzlet/20261127/tul-sok-a-csuszas-megint-visszavagta-varakozasait-a-rheinmetall-879666",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-md/p/i/r/piranha-rheinmetall-oerlikon-35mm-1-400616.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:29:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Zelenszkij sem bírta szó nélkül hagyni Trump ámokfutását: \"Ennyi erővel Hitlerrel is barátkozhatna!\"",
+      "link": "https://www.portfolio.hu/global/20261127/zelenszkij-sem-birta-szo-nelkul-hagyni-trump-amokfutasat-ennyi-erovel-hitlerrel-is-baratkozhatna-879642",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2288049486-873418.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:29:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Emelkednek a nemzetközi kötvénypiacok a jó piaci hangulat közepette",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/emelkednek-a-nemzetkozi-kotvenypiacok-a-jo-piaci-hangulat-kozepette-879658",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/e/k/b/ekb-felho-ekb-epulet-589788.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:26:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Jellinek Dániel visszavonul",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/jellinek-daniel-visszavonul-879656",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/v/a/l/val-06670-775578.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:20:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Tovább gyorsulhat Tajvan növekedése",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/tovabb-gyorsulhat-tajvan-novekedese-879654",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/d/e/l/del-koreai-export-608716.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:19:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "High-tech beruházás indulhat Magyarországon: jönnek a jövő kutatóközpontjai",
+      "link": "https://www.portfolio.hu/ingatlan/20261127/high-tech-beruhazas-indulhat-magyarorszagon-jonnek-a-jovo-kutatokozpontjai-879650",
+      "categories": [
+        "technology",
+        "belfold"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/z/s/a/zsambeki-jovoipari-tudomanyos-es-innovacios-park-terv-873398.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 10:18:00 +0100",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Láncreakciótól tart a katonai szövetség: Európa szomszédságába terjedhet ki Ukrajna és Oroszország háborúja",
+      "link": "https://www.portfolio.hu/global/20261127/lancreakciotol-tart-a-katonai-szovetseg-europa-szomszedsagaba-terjedhet-ki-ukrajna-es-oroszorszag-haboruja-879652",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/d/r/o/dron-ukrajna-hadihajo-nato-libia-foldkozi-tenger-teherhajo-orosz-haditengereszet-orosz-ukran-873402.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 10:10:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Döntött a közgyűlés: nem emelik a lakossági adókat Kaposváron",
+      "link": "https://www.origo.hu/belpol/2026/11/adoemeles-kaposvar-szita-karoly-2027",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/10/Seoj-7mGjhG3O7r_-ZWteO8fB8E3VbtB47pvkzv6yKc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMC8xNS83NTg1MDM5MDRmMmZmOWZhMGVlNTY5MTAzYWJiY2M4YTRmY2E1YjRjNTBiMTRlYzYxMjExNTdiYzdhZGI2MTM5.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 10:05:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Járműhiány miatt nem járnak a nemzetközi vonatok Hegyeshalom és Pozsony között",
+      "link": "https://www.origo.hu/itthon/2026/11/vonat-nemzetkozi-jarmuhiany-hegyeshalom-pozsony",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/dXAfWy4dRMDVmN3C2YOnIVyfaDKZDse9-wpVuOWyBDU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xMy83ZDQ5YmZhZmE1YmJiOTQ3OTU1YTU5YzFmZmU0MGQzMDlkZGZhMjlhNzY1MDMxODU4OWY3OGY5OTU4MGU1MmRm.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 10:00:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Feltörték az egyik legismertebb jelszókezelőt, ügyféladatokat loptak a hackerek",
+      "link": "https://www.origo.hu/techbazis/2026/11/jelszokezelo-feltorese-1password-adatlopas",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/10/7FqJ5i8f1US0f6ox5lnzCL5-8Z0abOjNjmhE-C083to/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMC8xNC9mZjc3NTVmNWM0ZjFiZTliOGI4YTU2ZTQwY2U1NTMxMTZjYTY3MDMwOTEyODc5YmRkODYyMzU1MmM3MTllMDAw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 09:50:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Gyászol Magyarország, elhunyt a Nemzet Művésze, Melocco Miklós",
+      "link": "https://www.origo.hu/itthon/2026/11/melocco-miklos-elhunyt-gyasz",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/AM5aM0IruFlwid02lhGerodxppMgZsAYsV5Qrv-AQbA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yMjUzMjBjODg4NDAwYmIzNjYyMzJmMTMwNzM3NDA5OTE3NzAxNTY3ODlmODQ5YjMwNmVmMmIwODgyZjFlMjQ1.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 09:30:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Emlékszel még ezekre a karácsonyokra? Így készültek az ünnepekre a magyar családok a szocializmusban",
+      "link": "https://www.origo.hu/itthon/2026/11/karacsony-retro-galeria",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/pba6oug85vG4uItpBxR2Bfc05vry2Q7buBT6BWDXUe0/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9lZjNkYjI5MmYzMDU2YjljYjQ0MjM3YTFkNzJhMjcyNzI5MWZhOTAyZjc1MTJjNDMzZGQ0NmNkODA4Y2I5NTdm.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 09:26:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Tovább csökkent a születések és a házasságkötések száma Magyarországon",
+      "link": "https://www.origo.hu/itthon/2026/11/nepessegcsokkenes-magyarorszag-ksh-2026-oktober",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/dkm98qCoNLiAXegen9j1cfE1zRRjmDtZ2uugZOY1hUw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8wYzNkYmJkZTg4ODQ0NWQyM2ZmMTI0MDJlNzA3NTg3OGY5MWZmNWRlNWE4MThmOWQyYzhhYjlkMDQyZTMyOTZh.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 09:15:00 +0000",
+      "observed": "2026-11-27T11:15:00.556114+01:00",
+      "title": "Megvált a maszkjától és a kritikusoknak is beszólt új klipjében T. Danny",
+      "link": "https://www.origo.hu/teve/2026/11/t-danny-uj-dal-padka-video-magyar-peter-maszk-nelkul",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/09/hIsBhtSEEuaWaQmtN8jNUejqhguyV9JR2rdgLo7mFwA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8wOS8yNC9mZDgxMjQzN2E0NmVlNDg1MWE4ODBkMTBmM2ZkNDFkYTZkZjZjN2E1N2Q5ZjFkNzgxNjRmOGFmMTc2MjljZmZj.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-27T10:11:33.578183+01:00"
+  "lastRssCollection": "2026-11-27T11:15:00.556114+01:00"
 }
