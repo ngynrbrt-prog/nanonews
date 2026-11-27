@@ -8,7 +8,7 @@ from urllib.parse import urlencode, urlsplit
 from urllib.request import Request, urlopen
 
 
-PHOTO_VERSION = 3
+PHOTO_VERSION = 4
 NAME = re.compile(r"\b[A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ-]{2,}(?: [A-ZÀ-ÖØ-Þ][a-zà-öø-ÿ-]{2,}){1,2}\b")
 
 TOPICS = (
@@ -99,7 +99,7 @@ def enrich_photos(stories, within_budget):
     """Return the article URLs whose Commons metadata was populated."""
     used_pages = {
         photo["page"] for story in stories
-        if (photo := story.get("commonsPhoto") or {}).get("version") == PHOTO_VERSION
+        if (photo := story.get("commonsPhoto") or {}).get("version") in {3, PHOTO_VERSION}
         and photo.get("image") and photo.get("page")
     }
     results = {}
@@ -107,7 +107,12 @@ def enrich_photos(stories, within_budget):
     for story in stories:
         if not within_budget():
             break
-        if story.get("archiveDate") or (story.get("commonsPhoto") or {}).get("version") == PHOTO_VERSION or not story.get("url"):
+        existing = story.get("commonsPhoto") or {}
+        if story.get("archiveDate") or not story.get("url"):
+            continue
+        if existing.get("version") == PHOTO_VERSION or (
+            existing.get("version") == 3 and existing.get("image")
+        ):
             continue
         query = photo_query(story)
         if query and query not in results:
@@ -121,8 +126,9 @@ def enrich_photos(stories, within_budget):
             except (URLError, TimeoutError, ValueError) as error:
                 print(f"Wikimedia Commons: {type(error).__name__}", flush=True)
                 break
-        candidate = next((photo for photo in results.get(query, [])
-                          if photo["page"] not in used_pages), None)
+        candidates = results.get(query) or []
+        candidate = next((photo for photo in candidates if photo["page"] not in used_pages),
+                         candidates[0] if candidates else None)
         if candidate:
             used_pages.add(candidate["page"])
         photo = dict(candidate or {"unavailable": True}, version=PHOTO_VERSION)
