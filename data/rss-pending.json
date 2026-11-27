@@ -558,7 +558,11 @@
         "technology",
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/693e2367-66e4-45a7-9215-ae9804387e83.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/693e2367-66e4-45a7-9215-ae9804387e83.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -579,7 +583,11 @@
         "technology",
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/9903e10f-20a2-48b9-9a3a-499e02438394.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/9903e10f-20a2-48b9-9a3a-499e02438394.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -599,7 +607,11 @@
       "categories": [
         "f1"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/_0JtK_lCL5ph1s3YtvA-kNtS3DqfXyUitaSAe4dElWE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzhjMDRiOWEyNjg3NDQxM2Y4NDdhZDcyMTI5OWExNTc1.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/_0JtK_lCL5ph1s3YtvA-kNtS3DqfXyUitaSAe4dElWE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzhjMDRiOWEyNjg3NDQxM2Y4NDdhZDcyMTI5OWExNTc1.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -646,7 +658,11 @@
       "categories": [
         "films"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -657,7 +673,11 @@
       "categories": [
         "foreign"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -668,7 +688,11 @@
       "categories": [
         "belfold"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -679,7 +703,11 @@
       "categories": [
         "hu-market"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -700,7 +728,11 @@
         "technology",
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-md/g/a/z/gazprom-oroszorszag-tranzit-uzemanyag-olaj-ukrajna-export-szankcio-gaz-azerbajdzsan-693143.jpg"
+      "image": "https://pcdn.hu/articles/images-md/g/a/z/gazprom-oroszorszag-tranzit-uzemanyag-olaj-ukrajna-export-szankcio-gaz-azerbajdzsan-693143.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -712,7 +744,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/k/o/z/kozgyules-873566.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/k/o/z/kozgyules-873566.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -723,7 +759,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/z/o/l/zold-vilag-idojaras-szarazsag-eso-vizhiany-csapadek-esozes-alfold-idojaras-eloreje-869958.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/z/o/l/zold-vilag-idojaras-szarazsag-eso-vizhiany-csapadek-esozes-alfold-idojaras-eloreje-869958.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -734,7 +774,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/i/r/a/iran-873564.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/i/r/a/iran-873564.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -745,7 +789,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/v/i/c/victory-park-riga2-549815.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/v/i/c/victory-park-riga2-549815.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -757,7 +805,11 @@
         "environment",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/a/l/k/alkotmanybirosag-873562.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/a/l/k/alkotmanybirosag-873562.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -769,7 +821,11 @@
         "hu-market",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-md/t/o/z/tozsde-nasdaq-vallalatok-makrogazdasag-olaj-sp-500-gaz-amerikai-egyesult-allamok-sportfogadas-796598.jpg"
+      "image": "https://pcdn.hu/articles/images-md/t/o/z/tozsde-nasdaq-vallalatok-makrogazdasag-olaj-sp-500-gaz-amerikai-egyesult-allamok-sportfogadas-796598.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -780,7 +836,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/v/a/r/varakozni-tilos-tabla-megallni-es-varakozni-tilos-tabla-varakozni-tilos-megallni-es-varakozni-tilos-569538.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/v/a/r/varakozni-tilos-tabla-megallni-es-varakozni-tilos-tabla-varakozni-tilos-megallni-es-varakozni-tilos-569538.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -809,7 +869,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2275623941-nagy-istvn-agrrminiszter-miniszter-politikus-kormny-magyarorszg-orsz-828646-n-829270.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2275623941-nagy-istvn-agrrminiszter-miniszter-politikus-kormny-magyarorszg-orsz-828646-n-829270.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",

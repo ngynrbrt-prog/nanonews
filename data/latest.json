@@ -1236,12 +1236,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/a/l/u/aluminium-foil-aluminium-ezust-fem-csomagoloanyag-szigeteloanyag-szigeteles-csomagolas-alapan-873512.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "727bb26220468ce38298eb3e8f8476a2ba7acbfd46f7649317d45606232bdbc5",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Az iráni háború okozta ellátási zavarok és a tőzsdei raktárkészletek 51 százalékos esése miatt évtizedek óta nem látott mélypontra zuhantak a Londoni Fémtőzsde (LME) alumíniumkészletei, ami a külföldi nyersanyagpiacon fizikai hiányt és 1988 óta nem látott, tonnánkénti 405 dolláros árkülönbözetet idézett elő az azonnali és a határidős kontraktusok között. A tartós nyersanyaghiány miatt az LME kedden új szabályokat vezetett be a kereskedők számára, amelyek csütörtökre tonnánként 89 dollárra szűkítették az árkülönbözetet, miközben a helyzet termeléscsökkentéssel, gyárleállásokkal, valamint a Molson Coors esetében 2026-ra legalább 125 millió dolláros negatív hatással fenyegeti az olyan sérülékeny külföldi és hazai iparági szereplőket, mint az autógyártók, az építőipari beszállítók, a csomagolóanyag-gyártók és az italgyártók. A külföldi piaci feszültségek enyhítésére a tőzsde a fizikai kínálat bővítésén is dolgozik egy indonéz gyártó beszállításainak jóváhagyásával és az új alumíniumkohók regisztrációs idejének lerövidítésével. A tőzsdei adatok szerint a raktárakban maradt fém több mint 99 százalékai orosz eredetű, a piaci szereplők egy része pedig 2027-ben a közel-keleti termelés helyreállásával és az indonéz kapacitások felfutásával a piac túlkínálatba fordulására számít."
+        },
+        "tolkien": {
+          "title": "A Fémek Csarnokának Aszálya és a Londoni Tőzsde Harca",
+          "body": "A messzi földeken dúló háborúk tüze elhomályosította a Londoni Fémtőzsde kamráit, ahol az alumíniumkészletek felére apadtak, és a fennmaradó fém kilencvenkilenc százaléka is tiltott, orosz földről származó kincs maradt, melyet a nyugati kereskedők elkerülnek. E fekete ínség miatt az azonnali fém ára olyan magasságokba szökött, amilyenre harmincnyolc esztendeje nem akadt példa a birodalomban, mély sebeket ejtve az autógyártók, építők és a csomagolás mesterei, valamint a Molson Coors népején, ki 2026-ra százhuszonöt millió aranyat veszít. Ám a tőzsde urai kedden új törvényeket hirdettek, melyek megfékezték az azonnali árak vadságát, és az árkülönbözetet lejjebb faragták, míg az ING tudósai szerint új utakat nyitnak Indonézia kohói felé a kínálat duzzasztására. A készletek mégis mélyen alszanak a föld alatt, és a jövő évi bőség ígéretére váró kereskedők árnyékként járnak a piacon, míg a fém ára újra békét nem lel."
+        },
+        "reito": {
+          "title": "Alumínium-ínség Londonban: amikor a tőzsde is fejfájást kap",
+          "body": "Az iráni háború zűrzavara olyan alaposan kifosztotta a Londoni Fémtőzsde raktárait, hogy az alumíniumkészletek 51 százalékos zsugorodásával 38 éve nem látott árcédulák csúsztak be a piacon, ahol az azonnali fém tonnánként 405 dollárral drágább lett a határidősnél. Ez a kiszámíthatatlan hiány az autógyártókat acélra váltásra kényszeríti, a Molson Coors nevű italgyártónak pedig 2026-ra összehozza legalább 125 millió dolláros mínuszát, miközben a készlet 99 százaléka orosz fémből áll, amit a nyugati kereskedők hosszan kerülnék. Szerencsére az LME kedden bedobott egy friss szabállykészletet, amivel csütörtökre 89 dollárra szűkítették a durva árkülönbözetet, és már az indonéz kohók nyitásán meg a regisztrációs idők lerövidítésén törik a fejüket. A gyárak persze a 2027-es indonéz és közel-keleti túlkínálat reményében inkább kivárnak az olcsóbb fémre, így a napi árak ingadozása még jó darabig biztosítja a tőzsdei izgalmakat."
+        }
       }
     },
     {
@@ -1256,12 +1269,25 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795783761-temp-hrsp8aj26f289dkjanb_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "47e5ebb33a72f475cebfb7f70293a36649665dd74d906cf20fe56c55d17f0eb0",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Csütörtökön a siófoki képviselő-testület egyhangú határozatot hozott a szállodasor keleti felén lévő, de nem szállodai kerítés leszereléséről, amely a Balaton, a Hungária, a Lidó és az Európa hoteleket érinti, majd péntek reggel Lengyel Róbert polgármester és Csatári Ernő képviselő a helyszínen flexelni kezdte a rácsot. A gyakorlati következmény az, hogy a november 30-i határidőig négy hoteltulajdonosnak kell lebontania a kerítését, hogy december 1-jétől a parti sáv szabadon átjárható legyen a 2025-ös kormányrendelet alapján, amely legalább 5 méter széles közösségi használatú területet ír elő. Az akció során a biztonsági emberek bontási engedélyt kértek, majd a helyszínre kihívott rendőrök igazoltatták és intézkedés alá vonták a munkásokat és a polgármestert, aki átadta a dokumentációt. A balatoni helyszínen zajló önkormányzati intézkedés a belföldi parlament által hozott 2025-ös kormányrendelet szabályaira, valamint a helyi önkormányzati képviselő-testület határozatára támaszkodik."
+        },
+        "tolkien": {
+          "title": "A hullámok kardja és a rácsok pusztulása",
+          "body": "Így esett, hogy csütörtök napján a siófoki képviselő-testület egy szívvel döntött a szállodasor keleti felét fojtogató, idegen kéz emelte rácsok eltörléséről, melyek a Balaton, a Hungária, a Lidó és az Európa bástyaként épült szállóit övezték. Másnap hajnalban Lengyel Róbert uralkodó és Csatári Ernő bajnok maga vonult a helyszínre, hogy szikrázó szerszámmal vágjon utat a fémrengetegben, a belföldi parlament törvényeit pajzsként tartva a vízpart oltalmára. E fémbontó munkának az lőn a gyümölcse, hogy november harmincadikáig minden érintett gazdának porig kell rombolnia a korlátot, hogy december első napjától ötmérföldnyi – avagy öt lépésnyi – szabad ösvény nyíljon a vizek özönét kereső nép előtt. Őrszemek és fegyveres rendek gyűltek köréjük, kik hivatali kötelesség okán kérdőre vonták a várost vezető férfiút, ám a parancs megmásíthatatlan volt, és a rács a parttól számított öt lépés szélességben végül porladva lehanyatlott."
+        },
+        "reito": {
+          "title": "A flex bosszúja: amikor a polgármester szabadságra küldi a kerítést",
+          "body": "Csütörtökön a siófoki képviselő-testület egyetlen ujjlenyomat nélkül, egyhangúlag megszavazta, hogy a szállodasor keleti felén álldogáló kerítésnek annyi, péntek reggelre pedig Lengyel Róbert polgármester és Csatári Ernő képviselő már ott is termett a helyszínen egy szorgos flexszel, hogy személyesen számoljon le a Balaton, a Hungária, a Lidó és az Európa hotelt határoló vaskorláttal. A mutatvány azonnali gyakorlati eredménye az, hogy november 30-ig a négy szállodatulajdonosnak saját kezűleg kell eltüntetnie a maradék akadályt, mert december 1-jétől a 2025-ös kormányrendelet értelmében kötelezően szabadon átjárhatónak kell lennie a parti sávnak. Miközben a telek biztonsági emberei és a nyakukra küldött rendőrök igazoltatással meg a dokumentumok bámulásával próbálták megállítani a hivatali kötelességét teljestő városvezetőt, a rács a parttól számított öt méteren már rég megadta magát a szikrázó vasdarabolásnak. A helyi önkormányzat ezzel a huszárvágással élt a jogszabály adta lehetőséggel, bebizonyítva, hogy egy morcos polgármester és egy flex ellen még a biztonsági őr sem növénynél több."
+        }
       }
     },
     {
@@ -1274,12 +1300,25 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "fbe79a5c6d56e9e670ded49838a38ab9924863c1727032b993fa8cd0e6ce9d10",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Verzió Dokumentumfilm Fesztivál tavalyi győztese, Lea Podhradská Apám lánya című első egész estés dokumentumfilmje érkezik a Jeti Moziba, valamint a 444-re és a 444 YouTube-csatornájára. A fizikai és lelki utazást bemutató alkotás forgalmazási okok miatt kizárólag Magyarország területéről és csak három hónapig lesz elérhető. A rendező a budapesti Színház- és Filmművészeti Egyetemen szerzett dokumentumfilm-rendező diplomát, korábban az ELTE doktori iskolájában tanult, és alkotói munkáját a filmes kísérletezés vezérli. A MADOKE-val közösen elindított Jeti Mozi célja, hogy megjelenési felületet biztosítson a nehezen fellelhető magyar dokumentumfilmeknek."
+        },
+        "tolkien": {
+          "title": "A feledés homályából feltörő emlékek krónikája a Jeti Mozi vásznán",
+          "body": "A Verzió Dokumentumfilm Fesztivál tavalyi dicső győztese, Lea Podhradská első egész estés dokumentumfilmje, az Apám lánya érkezik a Jeti Moziba, hogy feltárja egy család eltemetett titkait a 444-en és a 444 YouTube-csatornáján. Ez a húsba vágóan valóságos, fizikai és lelki utazás a múlt sötét ösvényein vezeti a nézőt, miközben a rendező a Budapesti Színház- és Filmművészeti Egyetemen szerzett tudásával kelti életre a kísérletező művészetet. Ám ezen a földön a mozgóképes kincsek csupán három rövid holdtöltéig, kizárólag Magyarország határain belül maradnak láthatóak a forgalmazás szigorú törvényei miatt. A MADOKE-val frigyre lépett Jeti Mozi bástyája azért épült, hogy megmentse a feledéstől a polcokra kárhoztatott, díjnyertes magyar filmeket."
+        },
+        "reito": {
+          "title": "Zokni helyett zacskó, a rendezői székben pedig egyenesen a Verzió Fesztivál trónkövetelője",
+          "body": "A Verzió Dokumentumfilm Fesztivál tavalyi díjnyertes bajnoka, Lea Podhradská első egész estés rendezése, az Apám lánya költözik be a Jeti Moziba, valamint a 444-re és a 444 YouTube-csatornájára. A filmben egy harminc év előtti zacskós zoknis jelenetből indۇló családi nyomozás csavarodik fel, amit a Színház- és Filmművészeti Egyetemen végzett rendező hozotttető alá a kísérletezés jegyében. Persze a digitális szabadság sem tart örökké: a forgalmazási bilincsek miatt a műsoridő szigorúan három hónapra van szabva, ráadásul csak Magyarország területéről lehet leskelődni. A MADOKE és a 444 közös mentőakciójaként indult Jeti Mozi így pont abban segít, hogy a polcokon porosodó, ritka filmgyöngyszemek végre kifussanak a nyílt vízre."
+        }
       }
     },
     {
@@ -1327,12 +1366,25 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/7e1StUD54jSNinO8987K7LgcayZ1CSf4g8G2aFi_C2A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2M4NTY5ZDM0ZjI4YjQyNDViYmY2MDc0ODM4NmFjMWFl.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7c31df3cb9d8e3bf8db3e55fd7628af0261768bfd7872a9eea2531b26970c46f",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Anze Kopitar jégkorongozó 2025 szeptemberében bejelentette, hogy a huszadik NHL-idénye lesz az utolsó a Los Angeles Kingsnél, mert több időt szeretne tölteni a családjával és jelen lenni a gyerekei, Neza és Jakob versenyein és mérkőzésein. A játékos 2026. március 14-én megszerezte 1307. és 1308."
+        },
+        "tolkien": {
+          "title": "A Hűséges Kapitány Visszatérése a Családi Tűzhelyhez",
+          "body": "Anze Kopitar, a jég birodalmának hűséges bajnoka 2025 szeptemberében hirdette meg huszadik, utolsó nagy hadjáratát a Los Angeles Kings csapatával, hogy a fegyverek elhallgatása után gyermekeinek, Nezának és Jakobnak szentelje napjait. A dicső csaták viharában, 2026. március 14-én írta be nevét a krónikákba, amikor 1307. és 1308."
+        },
+        "reito": {
+          "title": "A Jégpályák Úriembere Átadja a Váltóbotot a Gyerekeknek",
+          "body": "Anze Kopitar 2025 szeptemberében hivatalosan is belefáradt abban, hogy csak a szabadnapjain találkozzon a családjával, így bejelentette: a huszadik NHL-szezonja lesz az utolsó a Los Angeles Kings mezében, hogy végre odaérjen Neza és Jakob versenyeire. A pontvadászat során nem aprózta el a dolgokat, hiszen 2026. március 14-én már a 1307. és 1308."
+        }
       }
     },
     {
@@ -1346,8 +1398,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "75232475354410fa3d07eb31751947540d133de1cd751019a553436b330c3e4f",
       "relatedStories": [
         {
           "source": "Telex",
@@ -1360,11 +1412,24 @@
           ],
           "image": "https://assets.telex.hu/images/20261127/1795779173-temp-q4d15mlbf0fffkpbold_cimlap-normal.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "contentBasis": "article",
+          "sourceHash": "8bb050931db7c577ebddcdc8691f71d0f93b28311f56e3a96b9353b6b0a5c05f",
           "commonsPhoto": {
             "unavailable": true,
             "version": 4
+          },
+          "variants": {
+            "original": {
+              "body": "Szentkirályi Alexandra, az Országgyűlés művelődési bizottságának fideszes elnöke kezdeményezte Nagy Ervin kultúráért felelős államtitkár meghallgatását a bizottságban a hárommilliárd forint közpénzt érintő kulturális támogatások ügyében, amelyek elosztását pályáztatás nélkül, személyesen végezte a politikus. A bizottsági elnök szerint ha a támogatások kifizetését még az ügy tisztázása előtt elkezdik, a Fidesz hivatali visszaélés és hűtlen kezelés miatt tesz feljelentést. Tarr Zoltán miniszter csütörtök este közölte, hogy a kifizetés előtt újra átnézik a támogatás teljes folyamatát, mivel a döntések mögött szakmailag megalapozott, testületi vélemény áll, amelynek célja a korábban a megszűnés határára sodort művészeti szervezetek segítése. Nagy Ervin november 20-án jelentette be a csaknem 3 milliárd forint színházi, tánc- és cirkuszművészeti támogatást, amelyet 14 szakmai szervezettel és bizottsággal közösen készítettek elő 74 független, 18 határon túli, valamint 15 szabadtéri színház és fesztivál számára."
+            },
+            "tolkien": {
+              "title": "A hárommilliárdos kincsek harca a kultúra csarnokában",
+              "body": "Az Országgyűlés művelődési bizottságának fideszes elnöke, Szentkirályi Alexandra felemelte szavát, és Nagy Ervin kultúráért felelős államtitkár meghallgatását sürgeti a parlamenti falak között a hárommilliárd aranyat érő, pályázat nélkül szétosztott közpénz ügyében. Ha a kifizetések vihara még e tisztázás előtt elsöpri a békét, a Fidesz serege hivatali visszaélés és hűtlen kezelés kardjával vonul fel a feljelentés mezőjére. Tarr Zoltán miniszter eközben úgy rendelkezett, hogy a kifizetés rögös útja előtt újra megvizsgálják a folyamatot, hogy a korábban a pusztulás szélére sodort művészeti hajléktalanok megmeneküljenek. November huszadikán hirdeték ki a csaknem 3 milliárd sorsát, amelyből 14 szakmai testület munkája nyomán részesül 74 független szervezet, 18 határon túli társulat és 15 szabadtéri bástya."
+            },
+            "reito": {
+              "title": "Hárommilliárdos aprópénz és a parlament füstös színpada",
+              "body": "Szentkirályi Alexandra, a művelődési bizottság fideszes elnöke rögvest meghallgatná Nagy Ervin kultúráért felelős államtitkárt a parlamenti testület előtt arról a hárommilliárd forintról, amelyet pályázat nélkül, egy tollvonással osztottak szét a kulturális szervezetek között. A tét nem kicsi: ha a pénzeket az ügy tisztázása előtt folyósítják, a Fidesz hivatali visszaélés és hűtlen kezelés címén rántja elő a feljelentést. Tarr Zoltán miniszter csütörtök este gyorsan közbeavatkozott, ígérve, hogy a kifizetés előtt mikroszkóp alá veszik a támogatási folyamatot, amely 74 független, 18 határon túli és 15 szabadtéri intézményt hivatott megmenteni a sorvadástól. Nagy Ervin november 20-án hozta nyilvánosságra a novemberi adományokat, miközben Rétvári Bence KDNP-frakcióvezető a dokumentumok asztalra pakolását és politikai felelősségvállalást követelt az átláthatatlan osztogatás miatt."
+            }
           }
         },
         {
@@ -1378,11 +1443,24 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8ded5017-66be-4237-8d9b-de3632fc0c5d.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "contentBasis": "article",
+          "sourceHash": "48023eacdc6cea24d4f9a424ba635f028a52ac45206a570190ee86ceae32267b",
           "commonsPhoto": {
             "unavailable": true,
             "version": 4
+          },
+          "variants": {
+            "original": {
+              "body": "Szentkirályi Alexandra, az Országgyűlés művelődési bizottságának fideszes elnöke kezdeményezte Nagy Ervin kultúráért felelős államtitkár meghallgatását a testület soron következő ülésén, mivel a politikus állítása szerint pályáztatás nélkül osztott szét hárommilliárd forint közpénzt a kulturális szervezetek között. A vizsgálat során tisztáznák, kik döntöttek a pénz szétosztásáról, milyen alapon, valamint mely szervezetek kapták és milyen összegeket, míg a Fidesz hivatali visszaélés és hűtlen kezelés miatti feljelentést helyezett kilátásba arra az esetre, ha a támogatások kifizetése a tisztázás előtt megkezdődik. Nagy Ervin jelezte, hogy örömmel részletezi a szakmai szempontokat a bizottság előtt, tételesen cáfolva a kritikákat, és további információkat ígért a Hankó Balázs 2025-ös pénzosztásairól is. A minisztérium közlése szerint a döntéseket időközben újra átnézik."
+            },
+            "tolkien": {
+              "title": "A kultúra kincseinek vihara és az államtitkár idézése",
+              "body": "Az Országgyűlés művelődési bizottságának csarnokában Szentkirályi Alexandra fideszes elnök emelte fel szavát, hogy bizottsági meghallgatásra idézze Nagy Ervin kultúráért felelős államtitkárt a színházi, tánc- és cirkuszművészeti szervezeteket érintő, közel hárommilliárd forintos támogatás ügyében. A vádak szerint ez az égi kincs pályáztatás nélkül áradt szét, hűtlen kezelés és hivatali visszaélés sötét árnyékát vetve a tárcára, ha a kifizetések még a tisztázás előtt megindulnak. Az államtitkár azonban nem futamodott meg a harc elől, hanem büszkén ígérte meg a szakmai szempontok feltárását a testület előtt, miközben Hankó Balázs 2025-ös pénzosztásairól is hírt hozni kíván. A minisztérium eközben új utakra lépve vizsgálja felül a határozatokat, hogy a ködbe veszett döntések kinyilvánítsák igazságukat."
+            },
+            "reito": {
+              "title": "Hárommilliárd forint a porondon: államtitkár a célkeresztben",
+              "body": "Szentkirályi Alexandra, az Országgyűlés művelődési bizottságának fideszes elnöke rögvest meghallgatást követel Nagy Ervin kultúráért felelős államtitkártól, miután a tisztségviselő pályázat nélkül csepegtette szét a színházi, tánc- és cirkuszművészeti szervezeteknek szánt közel hárommilliárd forintot. A bizottsági asztalnál most kiderül, kik döntöttek a pénzesőben, és ha a kifizetések megindulnak a tisztázás előtt, a Fidesz azonnal hűtlen kezelés és hivatali visszaélés miatti feljelentéssel fenyegetőzik. Nagy Ervin eközben vidáman veszi tudomásul a szeánszot, mondván, örömmel oszlatja el a propagandahazugságokat, sőt, még Hankó Balázs 2025-ös pénzosztásairól is tartogat csemegéket. A minisztérium bölcsen visszatáncolni látszik, jelezve, hogy a vitatott döntéseket inkább újra átnézik."
+            }
           }
         },
         {
@@ -1483,6 +1561,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Szentkirályi Alexandra bejelentette, hogy kezdeményezi Nagy Ervin kultúráért felelős államtitkár meghallgatását az Országgyűlés művelődési bizottságában a 3 milliárd forint kulturális támogatás elosztása miatt. A Fidesz feljelentést tesz, ha a kérdések tisztázása előtt elindulnak a kifizetések, miközben a kulturális minisztérium a támogatások folyósítása előtt újra átvizsgálja a pénzosztás teljes folyamatát. A Magyarország kulturális életét és belföldi parlamentjét is érintő ügyben a pénzt pályáztatás nélkül, egyedi kérelmek alapján juttatják el az előadó-művészeti szervezeteknek, amelyek közül 1,3 milliárd forint jut a korábban kivéreztetett függetleneknek."
+        },
+        "tolkien": {
+          "title": "A hárommilliárdos kincs árnyéka a törvényhozás csarnokában",
+          "body": "A belföldi parlament tanácstermében és a hazai kulturális élet legbelső vidékein Szentkirályi Alexandra emelte fel szavát, hogy Nagy Ervin kultúráért felelős államtitkár bíróság elé lépjen a hárommilliárd aranyat érő közpénz sorsáért. A hatalom csarnokaiban kitört viharban a Fidesz harcosai feljelentéssel fenyegetőznek, ha a tisztázatlan osztozkodás vizein megindulnak a kifizetések, holott a minisztérium maga ígérte meg a folyamat szigorú újbóli átvizsgálását. Az úton, hol pályázat fénye nem ragyogott fel, a kiválasztott vándorok telefonos üzeneten nyerték el jussukat, melyből 1,3 milliárd forint hull a hosszú harcokban kivéreztetett függetlenek ölébe."
+        },
+        "reito": {
+          "title": "Hárommilliárdos vargabetű: telefonon osztogatott kultúra a bizottság asztalán",
+          "body": "Szentkirályi Alexandra hirtelen ötlettel beidézné Nagy Ervin kultúráért felelős államtitkár az Országgyűlés művelődési bizottságába, hogy a belföldi parlament falai között számoljon el a láthatatlan pályázaton szétosztott 3 milliárd forintról. A gyakorlatban ez azt jelenti, hogy ha a kérdések megválaszolása előtt megindul a pénz áramlása, a Fidesz nyomban feljelentést tesz, miközben a minisztérium bámulatos gyorsasággal mégis átvizsgálja az egész homályos procedúrát. A szerencsés szervezetek telefonhívásból értesültek a nekik szánt összegről, amelyből kereken 1,3 milliárd forint jut a korábban csontig kivéreztetett független csapatoknak."
+        }
       }
     },
     {
@@ -1496,8 +1587,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/n/v/i/nvidia-technologia-chip-felvezeto-mesterseges-intelligencia-techceg-vallalat-irodahaz-kina-r-869624.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "3574153996ba2c46b1705db14f06e466ceaedeb2af435f9c1139233b24bf2f21",
       "relatedStories": [
         {
           "source": "HVG",
@@ -2170,6 +2261,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Exporttilalom alá eső Nvidia GB300 NVL72, GB200 és H200 típusú chipeket és szervereket találtak Kínában az Alice Huanghoz köthető Shanghai Shuoyao és Shanghai Kezhan cégeknél a Yangtze River Delta Project nevű adatközpontban, miután azokat bankhitelek fedezeteként ajánlották fel. Az eset rávilágít, hogy az állami pénzintézetek hajlandóak finanszírozni az illegális eszközöket, miközben a Gigabyte által összeszerelt és a feketelistára tett Megaspeedhez kapcsolódó hardverek csempészete ellen az amerikai korlátozások ellenére továbbra is folyik. A technológia és fejlesztések rovatban szereplő legfejlettebb mesterségesintelligencia-modellek betanítására szolgáló hardverek Kínába jutását Donald Trump elnök kifejezetten megtiltotta, a külföldi kapcsolatokat pedig a malajziai légi szállítmányok és a tokiói NeXPower Japan szálai erősítik."
+        },
+        "tolkien": {
+          "title": "A vasbércbe zárt titok és a sárkánybőrű chipek árnyéka",
+          "body": "Az óriási méretű, több mint másfél tonnás GB300-as és GB200-as szerverrackek, valamint a H200-as chipek sötét ösvényeken jutottak el Kínába, ahol Alice Huang árnyékos birodalmához tartozó cégek, a Shanghai Shuoyao és a Shanghai Kezhan raktáraiban rejtőztek el a Yangtze River Delta Project adatközpontjának mélyén. E nehéz és félelmetes vasszerkezetek zálogként szolgáltak a pénz urainek, míg a tiltott kincsek áramlását a Gigabyte műhelyeitől a Megaspeed láncain át egészen Malajzia és Tokió távoli vidékeiig követik a szemfüles krónikások. E rovat lapjain, a Technológia és Fejlesztések csarnokában ébred a tudat, hogy a legfényesebb mesterséges intellektusok szikráit tiltó törvények sem tudták visszatartani a mélységbe vetett vándorlástól. A Külföld messzi tájairól érkező hír sebesen járja be a világot, megmutatva, hogy az óceánokon túl, Donald Trump szigorú rendeletei dacára sem hallgattak el a tiltott kereskedelem dobjai."
+        },
+        "reito": {
+          "title": "A másfél tonnás titok esete a banki széfekkel és a csempészett szilíciummal",
+          "body": "Valaki nagyon benézte a méreteket, amikor azt hitte, hogy egy másfél tonnás, kétméteres GB300-as szerverracket csak úgy észrevétlenül át lehet csempészni a határon, de a Shanghai Shuoyao és a Shanghai Kezhan mégis bevetette ezeket – meg a GB200-as és H200-as társait – a Yangtze River Delta Project adatközpontjában, nem kis bankhitelek fedezeteként. A kínai pénzintézetek szemrebbenés nélkül elfogadták az amerikai exporttilalom alatti, a Gigabyte által összeszerelt és a Megaspeedhez köthető vasakat, bebizonyítva, hogy a papírok meg a valóság ritkán isszák egymás kávéját. A technológia és fejlesztések világában ez a kis malőr annyit tesz, hogy a legfejlettebb AI-modellek csodaszerszámai simán megjárják Malajziát és Tokiót is, ha Alice Huang kezében futnak össze a szálak. A külföldi kalandok sora itt nem áll meg, hiszen Donald Trump tiltása ellenére a pénz szagot fogott, a vámtarifaszám meg elviszi a balhét."
+        }
       }
     },
     {
@@ -2183,12 +2287,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c8f5cb92-f920-401b-9294-dccb5c1b6a56.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "9cd36247dc84d71153196bd376cd01112bf8cdc8fc3a6215191b183d7a95d192",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Göröghné Bocskai Éva országgyűlési képviselő, a vidék- és településfejlesztési bizottság alelnöke pénteken az Országgyűlés üléstermében elsírta magát, miután a fideszes propagandista, Bohár Dániel által kiposztolt, megvágott videón élcelődtek a bizottsági ülésvezetés közbeni hibáin. A képviselő elismerte a fáradtságot és a hibákat, délután pedig a Tisza-frakció és Magyar Péter is közleményben állt ki mellette, hangsúlyozva, hogy egy politikus is ember, és az emberi méltóság nem lehet gúny tárgya. Az eset előzményeként az áprilisban bekerült 141 tiszás újonc képviselő parlamenti munkájáról is említés esett."
+        },
+        "tolkien": {
+          "title": "A könnyek csarnoka és a kőből font gúny pajzsa",
+          "body": "Az Országgyűlés ódon falai között, hol a törvényhozás sorsa formálódik, Göröghné Bocskai Éva képviselő, a vidék- és településfejlesztési bizottság alelnöke mély fájdalmat él át az ülésteremben. A sötétség szolgái, Bohár Dániel és a fideszes képviselők gúnyos videókkal és nyilvános megalázással üldözik a fáradtságtól gyötört asszonyt, ki április óta szolgálja a népet. Ám a Tisza-frakció hűséges serege és Magyar Péter pajzsként vonulnak fel mellette, hirdetve, hogy a hús-vér ember méltósága szent, s a harcban elhullt könnyek nem a gyengeség, hanem a rendíthetetlen lélek jelei."
+        },
+        "reito": {
+          "title": "Bizottsági baki és könnyes parlamenti cirkusz",
+          "body": "Göröghné Bocskai Éva vidék- és településfejlesztési bizottsági alelnök pénteken az Országgyűlésben bemutatta, hogy egy óvónőből lett újonc képviselő is tud könnyeivel küszködni, ha a fideszesek megvágott videókon és gúnyos megjegyzéseken nevetgélnek. A helyszínen Radics Béla fideszes képviselőhöz is odalépett kérdőre vonni a bántásért, mire a Tisza-frakció és Magyar Péter nyomban hangos közleményekkel sietett a megmentésére, hirdetve, hogy a parlamenti lift és büfé titkai mellett az emberi érzések is kijárnak a politikusoknak."
+        }
       }
     },
     {
@@ -2201,12 +2318,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/v/l/a/vladimir-putin-in-maks-airshow-2021-12-873494.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "1e7b276f9ee0b72ce5dd137eb3bf71943f83368045feb27108badd93a7c7f606",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Az orosz állami regionális televízió által sugárzott felvételeken a Szu–75 Checkmate vadászrepülőgép részletes, színkódolt háromdimenziós modellje és egy sárgászöld korróziógátló alapozóval bevont szerkezeti elem tűnt fel a Jurij Gagarin Repülőgépgyárban, miután Oleg Kozsemjako elnöki meghatalmazott és Dmitrij Gyemesin kormányzó látogatást tett az üzemben. A technológiai fejlesztések jegyében közzétett képanyag miatt kibontakozott vizsgálatok és elemzések során szakértők a T–75–1 jelzésű első prototípus bal hátsó törzsrészének sejtik a munkadarabot, miközben a Szuhoj tervezőiroda és az OAK még nem erősítette meg hivatalosan a látottakat. A 2021 júliusában a MAKSZ nemzetközi légibemutatón bemutatott, alacsony észlelhetőségű, egyhajtóműves gép programja a csökkentett beszerzési és üzemeltetési költségek mellett már elérte a prototípus-építés fázisát, amelyet Vagyim Badeha OAK-vezérigazgató is megerősített egy 2026. június 2-i nyilatkozatban."
+        },
+        "tolkien": {
+          "title": "A Szu–75 titkos csarnokai és a fémes árnyak ébredése",
+          "body": "Az acél és a láng birodalmában, a Jurij Gagarin Repülőgépgyár mélyén olyan látomás öltött testet a képernyők titkos fényénél, amely a Szu–75 Checkmate harci madár sorsát hordozza. A technológiai fejlődés e szentélyében a mérnökök keze nyomán színkódolt rajzok és sárgászöld alapozású fémbordák hirdetik a T–75–1 nevű első prototípus születését, miközben Oleg Kozsemjako és Dmitrij Gyemesin léptei visszhangzottak a csarnokokban. A Szuhoj népe által formált, alacsony észlelhetőségű vadász szárnya még rejtve, de Vagyim Badeha szavai szerint a Checkmate már elérte a prototípus-építés rituális fázisát. A homály fátyla még borul a részletekre, ám a fém test ébredése megállíthatatlanul közeleg a magasságok felé."
+        },
+        "reito": {
+          "title": "Az alapozófesték alatt már ott dübörög a Szu–75",
+          "body": "Oleg Kozsemjako és Dmitrij Gyemesin hivatalos túrája nyomán az orosz tévécsatornák kamerasorai szaladgáltak a Jurij Gagarin Repülőgépgyárban, ahol a mérnökök legnagyobb meglepetésére egy Szu–75 Checkmate 3D-s modellje és egy alapozóval lefestett fémdarab is befutott a képernyőkre. A technológiai fejlesztések csúcsaként a szakértők azonnal rávetették magukat a T–75–1 prototípusnak kikiáltott bal hátsó törzsrészre, bár a Szuhoj és az OAK illetékesei egyelőre bölcsen hallgatnak a részletekről. Az 2021 júliusa óta csiszolgatott, olcsóbbra tervezett csodagép körül most nagy a pörgés, Vagyim Badeha vezérigazgató 2026. június 2-i nyilatkozata szerint pedig a program hivatalosan is átlépett a prototípus-építés fázisába."
+        }
       }
     },
     {
@@ -3692,7 +3822,17 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/D%C3%BClmen%2C_Alte_Brennerei_L%C3%B6hning_--_2015_--_8609-13.jpg/960px-D%C3%BClmen%2C_Alte_Brennerei_L%C3%B6hning_--_2015_--_8609-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_Alte_Brennerei_L%C3%B6hning_--_2015_--_8609-13.jpg",
+        "author": "Dietmar Rabich",
+        "credit": "Own work",
+        "title": "Dülmen, Alte Brennerei Löhning -- 2015 -- 8609-13.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -4231,7 +4371,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4413,7 +4557,11 @@
           "body": "A magyar lakosság bátran megváltaná a világot egy mámoros, százmillió forintos váratlan nyeremény esetén, hiszen tízből heten részben, tizenhárom százalékuk pedig azonnal az utolsó fillérig ingatlanba fojtaná a pénzét, a fővárosiak pedig még ennél is nagyvonalúbbak a maga húsz százalékával. Persze a pénztárcák mélyén fortyogó valóság kicsit más kávéház, mivel a népesség ötvenhét százalékának egy büdös garasa sincs a befektetésekre, és a jövő héten sem lesz. A banki hiteleket a megkérdezettek hetvenhárom százaléka mérgezett egérként kerüli, mondván, a kölcsön az otthonteremtésé, nem pedig a spekulánsok játszótere. A hosszú távú bérbeadás viszi a pálmát mint legfőbb kedvenc, miközben az életjáradéki szerződés titkáról a lakosság alig öt százalékának van valami halvány lila gőze."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -4833,7 +4981,11 @@
           "body": "A mesterséges intelligencia körüli gigantikus beruházási biznisz végre túlnőtt a bűvös kütyük világán, és magával rántotta a dél-koreai piacot meg a félvezetőgyártókat is. Miközben a PIMCO és az IMF számológépei attól zúgnak, hogy az amerikai gazdaság növekedésének tetemes része az AI-részvények szekerén robog, a tőzsdén megindult a szokásos hidegzuhany. Ha a milliárdos adatközpont-építések lángja picit pislákolni kezd, a háztartások is óvatosabban nyitják majd a pénztárcájukat a vagyonhatások zuhanása miatt. Végül lehet, hogy nem a chip hiányzik majd leginkább, hanem a bátor befektető, mire a Federal Reserve is előhúzza a lazább kamatpolitikát."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -4957,7 +5109,17 @@
           "body": "A spanyol ingatlanpiaci és lakhatási válság viharos tengerén a spanyol statisztikai hivatal adatai szerint a lakásárak nyolcvan százalékkal lőttek ki 2025-ig, miközben a bérek szerény harminc százalékos lépést bírtak csak tenni. A spanyol jegybank tavalyi becslése szerint kereken 750 ezer lakás hiányzik a piacról, ami oda vezetett, hogy a lakosok a fizetésük felét, a madridiak és barcelonaiak pedig egyenesen a hetven százalékát perkálják ki lakbérként. A spanyol kormány erre egy igen erős húzással reagált: meghosszabbította a kilakoltatási moratóriumot, automatikusan kitolta a 2028 előtt lejáró bérleti szerződéseket, Barcelona pedig 2024-ben lakbérplafont hozott létre, majd bejelentette a rövid távú lakáskiadás 2028-as teljes tiltását. Ennek a csodás bürokratikus igyekezetnek az lett a felemelő eredménye, hogy a befektetők és építők sikeresen elmenekültek a terepről, így azóta sem piaci, sem szociális lakások nem épülnek az égvilágon semmi."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Apartment_buildings_on_the_bank_of_East_River%2C_Manhattan%2C_New_York_City%2C_20231001_1104_1010.jpg/960px-Apartment_buildings_on_the_bank_of_East_River%2C_Manhattan%2C_New_York_City%2C_20231001_1104_1010.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Apartment_buildings_on_the_bank_of_East_River,_Manhattan,_New_York_City,_20231001_1104_1010.jpg",
+        "author": "Jakub Hałun",
+        "credit": "Own work",
+        "title": "Apartment buildings on the bank of East River, Manhattan, New York City, 20231001 1104 1010.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "version": 4
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -10560,7 +10722,17 @@
             }
           }
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Apartment_buildings%2C_Kowloon_%2820130807-DSC04173%29.jpg/960px-Apartment_buildings%2C_Kowloon_%2820130807-DSC04173%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Apartment_buildings,_Kowloon_(20130807-DSC04173).jpg",
+        "author": "Matti Blume",
+        "credit": "Own work",
+        "title": "Apartment buildings, Kowloon (20130807-DSC04173).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -10646,7 +10818,17 @@
           "body": "Két pesti portékás sarok és egy termetes budaörsi telek vándorolt át a Biggeorge gyűjteményébe, megpakolva a cég iroda- és raktárkészletét. A boltért a REIT kereken 2,68 milliárd forintot csúsztat át a projektcégek 2026. június 30-i saját tőkéjére hivatkozva, ráadás habként pedig még 1,63 milliárdot kifizet a régi tulajok osztalék- és tagikölcsön-követeléseiért meg a kamatokért. A csaknem 13 ezer négyzetméteres buli ráadásul teljesen házon belül maradt, mert banki hitel vagy külső tőkebevonás helyett egyszerűen csak átszuszakolták a pénzt a belső zsebekből."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Apartment_buildings_on_the_bank_of_East_River%2C_Manhattan%2C_New_York_City%2C_20231001_1109_1028.jpg/960px-Apartment_buildings_on_the_bank_of_East_River%2C_Manhattan%2C_New_York_City%2C_20231001_1109_1028.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Apartment_buildings_on_the_bank_of_East_River,_Manhattan,_New_York_City,_20231001_1109_1028.jpg",
+        "author": "Jakub Hałun",
+        "credit": "Own work",
+        "title": "Apartment buildings on the bank of East River, Manhattan, New York City, 20231001 1109 1028.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -15691,7 +15873,17 @@
           "body": "November 29-én Spanyolország az urnákhoz járul, ami alaposan felkavarhatja a bankok, az ingatlanszektor és az adatközpont-fejlesztők állóvizét egy új jobboldali kormány ígéretével. A spanyol gazdaság épp a túlórázó turisták és a pénzügyi szolgáltatások hátán robog a 2,6 százalékos 2025-ös GDP-növekedéssel, miközben a kötvénypiac mégis a szomszédos francia bizonytalanság lábvizében ázik. A kanyarban viszont ott vár a Vox a maga követeléseivel, így a nagy kérdés már csak az, hogy a várt adócsökkentések és lakásépítési csodák mellett mennyi marad a költségvetési fegyelemből."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Apartment_buildings_on_the_bank_of_East_River%2C_New_York_City%2C_20231005_1115_2218.jpg/960px-Apartment_buildings_on_the_bank_of_East_River%2C_New_York_City%2C_20231005_1115_2218.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Apartment_buildings_on_the_bank_of_East_River,_New_York_City,_20231005_1115_2218.jpg",
+        "author": "Jakub Hałun",
+        "credit": "Own work",
+        "title": "Apartment buildings on the bank of East River, New York City, 20231005 1115 2218.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "version": 4
+      }
     },
     {
       "source": "HVG",
