@@ -464,13 +464,13 @@ function approvedPhoto(story) {
 
 function renderApprovedPhoto(story, imageClass) {
   const approval = approvedPhoto(story);
-  const pexels = story.pexelsPhoto;
-  const pexelsPage = /^https:\/\/(?:www\.)?pexels\.com\//i;
-  const usePexels = !approval && pexels &&
-    /^https:\/\/images\.pexels\.com\//i.test(pexels.image) &&
-    pexelsPage.test(pexels.page) && typeof pexels.photographer === 'string' &&
-    pexels.photographer.trim();
-  if (!approval && !usePexels) return null;
+  const commons = story.commonsPhoto;
+  const useCommons = !approval && commons &&
+    /^https:\/\/(?:upload|thumb)\.wikimedia\.org\//i.test(commons.image) &&
+    /^https:\/\/commons\.wikimedia\.org\//i.test(commons.page) &&
+    /^https:\/\/creativecommons\.org\//i.test(commons.licenseUrl) &&
+    typeof commons.author === 'string' && commons.author.trim();
+  if (!approval && !useCommons) return null;
 
   const figure = document.createElement('figure');
   figure.className = 'article-photo';
@@ -479,25 +479,22 @@ function renderApprovedPhoto(story, imageClass) {
   photo.alt = '';
   if (approval?.monochrome === true) photo.classList.add('photo-monochrome');
   if (approval?.crop === true) photo.classList.add('photo-crop');
-  photo.src = usePexels ? pexels.image : story.image;
+  photo.src = useCommons ? commons.image : story.image;
   figure.append(photo);
 
   const caption = document.createElement('figcaption');
   caption.className = 'photo-credit';
-  if (usePexels) {
-    caption.append('Illusztráció · Fotó: ');
-    if (pexelsPage.test(pexels.profile)) {
-      const author = document.createElement('a');
-      author.href = pexels.profile;
-      author.textContent = pexels.photographer;
-      caption.append(author);
-    } else {
-      caption.append(pexels.photographer);
-    }
+  if (useCommons) {
     const source = document.createElement('a');
-    source.href = pexels.page;
-    source.textContent = 'Pexels';
-    caption.append(' · ', source);
+    source.href = commons.page;
+    source.textContent = 'Wikimedia Commons';
+    const license = document.createElement('a');
+    license.href = commons.licenseUrl;
+    license.textContent = commons.license;
+    caption.append('Illusztráció · ', commons.author);
+    if (commons.credit && commons.credit !== commons.author) caption.append(' · ', commons.credit);
+    caption.append(' · ', source, ' · ', license);
+    if (commons.title) source.title = commons.title;
   } else if (approval.creditUrl) {
     const link = document.createElement('a');
     link.href = approval.creditUrl;
@@ -506,7 +503,7 @@ function renderApprovedPhoto(story, imageClass) {
   } else {
     caption.textContent = approval.credit;
   }
-  if (!usePexels && story.imageGeneratedByAI === true) caption.append(' · AI-val készült illusztráció');
+  if (!useCommons && story.imageGeneratedByAI === true) caption.append(' · AI-val készült illusztráció');
   figure.append(caption);
   return figure;
 }
