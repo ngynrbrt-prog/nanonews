@@ -3950,8 +3950,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795782061-temp-jv998evem7fg8hhbbno_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "504e9c42dae01efd89677efcc8670df9fa54c2658ea2798d750878302b303a0d",
       "relatedStories": [],
       "commonsPhoto": {
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/D%C3%BClmen%2C_Alte_Brennerei_L%C3%B6hning_--_2015_--_8609-13.jpg/960px-D%C3%BClmen%2C_Alte_Brennerei_L%C3%B6hning_--_2015_--_8609-13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -3962,6 +3962,19 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Február 2-án a Larus Rendezvényközpontban rendezik meg a Mire építünk? – Ingatlanpiac, beruházás és versenyképesség című, legfeljebb 200 résztvevőt fogadó G7 Paradigma konferenciát, amely az építőipar és az ingatlanpiac jövőjét, a megfizethető lakhatást, valamint a beruházások feltételeit és megtérülését vizsgálja. A rendezvényen a legfontosabb gyakorlati következmény, hogy a résztvevő vállalatvezetők, tulajdonosok, befektetők, finanszírozók és szakértők adatokra és konkrét üzleti tapasztalatokra épülő eszmecserékből kaphatnak támpontokat saját beruházási és stratégiai döntéseikhez. Az eseményen előadóként vesz részt Vitézy Dávid közlekedési és beruházási miniszter, Banai Ádám, az MNB ügyvezető igazgatója és főközgazdásza, valamint Erő Zoltán, Budapest főépítésze, és itt adják át először a K&H Paradigma Díjat is."
+        },
+        "tolkien": {
+          "title": "A Téglák és Alapok Krónikája: Építkezés az Idők Végtelen Útján",
+          "body": "A Larus üvegcsarnokának falai között, az eljövendő 2027. február 2-i napon összegyűlnek a magyar föld mesterei, építői, céhvezetői és kincstárosai a Mire építünk? – Ingatlanpiac, beruházás és versenyképesség elnevezésű G7 Paradigma konferencián, hogy megidézzék a falvak és városok jövőjének sorsát. Ezen a legfeljebb kétszáz lelket számláló, mély titkokat faggató, egésznapos tanácskozáson Vitézy Dávid beruházási főúr, Banai Ádám pénzügyi bölcs és Erő Zoltán, a főváros építő mestere emeli fel szavát a megrendelések, a megfizethető otthonok és a kövekbe vésett jövő érdekében."
+        },
+        "reito": {
+          "title": "Beton, bankkölcsön és budapesti kilátások: Így építkezik a G7 csapat",
+          "body": "Február 2-án a Larus Rendezvényközpont összesen legfeljebb kétszáz szerencsés építőipari mágnást, bankárt és ingatlanbefektetőt zár össze a Mire építünk? – Ingatlanpiac, beruházás és versenyképesség elnevezésű G7 Paradigma konferencián, hogy eldöntsék, mbe éri meg ma Magyarországon téglát téglára rakni. A találkozó azonnali gyakorlati hasznot hoz: a résztvevők a megrendelésektől a kivitelezési költségeken át a banki hitelcsapok megnyitásáig mindent kipuhatolhatnak, hogy ne a saját pénzükön tanulják meg a piac törvényeit. A színpadon olyan nehézsúlyú alakulatok osztják az észt, mint Vitézy Dávid beruházási miniszter, Banai Ádám jegybanki főközgazdász és Erő Zoltán főépítész, sőt, a K&H Bank Zrt."
+        }
       }
     },
     {
@@ -3974,12 +3987,25 @@
       ],
       "image": "https://cdn.origo.hu/2026/06/Y3JO_L9O67upw9lUTiIIu9cj0Qquod8Vk2JrPfKXV2s/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8wNi8xNS81MTg3ZjdiYzBjMjI1OWY1MmUyODkxMGQyN2E2ZDU0Njg5NTk5NmI4NzIwMjUyNGFkODJjZTRjNzE3OTUyNDNi.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "09d8cbd3abcd0c45b3f0d4a0b75468f3c9c0d08570122bf39cd388ea1fdfbeb3",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Magyar Nemzeti Kereskedelmi Szövetség és a Magyar Könyvelők Országos Egyesülete a vagyonadó problémás szabályozása miatt Baka András köztársasági elnökhöz fordult, miután az Országgyűlés november 24-én, kedden 135 igen és 48 nem szavazattal elfogadta a jogszabályt. A szabályok következtében a magyar cégek súlyos versenyhátrányba kerülhetnek, mivel a külföldi multik a kettős adóztatás elkerüléséről szóló egyezmények miatt mentesülnek a közteher alól, ami a béremelések beszűkülését és a beruházások megtérülésének romlását okozhatja. A szervezetek azt szeretnék, hogy a gazdasági tevékenységet szolgáló vagyon mentesüljön az új teher alól, vagy a köztársasági elnök küldje tovább azt az Alkotmánybíróságnak, illetve küldje vissza az Országgyűlésnek. A törvény életbe lépéséhez Baka Andrásnak legkésőbb hétfőn alá kell írnia a jogszabályt."
+        },
+        "tolkien": {
+          "title": "A vagyonadó vihara és a hazai céhmesterek könyörgése a trónus lábánál",
+          "body": "A Magyar Nemzeti Kereskedelmi Szövetség és a Magyar Könyvelők Országos Egyesülete a vagyonadó nehéz igája miatt Baka András köztársasági elnök elé járult, hogy oltalmat kérjen a november 24-én, kedden 135 igen és 48 nem szavazattal elfogadott törvény ellen. E sötét rendelet súlyos terhet ró a hazai vállalkozásokra, míg a messziről jött multik a birodalmi egyezmények pajzsa mögé bújva mentesülnek a közteher alól, mély sebeket ejtve a hazai kereskedelem szövetségén. A gazdaság bástyáit védő céhek attól tartanak, hogy a tőke megadóztatása felemészti a béremelések reményét és a jövő beruházásait, hacsak a köztársasági elnök legkésőbb hétfőn le nem teszi tollát, vagy az Alkotmánybíróság útjára nem küldi a jogszabályt."
+        },
+        "reito": {
+          "title": "Amikor a vagyonadó hálójában a hazai cégek vergődni kezdtek, a könyvelők és a kereskedők pedig az elnökhöz rohantak mentőmellényért",
+          "body": "A Magyar Nemzeti Kereskedelmi Szövetség és a Magyar Könyvelők Országos Egyesülete a vagyonadó fojtogató szabályai miatt Baka András köztársasági elnök ajtaján kopogtatott, miután az Országgyűlés november 24-én, kedden 135 igen és 48 nem szavazattal áttolta a törvényt. A szurkoláshoz hasonlatos meccsben a hazai vállalkozások fizetik a közterhet, míg a külföldi multik a nemzetközi egyezmények kiskapuin át elegánsan kisétálnak a kassza elől, maguk mögött hagyva a versenyhátrány keserű füstjét. A szervezetek azt remélik, hogy a gazdasági vagyon mentesül a teher alól, vagy az elnök visszaküldi a csomagot a parlamentnek, ám a stopperóra ketyeg: Baka Andrásnak legkésőbb hétfőn alá kell írnia a jogszabályt, hogy az jövőre élesedhessen."
+        }
       }
     },
     {
@@ -3992,8 +4018,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "9030b2c5a1228fc4b7f19291a1d14c33bb64e14569b009b1f82c552906b8e1c9",
       "relatedStories": [
         {
           "source": "Telex",
@@ -4005,11 +4031,24 @@
           ],
           "image": "https://assets.telex.hu/images/20261127/1795779775-temp-kq5osnafhqp49gmlfhl_cimlap-normal.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "contentBasis": "article",
+          "sourceHash": "65511bb3543b67797e43a86816ee61b275c66a0c4b54d830e15ac105ed3beb69",
           "commonsPhoto": {
             "unavailable": true,
             "version": 4
+          },
+          "variants": {
+            "original": {
+              "body": "A Magyar Fejlesztési Bank (MFB) ismeretlen tettes ellen hűtlen kezelés gyanúja miatt feljelentést tett, valamint bejelentést nyújtott be a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalnál a Mészáros Lőrinchez köthető, a Talentis International Construction Investments Kft. tulajdonában álló bosnyák–horvát országrészben működő Lukavac cementgyár ügyében. A vizsgálat tárgya a cementgyár osztrák vevő részére halasztott fizetéssel, változatlan vételár mellett biztosított, több mint 10 hónapos fizetési halasztás, amelyért a feljelentés szerint az eladó nem kapott megfelelő ellentételezést. A tranzakció vagyoni hátrányt okozhatott és hátrányosan érinthette az állami bank befektetésének megtérülését, mivel a Talentis 2023-ban 76 milliárd forintért vette meg a gyárat, amelynek összeg 70 százalékát az MFB hitele adta, miközben az eladó többségi tulajdonosa az MBH Magántőkealap, amelynek az MFB a többségi befektetője."
+            },
+            "tolkien": {
+              "title": "A cement birodalmának árnyéka és az MFB ítélete",
+              "body": "A Magyar Fejlesztési Bank ismeretlen tettes ellen hűtlen kezelés gyanúja miatt feljelentést emelt, és a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal ajtaján is kopogtatott a Mészáros Lőrinchez köthető, a Talentis International Construction Investments Kft. birtokában lévő Lukavac cementgyár sötét ügyében. Az alkuk csarnokában az osztrák vevőnek több mint tíz hónap türelmi időt adtak a vételár rendezésére változtatás nélkül, míg az eladó kamra üresen maradt a megfelelő ellentételezés híján. E veszedelmes haladék megrendítheti az állami kincstár alapjait, hiszen 2023-ban hetvenhat milliárd aranyat – pontosabban forintot – emésztett fel a gyár megszerzése, melynek hetven százalékát maga az MFB hitele táplálta, miközben a vagyonkezelő alapban is az ő aranya rejtőzik."
+            },
+            "reito": {
+              "title": "A cementgyár, a tíz hónapos kegyelemidő és a banki feljelentés",
+              "body": "A Magyar Fejlesztési Bank ismeretlen tettes ellen hűtlen kezelés gyanúja miatt feljelentést tett, és bejelentést nyújtott be a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalnál a Mészáros Lőrinchez köthető Talentis International Construction Investments Kft. tulajdonában lévő Lukavac cementgyár ügyében. Az üzletmenet pikantériája, hogy az osztrák vevőnek több mint tíz hónapot engedtek a bankhitel után fennmaradó vételár megfizetésére változatlan áron, cserébe viszont az eladó érdemi ellentételezés nélkül maradt. Ez a kis belföldi pénzügyi manőver akár meg is csapolhatja az állami bank befektetését, amely korábban 76 milliárd forintból – aminek 70 százalékát az MFB hiteléből fizették ki – segített összehozni a 2023-as felvásárlást."
+            }
           }
         },
         {
@@ -4022,11 +4061,24 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "contentBasis": "article",
+          "sourceHash": "4bf7f4a4022787248ea2d5fe071d7ae09fec6b82634262a9e372c84d1d369def",
           "commonsPhoto": {
             "unavailable": true,
             "version": 4
+          },
+          "variants": {
+            "original": {
+              "body": "Hűtlen kezelés gyanúja miatt tett feljelentést a Magyar Fejlesztési Bank (MFB) a Talentis International Construction Investments Kft. tulajdonában álló Lukavac cementgyár osztrák vevő részére, halasztott fizetéssel történő értékesítése ügyében. A vevő a szerződéskötéstől számítva több mint 10 hónapot kapott a bankhitel rendezése után fennmaradó vételárrész megfizetésére változatlan vételár mellett, miközben az eladó többségi tulajdonosa az MBH Magántőkealap, amelynek az MFB a többségi befektetője. A feljelentés szerint a vevőnek engedett későbbi fizetésért az eladó nem kapott megfelelő ellentételezést, ami vagyoni hátrányt okozhatott és hátrányosan érinthette az állami bank befektetésének megtérülését."
+            },
+            "tolkien": {
+              "title": "A cementgyár árnyéka és az MFB ítélete",
+              "body": "Hűtlen kezelés gyanúja miatt tett feljelentést a Magyar Fejlesztési Bank a Talentis International Construction Investments Kft. tulajdonában álló Lukavac cementgyár osztrák vevő részére, halasztott fizetéssel történő eladása ügyében, amely tranzakció beleszövődött a hazai gazdasági élet sorsába. A vevő több mint tíz holdhónapnyi haladékot kapott a bankhitel rendezése után fennmaradó vételárrész megfizetésére változatlan áron, míg a szálak az MBH Magántőkealaphoz vezetnek, amelynek az MFB a fő bástyája. E kedvezményért az eladó nem kapott ellentételezést, s e sötét folt vagyoni hátrányt mérhet az állami bank kincseinek megtérülésére."
+            },
+            "reito": {
+              "title": "Tíz hónap türelem, aztán irány a hivatal: a Lukavac cementgyár esete",
+              "body": "Hűtlen kezelés gyanúja miatt tett feljelentést a Magyar Fejlesztési Bank a Talentis International Construction Investments Kft. birtokában lévő Lukavac cementgyár osztrák vevője ellen, aki halasztott fizetéssel jutott a portéka tulajdonába. A boldog vevő a szerződéskötéstől számítva több mint 10 hónapot kapott a bankhitel rendezése után fennmaradó vételárrész kifizetésére, ráadásul változatlan áron, miközben az eladó mögött álló MBH Magántőkealapban az MFB a fő tőketulajdonos. A gyanú szerint az eladó semmilyen ellentételezést nem kapott ezért a nagyvonalú fizetési halasztásért, ami elég ahhoz, hogy lyukat üssön az állami bank befektetésének megtérülésén."
+            }
           }
         },
         {
@@ -4174,6 +4226,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Magyar Fejlesztési Bank (MFB) hűtlen kezelés gyanúja miatt feljelentést tett ismeretlen tettes ellen a bosznia-hercegovinai Lukavac cementgyár ügyében, amely a Mészáros Lőrinchez kötődő Talentis International Construction Investments Kft.-t érinti. A gyakorlati következmény az, hogy a hatósági vizsgálatnak kell tisztáznia, történt-e vagyoni hátrányt okozó vagyonkezelési kötelezettségszegés az osztrák vevő részére halasztott fizetéssel biztosított értékesítés miatt. Az ügyben a Gazdasági és Energetikai Minisztérium közleménye szerint az MFB az állami vagyoni érdekek védelmében a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalnál is bejelentést tett. A Talentis International Construction Investments Kft.-t a Talentis Group Zrt."
+        },
+        "tolkien": {
+          "title": "A cementgyár árnyéka és az állami kincstár útjai",
+          "body": "A Magyar Fejlesztési Bank bűncಷalat gyanújának árnyékát vetve hűtlen kezelés miatt tett feljelentést ismeretlen tettes ellen a messzi bosznia-hercegovinai Lukavac cementgyár sorsát terhelő ügyben, amely a Mészáros Lőrinchez köthető Talentis International Construction Investments Kft.-t érinti. Ennek súlyos következményeként a hatósági vizsgálatnak kell igazságot szolgáltatnia abban, hogy a halasztott fizetés bilincsébe vert osztrák eladás okozott-e jóvátehetetlen vagyoni csorbát az állami kincstáron. A Gazdasági és Energetikai Minisztérium krónikája szerint az MFB az állami vagyon védelmének pajzsát emelve a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatal kapuján is kopogtatott. A Talentis International Construction Investments Kft."
+        },
+        "reito": {
+          "title": "Cementet a köbön: az MFB nem kér a halasztott számlákból",
+          "body": "A Magyar Fejlesztési Bank hűtlen kezelés gyanújával rántotta be a kéziféket, és feljelentést tett ismeretlen tettes ellen a bosznia-hercegovinai Lukavac cementgyár ügyében, miután a Mészáros Lőrinchez kötődő Talentis International Construction Investments Kft. biznisze váratlan fordulatot vett. A hab a tortán, hogy a hatóságoknak kell most kinyomozniuk, vajon a vevőnek adott bő tíz hónapos fizetési haladék hozott-e konyhára bármit is az eladónak, vagy csak sebeket ejtett az állami bank befektetésén. A Gazdasági és Energetikai Minisztérium papírjai szerint az MFB ráadásul a Nemzeti Vagyonvisszaszerzési és Vagyonvédelmi Hivatalhoz is bekopogott, hogy sajátos nyomozást indítson a vagyoni érdekek védelmében."
+        }
       }
     },
     {
@@ -4186,8 +4251,8 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/v04iCDxEVqxr_Tgm6lkm4Z6OsWVzQwmCWyQNTZIkDqQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9iNDA2OTFkZGU5OTg2ZjlhYTg4NzNhMjA4MTY5ZjM2OGY4OGE3OWY0Zjc2ZmVhYWIwNTY2ZTRiNjA3YzA0MGZl.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7b4c233ce9f084961b45d9e2d63bdae644f66f17d89f8c0cc480785e4b13dc21",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -4273,6 +4338,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Orbán Viktor pénteken a Facebook-oldalán búcsúzott a 91 éves korában elhunyt Melocco Miklós szobrászművésztől, a Nemzet Művészétől. A volt miniszterelnök közösségi oldalán közzétett bejegyzésében „Isten nyugosztaljon, barátom! A kő marad.” szavakkal reagált a Magyar Képzőművészeti Főiskolán 1955-ben felvételt nyert, 1935. április 3-án Rómában született művész halálhírére."
+        },
+        "tolkien": {
+          "title": "A kő marad – Végső búcsú Melocco Miklós szobrászmestertől",
+          "body": "Orbán Viktor pénteken a Facebook-oldalán rótta le tiszteletét Melocco Miklós szobrászművész előtt, aki a Nemzet Művésze címmel ékesítve, 91 esztendős korában tért örök álomra. A volt kormányfő a közösségi háló falára véste a mély gyász szavait: „Isten nyugosztaljon, barátom! A kő marad.” A művész útját, aki Rómában született 1935. április 3-án és 1955-ben lépte át a Magyar Képzőművészeti Főiskola küszöbét, Párkányi Raab Péter egykori tanítvány és Kossuth-díjas mester gyászos bejelentése hozta el a hazai belföldi közösség elé."
+        },
+        "reito": {
+          "title": "A kő marad, a mester elment – Orbán Viktor búcsúja Melocco Miklóstól",
+          "body": "Orbán Viktor pénteken a Facebookon rántotta le a leplet a szomorú tényről, elköszönve a 91 éves korában elhunyt Melocco Miklós szobrászművésztől, a Nemzet Művészétől. A volt miniszterelnök a „Isten nyugosztaljon, barátom! A kő marad.” felkiáltással zárta le a hazai kulturális életet megrázó hírt, amit korábban Párkányi Raab Péter Kossuth-díjas szobrász és egykori tanítvány kürtölt világgá. Az 1935."
+        }
       }
     },
     {
@@ -4285,12 +4363,25 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795779685-temp-kut2mudvkbikdbldbbc_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "269b7f422daefe942b926fc2ddf64aa7fc2494d817f4c110ab6a20e53cbfce4c",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Lezárult a Józsefvárost és Kőbányát érintő felsővezeték-építési munkákra kiírt feltételes közbeszerzési eljárás, miután a BKK megkötötte a 3,55 milliárd forint nettó értékű vállalkozási szerződést a Dunagép Szolgáltató Zrt.-vel. A fejlesztés hatálybalépése a szükséges forrás meglététől függ, a munkák pedig a forrás rendelkezésre állása esetén tervezetten 2027 első felében kezdődhetnek meg. A beruházás részeként új felsővezeték-szakaszok épülnek az Orczy tér és Kőbányai út között, valamint a Pongrácz úton a Mázsa térig, ami javítja Kőbánya trolibuszos elérhetőségét és kíméli az akkumulátorokat. A BKK-nak a szerződéskötést követően hat hónap áll rendelkezésére a megállapodás hatályba léptetésére, hiányában pedig új közbeszerzési eljárás lefolytatása válik szükségessé."
+        },
+        "tolkien": {
+          "title": "A rézszálak ébredése a Kőbányai Kapu előtt",
+          "body": "Feltárult a sors könyve Józsefváros és Kőbánya határán, miközben a Budapesti Közlekedési Központ pecsétjével lezárult a felsővezetékek építésének feltételes krónikája, s a Dunagép Szolgáltató Zrt. keze nyomán 3,55 milliárd ezüstpénzes nettó áron megszületett a vállalkozási egyezség. Az acélhálók és vezetékek új birodalma csak akkor ébredhet fel álmából, ha a kincstár kapui megnyílnak, s a források megérkeznek, hogy 2027 első felében megkezdődhessen az Orczy tér és Kőbánya központja közötti utak meghódítása. E szent kötelék révén a vasparipák ritkábban kényszerülnek rejtett erők, azaz akkumulátorok emésztésére, míg a Mázsa térig és a Liget térig kígyózó új rézerek egységes arcot szabnak a fővárosi tájnak."
+        },
+        "reito": {
+          "title": "Vezeték a semmibe: amikor a pénzcsap határozza meg a troli útját",
+          "body": "A főváros aszfaltjain új fejezet nyílt, miután a BKK aláírta a Józsefvárost és Kőbányát összekötő, nettó 3,55 milliárd forintos felsővezeték-építési szerződést a Dunagép Szolgáltató Zrt.-vel, ám a drótok sorsa most egyelőre a pénztárcák mélyén rejtőzik. Csak akkor indulhat meg a munka az Orczy tér és a Kőbányai út, valamint a Pongrácz út vonalán, ha a ködös jövőben előkerül a szükséges forrás, amire a BKK-nak hat hónapja van a pecsétnyomástól számítva, különben kezdődhet a bürokratikus körhinta elölről. Ha viszont csilingel a kassza, 2027 első felétől új oszlopok vigyázzák a trolik útját a Mázsa térig, és a kímélt akkumulátorok végre felsóhajthatnak a ritkább belső áramhasználat miatt."
+        }
       }
     },
     {
@@ -4303,12 +4394,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-170650939-szigeteles-felujitas-epitkezes-epitoipar-homlokzat-lakoepulet-ep-866766.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ed841fda6c66a1fa916f9a1321b6c47876e526e19a41a5e5bba3d26e4c332340",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Belföld rovat híreként a magyar építőipar harmadik negyedéves teljesítményét és az első kilenc hónap adatait vizsgáló statisztikák érkeztek, amelyek a kivitelezések széles körű, jelentős visszaesését mutatják. A harmadik negyedéves összeg folyó áron alig 4 százalékkal haladta meg a második negyedéves szintet, míg az első kilenc hónapban megkezdett kivitelezések összértéke 29 százalékkal csökkent az előző év azonos időszakához képest, a 2021–2025 közötti átlagtól pedig 23 százalékkal maradt el. A magasépítési ágazatban a megkezdett munkálatok értéke nem érte el a 380 milliárd forintot, a nem lakáscélú magasépítések 750 milliárd forint alatti beruházása pedig évtizedes negatív rekordot hozott. A visszaesés ellenére a társasházaknál az átadások terén erős az év, és az elindított építkezések 33 százalékával Budapest visszavette vezető helyét a regionális rangsorban."
+        },
+        "tolkien": {
+          "title": "A Kő és a Falak Krónikája: Megfogyatkozott a magyar építőipar ereje",
+          "body": "A Belföld birodalmában sötét árnyék vetült az építőipar nagyszabású munkáira, midőn a harmadik negyedév folyó áron számított gazdagsága alig 4 százalékkal múltja felül a megelőző időszak törékeny szintjét. Így szólt a krónika az első kilenc hónapról: a megkezdett kivitelezések összértéke 29 százegésszel zuhant az előző év azonos napjaihoz képest, s a 2021 és 2025 közötti esztendők átlagától is 23 százalékkalmaradt el. Magasépítés mezején a munkák értéke 380 milliárd aranytallérnyi ezüstöt sem ért el, a nem lakáscélú épületek 750 milliárd alatti beruházása pedig évtizedes mélységbe taszította a várak és csarnokok építőit. Ám Budapest városa megtartotta királyi trónusát, az elindított építkezések egyharmadát magához ragadva, miközben a lakóházak kőművesei még új átadási csúcsokat is ígérnek a tél eljövetelére."
+        },
+        "reito": {
+          "title": "Betonlábakon járó nehézségek: Így zuhant mélybe a magyar építőipar",
+          "body": "A Belföld rovat asztalára pottyent adatok szerint a magyar építőipar harmadik negyedéve annyira húzta ki magát, hogy az összeg folyó áron alig 4 százalékkal tudta túlszárnyalni a szerény második negyedévet. Az első kilenc hónapban megkezdett kivitelezések összértéke mindenesetre 29 százalékos mínuszt hozott az előző évhez képest, a 2021–2025-ös átlagtól pedig 23 százalékkal maradt el. A magasépítésben a 380 milliárd forintot sem elérő negyedéves kezdés 2021 óta a negyedik leggyengébb eredményt produkálta, míg a nem lakáscélú építkezések kevesebb mint 750 milliárdos mutatója évtizedes negatív rekordot könyvelhetett el. A főváros eközben büszkén vette vissza a stafétát, az elindított építkezések 33 százalékát magáénak tudva, bizonyítva, hogy a nehézségek ellenére is betonbiztosan Budapestre figyel a legtöbb építész."
+        }
       }
     },
     {
@@ -4321,12 +4425,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/f/u/l/fulop-szigeteki-katonak-gyakorlat-kozben-873492.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "45e4926bb2ec8a98e10c106916809e81975644e1288e7e555f63d284bb3cd4fa",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Fehér Ház november 18-i tájékoztatása szerint a Fülöp-szigetek megkezdi a Batan szigeten található Basco légibázis korszerűsítését, ami javítja az Egyesült Államok hozzáférését a Tajvantól mintegy 200 kilométerre fekvő létesítményhez. A fejlesztés gyakorlati következménye, hogy a reptér meghosszabbított kifutópályájának köszönhetően nagyobb repülőgépeket is képes lesz fogadni, ami növeli a katonai reagálási és beavatkozási képességeket a térségben. A november 18-án nyilvánosságra hozott, Donald Trump térségi látogatásához és az ASEAN-csúcshoz kapcsolódó projekt célja a katasztrófaelhárítás, az operatív hozzáférés és a kereskedelmi ellátási láncok javítása. A második világháborúban is stratégiai fontosságú bázis megerősítése elrettentő erővel hathat a Kína és Peking által saját területének tekintett Tajvan körüli feszültségek közepette, bár állandó amerikai jelenlét nem várható."
+        },
+        "tolkien": {
+          "title": "A Batan szikláinak árnyéka: mikor a sas fészke ébred",
+          "body": "A Fülöp-szigetek népe felemelé szarvát november tizennyolcadikán, és a Fehér Ház hírnökei által hirdetve kezdetét vette a Batan szigetén fekvő Basco sasmadár-bázisának újjászületése. Az ódon, második világháborús idők vérét látott kövek alatt a kifutás útja meghosszabbodik, hogy a birodalom nagyobb madarai is megvethessék ott lábukat, Tajvan szigetének bástmájától csupán kétszáz mérföldnyi messzeségben. E kővár megújult ereje által az Egyesült Államok hatalmasai felseperik az utat a Csendes-óceán kapui felé, elvágva a Nagy Sárkány seregeinek ölelő gyűrűjét a Bashi-szoros habjai felett. Bár állandó tűz őrzői nem vernek ott tanyát, e büszke bázis árnyéka rettegést szül a Föld pereméig, védelmezve a szigetországot a vihar közeledtétől."
+        },
+        "reito": {
+          "title": "A bazaltkifutó bosszantó rejtélye: amikor Washington kicsit közelebb húzódik a szomszédhoz",
+          "body": "A Fehér Ház november 18-i gyönyörű kis tájékoztatója szerint a Fülöp-szigetek úgy döntött, hogy kipofozza a Batan szigeten porosodó Basco légibázist, amivel az Egyesült Államok is óriási kegyben részesül, alig 200 kilométerre Tajvantól délre. A gyakorlatban ez azt jelenti, hogy a kifutópálya végre elég hosszú lesz ahhoz, hogy ne csak papírcsónakok, hanem rendes, méretes repülőgépek is landolhassanak rajta, miközben Donald Trump térségi turnéja után mindezt katasztrófaelhárításra és logisztikára fognak fogni. A második világháborús veterán támaszpont most hirtelen nagyon fontos lett a Kínával szembeni saktáblán, különösen a Bashi-szoros elvágásának ügyes kis opciójával. Állandó amerikai kulcslyukon leskelődő katonák ugyan nem vernek ott sátrat, de a logisztikai bakancsok mostantól sokkal kényelmesebben érik el a környéket."
+        }
       }
     },
     {
@@ -4339,12 +4456,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/r/e/u/reuters-forrasmegjelolessel-orosz-ukran-haboru-cv90-svedorszag-pancelos-gyalogsagi-harcjarmu-626999.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "a2c0b40d309010af7a03702dc4fd7bf3117ea44374ef0af7a0c1389eef34ba5b",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A finn haderő 2,835 milliárd euró értékben végrehajtott, „Gyalogsági Harcjármű 2030” elnevezésű külföldi védelmi beszerzése során Mk IV-es generációs harcjárműveket vásárol, ami a meglévő BMP-2MD állomány cseréje mellett mennyiségi bővülést is hoz. A már rendszerben lévő 102 darab CV9030 FIN harcjármű megtartásával az aktív lánctalpas flotta 212-ről 262 darabra, az opció teljes lehívása esetén pedig akár 362 egységre nőhet, a járműcsomagok átlagos ára pedig 12,22 millió euró. A Svédország vezetésével zajló, legalább 430 harcjárműre kiterjedő nemzetközi program NATO jelenlegi legnagyobb közös szárazföldi védelmi beszerzése, amelyben Finnország mellett korábban Észtország is részt vett, ám utóbbi 2026 áprilisában kilépett a kezdeményezésből. A beszerzés közvetlen következményeként a finn gépesített erők szerkezete átalakul, a lánctalpas flotta bővülésével Finnország a CV90-es család egyik legnagyobb európai üzemeltetőjévé válik, a sorkatonai kiképzést pedig a 2030-as évek elején a Páncélos Dandárra is kiterjesztik."
+        },
+        "tolkien": {
+          "title": "A északi birodalom vasércből szőtt serege",
+          "body": "Az északi honban a 2,835 milliárd eurós „Gyalogsági Harcjármű 2030” elnevezésű hatalmas fegyvervásárlás során harci szekerek legújabb nemzedéke érkezik, mely megváltoztatja Finnország sorsát. A régi szovjet fémek árnyékából feltámadó, 38 tonnás acélszörnyek és a svéd vezetésű, egész északi földet átölelő szövetség győzedelmes hadjárata új fejezetet nyit a nyugati végeken. E fegyverek érkezte által az északi haderő lánctalpas serege hatalmas arányban megduzzad, s a Karéliai Dandár után a Páncélos Dandár soraiba is elhozza a viharos idők fegyelmét. E dicső fegyverek révén a birodalom a CV90-es nemzetség leghatalmasabb urai közé emelkedik, míg a messzi déli unió aranya és a hazai kovácsok munkája pecsételi meg a vasból épült jövőt."
+        },
+        "reito": {
+          "title": "Ahol a Scania motor morog és a lánctalp zörög",
+          "body": "Finnország a 2,835 milliárd eurós „Gyalogsági Harcjármű 2030” program keretében úgy döntött, hogy alaposan felturbózza a garázsát, és Mk IV-es harcjárművekkel váltja le a közel negyvenéves szovjet technikát. A svéd főnökletességgel futó nemzetközi buliból Észtország ugyan 2026 áprilisában lelépett, hogy inkább légvédelmi drónokra költsön, a finnek viszont nem sajnálták a pénzt a 12,22 millió eurós darabáron vesztegetett fémcsomagokra. A vicces az egészben, hogy a meglévő CV9030-asok mellé érkező új vassal a lánctalpas flotta 262-re, sőt opcióban akár 362 darabra duzzad, úgyhogy a Páncélos Dandár legényei a 2030-as évek elején garantáltan nem fognak unatkozni a sorkatonai gyakorlatokon."
+        }
       }
     },
     {
@@ -10803,6 +10933,10 @@
               "title": "Tihanyi kincsesbánya és csepeli aprópénz",
               "body": "A magyar lakáspiac oly magasságokba szökött, hogy egy tihanyi utca aszfaltja idén már 5 millió forint feletti négyzetméterárat produkált, miközben az ország más zugaiban néhány tízezerért mérik a lakóingatlant. Az ingatlan.com és a KSH adatai szerint a legdrágább és legolcsóbb porták közötti szakadék tavaly 88-szorosra, idén pedig kereken 210-szeresre hízott. A fővárosi és budai elitutcák 2,29–2,58 millió forintos négyzetméterárakkal, a budaörsi Clementis László utca 2,405 millióval, a csepeli Vasas utca pedig 438 ezer forinttal veszi ki a részét a buliból. November 25-ig ráadásul a húsz legdrágább közterületből kilenc a Balaton környékéről futott be, ahol átlagosan 3,73–3,98 millió forintos mediánárakkal találkozhattak a vásárlók."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -10884,6 +11018,10 @@
               "title": "Négyzetméter-háború Tihanytól Kövegyig: amikor a balatoni sétány zsebre vágja a fővárost",
               "body": "A Központi Statisztikai Hivatal számai és az ingat.com november végéig gyűjtött adatai szerint az ingatlanpiacon olyan pimasz átrendeződés zajlott le, amiben a budapesti II. kerületi Vérhalom utca átadta a trónt a tihanyi Pisky sétánynak, ahol már 5,25 millió forintot kóstál egyetlen négyzetméter. Ennek a gasztronómiai magasságokba szökő drágulásnak köszönhetően a gazdagabb utcák és a Csongrád-Csanád megyei Kövegyen mért 25 ezer forintos mélypont közötti különbség a tavalyi barátságosabb 88-szorosról egészen 210-szeresre hízott. A belföldi lakáspiac térképén ez azt a mulatságos helyzetet szülte, hogy a főváros elsősége füstbe ment, és a toplista élmezőnyét a balatoni közterületek rohanták le."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         }
       ],
@@ -11103,7 +11241,11 @@
           "body": "A kínai statisztikai hivatal pénteki adatai szerint a nagyobb iparvállalatok profitja 20,1 százalékkal ugrott meg éves összevetésben, az év első tíz hónapjában pedig 16 százalékos volt a bővülés, ami megnyitotta a kaput Peking 4,5–5 százalékos éves növekedési céljának elérése előtt. Amíg a csúcstechnológiai cégek a memóriachipek és az űrhajók gyártásával kaszálnak, addig a külföldi partnerek, nevezetesen az Egyesült Államok által tervezett új vámok hamarosan hideg zuhannyal fenyegetik az exportot, ha január után 40 százalékraugranak a terhek. A hazai fronton eközben az ingatlanpiaci mélyrepülés húzza le a kedélyeket, elvégre az elhúzódó válság miatt a cement- és üveggyártók nyeresége 46,7 százalékkal, a bútorgyártóké pedig 52,4 százalékkal zuhant a pincébe. Így aztán hiába örülnek a réz- és alumíniumbárók, a lakossági pénztárcák és a betonba temetett remények továbbra is a sarat nyelik ebben a gazdasági fekete komédiában."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11216,7 +11358,11 @@
           "body": "December 6-án a balatonfüredi Forrás Sport Park aszfaltozott pumpapályája veszi át az irányítást, ahol az I. Forrás Bringa Park Mikulás Kupán kerékpárok, rollerek, gördeszkák és görkorcsolyák népesítik be a döntött kanyarokat. A Visit Balaton 365, a Balatonfüredi SC és a Balaton Bike 365 közös akciójaként a két- és négykerekű vasak lovasai az óramutatóval dacolva kétszer is lekerékpározzák a teljes kört, hogy a jobbik idődöntés mentse meg a becsületüket. Előzetes e-mail-nevezés és ötezer forintos számla ellenében, szigorú helyszíni regisztrációval indul a móka, ahol a kötelező bukósisak mellett mindenki érmet és oklevelet kap, a dobogósok pedig még tárgyjutalmat is behúznak."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",

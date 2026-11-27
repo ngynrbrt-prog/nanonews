@@ -607,7 +607,11 @@
       "categories": [
         "f1"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/5cMKyy-QIQW_Q0hC_0-2Jh5CL9KowE83yHWfXVE-Nq4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdjMDNlYjk5MDNjNDQ2MTU4M2YxNGNmZTM5YjQ3ZWQ1.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/5cMKyy-QIQW_Q0hC_0-2Jh5CL9KowE83yHWfXVE-Nq4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdjMDNlYjk5MDNjNDQ2MTU4M2YxNGNmZTM5YjQ3ZWQ1.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1007,7 +1011,11 @@
         "technology",
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795800810-temp-5rnm7ivbvla26fkdknl_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795800810-temp-5rnm7ivbvla26fkdknl_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -1037,7 +1045,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795797589-temp-t43o5ger9el55ehpdjm_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795797589-temp-t43o5ger9el55ehpdjm_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1049,7 +1061,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1069,7 +1085,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f3e857e-2745-40c1-a3f0-7ae7045b9923.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f3e857e-2745-40c1-a3f0-7ae7045b9923.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1143,7 +1163,11 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -1154,7 +1178,17 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Public_basketball_court_in_Melbourne_VIC_Australia.jpg/960px-Public_basketball_court_in_Melbourne_VIC_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Public_basketball_court_in_Melbourne_VIC_Australia.jpg",
+        "author": "KeepActive Australia from Melbourne, VIC, Australia",
+        "credit": "Own work",
+        "title": "Public basketball court in Melbourne VIC Australia.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1166,7 +1200,11 @@
         "parliament",
         "belfold"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1222,7 +1260,17 @@
       "categories": [
         "hu-market"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_05.jpg/960px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_05.jpg",
+        "author": "Ank Kumar",
+        "credit": "Own work",
+        "title": "Frankfurt Stock Exchange (Ank Kumar) 05.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1242,7 +1290,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/a/z/b/azbeszt-tartalmu-kozet-sopron-852032-855646.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/a/z/b/azbeszt-tartalmu-kozet-sopron-852032-855646.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1263,7 +1315,11 @@
         "technology",
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-md/g/a/z/gazprom-oroszorszag-tranzit-uzemanyag-olaj-ukrajna-export-szankcio-gaz-azerbajdzsan-693143.jpg"
+      "image": "https://pcdn.hu/articles/images-md/g/a/z/gazprom-oroszorszag-tranzit-uzemanyag-olaj-ukrajna-export-szankcio-gaz-azerbajdzsan-693143.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -1337,7 +1393,11 @@
       "categories": [
         "champions-league"
       ],
-      "image": "https://cdn.origo.hu/2026/11/Vcrce1f7H0elqJN6Wa7bNVxTQyBqA5ad7AqNlSZRixc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yMzM3ZGYwNWZhNmM1YWVmYWQxMWI4YzI5MDIzMzMyYmQ4ZDk2Y2FjMGRhMmNiMDk2MmEyMmIzODY2OWFkNGEy.jpg"
+      "image": "https://cdn.origo.hu/2026/11/Vcrce1f7H0elqJN6Wa7bNVxTQyBqA5ad7AqNlSZRixc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yMzM3ZGYwNWZhNmM1YWVmYWQxMWI4YzI5MDIzMzMyYmQ4ZDk2Y2FjMGRhMmNiMDk2MmEyMmIzODY2OWFkNGEy.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
