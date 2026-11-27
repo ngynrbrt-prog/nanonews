@@ -318,13 +318,8 @@
         }
       },
       "commonsPhoto": {
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Petrovskiy_football_stadium_in_SPB.jpg/960px-Petrovskiy_football_stadium_in_SPB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page": "https://commons.wikimedia.org/wiki/File:Petrovskiy_football_stadium_in_SPB.jpg",
-        "author": "Alex 'Florstein' Fedorov",
-        "credit": "Own work",
-        "title": "Petrovskiy football stadium in SPB.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "unavailable": true,
+        "version": 4
       }
     },
     {
@@ -355,13 +350,14 @@
         }
       },
       "commonsPhoto": {
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Pennsylvania_New_York_Central_Transportation_Company_Stock_Certificate_13_Shares.jpg/960px-Pennsylvania_New_York_Central_Transportation_Company_Stock_Certificate_13_Shares.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page": "https://commons.wikimedia.org/wiki/File:Pennsylvania_New_York_Central_Transportation_Company_Stock_Certificate_13_Shares.jpg",
-        "author": "Oleg Yunakov",
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Radiator_in_Newton%2C_South_Lanarkshire_%2862%29.jpg/960px-Radiator_in_Newton%2C_South_Lanarkshire_%2862%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Radiator_in_Newton,_South_Lanarkshire_(62).jpg",
+        "author": "Sahaib",
         "credit": "Own work",
-        "title": "Pennsylvania New York Central Transportation Company Stock Certificate 13 Shares.jpg",
+        "title": "Radiator in Newton, South Lanarkshire (62).jpg",
         "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
       }
     },
     {
@@ -878,7 +874,8 @@
         }
       },
       "commonsPhoto": {
-        "unavailable": true
+        "unavailable": true,
+        "version": 4
       }
     },
     {
@@ -908,13 +905,8 @@
         }
       },
       "commonsPhoto": {
-        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Petrovskiy_football_stadium_in_SPB.jpg/960px-Petrovskiy_football_stadium_in_SPB.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-        "page": "https://commons.wikimedia.org/wiki/File:Petrovskiy_football_stadium_in_SPB.jpg",
-        "author": "Alex 'Florstein' Fedorov",
-        "credit": "Own work",
-        "title": "Petrovskiy football stadium in SPB.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        "unavailable": true,
+        "version": 4
       }
     },
     {
@@ -10199,8 +10191,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261126/1795706180-temp-kl9u46fqcn7n0ofmlid_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7032dc5ef0d444c421e481cdc4e01380bff1d564ad6f48bcf488c4012e4a1c44",
       "relatedStories": [
         {
           "source": "HVG",
@@ -10264,6 +10256,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Megállapodott a kormány és a főváros a Fővárosi Közfejlesztések Tanácsának ülésén Rákosrendező fejlesztéséről, így Budapestnek nem kell kifizetnie a terület fennmaradó vételárát, hanem közös projektcéget hoznak létre. A megállapodás következtében Budapestnek nagyjából 25-30 százalékos tulajdonrésze lesz a cégben a tavaly márciusban kifizetett 12,7 milliárd forint után, míg a fennmaradó összeg rendezésével az állam szerez tulajdonrészt. A felek döntöttek továbbá a pesti Nagykörút 2027 első negyedévétől 2029 végéig tartó átépítéséről, a pesti fonódó villamosról, a 3-as metró meghosszabbításáról, a Városliget beépítésének elhagyásáról és parkosításáról, a BKK-hoz kerülő hajózási jogkörökről, valamint a főváros 2027-es, 20 milliárd forintos működésiköltség-csökkentéséről is. A belföldi közlekedési, kulturális és városfejlesztési ügyeket érintő egyezséget Karácsony Gergely főpolgármester és Vitézy Dávid közlekedési és beruházási miniszter jelentette be csütörtökön."
+        },
+        "tolkien": {
+          "title": "A kőfalak és ligetek szövetsége: új hajnal virrad a fővárosra",
+          "body": "A Fővárosi Közfejlesztések Tanácsa csütörtöki gyűlésén megköttetett az egyezség a kormány és a főváros között Rákosrendező sorsáról, melynek nyomán nem kell több aranyat fizetni a földért, hanem közös vállalkozás emelkedik a porból. E frigy által Budapest huszonöt-harminc százalékos részesedést nyer a tavaly márciusban kifizetett tizenkét milliárd hétszázmillió forint révén, míg a fennmaradó terhek az állam vállára nehezednek a zöld városnegyed építésében. A belföldi földek és ligetek sorsát pecsételi meg az is, hogy a Városliget szent földjére nem emelnek többé kőoszlopokat vagy épületeket, hanem a Petőfi Csarnok és a Közlekedési Múzeum egykori helyét visszakapja a természet. A mélyből jövő útonállomás, a 3-as metró meghosszabbítása és a pesti fonódó villamos pedig kiemelt útként halad majd a kétezer-harmincadik esztendő végső határáig, míg a pesti Nagykörút kövezete kétezer-húszhét első napjaitól kétezer-kilenc évutolsó napjáig újul meg."
+        },
+        "reito": {
+          "title": "Rákosrendezői válaszút: amikor a főváros és a kormány egy kasszába teszi a zsetont",
+          "body": "A Fővárosi Közfejlesztések Tanácsának csütörtöki ülésén Karácsony Gergely főpolgármester és Vitézy Dávid miniszter közösen osztotta le a lapokat Rákosrendező ügyében, így Budapestnek egy fillért sem kell tovább csengetnie a fennmaradó vételárért. Ennek a belföldi pénzügyi bűvészmutatványnak köszönhetően a főváros a tavaly márciusban letolt 12,7 milliárd forintért cserébe 25-30 százalékos tulajdonrészt kap a közös projektcégben, míg a maradékot az állam rendezi. A kifizetett számlák után a gyeptégla is repül: a Városligetbe nem építenek több kőrakást, a Petőfi Csarnok meg a Közlekedési Múzeum helyét fű borítja majd, a pesti Nagykörút pedig 2027 elejétől 2029 végéig kap egy alapos ráncfelvarrást. Sőt, a 3-as metró meghosszabbítása és a pesti fonódó villamos is kiemelt státuszt kap, hogy biztosan célba érjenek a 2030 végére kitűzött határidőig."
+        }
       }
     },
     {
