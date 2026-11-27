@@ -2372,7 +2372,17 @@
       "categories": [
         "nfl"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/EugWS7YnJiMkACSi6JrENZArCOlqYzKIWxOlao1ETdk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YzNmU0YzE3NmE5YjRhNjk4MzMxZmZmMjg1Yjc5NTQ5.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/EugWS7YnJiMkACSi6JrENZArCOlqYzKIWxOlao1ETdk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YzNmU0YzE3NmE5YjRhNjk4MzMxZmZmMjg1Yjc5NTQ5.webp",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg/960px-Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Forest_Park_High_School_football_(Woodbridge,_Virginia),_Muted_Sunset.jpg",
+        "author": "Northern-Virginia-Photographer",
+        "credit": "Own work",
+        "title": "Forest Park High School football (Woodbridge, Virginia), Muted Sunset.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2392,7 +2402,11 @@
       "categories": [
         "sports-business"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
