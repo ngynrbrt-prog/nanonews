@@ -11,7 +11,7 @@ from html import unescape
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from pexels_photos import enrich_photos
+from commons_photos import enrich_photos
 
 TZ=ZoneInfo("Europe/Budapest")
 ISSUE_HOURS={5:1,16:2}
@@ -1053,13 +1053,12 @@ if api_key and not publish_only and (not manual or pending_current) and pending_
     pending_updated = any(backfill_results)
 
 
-pexels_key = os.getenv("PEXELS_API_KEY", "").strip()
 photo_updates = {}
-if background and pexels_key and previous_edition and not previous_edition.get("testEdition"):
+if background and previous_edition and not previous_edition.get("testEdition"):
     records = list({record["url"]: record for story in previous_edition.get("stories", [])
                     for record in all_story_records(story)
                     if record.get("url") and not record.get("archiveDate")}.values())
-    photo_updates = enrich_photos(records, pexels_key,
+    photo_updates = enrich_photos(records,
                                   lambda: time.monotonic() + 4 < work_deadline)
 
 
@@ -1081,7 +1080,7 @@ def sync_pending_archive():
                 if pending_story.get("sourceHash"):target["sourceHash"]=pending_story["sourceHash"]
         for url, photo in photo_updates.items():
             if url in archived_by_url:
-                archived_by_url[url]["pexelsPhoto"] = photo
+                archived_by_url[url]["commonsPhoto"] = photo
         current_archive_path.write_text(json.dumps(archived,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     except Exception as exc:print(f"Could not sync pending summaries to current issue archive: {exc}")
 
@@ -1092,7 +1091,7 @@ if not stories and not publish_only:
     if latest_official_path is not None:
         latest_official_path.write_text(json.dumps(previous_edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     sync_pending_archive()
-    print(f"Updated current issue: {len(pending_current)} style candidates, {len(photo_updates)} Pexels images saved.")
+    print(f"Updated current issue: {len(pending_current)} style candidates, {len(photo_updates)} Commons image records saved.")
     raise SystemExit(0)
 sync_pending_archive()
 stories.sort(key=lambda s:s["published"],reverse=True)
