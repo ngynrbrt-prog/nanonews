@@ -13,10 +13,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "f8e0af840b22ffdff9d9ff1af88ed39cc446aade8ecd68ff31cbcb9f135a1a20",
       "relatedStories": [],
-      "variants": {}
+      "variants": {
+        "original": {
+          "body": "Mike McCarthy főedző az NFL-ben szereplő Mike McCarthy és Aaron Rodgers ügyében elismerte, hogy az irányító néhány megjegyzése igaz volt, miközben a QB menesztését olyan ultimátumokkal indokolta, amelyekhez Rodgersnek nem volt felhatalmazása. A gyakorlati következmény az, hogy a Steelers azóta több közleményben is támogatásáról biztatta a főedzőt, ugyanakkor a megfogalmazottak alapján nehéz lenne McCarthyt hosszú távon megtartani pozíciójában. Rodgers a kezdőcsapatból való kikerülése utáni nyilvános interjújában egyebek mellett azt állította, hogy McCarthy elaludt egy csapatmegbeszélésen, hiányzott megbeszélésekről, nem próbált kapcsolatot kialakítani a védelemmel, elveszítette az öltözőt, valamint összekeverte a mostani és a korábbi csapatát az Eagles elleni meccsen, ahol tényleg azt mondta, hogy „1-2-3 Packers”. McCarthy elismerte a philadelphiai Eagles elleni meccs kínos pillanatát, de határozottan eltér a véleménye a beszámolóktól a rengeteg munkaóra miatt."
+        },
+        "tolkien": {
+          "title": "A Bajnokok Csarnokának Árnyai és a Vezér Megromlott Rendje",
+          "body": "Az NFL-ben sorsfordító vihar tépte ketté a békét, mikor Mike McCarthy elismerte az Aaron Rodgers által kihirdetett igazságok egy részét, miközben a vezér menesztését a jogosulatlan ultimátumok sötét áradatával indokolta. E krónika nyomán a Steelers serege ugyan pajzsot emelt és támogatásáról biztatta a főedzőt, ám a vének tanácsa szerint e sebekkel nehéz lenne a vezetőt hosszú távon trónján tartani. A száműzött irányító, Rodgers ugyanis a padra ültetése utáni nyilvános vádjaiban azt hirdette, hogy a vezér elaludt a gyűléseken, cserben hagyta az öltözőt, és az Eagles elleni ütközetben felerészben eltévedt, kínos pillanatot szülve. Míg McCarthy a rengeteg elvégzett munka óráira hivatkozva visszautasította a vádak többségét, a vihar fellegei makacsul borulnak a csapat feje fölé."
+        },
+        "reito": {
+          "title": "A megbeszélésen elaludt főedző és a túl messzire merészkedő irányító esete",
+          "body": "Az NFL porondján Mike McCarthy főedző elismerte az Aaron Rodgers által elejtett megjegyzések igazságát, miután a QB-t a hatáskörét túllépő ultimátumai miatt egyszerűen a padra ültette. A történet pikantériája, hogy míg a Steelers hűségesen közlemények áradatával támogatja a főedzőt, a források szerint a vádak fele is elég lenne ahhoz, hogy McCarthy ne húzza sokáig a posztján. Rodgers a kispadra száműzetve nem kímélte a mestert: azzal vádolta, hogy elaludt a megbeszéléseken, elveszítette az öltözőt, sőt, az Eagles elleni meccsen összekeverte a csapatokat, amikor vezényszóként kibökte, hogy „1-2-3 Packers”. McCarthy ugyan elismerte a kínos philadelphiai pillanatot és a sajátos csatakiáltást, ám a rengeteg letolt munkaórára hivatkozva határozottan elhatárolódott a róla rajzolt portrétól."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -111,10 +123,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "3a3fab12e704dda3f64928b905d186ad6196555216aac293aa7531ea79a45eb1",
       "relatedStories": [],
-      "variants": {}
+      "variants": {
+        "original": {
+          "body": "A Denver Broncos egy mérkőzésre eltiltotta a csapat érdekeit sértő magatartás miatt J.K. Dobbins futójátékost, aki így kihagyja a Pittsburgh Steelers elleni pénteki NFL-mérkőzést. A döntést Sean Payton vezetőedző hozta meg, aki részleteket nem árult el, de az eltiltás miatt Dobbins nem edzhet a csapattal, és valamivel több mint 222 222 dollárt veszít a fizetéséből. Dobbins, aki a szezonban tíz meccsen 324 futott yardot és három touchdown-t ért el, az utóbbi időben elveszítette kezdő pozícióját az újonc Jonah Colemannel szemben."
+        },
+        "tolkien": {
+          "title": "A Denveri Udvar Ítélete: Dobbins Végső Vágta Nélküli Száműzetése",
+          "body": "A Denveri Broncos serege egyetlen viharos összecsapás erejéig száműzte J.K. Dobbins futót a rendet megbontó tettei miatt, így a harcos kihagyja a Pittsburgh Steelers elleni, közelgő pénteki NFL-futballcsatát. Sean Payton fővezér lángoló szigorral maga mondta ki a büntetés ítéletét, amelynek nyomán a harcos nem léphet a tábor földjére, és több mint 222 222 aranydárda értékű fizetést veszít el. Míg Dobbins, ki tíz csatában 324 yardot és három dicső touchdownt gyűjtött, lassan háttérbe szorult, az ifjú Jonah Coleman bajnok a Raiders elleni diadalban 111 yarddal és három touchdow不妨ral ragyogott fel."
+        },
+        "reito": {
+          "title": "A padra kényszerített futó esete: Dobbins kihagyja a pénteki mészárlást",
+          "body": "A Denver Broncos egyetlen laza kézlegyintéssel, pontosabban egy mérkőzésre szóló eltiltással büntette meg J.K. Dobbins futót a csapat érdekeit sértő húzásai miatt, így a játékos lemarad a Pittsburgh Steelers elleni pénteki NFL-meccsről. Sean Payton főnök kedden jelentette be a hírt, amivel Dobbins nemcsak a csapatedzéseket hagyja ki, hanem alaphangon több mint 222 222 dollárt is elbukik a fizetéséből. Míg Dobbins az idény tíz meccsén eddig 324 yardot és három TD-t hozott össze, az újonc Jonah Coleman átvette a helyét, és a Raiders ellen 111 yarddal meg három touchdownnal szárnyalt."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -288,8 +312,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261126/1795728031-temp-61r561bmikvh7cfkdee_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "26ef06b4990a09d51178c2fb0fe639d4afb5aa1163f481675c78b5b088b031b4",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -496,7 +520,20 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Magyar Postát érintő ügyletek miatt Kapitány István gazdasági és energetikai miniszter csütörtökön 34 milliárd forint értékű szabálytalansági gyanú miatt ismeretlen tettes ellen hűtlen kezelés gyanújával feljelentést tett, mire a Tiborcz Istvánhoz köthető Waberer’s-csoport közölte, hogy jogszerűen jártak el és nem részesültek jogellenes előnyben. A miniszter által kiemelt három ügyből kettő a Gránit Biztosító és a WPL-Log Zrt. révén a Waberer’s-csoportot érinti, beleértve a 23 milliárd forintos biztosítóvásárlást és a 2025 decemberében, határidő előtt átadott ecseri csomaglogisztikai központ építését. A Waberer’s visszautasította a félrevezetőnek tartott árösszehasonlításokat és a többletkiadási számításokat, de kijelentette, hogy együttműködik a hatóságokkal."
+        },
+        "tolkien": {
+          "title": "A Posta kincseinek vására és a Waberer's bástyája",
+          "body": "A Magyar Posta birodalmát érintő gazdasági ügyletek nyomán Kapitány István miniszter csütörtökön harmincnégy milliárd ezüstpénznyi szabálytalanság árnyékában ismeretlen tettes ellen hűtlen kezelés vádjával feljelentést tett, mire a Tiborcz István seregéhez köthető Waberer’s-csoport felemelte szavát a törvényes igazság védelmében. A fejedelem által vizsgált három veszedelmes ügyből kettő e belföldi birodalom kapuit érinti, név szerint a Gránit Biztosító huszonhárom milliárdért vett részvényeit és a WPL-Log Zrt. által kétszáz évad hitével, a 2025. decemberi határidő előtt megépített ecseri csomaglogisztikai palotát."
+        },
+        "reito": {
+          "title": "Harmincnégy milliárdos fejfájás Posta-módra",
+          "body": "Kapitány István gazdasági és energetikai miniszter csütörtökön olyat csörrentett, hogy abból ismeretlen tettes ellen szóló, harmincnégy milliárdos hűtlen kezeléses feljelentés lett a Magyar Posta körül, mire a Tiborcz István-féle Waberer’s-csoport rögtön kihúzta magát, hogy ők aztán mindent írásbeli papírforma szerint csináltak. A miniszter által kifogásolt három ügyből kettő pont a Waberer’s házáján csattan: a Gránit Biztosító huszonhárom milliárdos lehalászása az államtól, meg az ecseri csomaglogisztikai központ, amit a WPL-Log Zrt. hozott tető alá, és már 2025 decemberében, a határidő lejárta előtt át is adtak. A cég szerint a két összeg összehasonlítása olyan, mintha almát hasonlítanának egy félresikerült lottószelvényhez, de azért megígérték, hogy szorgalmasan együttműködnek a hatóságokkal."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -509,8 +546,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261126/1795726896-temp-0m6hhavih51n0pddmnp_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ac658dfb47547b09d69352a2c4e2b65f5b69347b3e50f44954e3a158d228d279",
       "relatedStories": [
         {
           "source": "Telex",
@@ -542,7 +579,20 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium a kifizetések előtt újra átnézi a Nagy Ervinék által odaítélt, összesen közel hárommilliárd forintos kulturális támogatások teljes folyamatát, ami érinti a 74 független színházi, bábszínházi, tánc- és cirkuszművészeti szervezetet, a 18 határon túli előadó-művészeti és összművészeti szervezetet, a független érdekképviseleti szervezeteket, valamint a 15 szabadtéri színházat és fesztivált. Ennek a gyakorlati következménye az, hogy a pénzek folyósítása előtt a tárca ismét áttekinti a folyamatot, hogy minden felmerült kérdést tisztázzanak a politikával szembeni bizalmatlanság miatt. A belföldi parlament területéről Szentkirályi Alexandra fideszes országgyűlési képviselő hűtlen kezelés és tiltott pártfinanszírozás miatt helyezett kilátásba feljelentést, ami az ügy parlamenti politikai szálát jelenti. A belföldi kulturális szférát pedig az érinti, hogy a Qubitozó független szereplők, köztük Jászay Tamás kritikus is hiányolták az átláthatóságot és az egyeztetést, miközben Tarr Zoltán miniszter szerint a döntés testületi véleményen alapult, Nagy Ervin államtitkár pedig kulturális újrakezdésként értékelte a támogatást."
+        },
+        "tolkien": {
+          "title": "A kultúra kincseinek őrző kamráiban: Újraéled a számadás napja",
+          "body": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium a kifizetések szent órája előtt újra átnézi a Nagy Ervinék által odaítélt, közel hárommilliárd aranyat érő kulturális támogatások teljes folyamatát, hogy a 74 független színházi, bábszínházi, tánc- és cirkuszművészeti szervezet, a 18 határon túli műhely, a független érdekképviseletek, valamint a 15 szabadtéri színház és fesztivál sorsa megnyugtató mederbe terelődjön. A belföldi parlament csarnokaiból viharvétként csapott le Szentkirályi Alexandra fideszes országgyűlési képviselő feljelentéssel fenyegető szava, míg a belföldi földek vándorai, a Qubitozó független művészek és Jászay Tamás kritikus a transzparencia hiányáról siránkoztak. Ennek a vizsgálatnak a súlyos gyakorlati következménye az, hogy a pénzek folyósítása megakad a gátakon, míg Tarr Zoltán miniszter és Nagy Ervin államtitkár által hirdetett, párthűségtől mentesnek mondott újrakezdés ígérete meg nem tisztul a gyanú árnyaitól."
+        },
+        "reito": {
+          "title": "Hárommilliárdos fejtörő: Amikor a minisztérium inkább kétszer számolja meg a pénzt",
+          "body": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium a kifizetések zöld lámpája helyett inkább újra átnézi a Nagy Ervinék által szétosztott, közel hárommilliárd forintos kulturális támogatások teljes folyamatát, megállítva ezzel a pénzözönt a 74 független színházi, bábszínházi, tánc- és cirkuszművészeti szervezet, a 18 határon túli intézmény, az érdekképviseletek, valamint a 15 szabadtéri színház és fesztivál számlái előtt. Ennek az a roppant gyakorlati következménye, hogy a kassza kulcsát még egyszer megforgatják a zárban, mielőtt bárki költekezni kezdene. A belföldi parlament porondján Szentkirályi Alexandra fideszes képviselő tüstént feljelentéssel fenyegetőzött hűtlen kezelés miatt, míg a belföldi kulturális élet sűrűjében a Qubitnak nyilatkozó független szereplők és Jászay Tamás kritikus hiányolták az átlátható listákat, ahogy azt is, hogy bárki látott volna egyeztetést, miközben Tarr Zoltán miniszter és Nagy Ervin államtitkár szerint a kultúra újrakezdéséről van szó."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -554,9 +604,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/d/_/n/d-noe20261118081-873272.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "c1b5e570aa26d843bc9790febc112cb4f07f30d6e21bed6366b6042cbed01eae",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A kormány a rendkívüli kormányzati intézkedésekre elkülönített tartalékból összesen több mint 24 milliárd forint átcsoportosításáról és új támogatásokról döntött, ami belföldön a rendvédelmi szervek, fejlesztések, valamint különböző intézmények és programok finanszírozását érinti. A rendvédelmi szervek működőképességének fenntartására 17,29 milliárd forint egyszeri támogatás érkezik, amellyel a belügyminiszternek január 31-ig kell elszámolnia, a fel nem használt részt pedig vissza kell fizetni. További források jutnak többek között víziközművekre, ipari parkokra, állami intézmények személyi juttatásaira, valamint egy 2,1 milliárd forintos állatvédő civil szervezeteknek szóló országos pályázati programra is. Ezzel a lépéssel egy nap alatt 22,5 milliárd forint fogyott el az idei évi 192 milliárd forintos tartalékkeretből, miközben a 2027-es tervezet már 210 milliárd forrettel számol."
+        },
+        "tolkien": {
+          "title": "A birodalmi kincstár árnyékos ösvényein: Hatalmas pénzfolyamok és váratlan osztozkodások",
+          "body": "A kormány hatalmas birodalmi tartalékai felsejlenek a homályból, miközben több mint 24 milliárd aranyat – azaz forintot – csoportosítanak át a rendvédelmi szervek és a belföldi tartományok védelmére. A fegyveresek kapják a legtöbbet, tizenhét milliárdnál is több ezüstöt a rend fenntartására, ám a belügyminiszternek szigorú téli határidővel, január végéig kell elszámolnia ezzel a kincstári adománnyal. Eközben csekélyebb, de fontos patakok oszlanak szét a vízi birodalmak, az igazgatási paloták és a lankadó ipari parkok felé, miközben a tartalékok széfjei napok alatt megfogyatkoznak. Az állam belső ösvényein vándorló összegek új utakat törnek, hogy 2027 távoli kapui felé menetelve hirdessék a birodalmi mérleg új számait."
+        },
+        "reito": {
+          "title": "A milliárdos váltó: Hova tűnt huszonnégy milliárd forint egyetlen nap alatt?",
+          "body": "A kormány egy szempillantás alatt több mint 24 milliárd forintot lapátolt át a rendkívüli kasszából a belföldi mindennapok viharaiba, a főnyereményt pedig a rendőrség és a rendvédelem csapata markolhatta fel. A belügyminiszternek most igתán gyorsan kell futnia a pénzével, ugyanis január 31-ig tételesen el kell számolnia a 17,29 milliárdos csomaggal, aminek a maradékát kíméletlenül vissza kell cipelnie. Aprópénznek számít mellette a többi morzsa, amely víziközművekre, minisztériumi irodákra meg éppen állatvédő szervezetek pályázataira hullik, miközben az éves tartalék alja kilátszik a nagy osztogatásból. A kincstár pedig már most előre menekül, hiszen a 2027-es évre tervezetthez képest is kövérebb, 210 milliárdos alapból osztogatja a soron következő meneteket."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -568,8 +631,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "a41e08811c1b14045f6333f3c2a13d3465143ae7f1e8d4a32ff0fa53a6afad5b",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -581,8 +644,21 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "f9ccbe71a5b4fd78f59bff1ac1540747c8bd4372d70073f9fb9ea8b59710092a",
+          "variants": {
+            "original": {
+              "body": "Büntetőfeljelentést tett ismeretlen tettes ellen Hegedűs Zsolt egészségügyi miniszter az Európai Unió helyreállítási alapját érintő közbeszerzések során tapasztalt visszaélések megalapozott gyanúja miatt, mire a rendőrség el is rendelte a nyomozást az ügyben. A belföldi fejleményt érintő eljárásban a nyomozás érdekeire való tekintettel további részleteket egyelőre nem közöltek. Az Európai Unió helyreállítási alapjához kapcsolódóan az Ecofin július közepén fogadta el Magyarország módosított helyreállítási tervét, amely mintegy 10 milliárd euró kifizetését teszi lehetővé, ám a nem teljesült mérföldkőhöz kapcsolódó összeget arányosan levonják. Az uniós támogatás körülbelül 6,5 milliárd euró vissza nem térítendő támogatásból és nagyjából 3,5 milliárd euró hitelből áll."
+            },
+            "tolkien": {
+              "title": "A Helyreállítási Alap árnyai és a hazai föld nyomozó tekintete",
+              "body": "Ismeretlen tettesek árnyéka vetült a hazai tájra, miután Hegedűs Zsolt egészségügyi miniszter büntetőfeljelentést tett az Európai Unió helyreállítási alapját érintő közbeszerzések során feltárt visszaélések gyanúja miatt, mire a rendőrség fegyverbe szólítva elrendelte a vizsgálatot. E belföldi küzdelem titkait a nyomozás érdekei miatt egyelőre fátyol borítja, és a jövő homálya fedi a részleteket. Az Ecofin júliusi tanácskozásán pecsétet ütött Magyarország módosított tervére, így tízmilliárd eurós kincs – 6,5 milliárd vissza nem térítendő adomány és 3,5 milliárd aranyló hitel – kaput nyitott a birodalom számára, ám a meg nem futott mérföldkövek kövénél a jutalmat arányosan csorbítják. E szigorú törvények mentén folyik a koronavírus sebeit gyógyító beruházások sorsa e földön."
+            },
+            "reito": {
+              "title": "Közbeszerzési kanyarok és tízmilliárd eurós fejtörők a hazai pályán",
+              "body": "Hegedűs Zsolt egészségügyi miniszter büntetőfeljelentést küldött be ismeretlen tettesek ellen az Európai Unió helyreállítási alapjának közbeszerzései körüli sötét ügyletek gyanújával, a rendőrség pedig azonnal zöld utat adott a nyomozásnak. A belföldi ügy részleteiről a hatóságok egyelőre mélyen hallgatnak, mint aki elnyelte a kulcsot a pánikszoba ajtaja előtt. Az Ecofin július közepén áldását adta Magyarország módosított tervére, így kinyílt a pénzcsap nagyjából 10 milliárd euróra – amiből 6,5 milliárd az ajándék, 3,5 milliárd pedig a visszatérítendő hitel –, de a teljesítetlen mérföldköveknél könyörtelenül levonják a büntetést. Ezzel a tempóval a járvány utáni gazdaságélénkítés legalább olyan fordulatos, mint egy jól időzített kanyar."
+            }
+          }
         },
         {
           "source": "HVG",
@@ -638,7 +714,20 @@
             }
           }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Büntetőfeljelentést tett ismeretlen tettes ellen az egészségügyi miniszter az Európai Unió helyreállítási alapját érintő közbeszerzések során tapasztalt visszaélések megalapozott gyanúja miatt, ami Magyarországot és a hazai belföldi közbeszerzéseket érinti. A rendőrség elrendelte a nyomozást, amelynek érdekeire való tekintettel további részleteket egyelőre nem közölhetnek. Az uniós forrásból Magyarország számára mintegy 10 milliárd euró kifizetése tehető lehetővé, amely körülbelül 6,5 milliárd euró vissza nem térítendő támogatásból és nagyjából 3,5 milliárd euró hitelből áll."
+        },
+        "tolkien": {
+          "title": "A vaspáncélos kincstár árnyéka és az igazság keresése",
+          "body": "Sötét fellegek gyülekeznek a korona földjén, miután az egészségügyi miniszter ismeretlen tettesek ellen büntetőfeljelentést nyújtott be az Európai Unió helyreállítási alapjának közbeszerzéseit sújtó, mélyről fakadó visszaélések gyanúja miatt. A magyar belföld rögös útjain a hatóságok fegyveres testületei tüstént elrendelték a szigorú nyomozást, ám a titok palástja alatt egyelőre mély csend borul a részletekre. E birodalom sorsát mintegy 10 milliárd eurónyi – zömmel vissza nem térítendő kincsekből és súlyos hitelekből formálódó – uniós gazdaságélénkítő áradat hivatott egyengetni a vész terhét viselő időben. A vizsgálat kardja így csap le a tisztességtelen alkukra, míg a hazai tájakon a törvény őrei éberen őrzik a rendet."
+        },
+        "reito": {
+          "title": "Az uniós milliárdok nyomában, avagy hová tűnt a segélycsomag?",
+          "body": "Hatalmas fordulattal indult a nap a hazai belföldi rögös mezőkön, miután az egészségügyi miniszter hirtelen felindulásból büntetőfeljelentést tett ismeretlen tettes ellen az uniós helyreállítási alap közbeszerzései körüli szürke ügyek miatt. A zsaruk nem tétlenkedtek, azonnal elrendelték a nyomozást, bár a hivatalos álláspont szerint most mindenki tartja a száját, mint hal a a szatyorban. Így aztán a Magyarországnak szánt, mintegy 10 milliárd eurós – pontosabban 6,5 milliárdnyi ingyenpénzből és 3,5 milliárdnyi kölcsönből álló – pénzügyi csomag sorsa egyelőre a homályba vész, miközben a hatóságok próbálnak rendet vágni a papírok között."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -650,8 +739,8 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/uzDpr1BKmwrizb05tBKP3ZkLYJXjRYEKKRCkzz0_dbI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2Q1YjU5NTMyMjRiMjRiZTc5NWQyZWViOGNlNmYwNGVm.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "83fc28deacff4a96ce254ccdf09d1b8cfba92b0bbc7f1d4c8d6b96826013055f",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -680,7 +769,20 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Az NFL alapszakasz 12. fordulójának csütörtöki mérkőzésén a Chicago Bears 39–35-re győzött a Detroit Lions otthonában a Hálaadás napi rangadón. A mérkőzés eldöntéseként három másodperccel a vége előtt Caleb Williams 41 yardos touchdown-passzt adott Rome Odunzénak. A mindkét csapat részéről 8–2-es mérleggel indult összecsapáson a győztes Chicago ezzel 9–2-re javította mérlegét, és hatalmas lépést tett az NFC Északi divízió megnyerése felé."
+        },
+        "tolkien": {
+          "title": "A Hálaadás Ünnepének Vértes Vívása Detroit Kapui Előtt",
+          "body": "Az északi csatatéren, az NFL alapszakaszának tizenkettedik nagy viadalán a Chicago Bears csapata diadalmaskodott a Detroit Lions ellen 39–35 arányban. A harcmezőn, hol mindkét nemzetség nyolc győzelemmel és két vereséggel sorakozott fel, az utolsó pillanatok viharában Caleb Williams hajított halhatatlan labdát Rome Odunze kezébe, három szempillantással a végső harsona szava előtt. E diadal által a chicagóiak serege kilenc győzelmükre emelkedett, megnyitva az utat az NFC Északi tartományának trónja felé. Jahmyr Gibbs ugyan kétszázöt yardot taposott a porban három dicső rohammal, de a végső dicsőség mégis a vendégek zászlaját övezte."
+        },
+        "reito": {
+          "title": "Hálaadás napi pulykamérgezés: a Bears három másodperccel a vége előtt rabolta el Detroitot",
+          "body": "Az NFL alapszakaszának 12. fordulójában a Chicago Bears 39–35-re győzte le a Detroit Lions gárdáját, miután három másodperccel a meccs vége előtt egy mindent eldöntő touchdown született. A mindkét oldalon 8–2-es mutatóval indító felek csatájában Caleb Williams adta a győztes, 41 yardos passzt Rome Odunzénak. A chicagóiak ezzel 9–2-re rontották-javították a mérlegüket, és óriási lépést tettek az NFC Északi divízió trónja felé."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -692,9 +794,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/dd-QmnawooEWf1ut9v8FUARipHUwPVlp_6eBs17j4yc/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzBiY2M1MzU1MzZlMjQ4OTk5ZDA3ZTNiZGI2MTIxMDZk.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "1f833ca20ec2238179425cd55a63ef89ea6f4e2b3a942a64a64e9097a2099319",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A férfi kézilabda Bajnokok ligája középdöntőjének második fordulójában a Barca 35–28-ra győzte le a dán GOG együttesét, így továbbra is hibátlanul vezeti a 2. csoportot a tízgólos Aleix Gómez vezetésével. Az 1. csoportban a Veszprém korábbi, Aalborg elleni döntetlenje után a Mathias Gidsel vezette Füchse Berlin 33–29-re múlta felül a Sipos Adriánt és a Palasics Kristófot is felvonultató Melsungent."
+        },
+        "tolkien": {
+          "title": "A Bajnokok ligája gyűrűje: Hősök csatája a férfi kézilabda küzdőterén",
+          "body": "A férfi kézilabda Bajnokok ligája középdöntőjének küzdelmeiben a Barca serege magabiztosan, negyedik diadalát aratva kerekedett felül a dán GOG csapatán 35–28 arányban, a 2. csoport trónját őrizve aztán Aleix Gómez tízszer villanó kardja által. Az 1. csoport bércein a Füchse Berlin Mathias Gidsel vezetésével énekelte ki a győzelmet a Sipos Adriánt és Palasics Kristófot magában rejtő Melsungen felett 33–29-re, míg a Veszprém korábban az Aalborg ellen osztozott meg a zsákmányon egy 28–28-as viadalban."
+        },
+        "reito": {
+          "title": "Kézilabda BL-körkép: Gólözön Párizstól Barcelonáig, magyarok a porondon",
+          "body": "A férfi kézilabda Bajnokok ligája középdöntőjének második fordulójában a Barca pontot sem vesztegetve, 35–28-ra hessegette el a dán GOG-ot a 2. csoport élén, miközben Aleix Gómez tíz találattal szórta meg az ellenfelet. Az 1. csoportban a Füchse Berlin 33–29-re verte a Sipos Adriánt és Palasics Kristófot is soraiban tudó Melsungent, míg a Veszprém korábban egy 28–28-as iksszel zárt az Aalborg ellen."
+        }
+      }
     },
     {
       "source": "Telex",
