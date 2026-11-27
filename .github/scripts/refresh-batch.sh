@@ -34,7 +34,7 @@ refresh_window_open() {
 }
 
 for attempt in 1 2 3; do
-  if [[ "$mode" != official ]] && ! refresh_window_open; then
+  if [[ "$mode" != official && "$mode" != post-publish ]] && ! refresh_window_open; then
     echo "Edition window: deferring NANONews batch $mode."
     exit 0
   fi
@@ -50,7 +50,12 @@ for attempt in 1 2 3; do
 
   echo "Saving NANONews batch: $mode"
   git commit -m "NANONews: $mode"
-  if git pull --rebase origin main; then
+  if [[ "$mode" == post-publish ]]; then
+    # Retry from fresh edition data if any other writer moved main.
+    if git push origin HEAD:main; then
+      exit 0
+    fi
+  elif git pull --rebase origin main; then
     if git push origin HEAD:main; then
       echo "Saved NANONews batch: $mode"
       exit 0

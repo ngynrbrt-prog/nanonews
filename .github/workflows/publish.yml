@@ -17,7 +17,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,3 +31,34 @@ jobs:
           set -euo pipefail
           bash .github/scripts/refresh-batch.sh official 90s
           bash .github/scripts/refresh-batch.sh official 90s
+      - name: Frissen megjelent kiadás leiratainak pótlása
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -euo pipefail
+          edition=$(python -c 'import json; print(json.load(open("data/latest.json")).get("scheduledAt") or "")')
+          # Catch-up runs can resume an interruption during the first hour.
+          if [[ -z "$edition" ]] || ! python -c '
+          import json
+          from datetime import datetime, timedelta
+          issue = json.load(open("data/latest.json"))
+          at = datetime.fromisoformat(issue["updatedAt"])
+          raise SystemExit(not (not issue.get("testEdition") and timedelta(0) <= datetime.now(at.tzinfo) - at < timedelta(hours=1)))
+          '; then
+            exit 0
+          fi
+          export NANONEWS_TARGET_EDITION="$edition"
+          export NANONEWS_BACKFILL_DONE="$RUNNER_TEMP/nanonews-backfill-done"
+          deadline=$((SECONDS + 45 * 60))
+          while (( SECONDS < deadline )); do
+            before=$(git rev-parse HEAD:data/latest.json)
+            bash .github/scripts/refresh-batch.sh post-publish 4m
+            if [[ -f "$NANONEWS_BACKFILL_DONE" ]]; then
+              exit 0
+            fi
+            if [[ "$before" == "$(git rev-parse HEAD:data/latest.json)" ]]; then
+              sleep 30
+            fi
+          done
+          echo "::error::A leiratpótlásnak 45 perc után is maradt feldolgoznivalója."
+          exit 1

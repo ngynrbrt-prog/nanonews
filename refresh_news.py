@@ -23,8 +23,9 @@ manual=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode=="t
 publish_only=dispatch_mode=="official"
 collect_only=dispatch_mode=="collect"
 background=dispatch_mode=="background"
+post_publish=dispatch_mode=="post-publish"
 work_deadline=time.monotonic()+150
-force_backfill=os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode in {"reito-backfill","style-refresh"}
+force_backfill=post_publish or os.getenv("GITHUB_EVENT_NAME")=="workflow_dispatch" and dispatch_mode in {"reito-backfill","style-refresh"}
 
 feeds={
  "Telex":["https://telex.hu/rss"],
@@ -751,6 +752,12 @@ try:
                     pending_current.append(saved_story)
 except Exception:pass
 api_key=os.getenv("GEMINI_API_KEY","").strip()
+if post_publish:
+    if previous_edition.get("scheduledAt") != os.environ["NANONEWS_TARGET_EDITION"] or not pending_current:
+        Path(os.environ["NANONEWS_BACKFILL_DONE"]).touch()
+        raise SystemExit(0)
+    if not api_key:
+        raise SystemExit("GEMINI_API_KEY is missing for post-publication backfill.")
 stories=[]
 due_slots = [
     (now.replace(hour=hour, minute=0, second=0, microsecond=0), number)
@@ -1000,7 +1007,7 @@ if preparation_pool is not None:
     for preparation in preparations:
         finish_preparation(*preparation)
 
-if not publish_only:
+if not publish_only and not post_publish:
     save_inbox()
 
 def backfill_story(pending_story):
