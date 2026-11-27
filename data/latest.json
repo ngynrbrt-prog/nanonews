@@ -5226,8 +5226,8 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a0d6a96a-0e96-42c3-9e22-796a5e6587b4.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ef3b663036668f57c5c77bcf79e62f15cc82cd14b95eedb48b03524147c20543",
       "relatedStories": [
         {
           "source": "Telex",
@@ -5263,6 +5263,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Nagy Ervin kulturális államtitkár bejelentése szerint a Kulturális újrakezdés keretében közel 3 milliárd forint támogatást kapnak még idén a színházi, tánc- és cirkuszművészeti szervezetek, ami az egész szakmát meglepetésként érte. A belföldi kulturális szférát érintő döntést a Független Előadó-művészeti Szövetség (FESZ) és a Kultúrbrigád is bírálta, átláthatatlannak nevezve a forráselosztást, és a Fidesz korábbi kulturális időszakaihoz hasonlítva a történteket. A bírálatokra reagálva a kormány kész korrigálni, noha a bejelentő államtitkár szerint 14 szakmai szervezettel egyeztettek a támogatásról."
+        },
+        "tolkien": {
+          "title": "A Kulturális Kincstár Aranya és a Földi Vándorok Panasza",
+          "body": "Nagy Ervin kulturális államtitkár hírnöki szózata nyomán közel 3 milliárd forint vándorol a színházi, tánc- és cirkuszművészeti szervezetek kincstárába még ezen esztendőben Kulturális újrakezdés jelszó alatt, mély megdöbbenést hagyva a művészetek birodalmában. E hazai színházi rendet és független céheket érintő adományosztást a Független Előadó-művészeti Szövetség (FESZ) valamint a Kultúrbrigád is ostorozta, sötét idők árnyát és a Fidesz korábbi urainak módszereit látva benne. Az elégedetlen suttogások viharában a hatalom ura, a kormány mégis a korrekció ösvényére lépésre kész, jóllehet az államtitkár állítása szerint tizennégy céh bölcseivel egyeztettek a javaik szétosztása előtt."
+        },
+        "reito": {
+          "title": "Hárommilliárdos cirkusz: amikor a kultúra pénzeszsákja megcsörren",
+          "body": "Nagy Ervin kulturális államtitkár egy szempillantás alatt lepte meg a teljes hazai színházi, tánc- és cirkuszművészeti világot azzal, hogy Kulturális újrakezdés címszóval közel 3 milliárd forint szóródik szét a szervezetek között még idén. A belföldi szcénát alaposan felkavaró pénzeső miatt a Független Előadó-művészeti Szövetség (FESZ) és a Kultúrbrigád is azonnal felemelte a szavát, egyenesen a Fidesz-korszak sötét emlékeit vizionálva a szokatlanul átláthatatlan osztogatás mögött. A meglepett szakma zúgolódására hallgatva a kormány hirtelen korrigálásra adta a fejét, bár az államtitkár váltig állítja, hogy tizennégy szakmai szervezettel már előre lepecsételték a paktumot."
+        }
       }
     },
     {
@@ -5275,12 +5288,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/107225a9-33fd-4d4b-b5c4-2a7b7d0c6fdd.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "bb6536416925a269e66223582bd57955d6fb9c47911f88bef8cebb80c475f33d",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Életének 92. évében, pénteken elhunyt Melocco Miklós Kossuth-nagydíjas szobrászművész, a nemzet művésze, a Corvin-lánc kitüntetettje, az MMA rendes és alapító tagja. A Magyar Művészeti Akadémia saját halottjának tekintendő alkotó monumentális életművében körplasztikák, domborművek, emlékművek, portrék, díszítőszobrok, kútplasztikák és síremlékek találhatók. Az 1935."
+        },
+        "tolkien": {
+          "title": "A bronz és kő magányos őrzőjének végső csendje",
+          "body": "Életének kilencvenkettedik tavaszán, pénteki napon távozott az élők sorából Melocco Miklós Kossuth-nagydíjas szobrászművész, a nemzet művésze, a Corvin-lánc tulajdonosa és az MMA rendes, valamint alapító tagja. A Magyar Művészeti Akadémia által saját halottként gyászolt mester Rómában született 1935. április 3-án, és nehéz úton, a harmadik felvételen át jutott el a Magyar Képzőművészeti Főiskoláig, ahol 1961-ben öltött formát benne a nemzetközi hírű alkotó. Keze nyomán kövekbe és bronzokként éledtek újjá a magyar történelem és líra fejedelmei: Ady Endre, Radnóti Miklós, József Attila, Kodály Zoltán, Latinovits Zoltán, Mátyás király, Szent István, Klebelsberg Kunó, Széchenyi István, Kossuth Lajos, Deák Ferenc, továbbá Antall József síremléke, a szegedi 1956-os emlékmű és a budavári Mansfeld Péter-szobor."
+        },
+        "reito": {
+          "title": "A márványfaragó utolsó vésőcsapása",
+          "body": "Életének 92. évében, pénteken elhunyt Melocco Miklós Kossuth-nagydíjas szobrászművész, a nemzet művésze, a Corvin-lánc kitüntetettje, az 1992-ben alapított Magyar Művészeti Akadémia alapító és rendes tagja, akit az MMA saját halottjának tekintek. A Rómában, 1935. április 3-án született művész – akinek újságíró édesapját a Rákosi-diktatúra idején, 1951-ben koncepciós perben kivégeztek – harmadikra nyert felvételt a Magyar Képzőművészeti Főiskolára, ahol 1961-ben végzett, hogy aztán a jobboldali kormányok kedvelt és támogatott alkotójaként vésődjön be a köztudatba."
+        }
       }
     },
     {
@@ -5375,12 +5401,25 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/D9FkjzSP9VMRqBu8DY8IeIGUKEUg8PGUrX07IWlTMLI/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS83MmZiMmJiYzI2MzczMzYxNjY5NDM3MWE2YTM3NDE0NWM5YjVjMjVmYmUxMmRlOWQ1ODA0MjQyOWMzNDdkYzZk.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ae2efc15b9886df0ddc5b5a96b5f7418a4be04e197b9c04084a02ad80dd2ee71",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Quantinuum kutatói a Helios nevű, 98 kvantumbites kvantumprocesszorral rekordalacsony, 0,0005 százalékos hibaarányt értek el egy hibajavítási tesztben, amelyet október 16-án tettek közzé az arXiv szerveren. Ez a technológiai áttörés azt jelenti, hogy egymillió ellenőrzés során várhatóan csak öt olyan hiba fordul elő, amelyet a rendszer nem tud kijavítani. A fejlesztések során a rendszer elektromosan töltött báriumionokat és rövid lézerimpulzusokat használ a hibalehetőségek csökkentésére, ami a jövő nagy teljesítményű kvantumszámítógépeihez a korábban becsültnél kevesebb, akár 30 ezer fizikai kvantumbitet is elegendőé tehet 100 megbízható logikai kvantumbit működtetéséhez. A még független szakértők által nem ellenőrzött tanulmány eredményei közelebb vihetik a tudósokat a megbízható kvantumszámítógépek megalkotásához, bár a eszköz még nem valósult meg, és számos műszaki feladat áll a fejlesztés előtt."
+        },
+        "tolkien": {
+          "title": "A Helios csarnokainak tiszta lángja",
+          "body": "A Quantinuum bölcsei a Helios nevű, kilencvennyolc kvantumbit ékességével ékeskedő kvantumprocesszorral példátlan mélységeket hódítottak meg a technológiai fejlesztések birodalmában, mikor egy hibajavítási próbán mindössze 0,0005 százalékos hibaarányt mutattak fel október tizenhatodikán az arXiv krónikáiban. Ez a ritka rend azt jelenti, hogy egymillió próbából csupán öt olyan botlás esik, melyet a bástyák nem tudnak pajzzsal kivédeni. A gépezet mélyén elektromos lánggal izzó báriumionok vándorolnak és rövid lézerfegyverek villannak, hogy a környezet ártó szele elől megóvják az adatok törékeny fonalát, előre vetítve, hogy a jövő nagy kiterjedésű kvantumszámítógépei harmincezer fizikai kődarabból is felépíthetnek száz megmásíthatatlan logikai oszlopot. E dicső mű még nem öltött teljes testet a valóság mezején, és sok próbát kell még kiállnia, ám a tudósokat közelebb sodorja a megbízható szerkezetek végső megalkotásához."
+        },
+        "reito": {
+          "title": "A báriumionok fegyelmi csúcsa a kvantum-fronton",
+          "body": "A Quantinuum kutatócsapata a Helios névre hallgató, 98 kvantumbites kvantumprocesszorral olyan pontossági bravúrt hajtott végre a technológiai fejlesztések porondján, hogy a hibajavítási teszten lefaragta a hibaarányt kereken 0,0005 százalékra az arXiv október 16-i jelentése szerint. A gyakorlatban ez azt jelenti, hogy egymillió ellenőrzésből csupán öt olyan baki csúszik be, amit a rendszer nem tud kimenni a vízből. A bravúrt elektromosan töltött báriumionok terelgetésével és rövid lézerimpulzusok tűpontos villantásával érik el, ami olyan jól fésüli a kvantumállapotokat, hogy a jövő nagy teljesítményű kvantumszámítógépei a korábbi nagyságrendek helyett akár 30 ezer fizikai kvantumbittel is kihozhatnak 100 megbízható logikai kvantumbitet. Persze mielőtt bárki pezsgőt bontana, a független szakértők által még át nem rágott tanulmány eszköze nem egy kész gép, és a mérnökökre még játéknak éppen nem nevezhető, számtalan műszaki feladat vár."
+        }
       }
     },
     {
@@ -5394,12 +5433,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a7d264d3-80b2-486f-a7c1-f901d3274933.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "b4aef8612b7abb973af0f38bfbe0e45821d2105996464be5d38d9c98c285f6f6",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Magyar Nemzeti Bank 105 millió forint piacfelügyeleti bírságot szabott ki a kecskeméti Lagabe Kft.-re, mert a társaság az MNB engedélye nélkül végzett pénzügyi közvetítői, alkuszi és jelzáloghitel-közvetítői tevékenységet. A határozat értelmében a cégnek azonnal be kell szüntetnie az engedély nélküli pénzügyi közvetítői tevékenységet, amely szorosan kapcsolódik a belföldi pénzpiac szereplőinek ellenőrzéséhez és a hazai lakossági ügyfelek védelméhez. A vállalkozás 250 lakossági ügyféllel szerződött követeléskezelőkkel szembeni tartozások rendezésére, miközben fix megbízási díj és lezárási sikerdíj fejében jelentős, tavaly 61 millió forintos bevételre tett szert. Az MNB súlyosbító körülményként értékelte, hogy a cég széles ügyfélkörnek nyújtott szolgáltatást, hamis állításokkal élt az engedélyéről és professzionális intézmény benyomását keltette, bár a vizsgálat során együttműködött."
+        },
+        "tolkien": {
+          "title": "A kecskeméti torony árnyéka és az arany súlya",
+          "body": "A Magyar Nemzeti Bank 105 millió forint piacfelügyeleti bírságot mért a Lagabe Kft. nevű kecskeméti társaságra, mivel a vállalkozás a jegybank szent pecsétje és engedélye nélkül űzte a pénzügyi közvetítés és alkuszok mesterségét. E dorgálás nyomán a cégnek megparancsolták, hogy nyomban hagyja abba az engedély nélküli pénzügyi közvetítést, amely a belföldi pénzpiac rendjének őrzésében és a hazai lakosság védelmében nyer súlyos értelmet. A kétszázötven lakossági lélekkel kötött egyezségek során a sötét adósságok és behajtók hálójából ígértek kiutat, fix sarc és lezárási diadalmi díj fejében tavaly hatvanmillió egyező ezüstöt felhalmozva."
+        },
+        "reito": {
+          "title": "Engedély nélkül a tőzsdén túl, vagyis a kecskeméti behajtó-biznisz bukása",
+          "body": "A Magyar Nemzeti Bank 105 millió forint piacfelügyeleti bírsággal ajándékozta meg a kecskeméti Lagabe Kft.-t, miután kiderült, hogy a cég engedély nélkül űzte a pénzügyi közvetítés és alkuszcske mesterségét. A határozat hatására a vállalkozásnak azonnal le kell fújnia az engedély nélküli pénzügyi közvetítést, amellyel alaposan felkavarták a belföldi pénzpiac állóvizét és a hazai ügyfelek mindennapjait. A cég kétszázötven lakossági ügyfélnek ígért megváltást a behajtócégek karmaitól, fix díjakért és sikerdíjakért cserébe tavaly 61 millió forintos bevételt könyvelve el. A jegybank szerint a vezetők pontosan tudták, mit csinálnak, ráadásul még azt is hazudták, hogy van papírjuk róla, így a vizsgálat alatti együttműködés lett az egyetlen mentőövük."
+        }
       }
     },
     {
@@ -5509,8 +5561,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "2b15cd0fad4dfa21b3a4b2697a9e974b5b06044a9aa0e04399bf5ca5cf44d803",
       "relatedStories": [
         {
           "source": "NBAnews.hu",
@@ -5549,6 +5601,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Golden State Warriors csapata a februári cserehatáridő előtt a New Orleans Pelicans 26 éves szélsőjét, Trey Murphy III-at szemelte ki Stephen Curry sérülése és a keret hiányosságai miatt. A legfontosabb gyakorlati következmény az, hogy a Warriorsnak jelentős áldozatokat – köztük esetleg Kristaps Porziņģist, Moses Moody-t és első körös draftjogokat – kell hoznia, miközben a Pelicans magas árat kér, és nincs kényszerhelyzetben a 2028-29-es idény végéig szóló szerződésű játékos eladásában. A San Francisco Chronicle és Jake Fischer értesülései szerint a klubnak mérlegelnie kell a kosárlabdázó idei térdproblémáit, valamint a hosszú távú pénzügyi kötöttségeket is, hiszen a 39. életévét márciusban betöltő, jobb oldali ferdehasizom-szakadásból lábadozó Curryvel való bajnoki esélyek ideje szűkül."
+        },
+        "tolkien": {
+          "title": "A Golden harcosai és a Pelicans kincse",
+          "body": "A fegyverek csörte közepette a Golden State Warriors hadba lépett, hogy a februári cserehatáridő árnyékában magához édesgesse a New Orleans Pelicans 26 éves ifjabb Trey Murphy III nevű kiválóságát, miközben Stephen Curry harcosa sérüléstől sújtva pihen. E nagyhatású terv gyakorlati ára az, hogy a kaliforniai birodalomnak mélyen a kincstárába kell nyúlnia, és olyan áldozatokat hoznia, mint Kristaps Porziņģis, Moses Moody vagy értékes draftjogok. Az NBA csarnokainak küzdőterén a Pelicans nem siet eladni bajnokát, akit 2028-29 végéig vaskos szerződés köt otthonához, és bár árat csökkentettek, a játékos térdproblémái miatt a jövő ködbe vész. Miközben a Boston és Sacramento elleni csaták vihara lecsillapodott, az idő kereke könyörtelenül forog a márciusban 39. évét betöltő Curry felett, kinek visszatérési napját még sűrű homály fedi."
+        },
+        "reito": {
+          "title": "A sánta irányító, a drága szélső és a pelikánok alkuja",
+          "body": "A Golden State Warriors a februári cserehatáridő célegyenesében a New Orleans Pelicans 26 éves szélsőjére, Trey Murphy III-ra vetette ki a hálóját, miután Stephen Curry sérülése alaposan felborította a táblát. A dolog szépséghibája, hogy a Pelicans egyelőre hátradőlve kávézik, miközben a Warriors vezetősége a fizetési sapkával, a draftjogokkal és olyan nevekkel zsonglőrködik, mint Kristaps Porziņģis vagy Moses Moody. A Boston és a Sacramento legyőzésével átmenetileg sebeket gyógyító kaliforniai alakulatnak a 2028–29-ig szóló papírokkal rendelkező Murphy sérülései miatt is fájhat a foga, különösen, hogy a 39. évét márciusban betöltő Curry jobb oldali ferdehasizom-szakadása miatt pontos dátum nélkül pihen."
+        }
       }
     },
     {
@@ -6128,7 +6193,8 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
-      }
+      },
+      "variants": {}
     },
     {
       "source": "Telex",
@@ -14640,7 +14706,17 @@
           "body": "Az NFL hálaadásnapi ünnepségén a Buffalo Bills és a Kansas City Chiefs csapata mutatta be, hogyan kell alacsony passzmutatókkal is halálosan izgalmas meccset hozni a szél és az eső közepette. Josh Allen mindössze 81 yardot passzolt, míg Harrison Butker elrontott egy mezőnygólt, de a végén mégis Tyler Bass mentette meg a napot egy 57 yardos lövéssel. A 13–10-es végeredmény után a Bills 10–1-gyel menetel tovább, a Chiefs pedig bámulhatja a Denver Broncoost a csoport élén."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg/960px-Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Forest_Park_High_School_football_(Woodbridge,_Virginia),_Muted_Sunset.jpg",
+        "author": "Northern-Virginia-Photographer",
+        "credit": "Own work",
+        "title": "Forest Park High School football (Woodbridge, Virginia), Muted Sunset.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14898,7 +14974,11 @@
           "body": "Az NFL hálaadási menüjében a Chicago Bears pont akkor rágta át magát a Detroit Lions védelmén, amikor a hazaiak már éppen leültek volna desszertre, így 39-35-tel behúzták a csoportelsőséget hozó győzelmet. Eközben Jahmyr Gibbs 205 futott yarddal és három touchdownt termelve szaladgált, de ez sem mentette meg a Lions hajóját a zátonytól. A Dallas Cowboys pedig mesterkurzust tartott abban, hogyan kell harmincegy-tízes előnyből harmincnyolc-harminckilencre kikapni a Philadelphiától egy utolsó másodperces mezőnygól után az NFL porondján. A sort a Buffalo Bills és a Kansas City Chiefs csatája zárta, ahol szintén centiken és hibákon múlt a mindent eldöntő pontvadászat."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -15974,7 +16054,17 @@
           "body": "Az NBA porondján a Sacramento Kings és a huszonéves irányító, Darius Acuff Jr. került a célkeresztbe, miután a fiú viharsebességgel kaparintotta meg a csapat karmesteri pálcáját. A gyakorlati eredmény az, hogy a draft hetedik helyezettje november 25-én már az újoncrangsor trónján ült, meccsenkénti 26,2 pontos átlagával pedig a liga pontgyárainak nyolcadik helyére tornázta fel magát. Persze a csoda nem teljes, hiszen a Kings a Sportsnaut november 26-i listáján még így is a szerény 29."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Public_basketball_court_in_Melbourne_VIC_Australia.jpg/960px-Public_basketball_court_in_Melbourne_VIC_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Public_basketball_court_in_Melbourne_VIC_Australia.jpg",
+        "author": "KeepActive Australia from Melbourne, VIC, Australia",
+        "credit": "Own work",
+        "title": "Public basketball court in Melbourne VIC Australia.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -16312,7 +16402,11 @@
           "body": "Kocsis Dominik, a Debreceni VSC mindent futó szélsője épp a századik NB I-es meccsére készül a pénteki ETO FC elleni idegenbeli túrán. A két dobogó leső csapat csatájában dől el, ki tudja megszorongatni a nemzetközi fronton botladozó Ferencvárost. Az M4 Sport által 19:30-kor élőben adandó mérkőzésen kiderül, mire megy a Loki direkt futballja a győriek mély védekezésével szemben. A pontszerzésért mindenesetre nem adnak ajándékba semmit a felek."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",

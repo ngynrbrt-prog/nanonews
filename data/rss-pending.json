@@ -1765,7 +1765,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795810292-temp-brvisu3cpfb92eejpef_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795810292-temp-brvisu3cpfb92eejpef_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -1776,7 +1780,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795808733-temp-md6s5kq5ogep2kpgilj_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795808733-temp-md6s5kq5ogep2kpgilj_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1805,7 +1813,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1843,7 +1855,11 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1863,7 +1879,11 @@
       "categories": [
         "foreign"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1875,7 +1895,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/o/r/b/orban-arpad-873580.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/o/r/b/orban-arpad-873580.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1888,7 +1912,11 @@
         "belfold",
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/d/a/k/dakar-szenegal-nyugat-afrika-815122.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/d/a/k/dakar-szenegal-nyugat-afrika-815122.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
