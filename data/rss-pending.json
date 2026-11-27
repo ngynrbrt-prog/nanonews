@@ -54,9 +54,12 @@
       "source": "Telex",
       "published": "Fri, 27 Nov 2026 16:27:32 +0100",
       "observed": "2026-11-27T17:07:03.947465+01:00",
-      "title": "Sorra fejezik ki részvétüket a politikusok a mezőkövesdi balesetben meghalt nő hozzátartozóinak",
+      "title": "Vitézy Dávid és Lázár János is részvétét fejezte ki a mezőkövesdi balesetben meghalt nő hozzátartozóinak",
       "link": "https://telex.hu/belfold/2026/11/27/mezokovesd-meghalt-no-reagalas",
-      "categories": [],
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
       "image": "https://assets.telex.hu/images/20261127/1795792346-temp-sc1fqp6h972r6njcmco_cimlap-normal.jpg"
     },
     {
@@ -1055,23 +1058,19 @@
       "source": "HVG",
       "published": "Fri, 27 Nov 2026 18:46:47 Z",
       "observed": "2026-11-27T19:48:36.186877+01:00",
-      "title": "RTL: A Nemzeti Pedagógus Kar a sajtóból tudta meg, hogy idén megszűnhet a szervezet",
+      "title": "RTL: A Nemzeti Pedagógus Kar elnöke a sajtóból tudta meg, hogy idén megszűnhet a szervezet",
       "link": "https://hvg.hu/itthon/20261127_nemzeti-pedagogus-kar-megszunes-torvenyjavaslat",
       "categories": [
         "parliament",
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg"
     },
     {
       "source": "HVG",
       "published": "Fri, 27 Nov 2026 18:21:08 Z",
       "observed": "2026-11-27T19:48:36.186877+01:00",
-      "title": "„Anyám halála után mélyre ástam magamban, és mit találtam? A lehető leghülyébb poént – interjú Louis C.K.-vel",
+      "title": "„Anyám halála után mélyre ástam magamban, és mit találtam? A lehető leghülyébb poént” – interjú Louis C.K.-vel",
       "link": "https://hvg.hu/360/20261127_hvg-louis-ck-amerikai-komikus-magyar-gyokerek-me-too",
       "categories": [],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7067ff92-56b5-49cb-88ae-3ba42e3a926c.jpg"
@@ -1129,12 +1128,12 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Fri, 27 Nov 2026 18:23:19 +0000",
+      "published": "Fri, 27 Nov 2026 19:12:00 +0000",
       "observed": "2026-11-27T19:48:36.186877+01:00",
-      "title": "Zsinórban hatodik bajnokiját is megnyeri a DVSC vagy növeli előnyét az élen az ETO?",
+      "title": "Dzsudzsák Balázs büntetőből egyenlített az ETO otthonában",
       "link": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/nb-i-eto-fc-dvsc-2",
       "categories": [],
-      "image": "https://cdn.nemzetisport.hu/2026/11/lm9sbuqTWDlBVwIYVMcV3EG1C9Q6-44sGgqIzvRDxgg/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzUzYWY5MDY5MmI3ZDQ2MmNiM2NmZjhhZmI1MDZjMzUy.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -1425,8 +1424,280 @@
       "link": "https://www.origo.hu/eletmod/2026/11/szifilisz-jarvany-magyarorszagon-pilot-program",
       "categories": [],
       "image": "https://cdn.origo.hu/2026/11/jWzZ38j4lYP4TqfeIcKiGD55nv57fIM-I0lS5UETPfE/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy84MTM0MTFhYTJkNmZkMTJmYjQxOWFlMWJkYjU2OGFmNTdhY2FlNmRkMjM3NmY3ZjMzMjkzMjEyMjMxY2JjYTRm.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 20:36:17 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Juhász Péter Pál és élettársa január végéig letartóztatásban marad",
+      "link": "https://telex.hu/belfold/2026/11/27/juhasz-peter-pal-es-elettarsa-letartoztatasa-meghosszabbitva-januarig-szolo-utcai-ugy",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795808158-temp-hhpstuan42m28bgmpnh_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 20:08:40 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Trumpot bírálta, és Patriot rakétákat kért Zelenszkij",
+      "link": "https://telex.hu/kulfold/2026/11/27/volodimir-zelenszkij-bbc-interju-putyin-mint-trump-baratja-patriotok",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795806225-temp-rel978d4d9gp9ngjpea_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 20:03:48 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Szombathely polgármestere szerint az azbesztmentesítési alapból épp csak azbesztmentesítésre nem lehetett pályázni",
+      "link": "https://telex.hu/belfold/2026/11/27/elutasitottak-szombathely-koszeg-es-szentgotthard-azbesztmentesitesi-palyazatat",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795805849-temp-per9h7pmjsnpfeklgfi_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Fri, 27 Nov 2026 19:58:13 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Kinevezték a legfőbb ügyész helyettesét",
+      "link": "https://telex.hu/belfold/2026/11/27/legfobb-ugyesz-helyettes-fejes-peter-jagusztin-tamas",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795805592-temp-u5q0b23e84rb4jmjcgg_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 19:25:40 Z",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Baka András kinevezte a legfőbb ügyész helyettesét",
+      "link": "https://hvg.hu/itthon/20261127_baka-andras-kinevezte-a-legfobb-ugyesz-helyetteset",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d1cd98fd-f91f-42cd-a8f4-a73420d99f8d.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 19:20:00 Z",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "415 lóerős Mercedes G-osztályból építettek rendőrautót",
+      "link": "https://hvg.hu/cegauto/20261127_415-loeros-mercedes-g-osztalybol-epitettek-rendorautot",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ecf4ea94-5e67-449e-994c-e880a1581537.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Fri, 27 Nov 2026 19:03:00 Z",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Élő galambokból csinált távirányítós biodrónt egy orosz startup, 100 kilométerről is irányíthatók a kamerás madarak",
+      "link": "https://hvg.hu/tudomany/20261127_orosz-startup-neiry-galambok-biodronok-repules-megfigyeles",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c3a60e78-582a-4c47-87ce-84ca2442ae68.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 19:36:42 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "A listavezető FTC nem hibázott a sereghajtó UVSE ellen a férfi vízilabda ob I-ben",
+      "link": "https://nemzetisport.hu/vizilabda/2026/11/a-listavezeto-ftc-nem-hibazott-a-sereghajto-uvse-ellen-a-ferfi-vizilabda-ob-i-ben",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/jt9_WiVAV0_rroIGbQ53VwKFKQraIq1avBwXhd5rtA4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzY0MTg5ODBlYzc5ZDRjNjY4MzFlZjMwMjI0MDdlODNi.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 19:28:31 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Kétszettes hátrányból fordítva először győzött a MEAFC a férfi röplabda Extraligában",
+      "link": "https://nemzetisport.hu/roplabda/2026/11/ketszettes-hatranybol-forditva-eloszor-gyozott-a-meafc-a-ferfi-roplabda-extraligaban",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/UWcXFgUX14seLWhPLexVjI_TpaKDO4fxaIUysOfIyzE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2FiNWU2NmZmZWQxYjQ4ZTY5MjI1ZWJhNWVmZDNmNGNl.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 19:02:16 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Női kosár NB I: a második félidőre felpörgött a Pécs, és nyert a fővárosban",
+      "link": "https://nemzetisport.hu/kosarlabda/2026/11/noi-kosar-nb-i-a-masodik-felidore-felporgott-a-pecs-es-nyert-a-fovarosban",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/Q3bHAYPjPVm610VGXhlNiVvNX_4lL4Sq2qgKPS0tcF4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzE5ZmEwZTNmYmQxNTQxMmQ5OGNhZDcyY2EwZGQ1YmNl.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 18:40:00 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Jó hajrával négy góllal nyertünk az osztrákok ellen",
+      "link": "https://nemzetisport.hu/kezilabda/2026/11/jo-hajraval-negy-gollal-nyertunk-az-osztrakok-ellen",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/VU8FcAuhoNTW_JQ-QFi2OEgnXNey15n8arxe0dBr0Ss/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzU1OGQxYzFiNDI2NTRhNWRiMWI3ODA1YTM5ODIxODYy.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 18:32:02 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Egy héttel a visszatérése után Musiala ismét megsérült",
+      "link": "https://nemzetisport.hu/nemet-labdarugas/2026/11/egy-hettel-a-visszaterese-utan-musiala-ismet-megserult",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/OBCLYYSr0xc3EnSu5YY0KE_SZDEzf6pTI-Ln98u3wsA/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzk3MWE4OTMxYmFmYzRkNjlhZjE1OWMwMWY2ZmU3OTRi.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 18:22:00 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Antonelli vezérletével a Mercedes továbbra is szárnyal Katarban",
+      "link": "https://nemzetisport.hu/f1/2026/11/antonelli-vezerletevel-a-mercedes-tovabbra-is-szarnyal-katarban",
+      "categories": [
+        "f1"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/5cMKyy-QIQW_Q0hC_0-2Jh5CL9KowE83yHWfXVE-Nq4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdjMDNlYjk5MDNjNDQ2MTU4M2YxNGNmZTM5YjQ3ZWQ1.webp"
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Fri, 27 Nov 2026 19:06:05 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Tom Brady majdnem elalélt az Eagles-Cowboys meccs végjátékánál",
+      "link": "https://fuzovelkifele.com/2026/11/tom-brady-majdnem-elalelt-az-eagles-cowboys-meccs-vegjatekanal/?utm_source=rss&utm_medium=rss&utm_campaign=tom-brady-majdnem-elalelt-az-eagles-cowboys-meccs-vegjatekanal",
+      "categories": [
+        "nfl"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 20:37:57 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "A Tisza frakcióvezetője lett Városliget Zrt. igazgatósági elnöke",
+      "link": "https://444.hu/2026/11/27/a-tisza-frakciovezetoje-lett-varosliget-zrt-igazgatosagi-elnoke?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "parliament",
+        "belfold"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 20:22:27 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Baka András kinevezte a legfőbb ügyész helyettesét",
+      "link": "https://444.hu/2026/11/27/baka-andras-kinevezte-a-legfobb-ugyesz-helyetteset?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 20:03:10 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Itt érzem magam rottyon",
+      "link": "https://444.hu/jo/2026/11/27/itt-erzem-magam-rottyon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "belfold",
+        "films"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Fri, 27 Nov 2026 19:44:25 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Elutasította a kormány Szombathely azbesztmentesítési pályázatát",
+      "link": "https://444.hu/2026/11/27/elutasitotta-a-kormany-szombathely-azbesztmentesitesi-palyazatat?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 20:39:00 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Meglépte a kormány: hatalmas összeget vonnak el a Nobel-díjas magyar tudós kutatóközpontjától",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+      "categories": [
+        "technology",
+        "belfold"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/k/r/a/krausz-873578.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 20:32:00 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Üzent Trumpnak Zelenszkij: ez olyan, mintha valaki Adolf Hitler barátja lett volna",
+      "link": "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/6/2/5/6252b8c3-d49a-4926-8eb9-e5e780edf4c7-801166.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 20:18:00 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Élesedik a háború az Apple és az OpenAI között",
+      "link": "https://www.portfolio.hu/uzlet/20261127/elesedik-a-haboru-az-apple-es-az-openai-kozott-879810",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2294515676-apple-bolt-uzlet-kiskereskedelem-okostelefon-technologia-informacios-tech-854610.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 20:04:00 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Kinevezte a legfőbb ügyész új helyettesét Baka András",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/kinevezte-a-legfobb-ugyesz-uj-helyetteset-baka-andras-879808",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/f/e/j/fejes-peter-873576.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Fri, 27 Nov 2026 19:53:00 +0100",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Új árampiaci szabályok léptek életbe Magyarországon: komoly változás jön a hálózati csatlakozásoknál",
+      "link": "https://www.portfolio.hu/gazdasag/20261127/uj-arampiaci-szabalyok-leptek-eletbe-magyarorszagon-komoly-valtozas-jon-a-halozati-csatlakozasoknal-879806",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/t/e/r/terna-vizzini-20230206-057-741273.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 19:41:48 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Kényes kérdések maradtak válasz nélkül a Fradi támogatásának ügyében",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/fradi-tamogatas-kenyes-kerdesek-mvm-egyuttmukodes",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/PL8g23YDevztNOa-8QW34iJqnvbZjmVc4-iWyamZsbI/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yNGQzODU2OTZlYThlNzYzZDEwMjFiYTBhMDA4ZDljMThlZWRjNzA3NmM1ODQ0ZDRmMmJjNjZhMGM4Y2FjZjI2.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 19:30:00 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Zűrös időszakáról vallott a Megasztár énekese: Rubay Laci a kislánya miatt változott meg",
+      "link": "https://www.origo.hu/teve/2026/11/megasztar-rubay-laci-elo-show",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/CzI0cyFhg9EKHgOd_TBdYlLhTB7dXwlEW-fkDeP46GQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9kZjllYjBmYzlkMGQ4MDM5ZmRkMmMyMWY3ZTkwZWU2MmYyYzU5ZDllNTI0NTU3YjFhY2M4MjAxM2RlNGQzZmQy.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 19:15:00 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Gyászol a futballvilág, mindössze 37 évesen meghalt a válogatott futballista",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/ingvar-jonsson-meghalt-gyaszhir",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/DLDWnqHuDz2CVZfFz3x2jT8Uf_4kLgE2yEa2G5UNffo/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy84ZjgyMzY2ZjQ0MjU0N2Y2YTA0ZTgyNjU1NjQ1MDc5ZTVhZWZmMTY3NmEzMDgxMjJiODJjZWMzYzk0MmU4MmJh.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 19:05:00 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Ambrus Attila őszintén vallott a válásáról a Viszony – Marsi Anikóval kamerái előtt",
+      "link": "https://www.origo.hu/teve/2026/11/ambrus-attila-viszony-marsi-anikoval-exkluziv-interju",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Fri, 27 Nov 2026 18:55:05 +0000",
+      "observed": "2026-11-27T20:45:01.788227+01:00",
+      "title": "Hárommilliárdos botrány: hamarosan személyesen dönt Nagy Ervin sorsáról Magyar Péter",
+      "link": "https://www.origo.hu/belpol/2026/11/nagy-ervin-botrany-dont-magyar-peter",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/VF1qlFCn00N4luCQwMOK1AzbsnFL-jGIKjuxVD-m24A/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8wMy8wNDI2MTZlYTNmOTM2YTM3ZjQyMzY4Yjk4ZmVhMzVkMDgwMmFhYjRiZDFkNzU1N2E3OGUyNjRhYTkxZmZkM2Yy.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-27T19:48:36.186877+01:00"
+  "lastRssCollection": "2026-11-27T20:45:01.788227+01:00"
 }
