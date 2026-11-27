@@ -14,8 +14,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "e5c808f77884fa153a656c9296f0f67eaa68a2dfc15c8edfaa0d357c303dee65",
       "relatedStories": [
         {
           "source": "Origo.hu",
@@ -28,10 +28,44 @@
           ],
           "image": "https://cdn.origo.hu/2026/11/lJxPwmZAFLwOlV-gwcEP9WyNmAfNZ9DGlJwcoQ9A7cQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy81ZGViNDBlZWYxZjkzZDljOTQzM2JhOWUxZWVhYzAwOWIwMmMyOTFjNDcxM2E2NTMwNzY1MTI2ZWYyNzhiMmRl.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "1f3788ce65e3481f4a3d240f25fe7d79456db48ab6661712ed47f94c3c4f7997",
+          "variants": {
+            "original": {
+              "body": "Az Országgyűlés plenáris ülésén elsírt magát Göröghné Bocskai Éva, a Tisza Párt képviselője és a Vidék- és Településfejlesztési Bizottság alelnöke, mert megviselték a csütörtöki bizottsági ülésen bemutatott bakijairól szóló videóra érkezett reakciók. A kormánypárti képviselő szerint sosem lesz belőle jó politikus, ám elismerte, hogy az április óta tartó megfeszített tempó és a fáradtság is hozzájárulhatott a heves érzelmi reakcióhoz. A belföldi parlament üléstermében történt eset kapcsán kiderült, hogy a politikus 2024 és 2026 között Hajdúböszörmény polgármestere volt, csütörtökön pedig ő vezette a bizottság ülését, ahol a bakikat vétette."
+            },
+            "tolkien": {
+              "title": "A könnyek áradata a törvényhozás csarnokában",
+              "body": "Az Országgyűlés fenséges falai között eleredtek Göröghné Bocskai Évának, a Tisza küldöttének és a Vidék- és Településfejlesztési Bizottság alelnökének a könnyei, midőn a csütörtöki napon elkövetett hibáiról szóló videó okozta sebek felszakadtak. E belföldi parlament szinpadán a politikus asszony úgy nyilatkozott, hogy sosem válik belőle acélos harcos, s április óta tartó, emberpróbáló vándorlása és a kimerültség mély árnyai is ott lebegnek a történtek mögött. Az események hálójában felidéződött, hogy a harcos korábban, 2024 és 2026 között Hajdúböszörmény vármegyéjének főembereként is szolgált, csütörtökön pedig maga vezette azt a bizottsági gyűlést, amelynek bakijait a krónikák és a közösségi hálók videói megörökítettek."
+            },
+            "reito": {
+              "title": "Bakiparádé a parlamentben, azaz könnyek a Tisza vonatán",
+              "body": "Az Országgyűlés plenáris üléstermében Göröghné Bocskai Éva, a Tisza képviselője és a Vidék- és Településfejlesztési Bizottság alelnöke alaposan megrázkódott, amikor elismerte: eltörött a mécses a csütörtöki produkciójáról készült videó kommentjei miatt. A belföldi parlament porondján a kormánypárti bírálatokra reagálva kijelentette, hogy sosem lesz belőle jó politikus, miközben az április óta tartó ütemet és a fáradtságot tette felelőssé a heves érzelmi kitörésért. A rutinosnak sem nevezhető, hiszen 2024 és 2026 között Hajdúböszörmény polgármesteri székét is megjárt politikus éppen abban a bizottságban bakizott nagyokat csütörtökön, amelyet maga vezetett, és ez a fergetegesre sikeredett videó hozta el a könnyes pillanatokat."
+            }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
+          }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A parlamentben történt incidens során a Tisza frakció tagja, Göröghné Bocskai Éva elsírta magát az ülésteremben, miután Radics Béla fideszes képviselő és Bohár Dániel propagandista a közösségi oldalakon gúnyolta őt egy bizottsági ülésen elhangzott mondatai miatt. A képviselőtársak és a teljes tiszás frakció posztokban állt ki a politikus mellett, hangsúlyozva, hogy a képviselők mögött hús-vér emberek állnak, és az emberi méltóság nem lehet politikai játékszer. A belső feszültségekkel és a képviselőséggel járó testi-lelki kihívásokkal kapcsolatban a Tisza-frakció korábban egy kétrészes cikksorozatban is beszámolt a brutális tempóról és a kiemelt stresszhelyzetekről. Az ügy kapcsán Magyar Péter videóban reagált a Facebookon, elítélve a fideszes képviselők, köztük Radics Béla és Szűcs Gábor magatartását, míg Bohár Dániel visszautasította a felelősséget."
+        },
+        "tolkien": {
+          "title": "A könnyek csarnoka és a szürke falak árnyéka",
+          "body": "A törvényhozás magas csarnokában, a fideszes méltóságok gúnyos szavai nyomán könnyek eredtek Göröghné Bocskai Éva szeméből, aki a Tisza közösségének zászlaja alatt lépett a porondra. A Tisza népe azonnal pajzsként sorakozott fel a megsebesült asszony mögött, hirdetve, hogy a hús-vér testben élők lelke nem lehet a gúnyolódás prédája. Amint a krónikák feljegyezték, a tavaszi rendszerváltás viharában a Hajdúságból érkezett egykori óvónő ezen a helyen szembesült a hatalom súlyával és a mindennapi csaták feszültségével. Magyar Péter vezetésével a közösség kardot emelt az igazságtelenség ellen, míg az ellenfél táborából Bohár Dániel és Radics Béla továbbra is a küzdőtér porában mérette meg a harcosokat."
+        },
+        "reito": {
+          "title": "Könnyek a büfé mögött: amikor a parlament nem óvoda",
+          "body": "A parlamenti porondon Göröghné Bocskai Éva, a Tisza képviselője hirtelen elérzékenyült, miután Radics Béla és Bohár Dániel egy bizottsági videó apró bizonytalanságain csámcsogott a közösségi médiában. A helyszínen a sértett még személyesen is megkereste Radicsot egy mosollyal, ám a válasz elmaradt, a könnye viszont nem, mire a Tisza-frakció azonnal egyemberként ült fel a szimpátiavonatra. Magyar Péter a Facebookon osztotta ki a fideszes legényeket, mondván, elég volt a megalázásból, miközben Bohár Dániel gyorsan tisztázta, hogy ő csak a drága adófizetői valóságot mutatta be a képernyőkön. A kemény tempó és a feszültség amúgy sem kíméli a tiszásokat, hiszen a frakció belső élete eddig is hozott akut egészségügyi rohamokat és mentős vonulásokat."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -44,9 +78,26 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/t/a/j/tajvan-valasztas-demonstracio-gyules-kina-nagyhatalom-fenyegetes-872894.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "93dbe1bca3b6a17783ad404a72d22240e152dc4e67f858657150d026b6620801",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Tajvanon szombaton mintegy 11 ezer polgármestert és tisztviselőt választanak meg a Technológia / Fejlesztések szektor globális félvezető-ellátását és a Külföld rovat regionális biztonságát is érintő helyhatósági választásokon, ahol a sziget jövőjéről és a Kínával kapcsolatos álláspontokról is dönt a körülbelül 19,6 millió szavazásra jogosult. Az eredmények alapvető irányt szabhatnak a 2028-as elnökválasztásnak, és befolyásolhatják a Kuomintang (KMT) és a Demokratikus Progresszív Párt (DPP) közötti törvényhozási erőviszonyokat. A fővárosban, Tajpejben a regnáló Csiang Van-an (KMT) és a kihívó Puma Sen (DPP) közötti szoros versenyben dől el a városvezetés sorsa, miközben Peking figyelemmel kíséri a folyamatokat."
+        },
+        "tolkien": {
+          "title": "A Jáde Sziget Végzete és a Sárkány Árnyéka",
+          "body": "Íme, eljő a szombati nap, midőn Tajvan népe, közel tizenkilencezer lélekkel mérlegre veti sorsát a Külföld rovat távoli földjein, hogy tizenegyezer tisztségviselőt és polgármestert válasszon a Technológia / Fejlesztések mezején égő tüzes kohók, a világ legfőbb rúnáit és ércszerszámait kovácsoló chipgyárak szomszédságában. A tornyosuló hegyek és a habzó tengerek urai, a Kínai Népköztársaság sárkányai árgus szemekkel figyelik a törvényhozás székhelyét, hol a Kuomintang és a Demokratikus Progresszív Párt seregei vívják örökös tusájukat a trónért. Tajpej kapuinál Csiang Van-an és Puma Sen viadala dönt a bástkák sorsáról, miközben a nép állhatatosan őrzi ősi határait a közelgő vihar árnyékában."
+        },
+        "reito": {
+          "title": "Ahol a szilícium és a cédulák egyszerre égnek",
+          "body": "Tajvanon szombaton mintegy 11 ezer polgármester és tisztviselő sorsa dől el a Technológia / Fejlesztések hátterében fellelhető globális chipbiznisz és a Külföld rovat csendesnek aligha nevezhető tajvani csatatérén, ahol 19,6 millió szavazó próbálja kibogozni a helyi ügyek és a nagypolitika gubancos fonalát. A helyi ringben a Kuomintang és a Demokratikus Progresszív Párt feszül egymásnak, míg Tajpejben a regnáló Csiang Van-an és a kihívó Puma Sen küzd a polgármesteri székért, mintha éppen attól függne a világegyetem sorsa. Peking a lelátóról figyeli a meccset, hogy aztán a 2028-as elnökválasztás előtt levonja a magáét a szavazófülkék füstjéből."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -152,7 +203,11 @@
           "body": "A Starshield nevű csodarendszer aprócska adminisztratív fékjei miatt az ukrán drónok épphogy csak nem tapogatatóznak botbottal a levegőben, ami finoman szólva sem gyorsítja meg a drónelhárítást. Volodimir Zelenszkij a BBC-nek jajveszékelve adta hírül, hogy a Patriot rakéták szállítása nagyjából olyan pontos ütemezéssel halad, mint egy téli vakációra induló csiga, miközben Tula megyében, Jefremov városában valaki nagyon komolyan vette a füstölést. A helyi hőerőmű és a rakétagyártáshoz kötődő műkaucsukgyár ugyanis egy hamisítatlan éjszakai drónlátogatás után hirtelen lángra lobbant, igazolva, hogy a technológiai akadályok ellenére a drónok pontosan tudják, hol a kijárat."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -165,9 +220,26 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/d/b/o/dbogi20271127007-873294.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "064f7b81b99a82c7ee95ac9bdad2f7ca24cc9eb8f206cf2c8247b71e5c742040",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A törvényhozás épületében az Országház falai között zajló parlamenti események során a belföldi parlament napirendjén szerepelt a Magyarország Európai Ügyészséghez történő csatlakozása miatt szükséges törvénymódosítás és az egészségügyi dolgozók bérének rendezését célzó, új bértáblát bevezető előterjesztés. A politikai döntéshozók és képviselők számára nagy vitákat előzött meg az elfogadás. Az Országgyűlés pénteki ülésnapjának végén egyperces néma felállással emlékezett meg a mezőkövesdi vonatbaleset következtében elhunyt fiatal lányról. Forsthoffer Ágnes ülésvezető elnök kiemelte a lányért létrejött országos összefogást, és az Országgyűlés nevében részvétét fejezte ki az elhunyt családjának."
+        },
+        "tolkien": {
+          "title": "A Magas Tanács csarnokának árnyai és az emlékezés csendje",
+          "body": "A belföldi parlament márványoszlopos csarnokában, ahol a törvények sorsa köttetik, a Magyarország Európai Ügyészséghez történő csatlakozása miatt szükséges törvénymódosítás és az egészségügyi dolgozók bérének rendezését célzó, új bértáblát bevezető előterjesztés felett parázs viták vihara csapott össze a döntéshozók fej fölött. Midőn a vihar elült, a törvényhozás szentélyében az Országgyűlés pénteki ülésnapjának végén a néma tisztelet sötét palástja borult a jelenlévőkre, és egyperces néma felállással emlékeztek meg a mezőkövesdi vonatbalesetben elhunyt fiatal leányról. Forsthoffer Ágnes ülésvezető elnök a nemzet zugaiból feltámadó országos összefogás gyertyáját lángra lobbantva fejezte ki az Országgyűlés nevében mély részvétét az elhunyt gyászoló családjának."
+        },
+        "reito": {
+          "title": "Bértábla, ügyészség és egy perc csend a törvényhozás porondján",
+          "body": "A belföldi parlament füstös és vitáktól hangos porondján a Magyarország Európai Ügyészséghez történő csatlakozása miatt szükséges törvénymódosítás, valamint az egészségügyi dolgozók bérének rendezését célzó, új bértáblát bevezető előterjesztés adta fel a leckét a képviselőknek a nagy viták közepette. Miután a törvényhozás csataterén elhalkultak a hangok, az Országgyűlés pénteki ülésnapjának végén egyperces néma felállással adóztak a mezőkövesdi vonatbaleset áldozatául thetett fiatal lány emlékének. Forsthoffer Ágnes ülésvezető elnök nem mulasztotta el kiemelni a meginduló országos összefogást, miközben az Országgyűlés nevében hivatalosan is átnyújtotta részvétét az elhunyt családjának."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -179,8 +251,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-katona-gyozelem-592272.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7226f62f769be603e3ce294cf1cb7c9c4961ee414bd9bbc1dede65423a8decc2",
       "relatedStories": [
         {
           "source": "Telex",
@@ -209,7 +281,24 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Jegor Firszov ukrán politikus nyilatkozata szerint az Ukrajnát támogató európai országoknak a teljes GDP-jük háromszorosát kellene Ukrajna finanszírozására fordítaniuk az oroszokkal vívott háború megnyeréséhez. Firszov megállapítása alapján Ukrajna túlzottan ki van téve a külföldi finanszírozásnak, míg Oroszország az energiahordozó-szektorának, emellett a politikus kijelentette, hogy a következő 3-5 évben a fronton gyalogság és páncélozott járművek helyett AI-alapú rendszerek, robotok és harci drónok fognak dominálni. A külföldi fejleményeket érintő nemzetközi konfliktusban az ukrán vezető álláspontja a fegyveres küzdelem finanszírozási hátterét és technológiai jövőjét érinti."
+        },
+        "tolkien": {
+          "title": "A szürke birodalmak kincstára és a fémből formált sereg",
+          "body": "Jegor Firszov, a messzi ukrán föld fia felemelte szavát, kijelentve, hogy ha a nyugati birodalmak megtripláznák kincstáruk áldozatait, népe könnyedén aratna győzelmet a szomszédos orosz seregek felett. A háború mérlege mindkét nép számára nehéz terhet ró: míg az ukránok a külső aranyra, addig ellenségeik a föld gyomrából feltörő lángoló folyókra építették hatalmukat, ami az ő gyenge pontjuk. Az eljövendő három-öt esztendő homályában pedig új ostromfegyverek ébrednek, mert a nehéz vértes vitézek és a gyalogosok helyét mesterséges elmével bíró gépezetek, vasból való vadak és égi szárnyasok veszik át a csatamezőn. Ez a küzdelem a külföldi tájakat és az európai nemzetek szövetségét rázza meg, miközben sorsdöntő árnyék vetül az eurázsiai földrészekre."
+        },
+        "reito": {
+          "title": "Hogyan nyerjünk háborút aprópénzből és mesterséges intelligenciából",
+          "body": "Jegor Firszov ukrán politikus pontos számítással rukkolt elő: szerinte elég lenne, ha az európai támogatók a GDP-jük háromszorosát vágnák hozzá Kijevhez, és az oroszok máris lehúzhatnák a rolót. A pénzügyi mérlegen mindkét fél nehézul viseli a csekkeket, hiszen Ukrajna a külföldi bankóktól, Oroszország meg a saját gázcsapjaitól függ, ami remek kis Achilles-ínnak bizonyul. A jövő frontján ráadásul már nem a sárban masírozó bakák, hanem a következő 3-5 évben érkező robotok, drónok és AI-rendszerek fogják osztani az ipart. Ez a nemzetközi konfliktusok mezőjén zajló osztozkodás ékesen bizonyítja, hogy a modern háborúhoz nem és, hanem gigantikus kassza és némi acélos technológia kell."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -572,7 +661,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -584,8 +677,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "809a384c94faf218dfc9aa59b3fde1fe737e459c46adec040aee3915e538db3f",
       "relatedStories": [
         {
           "source": "Origo.hu",
@@ -597,8 +690,25 @@
           ],
           "image": "https://cdn.origo.hu/2026/11/PqlnX9C9DNZV33qTEe-BJt6-kKk4Upqh26-R0E1607w/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hNzdjZTkzN2Y4NmM0MTgyZDExYzk5OTc3Y2IyYWExNGRkMDBiYTMwZGM5ZjNkOTE2MzI2OThjNzNlNzM1OTM5.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "0f48a3b37a082c28b5989f3a27523f45d7b5122a0ad8b3a9325bdb037ae4d078",
+          "variants": {
+            "original": {
+              "body": "A Budapest Környéki Törvényszék november 27-én terrorcselekménnyel fenyegetés miatt jogerősen egy év, két év próbaidőre felfüggesztett börtönbüntetésre ítélt egy férfit, aki az országgyűlési választások után, 2026. április 13-án Orbán Viktor Facebook-oldalán iskolákat és a Roosevelt irodaházat érintő bombatámadással fenyegetőzött. A belföldi esemény gyakorlati következményeként a vádlottnak a kiszabott börtönbüntetést nem kell letöltenie, amennyiben betartja a kétéves próbaidő feltételeit. A férfi a november 27-i előkészítő ülésen beismerte a bűncselekmény elkövetését és lemondott a tárgyalás jogáról, miután az alkohol és nyugtató hatása alatt megírt kommentjével kapcsolatban a hatóságok megállapították a lakosság megfélemlítésére való alkalmasságot."
+            },
+            "tolkien": {
+              "title": "A digitális udvar árnyéka és a törvény mérlege",
+              "body": "A Budapest Környéki Törvényszék november 27-én terrorcselekménnyel fenyegetés vádjával jogerősen egy esztendőre szóló, ám két év próbaidőre felfüggesztett börtönbüntetéssel sújtott egy belföldi férfit, aki Orbán Viktor közösségi oldalának falán iskolák és a Roosevelt irodaház ellen irányuló, sötét bombaveszéllyel hadakozott. E bírósági ítélet nyomán a vádlott elkerüli a börtön falait, feltéve, hogy a próbaidő viharos ösvényén megőrzi békéjét. A férfi – ki a 2026 tavaszán elveszített állása és az édesanyjával vívott április 13-i vitája után, alkohol és gyógyszer keserű keverékétől bódultan vetette papírra fenyegető szavait – az előkészítő ülés napján teljes bűntudattal járult a bírák elé, elutasítva a további pereskedés jogát. Mivel az ügyész, a vádlott és a védő is egyhangúlag elfogadta a határozatot, a bíróság pecsétje véglegesen lezárta ezt a belföldi vihart."
+            },
+            "reito": {
+              "title": "A frusztrált kommentelő, aki kétéves felfüggesztettel zárta a választási éjszakát",
+              "body": "A Budapest Környéki Törvényszék november 27-én terrorcselekménnyel fenyegetés miatt jogerősen egy év, két év próbaidőre felfüggesztett börtönbüntetésre ítélt egy belföldi férfit, aki 2026. április 13-án, az országgyűlési választások után Orbán Viktor Facebook-oldalán iskolákat és a Roosevelt irodaházat érintő bombatámadással házalt. Ennek a belföldi jogi menünek köszönhetően a vádlott megússza a cellát, amennyiben a próbaidő alatt csendben marad és betartja a szabályokat. A férfi azután vetette bele magát a közösségi médiumok háborgó tengerébe, hogy elveszítette állását, összeveszett az édesanyjával, majd a lecsúszott nyugtatót és alkoholt összefésülve ontotta magából a lakosság megfélemlítésére alkalmas sorokat."
+            }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
+          }
         },
         {
           "source": "Portfolio.hu",
@@ -680,7 +790,24 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Budapest Környéki Törvényszék pénteki előkészítő ülésén terrorcselekménnyel fenyegetés bűntette miatt 1 év, 2 év próbaidőre felfüggesztett börtönbüntetésre ítélte azt a férfit, aki 2026. április 13-án bombatámadással fenyegetőzött Orbán Viktor Facebook-oldalán egy videó alatt. A vádlott azért kommentelt a Roosevelt irodaházat és általános iskolákat érintő támadásokra utalva, mert elvesztette az állását, összeveszett az édesanyjával, és a konfliktusok hatására bevett nyugtatóra alkoholt ivott, ami csökkentette az önkontrollját. Mivel a férfi az előkészítő ülésen beismerte a bűncselekményt, lemondott a tárgyaláshoz való jogáról, és előzetes mentesítésben részesült, a döntést az ügyész, a vádlott és a védő is tudomásul vette, így az ítélet jogerős."
+        },
+        "tolkien": {
+          "title": "A gyászos szózat és a felfüggesztett ítélet csarnoka",
+          "body": "A Budapest Környéki Törvényszék ítélkező székhelyén terrorcselekménnyel fenyegetés bűntette miatt egy esztendő börtönbüntetésre ítélték azt a férfit, aki 2026 tavaszának viharaiban elbukta munkáját, majd 2026. április 13-án Orbán Viktor uralkodó közösségi oldali videója alatt bombatámadással fenyegetőzött. Miután az anyai házzal vívott harc és a keserű itallal vegyített nyugtatók homályba borították elméjét, a Roosevelt irodaházat és iskolákat megidéző fenyegetései sötét árnyat vetettek a lakosságra. A vádlott az előkészítő tanácskozáson megtörve vallotta be bűnét, így a törvényszék végül két esztendő próbaidőre felfüggesztette a büntetést, és előzetes mentesítéssel bocsátotta útjára."
+        },
+        "reito": {
+          "title": "A digitális bombafenyegetéstől a tárgyalótermi bólintásig",
+          "body": "A Budapest Környéki Törvényszék pénteki előkészítő ülésén terrorcselekménnyel fenyegetés bűntette miatt pontosan 1 év börtönre ítélte azt a férfit, aki 2026. április 13-án a Roosevelt irodaházat és iskolákat emlegető bombás fenyegetést írt Orbán Viktor Facebook-oldalára. A vádlott a munkanélküliség, egy anyai vitás összecsapás, valamint a nyakló nélkül behabzsolt nyugtató és alkohol kombinációja által felerősítve osztotta meg üzenetét a mintegy 24 ezer kommentelő között. Mivel a férfi a bíróság előtt inkább azonnal beismerte a bűncselekményt, a törvényszék a kiszabott börtönbüntetést 2 év próbaidőre felfüggesztette, ráadásul előzetes mentesítést is adott neki."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -692,8 +819,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/v/a/r/varakozni-tilos-tabla-megallni-es-varakozni-tilos-tabla-varakozni-tilos-megallni-es-varakozni-tilos-569538.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "35de0a2669b1bf676f60f427863145ab05609ea50b6f9684ca6a51473f4fca44",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -801,7 +928,24 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A forint árfolyama az euróval és a dollárral szembeni előző heti gyengülése után, a hazai kamatcsökkentési várakozások erősödése és a romló piaci hangulat közepette, a nap folyamán 370,4 körüli euró- és 337 körüli dollárárfolyamon próbál magára találni a nemzetközi piaci helyzet javulásával párhuzamosan. A magyar fizetőeszköz helyzetét a belföldi gazdasági folyamatok mellett az emelkedő olajárak is befolyásolják, miközben a befektetők az európai konjunktúraadatokra figyelnek. Az árfolyam oldalazása a belföldi devizapiacon közvetlenül azt eredményezi, hogy a hazai gazdasági szereplők a nemzetközi piaci mozgások és a belföldi kamatvárakozások szorításában kénytelenek kalkulálni a mindennapi tranzakcióik során."
+        },
+        "tolkien": {
+          "title": "A Magyar Fizetőeszköz Sötét Völgye és Új Pirkadata",
+          "body": "A belföldi pénzpiacok rengetegében a forint árfolyama súlyos hetek szenvedése és a hazai kamatcsökkentési várakozások árnyéka után az euróval és a dollárral szemben megpróbál magára találni, miközben a rögös úton 370,4 körüli euró- és 337 körüli dollárértéken oldalaz. E gyötrelmes napon a nemzetközi piaci helyzet hajnala pislákoló fényt hoz, ám a dráguló olaj viharfelhői továbbra is nehezednek a magyar hazai táj fizetőeszközére. E sorsfordító órákban a belföldi gazdaság legfőbb következménye az, hogy a vándorlók és kereskedők bizonytalan léptekkel, de a megújuló piaci remények fegyverzetében mérik össze erejüket a lankadatlan árfolyam-hullámokkal."
+        },
+        "reito": {
+          "title": "Háromszázhetvenes szaltó: Így próbál szárnyra kapni a meggyötört forint",
+          "body": "Két hét menetrend szerinti pofon után a hazai kamatcsökkentési várakozások viharában megfáradt forint végre megpróbál egyenesbe jönni a belföldi piacon, miközben az euróval szemben 370,4-en, a dollárral szemben pedig 337 körül egyensúlyoz. A nemzetközi részvénypiacok hirtelen jött jó kedve mentőövet dob a magyar fizetőeszköznek, ám az emelkedő olajár azonnal keresztbe is fekszik a kanyarban. A napi konjunktúra-cirkusz kézzelfogható végeredménye, hogy a hazai pénztárcák tulajdonosai most a szokásosnál is nagyobb figyelemmel lesik, vajon megmarad-e ez a csodás, 0,3 százalékos reggeli izomcsoport-erősödés."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -814,8 +958,8 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/xn-PUhbz9D1ZsHSB98PFU1oLg1f1wwTGE0RbHl3ZhBk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy82MzlmYmJkNTdmODBmMWEyNmNmZWRmOTBkOGIwMDMxZTJiNWE0ZTA2NzY5MjI5MWViNThkOWRlZTdhOWVmYzdm.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "f4cccebfb43e435ae4a81399f17ed9670bdf697f80b79eabfb5b653c0a1b879f",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -1032,7 +1176,24 @@
           "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Pénteken az Országház üléstermében Radics Béla fideszes országgyűlési képviselő és Göröghné Bocskai Éva tiszás képviselő folytatott beszélgetést, amely után az ellenzéki politikus a helyére visszaülve sírva fakadt. A gyakorlati következmény az lett, hogy a történteket követően Magyar Péter közösségi oldalán vádolta meg a fideszes képviselőket Göröghné Bocskai Éva megalázásával és összevágott videós lejáratásával. Az ügy előzményeként Göröghné csütörtökön maga ismerte el parlamenti felszólalásában, hogy más írja a szövegeit, amire Radics videóban reagált, míg Bohár Dániel a Vidék- és településfejlesztési bizottság üléséről tett közzé bizonytalanságot mutató felvételt. Radics Béla nyilatkozatában elmondta, hogy a pénteki találkozáskor a tiszás képviselő a korábbi videója miatt kérdezte őt, mire ő a politikai felelősségvállalásról beszélt, és visszautasította a Fidesz felelősségét, miközben Magyar Péter név szerint is támadta Radicsot, Szűcs Gábort és Bohár Dánielt."
+        },
+        "tolkien": {
+          "title": "A dicsőséges csarnok könnyei és a fideszes harcos szavai",
+          "body": "A hatalmas parlament oszlopai között Radics Béla fideszes országgyűlési képviselő és a tiszás Göröghné Bocskai Éva találkozott, miután a csütörtöki napon az ellenzéki asszony maga vallotta meg, hogy más kovácsolja szavait. A sorsfordító pillanat után a tiszás politikus asszony könnyekre fakadt a helyén, mert a fideszes férfiak szembesítették őt a hatalom súlyával. A viharos idők sodrában Magyar Péter is hallatta hangját a közösségi hálók mezőin, név szerint támadva Radics Bélát, Szűcs Gábort és Bohár Dánielt, miközben fideszes ellenfeleit méltatlan megalázással vádolta. Radics Béla a harc mezején kijelentette, hogy a politikában vállalni kell a szavak súlyát, és a hibát nem a fideszes táborban, hanem a saját szövetségesek között kell keresni."
+        },
+        "reito": {
+          "title": "Könnyek a parlamenti porondon: amikor a tiszás képviselő kérdőre vonta a fideszes vezérszónokot",
+          "body": "A fideszes országgyűlési képviselő, Radics Béla éppen a reggeli vezérszónoki felszólalására gyúrt az ülésteremben, amikor Göröghné Bocskai Éva tiszás képviselő pénteken odalépett hozzá, hogy rákérdezzen korábbi videójára. A pimasz fordulat az lett, hogy a helyére visszatérő ellenzéki politikus azonnal sírva fakadt, miután Radics közölte vele: a politikában nemcsak tapsikolni kell, hanem vállalni kell a szavak súlyát is. A cselekmény itt nem állt meg, hiszen Magyar Péter azonnal a közösségi oldalra nyargalt, hogy név szerint támadja meg Radics Bélát, Szűcs Gábort és Bohár Dánielt a fideszes férfiak állítólagos női megalázásai miatt. Az előzményekhez tartozik, hogy Göröghné már csütörtökön beismerte beszédíróit, Bohár Dániel pedig a bizottsági ülésről hozott egy bizonytalan pillanatokat rögzítő felvételt."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1044,9 +1205,26 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1492649113-szu-24-vadaszbombazo-iran-legiero-katar-perzsa-obol-847066.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8bb369461df53c3b9f8f31fb30f4f07efc0a4cba34c7a38850e840b1309839b8",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Iránban – amely külföldi fejleményként érinti a külföld rovatot – az elszálló infláció, az üzemanyaghiány és a rekordmélységbe zuhant riál miatt tüntetések törtek ki, amelyek már 20 városban vannak jelen, és a demonstrálók egy része a rezsim távozását követeli. A gazdasági nehézségek és a tüntetések visszatérése azután erősödtek meg, hogy Izrael és az Egyesült Államok katonai csapásokat mért a diktatúra vezetésére, míg Washington a kezdeti katonai sikertelenséget követően a gazdasági elszigetelés felé fordult. A karhatalom korábban fegyvereseket vetett be, a kiszivárgott információk szerint akár több tízezres nagyságrendű halálos áldozattal, míg Abdolnaser Hemmati iráni jegybankelnök cáfolta Scott Bessent amerikai pénzügyminiszter azon szavait, hogy Irán közel lenne a gazdasági összeomláshoz. Hamidreza Hajibabaei parlamenti alelnök elismerte a súlyos gazdasági helyzetet, de szerinte az emberek kitartanak az ország vezetése mellett, és az iráni jegybank ígéretet tett a vásárlóerő megvédésére."
+        },
+        "tolkien": {
+          "title": "A Fekete Riál Árnyéka és a Megtört Korona",
+          "body": "Irán ősi földjén, a külföldi birodalmak látómezejébe eső tájon, az iszlamista hatalom bástyái megrendültek, miután a riál árfolyama soha nem látott mélységbe zuhant, és huszonvárosnyi nép emelte fel szavát a megélhetésért. A testet és lelket emésztő infláció viharában a kamionosok és a nyomorultak seregei az utak porában rekedtek, míg a magas urak palotáiban a fegyveres karhatalom vasökle szedte véres adóját a tízezreket számláló halottak mezőin. Izrael és az Egyesült Államok hadai fentről sújtottak le a sötétség tornyára, hogy a gazdasági fojtogatás hálójával együtt térdre kényszerítsék a rezsimet, amelynek fejei még makacsul tagadják a bukást, míg a nép haragja újra lángra lobban. E sötét órában a birodalom sorsa a porladó kincsek és a fegyverek szorításában dől el, megpecsételve a magányos trónus napjait."
+        },
+        "reito": {
+          "title": "Benzinhiány, riál-halál és a Wall Street-i varázslók kedvenc rémálma",
+          "body": "Iránban, ahol a külföldi hírek kedvelői most fülüket-farkukat inakba húzva figyelhetnek, a kamionosok úgy döntöttek, hogy 20 városban molinókkal támasztják meg a leállt forgalmat, mivel a riál ábrándos zuhanása és az üzemanyaghiány kicsit átrendezte a büdzsét. A hatalom előbb fegyveres osztagokkal – több tízezer áldozatot hagyva maga mögött – rendezte a vitát, majd amikor Izrael és az Egyesült Államok egy kis égi bombázással besegített a rezsimnek, a tüntetések egy időre elnémultak, mint a lukas gumis bicikli. Abdolnaser Hemmati jegybankelnök határozottan közölte Scott Bessent amerikai pénzügyminiszterrel, hogy a gazdasági összeomlás csak a szemfényvesztők tévedése, miközben a parlament alelnöke szerint a nép még mindig rajong az ország vezetéséért, mint éhező a száraz kifliért. A gazdaság ugyan a padlón kapálózik, de a jegybanki ígéretek fényében legalább a vásárlóerő megvédésének ügynökei is terepre léptek."
+        }
+      },
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1060,7 +1238,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -1076,7 +1258,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1090,7 +1276,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -1121,7 +1311,11 @@
           "body": "Az Agrár- és Élelmiszergazdaságért Felelős Minisztérium (AÉM) tízéves nagytakarítást hirdetett a magyar mezőgazdaságban, mert a klímaváltozás nem kér elnézést a megszokott rutinoktól. A gyakorlatban ez azt jelenti, hogy a gazdák a jövőben annyi kárenyhítési támogatásra számíthatnak, mint macska a selyemgombolyagra, hiszen 2028-tól az alaptámogatások helyett az eredményes beruházások csilingelnek majd a kasszában. Az idei számla sem piskóta: a mezőgazdasági károk elérték az ezer milliárd forintot, amiből ötszázötven-hatszáz milliárdot maga az aszály vágott zsebre. A megváltást hozó új stratégiák és termékpályák tervezetére viszont 2027 első feléig még várni kell, mint a messziről jött postásra."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1135,7 +1329,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1163,7 +1361,11 @@
           "image": "https://assets.telex.hu/images/20261127/1795779173-temp-q4d15mlbf0fffkpbold_cimlap-normal.jpg",
           "summaryVersion": "short-v2.1-3-4",
           "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
+          }
         },
         {
           "source": "HVG",
@@ -1177,7 +1379,11 @@
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8ded5017-66be-4237-8d9b-de3632fc0c5d.jpg",
           "summaryVersion": "short-v2.1-3-4",
           "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
+          }
         },
         {
           "source": "Portfolio.hu",
@@ -1273,7 +1479,11 @@
           "sourceHash": "c9f59fb11710f664311e0cc1ff3207526d10f70cdda2b5fe2267c08f3a838350",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1956,7 +2166,11 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1971,7 +2185,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1985,7 +2203,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -2097,7 +2319,11 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -2111,7 +2337,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -2142,7 +2372,11 @@
           "body": "A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium pénteken szépen kipakolta a közmédia szennyesét, bebizonyítva, hogy a külföldi tudósításokat is terelő ház tájékán nemcsak a port törölték fel alaposan. A négy hónapos revízió során 448 szerződést túrtak át 42 milliárd forint értékben, míg egy nemzetközi cég 321 beszállító zsebében turkált, így aztán fény derült a Várhegyi Attila által irányított „ötödik emeleti” titkos főhadiszállásra, a 266 cenzúrázott hírre meg a 9738 darab, köddé vált leltári tárgyra. A gyakorlati tanulság sem váratott magára: a tizenhárom lusta külső gyártó repült, a Petőfi TV és rádió házon belülre költözött, a visszavett megbízásokkal pedig idén már négymilliárdot spóroltak meg a büdzsének, miközben a rendőrségnek szóló feljelentések sorozata is elindult."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2170,7 +2404,11 @@
           "sourceHash": "ed3e033a329f3d3b4d8d6c9dfb6aa26f091ca3a3d24501e11fb6971a6a4dae75",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -2184,7 +2422,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3213,7 +3455,11 @@
           "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -3227,7 +3473,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -3241,7 +3491,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -3348,7 +3602,11 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -3362,7 +3620,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3376,7 +3638,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -3390,7 +3656,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -3404,7 +3674,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -3432,7 +3706,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -3458,7 +3736,11 @@
           "image": "https://assets.telex.hu/images/20261127/1795779775-temp-kq5osnafhqp49gmlfhl_cimlap-normal.jpg",
           "summaryVersion": "short-v2.1-3-4",
           "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
+          }
         },
         {
           "source": "Portfolio.hu",
@@ -3471,7 +3753,11 @@
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
           "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
+          }
         },
         {
           "source": "Telex",
@@ -3614,7 +3900,11 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -3709,7 +3999,11 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -3723,7 +4017,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3737,7 +4035,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3751,7 +4053,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3765,7 +4071,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3779,7 +4089,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -3793,7 +4107,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -3807,7 +4125,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -3872,7 +4194,11 @@
           "sourceHash": "f0cc805eaeb94ab9f2733495a9db664251de81169889c7082cd6d6caadd2105e",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -3886,7 +4212,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -3997,7 +4327,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4093,7 +4427,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -4108,7 +4446,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -4151,6 +4493,10 @@
               "title": "A Fehér Ház különútja: Tárgyalóasztal atomcsenddel fűszerezve",
               "body": "A Fehér Ház megbízottja, Jared Kushner – aki Steve Witkoff oldalán kóstolgatta az orosz–ukrán béketárgyalások nehézségeit – exkluzív interjúban teregette ki a kulisszatitkokat. A nemzetközi porondon játszódó diplomáciai játszmában történelmi alakként könyvelte el Vlagyimir Putyint, megköszönve neki, hogy az ukrajnai harcokban valahogy kihagyta a szórásból az atomfegyvereket. A külpolitikát alaposan felkavaró ügyek tisztázásaként azt is kerek-perec visszautasította, hogy az Egyesült Államok bármi olyat tett volna, amivel Ukrajnát földjeinek átadására kényszerítené egy papíron szereplő békéért. A nagy türelemmel mértetett egyeztetések a tervek szerint decemberben folytatódnak."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -4181,6 +4527,10 @@
               "title": "Patriotok késésben, a washingtoni barátságok pedig a fagyos frontvonalon égnek",
               "body": "A külpolitikának csúfolt nemzetközi sakktáblán Volodimir Zelenszkij épp a BBC mikrofonja előtt világosodott meg arról, hogy az Egyesült Államok a Közel-Kelet ajándékainak csomagolásával van elfoglalva, míg a Patriot légvédelmi rendszerek és a ballisztikus rakéták leszállítása valahol félúton ragadt, emberéleteket hagyva veszni. A dolog szépséghibája, hogy miközben az ukrán tüzérek a leggyorsabb orosz drónok csinos kis 70 százalékát már leszedik az égről, a rakétahiány miatt a védelem mégis lyukas, mint a szita. A történetet csak tetézi, hogy Donald Trump közben barátként ölelgeti a gyilkosnak nevezett Putyint, amit Zelenszkij nagyjából a Hitlerrel kötött örök barátsággal mér össze. Hogy a pikáns menü teljes legyen, az ukrán hírszerzés szerint Oroszország épp a logisztikai és energiaszolgáltató létesítmények porig rombolására készülő nagyszabású téli kampány finisében jár, megalapozva egy olyan fagyos szezont, amelyből Kijevnek mindenáron ki kell húznia magát."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -4334,7 +4684,11 @@
           ],
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -4379,7 +4733,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -4393,7 +4751,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4485,7 +4847,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -4500,7 +4866,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4635,7 +5005,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -5141,7 +5515,11 @@
           "body": "Siófokon csap össze a mezőgazdaság krémje a tizennegyedik alkalommal megrendezett Agrárszektor Konferencia 2026 keretében, ahol a fagyos valóság és a klímakockázatok közepette keresik a kiutat a termelők, az élelmiszergyártók és a bankárok. December 1-jén még külön belépővel kell bámulni az időjárás viszontagságait és az Alföld átalakulását boncolgató pódiumestet, míg a kétnapos főműsorban már a hitelfeltételek, a gabonaárak és a mesterséges intelligencia bűvös trükkjei terítik a lapokat. A pénzügyi és támogatási viták sűrűjében a résztvevők tizenegy kategóriában osztják ki a jól megérdemelt agrárdíjakat is a szerencsés nyerteseknek. Itt aztán kiderül, hogy a következő szezon sikere nem a szerencsén, hanem a mostani siófoki számolgatásokon múlik."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -5188,7 +5566,11 @@
           "sourceHash": "65714499c3e579fcd7f7221f62705bf21a680ad00f0484cb58aa13b25625041f",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -5202,7 +5584,11 @@
       "summaryVersion": "short-v2.1-3-4",
       "contentBasis": "title",
       "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -5232,7 +5618,11 @@
           "body": "Belföldi gazdasági hírként Szekeres Eszter, a MET Csoport magyar, horvát és szlovák piacokért felelős főnöke elárulta, hogy az európai ipar csak akkor ússza meg a világpiaci hullámvasutat, ha az energiaárakat időben kőbe vésik. A tét óriási, hiszen amíg az ausztrál kikötőkben a munkások leteszik a szerszámot, az európai indexek azonnal az égbe szöknek ahelyett, hogy a tengerentúli Henry Hub békés stabilitását követnék. A gyakorlati csavar az, hogy amíg a cégek centeken vitatkoznak egy tenderen, a MET Csoport hosszú távú fixálással menti a menthetőt, előhúzva a tarsolyból a 2028-as 41 eurós, a 2029-es 30 eurós és a 2030-as 26 eurós határidős árakat. Ez a pénzügyi kalandregény a MET Csoport fizetett promóciójaként látott napvilágot."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -5260,7 +5650,11 @@
           "body": "Téli sportok rovat: Galló Vilmos, a finn első osztályú KooKoo magyar csatára hivatalosan is bejelentkezett a klubtörténet örökös helyi istállóiba azzal, hogy 2026. november 20-án a Kärpät elleni hosszabbításos diadal során passzolt egyet, amivel leköpte a múltba Juha-Pekka Haataja 159 pontos korábbi csúcsát. A klub nem bízta a véletlenre a méltatást: a november 27-i HPK elleni hazai bajnoki meccsre kereken 160 darab jutányos, 16 eurós jegyet dobnak piacra, köszöntik a csatárt, tematikus relikviákat árulnak, a bárpultnál pedig „Magyar Hurrikán” néven mérik az ünnepi italt. A két menetben, három év kihagyással kistafírozott kouvolai hős most a történelem élére állt, miközben a csapat a Liiga tabellájának legmélyén próbálja túlélni a szezon viharait egy edzőcserét követően."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -5582,7 +5976,11 @@
           "sourceHash": "9a3db6329ab17f62c00ae1174f44efa57749f2658723f4d2b3af944fcc26be5a",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -5792,7 +6190,11 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -5844,7 +6246,11 @@
           "body": "A Médiapart pletykái szerint Teddy Riner cselgáncsbajnok Pullman Rent nevű autókölcsönzője több millió eurót gombolt le VI. Mohammed marokkói királyról, miután a cég forgalmának kilencven százalékát az uralkodó franciaországi furikázása teszi ki. A dolog szépséghibája, hogy az adóhivatal azonnal lecsapott a bajnokra a cég autóinak ingyenes használata miatt, míg a család a király marrákesi szállodájában lakott, és a felek 2024-ben még egy marokkói riádot is alapítottak 2026 áprilisi nyitással. Ez a külföldi pénzügyi pofon ékesen bizonyítja, hogy a tatamin osztott ipponok után a luxusautók és a királyi paloták környékén is komoly összecsapások zajlanak."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -5925,7 +6331,11 @@
           "body": "Az Auchan rákapott a nagy átalakítások ízére, és a hétéves nagyterv keretében 2032-re nemcsak az országot hálózza be többféle bolttípussal, de a forgalmát is a háromszorosára lövi. A solymári bemelegítés után november 27-én a főváros X. kerületében, Újhegyen nyit meg a szupermarketből gyúrt kompakt hipermarket, decemberben pedig Miskolc is sorra kerül az új generációs hullámban. A polcokat átpakolták, a zöldség-gyümölcs és a csemegepultok új arcukat mutatják, ráadásul Solymáron már közel száz digitális kütyü, egy 16 négyzetméteres LED-fal és egy roppant okos, borválasztást vezénylő mesterséges intelligencia is lesi a vásárlók minden kívánságát."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6001,7 +6411,11 @@
           "body": "A Rheinmetall külföldi fegyvergyártó óriás november elején, három hónapon belül elegánsan másodszor is visszavágta a jövőbeli becsléseit, így 2026-ra 13,7–14,2 milliárd helyett csupán mintegy 13,2 milliárd eurós bevételt vizionál, a marzsot pedig 19-ről 18,5 százalékra rántotta vissza. A gyakorlatban ez azt jelenti, hogy a német hadsereg Arminius programjának pénzei és a lőszereladások hozománya elegáns ívben 2027-re tolódtak, miközben a raktárakban tornyosuló portékák lenyelték a cég szabad pénzét, mínusz 1,7 milliárd eurós cash flow-t eredményezve. A külföldi börzén a kezdeti 13 százalékos zakó után a befektetők hirtelen meggondolták magukat, és csütörtökön 4,1, pénteken pedig 3,9 százalékos pluszba lőtték a részvényeket. Így fest, amikor a csúszások és a készlethegyek ellenére a papírok mégis szárnyalni próbálnak a Xetrán."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -6303,7 +6717,11 @@
           "sourceHash": "c9f59fb11710f664311e0cc1ff3207526d10f70cdda2b5fe2267c08f3a838350",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6497,7 +6915,11 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6574,7 +6996,11 @@
           "body": "Volodimir Zelenszkij ukrán főnök egy angol nyelvű interjúban akadt ki teljesen azon, hogy Donald Trump amerikai elnök egy kínai csúcstalálkozón, majd a Truth Social felületén is \"Barátom\" címmel, büszkén kezet rázott a gyilkos agresszor Vlagyimir Putyinnal. Az ukrán vezető szerint ez már annyira túlzás, hogy ennyi erővel akár Hitlerrel is cimborálhatna az amerikai partner. A két potentát viszonya eddig sem a békés kávézásokról szólt: tavaly februárban az Ovális Irodában Trump már kiosztotta Zelenszkijt, amiért az nem hajlandó öltönyt húzni a háború kezdete óta, és a mesebeli hálát is kevesellte. A legfrissebb fordulatok szerint azóta sem csillapodtak a kedélyek, hiszen Trump az orosz olajfinomítók elleni ukrán rakétacsapásokra fogja a magas energiaárakat és a hírszerzési infók megvonásával fenyegetőzik, míg Zelenszkij konstatálása szerint ez a fajta amerikai politika csak arra jó, hogy odabent még nagyobb kedvet kapjanak a folytatáshoz."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6649,7 +7075,11 @@
           "body": "Belföld rovat: Tajvan, ez a kis szigeti hardver-nagyhatalom éppen olyan tempóban zúuz előre a mesterséges intelligencia hátán, hogy az idei évre várt, több mint tizenhárom százalékos bővülése 1978 óta a leggyorsabb növekedési ütemet hozza, a 2027-es prognózis pedig simán lepipálja a korábbi 6,04 százalékot. Miután a gazdaság zsinórban négy negyedéven át produkált két számjegyű ugrást – amire közel harminckilenc éve nem akadt példa a 2010 óta látott 8,8 százalékos 2025-ös év után –, a befektetők máris a fejüket fogják az amerikai exporttilalmak és Jensen Huang rövid távolléte miatt. Caj Jütaj statisztikai főnök nyomban óvatosabbá vált a bizonytalan határok miatt, de Kung Minghszin gazdasági miniszter hétfőn megnyugtatott mindenkit: a rendelésállomány betonbiztosan kitart egészen 2029-ig."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6731,7 +7161,11 @@
           "body": "Magyarország békés rögmein egyszerre vetik bele magukat a jövőbe, hiszen Székesfehérváron és Zsámbékon olyan high-tech kutatóközpontok alapköveit rakják le, amelyek mellett még egy sci-fi díszlet is elszégyellné magát. Székesfehérváron egy több mint hatezer négyzetméteres, háromrészes komplexum – ízig-vérig laborokkal, ISO-besorolású csili-vili tisztaterekkel, öttonnás híddarukkal és még egy focipályának is beillő biomechatronikai csarnokkal – veszi célba, hogy a közép-kelet-európai régió legmenőbb orvostechnológiai főhadiszállása legyen. Ráadásul Zsámbékon sem tétlenkednek, ott egyetlen határozott csapással, ezer új növénnyel körbevéve húzzák fel a jövőipari tudományos parkot. A beton, a tudomány és a mobil lelátós rendezvényterek összefonódásából pedig olyan üzem jön létre, ahol a kutatók akár egy étterem kínálata mellett oldhatják meg a világ sorsfordító rejtélyeit."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6810,7 +7244,11 @@
           "body": "Az Ukrenergo legújabb házhoz szállítási szolgáltatásaként az SZBU legényei Líbia partjainál porrá zúztak egy orosz hadihajót meg egy teherhajót, nem is sajnálva a drónokat a precíz munkához. A NATO-ban most a körmüket rágják a békésnek hívott irodákban, mert szerintük ez a kis afrikai kiruccanás pont olyan láncreakciót indíthat be, mint amikor a dominósor elejét megpöckölik a Fekete-tengeren. Arturo Varvelli, az Európai Külkapcsolatok Tanácsának szakértője máris kiszámolta, hogy a legnagyobb poén az lenne, ha Líbia váltana hirtelen Ukrajna és Oroszország új homokozójává, alig néhány száz kilométerre az olasz pizzahelyektől. Moszkvában persze nagy az arc és bosszút ígérnek, de a megcsappant hadiflotta és a miszrátai bázis körüli bonyodalmak miatt valószínűleg maradnak a kevésbé látványos, aszimmetrikus bosszankodásnál."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -6862,7 +7300,11 @@
           "body": "Ódor Lajos nyilatkozata pontosan célba veszi a magyar kormány euróbevezetési terveit, az elszámoltatás határidejét és a hazai parlamenti ügyeket. A gyakorlati tanulság roppant egyszerű: az új magyar kormány elhatározta a közös valuta átvételét, de jövőre óvatos költségvetési korrekciókkal operál, és a nagy elosztási rendszerekhez bizony ujjat sem mer nyúlni. Ha az elszámoltatásban két-három éven belül nincs lezárt ügy, akkor a nép szemeben az egész mindenség csak egy sima, politikai indíttatású hajszának fog látszani. A szlovák korona egykori lebegését és a kormányok szokásos brüsszelezését maga mögött hagyva a gazdaság hajója most új vizekre evez."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -6922,7 +7364,11 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -6953,7 +7399,11 @@
           "body": "A kecskeméti egyetemet fenntartó Neumann János Egyetemért Alapítvány (NJEA) kuratóriumi és felügyelőbizottsági tagjai 2020 és 2026 között csinos, összesen 858 millió forintos tiszteletdíjat szedtek össze, ami havonta bruttó egymillió forint feletti fix összeggel gazdagította a belföldi potentátokat. Ezt a pénzesőt a helyi potentátok azután könyvelhették el, hogy az alapítvány csekély 127,5 milliárd forintot kölcsönadott az MNB-birodalom Optima Zrt. nevű cégének, amely azóta is sikeresen elherdálta a vagyont, és képtelen visszafizetni a tartozást. A felek egy korábbi megegyezéssel 14 milliárd forint értékben átvettek egy félbehagyott építkezést, így már „csak” 113,5 milliárd forintot kellene valahonnan előkeríteniük."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -7028,7 +7478,11 @@
           "body": "A Winston, a Kool és a Gauloises márkák felett uralkodó brit gyártó, az Imperial Brands, valamint az Altria és a Japan Tobacco egy olyan grandiózus hármas bulira készül, ahol a cégvagyont földrajzi szeletekre vágva osztják szét egymás között, noha a brit cég csütörtöki állapota szerint hivatalos vételi ajánlatot még hírből sem láttak. Az üzlet legfőbb szépsége, hogy a darabolással elegánsan kikerülik a versenyhatóságok morcos tekintetét, miközben a tüdőre menő meccset is felveszik az e-cigarettákban és nikotinpárnákban utazó riválisokkal, a Philip Morris Internationallel és a British American Tobaccóval. Mivel mindhárom cég belefagytak a hagyományos cigarettákba – az Altria bevételeinek 90 százaléka, a másik kettőnek pedig a szinte egésze ebből csorog be –, a zsugorodó WHO-statisztikák és a WHO adatai szerinti 1,2 milliárdra apadt dohányzó-tábor árnyékában kénytelenek lépni, amit a tőzsde azonnal meg is ünnepelt: az Imperial Brands árfolyama csütörtökön több mint 13 százalékos pluszban zárt, a Japan Tobacco papírai pedig pénteken 4,5 százalékot ugrottak Tokióban. Ha az évtized üzletéből valóság lesz, és az Imperial Brands harmincéves tőzsdei pályafutását egy határozott mozdulattal kivezetik az FTSE 100 indexből, azzal a londoni értéktőzsde kap egy újabb gyomrost a kibocsátók folyamatos elvándorlása közepette."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -7103,7 +7557,11 @@
           "body": "A Volkswagennél és az IG Metall szakszervezetnél alaposan összecsaptak a felek, mivel a cégcsoport kasszájában az egy évvel korábbi 5,4 milliárd euró helyett csupán 71 millió euró maradt az első kilenc hónapban. Az emdeni körtánc eredemény nélkül véget ért, így a menedzsment kétéves bérbefagyasztással, juttatások nyirbálásával, a 35 órás munkahét átfaragásával és a korábbi 35 ezres leépítési terven felül további 12 ezer állás megszüntetésével reagált, ami az emdeni és a zwickaui gyár sorsát is kérdésessé teszi. A felek december 15-én Zwickauban próbálkoznak újra, de mivel az év végén lejár a sztrájktilalom, az IG Metall január 1-jén akár be is indíthatja a figyelmeztető sztrájkot. A külföldi gazdasági téren zajló német autóipari háborúban a Volkswagen vezetése és a szakszervezet feszül egymásnak."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -7190,7 +7648,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -7275,9 +7737,17 @@
               "title": "Hatvanöt hivatalnok búcsúja a budapesti kassza csodás egyenlegétől",
               "body": "A Fővárosi Közgyűlés pénteki cirkuszában tiszás és fideszes képviselők üvöltöztek egymással versenyt, míg Karácsony Gergely főpolgármester egy óriási mozdulattal lehúzta a rolót a Főpolgármesteri Hivatal hatvanöt jelenlegi dolgozójáról és harminchat betöltetlen álláshelyéről. A kormánnyal kötött huszonegyedik századi alku savát-borsát az adja, hogy 2027. március 1-jétől a hivatalnak hirtelen elő kell teremtenie a húszmilliárdos spórolás egymilliárdos személyi áldozatát. Ettől a ponttól kezdve a hivatali büfében már csak a papírfecnik fognak zörögni a létszámracionalizálás jegyében."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -7382,9 +7852,17 @@
               "title": "Hitelközvetítés gyanúsan: mikor a százmillió is olcsóbb a jogosultságnál",
               "body": "A Magyar Nemzeti Bank alaposan rácsodálkozott a kecskeméti székhelyű LAGABE Kft. üzleti modelljére, amely engedély nélkül, ám annál nagyobb lendülettel vetette bele magát a pénzügyi közvetítés háborgó tengerébe. A cég kétszázötven ügyféllel kötött szerződést adósságrendezésre hivatkozva, miközben a honlapján úgy festette le magát, mintha maga a pénzügyi mennyország hivatalos képviselője lenne. A móka vége egy csinos, 105 millió forintos piacfelügyeleti számla lett, a hatóság ugyanis azonnali hatállyal behúzta a kéziféket, és betiltotta a további haknizást."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -8387,6 +8865,10 @@
               "title": "Ahol a napelem királyai és a papíron létező cégek egymásnak adják a kilincset",
               "body": "A Transparency International bosznia-hercegovinai csapata csütörtökön letette az asztalra a Zagledni/Példaképek című, több mint félórás dokumentumfilmet, amely Orbán Viktor volt magyar miniszterelnök és Milorad Dodik volt boszniai szerb elnök szoros barátságának pénzügyi hátterét világítja meg. A belföldi szálakon futó történetben a magyar Eximbank pénzesője és a hazai cégek balkáni kalandjai keverednek, miközben a kutatók Budapesten még a kaputelefonon sem találták meg a titokzatos magyar vállalat nevét. A főszerepbe lépő, mintegy 50 millió eurós trebinjei naperőmű-beruházás koncessziója pályázat nélkül vándorolt a Lugos Renewableshez, majd a kivonulás után egyetlen év alatt milliárdossá hízott az árbevétel és alkalmazottak nélküli Mayer NRG Kft. A többéves jogi csatározás áraként megszerzett iratokból kiderül, hogyan épül fel egy olyan birodalom, ahol a zálogjogok hálójában még a Quaestor-idők emlékei is felbukkannak a NER kegyeltjei mögött."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -8439,6 +8921,10 @@
               "title": "A 50 milliós napenergia-rejtély: amikor a cég neve még a kaputelefonnak is túl titkos",
               "body": "A Transparency International bosznia-hercegovinai csapata csütörtökön dobatta be a közösbe a Példaképek című oknyomozó művet, amely Orbán Viktor volt magyar miniszterelnök és Milorad Dodik volt boszniai szerb elnök barátságának pénzügyi anatómiáját boncolgatja. A mozi fő száma a déli Trebinje mellett tervezett, csekély 50 millió eurós naperőmű-projekt, amelyben a Lugos Renewables és a Mayer NRG Kft. jött, látott, és pályázat nélkül, illetve tulajdonosváltással vitte a boltot. Az alkotók többéves jogi huzavona után jutottak iratokhoz, Budapesten pedig akkora sikerrel keresték a magyar cég székhelyét, hogy még a kaputelefonon sem akadt nyoma a névtáblának."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -8747,7 +9233,11 @@
           "sourceHash": "08a9ec0c5f193fe98c02aeb560040c6a8118f4c6afa1fd058f66e523b4aef2e6",
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -8778,7 +9268,11 @@
           "body": "A Transparency International boszniai fiókja csütörtökön dobnia ki a piacra Példaképek című dokumentumfilmjét, amely Orbán Viktor volt magyar miniszterelnök és Milorad Dodik volt boszniai szerb elnök barátságának pénztárcáját veszi górcső alá a filmek rovatban. A YouTube-on ingyen nézhető magyar-szerb opus a boszniai Szerb Köztársaságnak adott magyar hiteleket és a trebinjei, kereken 50 millió eurós naperőmű-bulit veszi górcső alá, ahol a Lugos Renewables és a Mayer NRG Kft. is feltűnik a színen. A szakértők szerint az Eximbank pénzén rajtoló magyar cégek verseny nélkül zsebelték be az üzleteket, míg a film készítői még Budapesten sem találták meg a cég nevét a kaputelefonon, mielőtt a két főhős a kandalló mellett pálinkázni kezdett volna."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -9899,7 +10393,11 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -10179,7 +10677,11 @@
           "body": "November közepén mindenféle ünnepélyes szalagátvágás nélkül lehúzta a rolót a Fidesz erdélyi választási megafonja, a Transzilván, amely mögött a fideszes Zsigmond Barna Pál és az RMDSZ-es Portik Vilmos állt. A Facebook-, Instagram- és YouTube-csatornákat egyszerűen lesöprték a pályáról, a TikTokot pedig lakat alá rejtették, így a nézők mostantól csak a hűlt helyét bámulhatják az egyéves kampánycirkusznak. Miközben a videók szőrén-szálán eltűntek, a háttérben ketyegő, Aitmetica névre átkeresztelt cég pénztárcája azért rendesen kigyúrta magát, mert a korábbi évek 297 ezer lejes bevételét hamarosan már bő egymillió lejes summákra tornázták fel. Portik Vilmos lapunknak megmondta a frankót: a Transzilván ebben a formában kuka, és ha valaha mégis feltámad hamvaiból, ott aztán garantáltan nem lesz más, csak tiszta kultúra meg sport."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -10336,7 +10838,11 @@
           "body": "Nincs megegyezés az EU 2028–2034-es költségvetéséről a brüsszeli csúcson, miután António Costa és Ursula von der Leyen tizenegy perc alatt lezavarta a sajtótájékoztatót, a vezetők pedig szétszéledtek, mint a vadnyulak, lefújva a találkozó második napját. A pénztárcák feletti küzdelemben a takarékos hetes még a lefaragott 1780 milliárd euróból is lecsípne 46 milliárdot, miközben a kohéziós országok és a franciák a saját jussukat féltik. António Costa hiába próbálta kisebb asztalokhoz terelni a feleket, a miniszterelnökök olyan távol kerültek egymástól estére, mint reggel, Magyar Péter pedig egyenesen feleslegesnek nevezte az egészet. A felek most decemberre halasztották a pókerezést, amikor a francia elnökválasztás árnyékában mindenki a saját tétjét próbálja majd betolni a közös kassza asztalára."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -10525,7 +11031,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -10603,7 +11113,11 @@
           "body": "A Bloomberg friss jelentése szerint a német gazdaság pontosan úgy fest, mint egy kétfejű sárkány, amelynek az egyik fele vidáman szárnyal a hadiiparnak és a csipeknek köszönhetően, a másik meg épp az árok szélén pihenteti az autóit. A külföldi piacok viharaiban manőverező németeknél Martin Ademmer közgazdász negyedévente stabil 0,2 százalékos növekedést vár a feldolgozóipartól, a kormány gazdasági tanácsadói pedig 1,3 százalékos GDP-bővülést vizionálnak erre az évre. A siker szekerét most a mesterséges intelligencia tüze és a védelmi kiadások húzzák, míg olyan szereplők, mint az Infineon Technologies vagy a Carl Zeiss, csendben megpakolják a zsebeiket. Clemens Fuest, az Ifo intézet vezére persze azonnal rácsapott a fékre, emlékeztetve mindenkit, hogy a magas energiaárak és a krónikus reformhiány miatt a buli nem tarthat örökké."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11001,7 +11515,11 @@
           "body": "November 24-én az Anthropic bebizonyította, hogy a Claude felhasználóinak elegendő emberi szavakkal beszélniük ahhoz, hogy programokat készítsenek, amelyeket aztán azonnal felpattinthatnak a Mac vagy Windows gépeikre. Ez a technológiai újítás nulla programozási tudást kér cserébe, de cserébe alaposan átkavarhatja a nagy szoftvergyártók eddig kényelmes életét. Aki pedig a legfrissebb fejlesztéseket és részleteket is látni akarja, az előfizethet a Portfolio Signature PRO-ra havi 2 990 forintért, vagy lecsaphat az éves bérletre 29 845 forintért, ami lényegében tíz hónap áráért kínál tizenkét havi olvasnivalót. Nem rossz üzlet egy olyan világban, ahol a mesterséges intelligencia írja helyettünk a programokat."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -11172,7 +11690,11 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11511,7 +12033,11 @@
           "body": "A devizapiacon az euró épp tizenegy százalékos zakóval zárja az évet a jüannal szemben, miközben a 7,3095-ös árfolyamon küzd a túlélésért a külföldi rovat megbízásából. Az európai vezetők nagy bánatára ez a kis mozgás sem segít a bajon, hiszen az EU szeptemberi kínai számlája napi szinten is fájdalmas, összesen 41,7 milliárd eurós mínuszt hozott a konyhára. Trang Le számításai szerint, ha a francia elnökválasztás nem kavarja fel a pocsolyát, 2027-re a devizapár visszamászik a 7,4 és 7,5 közötti kényelmesebb sávba. Friedrich Merz kancellár persze arra esküszik, hogy a jüant harminc százalékkal direkt tartják lefele, de a kínai jegybank szerint Európa csak a rossz táncos esettet adja elő az árfolyamra fogva a bajait."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -11564,7 +12090,11 @@
           "body": "Az agrártárca átvilágítási felelőse, a július 1-jétől kinevezett, majd augusztus 14-én az agrárkamara átalakításával is felvértezett Zoltán Péter miniszteri biztos benyújtotta a minisztérium történetének első feljelentését, amit a rendőrség örömmel be is fogadott. A gyakorlatban ez azt jelenti, hogy a kamara eddigi, gyanúsan laza, de bírósági papírt nem látott pazarlási ügyei végre átlépték a rendőrség küszöbét. Amikor a HVG a földárverések sötét titkairól faggatta, a biztos hűvösen tisztázta: a társadalom által követelt, börtönért kiáltó legendák és népi pletykák kibogozása nem a minisztérium asztala."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11640,7 +12170,11 @@
           "body": "A Nemzetközi Stratégiai Tanulmányok Intézete (IISS) csütörtöki jelentése szerint az utóbbi egy évben szépen megduplázódott a robbantások és gyújtogatások száma, ami közvetlenül Németországot, Lengyelországot és az ukrán segélyszállítmányokat célozza. A móka gyakorlati eredménye az, hogy egy komolyabb katasztrófa esetén az európai kormányok remekül összeveszhetnek egymással, miközben Moszkva központi tervezéssel próbálja túl drágává tenni Kijev támogatását. A 2025 októbere és 2026 szeptempere közötti időszakban csak Lengyelországban 29 moszkvai eredetű balhét regisztráltak, beleértve egy tavaly novemberi vasúti robbantást is a Varsó és az ukrán határ közötti vonalon. A külföld rovat jelenetében Jared Kushner amerikai főmegbízott még dicsérte is Putyin önmérsékletét, holott az európai hatóságok fülöpke- és konzulátusbezárási akciói eddig csupán annyit értek, hogy a Kreml hálózatai továbbra is zavartalanul időzítenek."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -11671,7 +12205,11 @@
           "body": "A belföldi közvélemény-piacon Hann Endre igazgató osztotta az észt a Magyar Hangnak arról, hogy a Fidesz utóvédharca nagyban hasonlít a Titanic utolsó perceihez, különösen a Seszták-ügyös fotómilliárdok után. A matematika rideg valóságaként április óta a 2,5 milliós szavazóbázis fele füstté vált, így a maradék 1,2 millió hívővel kell kihúzni a november eleji Medián-mérésekig, ahol a Tisza Párt 55, a Fidesz pedig 16 százalékon tanyázik. Mivel Orbán Viktort sem lenyelni, sem kiköpni nem bírja a saját csapata, Hann bátor logikával rámutatott: a vezér maga a probléma, nem a megoldás a belföldi porondon. A tisztítótűz nevű házibuli pedig rendületlenül zajlik tovább, miközben a kormánypárt morzsákra hullik."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -11702,7 +12240,11 @@
           "body": "A Fővárosi Közgyűlés legfrissebb ülése máris bebizonyította, hogy a belföldi politikai csatározások mezején a számok gyilkosabbak a szavaknál, miközben Karácsony Gergely és a kormány friss alkuján rágódnak a képviselők. A nagyszabású terv szerint 2027-ben 2026-hoz képest kapásból legalább 20 milliárd forinttal faragják le a főváros működési kiadásait, aminek áldozatul esik a Főpolgármesteri Hivatal is: egymilliárd forintos személyi kiadáscsökkentéssel pontosan száz állást húznak le a térképről az 1035 betöltött pozícióból. Persze a költségvetési pofon nem marad házon belül, hiszen Böröcz László mérései szerint a spórolás 13 kerületet taszít majd minimum egymilliárdos veszteségbe, ráadásul a kerületektől még további 10–15 milliárdot is elvonnak. Míg a harminc napirendi pont között a rákosrendezői tervektől a közbiztonsági vészhelyzetig minden előkerül, a főpolgármester és a bíráló urak vitája hamar világossá tette: a számlát a végén valaki úgyis kifizeti."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -11807,7 +12349,11 @@
           "body": "A Hszinhua jelentése szerint a kínai kabinet megelégelte a sírást, és a Central Huijin állami befektetési alapot kvázi stabilizációs mentőövvé avatva rántotta ki a pácból a Shanghai Composite, a CSI 300, a STAR 50, a Hang Seng, valamint a Hang Seng Tech indexeket, míg a félvezető-, MI-, felhő- és szórakoztatóelektronikai szektor mutatói 2 és 16 százalék közötti magasságokba lőtték magukat. Az állami hátországnak köszönhetően a régóta savanyú képű befektetők hirtelen kávét kaptak a vérükbe, látva, hogy a bürokrácia nem hagyja elsüllyedni a tőzsdét. Miközben a hosszú távú alapokat részvényvásárlásra terelik, és a külföldi mumusok ellen is fegyverkeznek, azért az amerikai–kínai vámháború és a csiphiány még simán tartogat néhány kacagtató bukfencet a tőkepiacokon. E pörgős, távoli pénzügyi manőverek pontosan megmutatják, hogyan táncol együtt a politika és a nemzetközi tőzsdék vad világa."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -11893,6 +12439,10 @@
               "title": "Nindzsák a belföldi kassza környékén",
               "body": "A Kisfaludy program nevű pénzesőből 16,6 milliárd forint vándorolt át a határokon túlra, hogy a belföldi turizmust gyarapító forrásokból Vargyason és Csíkszeredán landolva épüljön kastély, gokartpálya, meg persze egy trambulinparkokkal és nindzsapályákkal felszerelt, tavaly még veszteséges Play More Entertainment nevű oázis is. A 170 kedvezményezett között szétosztott milliárdok 60,3 százaléka a jelentkezők mindössze 0,5 százalékánál csapódott be, név szerint Tiborcz István, Orbán Ráhel és Mészáros Lőrinc birodalmának köreiben. Miközben a vargyasi Esztergom SRL szálai egészen Hernádi Ádám korábbi turisztikai tisztségviselőig és a Magyar Turisztikai Ügynökségig vezetnek, a szlovákiai magyar milliárdos, Világi Oszkár cége is kέσеült a vidéki turizmus helyi örömeiből."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -11920,9 +12470,17 @@
               "title": "Milliárdos körhinta a határon túl, ahol a kevés még mindig sokkal többet ér",
               "body": "A Kisfaludy-program keretéből 16,6 milliárd forint vándorolt határon túli szállodafejlesztésekre és attrakciókra, miközben az Orbán-kormány eredetileg a magyarországi turizmus felturbózását tűzte ki célul. A támogatási rendszerben nem aprózták el a nagylelkűséget: a 170 kedvezményezettből a top 10 simán bezsebelt valamivel több mint 9 milliárdot, a mezőny felső 22 százaléka pedig az összes pénz 84,9 százalékát mondhatta magáénak. A romániai, szlovákiai, ukrajnai és szerbiai településekre hulló milliárdokból épülő külföldi szállodák nehezen hozzák majd helyzetbe a hazai kiskereskedelmet vagy a magyar GDP-t. Így aztán a belföldi turizmus élénkítésére szánt kassza pénze határon túli luxusprojektekben landolt, miközben a hazai gazdasági növekedés ezen a ponton elég nehezen keresi a helyét."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -12016,7 +12574,11 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -12106,7 +12668,11 @@
           "body": "A Portfolio Business podcast friss epizódjában Dancsné Engler Bernadett, az OTP Bank mikro- és kisvállalkozói góréja, meg Bogyó Sándor, a Piacra lépők első évadának verhetetlen bajnoka ült le kitárgyalni, miként lesz a Z generációs egyetemi kísérletezgetésből nemzetközi sikersztori. A technológiai fejlesztések frontján mozgó beszélgetésből kiderül, hol a határ a délutáni hobbiprojekt meg a milliós cég között, mikor érdemes pénzt kérni másoktól, és miért nem elég a boldogsághoz egy magas letöltésszám. Az OTP pénzén összedobott adót már most bújhatja mindenki a Spotify-on, az Apple Podcasten vagy a cikkbe épített lejátszóban, mielőtt a bankosok elszámolják a kamatokat."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -12135,7 +12701,11 @@
           "body": "Szabadi István, a Mi Hazánk képviselője jól irányzott, szóbeli választ igénylő kérdéssel bombázta a miniszterelnököt, mivel a Parlamentben és az irodaházakban még mindig falba ütközik, aki a Kuruc.info oldalára tévedne. A politikus szerint Kövér László házelnöksége alatt pecsételték meg a portál sorsát önhatalmúlag, ami szerinte ékes példája a cenzúrának és a szólásszabadság földbe döngölésének az Országház falai között. A képviselő úgy látja, a hírportál hasznos munkát végez, sőt olyan nagyágyúkat leplezett le, mint a Kubatov-listák vagy Orbán Áron ügye, így védhetetlen a minden olvasót sújtó tilalom. A kérdéscunamit végül egy elegáns, mégis súlyos fordulattal zárja a miniszterelnök felé: „Mit gondol erről, miniszterelnök úr?”"
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -13049,7 +13619,11 @@
           "body": "Az uniós vezetők hirtelen rájöttek, hogy ha jövőre Franciaországban, Olaszországban, Lengyelországban, Görögországban, Észtországban, Finnországban és Szlovákiában is urnákhoz járulnak, akkor gyorsan meg kell szavazniuk a közel 1600 milliárd eurós büdzsét, mielőtt a politika elsodorja a békét. Emmanuel Macron és Friedrich Merz kancellár gyorsan le is zsernizte a naptárt, és 2026. december 31-ét szabta meg végső határidőnek, mondván, utána már a saját árnyékuktól sem tudnak megszólalni a választási láz miatt. A pénztárcák mélyén persze azonnal kitört a botrány, amikor 45 milliárd eurós hitelt akarnak varrni Ukrajna nyakába, amit csak orosz jóvátételből fizetnének vissza, mire Magyarország, Szlovákia, Csehország és Bulgária azonnal nemet intett a közös kasszára."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -13174,9 +13748,17 @@
               "title": "A Fehér Ház Pingpongja és a Késlekedő Patriotok esete",
               "body": "Zelenszkij ukrán elnök a BBC-nek elmesélte, hogy miközben az amerikai különmegbízottak, Steve Witkoff és Jared Kushner hónapok óta sikertelenül pingpongoznak a békével Abu-Dzabiban, Washington valahogy eltévedt a Közel-Kelet homokdűnéi között. A legfontosabb gyakorlati következmény az, hogy a Patriot-rakéták és a Starshield-rendszer hiánya miatt az ukrán drónegységek tehetetlenül nézik, amint az orosz Sahedek zavartalanul száguldanak Kijev felé, ahol a hidak bombázása és a fagyos telek miatt a lakosság és a vállalkozások is menekülőre fogják. Trump persze barátként öleli keblére Putyint, a SpaceX pedig széttárja a karját a kommunikációs korlátozások miatt, így a harctéren maradt ukránoknak kell megvédeniük azt a fővárost, amely nélkül nincs ország. Az eseménysorozat tökéletesen illeszkedik a Külföld rovat palettájára, hiszen a nagyhatalmi vakfoltok, a közel-keleti rangsorolás és a fegyverszállítási csúszások pont olyan nemzetközi káoszt teremtenek, amely a saját bőrén érzi a washingtoni tétovázás következményeit."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -13250,7 +13832,11 @@
           "body": "Donald Trump amerikai elnök a floridai Mar-a-Lago napfényes menedékéből kacsintott ki a december 14-i és 15-i G20-csúcs felé, kijelentve: semmi akadálya, hogy Vlagyimir Putyin is tiszteletét tegye az amerikai asztalnál. A Kreml gyorsan lehűtötte a kedélyeket a csütörtöki hírével, miszerint Putyin még fontolgatja a dolgot, ráadásul a hazai pálya ügyeit is rendeznie kell az utazás előtt. Mielőtt még bárki megnyugodna, Trump a Truth Social felületén gyorsan nyomatékosította is: az ukrajnai háború gyors rendezése érdekében szeretné elérni, hogy Oroszország visszafogja az európai területek elleni katonai agresszióját."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -13309,6 +13895,10 @@
               "title": "Hóban utazó frontok és a hétvégi fagyos túlélőshow",
               "body": "Pénteken a természet úgy döntött, hogy északon és a hegyekben fehérbe öltözteti a tájat, míg keleten már esőre és havas esőre váltott a műsor, alaposan próbára téve a környezet és az utazók idegzetét. A mérőpálcák sem maradtak tétlenek: Bánkúton 5, Mátraszentistvánon 7, Kékestetőn 2, Visegrádon pedig 15 centi hó gyűlt össze, a dunántúli szél pedig igyekezett mindenkivel tudatni, hogy reggel 2, délután meg 3 fok van a térségben. A HungaroMet jelentése szerint a hétvége aztán véget vet a vizes kalandoknak, mert jön a száraz, napos, de csont hatoló hideg, ahol a hajnali −4, +4 fokról délutánra legfeljebb 0, +7 fokig kúszik fel a higanyszál. Az északias légmozgás ráadásul a nyugati megyékben és a keleti-északkeleti tájakon még utolsó utáni erővel meg is élénkül, mielőtt mindent belepne a fagy."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         },
         {
@@ -13360,9 +13950,17 @@
               "title": "Havazás a láthatáron: amikor a HungaroMet is kabátot húz",
               "body": "Pénteken a HungaroMet jelentése szerint több hullámban érkezik a csapadék, és az ország északnyugati, nyugati harmadában meg a hegyekben olyan lelkesen hullik a hószállingózás meg a havazás, hogy még egy kis ónos eső is belefér a kínálatba. Ennek a meteorológiai kavalkádnak köszönhetően a hőmérséklet nappal 0 és +7 fok között liftezik, éjszaka pedig -2 és +5 fok közé hűl. Szombaton a felhők dél felé veszik az irányt, és menet közben ónos szitálással, havazással meg esővel szórják meg a tájat, míg reggelre -4 és +4 fok közé csökken a higanyszál. Vasárnap aztán északkeleten kisüt a nap, a csapadék elcsendesedik, a reggeli -5 fokos hideg pedig délutánra megáll 0 és +5 fok között."
             }
+          },
+          "commonsPhoto": {
+            "unavailable": true,
+            "version": 4
           }
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -13462,7 +14060,11 @@
           "body": "Az Országgyűlés patinás falai között, a belföldi parlament porondján terítékre került az egészségügyi tevékenység végzésének egyes kérdéseiről szóló törvény és az egészségügyi szolgálati jogviszonyról szóló törvény módosítása, ami alapjaiban rendezi át az egészségügyi dolgozók bérét. Az új rendszerben hat fizetési osztály és tizenöt fizetési fokozat várja a népet, szigorúan a végzettség és a gyakorlati idő stopperórája szerint mérve. Míg a belföldi politikai élet színpadán a kanadai kereskedelmi CETA-egyezménytől kezdve az Európai Ügyészségen át a minisztériumi címkézésekig mindenki a helyét keresi, a fehéren izzó egészségügyben legalább a táblázat lesz átlátható. Így aztán a közigazgatási pakliban kiderül, ki mennyi zsetont kap a végzettsége után."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -13541,7 +14143,11 @@
           "body": "Éjszakai drónshow rázta meg Oroszországban a Tula régióban fekvő jefremovi műkaucsukgyárat, ahol nem strandpapucsot, hanem az Iszkander rakétákhoz való szilárd rakéta-hajtóanyag alapanyagait gyártják nagyban. A robbanásösztönző találat a helyi hőerőművet sem kímélte, így a környék lakói fűtéskimaradásokkal gazdagodva bámulhatták a sötétülő radiátorokat, miközben Dmitrij Miljajev kormányzó szerint az orosz légvédelem hősiosan négy drónt leszedett, és hivatalosan csak három családi ház ablaka bánta a lehulló roncsok ügyetlenkedését. A gyár egyébként régi ismerőse az ukrán csapásoknak, hiszen 2025. december 24-én és 2026."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -13696,7 +14302,11 @@
           "body": "Politikai pártot alapítanak az albán egyetemisták Együtt Albániáért néven, miután a szerbiai mintát koppintva több mint fél éve az utcákat róják a belföldi parlament és a 2013 óta negyedik ciklusát gyűrő Edi Rama miniszterelnök ellen. A megmozduláshoz nemcsak a diákok, de szakértők, oktatók és a külföldre szakadt hazaiak is csatlakoztak, hogy az igazságosság és az átláthatóság jegyében intézményes keretek közé tereljék a forrongó kedélyeket. A májusban még a környezetbe illesztett luxusüdülők elleni tiltakozásból kinőtt, októberre tömegessé vált, már letartóztatásokat is hozó tüntetéssorozat az oktatási hiányosságok, a magas költségek és az elhelyezkedési gondok miatt csúcsosodott ki. Miközben a helyi elemzők óva intenek attól, hogy Albániában a régi ellenzéki dínomdánom erősebb és a törvények is keresztbe tesznek az újoncoknak, a szerb kollégák egy év egyetemfoglalás után az október 25-i parlamenti választáson már át is vették a kulcsokat a háztól."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14395,7 +15005,11 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -14423,7 +15037,11 @@
           "body": "Az ukrán csapássorozat alaposan átrendezte a tájképet a Kercsi hídon, ahol Vlagyimir Putyin személyesen felszentelt, csodásan védettnek hitt hódítási jelképe csúnyán megsínylette a találatokat. A precíz akció nyomán a büszke monstrum akár hónapokra is parkolópályára kerülhet, bár a Krím teljes elzárása még várat magára. Az orosz elnök valószínűleg most töri a fejét, hogyan adják el ezt a gyönyörű pofont a díszes palotában. A beton és az acél hamarabb fárad el, mint a makacs támadók."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14499,7 +15117,11 @@
           "body": "November 25-én az amerikai elnök és a NATO-főtitkár összeült a floridai Mar-a-Lago birtokon, hogy megtárgyalják az orosz–ukrán háborút meg az iráni ügyeket, majd a hivatalos papír kiadása után az elnök hirtelen jött ihlettől vezérelve, a Truth Socialon saját maga írta át a szöveget Ukrajnát is belekeverve az eszkalációs figyelmeztetésbe. A Politicónak nyilatkozó névtelen NATO-tisztviselő szerint ez sima egyszemélyes különkiadás volt, amire a Fehér Ház ráadásul meg sem nyikkant válaszként. Mivel a Merkurij nevű orosz korvett november 23-án a líbiai Bengázinál már a fenékre került, a lengyel légtérbe pedig rendszeresen bejárnak az orosz rakéták, Varsóban felvetették, hogy a NATO-nak talán ukrán terület felett kellene elkapnia ezeket. December 2-án Brüsszelben úgyis leülnek megrágni a dolgot a külügyminiszterek, miután Giorgia Meloni és Johann Wadephul november 26-án külön-külön is rácsodálkozott a háború terjeszkedési kedvére."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14575,7 +15197,11 @@
           "body": "A floridai Mar-a-Lago napfényes rezidenciáján Donald Trump amerikai vezér, valamint kínai és orosz kollégái, Hszi Csin-ping és Vlagyimir Putyin összeültek egy kis háromoldalú teázásra, hogy megtárgyalják az Iránnal fennálló aprócska konfliktust. A nemzetközi csúcsforgalom ezen állomásán az elnök újságíróknak elmesélte, hogy Moszkva és Peking nagyjából annyira avatkozik be az iráni ügyekbe, mint egyszeri turisták a helyi kultúrába, de azért hírszerzési infókat átdobnak a kerítésen. A külföldi ügyek rovatába illő pletykálkodás végeredménye az lett, hogy Trump szerint az oroszok és a kínaiak is a békét szorgalmazzák, és inkább információmegosztással segítenek, semmint hogy fegyverrel rohanjanak a csatába. Az amerikai vezető megfogalmazásában a beavatkozás azt jelenti, hogy a nagyhatalmak végre nem lövöldöznek egymásra, hanem kedvesen megosztanak néhány hasznos titkot."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14651,7 +15277,11 @@
           "body": "Az ukrajnai frontvonalon a Starlink és a Starshield fékezett habzású rendszere gondoskodik arról, hogy az ukrán drónkezelők ne unják el magukat a gyorsaságtól. A sebességhatárok miatt az elfogódrónok úgy kullognak az orosz Sahedek után, mint békés nyugdíjas a piros lámpa előtt, így az ellenfél akadálytalanul süvít be a légtér mélyére. Washington és Elon Muskék bukmékereket megszégyenítő módon passzolgatják egymásnak a felelősség forró krumpliját, miközben Patriot rakétákból annyi érkezik, hogy az embernek a könnye is kicsordul a hiánytól. Zelenszkij közben az amerikai fegyverszállítói GPS-t is hiányolja, amiért a Közel-Keletre veszik az irányt Ukrajna helyett, de a közeledő téli energetikai show-műsor ellenére is fixen megígérte Kijev védelmét."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -14746,7 +15376,11 @@
           "body": "A belföldi parlament asztalára pottyant T/1155. számú javaslat szerint 2027. március 1-jén hivatalosan is befelyezi pályafutását az MNM KK, így a Magyar Természettudományi Múzeum, az Iparművészeti Múzeum, a Magyar Kereskedelmi és Vendéglátóipari Múzeum, a Petőfi Irodalmi Múzeum, a Semmelweis Orvostörténeti Múzeum, Könyvtár és Archívum, valamint az Országos Széchényi Könyvtár búcsút int a központnak, hogy saját lábon, önálló költségvetési szervként nyomuljon tovább, míg az üresen maradt váz Magyar Nemzeti Múzeum néven folytatja. A nagyszabású búcsúcsomagnak köszönhetően a könyvpiaci árkötöttség hamarosan a múlt ködébe vész, így a kereskedők végre szabadon árazhatják portékájukat anélkül, hogy a nagy hálózatok diktálnák a tempót."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -14833,7 +15467,11 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -14923,7 +15561,11 @@
           "body": "Az elmúlt hetekben annyira zuhant a benzin ára Magyarországon, hogy az autósok még a hirtelen ránk rontó téli havazást is széles mosollyal bírhatják ki, miközben a literenkénti jegyzés augusztus eleji szintekre esett vissza. A csodát a kőolaj olcskulása és az európai finomítói prémium 67 százalékos zakója hozta össze, simán átgázolva azon a tényen is, hogy a forint szinte alulról szagolja az amerikai dollárt. Persze nem kell elhamarkodni a pezsgőbontást, mert a finomítói árrések kezdenek kifulladni, így a további áresés valószínűleg beáll a féken. A békés tankolást mindenesetre garantálja, hogy a Mol Dunai Finomítójának AV3-as üzeme októberben újraindult teljes gőzzel, a hazai stratégiai készletek pedig pont éjszakára érték el a hivatalos 90 napos uniós szintet."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -14951,7 +15593,11 @@
           "body": "Andy Burnham brit miniszterelnök hétfőn vidáman újranyitotta a Brexit-vitát, amikor nem zárta ki az Egyesült Királyság uniós újracsatlakozását, mélyen belelépve a korábbi konzervatív miniszterelnökök lelkivilágába. Theresa May, Rishi Sunak, David Cameron és Boris Johnson sorban sorakoztak fel az intő szavakkal, utóbbi ráadásul attól tart, hogy egy újabb népszavazáson a britek megint a kilépésre szavaznának – szemben a legfrissebb mérések 58-59 százalékos, újracsatlakozást pártoló táborával. A júliusban Keir Starmert váltó Burnham nyíltan kimondta, hogy a kemény Brexit ártott a gazdaságnak, bár azt, hogy pontosan hová is tart, olyan mesterien homályban hagyta, mint egy rutinos diplomata. Az egész ügy a brit kormány külföldi kapcsolatainak legújabb, görbe tükröt tartó kalandja."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -14982,7 +15628,11 @@
           "body": "Inoue Harukicsi, egy hagyománytisztelő fukuokai szamurájcsalád sarja odáig volt a középkori olasz poézisért meg a harctéri romantikáért, hogy Simoi Fudzsi nevének felvétele után önkéntesként jelentkezett az olasz hadseregbe, és az arditik rohamcsapatában karatét meg busidót tanított a megdöbbent európai katonáknak. Diplomáciai útlevelének köszönhetően észrevétlenül cikázott a fiumei blokádon át Gabriele D’Annunzio szolgálatában, pénzt meg üzeneteket csempészve a költő-kalandor és a formálódó Mussolini között, mielőtt utóbb hazájában olasz irodalmat és fasiszta ideológiát próbált volna honosítani. A fáradozásai végül 1954 decemberében bekövetkezett csendes haláláig irodalmi fordításokká szelídültek, miután a történelem viharai és az amerikai bombák mindent felperzseltek, amiben egykor hitt."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -15092,7 +15742,11 @@
           "body": "A belföldi számlákat és a 2003-as brókerbotrány hullámait kavarva Kulcsár Attila egykori ügyei után 2015 szeptemberében a K&H Bank és a Betonút Rt. jogutódja, a DBI Kft. békésen megegyezett 21,8 milliárd forintról, majd egy 2021. november 16-ai kúriai döntés értelmében a Nemzeti Útdíjfizetési Szolgáltató Zrt."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -15122,7 +15776,11 @@
           "body": "A Telex Diszpó moziajánlója november 27. és december 4. között gyűjtötte össze a magyar moziműsor egyszeri vetítéseit, filmklubjait és retrospektív filmjeit, amelyek a moziba járókat érintik a megadott programban. A vetítések lajstromában fellelhető Tarr Béla és Hranitzky Ágnes A londoni férfi (2007) című munkája, Reisz Gábor Van valami furcsa és megmagyarázhatatlan (2014) darabja, Jirí Menzel Sörgyári capriccio (1980) alkotása, valamint Éric Toledano és Olivier Nakache Életrevalók (2011) című filmje, amelyek címeire kattintva részletesebb infók kaphatók."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -15229,7 +15887,11 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -15261,7 +15923,11 @@
           "body": "A Fővárosi Közgyűlés összeült utolsó előtti nagytanácsára, hogy a belföldi parlament színpadán alaposan átszabja a Főpolgármesteri Hivatal büdzséjét. Karácsony Gergely előterjesztése cirka száz álláshelyet és egymilliárd forintot tesz lapátra a 2027-re ígért húszmilliárdos költségcsökkentés oltárán, miközben a Fidesz egy 12–24 hónapos közbiztonsági akciótervvel és tízmilliárdos átcsoportosítással kavarja fel az állóvizet. Nem marad ki a kínálatból a Blaha Lujza tér, az Örs vezér tere és a Deák Ferenc tér rendészeti feladatmegosztása sem, de a komoly témák után a Kétfarkú Kutya Párt jóvoltából Mikulás-sapkás ajándékhúzás zárja a sort. Ha valaki netán morcosan kihagyná a karácsonyi ajándékozást, attól a testület díszesen elhatárolódik."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     }
   ],
   "scheduledAt": "2026-11-27T16:00:00+01:00",

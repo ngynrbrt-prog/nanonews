@@ -69,7 +69,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795793413-temp-rf7ffhhte3d3beklcih_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795793413-temp-rf7ffhhte3d3beklcih_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -80,7 +84,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/e1633e39-6c9c-4826-a157-9ba1756ffa5e.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/e1633e39-6c9c-4826-a157-9ba1756ffa5e.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -109,7 +117,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a772b33d-3a75-4d41-a58c-b4c02442db2b.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/a772b33d-3a75-4d41-a58c-b4c02442db2b.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -174,7 +186,11 @@
       "categories": [
         "environment"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/11553f57-0405-41a5-8172-260c29d7853e.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/11553f57-0405-41a5-8172-260c29d7853e.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -203,7 +219,11 @@
       "categories": [
         "tennis"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/9MyVOIsSAawCeHPv6n2FeetRfv2TH6NnjaWuU4Zkh2c/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzYzZWM0NTI5ZDlkMDRiZmU4MDgzM2IyY2Q4OGVhMzJm.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/9MyVOIsSAawCeHPv6n2FeetRfv2TH6NnjaWuU4Zkh2c/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzYzZWM0NTI5ZDlkMDRiZmU4MDgzM2IyY2Q4OGVhMzJm.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -214,7 +234,17 @@
       "categories": [
         "darts"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/PVeOIppucrbFtwGbybavZGjX6mt0xaPQ-6cYKOSNnIo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ExN2QwMmIxYTliYTRmMDk4NDYwYmIzZDc0ZGEyYTlk.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/PVeOIppucrbFtwGbybavZGjX6mt0xaPQ-6cYKOSNnIo/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2ExN2QwMmIxYTliYTRmMDk4NDYwYmIzZDc0ZGEyYTlk.webp",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Dartboard%2C_Black_Bull%2C_Wetherby_%287th_November_2023%29.jpg/960px-Dartboard%2C_Black_Bull%2C_Wetherby_%287th_November_2023%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Dartboard,_Black_Bull,_Wetherby_(7th_November_2023).jpg",
+        "author": "Mtaylor848",
+        "credit": "Own work",
+        "title": "Dartboard, Black Bull, Wetherby (7th November 2023).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -234,7 +264,11 @@
       "categories": [
         "belfold"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -245,7 +279,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2301363612-873558.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2301363612-873558.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -257,7 +295,11 @@
         "technology",
         "belfold"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -269,7 +311,11 @@
         "world-market",
         "technology"
       ],
-      "image": "https://pcdn.hu/articles/images-md/b/e/f/befektetsi-alap-reuters-mestersges-intelligencia-rszvnyalap-pnzpiaci-alap-ktvnyalap-t-842812.jpg"
+      "image": "https://pcdn.hu/articles/images-md/b/e/f/befektetsi-alap-reuters-mestersges-intelligencia-rszvnyalap-pnzpiaci-alap-ktvnyalap-t-842812.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -280,7 +326,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/a/d/s/adssg-csdvdelem-igazsggyi-minisztrium-hztarts-trlesztrszlet-eladsods-ad-873560.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/a/d/s/adssg-csdvdelem-igazsggyi-minisztrium-hztarts-trlesztrszlet-eladsods-ad-873560.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -291,7 +341,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/g/e/r/gerany-orosz-irani-sahed-136-sahed-dron-kamikaze-dron-dron-drontamadas-orosz-ukran-haboru-825544.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/g/e/r/gerany-orosz-irani-sahed-136-sahed-dron-kamikaze-dron-dron-drontamadas-orosz-ukran-haboru-825544.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -302,7 +356,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/f/_/3/f-35-izrael-tamadas-ellencsapas-megtorlas-public-domain-706649.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/f/_/3/f-35-izrael-tamadas-ellencsapas-megtorlas-public-domain-706649.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -313,7 +371,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/r/e/i/reich-adam-es-harsanyi-monika-873556.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/r/e/i/reich-adam-es-harsanyi-monika-873556.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -333,7 +395,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/e/3/a/e3a-sentry-katonai-repulogep-legiero-boeing-radar-repulogep-franciaorszag-repuloter-feld-873554.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/e/3/a/e3a-sentry-katonai-repulogep-legiero-boeing-radar-repulogep-franciaorszag-repuloter-feld-873554.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -407,7 +473,11 @@
       "categories": [
         "environment"
       ],
-      "image": "https://cdn.origo.hu/2026/11/cRUc7szCeSOhhAXGNOl8m9LUU7E49JwFXkZtsf_yusQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9iMjQwZTM4ODkyMjNmNTEyMTI2OTM0ZmMyY2NiMDY1OTZhODNiZDM2YTM2N2M1ZGVlNzcwNjNhNWQyZDlmYTBm.jpg"
+      "image": "https://cdn.origo.hu/2026/11/cRUc7szCeSOhhAXGNOl8m9LUU7E49JwFXkZtsf_yusQ/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9iMjQwZTM4ODkyMjNmNTEyMTI2OTM0ZmMyY2NiMDY1OTZhODNiZDM2YTM2N2M1ZGVlNzcwNjNhNWQyZDlmYTBm.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -418,7 +488,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.origo.hu/2026/11/XKRqQuR192rH0rBziVREH5f1DqKQOAnCVKB368uubD4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hMDAzN2VlMTg0NDRmMWIxYWViNzI5ODg0ZmEyNWYzYWFiYjYyZDcwZmU5MmM1MzA0MWU1OTNiOWRmY2EwM2M0.jpg"
+      "image": "https://cdn.origo.hu/2026/11/XKRqQuR192rH0rBziVREH5f1DqKQOAnCVKB368uubD4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hMDAzN2VlMTg0NDRmMWIxYWViNzI5ODg0ZmEyNWYzYWFiYjYyZDcwZmU5MmM1MzA0MWU1OTNiOWRmY2EwM2M0.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
