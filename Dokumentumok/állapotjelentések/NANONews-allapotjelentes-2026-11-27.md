@@ -384,3 +384,63 @@ Az RSS-adatok utolsó elérhető mentése 2026-11-27 06:46:50. Az ezután esetle
 **7 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
 
 Mentés indítása budapesti idő szerint 2026-11-27 07:04:45.
+
+## 08:00
+
+A mérési időszak budapesti idő szerint 2026-11-27 06:03:43 és 2026-11-27 08:00 között tartott. A következő kiadás tervezett ideje 2026-11-27 16:00.
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 3 | 1 | 0 | 0 | 0 | 0 | 0,0% | 6 |
+| HVG | 5 | 3 | 0 | 0 | 0 | 0 | 0,0% | 3 |
+| Nemzeti Sport | 2 | 1 | 0 | 0 | 0 | 0 | 0,0% | 3 |
+| NBAnews.hu | 1 | 1 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 7 | 3 | 0 | 0 | 0 | 0 | 0,0% | 9 |
+| Portfolio.hu | 14 | 11 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Origo.hu | 10 | 0 | 0 | 0 | 0 | 0 | — | 1 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 42 | 20 | 0 | 0 | 0 | 0 | 0,0% | 24 |
+
+### A következő kiadás adatállapota
+
+A **2026-11-27 16:00**-s kiadás előzetes alapja **20** rovatba illő cikk, közülük **0** mindhárom stílusban kész. Az utolsó rögzített RSS-gyűjtés ideje **2026-11-27 07:44:54**, a gyűjtés kora **15 perc 5 másodperc**. A kiadásig újabb mentés érkezhet.
+
+Az RSS-adatok utolsó elérhető mentése 2026-11-27 07:45:08. Az ezután esetleg begyűjtött vagy elkészült, még nem rögzített adatok ismeretlenek. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 témába illő rekordnál fordult elő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/7d3a8f93d80716c3ccc5c632c403e253ca122b39) · [Kiadás állapota](https://github.com/ngynrbrt-prog/nanonews/commit/d14296d4fc58d3872932e5fba5b72a9a32415059)
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Arsenal | 0 |
+| Manchester City | 0 |
+| Bayern München | 0 |
+| Manchester United | 0 |
+| Como | 0 |
+| Premier League | 0 |
+| Bajnokok ligája | 0 |
+| F1 | 0 |
+| NBA | 1 |
+| NFL | 0 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Környezetvédelem | 2 |
+| Technológia / Fejlesztések | 1 |
+| Ingatlan | 0 |
+| Tenisz | 0 |
+| Belföldi parlament | 2 |
+| Belföldi tőzsde | 0 |
+| Külföldi tőzsde | 1 |
+| Belföld | 7 |
+| Külföld | 10 |
+| Filmek | 0 |
+| Tőzsde | 0 |
+| Sportgazdaság | 0 |
+| Téli sportok | 0 |
+
+**20 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+
+Mentés indítása budapesti idő szerint 2026-11-27 08:00:05.
