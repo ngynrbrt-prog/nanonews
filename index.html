@@ -464,21 +464,41 @@ function approvedPhoto(story) {
 
 function renderApprovedPhoto(story, imageClass) {
   const approval = approvedPhoto(story);
-  if (!approval) return null;
+  const pexels = story.pexelsPhoto;
+  const pexelsPage = /^https:\/\/(?:www\.)?pexels\.com\//i;
+  const usePexels = !approval && pexels &&
+    /^https:\/\/images\.pexels\.com\//i.test(pexels.image) &&
+    pexelsPage.test(pexels.page) && typeof pexels.photographer === 'string' &&
+    pexels.photographer.trim();
+  if (!approval && !usePexels) return null;
 
   const figure = document.createElement('figure');
   figure.className = 'article-photo';
   const photo = document.createElement('img');
   photo.className = imageClass;
   photo.alt = '';
-  if (approval.monochrome === true) photo.classList.add('photo-monochrome');
-  if (approval.crop === true) photo.classList.add('photo-crop');
-  photo.src = story.image;
+  if (approval?.monochrome === true) photo.classList.add('photo-monochrome');
+  if (approval?.crop === true) photo.classList.add('photo-crop');
+  photo.src = usePexels ? pexels.image : story.image;
   figure.append(photo);
 
   const caption = document.createElement('figcaption');
   caption.className = 'photo-credit';
-  if (approval.creditUrl) {
+  if (usePexels) {
+    caption.append('Illusztráció · Fotó: ');
+    if (pexelsPage.test(pexels.profile)) {
+      const author = document.createElement('a');
+      author.href = pexels.profile;
+      author.textContent = pexels.photographer;
+      caption.append(author);
+    } else {
+      caption.append(pexels.photographer);
+    }
+    const source = document.createElement('a');
+    source.href = pexels.page;
+    source.textContent = 'Pexels';
+    caption.append(' · ', source);
+  } else if (approval.creditUrl) {
     const link = document.createElement('a');
     link.href = approval.creditUrl;
     link.textContent = approval.credit;
@@ -486,7 +506,7 @@ function renderApprovedPhoto(story, imageClass) {
   } else {
     caption.textContent = approval.credit;
   }
-  if (story.imageGeneratedByAI === true) caption.append(' · AI-val készült illusztráció');
+  if (!usePexels && story.imageGeneratedByAI === true) caption.append(' · AI-val készült illusztráció');
   figure.append(caption);
   return figure;
 }
