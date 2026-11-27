@@ -6187,14 +6187,26 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d1cfbc53-eba1-4f68-83a3-ff8e6581a84b.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "955d34e8ac9cdb1823d7b21238ca3ea1db7c9bd4c633e67afa6628b5d31d2149",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
       },
-      "variants": {}
+      "variants": {
+        "original": {
+          "body": "A Telegraph elemzése szerint Jared Kushner, Donald Trump veje és amerikai különmegbízott teljesen bedőlt az orosz propagandának, amikor hízelgő véleményt hangoztatott Vlagyimir Putyin orosz elnökről, amivel egy újabb háborúnak ágyaz meg. Ez a veszélyes szemléletmód azzal fenyeget, hogy a nyugati hatalmak utat engednek az agressziónak, és jutalmazzák a Kreml törekvéseit. A nemzetközi külpolitikát érintő fejlemények közepette a Külföld rovatban szereplő cikk rávilágít a globális biztonsági kockázatokra és a washingtoni diplomácia ellentmondásaira."
+        },
+        "tolkien": {
+          "title": "A birodalom árnyai és a Vörös Sárkány hízelgő igéi",
+          "body": "Íme, a Külföld rovat krónikája arról a sötét napról, mikor Jared Kushner, a trónus várományosának vére és amerikai küldönce hallgatott a keleti birodalom urának mámorító szavaira. E naiv elméjű ifjú bedőlt a Kreml bűvös igéinek, s hízelgő beszéddel ajnározta Vlagyimir Putyint, ezzel utat nyitva egy újabb, mindent emésztő fegyveres viszály veszedelmének. E meggondolatlan tettek gyümölcseként a nyugati szövetség pajzsa meggyengül, az agresszor pedig erőt merít a lanyha ellenállásból. A vakmerő hízelgés nemcsak a békét porladtatja szét, de az örök sötétség kapuit is szélesre tárja a világ előtt."
+        },
+        "reito": {
+          "title": "Családi kör a Kremlben: ahogy Trump veje elfelejtette, hol a térkép",
+          "body": "A Külföld rovat hírei szerint Jared Kushner, Donald Trump amerikai elnök veje és különmegbízottja olyan mélyen beszippantotta az orosz propagandát, hogy azt már üdítőitalnak is túlzás lenne nevezni. Azzal, hogy Vlagyimir Putyin portékáját dicsérte Moszkvában, sikeresen lefektette a téglákat a következő háború díszletéhez. A gyakorlatban ez azt jelenti, hogy a nagypolitikai sakkjátszmában a bábuk máris a szakadék szélén táncolnak, miközben a washingtoni különmegbízott elégedetten dől hátra a Kreml foteljeiben. Az aggályos külpolitikai manőverek vége aligha hoz ünnepi tűzijátékot a nyugati szövetségesek számára."
+        }
+      }
     },
     {
       "source": "Telex",

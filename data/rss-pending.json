@@ -1999,7 +1999,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://assets.telex.hu/images/20261126/1795693657-temp-187cfu42ak2lbddcolb_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261126/1795693657-temp-187cfu42ak2lbddcolb_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -2010,7 +2014,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/01246aa7-720d-4c30-b4b1-792535ac1057.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/01246aa7-720d-4c30-b4b1-792535ac1057.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -2022,7 +2030,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fd502cd9-cbb1-4794-8aca-104a1529d2de.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fd502cd9-cbb1-4794-8aca-104a1529d2de.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2033,7 +2045,11 @@
       "categories": [
         "f1"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/9qerGBxUWoOCdbvioh8YMVUe-CL79NlZHU2OxfymQE8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcxMjI1NTc5YWNlYTQwOWU4ZWUxMTBiOWI4YzA1M2Q0.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/9qerGBxUWoOCdbvioh8YMVUe-CL79NlZHU2OxfymQE8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcxMjI1NTc5YWNlYTQwOWU4ZWUxMTBiOWI4YzA1M2Q0.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2044,7 +2060,11 @@
       "categories": [
         "winter-sports"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/pvDBFJ8qGL70Dk3p8cTb_7DxRjwWioHN_quJmSnY0_A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkOGI2MDg4NWJhZjQxOWQ4NGY5OTZjYThkOTY1ZThk.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/pvDBFJ8qGL70Dk3p8cTb_7DxRjwWioHN_quJmSnY0_A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkOGI2MDg4NWJhZjQxOWQ4NGY5OTZjYThkOTY1ZThk.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2064,7 +2084,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -2075,7 +2099,17 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pen_Resource_University%E2%80%99s_Basketball_courts.jpg/960px-Pen_Resource_University%E2%80%99s_Basketball_courts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Pen_Resource_University%E2%80%99s_Basketball_courts.jpg",
+        "author": "Abdulrahman Ishaq Ismail",
+        "credit": "Own work",
+        "title": "Pen Resource University’s Basketball courts.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -2086,7 +2120,11 @@
       "categories": [
         "belfold"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2097,7 +2135,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/k/a/r/karman-andras-bef-861444.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/k/a/r/karman-andras-bef-861444.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2108,7 +2150,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/s/t/a/standard-and-poors-sp-hitelminosito-520495.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/s/t/a/standard-and-poors-sp-hitelminosito-520495.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2146,7 +2192,11 @@
       "categories": [
         "films"
       ],
-      "image": "https://cdn.origo.hu/2026/11/noD4s1IWnP0Ay_FiZrsLJKZzBnKv71fYJAeNpoYptwk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi84NWIzZjQwNGU5YjQ1NjEzZGVlNzA1ZjhhMmZjMTcwZmE1YTY3N2NjZmExYTA5ZGMxNTFmZDczNzM1MWE4MTAy.jpg"
+      "image": "https://cdn.origo.hu/2026/11/noD4s1IWnP0Ay_FiZrsLJKZzBnKv71fYJAeNpoYptwk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi84NWIzZjQwNGU5YjQ1NjEzZGVlNzA1ZjhhMmZjMTcwZmE1YTY3N2NjZmExYTA5ZGMxNTFmZDczNzM1MWE4MTAy.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -2166,7 +2216,11 @@
       "categories": [
         "cycling"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
