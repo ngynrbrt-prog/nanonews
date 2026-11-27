@@ -2257,7 +2257,7 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Fri, 27 Nov 2026 22:21:26 +0000",
+      "published": "Fri, 27 Nov 2026 23:10:00 +0000",
       "observed": "2026-11-27T23:27:02.419128+01:00",
       "title": "Szombati sportműsor: három meccs az NB I-ben; Sopron–DVTK rangadó a női kosárélvonalban",
       "link": "https://nemzetisport.hu/minden-mas-foci/2026/11/szombati-sportmusor-harom-meccs-az-nb-i-ben-sopron-dvtk-rangado-a-noi-kosarelvonalban",
@@ -2344,8 +2344,57 @@
         "unavailable": true,
         "version": 4
       }
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 23:18:00 +0000",
+      "observed": "2026-11-28T00:21:08.752581+01:00",
+      "title": "Tíz éve szenvedett tragikus légi balesetet a Chapecoense; Súlycsoportot cseréltek az MTK 21 éves ikerlányai",
+      "link": "https://nemzetisport.hu/napilap/2026/11/tiz-eve-szenvedett-tragikus-legi-balesetet-a-chapecoense-sulycsoportot-csereltek-az-mtk-21-eves-ikerlanyai",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 23:17:46 +0000",
+      "observed": "2026-11-28T00:21:08.752581+01:00",
+      "title": "Efraín Juárez: Szabadságot, békét kapok a tulajdonostól és a sportigazgatótól",
+      "link": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/efrain-juarez-szabadsagot-beket-kapok-a-tulajdonostol-es-a-sportigazgatotol",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/2ldohWI5M4QecBGoYvFfilpeHGqdcx4vb8H9MaKv9lU/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNhMWM1NjFmMjQzNDRhNmRhYWZmMWYwMzA2YWViMGVh.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 23:07:45 +0000",
+      "observed": "2026-11-28T00:21:08.752581+01:00",
+      "title": "NFL: minden a Steelers ellen szólt, mégis kiütötte a Broncost a fekete pénteken",
+      "link": "https://nemzetisport.hu/amerikai-sportok/2026/11/nfl-minden-a-steelers-ellen-szolt-megis-kiutotte-a-broncost-a-fekete-penteken",
+      "categories": [
+        "nfl"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/EugWS7YnJiMkACSi6JrENZArCOlqYzKIWxOlao1ETdk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YzNmU0YzE3NmE5YjRhNjk4MzMxZmZmMjg1Yjc5NTQ5.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 22:40:15 +0000",
+      "observed": "2026-11-28T00:21:08.752581+01:00",
+      "title": "A csalódottság luxusa – Borbola Bence jegyzete",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/a-csalodottsag-luxusa-borbola-bence-jegyzete",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 22:35:06 +0000",
+      "observed": "2026-11-28T00:21:08.752581+01:00",
+      "title": "Amikor a Demecser is remekelt – Bodnár Tibor publicisztikája",
+      "link": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/amikor-a-demecser-is-remekelt-bodnar-tibor-publicisztikaja",
+      "categories": [
+        "sports-business"
+      ],
+      "image": ""
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-27T23:27:02.419128+01:00"
+  "lastRssCollection": "2026-11-28T00:21:08.752581+01:00"
 }
