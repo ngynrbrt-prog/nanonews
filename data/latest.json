@@ -2465,12 +2465,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/89266d9a-57c1-4a15-8a00-756ae86eb7f6.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7a380cc3709ef64094f77111a4626310bb371dd8866dee3b1a12cdfe9b42028b",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Pete Hegseth amerikai védelmi minisztert és környezetét az arlingtoni nemzeti katonai temetőben rendreutasította egy őrt álló katona november 11-én, a veteránok napján, mert az ismeretlen katona sírjánál bemutatott tisztelgés után hangosan beszélgettek és kacagtak. A történtek után a Pentagon szóvivője kijelentette, hogy a katona helyesen járt el, a nyilvánosságra került felvétel nyomán pedig Hegseth kitüntetést adott át Thomas Iglesias szakaszvezetőnek. A külföldi események sorába illeszkedő incidens és a washingtoni képviselőházban Thomas Massie által benyújtott, többség hiányában elbukott alkotmányos vádemelési javaslat nyomán Hegseth a republikánusok és a hadsereg számára is tehertétellé vált. A külföld rovat híre szerint egy medálnál már többre lesz szükség a washingtoni kormányzatban vitatott miniszter gondjainak megoldásához."
+        },
+        "tolkien": {
+          "title": "A csend megtörése a Hősök Ligetében és a washingtoni trónus árnyéka",
+          "body": "Így esett a külföld távoli földjén, az arlingtoni nemzeti katonai temető szent ligetében, hogy november tizenegyedikén, a veteránok napján Pete Hegseth amerikai védelmi miniszter és kísérete a sírok csendjét hangos beszéddel és kacagással törte meg a tisztelgést követően. Ekkor egy éber őrszem katona szigorú szóval rontott rájuk, megkövetelve a hősi halottakat megillető méltóságot, amit a Pentagon szóvivője is helyeslésnel bélyegzett meg a nyilvánosság előtt. A vihar elültével a washingtoni hadúr medállal jutalmazta Thomas Iglesias szakaszvezetőt, ám ez a kegy kevésnek bizonyul a birodalmi viharokban. A republikánusok hatalmi termeiben ugyanis, ahol Thomas Massie korábban vádemelési kísérlettel ostromolta őt, a miniszter sötét tehertétellé vált a hadsereg és a szövetségesek számára."
+        },
+        "reito": {
+          "title": "Kacagás a sír partján: amikor a miniszter eltéveszti a temetői ritmust",
+          "body": "Nagy volt a megkönnyebbülés Washingtonban, amikor Thomas Massie alkotmányos vádemelési javaslata elbukott a képviselőházban, ám Pete Hegseth amerikai védelmi miniszter hamarosan saját magának intézett egy sortüzet november 11-én, a veteránok napján. Az arlingtoni nemzeti katonai temetőben tartott tiszteletadás után a miniszter és felesége, valamint tanácsadóik olyan felszabadultan nevetgéltek, hogy egy éber őrszem katona a helyszínen rendreutasította őket a hősi halottak csendjét követelve. A Pentagon szóvivője azonnal igazolta az őrt, Hegseth pedig utólag egy kitüntetéssel és egy „Szeretjük a szabályokat” felkiáltással simította el az ügyet Thomas Iglesias szakaszvezetőnél. A külföldi ügyek színpadán azonban egy ropogós medál édes kevésnek bizonyul: a republikánusok és a hadsereg körében a miniszter mára hivatalosan is a legnehezebb teher lett."
+        }
       }
     },
     {
@@ -2518,8 +2531,8 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/XHHJ9IcU4T0kv9OVQDUYuMCuFcGsA2Gcp7xUrOK65Lw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzVhNDVhMzRkYzM0YTRiOTFiODcwNjJhZGM3NWEzOTli.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "4cab1a55c1599e94d10c9b4def8e8f4e2b3170ee14c13c72430f05ceae0a1ef7",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -2538,6 +2551,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Katari Nagydíj pénteki első szabadedzésével megkezdődött a Formula–1-es mezőny programja Loszaílban, ahol az 5. alkalommal megrendezett sivatagi futamon Max Verstappen akár a bajnoki második helyet is bebiztosíthatja, míg a Red Bull és a McLaren a konstruktőri harmadik pozícióért csatázik. A gyakorlati következmény az volt, hogy a nyitányt a Mercedes zárta az élen: Andrea Kimi Antonelli szerezte meg az első helyet 507 ezreddel megelőzve csapattársát, George Russellt, míg a harmadik helyen Isack Hadjar végzett a Red Bulllal, Max Verstappen pedig a hatodik pozícióban nyitott. A vírusos megbetegedés miatt a csütörtöki sajtónapot is kihagyó Fernando Alonso autóját az Aston Martinnál Jak Crawford vezette, aki a tizenkilencedik lett."
+        },
+        "tolkien": {
+          "title": "A Sivatag Kapuja és az Ezüstös Nyilak Futama",
+          "body": "A sivatagi Loszaíl szentélyében megkezdődött az 5. Katari Nagydíj harca, ahol a Formula–1 népe Las Vegas viharai után új birodalomba lépett, és Max Verstappen a bajnoki ezüstkorona, míg a Red Bull és a McLaren a konstruktőri harmadik trónért feszül egymásnak. E csatatéren a Mercedes tüzes szekerei bizonyultak a leggyorsabbnak: Andrea Kimi Antonelli az égre törve ragadta meg az első helyet, ötszázhét ezreddel megelőzve testvérharcban álló társlövészét, George Russellt, míg a Red Bull színeiben Isack Hadjar ért be harmadikként, a sivatag korábbi ura, Verstappen pedig a hatodik helyen zárt. A betegség árnyéka miatt Fernando Alonso üresen hagyott paráját az Aston Martin táborában Jak Crawford ülte meg, aki a tizenkilencedik helyig vágtatott."
+        },
+        "reito": {
+          "title": "Antonelli repülőrajtja a homoktengerben",
+          "body": "Loszaíl homokos aszfaltján felbőgtek a motorok az 5. Katari Nagydíj első szabadedzésén, ahol a Formula–1 karavánja a bajnoki második helyért és a konstruktőri bronzért vívott ádáz csatát. A gyakorlatban ez azt jelentette, hogy Andrea Kimi Antonelli egy rakétakilövéshez méltó tempóval söpörte le a mezőnyt, és bő fél másodperccel alázta meg csapattársát, George Russellt is az első helyen, míg a Red Bullnál Isack Hadjar lett a harmadik, Max Verstappen pedig szerényen a hatodik helyre fékezett. Az Aston Martinnál Alonso vírusos nyűgje miatt beugró Jak Crawford a tizenkilencedik helyen kóstolgatta a sivatagi port, miközben a Ferrarisok – Leclerc a hetedikként, Hamilton a nyolcadikként – másodperces lemaradással kullogtak a mezőnnyel."
+        }
       }
     },
     {
@@ -2550,12 +2576,25 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "2dd893f31bf6694007812aa4bf7da20a6bbace14289b85242ddc6ba4950d5ebe",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A 2025-ös NFC-s játékosok teljesítményét elemző NFL-cikk bemutatja Tyler Booker, Ezeiruaku, Shavon Revel, Shemar James, Campbell és Mukuba eddigi teljesítményét a ligában. A megállapítások szerint Booker kiváló passz- és futásblokkolással, valamint all-pro szintű játékkal igazolja első körös választását, noha nemrég pár hétre kidőlt, míg a többi említett játékos – Ezeiruaku, Revel, James, Campbell és Mukuba – esetében a védelem gyengeségei, a visszaesett számok, a sérülések vagy a posztért vívott küzdelmek határozzák meg a szezont. A cikk az első körös, illetve a csapatok első választásait veszi sorra csoportonként, mindenhol keresve a későbbi körös találatokat is."
+        },
+        "tolkien": {
+          "title": "A Nemzeti Konferencia Krónikája: Őrzők, Kik Buknak és Kik Állják Sarat",
+          "body": "Az amerikai futball birodalmának Nemzeti Konferenciájában, a 2025-ös ifjak seregszemléjén Tyler Booker, mint acéloszlop áll a falban, ki 17 társával együtt még sacket sem engedett, bár árnyék vetült rá, mert nemrégiben pár hétre kidőlt a harcból. Ezzel szemben Ezeiruaku, Shavon Revel, Shemar James, Campbell és Mukuba viharvert pajzsokként küzdenek a Dallas és az Eagles kötelékében, hol a dicsőség kapujában, hol a cserék sötét padján vagy a szürke hibák hálójában vergődve. Az első körök kincseit kereső krónika írja e sorsokat csoportról csoportra, hol a magasságok dicsfénye, hol a süllyedés homálya jut osztályrészül."
+        },
+        "reito": {
+          "title": "Falvédelem és tévedések sűrűjében: NFC-s körkép",
+          "body": "Az NFC 2025-ös osztályzatainál Tyler Booker úgy menetel guard pozícióban, mint aki elfelejtette, hogy a sackeket engedni kéne, hiszen a ligában 350 snap felett sacket nem engedő 17 játékos egyikeként szinte all-pro szinten tolja, kár, hogy pont most dőlt ki pár hétre. Eközben Ezeiruaku, Shavon Revel és Shemar James a Dallas ligautolsó védelmében próbálja megváltani a világot kevés sikerrel, Campbell pedig top5-ös tehetségből és az év védő újonca várományosából cserévé, majd dedikált kezdővé lényegült át, de ’25 ősz eleji formáját azóta is lámpaival keresi. A sort a második körös Mukuba zárja, aki az Eagles legfoglalkoztatottabb védőjeként, free safety létére leginkább az átlagos és az alatti szerelések szürkeségében utazik."
+        }
       }
     },
     {
@@ -3601,12 +3640,25 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "43cc3931046030c2cc26237456c6c1e82447594b226b5ffef32c164a5d91109f",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Továbbra is válságos a mezőkövesdi vonatbalesetben megsérült lány állapota, akit a Borsod-Abaúj-Zemplén Megyei Kórház és Egyetemi Oktatókórház Központi Aneszteziológiai és Intenzív Terápiás Osztályán (KAITO) kezelnek, miközben a hazai belföldi közélet szereplői, így Lázár János és Magyar Péter is megszólaltak az esetről. A fiatal nő azért szenvedett nagyon súlyos sérüléseket és veszítette el mindkét lábát, mert a Hernád-Zemplén InterCity vonat ajtaja becsípte a táskája pántját Mezőkövesd után, a szerelvény pedig több száz méteren át vonszolta. A MÁV-jelentés szerint a kocsi előterében az ajtózárásra figyelmeztető fényjelzés előbb három, majd hat másodpercig villogott, így a nőnek mindössze három másodperce maradt volna a leszállásra, de az ajtó visszacsukódott és rázáródott, miközben teste nagyobb része már kívül volt. Az eset után a család ötmillió forintos gyorssegélyt kapott, irányított véradást kértek, vasúti közlekedés veszélyeztetése miatt pedig büntetőeljárás indult."
+        },
+        "tolkien": {
+          "title": "A vasút árnyéka és a mezőkövesdi gyász krónikája",
+          "body": "A Borsod-Abaúj-Zemplén Megyei Kórház és Egyetemi Oktatókórház Központi Aneszteziológiai és Intenzív Terápiás Osztályán (KAITO) továbbra is válságos felsebzett állapotban lebeg a mezőkövesdi vonatbalesetben megsérült lány, miközben a hazai belföldi utakon és a politikában viharos szelek fújnak. A Hernád-Zemplén InterCity vasvaza Mezőkövesd után vad szorítással kapta el a fiatal nő táskájának pántját, és könyörtelenül, több száz méteren át vonszolta magával a szerencsétlent. A végzetes pillanatokban a fényjelzés villogása csupán három rövid másodpercet mért ki a menekülésre, ám az ajtó vasajka rázáródott testére, mindkét lábát elragadva a mélybe. A gyászos árnyékban ötmilliós gyorssegély és irányított véradás enyhítené a sebeket, míg a hazai közélet palettáján Lázár János és Magyar Péter viaskodik a felelősség súlyáért, vasúti közlekedés veszélyeztetése miatt indított büntetőeljárás árnyékában."
+        },
+        "reito": {
+          "title": "Három másodperc a pokol felé: dráma a síneken",
+          "body": "Továbbra is válságos a mezőkövesdi vonatbalesetben megsérült lány állapota a Borsod-Abaúj-Zemplén Megyei Kórház és Egyetemi Oktatókórház Központi Aneszteziológiai és Intenzív Terápiás Osztályán (KAITO), miközben a belföldi politikai porondon is beindult a nagyüzemi adok-kapok. A Hernád-Zemplén InterCity szerelvénye Mezőkövesd után egy becsípődött táskapánt révén szó szerint több száz méteren át vonszolta magával a fiatalt, aki a MÁV-jelentés szerint a mindössze három másodpercesre szűkült leszállási időablak csapdájába esett. A tragikus következményként mindkét lábát elveszítő nő ügyében vasúti közlekedés veszélyeztetése miatt indult büntetőeljárás, a belföldi közhangulatot pedig ötmillió forintos gyorssegély, irányított véradás, valamint Lázár János és Magyar Péter csörtéje borzolja."
+        }
       }
     },
     {
@@ -3619,12 +3671,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/72151543-c1e1-4610-8642-a7633fa51005.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "d58be3f25f6c885c2fb5c5fc717346d95cfd8828b69d23f5c9cdd250b564eca5",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Recesszióba került Franciaország, miután az ország gazdasága a 2026 harmadik negyedévében a vártnál nagyobb mértékben zsugorodott, és a második negyedéves adatot is lefelé kellett korrigálni. A harmadik negyedévben negyedéves alapon 0,2 százalékos volt a csökkenés a várt 0,1 százalék helyett, a második negyedévben pedig 0,02 százalékos zsugorodást mértek. A francia gazdaság ezzel három egymást követő negyedévben zsugorodott, ami teljesíti a technikai recesszió ismérveit, és a beruházások, valamint a külkereskedelem visszaesése miatt elérhetetlenné vált a kormány idénre várt 0,5 százalékos növekedése, nehezítve a jövő évi költségvetési hiány csökkentését is. A külföldhöz kapcsolódó európai gazdasági hírek sorába illeszkedő fejlemény különösen nehéz helyzetbe hozza a kisebbségi kormányt, amely az 5,4 százalékosra várt idei GDP-arányos hiányt jövőre 5 százalékra csökkentené."
+        },
+        "tolkien": {
+          "title": "A gall birodalom árnyéka",
+          "body": "Recesszióba süllyedt Franciaország birodalma, miután a gazdaság földje a vártnál mélyebben zsugorodott 2026 harmadik negyedévében, és a megelőző időszak termését is lefelé kellett korrigálni a krónikák szerint. A harmadik negyedév vizein 0,2 százalékos apadás feszült a várt 0,1 helyett, míg a második negyedév mértéke rejtett, 0,02 százalékos csökkenést fedett fel, így a birodalom 2025 vége óta nem látott növekedést, három egymást követő negyedév zord téli fagyában megvalósítva a technikai recessziót. A beruházások és a külkereskedelem viharai elsöpörték a királyi udvar 0,5 százalékos növekedési reményeit, vészbe taszítva a kisebbségi kormányt, amely az 5,4 százalékos idei hiányt 5 százalékra akarná törpíteni a jövő esztendőben. E messzi földről szóló, külföldi tájakat sújtó gazdasági vihar sötét árnyként vetül a törvényhozás tornyaira, ahol Emmanuel Macron jelöltje küzd a jövő évi költségvetés rögös útján."
+        },
+        "reito": {
+          "title": "A gall kakas bukfence",
+          "body": "Recesszióba esett Franciaország, mert a gazdaság hirtelen nagyobbat zsugorodott a 2026 harmadik negyedévében a vártnál, ráadásul a második negyedéves adatot is lefelé kellett pofozni a Reuters adatai szerint. A harmadik negyedévben így 0,2 százalékos mínusz jött össze a várt 0,1 helyett, a második negyedév pedig a korábbi kerekítés ellenére valójában 0,02 százalékos esést hozott, bebizonyítva, hogy a gazdaság 2025 vége óta csak lefelé biccent. A beruházások 0,8 százalékos zuhanása és az export 1,6 százalékos beszakadása pillanatok alatt porrá zúzta a kormány idénre várt 0,5 százalékos növekedési reményeit. A külföldi hírek ezen gazdasági pofonja igencsak keresztbe tesz a kisebbségi kormánynak, amely most az idei 5,4 százalékosra várt hiányt próbálná 5 százalékra lefaragni a jövő évre, miközben Teddy Riner dzsúdóbajnok még nem tudja felborítani az asztalt."
+        }
       }
     },
     {
@@ -3637,8 +3702,8 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/PdzWsPfSqtXvTxykDD9J56sdqWGcxEOgK2XXcEAmCcI/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdmMmNhNmJhZWNiMjRmZTY4YzcyMTlkYzA0YjRmMjEz.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "33498e874031154704feba0c314f0cf6bf06a4f1924af4484fd01a0d57b484c2",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -3736,6 +3801,19 @@
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "Megérkezett Stockholmba a férfi kosárlabda-válogatott, miután az extrém európai időjárás és a bécsi járat törlése miatt rigai átszállással jutott el Svédországba a világbajnoki-selejtezősorozat L-csoportjának 3. fordulójára. A rendkívüli utazási nehézségek és az osztrák fővárosban töltött éjszakai veszteglés után a csapat nem tudott pihenni, mert pénteken 13.30 utáni landolása máris a meccs napjára esett. A svédországi megérkezéskor az is kiderült, hogy néhány csomag Bécsben maradt, de a játékosok mezei és cipői náluk vannak az 19 órakor kezdődő Svédország–Magyarország mérkőzés előtt, amelyet a Duna World közvetít."
+        },
+        "tolkien": {
+          "title": "A vándorló kosarasok éjszakája Bécs bástsái alatt",
+          "body": "Megérkezett Stockholmba a férfi kosárlabda-válogatott, miközben a viharos és hóval borított európai égbolt fogságából szabadulva, rigai átszállással érte el az északi svéd tájat a világbajnoki-selejtezősorozat L-csoportjának 3. fordulójára. Az osztrák fővárosban töltött fagyos éjszaka és a törölt szárnyas vasmadarak okozta akadályok után a csapat harcosai ma mégis pályára lépnek a Duna World által is közvetített Svédország–Magyarország összecsapáson. Bár a viharos utazás utópiájában néhány teher Bécs kapuinál rekedt, a bajnokok fegyverzete, a mez és a cipő velük tartott a stockholmi megmérettetésre."
+        },
+        "reito": {
+          "title": "Bécsi kitérővel a stockholmi kosárkoszorúért",
+          "body": "Megérkezett Stockholmba a férfi kosárlabda-válogatott, miután a hóhelyzet és a bécsi járat törlése miatt egy kis európai túlórával, rigai átszállással sikerült elérnie a svéd fővárost a világbajnoki-selejtezősorozat L-csoportjának 3. fordulójára. A csütörtöki osztrák fogság és az amszterdami útvonal kútba esése után a mieink péntek délelőtt végre elstartolhattak, így 13.30 után már a stockholmi aszfalton is landolhattak a ma 19 órakor kezdődő Svédország–Magyarország meccs előtt. Bár néhány csomag a bécsi reptér vendégszeretetét élvezve ott ragadt, a játékosok alapfelszerelése – a mez és a cipő – velük tartott a Duna World által közvetített, az NBA ritmusát idéző helyszínre."
+        }
       }
     },
     {
@@ -3748,12 +3826,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/9b52d6a4-3d1f-44b1-a5f6-de446162c03b.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "3fb993b1cfdc26e23c06b0e2d417103110cea39c0a4e9319fc16fbcd808ac7c3",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Counterpoint Research jelentése szerint az okostelefonok piacán rekordmértékű, 13,9 százalékos globális eladási visszaesés várható 2025-höz képest, ami az alkatrészek – főként a memória és a tárhely – drasztikus drágulásának és a gazdaságilag életképes készülékek szűkülő elérhetőségének következménye. A technológiai szektor ezen fejlődési kihívásai miatt a vásárlók a készülékek áremelkedését tapasztalják, miközben az alsó- és középkategóriás eszközök eladása jelentősen csökkent. A piaci előrejelzések alapján a visszaesés 2027-ben további 6 százalékkal folytatódik, és a zsugorodó szűk esztendőket a Counterpoint becslése szerint csak 2028 törheti meg a 6 százalékos bővüléssel. Az eladási lista élén az Apple és a Samsung áll majd nagyjából 1 százalékos globális csökkenéssel, míg a Huawei 12 százalékkal növelheti az éves eladásait."
+        },
+        "tolkien": {
+          "title": "A szilícium árnyéka és a vándorló képernyők krónikája",
+          "body": "Az okostelefonok birodalmában nehéz esztendők sötét fellegei gyülekeznek, miután a memória és a tárhely drágulása elhomályosította a piacon eladható eszközök sorsát. E technológiai megpróbáltatások és fejlesztési viharok közepette a Counterpoint Research jelzése szerint a globális eladások volumene 13,9 százalékkal zuhanhat, túlszárnyalva a 2022-es visszaesés sötét adatait is. A dráguló alkatrészek súlya alatt az alsó- és középkategóriás készülékek lángja kialvóban van, míg a prémium szicíliai csúcsok kitartanak a viharban. A távoli jövő krónikája szerint 2027-ben újabb, 6 százalékos zsugorodás fagyasztja meg a piacot, míg a megváltást hozó 6 százalékos bővülésre 2028 tavaszáig várni kell."
+        },
+        "reito": {
+          "title": "Zsebvásár veszélyben: amikor a memóriachipek túrára indulnak az árakkal",
+          "body": "Az okostelefonok piacán sűrűbb lett a füst, mint egy rosszul bekötött szerveren, mivel az alkatrészek, főként a memória és a tárhely ára olyan magasságokba szökött, ami alaposan átírta a vásárlók kedvét. A Counterpoint Research friss technológiai és piaci jelentése szerint a globális eladások volumene 13,9 százalékkal eshet vissza a 2025-ös szinthez képest, túlszárnyalva a 2022-es emlékeket is. A fejlesztési és árazási hullámvasúton az alsó- és középkategória óriási zakót kapott, míg az Apple és a Samsung 1 százalékos csökkenéssel, a Huawei pedig 12 százalékos kínai hajrával zárhat. A hab a tortán, hogy a zord időjárás 2027-ben még további 6 százalékos zsugorodást hoz, és a piac csak 2028-ban lélegezhet fel egy 6 százalékos bővüléssel."
+        }
       }
     },
     {
@@ -3766,12 +3857,25 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1210801177-forint-bankjegy-keszpenz-penz-fizetoeszkoz-magyarorszag-magyar-gazdasa-873464.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "69ad678d56e7fd875e24bbfd7b50e013cf2c4830a762addacdf0c4aa50d7017a",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A magyar önkéntes nyugdíjpénztárak szektorában az idei harmadik negyedévben 11 ezer új belépő indított megtakarítást, amellyel a tagság létszáma 2026 szeptemberének végén az 1,1 millió főt súrolta, a kezelt portfólió értéke pedig új csúcsot jelentve 2664 milliárd forintra hízott. Ez a belföldi pénzügyi fejlemény azt jelenti, hogy a vagyon gyarapodását a nettó pénzbeáramlás, a 40 milliárd forintos nettó hozam, valamint a tagok és munkáltatók által teljesített 52 milliárd forintos összes befizetés segítette, miközben a közel 4,7 millió hazai dolgozóból mintegy 3 millióan továbbra sem rendelkeznek nyugdíjcélú megtakarítással. A lakáscélú adómentes kifizetések korábbi lehetősége a projekt végeztével szinte teljesen lenullázódott, a portfólióban pedig a kötvények 50,4%-os, a befektetési jegyek 34,8%-os, a részvények 12,2%-os, valamint a bankbetétek és készpénz 1,9%-os aránya dominál."
+        },
+        "tolkien": {
+          "title": "A magyar pénztárak kincseskamrái",
+          "body": "Az önkéntes nyugdíjpénztárak belföldi birodalmában tizenegyezer új vándor lépett be a harmadik holdtölténél, s a tagság serege így csaknem elért egymillió-egyszázezer lelket, miközben a kincsek összesített súlya kétezer-hatszázhatvannégy milliárd ezüstdénárra duzzadt. E gazdagság áradása új várakat épít, hiszen a befizetések ötvenkét milliárdra szökkentek, és negyvenmilliárdnyi tiszta hozam aranyozta be a portfóliót, jóllehet a hazai munkáskezek kétharmada még mindig üres kézzel járja útját. A régi idők lakásvásárlási kútjai elapadtak, a széfekben pedig a királyi papírok és kötvények védik a vagyont, míg a harcosok békésen gyarapítják jövőjüket."
+        },
+        "reito": {
+          "title": "A nyugdíjpénztári vagyoncsodák",
+          "body": "A magyar önkéntes nyugdíjpénztárak asztalára idén ősszel tizenegyezer új számlanyitó csapódott be, amivel a tagság létszáma mindjárt megközelítette az 1,1 millió fős bűvös határt, a kasszákban lévő pénz pedig rekordot döntve 2664 milliárd forintra hízott. Ebből a pénzesőből mindenki kapott, aki számolgatni tud: a befizetések 52 milliárdra rúgtak, a hozamok hoztak egy csinos 40 milliárdos somát, bár a 4,7 millió belföldi dolgozóból még mindig mintegy 3 millióan lógatják a lábukat megtakarítás nélkül. A lakásfelújításra áramló pénzcsapokat elzárták, így most a biztonságos kötvények és a szerény részvények ülnek a tortán, miközben a számlaegyenlegek átlagosan 2,44 millió forintot mutatnak."
+        }
       }
     },
     {
@@ -3784,12 +3888,25 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/OrAtiLV1fD6ddxv1xQP6NNy9SFEDAWDOFaeN3g3hCJA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9kM2E1MmRmNWI5OWFmY2Q3NTA3YzRkNGUxNGU2NTMxM2RhN2M4MTMzZDc0OTgzZDJhYWI5NjE4NjQyMzgyNThh.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "4a6b44c7ac74be66db552140eedfc7158f61c92b6eb0bc5b7b95fad5cfa62fa0",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A 95 évvel ezelőtt, 1931. november 27-én bemutatott Hyppolit, a lakáj című filmalkotás a hazai hangosfilmgyártás hajnalán bizonyította be sikerét a mozikban. A filmben Schneider Mátyás és a felesége által felfogadott lakáj, Hyppolit története elevenedik meg Kabos Gyula, Csortos Gyula, Jávor Pál, Gózon Gyula, Haraszti Mici és Fenyvessy Éva főszereplésével. A gyakorlati következmény az, hogy a digitális restaurálásnak köszönhetően az újabb generációk is megismerhetik ezt a társadalmi felemelkedésről, megfelelési kényszerről, a látszat fenntartásáról és az emberi hiúságról szóló klasszikus alkotást."
+        },
+        "tolkien": {
+          "title": "A lakáj árnyéka és a celluloid krónikája",
+          "body": "Kilenc évtizeddel és öt esztendővel ezelőtt, 1931. november 27-én ébredt fel a magyar mozik vásznán a Hyppolit, a lakáj, mikor a hangosfilmgyártás hajnala még bizonytalan ködbe merült. Székely István rendezése, a második hazai hangosfilm viharként söprt végig a nézőkön, megmutatva, hogy e műfajnak büszke jövője van a nemzet földjén. Schneider Mátyás fuvarozó és felesége udvarába lépett a merev törvényeket hozó Hyppolit, hogy Kabos Gyula, Csortos Gyula, Jávor Pál, Gózon Gyula, Haraszti Mici és Fenyvessy Éva játékán keresztül örök tükröt tartson az emberi hiúság és látszatvilág elé."
+        },
+        "reito": {
+          "title": "Hyppolit belép: amikor a lakáj átveszi a konyhát",
+          "body": "Pontosan 95 éve, 1931. november 27-én szabadult rá a magyar mozikra a Hyppolit, a lakáj, bizonyítva, hogy a gyerekcipőben járó hazai hangosfilm nemcsak járni tud, de futni is. A meggazdagodott fuvarozó, Schneider Mátyás és felesége az előkelő élet mámorában felfogadja a nemesi szokások szigorú őrét, Hyppolitot, mire a család élete egy szempillantás alatt feje tetejére áll. A Kabos Gyula, Csortos Gyula, Jávor Pál, Gózon Gyula, Haraszti Mici és Fenyvessy Éva fémjelezte örökzöld komédia a digitális restaurálásnak köszönhetően mai napig éles maradt, hogy a hiúság és a látszat fenntartása sehol se maradjon poén nélkül."
+        }
       }
     },
     {
@@ -3802,12 +3919,25 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/096122e6-f5a3-482b-97f3-edeb105b02e0.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "d62970a71cb2303ddd21a5fcde3376745adfc6b68d7aea8746a8ae0ec99af7d7",
       "relatedStories": [],
       "commonsPhoto": {
         "unavailable": true,
         "version": 4
+      },
+      "variants": {
+        "original": {
+          "body": "A Budapesti Corvinus Egyetem és a Toulouse School of Economics kutatói a mesterséges intelligenciát használó StreetPulse projektben 70 ország 150 városát vizsgálták meg több mint hárommillió Google utcakép elemzésével. A technológiai fejlesztés eredményeként elkészült rangsorban Budapest belvárosa a központ két kilométeres körzetében a tizedik helyezést érte el 5,83 pontos átlaggal. A gyakorlatban ez azt jelenti, hogy a mesterséges intelligencia hét különböző szempont – köztük a szépség, a biztonságérzet, a pezsgő városi élet, a gyalogosbarát kialakítás, a történelmi jelleg, a kényelem és az érzékelt vagyoni helyzet – alapján értékelte a városi környezetet. A platformot a jövőben tovább szeretnék fejleszteni, hogy a településeknek segítsenek a városi terek minőségének javításában."
+        },
+        "tolkien": {
+          "title": "A milliós látcső árnyéka: Budapest a tíz legékesebb liget között",
+          "body": "A Budapesti Corvinus Egyetem és a Toulouse School of Economics bölcsei a mesterséges intelligencia titkos igéivel mérték meg a világ 150 városának lelkét és kőbe zárt arcát. A StreetPulse elnevezésű, gigantikus fejlesztési műhelyben több mint hárommillió utcaképet rostáltak át, hogy a szürke aszfaltból és tornyokból kibányásszák a városi terek igaz arcát. Az éles szemű technológia hét szentséges mérce – szépség, biztonság, pezsgés, gyalogos ösvények, ősi idők jelei, kényelem és gazdagság – szerint rostálta a vidéki tájakat, s a centrum két kilométeres körzetében Budapest a tizedik hely magasságába emelkedett. E dicső helyezés fényében a magyar főváros belvárosa 5,83 pontos átlaggal bizonyította erejét, miközben a tudósok ígérete szerint a rendszert tovább kovácsolják, hogy a jövőben még tisztábban tükrözze a települések arcát."
+        },
+        "reito": {
+          "title": "Hárommillió fotó a gépházból: Budapest beférkőzött a tízes elitklubba",
+          "body": "A Budapesti Corvinus Egyetem és a Toulouse School of Economics kutatói a StreetPulse nevű mesterséges intelligencia-rendszerrel estek neki a világnak, hogy hárommillió Google utcaképet átvizsgálva igazságot tegyenek hetven ország 150 városa között. A technológiai fejlesztés és a hét szigorú szempont – például a biztonság, a gyalogosbarát kialakítás vagy a pezsgő városi élet – alapján Budapest a centrum két kilométeres körzetében a tizedik helyen landolt 5,83 pontos átlaggal. A gyakorlati tanulság szerint a gép nem tétlenkedett: a magyar főváros ezzel olyan éllovasok nyomába eredt, mint a 6,29 ponttal első Párizs, miközben a kutatók a platformot a jövőben még tovább fejlesztik a városi terek minőségének javítására."
+        }
       }
     },
     {
@@ -8811,7 +8941,11 @@
           },
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -8888,7 +9022,17 @@
           "body": "Franciaországban 3,2 százalékra, Spanyolországban pedig 4,1 százalékra esett vissza a novemberi infláció a külföldi gazdasági hírek adatai szerint, látványosan meglepve a Bloomberg és a piaci elemzők várakozásait. A drágulás ütemének lassulását elsősorban az olcsóbbodó üzemanyagok és energiaárak hozták össze, amivel a pénzromlás mindkét országban lejjebb csúszott az előző havi szintekről. A jegybanki célnál persze még így is magasabb ez a mutató, de a piaci szereplők nyomban visszavettek a tempóból, és 35 százalékról 25 százalékra vágták vissza a 2027 végéig várható háromszori szigorítás esélyét. Az eurózóna 21 tagjának összesített inflációs mérlegét kedden dobják be a köztudatba, a szakértők pedig 3,9 százalékos eredményt vizionálnak."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Young_vendor_in_a_grocery_store_in_Don_Som_%282%29.jpg/960px-Young_vendor_in_a_grocery_store_in_Don_Som_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Young_vendor_in_a_grocery_store_in_Don_Som_(2).jpg",
+        "author": "Basile Morin",
+        "credit": "Own work",
+        "title": "Young vendor in a grocery store in Don Som (2).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -8968,7 +9112,17 @@
           "body": "A külföld rovat fénypontjaként Hongkongban annyira elszabadultak a bérleti díjak az év első tíz hónapjában, hogy a városi index 6,3 százalékkal, a Spacious.hk adatbázisa szerint a kínálati medián pedig 7,9 százalékkal ugrott fel. Ez a tempó azt eredményezi, hogy a bérlőknek reflexből kell cselekedniük: a megtekintés napján leteszik a kauciót, és még arra is képesek, hogy ráígérjenek egy már lezártnak hitt szóbeli megállapodásra. Central kerületben egy kétszobás lakás már 25 ezer hongkongi dollárba fáj, miközben a JPMorgan Chase & Co. 2028-ban átcuccol West Kowloonba, a Savills pedig az év utolsó negyedévére újabb, akár 5 százalékos drágulást jósol a luxuskategóriában."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/China_Railway_CR400AF-A-2082_G6533%28Guangzhounan_to_Hong_Kong_West_Kowloon%29_10-07-2019.jpg/960px-China_Railway_CR400AF-A-2082_G6533%28Guangzhounan_to_Hong_Kong_West_Kowloon%29_10-07-2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:China_Railway_CR400AF-A-2082_G6533(Guangzhounan_to_Hong_Kong_West_Kowloon)_10-07-2019.jpg",
+        "author": "LN9267",
+        "credit": "Own work",
+        "title": "China Railway CR400AF-A-2082 G6533(Guangzhounan to Hong Kong West Kowloon) 10-07-2019.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -9809,7 +9963,17 @@
           "sourceHash": "f2db00063974779e5989aa3e2eadf6d410233444a7da8ab908ae8c848698d8b4",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_05.jpg/960px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_05.jpg",
+        "author": "Ank Kumar",
+        "credit": "Own work",
+        "title": "Frankfurt Stock Exchange (Ank Kumar) 05.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11666,7 +11830,17 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg/960px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_03.jpg",
+        "author": "Ank Kumar",
+        "credit": "Own work",
+        "title": "Frankfurt Stock Exchange (Ank Kumar) 03.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -11991,7 +12165,17 @@
           "body": "A hazai porondon a BUX 1,9 százalékos szárnyalással indított, az OTP pedig 2,9 százalékos pluszban húzta a belföldi mezőnyt, miközben az S&P Global hitelminősítő éppen Magyarországot veszi górcső alá a naptára szerint. Ez a pénzügyi lendület alaposan felkavarja az állóvizet a budapesti parketten. Nem maradtak le a külföldi tőzsdék sem, hiszen a Stoxx 600 0,8 százalékos örömtánccal nyitott, és Kínában is hirtelen észbe kaptak a vagyonosok a pekingi parancsra. Így aztán a pénz nem aluszik, hanem kamatostul keresi a helyét a globális kaszinóban."
         }
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_08.jpg/960px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_08.jpg",
+        "author": "Ank Kumar",
+        "credit": "Own work",
+        "title": "Frankfurt Stock Exchange (Ank Kumar) 08.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
