@@ -353,7 +353,7 @@ body:has(.story-dialog[open]) {
 .storylist .story .story-image,.article-photo .dialog-image{width:100%;height:auto;max-height:220px;object-fit:contain;margin:0}
 .storylist .story .story-image.photo-crop{height:160px;object-fit:cover}
 .article-photo .dialog-image.photo-crop{height:220px;object-fit:cover}
-.article-photo .photo-monochrome{filter:grayscale(1)}
+.article-photo img{filter:grayscale(1) sepia(.8)}
 .dialog-content .article-photo{margin:12px 0}
 </style></head>
 <body><header class="masthead"><div class="topline"><span>Budapest · személyes Napközbeni lap</span><button class="night-toggle" type="button" id="night-toggle" role="switch" aria-label="Éjszakai mód" aria-checked="false"><span>Éjszakai mód</span><span class="toggle-state">Ki</span></button><div class="edition-switcher"><span id="today" class="edition-date"></span><select id="issue-picker" class="issue-picker" aria-label="Az aznapi kiadás kiválasztása"><option value="latest">A mai szám</option></select></div></div></header><div class="brand-lockup"><div class="brand-inner"><div class="brand-heading"><div class="brand">NANO<span>News</span></div><p class="strap"><span>Hírek röviden, a stílus rajtad áll.</span></p></div><div class="style-control-wrap"><div class="brand-style-selector" role="group" aria-label="Írás stílusa"><button class="mode" type="button" data-style="original">Eredeti összefoglaló</button><button class="mode" type="button" data-style="tolkien">Tolkien tollából</button><button class="mode" type="button" data-style="reito">Rejtő Jenő stílus</button></div></div></div></div><nav class="nav topic-nav" aria-label="Témakörök"><details class="topic-accordion" open><summary class="topic-nav-title"><span>TÉMAKÖRÖK</span><span class="accordion-indicator" aria-hidden="true"></span></summary><div class="topics" id="topics"><div class="topic-group sports-topics" id="sport-topics"><div class="topic-group-title">Sportrovatok</div><div class="sport-topic-row" id="sport-competitions"></div><div class="sport-topic-row" id="sport-teams"></div></div><div class="topic-group other-topics" id="other-topics"><div class="topic-group-title">További rovatok</div></div></div></details></nav>
@@ -477,7 +477,6 @@ function renderApprovedPhoto(story, imageClass) {
   const photo = document.createElement('img');
   photo.className = imageClass;
   photo.alt = '';
-  if (approval?.monochrome === true) photo.classList.add('photo-monochrome');
   if (approval?.crop === true) photo.classList.add('photo-crop');
   photo.src = useCommons ? commons.image : story.image;
   figure.append(photo);
