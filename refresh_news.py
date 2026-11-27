@@ -966,9 +966,31 @@ if preparation_pool is not None:
 if not publish_only:
     save_inbox()
 
+def log_style_event(event, story, issue, **details):
+    record = {
+        "event": event,
+        "time": datetime.now(TZ).isoformat(),
+        "issue": issue,
+        "source": story.get("source"),
+        "article": story_key(story.get("url", "")),
+        **details,
+    }
+    print("STYLE " + json.dumps(record, ensure_ascii=False), flush=True)
+
+
+def log_backfill_error(story, article_text, error):
+    reason = "gemini_error" if article_text else "article_text_unavailable"
+    log_style_event("failed", story, previous_edition.get("scheduledAt") or previous_edition.get("updatedAt"),
+                    reason=reason, error_type=type(error).__name__,
+                    http_status=getattr(error, "code", None))
+
+
 def backfill_story(pending_story):
     if (background or force_backfill) and time.monotonic() >= work_deadline:
+        log_style_event("deferred", pending_story, previous_edition.get("scheduledAt") or previous_edition.get("updatedAt"),
+                        reason="time_budget")
         return False
+    log_style_event("attempt_started", pending_story, previous_edition.get("scheduledAt") or previous_edition.get("updatedAt"))
     updated = False
     current_variants=pending_story.setdefault("variants",{})
     if (pending_story.get("summaryVersion")!=SUMMARY_VERSION or
@@ -984,7 +1006,7 @@ def backfill_story(pending_story):
             updated=True
             print(f"Refreshed v2 summary and styles for {pending_story.get('url')}")
         except Exception as exc:
-            print(f"Pending v2 summary unavailable {pending_story.get('url')}: {exc}")
+            log_backfill_error(pending_story, article_text, exc)
         return updated
     current_tolkien=current_variants.setdefault("tolkien",{})
     current_reito=current_variants.setdefault("reito",{})
@@ -1006,7 +1028,7 @@ def backfill_story(pending_story):
                 pending_story["contentBasis"] = "article"
                 pending_story["sourceHash"] = hashlib.sha256(article_text.encode("utf-8")).hexdigest()
         except Exception as exc:
-            print(f"Pending combined style rewrite unavailable {pending_story.get('url')}: {exc}")
+            log_backfill_error(pending_story, article_text, exc)
         return updated
     if needs_tolkien:
         try:
@@ -1015,7 +1037,8 @@ def backfill_story(pending_story):
             if not current_tolkien.get("body"):current_tolkien["body"]=generated["body"]
             updated=True
             print(f"Completed missing Tolkien rewrite for {pending_story.get('url')}")
-        except Exception as exc:print(f"Pending Tolkien rewrite unavailable {pending_story.get('url')}: {exc}")
+        except Exception as exc:
+            log_backfill_error(pending_story, article_text, exc)
     if not current_reito.get("title") or not current_reito.get("body"):
         try:
             generated=gemini_reito_rewrite(pending_story,article_text,api_key,vivid_styles=edition_uses_vivid_styles(previous_edition))
@@ -1023,7 +1046,8 @@ def backfill_story(pending_story):
             if not current_reito.get("body"):current_reito["body"]=generated["body"]
             updated=True
             print(f"Completed missing Rejto rewrite for {pending_story.get('url')}")
-        except Exception as exc:print(f"Pending Rejto rewrite unavailable {pending_story.get('url')}: {exc}")
+        except Exception as exc:
+            log_backfill_error(pending_story, article_text, exc)
     if current_tolkien.get("title") and current_tolkien.get("body") and current_reito.get("title") and current_reito.get("body"):
         if current_variants.get("original",{}).get("body"):
             pending_story["summaryVersion"]=SUMMARY_VERSION
@@ -1036,12 +1060,22 @@ def backfill_story(pending_story):
 def backfill_group(stories):
     updated = False
     for story in stories:
-        if backfill_story(story):
+        changed = backfill_story(story)
+        if changed:
             updated = True
+            state = "partially_completed" if needs_style_refresh(story) else "completed"
+            log_style_event(state, story, previous_edition.get("scheduledAt") or previous_edition.get("updatedAt"))
     return updated
 
 
 pending_updated = False
+if pending_current:
+    issue = previous_edition.get("scheduledAt") or previous_edition.get("updatedAt")
+    for index, story in enumerate(pending_current):
+        reason = ("publication_uses_saved_data" if publish_only else
+                  "gemini_key_unavailable" if not api_key else
+                  "batch_limit" if index >= 10 else None)
+        log_style_event("deferred" if reason else "queued", story, issue, reason=reason)
 if api_key and not publish_only and (not manual or pending_current) and pending_current:
     stories_by_article = {}
     for story in pending_current[:10]:
@@ -1094,6 +1128,11 @@ if publish_only:
     if snapshot_sha:
         edition["inboxSnapshot"] = snapshot_sha
     edition["archiveFile"] = f"{scheduled_at:%Y-%m-%d-%H%M}.json"
+    for story in stories:
+        for record in all_story_records(story):
+            if not record.get("archiveDate") and needs_style_refresh(record):
+                log_style_event("published_pending", record, scheduled_at.isoformat(),
+                                reason="missing_or_outdated_styles")
 Path("data").mkdir(exist_ok=True)
 Path("data/latest.json").write_text(json.dumps(edition,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 archive=Path("data/archive");archive.mkdir(exist_ok=True)
