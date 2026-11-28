@@ -2603,8 +2603,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "3c73d33f4068b8fe311e4ec00f2ec5ec93e5657cedae4507f4701f4c2b90eb9a",
       "relatedStories": [
         {
           "source": "Telex",
@@ -2771,7 +2771,20 @@
           "sourceHash": "c9f59fb11710f664311e0cc1ff3207526d10f70cdda2b5fe2267c08f3a838350",
           "archiveDate": "2026. 11. 23."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A végrehajtási visszaéléseket feltáró parlamenti vizsgálóbizottság előtt tartott meghallgatáson Jeney Orsolya volt helyettes államtitkár és Martonovics Bernadett kormányfőtanácsos, a végrehajtói szakvizsgabizottság elnöke az őket érintő kérdésekre válaszolva kijelentette, hogy nem emlékeznek a Schadl György kérésére elintézett vizsgákra, illetve nem kaptak ilyen jellegű megkereséseket. A belföldi parlament vizsgálóbizottsága által lefolytatott ülés gyakorlati következménye az, hogy a volt igazságügyi minisztériumi dolgozók tagadták az érintettségüket a nyomozati iratokban szereplő protekciós ügyekben és a bíró eltávolítására vonatkozó hívásokban. A belföldi helyszínen zajló eseményen Jeney Orsolya 2017-es végrehajtóvá válásáról, az MBVK elnökségébe kerüléséről, valamint a 2021-ben Völner Pál államtitkárnak adott vizsgázói jelzésekről is szó esett. Martonovics Bernadett esetében a nyomozati anyagokból felidézett, 1700 oldalas iratokban szereplő chatüzenetek és a Dettiként ismertté vált korábbi szerepek ellenére a bizottsági tagok kérdéseire érdemi emlékezet hiányában nem kaptak közvetlen beismerő választ."
+        },
+        "tolkien": {
+          "title": "A Titkok Csarnokának Árnyai és a Emlékezet Porladó Útjai",
+          "body": "A belföldi parlament magas falai között a végrehajtási visszaélések sötét titkait kutató vizsgálóbizottság elé járult Jeney Orsolya és Martonovics Bernadett, kiknek neve egykor a hatalom belső köreiben forgott, ám most a feledés homályába burkolózva állták a kérdések viharát. A messze gyűrüző tanácskozás legsúlyosabb következményeként a két egykori minisztériumi vándor semmilyen emléket nem őrzött a Schadl György által kért protekciós vizsgákról, a bírók eltávolításáról vagy a sorsfordító üzenetekről. A belföldi rögökön zajló kihallgatáson a 2017-ben végrehajtóvá lett Jeney és a szakvizsgákat egykor elnöklő Martonovics makacsul hárította a múlt árnyait, állítva, hogy a bírósági végrehajtás útvesztőiben az ő kezüket nem szennyezték be a tiltott alku alkonyi sugarai. A feszült órák során a nyomozati iratok tekercsei kiteríttettek, de a feledés pajzsa megvédte a részvevőket a bűnök beismerésének súlyától."
+        },
+        "reito": {
+          "title": "Vizsgák a hátunk mögött, emlékezet a zsebben: így tárgyal a bizottság",
+          "body": "A belföldi parlament végrehajtási visszaéléseket feltáró vizsgálóbizottsága elé rendelték Jeney Orsolya volt helyettes államtitkárt és Martonovics Bernadett kormányfőtanácsost, akik a Schadl-ügy 1700 oldalas iratanyaga ellenére hirtelen teljesen üresnek találták a memóriájukat. A kényes kérdések záporában a gyakorlati eredmény annyi lett, hogy a vizsgabizottság egykori elnöke és a friss végrehajtóként kerekedett Jeney egy csepp emléket sem mutatott fel a protekciós vizsgákról vagy a kellemetlen bírók eltávolításáról szóló telefonhívásokról. A belföldi porondon lefolytatott meghallgatáson Martonovics a sikeres, de „nagyon gáz” vizsgák chatüzeneteire is csak annyit felelt, hogy nem emlékszik, mikor melyik vizsga zajlott. A papírok szerint Schadl Györgynek izmos kar emojival válaszoló hölgyek határozottan állították: eszük ágában sem volt nyomásra átengedni senkit, és különben sem kaptak olyan megkeresést, amit az ügyészség rajtuk kívül komolyan vett volna."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2783,8 +2796,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "301d5b84880122cf8aa9ab0f0d74ada8e81cbf2200e3f8acb51faae4c802ed5f",
       "commonsPhoto": {
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_05.jpg/960px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "page": "https://commons.wikimedia.org/wiki/File:Frankfurt_Stock_Exchange_(Ank_Kumar)_05.jpg",
@@ -2795,7 +2808,20 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Erős napot zárt pénteken a budapesti tőzsde, miután a BUX-index 2,8 százalékkal emelkedett az előző záróértékhez képest, és két százalékponttal felülteljesítette a páneurópai Stoxx 600-at. A belföldi tőzsdei kereskedésben mind a négy hazai blue chip árfolyama nőtt: a piacot a 4,4 százalékkal emelkedő OTP húzta, a Mol 2,5 százalékkal, a Richter 1,8 százalékkal, a Magyar Telekom pedig 0,8 százalékkal került feljebb. A közepes kapitalizációjú papírok közül az Appeninn 10, a Rába pedig 5,1 százalékkal erősödött, míg a legnagyobb forgalmat az OTP részvényeiben bonyolították 20,9 milliárd forint értékben. Ez a lendületes drágulás az amerikai és európai piacok általános pénteki emelkedésével összhangban ment végbe a hazai parketten."
+        },
+        "tolkien": {
+          "title": "A főváros kincses csarnokának diadala",
+          "body": "Íme, a pesti porond felett is feltámadt a láng, midőn a BUX nemes indexe két egész nyolc tized százalékkal magasabbra szökkent, maga mögött hagyva a távoli, bús Stoxx seregét. A belföldi tőzsde csarnokában mind a négy büszke kézműves-kincs, a hazai blue chipek serege győzelmet aratott: az OTP vitézei vezették a sort négy egész négy tized százalékos iramban, miközben a Mol, a Richter és a Magyar Telekom is dicsőségesen emelkedett. A kisebb nemes kövek közül az Appeninn tíz, a Rába pedig öt egész egy tized százalékos diadalt aratott a vértezett napfényben. Így vált az OTP portája a legnagyobb sereggyűjtés helyévé, hol húszmilliárd kilencszázmillió aranyat érő üzlet köttetett ezen az áldott napon."
+        },
+        "reito": {
+          "title": "A pesti parkett nagymenői: amikor a BUX is kinyújtóztatja a lábát",
+          "body": "Kiderült, hogy pénteken nemcsak a tengerentúlon, de a pesti nagypiacon sem tettek lakatot a kasszákra, hiszen a BUX-index 2,8 százalékos sprinttel hagyta maga mögött a tegnapi árnyékokat, és még a páneurópai Stoxx 600-at is kétértelműen kacsintva előzte meg két százalékponttal. A belföldi tőzsde parkettjén most aztán nem volt kegyelem a pesszimistáknak, mert mind a négy hazai blue chip egy szálig vigyorgott: az OTP vitte a pálmát a maga 4,4 százalékos menetelésével, de a Mol, a Richter és a Magyar Telekom is elegánsan lépkedett felfelé. Ha ez még nem lenne elég a boldogsághoz, a közepes halak közül az Appeninn 10, a Rába pedig 5,1 százalékot ugrott, míg az OTP papírjaiban olyan forgalom csapott ki, hogy azon 20,9 milliárd forint vándorolt zsebtől zsebig."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -3233,9 +3259,22 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "f918152a8eb8208f7a699c7750a43e61cae13007f33ba519a1ed63a1376e53b6",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Kedden nyújtotta be a kormány az oktatás megújításáról szóló törvényjavaslatot, amely január 1-jével megszüntetné a kötelező tagságon alapuló Nemzeti Pedagógus Kart, így a szervezet elnöke, Rázsi Botond Miklós is a sajtóból értesült erről, miközben a parlamentben tárgyalt oktatási változások közvetlenül érintik az állami iskolák pedagógusait és a belföldi közéletet. A gyakorlati következmény az, hogy a korábban automatikus és kötelező tagság megszűnik, és a szervezet működésére eddig biztosított évi 150 millió forintot a jövőben pályázati úton osztják szét a szakmai szervezetek között. Az Orbán-kormány által 2013-ban létrehozott testület jövőjéről a PDSZ is petíciót nyújtott be kedden, miután az oktatási miniszterrel folytatott hétfői tárgyalásukon ez még nem szólt, az érintett minisztérium pedig elismerte a kar munkáját, de úgy ítélte meg, hogy a pedagógusoknak önállóan kell dönteniük a szervezeti tagságukról."
+        },
+        "tolkien": {
+          "title": "A Pedagógusok Rendjének Alkonyasóhaja a Törvények Asztalánál",
+          "body": "Az Orbán királyságának tanácsa kedden nyújtotta be az oktatás megújításáról szóló törvénytekercset, amely a belföldi parlament falai között a Nemzeti Pedagógus Kar nevű testületet, valamint annak elnökét, Rázsi Botond Miklóst érinti, aki a csillagok helyett csupán a hírvivők lapjaiból tudta meg a végzetes hírt. E döntés nyomán a jövő év első napján eloszlik az állami iskolák tanítóinak kötelező és automatikus szövetsége, és az eddig fenntartásukra rendelt évi 150 millió aranytallér helyett csupán pályázatok ködös útján osztják szét a kincseket a szakmai céhek között. A Pedagógusok Demokratikus Szakszervezete petícióval ostromolta a várat a kar eltörléséért, s noha a miniszter hűbéreseivel még hétfőn is egybegyűlt, a változás szevei váratlanul söpörtek végig a birodalom földjén, elnémítva a tizenegy esztendeje élt tanácsadó testületet."
+        },
+        "reito": {
+          "title": "Hajrá, kamarai füstbelyegzés: a miniszter hallgat, a kar meg a sajtóból értesül",
+          "body": "Kedden nyújtotta be a kormány az oktatás megújításáról szóló törvényjavaslatot, amely a belföldi parlament asztaláról röptében szüntetné meg január 1-jével a kötelező tagságú Nemzeti Pedagógus Kart, mire a szervezet új elnöke, Rázsi Botond Miklós is csak a sajtó hírfolyamából pislogott ki a nagyvilágra az állami iskolák pedagógusait és a hazai közéletet alaposan felkavaró ügyben. A gyakorlati következmény annyi, hogy a tanároknak eddig automatikus kötelező tagságuk megszűnik, a szervezet évi 150 milliós állami zsebpénze pedig elillan, pontosabban pályázati aprópénzként osztják szét a szakmai szervezetek között. A PDSZ huszárvágással kedden még petíciót is benyújtott a megszüntetésért, miközben az oktatási miniszterrel lefolytatott hétfői tárgyalásukon erről még mélyen hallgattak, az illetékes tárca pedig azzal a csavarral zárta le a menetet, hogy a pedagógusok döntsenek inkább maguk a hovatartozásról."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -3247,8 +3286,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/a/z/b/azbeszt-tartalmu-kozet-sopron-852032-855646.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "8815e0a6c11116de2a27acaacdf8148bbf70b98dc9d9cd170330a8accc3847c5",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -3264,7 +3303,20 @@
           "sourceHash": "56be134b3d191ce69ec39b0317d3dabff6fd0a956fc8f6d0d476df72e6ab22d3",
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Elutasították a hazai önkormányzatok pályázatait az Azbesztmentesítési Alapból, mert azok nem kizárólag a természetes azbeszttartalmú kőzúzalékok okozta egészségi kockázatok megszüntetésére és lefedésére irányultak. A belföldi településeket érintő döntés miatt a polgármesterek értetlenségüket fejezték ki, jogorvoslatra pedig a kiírás szerint nincs lehetőség. Nemény András szombathelyi és Básthy Béla kőszegi polgármester is nyilatkozott az ügyben, utóbbi jelezte, hogy fellebbezni sem tudnak. Az értesítés végén a kiírók arra hívták fel a figyelmet, hogy a tapasztalatok alapján új pályázatot írnak ki a feltételek újragondolása mellett."
+        },
+        "tolkien": {
+          "title": "Az Azbeszt Árnyéka és a Megtagadott Kötések",
+          "body": "Az Azbesztmentesítési Alap kapui zárultak be a magyar önkormányzatok előtt, miután kérelmeiket elutasították, mert azok nem csupán a természetes azbeszttartalmú kőzúzalékok okozta veszedelmek lefedésére szolgáltak. A hazai földek uraiként szólaló polgármesterek, köztük a szombathelyi Nemény András és a kőszegi Básthy Béla, megdöbbenéssel szemlélték a döntést, amely ellen a bástyák falai mögül sem lehetséges jogorvoslat. A szigorú szabályok láncai fojtogatják a várományosokat, ám a sötét krónika lapjai új fejezetet ígérnek: a megpróbáltatások tanulságai nyomán a kiírók újjászülető pályázat megírását hirdették meg."
+        },
+        "reito": {
+          "title": "Azbesztmentesítés: Alap, amiből pont az azbesztmentesítés maradt ki",
+          "body": "Megkapták a körmösüket a magyar önkormányzatok az Azbesztmentesítési Alaptól, miután a beadott pályázataikat simán elutasították azért, mert azok nem kizárólag a természetes azbeszttartalmú kőzúzalékok okozta egészségi kockázatok lefedésére irányultak. A szombathelyi polgármester, Nemény András találóan summázta a hazai bürokrácia remekművét, míg a kőszegi városvezető, Básthy Béla hiába keresné a fellebbezési gombot, mert a szabályzat szerint olyan egyszerűen nincs. Miután a pofon megérkezett, a hivatalos értesítésben csupán annyi vigaszt nyújtottak, hogy az eddigi botrányos tapasztalatok után új pályázatot írnak ki a feltételek alapos újragondolásával."
+        }
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -3276,8 +3328,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "e2c59403631ae832a77d3950c3a89e5b3864c2aec29f5271f3a865863560add5",
       "relatedStories": [
         {
           "source": "NBAnews.hu",
@@ -3299,7 +3351,20 @@
           "sourceHash": "f1728564f608e8f3ec497b2b76aa496da14a7a7c2b3ca62e46baf35f2710d1c6",
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Luka Dončić személyesen kérte a Los Angeles Lakers vezetőségétől a nyári keretátalakítás során, hogy szerezzék meg Walker Kesslert, mivel korábbi ellenfélként a center gyűrű körüli védelme és védekezése győzte meg a szlovén játékost. A gyakorlati következmény az lett, hogy a két klub július 1-jén megállapodott, majd július 8-án a Lakers hivatalosan bejelentette a 25 éves center érkezését egy négyéves, 130 millió dolláros sign-and-trade ügylet keretében, jelentős drafttőkét áldozva a 2025/26-os idényben bal váll sérülés és műtét miatt öt mérkőzés után kieső magasemberért. Az NBA rovatba tartozó cikk szerint a Dončić köré épülő csapat ezen igazolással és a játékstílusok kiegészülésével – a kettő-kettő elleni játékoktól a külső védők agresszívabb fellépéséig – hatékonyabbá vált, a páros pedig magyar idő szerint szombat hajnalban 3:30-kor a Victor Wembanyama vezette San Antonio Spurs ellen lép pályára az NBA-kupa csoportkörének utolsó fordulójában."
+        },
+        "tolkien": {
+          "title": "A szlovén mágus hálója és az acélpajzsú őrszem",
+          "body": "A Los Angeles Lakers nyári hadjárata során a szlovén klasszis, Luka Dončić saját kezébe vette a sors fonalát, mikor a vezetőség elé járulva Walker Kessler oltalmát és megszerzését követelte a gyűrű védelmére. E dicső lobbi gyümölcseként a felek július 1-jén egyezségre jutottak, és július 8-án fénylő hivatalossággal bejelentették, hogy a 25 éves center egy négyéves, 130 millió dolláros sign-and-trade paktum révén csatlakozik az aranysárga-lilákhoz, dacára annak, hogy a hős előző idényét bal vállának sebe és rituális műtéte ötszemélynyi csatára korlátozta. Az NBA krónikájába vésett eseménysor szerint a két harcos szövetsége – melyben a center elzárásai és hajthatatlan dobásblokkolása acélozza meg a csapat szerkezetét – új magasságokba emeli a gárdát, amelynek fegyverét hamarosan megpróbálják a Victor Wembanyama vezette San Antonio Spurs bástsái ellen is, magyar idő szerint szombat hajnalban 3:30-kor, az NBA-kupa csoportkörének utolsó ütközetében."
+        },
+        "reito": {
+          "title": "Hogyan vett egy sérült centert a Lakers Luka szavára?",
+          "body": "Luka Dončić ott helyben megmondta a Los Angeles Lakers főnökeinek a szezon után, hogy neki bizony Walker Kessler kell a palánk alá, mert korábbi ellenfélként unta meg a center könyörtelen gyűrűvédelmét. Ennek meglesz a böjtje: a klub július 1-jén nyélbe ütötte az üzletet, július 8-án pedig hivatalosan is bejelentették a 25 éves centert, aki egy négyéves, 130 millió dolláros sign-and-trade szerződést kapott arra a játékosra, aki az előző idényben mindössze öt meccset bírt ki egy bal vállat érintő balhé és az azt követő műtét miatt. Az NBA rovat híre szerint a méregdrága drafttőkéért megvett magasember a kettő-kettőket és a védekezést is felpörgeti Dončić mellett, a tesztidőszak pedig azonnal meg is érkezik: magyar idő szerint szombat hajnalban 3:30-kor a Victor Wembanyama vezette San Antonio Spurs otthonában vizsgázik a páros az NBA-kupa csoportkörének utolsó fordulójában."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -3312,9 +3377,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795800810-temp-5rnm7ivbvla26fkdknl_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "3804632e81dd8db412252991f8401bc755a91ab02e474efaa03896b393f26165",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Tudományos és Technológiai Minisztérium tájékoztatása szerint a Krausz Ferenc vezette Molekuláris-Ujjlenyomat Kutató Központot (CMF) érintő változások nyomán a szervezet 2027-ben a korábbi évek támogatásának töredékét, mintegy 4 milliárd forint közvetlen állami szerepvállalást kaphat, miközben a kutatások egy része Németországba kerülhet. A Technológia / Fejlesztések rovatba tartozó fejlesztések terén a CMF lézeres elemzési megoldásait 2027-től elsődlegesen Németországban fejlesztik a jobb lézeres infrastruktúra miatt, míg a belföldi ingatlanberuházás mélyépítési szakaszát lezárják, és azt a Közlekedési és Beruházási Minisztériummal közösen új céllal – felsőoktatási infrastruktúraként, kollégiumként vagy vegyes beruházásként – fejezik be. A cég korábbi tulajdonosát, az Élvonal Alapítványt jelentő kekvát 2026. augusztus 31-i hatállyal törlik, a CMF átvétele pedig a Tudományos és Technológiai Minisztériumhoz került, amely az idei évre 7,6 milliárd forintos forrást biztosít."
+        },
+        "tolkien": {
+          "title": "A Molekulák Őrzőinek Titkos Terhe és a Ködbe Vesző Aranyfolyamok",
+          "body": "A végzetes esztendő küszöbén a Krausz Ferenc által irányított Molekuláris-Ujjlenyomat Kutató Központ (CMF) és annak belföldi kincsei felett hatalmas változások szele fúj, miután a Tudományos és Technológiai Minisztérium magához ragadta a cég tulajdonosi jogait az Élvonal Alapítvány nevű, letűnt alapítvány augusztus végi sötétbe vesző törlése után. E bizonytalan időkben a Technológia / Fejlesztések birodalmának lángjai Németország földjére vándorolnak, hogy a lézeres tudományok titkait ott fejlesszék tovább, míg a Magyar tudósok körútján félbeszakadt építmény sorsa új, állami kezekbe és célokba rétegződik. Az ősi kincstár zárolt bősége visszatér a birodalom központjába, s a 2027-es esztendőre csupán mintegy 4 milliárd aranyat számláló állami adomány marad a cégnek, amely mellé külföldi tájakról – Hongkong és más messzi vidékek uraftól – érkeznek majd külső szövetségesek a minták gyűjtésére. A tudósok mindeközben nem adják fel a reményt, hogy a jövőben uniós és piaci források segítségével újraegyesítsék a szétszórt morzsákat, miközben az idei esztendőre szigorú szakmai célokra szánt 7,6 milliárd forint szolgál pajzsként a túléléshez."
+        },
+        "reito": {
+          "title": "Ahol a milliárdok elköszönnek, és a lézerek pakolnak: a CMF újabb kalandjai",
+          "body": "A Tudományos és Technológiai Minisztérium friss hírei szerint a Krausz Ferenc vezette Molekuláris-Ujjlenyomat Kutató Központ (CMF) 2027-ben már beéri a 2026-os büdzsé aprópénzével, ugyanis a közvetlen állami támogatás nagyvonalúan cirka 4 milliárd forintra zsugorodik, a kutatások lézeres szekciója pedig csomagol és Németországba teszi át a székhelyét. A Technológia / Fejlesztések csatatérén a belföldi beruházás mélyépítését most gyorsan lezárják, hogy aztán a Közlekedési és Beruházási Minisztériummal közösen valami teljesen másból – például kollégiumból vagy felsőoktatási intézményből – építsenek várat a Magyar tudósok körútján. Az Élvonal Alapítvány nevezetű kekva augusztus végi törlése után a minisztérium átvette a kormányrudat, zárolás alól felszabadítva több mint 34 milliárdot visszaküldött a kasszába, miközben a maradék idei mókára 7,6 milliárd forintot biztosít. Míg a hazai kassza zárva maradhat, Hongkongban a helyi egyetemmel közös egészségügyi program indult, ám aggodalomra semmi ok: a külföldi mintagyűjtés számláit nem a magyar adófizetők, hanem tartományi kormányok és alapítványok állják."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -3401,9 +3479,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795797589-temp-t43o5ger9el55ehpdjm_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "3b5936b6164c9d8c732d1299b6c6020c270a73b6b40385fa877c528a5193af2d",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A végrehajtási visszaéléseket feltáró vizsgálóbizottság péntek délutáni meghallgatásán Martonovics Bernadett, az Igazságügyi Minisztérium korábbi kormányfőtanácsosa többször is arra hivatkozott, hogy nem emlékszik a Schadl Györgyhöz fűződő viszonyára, a vitatott vizsgákra, a kormányirodával való egyeztetésekre és a sajtóból értesült az ügy részleteiről. A korábbi minisztériumi ügyintéző – aki a végrehajtó-jelölteket vizsgáztató bizottság elnökeként és jogszabály-előkészítőként heti szinten egyeztetett Schadllel – a kérdésekre válaszolva elismerte a szoros munkakapcsolatot, de a visszás vizsgaeredményekről és a nyomozati iratokban szereplő részletekről kijelentette, hogy nem tud, vagy nem emlékszik. Az ügy a Belföldi parlament vizsgálóbizottságának ülésén és a hazai Belföld közéletében is a Schadl–Völner-ügyhöz, valamint a 2024. március 26-án nyilvánosságra hozott, Varga Judittal kapcsolatos hangfelvételekhez kötődik."
+        },
+        "tolkien": {
+          "title": "A feledés homálya borul a minisztérium titkaira a parlamenti vizsgálat bírái előtt",
+          "body": "A Belföldi parlament tanácstermének mélyén, a Schadl–Völner-ügy sötét iratait kutató bizottság előtt állt Martonovics Bernadett egykori kormányfőtanácsos, miközben a múlt emlékei füstként szálltak el elméjéből. Az Igazságügyi Minisztérium egykori útjain járva, hol Schadl György árnyékos hívásaira, hol a végrehajtó-jelöltek sorsát pecsételő vizsgák viharaira emlékeztetve csak annyit mondott, hogy semmire sem emlékszik, és a válaszokat mind elmosták az idők hullámai. A törvények heti szövésében a hatalom urai és a kamara elnöke által fonott szálakról szóló kérdésekre csupán a feledés homályát felelte a Belföld földjén zajló kihallgatáson, ahol a 2024-es hangok vihara óta senki sem leli az igazság fonalát."
+        },
+        "reito": {
+          "title": "A minisztériumi főtanácsos esete a szelektív amnéziával és a Schadl-féle vizsgabizottsággal",
+          "body": "A Belföldi parlament vizsgálóbizottságának pénteki délutánján Martonovics Bernadett volt kormányfőtanácsos elegánsan elhárított minden terhelő kérdést azzal a lendülettel, hogy ő bizony semmire sem emlékszik, a saját beszélgetéseiről meg a sajtóból értesült. Az Igazságügyi Minisztérium egykori bürokratája – aki mellesleg a Schadl György pártfogoltjait átengedő vizsgabizottságot elnökölte, és heti rendszerességgel egyeztetett a letartóztatott végrehajtóelnökkel – hirtelen kollektív emlékezetkiesésbe kezdett a vitatott tesztek és a kormányirodai hívások kapcsán. A Belföld színterén zajló, 2024-es hangfelvételekről és Schadl embereinek átrúgdosásáról szóló számonkérésen így az egyetlen konklúzió az maradt, hogy a legfőbb tanú szerint attól, hogy valaki mond valamit, még nem biztos, hogy úgy is történt."
+        }
+      }
     },
     {
       "source": "HVG",
