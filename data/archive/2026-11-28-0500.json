@@ -1648,9 +1648,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "e97869a9b9c6180e29e12bd236ba7fe0e5f18556b48384380df2049b338c046c",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Péntek éjjel az S&P hitelminősítői jelentése javította a magyar államadósság kilátásait, ami a hazai és az idegen devizában fennálló adósságot is érintette. Az adósbesorolás a befektetésre már nem ajánlott kategória fölött eggyel, BBB– szinten maradt, de a korábbi negatív helyett stabil kilátással, így az ország két lépésnyi távolságra került a bóvli kategóriától. A döntést a megváltozott politikai környezettel, a Tisza kétharmados parlamenti többsége által elfogadott jogállamisági reformokkal, a feloldott uniós forrásokkal, a helyreállított intézményi keretekkel, a kiszámíthatóbb gazdaságpolitikával és az elindított költségvetési konszolidációval indokolták. A jelentés szerint a GDP idén 1,7, jövőre 2,5 százalékkal nőhet, a beruházások reálértéke 4 százalékkal nőhet, az államháztartási hiány az idén 7,5 százalékon tetőzve jövőre 5 százalékra csökkenhet, a nettó államadósság 2028-ban tetőzhet a GDP 74,5 százalékán, az infláció idén 2, jövőre 3,2-3,3 százalék lesz, az ágazati különadók kivezetését 2028-tól fontolóra veheti a kormány, a túlzottdeficit-eljárás alól pedig 2030-ban kerülhet ki az ország."
+        },
+        "tolkien": {
+          "title": "A bóvli árnyékától távolodó ösvényen",
+          "body": "Péntek éjjel az S&P hitelminősítői jelentése javította a magyar államadósság kilátásait, eloszlatva a hazai és az idegen devizában fennálló adósság felett lebegő vészfelhőket. Az adósbesorolás a sötét vermen felüli, BBB– szinten maradt, ám a viharos helyett szilárd kilátással ruházza fel az országot, mely így immár két lépésnyi távolságra húzódott a bóvli kategória mélységétől. A változást a politikai táj átalakulása, a Tisza kétharmados törvényhozói akarata által emelt jogállamisági reformok, a felszabadult uniós kincsek, a helyreállított intézményi bástyák és a megfontoltabb gazdaság kormánya hozta el. A krónika szerint a gazdaság gyümölcse idén 1,7, majd jövőre 2,5 százalékkal gyarapszik, a beruházások reálértéke 4 százalékkal növekszik, az államháztartás terhe pedig a 2028-as évben a GDP 74,5 százalékán tetőzik."
+        },
+        "reito": {
+          "title": "Két lépés a szakadéktól: az S&P mentőöve",
+          "body": "Péntek éjjel az S&P hitelminősítői jelentése javította a magyar államadósság kilátásait, miután a hazai és az idegen devizában fennálló adósság is sorra került a leltárban. Az adósbesorolás becsülettel megmaradt a BBB– szinten, de a korábbi, borús kedélyeket keltő negatív jelző helyett stabil kilátással ruházták fel, így az ország máris két biztonságos lépéssel távolabb masírozott a bóvli kategória fojtogató övétől. A fordulatot a megváltozott politikai széljárás, a Tisza kétharmados többségével áttolt jogállamisági reformok, a felszabadított uniós eurók és a megokosodott gazdaságpolitika hozta össze. A számok tanúsága szerint a GDP idén 1,7, jövőre 2,5 százalékkal nő, az idén 7,5 százalékon tetőző hiány jövőre 5 százalékra esik, a nettó államadósság pedig 2028-ban tetőzik a GDP 74,5 százalékán."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1662,9 +1675,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/s/t/a/standard-and-poors-sp-hitelminosito-520495.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "86b5ab4d586a8e917a3d016fce6eb7e802997631babaa71129037c5938279b43",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A S&P hitelminősítő javította Magyarország kilátását az uniós források feloldása és a reformok nyomán, amellyel az ország távolodik a befektetésre nem ajánlott kategóriától. A gazdasági növekedés a 2026-os 1,75 százalékról 2027-re 2,5 százalékra gyorsulhat, a költségvetési hiány pedig a 2026-os 7,5 százalékos tetőzés után 2030-ra mérséklődhet annyira, hogy megszűnjön a túlzottdeficit-eljárás. A hazai gazdaságpolitika emellett arra törekszik, hogy legkorábban 2032-ben bevezesse az eurót. A Belföld rovat híreként ez a fejlemény a hazai intézményi reformokhoz, a költségvetési konszolidációhoz és a makrogazdasági pályához kapcsolódik."
+        },
+        "tolkien": {
+          "title": "A megkövesült láncok törése és az aranyló vizek visszatérése",
+          "body": "A sötétség börtönéből szabadult birodalom földjén új hajnal virradt, miután az uralkodók kétharmados akaratából kinyíltak a régóta lezárt kincstárak kapui. Az EU Tanácsa által felszabadított tízmilliárd eurónyi aranytartalék és a tizenötmilliárdot számláló kohéziós folyamok elindították a gazdaság hatalmas kerekét, hogy az évekig sorvadó mezőkön újra dús termés fakadjon. A mélyből feltörő belső erők és a megújult szövetségek révén a királyság elkerüli a veszedelmes, hitvány bércek árnyékát, és a maastrichti törvények csillagait követve készíti elő útját a közös fizetség fenséges kapujáig. Ez a dicső krónika a birodalom határain belül zajló újjászületésről mesél, amelyben az intézmények újjáépített bástmái védik meg a népet a külső veszedelmektől."
+        },
+        "reito": {
+          "title": "Hitelminősítői pálfordulás: Amikor a zárolt milliárdok észhez térítik a bürokratákat",
+          "body": "A S&P hirtelen meggondolta magát, és látványos kilátásjavítással jutalmazta Magyarországot, miután a reformok leporolásával hirtelen megnyílt a pénzcsap, és milliárdok zúdultak be Brüsszel felől. A költségvetés ugyan 2026-ban még hatalmas, 7,5 százalékos gödörben liheg a választási költekezések után, de 2030-ra csodás módon kikecmereg a túlzottdeficit-eljárás szorításából. A forint erősödik, az infláció idén 2 százalékra esik, a kormány pedig hősies lendülettel célozza meg a 2032-es euróbevezetést, mintha a maastrichti kritériumok csak egy laza hétvégi akadálypályát jelentenének. Ez a hazai pénzügyi színteret porondra szólító belföldi kabaré tökéletesen mutatja, hogyan lehet a zsugorodó éveket egy szempillantás alatt gazdasági száguldássá varázolni."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -1676,9 +1702,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261126/1795693657-temp-187cfu42ak2lbddcolb_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "6552e61fbee687a093345c5b34eb9d196e6d2f102cb3250512a507e20e4b4f82",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Vasárnap előrehozott választást tartanak Spanyolországban, ahol a Pedro Sánchez vezette Spanyol Szocialista Munkáspárt (PSOE) a bizonytalan kilátások ellenére is küzd a hatalomért, miközben a Francisco Franco diktatúrája óta először kerülhet kormányra a szélsőjobboldali Vox a jobbközép Néppárttal (PP) kötött lehetséges koalíció révén. A 350 fős alsóházban a legfrissebb felmérések szerint a jobboldali erők 187 mandátumot szerezhetnek, ami meghaladja a 176 fős abszolút többséget, így még a szocialisták esetleges első helye esetén is a jelenlegi ellenzék alakíthat kormányt. A kampányt olyan meghatározó ügyek határozták meg, mint a súlyos lakhatási válság, a november közepén tartott országos általános sztrájk, valamint egy október végi halálos vonatbaleset, amelybe belebukott a közlekedési miniszter is. A 39 millió szavazásra jogosult állampolgár voksai nyomán dől el, hogy a nyolc éve hatalmon lévő Sánchez meg tudja-e menteni a kormányát, vagy a 65 éves Alberto Núñez Feijóo vezette Néppárt és Santiago Abascal szélsőjobboldali pártja veszi át az ország irányítását."
+        },
+        "tolkien": {
+          "title": "A Korona Árnyéka és a Vörös Folyó Végzete",
+          "body": "Vasárnap a déli birodalom harminckilenc millió lakosa gyűlik egybe, hogy ítélkezzen a trónon ülő szocialista rend felett, akinek sorsát vasmarkú krónikák jegyzik. A mélyből feltörő, lakhatásért vívott kétségbeesett harcok és a vasutak pusztító tragédiája után az uralkodó, Pedro Sánchez előrehozott viadalt hirdetett, ám a felmérések vészjósló viharfelhői szerint a bukás árnyéka borul a fejére. Ha a szocialisták serege utolsó hajrájában nyer is a mezőn, a régóta zárt kapuk mögül feléledő szélsőjobb sötét serege, a Vox és a Néppárt koalíciója ragadja magához a jogar. Ötven esztendő telt el azóta, hogy Franco sötét diktatúrájának éjszakája levonult a földről, de most e félelmetes szövetség trónra lépte az egész birodalom sorsát megpecsételheti."
+        },
+        "reito": {
+          "title": "A spanyol lecsó: amikor a túlélő is beleizzad a választásba",
+          "body": "Vasárnap 39 millió spanyol jár urnákhoz, hogy eldöntse, maradjon-e a szocialista kormányfő, Pedro Sánchez, vagy a történelem írjon egy váratlan pimasz fordulatot. Sánchez előrehozott választási manővere eddig leginkább arra volt jó, hogy a saját bukását hozza előre néhány hónappal, miközben a nyakába kapott egy lakhatási válságot, egy sztrájkot és egy októberi vonatbalesetet is. A számok makacs dolgok: a Néppárt és a szélsőjobboldali Vox alkotta jobboldali duó a felmérések szerint 187 mandátummal simán átlépi a 176-os többségi lécet a 350 fős parlamentben. Így ha Sánchezék esetleg meg is nyerik a befutót, a kulcsot a zárban a Franco bukása óta először kormányra kerülni vágyó szélsőjobb fordíthatja el."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1704,9 +1743,22 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/01246aa7-720d-4c30-b4b1-792535ac1057.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "453ce61df2902df6b54e2cde804ece5261ca6b7c169a7f71e3f6bda417f3ed65",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Az S&P nemzetközi hitelminősítő megerősítette Magyarország adósbesorolását a BBB- szinten, egyetlen lépésre a bóvlivá minősítéstől, miközben a kilátást negatívról stabilra javította a belföldi gazdaságpolitikai és költségvetési folyamatok kapcsán. Ennek gyakorlati következménye, hogy az ország elkerülte a befektetésre nem ajánlott kategóriába sorolást, miután az új kormány végrehajtotta a befagyasztott uniós források kiolvasztásához szükséges intézményi reformokat. A hitelminősítő várakozásai szerint a költségvetési hiány a 2026-os 7,5 százalékról 2027-re a GDP 5 százalékára, 2028-ra pedig 4,5 százalékára csökken, ami 2028-ban a GDP 74,5 százalékán stabilizálja az államháztartás nettó adósságát. Az S&P emellett arra számít, hogy a Tisza-kormány által elért uniós támogatások – mint a mintegy 10 milliárd eurós helyreállítási terv és a kohéziós források – érdemi forrásbeáramlást biztosítanak a következő években."
+        },
+        "tolkien": {
+          "title": "A bóvli sötét árnyéka elől menekülő magyar kincstár krónikája",
+          "body": "Az S&P nemzetközi hitelminősítő a BBB- szinten rögzítette Magyarország adósbesorolását, egyetlen leheletnyire a mélységes bóvli küszöbétől, ám a sötétlő fellegeket stabilra cserélte a szövetségek újjászületése révén. Ez a döntés megóvja a hazai gazdaság bástzáit a teljes zuhanástól, miután a Tisza-kormány kétharmados hatalmával megtörte az uniós kapuk lakatjait, és lehívta a fagyos láncokból kiszabadult, tízmilliárd eurós helyreállítási kincseket. A bölcs számvetők előrejelzése szerint a túlköltekezés hegyvonulatai szelídülnek, és a hiány a 2026-os 7,5 százalékról 2027-re a GDP 5 százalékára, majd 2028-ra 4,5 százalékára apad, az adósság terhét pedig a GDP 74,5 százalékán szilárdítják meg. Ha a reformok fáklyája tovább pislákol, és a maastrichti csillagok útját követik, e birodalom akár az euró szent szövetségébe is beléphet az eljövendő évtizedek során."
+        },
+        "reito": {
+          "title": "Hitelminősítői kötéltánc: hogyan úszta meg az ország a bóvli-cunamit",
+          "body": "Az S&P hitelminősítő a BBB- szinten hagyta Magyarország adósbesorolását, éppen egy hajszállal a befektetésre nem ajánlott kategória felett, de a korábbi viharfelhőket stabil kilátásra cserélte. A gyakorlatban ez azt jelenti, hogy a Tisza-kormány friss reformjai és a kinyitott uniós pénzcsapok – beleértve a mintegy 10 milliárd eurós helyreállítási csomagot – megvédték a hazai büdzsét az azonnali fekete levestől. A szakemberek számításai szerint a büdzsé hiánya a 2026-os 7,5 százalékról 2027-re a GDP 5 százalékára, 2028-ra pedig 4,5 százalékára zsugorodik, az államadósság pedig 2028-ra a GDP 74,5 százalékán állapodik meg. A kormány ráadásul arra hajt, hogy 2030-ra teljesítse a maastrichti kritériumokat, és 2032-ben csatlakozzon az euróövezethez, amivel hosszú távú kényszerpályára állította a hazai gazdaságpolitikát."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1719,8 +1771,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/o/r/b/orban-arpad-873580.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "e614348cd61b63b9b0fc59d41f824e0dde7d17c8f8047325cc4ab7c4fecee847",
       "relatedStories": [
         {
           "source": "Telex",
@@ -1733,8 +1785,21 @@
           ],
           "image": "https://assets.telex.hu/images/20261127/1795810292-temp-brvisu3cpfb92eejpef_cimlap-normal.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "fdc9c7b44c12bfdbf231a34606eadef536f80347bf539388a08faa2022f416d7",
+          "variants": {
+            "original": {
+              "body": "Orbán Árpád István, a Tisza fővárosi frakciójának vezetője november 1. óta a Városliget Zrt. igazgatóságának új elnöke, ami a belföldi parlament és a Fővárosi Közgyűlés működéséhez is kapcsolódik, miközben a magyar állam tulajdonában lévő cég irányításáért a kultúráért felelős miniszter felel. Emiatt a tisztségért a politikus havonta a 2026-os évi minimálbér összegének kétszeresét, bruttó 645.600 forintos juttatást kap."
+            },
+            "tolkien": {
+              "title": "A liget őrzőjének trónusa és a főváros bíbor ösvényei",
+              "body": "A Tisza fővárosi frakciójának vezetője, Orbán Árpád István lépett a magyar állam által őrzött Városliget Zrt. igazgatóságának élére november 1. napjától, összefonva a belföldi parlament és a főváros sorsát a vállalat küldetésével. E méltóság fejében a tisztségviselőt a 2026-os esztendő minimálbérének kétszereséből fakadó, bruttó 645.600 forintos juttatás illeti meg."
+            },
+            "reito": {
+              "title": "A Városliget új kormányosa: bankszámlától a belföldi parlamentig",
+              "body": "Orbán Árpád István, a Tisza fővárosi frakciójának vezetője november 1. óta a Városliget Zrt. igazgatóságának elnöke lett, miután a belföldi parlament és a fővárosi ügyek hálójában a kultúráért felelős miniszter rábólintott a személyére. A minisztériumi logisztika szerint a pénzügyi zsonglőrködéshez értő közgazdász bankszakmai múltja pont elég volt ahhoz, hogy a cég élére üljön, cserébe a 2026-os minimálbér dupláját, azaz bruttó 645.600 forintot tehet zsebre havonta."
+            }
+          }
         },
         {
           "source": "HVG",
@@ -1747,8 +1812,21 @@
           ],
           "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fd502cd9-cbb1-4794-8aca-104a1529d2de.jpg",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "1651adfe3ee1356b837bf09947e33d9dfcd94280a6b2a857fb991f7b5681b5ef",
+          "variants": {
+            "original": {
+              "body": "Orbán Árpád István, a Tisza Párt budapesti frakciójának vezetője, valamint a Fővárosi Tulajdonosi Bizottság elnöke lett a Városliget Zrt. igazgatóságának új elnöke, amely társaság alapítója és egyedüli részvényese a magyar állam, tulajdonosi joggyakorlója pedig a kultúráért felelős miniszter. A kultúráért felelős miniszter által irányított tárca indoklása szerint a kiemelkedő vezetői tapasztalattal és jelentős bankszakmai ismeretekkel rendelkező közgazdász kinevezése előnyt jelent a fejlesztési projektek döntéshozatalában, a futó programok figyelemmel kísérésében, valamint a tartós és gazdaságosan fenntartható üzemeltetés terén. Az új elnök a Budapesti Közgyűlés tagjaként és a Fővárosi Tulajdonosi Bizottság elnökeként más, hasonló komplexitású cégek működésére is rálátással bír, és a Tisza-frakció vezetését azután vette át, hogy Bujdosó Andreát országgyűlési képviselőnek és parlamenti frakcióvezetőnek választották."
+            },
+            "tolkien": {
+              "title": "A Liget Új Őrzője és a Városok Tanácsa",
+              "body": "Így esett, hogy a Tisza Párt budapesti hadainak vezére, Orbán Árpád István lépett a Városliget Zrt. igazgatóságának trónjára új elnökként, miközben a birodalom kincstárát és a kultúra miniszterének jogait maga a magyar állam tartja kezében. A minisztérium bölcsei szerint a bankszakmai ismeretekkel és mély látással megáldott közgazdász érkezése pajzs lesz a fejlesztések útján, és erős oszlopa a gazdaságos fenntarthatónak mondott váraknak. Az új fejedelem a Budapesti Közgyűlés falai között és a Fővárosi Tulajdonosi Bizottság élén is őrködik, átvéve a Tisza zászlaját azon nap után, hogy Bujdosó Andrea a nagytanács, az országgyűlés csarnokába emelkedett."
+            },
+            "reito": {
+              "title": "A Tisza-frakció kapitánya kiköt a Városligetben",
+              "body": "Orbán Árpád István, a Tisza Párt budapesti frakciójának vezére és a Fővárosi Tulajdonosi Bizottság elnöke vette át a Városliget Zrt. igazgatóságának elnöki székét, miközben a cég egyedüli részvényese maga a magyar állam, a tulajdonosi jogokat pedig a kultúráért felelős miniszter gyakorolja. A minisztériumi indoklás szerint a bankszakmai ismeretekkel megáldott, tapasztalt közgazdász remekül fest majd a fejlesztési döntések és a futó programok körül, sőt a gazdaságos üzemeltetés ábrándját is testközelbe hozza. Mivel az új elnök a Budapesti Közgyűlésben és a Tulajdonosi Bizottság élén is otthonosan mozog, ráadásul a Tisza-frakció vezetését is megörökölte Bujdosó Andrea országgyűlési képviselővé és frakcióvezetővé válása után, nem mondható, hogy unalom áldozata lenne."
+            }
+          }
         },
         {
           "source": "444.hu",
@@ -1761,10 +1839,36 @@
           ],
           "image": "",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          "contentBasis": "article",
+          "sourceHash": "1917d2cc45a18b3552c1b9238fa8fb43f84599bda184697fb23b25b6f1103e3d",
+          "variants": {
+            "original": {
+              "body": "Novembertől Orbán Árpád, a Tisza Párt fővárosi frakcióvezetője lett a Városliget Zrt. igazgatóságának új elnöke, amely változás a budapesti Városliget átfogó megújításáért és üzemeltetéséért felelős állami tulajdonú gazdasági társaságot érinti. A döntés gyakorlati következménye, hogy a Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium indoklása szerint Orbán kiemelkedő vezetői tapasztalata és bankszakmai ismeretei előnyt jelentenek a fejlesztési projektek döntéshozatalában, a futó programok követésében, valamint a tartósan gazdaságos üzemeltetésben és a fővárossal való működési összhang biztosításában. A Tisza Párt fővárosi frakcióvezetőjének új tisztsége közvetlenül kapcsolódik a parlamenthez és a hazai belföldi eseményekhez, mivel a társaság tulajdonosi joggyakorlója a kultúráért felelős miniszter, aki a Tisza-kormányban Tarr Zoltán."
+            },
+            "tolkien": {
+              "title": "A Liget Kapujának Őrzője és a Városliget Zrt. Új Trónusa",
+              "body": "November havában Orbán Árpád, a Tisza Párt fővárosi frakcióvezetője lépett elő a Városliget Zrt. igazgatóságának új elnökévé, s e változás a magyar állam egyedüli tulajdonában álló, a budapesti Városliget ligeteinek megújítását és felsejlő parkjait gondozó gazdasági társaságot érintette. E tisztség emelkedett bástyája mélyenbe ágyazódik a belföldi parlament és a hatalom csarnokaiba, hiszen a cég tulajdonosi joggyakorlója a kultúráért felelős miniszter, aki a Tisza-kormányban Tarr Zoltán néven hallatszik. A Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium szava szerint az új elnök kiemelkedő vezetői tapasztalatai és bankszakmai ismeretei pajzsként szolgálnak majd a fejlesztési döntésekben, a futó programok őrzésében és a liget gazdaságos fenntartásában, összhangot teremtve a főváros és a társaság útjai között."
+            },
+            "reito": {
+              "title": "Frakcióvezető a ligeti kassza és a park őrzőinek élén",
+              "body": "Novembertől Orbán Árpád, a Tisza Párt fővárosi frakcióvezetője vette át a Városliget Zrt. igazgatósági elnöki posztját, ami alaposan érinti a Liget Budapest Projekt megvalósításáért és a park üzemeltetéséért felelős, állami tulajdonú gazdasági társaságot. A belföldi szálak ott fognak össze, hogy a cég egyedüli részvényese a magyar állam, tulajdonosi joggyakorlója pedig a kultúráért felelős miniszter, aki a Tisza-kormányban Tarr Zoltán. A Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium szerint a banki és vezetői tapasztalatokkal megáldott közgazdász elnök tuti biztosíték arra, hogy a fejlesztési döntések és a futó programok simán fussanak, ráadásul a főváros és a ligetes cég működése is összhangba kerüljön."
+            }
+          }
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Orbán Árpád Istvánt, a Tisza fővárosi frakciójának tagját november 1-jétől kinevezték a kizárólagos állami tulajdonú Városliget Zrt. új vezetőjévé, tulajdonosi jogait pedig a Tisza-kormány kultúráért felelős minisztere, Tarr Zoltán gyakorolja. Az új elnök feladatai ellátásáért a 2026-os minimálbér kétszeresét, havonta bruttó 645 600 forintot kap. A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium közlése szerint a kinevezés hátterében az áll, hogy a jelentős vezetői és bankszakmai háttérrel rendelkező közgazdász a Fővárosi Közgyűlés tagjaként és a Tulajdonosi Bizottság elnökeként komoly rálátással bír a komplex vállalatok működésére, ami előnyt jelent a fejlesztési projektek döntéshozatalában és a futó programok felügyeletében."
+        },
+        "tolkien": {
+          "title": "A liget kulcsát átadják a fővárosi hgynak",
+          "body": "A kizárólagos állami kincsként őrzött Városliget Zrt. élére Orbán Árpád Istvánt, a Tisza fővárosi frakciójának vezérét rendelték, akinek hatalma november első napján lépett hatályba a Tisza-kormány kultúráért felelős minisztere, Tarr Zoltán akaratából. Az új elnök jutalmul a 2026-os minimálbér kétszeresét, havonta bruttó 645 600 ezüstpénzt vehet át szolgálataiért. A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium szózata szerint a bankok viharain edzett, mély tudású közgazdász a Fővárosi Közgyűlésből és a Tulajdonosi Bizottság éléről érkezett, hogy éleslátásával vezesse a hatalmas birodalom fejlesztési terveit és felügyelje a futó műveket."
+        },
+        "reito": {
+          "title": "A Városliget új főnöke a fővárosi frakcióból",
+          "body": "Orbán Árpád Istvánt – aki mellesleg a Tisza fővárosi frakciójának is oszlopos tagja – november 1-jétől kinevezték a kizárólagos állami tulajdonú Városliget Zrt. élére, ahol a tulajdonosi jogokat a Tisza-kormány kultúráért felelős minisztere, Tarr Zoltán rángatja. Az új elnök a fáradságos feladatokért cserébe a 2026-os minimálbér dupláját, azaz havonta bruttó 645 600 forintot tehet zsebre. A Társadalmi Kapcsolatokért és Kultúráért Felelős Minisztérium szerint a pénzügyi vizeken edződött közgazdász azért kapta meg a bizalmat, mert a Fővárosi Közgyűlés tagjaként és a Tulajdonosi Bizottság elnökeként már eddig is látott ezt-azt a vállalatok bonyolult gépezetéből, ami kapóra jön a fejlesztések és a futó projektek terelgetésénél."
+        }
+      }
     },
     {
       "source": "444.hu",
