@@ -2257,7 +2257,7 @@
     },
     {
       "source": "Nemzeti Sport",
-      "published": "Fri, 27 Nov 2026 23:10:00 +0000",
+      "published": "Fri, 27 Nov 2026 23:20:00 +0000",
       "observed": "2026-11-27T23:27:02.419128+01:00",
       "title": "Szombati sportműsor: három meccs az NB I-ben; Sopron–DVTK rangadó a női kosárélvonalban",
       "link": "https://nemzetisport.hu/minden-mas-foci/2026/11/szombati-sportmusor-harom-meccs-az-nb-i-ben-sopron-dvtk-rangado-a-noi-kosarelvonalban",
@@ -2407,8 +2407,19 @@
         "unavailable": true,
         "version": 4
       }
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Fri, 27 Nov 2026 23:38:59 +0000",
+      "observed": "2026-11-28T01:08:41.230843+01:00",
+      "title": "110-es átlaggal esett ki az első kiemelt a vb előtti utolsó nagy dartstornán",
+      "link": "https://nemzetisport.hu/egyeb-egyeni/2026/11/110-es-atlaggal-esett-ki-az-elso-kiemelt-a-vb-elotti-utolso-nagy-dartstornan",
+      "categories": [
+        "darts"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/Sc92QqIFDmOFW450TpD1D5wDqYwqy7x6CUpilWfDd2M/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YyNzg2ZTE2NGU1NzQxM2JiMTAxMTg2ZGZlOWJlZTc4.webp"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-28T00:21:08.752581+01:00"
+  "lastRssCollection": "2026-11-28T01:08:41.230843+01:00"
 }
