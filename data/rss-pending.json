@@ -155,8 +155,237 @@
         "unavailable": true,
         "version": 4
       }
+    },
+    {
+      "source": "Telex",
+      "published": "Sat, 28 Nov 2026 08:07:53 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "A rekordalacsony vízállás miatt meg kell hosszabbítani a vízmércéket",
+      "link": "https://telex.hu/belfold/2026/11/28/az-extrem-alacsony-vizallas-miatt-meg-kell-hosszabbitani-a-vizmerceket",
+      "categories": [
+        "environment"
+      ],
+      "image": "https://assets.telex.hu/images/20261128/1795849429-temp-krc20ad29cv38dicfhm_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Sat, 28 Nov 2026 07:28:52 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Negatívra rontotta Franciaország kilátását az egyik nagy hitelminősítő",
+      "link": "https://telex.hu/gazdasag/2026/11/28/negativra-rontotta-franciaorszag-kilatasat-az-egyik-nagy-hitelminosito",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://assets.telex.hu/images/20261128/1795847313-temp-8bsoltvbrfu8bjfdbdo_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Sat, 28 Nov 2026 06:31:53 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Előző munkahelyén szappanos vizet itathatott egy kisfiúval az óvónő, de aztán egy budai óvodában mégis alkalmazták – végül onnan is elbocsátották",
+      "link": "https://telex.hu/belfold/2026/11/28/ovoda-videk-budapest-gyerekek-buntetesek-sni-erkolcsi-bizonyitvany",
+      "categories": [],
+      "image": "https://assets.telex.hu/images/20261127/1795791244-temp-ufbkl0ae5fua2moimnn_cimlap-normal.jpg"
+    },
+    {
+      "source": "Telex",
+      "published": "Sat, 28 Nov 2026 06:30:11 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Minden várakozást alulmúlt az EU-csúcs, ami után senki sem elégedett",
+      "link": "https://telex.hu/kulfold/2026/11/28/eu-europai-tanacs-koltsegvetes-ukrajna-magyar-peter-antonio-costa",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://assets.telex.hu/images/20261127/1795797883-temp-5gebvs4q4s4e6lajocp_cimlap-normal.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 07:25:00 Z",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Cserhalmi György a Nagy Ervin-féle pénzosztásról: Ez hatalmas baki volt",
+      "link": "https://hvg.hu/kultura/20261128_cserhalmi-gyorgy-nagy-ervin-penzosztas",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/056ec4cf-1ba9-40f1-ad15-af18cdb42c6e.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 07:16:20 Z",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Fareed Zakaria: Trump nagy pofont kapott az urnáknál, de van kiút a számára",
+      "link": "https://hvg.hu/360/20261128_fareed-zakaria-trump-nagy-pofont-kapott-az-urnaknal-de-van-kiut-a-szamara",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ee4866a8-d22b-428a-b1af-b1151c08508c.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 07:03:00 Z",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Visszatér egy telefongyártó a magyar piacra",
+      "link": "https://hvg.hu/tudomany/20261128_doro-telefon-idos-embereknek",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/aec1f538-26f2-4dc2-b1e2-684fc31ac44b.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 07:01:55 Z",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Negatívra rontotta az eddigi stabilról Franciaország kilátását az S&P Global Ratings",
+      "link": "https://hvg.hu/gazdasag/20261128_negativra-rontotta-az-eddigi-stabilrol-franciaorszag-kilatasat-az-s-p-global-ratings",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d8f0f151-a652-4654-a4d2-0c8954bce752.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 06:59:00 Z",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Az agresszió csimborasszója: teszten a 639 lóerős Audi RS 5 sportkombi",
+      "link": "https://hvg.hu/cegauto/20261128_agresszio-csimborasszoja-639-loeros-audi-rs-5-sportkombi-teszt-velemeny",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/3b16a903-3d85-4a9d-b978-0e9d5ae6e82f.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Sat, 28 Nov 2026 07:02:55 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "NHL: tíz vendéggyőzelem, tíz gól Nashville-ben",
+      "link": "https://nemzetisport.hu/amerikai-sportok/2026/11/nhl-tiz-vendeggyozelem-tiz-gol-nashville-ben",
+      "categories": [
+        "winter-sports"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/qS4XRdGZCpy5b1MEAXk2jTqWSzajNJVuWdxnQG_QH9I/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzBjMTI5ZGFkYTlkMDRjMWY5ODU2ZjI5ZDRhNWQxNDU2.webp"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Sat, 28 Nov 2026 06:25:46 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "A fájdalmak nélkül többre lett volna képes a világbajnokságon",
+      "link": "https://nemzetisport.hu/csupasport/2026/11/a-fajdalmak-nelkul-tobbre-lett-volna-kepes-a-vilagbajnoksagon",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/HXa4FCPCIgueQDncV2KICD_tkTxzU3hR7O7LXNy4-Gs/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzA4NGIxMzI2NjgwNTQ5YzVhNTM4MTU1NTcyOTBkZjY3.webp"
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Sat, 28 Nov 2026 06:27:46 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Ismét döntött a Lakers Bronny James sorsáról",
+      "link": "https://nbanews.hu/bronny-james-lakers-g-league-coachella-valley/",
+      "categories": [
+        "nba"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 08:00:21 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Izraeli támadás ért egy gázai klinikát, az Orvosok Határok Nélkül két munkatársa meghalt",
+      "link": "https://444.hu/2026/11/28/izraeli-tamadas-ert-egy-gazai-klinikat-az-orvosok-hatarok-nelkul-ket-munkatarsa-meghalt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 07:53:24 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Hétvégi olvasnivalók improvizatív politikáról, lemosott szégyenről, színházi ügyekről és az orosz imperializmusról",
+      "link": "https://444.hu/2026/11/28/hetvegi-olvasnivalok-improvizativ-politikarol-lemosott-szegyenrol-szinhazi-ugyekrol-es-az-orosz-imperializmusrol?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "foreign"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 07:44:18 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Újabb 123 ember haláláért ítélték el a kenyai szektavezért, aki halálra éheztette a híveit",
+      "link": "https://444.hu/2026/11/28/ujabb-123-ember-halalaert-iteltek-el-a-kenyai-szektavezert-aki-halalra-eheztette-a-hiveit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 07:22:13 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Már három hónapja jelezték, hogy nem jó a Borsod InterCity egyik ajtaja",
+      "link": "https://444.hu/2026/11/28/mar-harom-honapja-jeleztek-hogy-nem-jo-a-borsod-intercity-egyik-ajtaja?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Sat, 28 Nov 2026 08:16:00 +0100",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Újabb ukrán dróntámadás érte Rosztov környékét szombatra virradóra, egy olajfinomítót céloztak",
+      "link": "https://www.portfolio.hu/global/20261128/ujabb-ukran-drontamadas-erte-rosztov-kornyeket-szombatra-virradora-egy-olajfinomitot-celoztak-879830",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-dron-katona-arok-haboru-fegyver-873582.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 07:20:00 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Váratlanul leállt a Revolut több Samsung-telefonon, ezeket a modelleket érinti a hiba",
+      "link": "https://www.origo.hu/techbazis/2026/11/revolut-samsung-galaxy-telefon-leallas",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/ROqFxSvBluXQdXHgk41yiGJ4Ta4DqvT-A9LNujP90RI/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8wNC80ZDJiOTM4YWQ1ZWVhNWRhOTM5NDk4NDQ2YWEwZDQ2NTljNzNlOTJjNzUwNTZmNzM0MWIzOWMxNzMyOTdiNWNj.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 07:17:00 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "82 éves lenne Komár László, aki valójában se nem Komár, se nem László – hogy is van ez?",
+      "link": "https://www.origo.hu/teve/2026/11/komar-laszlo-82-lenne",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/6LfVUr-Pj3vU7U3fziTM4CuShbfwUHINtibBuNw3oo8/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMy9kZjE4NjlkZDIyY2RhNzlmMjhmNGFmNWY2MzI1Mjg1NWM0M2UxM2VhMDc3YjE3ZGU1ZTRiYjJhMzY2YmM1Njhi.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 07:00:00 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Megszületett a döntés Győrben a kézilabda klubról",
+      "link": "https://www.origo.hu/sport/sport-csapat/2026/11/gyori-audi-eto-kc-onkormanyzat-dontes",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/joTBoFuR1-NLwsjCWnlR5n2rUYJEBc_ypW93OBH6zYw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xNi84MzczYTg5MmM0NzBmZmI0NzJlOTdkOGE1NzdmZmM4M2EzNjQ5NWJjOTVmZTg4ZDc1MDU3OTYxOWY4OTk0ZTIw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 06:45:00 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "86 évesen a visszatérésre készül a Winnetou-filmek sztárja: így él manapság Gojko Mitić",
+      "link": "https://www.origo.hu/filmklub/2026/11/winnetou-filmek-gojko-mitic-2026",
+      "categories": [
+        "films"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/WzZ9ccHRdfjJtsRPN5eKHqMZcmRalAmlAyY71IPkxN8/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi9kMThjOWM0MmY3YzEwYjgwNjNmN2Y3ZjAzNzlhYjM4NDFkOWE2NGViNTE0OTIzODhhMzI2MTkxZDYzMmI5ZjQw.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 06:30:00 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Szenzáció készül: Messi és Ronaldo egy csapatban futballozhat",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/lionel-messi-cristiano-ronaldo-carlos-tevez-meghivas",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/VfFHSbGKD2nd5gTVH0UjKSh_MtQjKcb4lbFeCQQEtC8/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hNWQ4NGZjNzFhODNiZmJlM2NjMTU1ZWE5MWJjNmEwNzUyODYxOWVlOTMwZDIxZWMzMDhmOTcyMTMzODg1ZjY4.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 06:15:00 +0000",
+      "observed": "2026-11-28T08:27:52.053348+01:00",
+      "title": "Kiadták a riasztást, hófúvásra figyelmeztetnek",
+      "link": "https://www.origo.hu/itthon/2026/11/hofuvasra-figyelmeztetnek-riasztas",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/5FcHGT37UxvGynUXCrb0BRbzmQRKyMh8Ym29pzYQdNM/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi9mNGFmMWQ5ZWU2ODk1ZWNjODg5MTI0OTM0OGMzZjljNzNlMmQ5ZDExNDQ5MjFhOWEzMmQ0Njk4OGZlZThlMDUy.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-28T07:14:01.618463+01:00"
+  "lastRssCollection": "2026-11-28T08:27:52.053348+01:00"
 }
