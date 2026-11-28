@@ -3464,9 +3464,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/5cMKyy-QIQW_Q0hC_0-2Jh5CL9KowE83yHWfXVE-Nq4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdjMDNlYjk5MDNjNDQ2MTU4M2YxNGNmZTM5YjQ3ZWQ1.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "0adf2bc76772d58f9d8f7d72c71e4010252a55ead336ddf4f69401d6fcec9902",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Katari Nagydíj második szabadedzésén Andrea Kimi Antonelli zárt az élen a Mercedes pilátojaként, miután az olasz versenyző a közepes keveréken elért 1:23.077-es körével 127 ezreddel megelőzte csapattársát, George Russellt. A piros zászlós megszakítások és a Nemzetközi Automobil-szövetség által biztosított plusz 13 perc edzésidő után a mezőny magas üzemanyagszint mellett készült a versenyre, míg a gyakorlás végén Lewis Hamilton autójának erővesztése miatt virtuális biztonsági autós szakasz lépett érvénybe. A harmadik szabadedzés szombaton 15 óra 30 perckor folytatódik."
+        },
+        "tolkien": {
+          "title": "Az Ezüst Nyilak viadala a sivatagi homok tengerén",
+          "body": "A sivatagos mezőn átívelő Katari Nagydíj második viadalán Andrea Kimi Antonelli és a Mercedes csapata diadalmaskodott, miután az olasz ifjú a közepes keverékű abroncsokon szárnyalva 1:23.077-es idővel utasította maga mögé társát, George Russellt. A pályára hulló kavicsok vihara és Pierre Gasly bűne miatt két alkalommal is vörös lobogó állította meg a harcot, ám a Nemzetközi Automobil-szövetség kegyelméből tizenhárom perccel meghosszabbodott a küzdelem ideje. Miközben a bajnokok már nehéz vaspáncélban, tele üzemanyaggal rótták a köröket a közelgő csatára várva, Lewis Hamilton tüzes szekere az egyes kanyarnál végleg elhamvadt. E fenséges erőpróba után a harmadik megmérettetés szombaton délután fél négykor veszi kezdetét."
+        },
+        "reito": {
+          "title": "Amikor az ezüst nyíl megmutatja, hogyan kell állva hagyni a mezőnyt",
+          "body": "A Katari Nagydíj második szabadedzésén a Mercedes ifjú titánja, Andrea Kimi Antonelli mutatta meg a hátát a világnak, amikor a közepes gumikon futott 1:23.077-es idejével szűk 127 ezreddel verte csapattársát, George Russellt. A piros zászlók csak azért jöttek, hogy szünetet adjanak a kavicságyban úszó Pierre Gaslynak, míg a Nemzetközi Automobil-szövetség nagylelkűen még 13 percet pakolt az órába a kényszerszünetek után. A mezőny a végén már nem a gyorskörökkel bűvölt, hanem teli tankkal rótta a köröket, amíg Lewis Hamilton Ferrarija elegánsan le nem adta a szolgálatot az egyes kanyarnál, ezzel besatírozva a tréning végét. A cirkusz szombaton 15 óra 30 perckor folytatódik a harmadik szabadedzéssel."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -3506,9 +3519,22 @@
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f3e857e-2745-40c1-a3f0-7ae7045b9923.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "bb88ce7a938561387e363ca4339eff291685962b90d631ae7b265fc7071f4bd6",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Kevesebb mint öt év alatt az orosz Különleges Műveleti Erők (SZSZO) legalább 87 tagja vesztette életét a Roszstat kiszivárgott dokumentumai szerint, a halottak zöme tiszt. A veszteségek legfőbb gyakorlati következménye, hogy az elit egység sorait Ukrajnában, Szíriában, valamint különféle harctéri és nem harctéri körülmények között – köztük határon átnyúló csapdákban és balesetekben – súlyos emberveszteségek tizedelték. A külföldi rovat eseményeihez kapcsolódóan a jelentés részletesen feltárja az orosz fegyveres erők vezérkara alá tartozó, Vlagyimir Putyin közvetlen rendelkezésére álló alakulat határokon átívelő bevetéseit és veszteségeit. A közzétett adatokból kiderül az is, hogy a 87 halottból 54-en Ukrajnában haltak meg, hárman moszkva környéki kórházakban, öten Szíriában, öttel ukrán különleges erők végeztek, míg a többiek különböző kiképzési, határ menti vagy tisztázatlan incidensek során vesztették életüket."
+        },
+        "tolkien": {
+          "title": "A csendes csarnokok árnyai: Az orosz elit harcosok pusztulása",
+          "body": "Kevesebb mint öt napra nyúló, véres esztendők forgatagában az orosz Különleges Műveleti Erők (SZSZO) legalább 87 fia hullott el a Roszstat rejtekéből kihullott írások tanúsága szerint, kiknek sorait nagyrészt a tisztek rendje alkotta. E veszteségek fagyos árnyéka vetül a birodalom mindennapjaira, miközben a harcmezők tüze és a rejtélyes halálok hálója ritkítja a vezérkar legjavát. A külföld távoli földjein – Ukrajna fás vidékeitől Szíria pusztáiig – vívott küzdelmek hűen mutatják, mint őrlődik fel Vlagyimir Putyin közvetlen hatalma alatt álló, GRU-val rokon fegyveres serege. A krónikák feljegyzései szerint az 54 ukrajnai holtesten túl kórházak ágyain, leshelyek csapdáiban és magányos, tisztázatlan végzet óráiban talált utoljára utat a sötétség e harcosokhoz."
+        },
+        "reito": {
+          "title": "A különleges osztag különlegesen rövid pályafutása",
+          "body": "Kevesebb mint öt év alatt az orosz Különleges Műveleti Erők (SZSZO) legalább 87 tagja – nagyrészt tisztek – fordult át a Roszstat kiszivárgott adatbázisának statisztikai veszteséglistájára. A fordulat kézzelfogható eredménye, hogy a Putyin közvetlen parancsnoksága alatt álló elit gárda tagjai a harctéri drónoktól kezdve a saját robbanószereiken át egészen a bizarr balesetekig szinte mindenen elbuktak, csak a dicsőségen nem. A külföldi hírek frontján mozgó jelentés precízen sorolja, hogy a 87 halottból 54-en Ukrajnában, öten Szíriában, hárman kórházakban, míg a többiek olyan rejtélyes szituációkban távoztak, mint a gázmérgezés, a tisztázatlan akasztás vagy a Csernyihiv környéki ukrán csapda."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4315,9 +4341,22 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/Vcrce1f7H0elqJN6Wa7bNVxTQyBqA5ad7AqNlSZRixc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yMzM3ZGYwNWZhNmM1YWVmYWQxMWI4YzI5MDIzMzMyYmQ4ZDk2Y2FjMGRhMmNiMDk2MmEyMmIzODY2OWFkNGEy.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "aaa4c01ee8613023506df32bd01e3b0826ca0f20bdec57802d3c3a2fd6541807",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Villarrealnál Gulácsi Péter magyar kapust és további négy játékost vár a kezdőcsapatba több spanyol forrás is a Celta Vigo elleni vasárnap 18.30-kor kezdődő La Liga 14. fordulós mérkőzésen, miután a Slavia Praha elleni, szerdai 1–0-ra megnyert Bajnokok Ligája-találkozón a kispadról követte végig a játékot. A változtatások kilátásba helyezése összefügg Ínigo Pérez vezetőedző pénteki sajtótájékoztatóján kifejtett szempontjaival, amelyek szerint a döntéshozatalban a teljesítmény, a fizikai állapot, a játékpercek száma és az ellenfél stílusa egyaránt meghatározó. A spanyol sajtóértesüléseket közlő FútbolFantasy és a Radio Vila-real, valamint a Cadena SER prognózisa szerint Gulácsi mellett Alex Freeman, Carlos Romero, Santi Comesaña és Georges Mikautadze is visszakerülhet a kezdőbe."
+        },
+        "tolkien": {
+          "title": "A sárkányos küzdőtér kapuja előtt: Gulácsi visszatérésének várása a spanyol csatatereken",
+          "body": "A sors forgandó kerekén Gulácsi Péter magyar kapus és társai számára a Bajnokok Ligája küzdelmeinek küszöbén új idők szelét jelzik a spanyol krónikások, miközben a csehek földjén aratott szerdai 1–0-ás diadal után a Villarreal csapata a Celta Vigo elleni vasárnap 18.30-kor esedékes La Liga ütközetre gyülekezik. Ínigo Pérez fővezér a pénteki seregszemlén kijelölte a harcba hívás szent törvényeit, amelyekben a hősök ereje, harci percek száma és a viadalok szele egyaránt mérlegre kerül. A FútbolFantasy és a Radio Vila-real krónikásai, valamint a Cadena SER jóslata szerint öt hős – Gulácsi mellett Alex Freeman, Carlos Romero, Santi Comesaña és Georges Mikautadze – is visszatérhet a dicsőséges kezdőcsapat pajzsai mögé. A sötét árnyat vető, vigói idegenbeli átok – ahol ötször is nyeretlenül maradtak e szent falak előtt – most megtörésre vár, hogy a Bajnok Ligája csarnokainak viadalából fakadó büszkeség a bajnoki mezőkön is diadalmaskodjék."
+        },
+        "reito": {
+          "title": "A kispad fogságából a vigói csatáig: fordulóra lesve a spanyol talajon",
+          "body": "Gulácsi Péter magyar kapus számára a Slavia Praha elleni, szerdai 1–0-ás Bajnokok Ligája-diadal még a kispad hűvös kényelmét hozta, ám a spanyol sajtó hírei szerint a Villarreal kezdőcsapatában már a visszatérését készítik elő a Celta Vigo elleni vasárnap 18.30-kor rajtoló La Liga-meccsre. Ínigo Pérez vezetőedző a pénteki eligazításon világossá tette, hogy a kezdő tizenegy sorsáról a teljesítmény, a fizikai állapot, a lefutott percek és az ellenfél stílusa dönt, így a FútbolFantasy és a Radio Vila-real szakértői, valamint a Cadena SER szerint mindjárt öt helyen is kavarodás lesz a csapatban. Alex Freeman, Carlos Romero, Santi Comesaña, Georges Mikautadze és maga a magyar kapus is visszabillenhet a tűzbe, hogy a sárga tengeralattjáró végre átússza a legutóbbi öt vigói vendégjáték nyeretlenségi zátonyát. A mester mindenesetre bízik abban, hogy a nemzetközi porondon megszerzett önbizalom a hazai pontvadászatban is kamatozik majd."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4399,9 +4438,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-md/g/a/z/gazprom-oroszorszag-tranzit-uzemanyag-olaj-ukrajna-export-szankcio-gaz-azerbajdzsan-693143.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "b6af0134e50ff3f3df0d4cbfadd17f88970a0021bbfbe8a391d5c8722724d290",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Anatolij Sapovalov, a Gazprom osztályvezetője közölte, hogy a vállalat kijelölt egy összesen 400 megawatt kapacitású kísérleti projektet kompresszoregységek átalakítására Oroszország déli és középső régióiban. Ez a technológiai fejlesztés a meglévő létesítmények gyorsabb és olcsóbb átalakításával teremt új áramtermelő kapacitást, amely enyhítheti az áramhiányt és kiszolgálhatja a 2030-ra 15 gigawattra ugoró adatközponti igényeket. A külföldi piacok, így az európai export elvesztése és az ukrajnai tranzit szünetelése miatt a Gazprom kénytelen belföldi felvevőpiacokat keresni. A projekt kivitelezése a moszkvai régiót és Dél-Oroszországot érinti, ahol az orosz adatközpontok többsége összpontosul, és a kormány közvetlenül is megbízhatja a vállalatot."
+        },
+        "tolkien": {
+          "title": "A holt gázvezetékek árnyékából ébredő, acélból szőtt birodalom",
+          "body": "Anatolij Sapovalov, a Gazprom mestere hírül adta, hogy a vállalat kijelölte a négyszáz megawatt izzó erejű kísérleti projektet a kompresszoregységek átalakítására. E technológiai fordulat gyökérszinten változtatja meg a birodalom sorsát, mert a meglévő gázutak élesre váltásával olcsóbban és sebesebben emelnek új erőműveket Oroszország déli és középső tartományaiban. Az északi és déli csővezetékek elnémultak, s a messze földön zajló háborúk árnyékában a cég a moszkvai végek tompuló erejét az adatközpontok táplálására fordítja. Vlagyimir Putyin királyi szózata és a kormánya által kijelölt ösvények szerint ez a lángoló belső hatalom lesz hivatott megmenteni a birodalmat a közelgő sötét éjtől, míg az adatközpontok éhsége kétszázszorosan növekszik a jövő évezred kapujáig."
+        },
+        "reito": {
+          "title": "A gázcső meg a mesterséges intelligencia esete a rozsdás kompresszorral",
+          "body": "Anatolij Sapovalov, a Gazprom büszke osztályvezetője bejelentette, hogy a cég kijelölt egy 400 megawattos kísérleti projektet a kompresszoregységek átalakítására. Ennek a technológiai bravúrnak köszönhetően a gázbirodalom hirtelen az AI-üzletág és az adatközpontok legfőbb megmentőjévé lép elő, miután az európai exportot kénytelen volt elfelejteni. Mivel a Jamal–Európa, az Északi Áramlat és a tavaly óta szünetelő ukrán tranzit is leállt, a felesleges gázból most délen és középen csinálnak áramot, mielőtt a szerverek áramigénye 2030-ra 15 gigawattra ugrik. A kormány ráadásul máris a befektetési listára tűzte a Gazpromot, hogy a másfél évesre becsült átalakításokkal gyorsan pótolják a hiányt ott, ahol más befektető a pénze miatt aggódva még a kapuig sem mer menni."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -4857,8 +4909,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ef2e8188218908ddf245a28f8197790d4337e8d45f6bc9d4e60cb74d6fccb1f6",
       "commonsPhoto": {
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Public_basketball_court_in_Melbourne_VIC_Australia.jpg/960px-Public_basketball_court_in_Melbourne_VIC_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "page": "https://commons.wikimedia.org/wiki/File:Public_basketball_court_in_Melbourne_VIC_Australia.jpg",
@@ -4903,7 +4955,20 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Magyar idő szerint szombat hajnalban zárul az NBA-kupa csoportköre, ahol tizenegy mérkőzésen dől el a még szabad hét továbbjutó hely sorsa a harminc induló csapatos, hat csoportos küzdelemben. A kieséses szakasz december 4-én kezdődik, és a Dallas Mavericks kivételével eddig egyetlen csapat sem biztosította be a helyét a negyeddöntőben. A csoportgyőztesek mellett a két legjobb második jut tovább vadkártyával, holtverseny esetén pedig az egymás elleni eredmény, majd a pontkülönbség dönt. Az NBANews.hu élő szöveges közvetítéssel és az összes mérkőzés folyamatos eredménynézetével követi az éjszakai eseményeket."
+        },
+        "tolkien": {
+          "title": "A Kupa hetvenpecsétes éjszakája és a harminc törzs viadala",
+          "body": "Íme, az óra eljött, mikor szombat hajnal hamuszürke leple alatt a harminc sereg harca eldől az NBA-kupa hat birodalmában, és tizenegy ütközetben hét kapu nyílik meg a dicsőség felé. Már csak a Dallas népe ül biztonságban a trónján, míg a többiek december negyedikének közeledtével acélt acélhoz ütnek a vadkártyákért és a korona maradványaiért. A holtverseny árnyékában fegyverek csörögnek: az egymás elleni vérvonal és a pontok mérlege igazságot tesz a holtakra és az élőkre. Az északi krónikások lángoló tollal, az NBANews.hu percről percre pergő sorain rögzítik a mindent eldöntő viadalt."
+        },
+        "reito": {
+          "title": "Tizenegy meccs, nulla kegyelem: zizeg a zseton az NBA-kupában",
+          "body": "Szombat hajnalban tizenegy meccs dönt az NBA-kupa maradék hét szabad helyéről, ahol a Dallas kivételével mindenki más még a körmét rágja a december 4-i negyeddöntők előtt. Ha iksz van, a csapatok az egymás elleni meccsekkel meg a pontkülönbséggel bűvészkednek, míg a Sport TV most csendben kussol, de az NBANews.hu élő szöveggel és az összes találkozó folyamatos eredményével teríti az asztalra a kártyákat. Nincs mese, a harminc csapatból mindjárt kiderül, ki marad vevő a trófeára, és ki takaríthatja össze a morzsákat."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -5631,8 +5696,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2275623941-nagy-istvn-agrrminiszter-miniszter-politikus-kormny-magyarorszg-orsz-828646-n-829270.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "7a714a0bbf2f8ae5eb4ce52c05a5e0c1ec38e648207f174b6263621d36611541",
       "relatedStories": [
         {
           "source": "HVG",
@@ -5696,7 +5761,20 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Gajdos László kezdeményezésére levélben fordult Kapitány István gazdasági miniszterhez, hogy rendeljen el országos moratóriumot a Magyarországon eddig nem használt rétegrepesztéses gázkitermelésre és a palagáz kutatására. A technológia jelentős vízigénye, valamint a felszín alatti vizek elszennyezése, a légszennyezés és a földrengések veszélye miatt a környezetvédelmi garanciák hiányában azonnali tilalmat szorgalmaznak. A Magyar Természetvédők Szövetsége (MTVSZ) és a 2025 őszén létrehozott, közel 60 civil szervezetet tömörítő Stop palagáz! civil kezdeményezés szintén sürgeti a miniszternél a nem-hagyományos szénhidrogének kutatásának és kitermelésének leállítását."
+        },
+        "tolkien": {
+          "title": "A mélyből törő fenevad és a föld gyomrének pajzsa",
+          "body": "Gajdos László hírnökként emelte szavát és levelet intézett Kapitány István miniszter úrhoz, hogy állítsák meg a föld kincseit fenyegető rétegrepesztéses gázkutatást Magyarországon. A mélyből feltörő sötét erők, a palagáz kitermelése ugyanis megfertőzheti a tiszta vizeket, égi füstöt áraszthat, és megremegtheti a békés tájat tartó hegyek alapjait. Hogy e veszedelem elkerültessék, azonnali és szigorú országos tilalmat követelnek mindaddig, míg a természet épségét igazoló pecsétek meg nem születnek. A Magyar Természetvédők Szövetsége és a közel hatvan nemes céh egyesüléséből kovácsolódott Stop palagáz!"
+        },
+        "reito": {
+          "title": "Palagáz-pánik: amikor a miniszter asztalára robban a földrengésveszély",
+          "body": "Gajdos László nem bízta a véletlenre a dolgot, és hivatalos levélben rontott rá Kapitány István gazdasági miniszterre, hogy azonnal húzza be a kéziféket a Magyarországon eddig be nem vetett rétegrepesztéses palagázkutatás ügyében. A technológia ugyanis olyannyira barátságos, hogy a bőséges vízigény mellett képes elszennyezni a környék vizeit, levegőt szennyezni, sőt, bonuszként még kisebb földrengésekkel is meglepheti a békés polgárokat. Mivel a környezetvédelmi garanciák híján a belföldi táj könnyen katasztrófa sújtotta területté válhat, a minisztertől azt követelik, hogy rendeljen el teljes körű országos moratóriumot. A Magyar Természetvédők Szövetsége és a 2025 őszén alakult, csaknem hatvan civil brigádot számláló Stop palagáz!"
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6478,8 +6556,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795792346-temp-sc1fqp6h972r6njcmco_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "389ce5d688fe938c88a43834042d328e915f92576fe587e0174b81396a52f5bb",
       "relatedStories": [
         {
           "source": "444.hu",
@@ -6700,7 +6778,20 @@
           },
           "archiveDate": "2026. 11. 26."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "November 24-én Mezőkövesden egy vonat magával vonszolt egy fiatal nőt, mert a táskája valószínűleg beakadt az elinduló InterCity ajtajába, és az orvosok minden erőfeszítése ellenére a súlyosan megsérült Viviána a miskolci kórházban elhunyt. A halálhírt követően a parlament pénteki ülésén az országgyűlési képviselők egyperces néma felállással emlékeztek az áldozatra. Az esemény kapcsán Vitézy Dávid közlekedési és beruházási miniszter, Lázár János korábbi miniszter, valamint Csézi Erzsébet Mezőkövesd országgyűlési képviselő, továbbá több kormánytag, állami vezető és frakciók képviselői is kifejezték részvétüket a családnak. A Borsod-Abaúj-Zemplén megyei rendőrség vasúti közlekedés veszélyeztetése miatt folytat büntetőeljárást, a baleset körülményeinek tisztázása pedig jelenleg is folyamatban van."
+        },
+        "tolkien": {
+          "title": "A gyász árnyéka a vasút acélos útján",
+          "body": "November 24-én, a mezőkövesdi sínek kegyetlen rögvein egy elinduló InterCity ajtajába gabalyodott táska sodorta magával Viviána fiatal életét, aki a miskolci kórház komor falai között, az orvosok heroikus küzdelme dacára alulmaradt a halállal szemben. A parlament csarnokában a törvényhozás népe egyperces, fagyos némaságban hajtotta meg fejét az elhunyt emléke előtt, miközben a birodalom főemberei, Vitézy Dávid közlekedési és beruházási miniszter, Lázár János korábbi miniszter, valamint Csézi Erzsébet Mezőkövesd országgyűlési képviselő és a hivatalok vezetői mély részvétüket zokogták a gyászoló család felé. A Borsod-Abaúj-Zemplén megyei rendőrség viharos igazságkeresésbe kezdett, vasúti közlekedés veszélyeztetése miatt indítva büntetőeljárást a tragédia sötét okainak felgombolyítására."
+        },
+        "reito": {
+          "title": "InterCity a sors ellen, büntetőeljárás a vágányon",
+          "body": "November 24-én Mezőkövesden egy elinduló InterCity ajtaja elintézte a leghírhedtebb incidenst, amikor magával rántotta egy fiatal nő táskáját és vele együtt Viviánát is, aki a miskolci kórházban az orvosok minden hősies próbálkozása ellenére végül életét vesztette. A parlament pénteki ülésén a törvényhozók egyperces néma felállással vették tudomásul a kegyetlen valóságot, miközben Vitézy Dávid közlekedési és beruházási miniszter, Lázár János korábbi miniszter, Csézi Erzsébet országgyűlési képviselő és a rangos hivatalnokok sora küldte meg részvétét a gyászolóknak. A Borsod-Abaúj-Zemplén megyei rendőrség nyomozói nem tétlenkednek, vasúti közlekedés veszélyeztetése címén pörgetik a büntetőeljárást a baleset tisztázására."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -6713,8 +6804,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795793413-temp-rf7ffhhte3d3beklcih_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "3d72c79e0bff4a0975b01deb3be85a5ff8f0161a8ce131aac698f3387c734606",
       "relatedStories": [
         {
           "source": "Telex",
@@ -6787,7 +6878,20 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Fővárosi Közgyűlésben Kovács Gergely előterjesztése nyomán a képviselők megszavazták, hogy idén is karácsonyi húzós játékot játsszanak, így Karácsony Gergely főpolgármester mikulássapkájából sorsolva döntötték el, ki kinek ad ajándékot a decemberi közgyűlésen. A játék tétje és gyakorlati következménye az, hogy a képviselők – akik nem húzhatták magukat – a következő ülésen adják át meglepetéseiket, miközben nem sokkal korábban a Főpolgármesteri Hivatal 65 dolgozójának elbocsátását is megszavazták. A Városházán már 2025-ben is tartottak hasonló húzós játékot, míg a 2024-es alkalom különlegessége az volt, hogy Vitézy Dávid volt főpolgármester-jelölt riválisának, Karácsony Gergelynek adta a Villamos Dilemma nevű társasjátékot."
+        },
+        "tolkien": {
+          "title": "A Főváros Tanácsának Téli Sorsvetése és a Sapkából El előlépő Ajándékok",
+          "body": "A Fővárosi Közgyűlés termében, Kovács Gergely indítványának szavazásakor dőlt el, hogy a képviselők idén is megélik a karácsonyi húzós játék rituáléját, amelynek nyomán Karácsony Gergely főpolgármester kezében a neveket rejtő mikulássapka vándorolt körbe. E szent sorsolás pecsételte meg, hogy ki kinek nyújtja majd át az ajándékot a decemberi gyűlés napján, miután a tanács korábban a Főpolgármesteri Hivatal 65 szolgájának elbocsátásáról is határozott. A Városháza csarnokaiban már 2025-ben is lezajlott e télies ünnep, míg a 2024-es krónikákból élesen fénylik ki, hogy Vitézy Dávid egykori főpolgármester-jelölt saját vetélytársának, Karácsony Gergelynek ajándékozta a Villamos Dilemma nevű társasjátékot."
+        },
+        "reito": {
+          "title": "Mikulássapka a Városházán: Sorsolás a puttony mélyéről és a 65 elbocsátott",
+          "body": "A Fővárosi Közgyűlésben Kovács Gergely indítványára beindult a karácsonyi húzós játék, így Karácsony Gergely főpolgármester egy mikulássapkával járta körbe a termet, hogy a képviselők kihúzzák ajándékozottjukat a decemberi ülésre. A gyakorlati eredmény az, hogy a saját magukat húzók kötelezően kizárattak a kalapból, míg a többiek a következő alkalommal adják át titkos meglepetéseiket, közvetlenül azután, hogy a testület megszavazta a Főpolgármesteri Hivatal 65 dolgozójának kirúgását. A Városházán már 2025-ben is lement ez a kör, a 2024-es szezon pedig ott maradt emlékezetes, amikor Vitézy Dávid akkori főpolgármester-jelölt önszántából riválisának, Karácsony Gergelynek adta a Villamos Dilemma nevű társasjátékot."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
