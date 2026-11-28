@@ -389,8 +389,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "404e608a67ff78f0fb624e9a3d76694b867ef77df5a407cc3b0ef31bd22d0b35",
       "commonsPhoto": {
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg/960px-Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "page": "https://commons.wikimedia.org/wiki/File:Forest_Park_High_School_football_(Woodbridge,_Virginia),_Muted_Sunset.jpg",
@@ -401,7 +401,20 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "NFL-rekordot állított be a Dallas Cowboys a Philadelphia Eagles ellen elszenvedett 39-38-as hálaadásnapi vereségével, amellyel a texasiak az idei szezonban már negyedik alkalommal veszítettek el harminc pont feletti termés ellenére is mérkőzést. Ezzel a kudarccal beérték a 2002-es Kansas City Chiefs és a 2024-es Cincinnati Bengals negatív csúcsát, miközben a harmadik negyed vége előtt 3 perc 35 másodperccel még 31–10-re vezetett a gárda. A dallasi védelem sorozatban a tizenkilencedik meccsén kapott legalább húsz pontot, ami új franchise-rekord, ráadásul a Cowboys lett az NFL történetének első olyan alakulata, amely egyetlen idényben két hazai találkozót is elveszített legalább tizennpontos negyedik negyedbeli előnyről."
+        },
+        "tolkien": {
+          "title": "A Dallas csarnokának bukása a hálaadás viharában",
+          "body": "Az észak-amerikai futball ligájának küzdőterén a Dallas Cowboys csapata sötét rekordot vésett a krónikákba a Philadelphia Eagles elleni, 39-38 arányban elveszített hálaadásnapi csatában. A texasi sereg az idei évad viharaiban már negyedszer bukott el harminc vagy annál több szerzett pont dacára is, beárnyékolva a 2002-es Kansas City Chiefs és a 2024-es Cincinnati Bengals múltbéli balsorsát. Pedig a harmadik játékrész alkonyán, 3 perccel és 35 másodperccel a harangszó előtt még büszke, 31–10-es előbbre tartás fénylett pajzsaikon, ám a dallasi védőfalak bástyái sorozatban tizenkilencedik alkalommal engedtek át legalább húsz ellenséges csapást. E fegyvertények gyászos tetőfokaként a Cowboys az NFL történetében elsőként két hazai ütközetet is elbukott egyetlen évadon belül úgy, hogy a negyedik negyed küszöbén még tizennégy pontos fór birtokában vigyázta a tábort."
+        },
+        "reito": {
+          "title": "Harmincpontos zuhanás a hálaadásnapi pulyka mellett",
+          "body": "Az NFL porondján a Dallas Cowboys a Philadelphia Eagles elleni 39-38-as hálaadásnapi kudarccal hozta össze a szezonbeli negyedik olyan mérkőzését, amelyet harminc szerzett pont ellenére is képes volt elveszíteni. Ezzel a bravúrral pontban beérték a 2002-es Kansas City Chiefs és a 2024-es Cincinnati Bengals örökösnek hitt negatív rekordját, holott a harmadik negyed végéhez közeledve, 3 perc 35 másodpercnél még magabiztos, 31–10-es vezetést mutatott az eredményjelző. A texasi védelem is kivette a részét a mókából, sorozatban tizenkilencedik alkalommal engedve át legalább húsz pontot az ellenfélnek, ami megérdemelten hozott egy új franchise-rekordot a háznál. Ha ez nem lenne elég, a Cowboys írt történetet azzal is, hogy az NFL-ben elsőként egyetlen szezonon belül két hazai mérkőzést is elbukott úgy, hogy a negyedik negyedben még legalább tizennégy pontos előny ringatta biztonságba a csapatot."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -413,9 +426,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "b9eb99f3404f47819638c0d0f18428e9282fb034a7e72fc7de3ae8003540e1a9",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Hat héttel a Dallas Cowboys gyakorlócsapatából való távozása után Joe Milton irányítóként 21 pontos hátrányból vezette győzelemre a Philadelphia Eaglest korábbi munkaadója ellen a hálaadási NFL-mérkőzésen. A bravúros fordítás során Milton 31 passzkísérletéből 21 volt sikeres, 331 yardot és három touchdown-t passzolt, emellett egy 15 yardos futott touchdown-t is szerzett. A kiemelkedő teljesítmény nyomán, ha a szezon végéig így folytatja, akár még egy kezdő pozíció is kinézhet számára. Az új irányító gyorsan beilleszkedett, miután a csapattársai a nagy hátrány ellenére sem adták fel a küzdelmet."
+        },
+        "tolkien": {
+          "title": "A vándorló vezér diadala a Dallas csarnokai ellen",
+          "body": "Hat teli holddal ezelőtt még a Dallas Cowboys táborának homályában raboskodott, a hálaadás szent napján azonban Joe Milton már a Philadelphia Eagles rohamait vezényelte korábbi urai ellen, hirtelen fordulatot hozva az NFL viadalai közé. A sötét, huszonegy pontos szakadékból feltörve a hős harcos harmincegy próbálkozásából huszonegyet sikerre váltott, három égi csapást (touchdown) és háromszázharmincegy yardot szakítva ki a térből, kiegészítve ezt egy tizenöt yardos, földön vívott diadalmas rohammal. E félelmetes fegyvertény után, ha ezen az úton jár a viharos évad végéig, talán még az első vezéri trónus is váteszként övezheti megújult útját. A csapattársak lankadatlan hűsége pajzsként óvta az újonnan érkezettet, ki idegenként lépett a sorba, de vérbeli bajtársként aratott győzelmet."
+        },
+        "reito": {
+          "title": "Hat hét alatt a padtól a Dallas-verő trónusig",
+          "body": "A Dallas Cowboys gyakorlócsapatának kispadjáról alig hat hét alatt manőverezte át magát Joe Milton a Philadelphia Eagles vezérlőpultjába, hogy hálaadáskor egy gyönyörű NFL-fordítással vágjon vissza korábbi kenyéradójának. A huszonegy pontos gödörből indulva az irányító harmincegyből huszonegy passzt juttatott célba, amivel 331 yardot, három passzolt touchdown-t és egy 15 yardos futott hatpontost termelt. Ha a szezon végéig kitart ez a lendület, a friss igazolásból akár még fix kezdő is válhat a profi ligában. A csapattársak vaskos optimizmusa megkímélte a beilleszkedési nehézségektől, így az új fiú azonnal osztani kezdte a csapásokat a pályán."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -427,9 +453,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "687c3fc04e819fccfebf1da41155d04b4cc6bfd25d276066fb7a2d1e7346e802",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Joe Brady, a Buffalo Bills vezetőedzője lett az NFL történetének ötödik főedzője, aki pályafutása első 11 mérkőzéséből legalább tízet megnyert, miután csapata hálaadáskor győzelmet aratott a Patrick Mahomesszal felálló Chiefs ellen. A Sean McDermott menesztését követően kinevezett szakember ezzel olyan korábbi edzők mellé iratkozott fel, mint Jim Caldwell (2009, Indianapolis Colts, 11–0), Steve Mariucci (1997, San Francisco 49ers, 10–1), Red Miller (1977, Denver Broncos, 10–1) és Wally Lemm (1961–1962, Houston Oilers és St. Louis Cardinals, 9+1 győzelem). A kiemelkedő rajt következtében a Bills első kiemelése szinte már zsebben van, így a legfontosabb kérdés az maradt, hogy sikerül-e ezt az eredményességet átmenteni a rájátszásra is."
+        },
+        "tolkien": {
+          "title": "A tizenegy csata krónikája: Brady diadalútja az NFL mezőin",
+          "body": "Joe Brady, a Buffalo Bills fővezére az NFL krónikáinak legfényesebb lapjaira írta nevét, miután pályafutása első tizenegy ütközetéből legalább tízet győzelemmel koronázott meg a Patrick Mahomesszal viharszerűen szembenálló Chiefs ellen, hálaadás szent napján. Ezzel a fegyverténnyel olyan legendás elődök nyomdokába lépett, mint a 2009-ben tizenegy diadalt arató Jim Caldwell az Indianapolis Colts élén, az 1997-es San Francisco 49ers seregét irányító Steve Mariucci, az 1977-ben tíz győzelmet szerző Red Miller a Denver Broncos színeiben, valamint a Houston Oilers és a St. Louis Cardinals élén viharos sikereket arató Wally Lemm. Miután Sean McDermott távozása után Brady ragadta meg a Bills gyeplőjét, a csillagok állása szerint az első kiemelés dicsősége már szinte a markukban fénylik."
+        },
+        "reito": {
+          "title": "Tíz győzelem tizenegyből: Brady z Etapja az NFL vadnyugatán",
+          "body": "Joe Brady, a Buffalo Bills új fővezére beírta magát az NFL történelemkönyvébe azzal, hogy első tizenegy meccséből legalább tízet behúzott, pecsétként ráadásul hálaadáskor fektetve két vállra a Patrick Mahomesszal rohamozó Chiefset. Ezzel a bravúrral olyan patinás nevek klubjába váltott belépőt, mint a 2009-es Indianapolis Colts csúcsát hozó Jim Caldwell (11–0), az 1997-es San Francisco 49ers élén 10–1-gyel nyitó Steve Mariucci, az 1977-es Denver Broncost terelgető Red Miller, valamint az Oilersszel és a Cardinalsszal vitézkedő Wally Lemm. Miután Sean McDermott búcsúzott a kispadtól, Brady egyetlen mozdulattal az NFL legdurvább rajtját hozta össze a Bills élén, amivel az alapszakasz első kiemelése már szinte a zsebükben lóg. Most már csak az a kérdés, hogy ez a féktelen győzelmi sorozat kitart-e a rájátszás könyörtelen asztalánál is."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -441,9 +480,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "eb4df35eb4462066cf169c0c1703c9ba3b0cbe0525d27488c837f1bf91918871",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Buffalo Bills a Kansas City Chiefs ellen 13-10-re megnyert hálaadásnapi mérkőzéssel sorozatban hatodik alapszakaszbeli győzelmét aratta riválisa ellen, amelyből négy alkalommal egy labdabirtokláson belüli volt a különbség. A gyakorlatban ez azt jelenti, hogy Josh Allenék továbbra is sikeresen tartják a lépést a Chiefsszel, miközben James Cook sorozatban tizedik meccsén szerzett futott touchdownt, összesen 1120 yardot és 11 TD-t termelve ebben az időszakban. A Bills NFL-beli teljesítményéhez hozzátartozik az is, hogy Josh Allen az utóbbi kilenc találkozón 16 touchdownt szerzett (ebből kilencet passzolva), ám emellett 11 interceptiont is dobott és egy fumble-t elvétett. A hálaadásnapi forduló másik statisztikai érdekességeként a negyedik negyedben legalább 14 pontos előnnyel álló csapatok mérlege 75-2-1 lett, mivel a Joe Miltonnal felálló Eagles korábban 38-24-es hátrányból fordítva győzte le a Cowboysot."
+        },
+        "tolkien": {
+          "title": "A Bivalyok Hadának Hálaadási Győzelme",
+          "body": "A Buffalo Bills népe a Kansas City Chiefs ellen vívott hálaadásnapi csatában 13-10 arányban diadalmaskodott, ezzel sorozatban hatodik alkalommal teremtette meg alapszakaszbeli győzelmét a rivális földjén, amely diadalokból négy egyetlenetlen labdabirtoklás vékony mezsgyéjén múlott. E fegyvertény nyomán Josh Allen serege továbbra is dicsőségben jár, miközben James Cook a tizedik egymást követő ütközetben gázolt át a célterületen, megállíthatatlanul gyűjtve a yardokat és a futott hatpontosokat. A csapat harci szekerét ez a rendíthetetlen futóteljesítmény húzza előre, mivel Josh Allen az utolsó kilenc viadalban ugyan tizenhat touchdownt aratott, de tizenegy alkalommal ajándékozta labdáját az ellenfélnek interception formájában, és egy labdát is elejtett. A bajnokság krónikáiban feljegyeztetett az is, hogy a negyedik negyedben tizennégy pontos fórban lévő seregek mérlege hetvenöt győzelemre, két vereségre és egy döntetlenre rúg, miután a Joe Milton vezette Eagles korábban a porból feltámadva fordított a Cowboys ellen harmincnyolc-huszonnégyes hátrányból."
+        },
+        "reito": {
+          "title": "Hálaadás napi pulykapörkölt, Buffalo módra",
+          "body": "A Buffalo Bills a Kansas City Chiefs ellen aratott, hálaadás estéjén született 13-10-es győzelemmel behúzta sorozatbeli hatodik alapszakaszbeli meccsét a rivális ellen, amiből négy alkalommal egyetlen árva labdabirtoklás döntött. A gyakorlati haszon az, hogy Josh Allenék szoros meccsekből is győztesen jönnek ki, miközben James Cook zsinórban tizedik alkalommal szúrt le egy futott touchdownt, 1120 yardot és 11 TD-t pakolva a levesbe. Erre a hátországra szükség is van, mert Josh Allen a maga mércéjével mérve szórja a labdákat: az utolsó kilenc meccsen ugyan van 16 touchdownja, de belefutott 11 interceptionbe és egy elveszített fumble-be is. Az NFL statisztikai bugyraiból pedig kiderül, hogy a negyedik negyedben legalább 14 pontos előnyt eltékozlók mérlege 75-2-1 lett, miután a Joe Miltonnal felálló Eagles csapata is kinyomta a szemét a Cowboysnak egy 38-24-es hátrányból megfordított meccsen."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -469,8 +521,8 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/LfXbrFg50P6PMl6J-PsO71D-NJ7SqrZFDCio6IqW390/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzliMTY1MjAyMzc4NzQ2MDI5NGVhZDFiMTIxNDg2MTU5.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "38ea9aea8691010bcf26e1630d8f5a8f58a7850e222493fbd0087f44ce5b79ab",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -482,7 +534,20 @@
           ],
           "archiveDate": "2026. 11. 22."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A szombati sportműsor keretében a hazai pályán zajló belföldi események, így az NB I-es labdarúgó-mérkőzések – köztük a Vasas–Honvéd, az MTK–Újpest és a Kisvárda–Nyíregyháza összecsapások –, valamint a Sopron Basket–DVTK Hun-Therm női kosárlabda-rangadó is képernyőre kerülnek a hivatalos menetrend szerint. Az érdeklődők a Magyarország területén élőben közvetített hazai bajnokik és nemzetközi megmérettetések révén a televízióban és az online felületeken is követhetik az egyes összecsapások alakulását. A sportkedvelőknek érdemes figyelembe venniük a pontos kezdési időpontokat és a közvetítő csatornák listáját a napi program megtervezésekor. A belföldi és nemzetközi kínálatban a labdarúgás mellett kézilabda, vízilabda, valamint számos téli és technikai sportág szerepel."
+        },
+        "tolkien": {
+          "title": "A csatatéren fénylő vas és a küzdelem napja",
+          "body": "Így esett a szombati napon, hogy a hazai mezők rögös porán, a magyar belföld szívében megkezdték viadalukat a bajnokok seregei, miközben a Vasas, az MTK, a Kisvárda és a Sopron csapatai feszültek egymásnak az arénákban. A népek sereglették a küzdőtereket, hogy a képernyők tüzes tükrén és a közvetítések hírén túl maga a valóság táruljon eléjük a fegyverek csörgése nélkül. Nem maradt el a küzdelem a téli hegyek fagyos csúcsain és a távoli birodalmak bajnokságaiban sem, hol órák mutatója szerint méretett meg az állhatatosság. Ébredjen hát a szurkoló, mert e napon a sors könyvébe íratik minden gól és minden győzelem."
+        },
+        "reito": {
+          "title": "A kanapék hódítói és a zöld gyep zsoldosai",
+          "body": "Szombaton annyi mérkőzés zúdul a belföldi sportrajongókra a hazai pályákról és a képernyőkről, hogy egy rutinos néző is könnyen elvesztheti a fonalat a Vasas, az MTK, a Kisvárda vagy éppen a Sopron ostromai közepette. A tévé előtt ülve vagy a helyszínen szurkolva pontosan óramű pontossággal követhető, hol pattog a labda, miközben a kanapé-hősök zseton helyett a táviratért nyúlnak a közvetítések bűvöletében. Nincs menekvés a foci, a kézilabda és a téli sportok elől, mert a naptár könyörtelenül diktálja a tempót reggeltől estig. Aki bírja szusszal, az végigizgulhatja a napot a hazai és külföldi csataterek tőszomszédságában."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -494,8 +559,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795816988-temp-76s18lnpgf9r5knlgnk_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "06792a3e6fca9f1f761274d30529b4156816cc3f83d075ac766280cab0160a43",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -1309,7 +1374,20 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Stabilra javította az eddigi negatívról a magyar államadós-osztályzat kilátását pénteken az S&P Global Ratings Londonban, ezzel levéve a napirendről az ország leminősítését, és megerősítve a hosszú és rövid futamú hazai és külső magyar államadósság-kötelezettségek befektetési ajánlású „BBB mínusz/A-3” szintű besorolását. A hitelminősítő lépése azt jelenti, hogy Magyarország elkerülte a befektetésre már nem ajánlott „BB” kategóriába történő átsorolást. Kármán András pénzügyminiszter Facebook-oldalán úgy kommentálta a döntést, hogy a nemzetközi piacok is látják és elismerik a Tisza-kormány megalakulása óta végzett gazdasági és pénzügyi rendbetételi munkáját. Az S&P az erősödő intézményi és költségvetési keretrendszerrel, valamint a kormány által felszabadított 16,4 milliárd euró – a GDP 7 százalékának megfelelő – uniós forrással és a költségvetési programmal indokolta a döntést, amely események közvetlenül a magyar államadós-osztályzatot és a hazai gazdaságpolitikát érintik."
+        },
+        "tolkien": {
+          "title": "A hitel pecsétje: fényt kapott a magyar birodalom kilátása",
+          "body": "Stabilra változott az eddigi sötét, negatív árnyékból a magyar államadós-osztályzat sorsa, miközben az S&P Global Ratings londoni döntése elűzte a leminősítés viharfelhőit, és kőbe vésve megerősítette a „BBB mínusz/A-3” szintű, befektetésre méltónak ítélt kötelezettségeket. Ezzel a szentenciával a hazai birodalom elkerülte a mélybe zuhanást és a tiltott „BB” tartomány pusztulását, amit Kármán András pénzügyminiszter a kormánya gazdaságpolitikáját dicsérő üzenetként hirdetett meg a digitális falakon. Az égöv alatt a Tisza-kormány által felszabadított 16,4 milliárd eurónyi, a GDP hét százalékát ékesítő kincs és az erősödő intézményi falak védelme térítette jobb belátásra a hitelminősítők szigorú ítészeit. Ez a gazdasági fordulat a magyar államadós-osztályzat és a hazai közpénzek sorsát pecsételte meg a nemzetközi porondon."
+        },
+        "reito": {
+          "title": "Ahol a hitelminősítő is bólint: megmenekült a magyar költségvetés",
+          "body": "Pénteken éjjel Londonban az S&P Global Ratings egy tollvonással stabilra pofozta a magyar államadós-osztályzat eddigi gyászos, negatív kilátását, egyúttal kukázva a leminősítés ötletét és bebiztosítva a „BBB mínusz/A-3”-as pecsétet. Ezzel a manőverrel az ország megúszta, hogy átcsusszanjon a tiltólistás „BB” kategóriába, amit Kármán András pénzügyminiszter a Facebookon úgy könyvelt el, hogy a nemzetközi piacok végre észrevették a Tisza-kormány gazdasági mestertervét. A hitelminősítő szerint a békés jövőhöz mindössze 16,4 milliárd eurónyi – a GDP 7 százalékát kóstáló – uniós forrást kellett kiszabadítani, meg egy adag költségvetési fegyelmet hozni a házhoz. Így lett a magyar államadós-osztályzat sorsából hirtelen egy sikeresen levezényelt, pénzügyi akadályverseny."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1321,9 +1399,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8928168f48a7c2fff0b290505a687f669dbbf500878dcf2594d44490d62ed9cc",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Szabolcs-Szatmár-Bereg megyei futballtörténelem jelenlegi csúcseként az élvonalbeli NB I 2026–2027-es idényében a Nyíregyháza és a Kisvárda képviseli a térséget, amelyek szombaton egymás ellen játszanak derbit. A sportgazdaság múltjából ismert adatok szerint a klubok életét korábban olyan események határozták meg, mint az 1997-es tiszavasvári játékosigazolások, a Stadler József féle hárommilliós helikopteres vételár-átadás, valamint Demecser 1999-es feljutása a Professzionális Nemzeti Bajnokságba és az azt kísérő stadionrekonstrukciós villanyvilágítás-fejlesztés. Jelenleg a két szabolcsi gárda kieső és osztályozós helyen áll, miközben az északkeleti régió korábbi öt élvonalbeli csapata közül a borsodiak már búcsúztak. Ezzel a szombati Kisvárda–Nyíregyháza összecsapás a megyei futball jelenlegi utolsó élvonalbeli rangadója lehet az osztályzatok átrendeződése előtt."
+        },
+        "tolkien": {
+          "title": "A északkeleti végek labdáinak krónikája",
+          "body": "Az északi határvidék rögös mezőin, hol egykor Sényő apró népe és Tiszavasvár urai vívtak bajt, ma a Nyíregyháza és a Kisvárda csapatai feszülnek egymásnak a bajnokság trónusáért a 2026–2027-es idényben. A sportgazdaság hajnalán helikopter szárnyalt a Csehi Zoltán vételárát hozó diplomatatáskával, és Demecser bástyáin is fellobbant a fáklyák tüze, holott az égi fények fohásza a helyi porták sötétbe borulását hozta. Most a sötét árnyak fojtogatják a szabolcsi seregeket, mert a kiesés vihara fenyegeti őket, s a szombati napon a Kisvárda és a Nyíregyháza csarnokában dől el a viharvert zászlók sorsa. E küzdelemben dől el, vajon megmarad-e a régió dicsősége, vagy a futball hőskölteménye végleg visszahull a mélyebbosztályok homályába."
+        },
+        "reito": {
+          "title": "Ahol a villanykörte kikapcsolja a falut, de a labda még gurul",
+          "body": "A 2026–2027-es NB I-es idényben szombaton egymásnak esik a Kisvárda és a Nyíregyháza, mint két utolsó mohikán Szabolcs-Szatmár-Bereg megye élvonalbeli futballtérképén. A sportgazdaság aranykorában még helikopterrel érkezett a milliós vételár Csehi Zoltánért, Tiszavasváriban húsz százalékkal túllőtték a játékos fizetési igényét, Demecserben pedig olyan fényesen világított a stadion új reflektora, hogy azon nyomban sötétbe borította a környékbeli háztartásokat. Jelenleg viszont a borsodi riválisok távozása után a két szabolcsi testvércsapat áll kieső és osztályozós helyen az NB I-ben. Így aztán a szombati rangadó nemcsak a helyi dicsőségért megy, hanem azért is, hogy le ne guruljanak a térség utolsó élvonalbeli rolói."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1335,9 +1426,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-538536825-parizs-franciaorszag-muemlek-autoforgalom-nap-varoskep-kozlekedes-tur-860596.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "582e7cde5bfe51cd7274632609ea2a2888fa76834799b7d2a3e28827fffa1afa",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A nemzetközi hitelminősítő S&P negatívra rontotta Franciaország kilátását, ami közvetlenül a leminősítés küszöbére sodorja az országot. A döntést a költségvetési hiány csökkentésének komoly akadályai, a gyenge gazdasági növekedés, valamint az államadósság finanszírozását drágító kamatkiadások indokolják. A külföldi gazdasági helyzetet súlyosbítja, hogy a francia gazdaság növekedése két év gyenge teljesítménye után 2027-ben is visszafogott maradhat, és a februári elnökválasztás után is fennmaradó politikai széttöredezettség rontja a gazdaságpolitika hatékonyságát. Ezzel Franciaország külső megítélése jelentősen romlott a nemzetközi hitelminősítő értékelése alapján."
+        },
+        "tolkien": {
+          "title": "A gallok birodalmának árnyéka",
+          "body": "A nemzetközi hitelminősítő, az S&P jegyzéke rontotta Franciaország országának kilátását, így a birodalom a leminősítés sötét küszöbére sodródott. E végzetes változás nyomán a költségvetés kincseskamrájának hiánya áthatolhatatlan akadályokba ütközik, miközben a gyenge gazdaság súlya és az adósságok láncait drágító kamatkiadások emésztik a birodalmat. A messzi földek krónikája szerint a gazdaság gyászos növekedése két esztendő ínsége után még 2027-ben is renyhe marad, s a februári elnökválasztás vihara után is fennmaradó politikai széttöredezettség megköti a gazdaságpolitika kezét. E sötét folyamatok mélyen érintik a francia vidéket, ahol a küszöbön álló ítélet árnyéka borul a jövőre."
+        },
+        "reito": {
+          "title": "Ahol a frank is megremeg: az S&P üzenete",
+          "body": "Negatívra rontotta Franciaország kilátását az S&P nemzetközi hitelminősítő, így a gallok büszke hajója veszedelmesen közel került a leminősítés zátonyához. Ez a gyomorszákon vágó fordulat azt jelenti, hogy a költségvetési hiány lefaragása mostantól nem sétagalopp, hanem akadályfutás, amit a gyenge gazdasági növekedés és a hitelek kamatterheinek drágulása csak tovább fűszerez. A külföldi pénzügyi viharban a hitelminősítő elemzői ráadásul kiszagolták, hogy a gazdaság két év nyögés után 2027-ben is lusta tempóban halad majd, ráadásul a februári elnökválasztás után a politikai széttöredezettség is velünk marad, mint egy makacs influenza. Így aztán a francia gazdaságpolitika hatékonysága is olyan lesz, mint a lyukas esernyő: mutatós, de ázik benne az ember."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1349,8 +1453,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/k/a/r/karman-andras-bef-861444.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "d1b38fdad80c1b3de60d1a11f35eb11d96b3532b2a51f8fd3fac624b1d7f2566",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -1519,7 +1623,20 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Kármán András megszólalt az S&P hitelminősítő döntése után, amely az ország belföldi gazdaságát és államháztartását érinti. A döntés erősíti Magyarország gazdasági biztonságát, valamint hozzájárul az alacsonyabb állampapírhozamokhoz, a hazai hitelkamatok csökkenéséhez és a stabilabb forintárfolyamhoz. Az S&P indoklásában a Magyarországon erősödő intézményi és fiskális keretrendszerre alapozta a stabil kilátást, amely a következő években biztosítja a költségvetési hiány mérséklését. A hitelminősítő prognózisa szerint a 2025-ös 4,4 százalék után 2026-ban 2 százalékra mérséklődhet az éves infláció, míg a GDP-növekedés idén 1,8, jövőre pedig 2,5 százalék lesz."
+        },
+        "tolkien": {
+          "title": "A Hatalmas Mérleg és a Pénz Folyói",
+          "body": "Az ércszívű sáfárok és a korona tanácsadói megmérettek a birodalom kapuinál, mikor Kármán András szava zendült az S&P ítélete után, mely Magyarország rögös földjét és kincstárát érintette. E súlyos pecsét megerősítette a hazai bástyák védelmét, lecsendesítette a zord kamatok viharát, és acélosabbá tette a forint ezüstjének folyását. Az intézmények láthatatlan oszlopai és a mértékkel őrzött kincstári szabályok szilárd talajt vetettek, hogy a jövő éveken át lecsendesüljön a hiány sötét árnyéka. Az idők könyve szerint az infláció tüze 2025-ben még 4,4 százalékig éget, ám 2026-ban már csak 2 százalékra szelídül, míg a gazdaság élete idén 1,8, jövőre pedig 2,5 százalékos ütemben szökken szárba."
+        },
+        "reito": {
+          "title": "Hitelminősítői pasziánsz: Kármán András oszt, az S&P pedig fizet",
+          "body": "Kármán András jelentkezett szóban az S&P friss produkciója után, amely nem másra, mint Magyarország pénzügyi és államháztartási valóságára csapott le. A hitelesítő pecsét olyannyira bevált, hogy hirtelen olcsóbbak lettek az állampapírok, estek a hitelkamatok, a forint pedig büszkén tartja magát a ringben. Az S&P szerint a fiskális keretrendszer most annyira egyben van, hogy azzal még a költségvetési hiányt is ketten fogják le a következő években. A számok máris sorakoznak: az infláció 2025-ös 4,4 százalékáról 2026-ra csinos 2 százalékra zsugorodik, a GDP pedig idén 1,8, jövőre pedig 2,5 százalékos tempóban húz el a mezőnytől."
+        }
+      }
     },
     {
       "source": "444.hu",
