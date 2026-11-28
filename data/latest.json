@@ -1882,9 +1882,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "d511f6f056d8e5b48025db66eed1ec9ae16289bf5dc6a2e83fe76287bb77e457",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Földközi-tengeren az orosz-ukrán háború eseményei éreztetik hatásukat, mivel egy Líbiába tartó, katonai járműveket szállító orosz hajókonvoj visszafordult, miután november 22-én ukrán tengeri drónok elsüllyesztettek egy orosz haditengerészeti korvettet a bengázi kikötőben. Ez a lépés azt eredményezte, hogy a Golovko nevű orosz haditengerészeti fregatt által kísért konvoj a támadás napján a Szicíliai-szoros közelében megszakította útját. A külföldi helyszíneken kibontakozó konfliktus részeként a szállítmányt a források szerint az orosz Afrika-hadtestnek szánták Nyugat-Afrikába, míg egy része a Líbia keleti részét ellenőrző milíciához jutott volna. Az orosz védelmi minisztérium nem reagált a Reuters megkeresésére az esettel kapcsolatban."
+        },
+        "tolkien": {
+          "title": "A déli tengerek vihara: Amikor az orosz hajóhad meghátrált a láthatatlan veszély elől",
+          "body": "A Földközi-tenger habjai között is elérte az orosz-ukrán háború vihara azokat a messze sodródó hajókat, amelyek Líbia felé tartottak katonai járművekkel megrakodva. Az ukrán tengeri drónok november 22-én mért csapása a bengázi kikötőben alászállt a hullámok sírjába egy orosz haditengerészeti korvettet, ami nyomban megfutamodásra kényszerítette a Golovko nevű fregatt kísérte konvojt a Szicíliai-szoros közelében. Ezen a távoli, külföldi hadszíntéren a rakományt az orosz Afrika-hadtestnek szánták Nyugat-Afrikába, míg egy töredéke a líbiai keleti részeket uraló milíciához vándorolt volna. A birodalmi védelmi minisztérium hallgatásba burkolózott e sorsfordító napon, míg a fegyverek sorsa új utakat keresett a homok és a tenger határán."
+        },
+        "reito": {
+          "title": "A Szicíliai-szoros hirtelen fordulata: Mikor az ukrán drónok megálljt parancsoltak az orosz konvojnak",
+          "body": "A Földközi-tengeren is utolérte az orosz-ukrán háború valósága azt a Líbiába igyekvő orosz hajókonvojt, amely a katonai járműveivel együtt kénytelen volt visszafordulni. A november 22-én, a bengázi kikötőben egy orosz haditengerészeti korvettet elsüllyesztő ukrán tengeri drónok akciója elég is volt ahhoz, hogy a Golovko nevű fregatt által kísért flotta még a Szicíliai-szoros közelében hátraarcot csináljon. Ez a külföldi vizeken zajló manőver keresztbe húzta a számításokat, hiszen a szállítmányt a források szerint Nyugat-Afrikába szánták az orosz Afrika-hadtestnek, bár egy adag Líbia keleti urainak is jutott volna. Az orosz védelmi minisztérium egyelőre csendben ül, míg a Reuters forrásai pakolgatják a számlákat."
+        }
+      }
     },
     {
       "source": "BringaSport",
@@ -1896,9 +1909,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "921a58aba936b2f1c0e824914b1f9c20ccb9e26ac542c3146b9b5e927c4749b4",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A november 27-én Ostravában rendezett UCI Cyclo-Cross Világkupa nyitóversenyén Vas Blanka a nyolcadik, Vas Barnabás a 29., Bruchner Regina pedig a 41. helyen fejezte be a terepkerékpár-sorozat első fordulóját. A havas-saras, villanyfényes, hétkörös női viadalon a harmadik sorból rajtoló Vas Blanka az első körben előttesések miatt lemaradt az élmezőnytől, de hátráját ledolgozva, 1 perc 29 másodperces lemaradással végzett a nyolcadik helyen. A Lidl-Treket erősítő kerékpáros ezzel a helyezéssel indította meg a szereplését a mezőnyben, míg a magyar bajnok Bruchner Regina öt perc feletti hátránnyal a 41."
+        },
+        "tolkien": {
+          "title": "A havas-saras ösvények viadala Ostravában",
+          "body": "A fagyos és sötét mezőkön átívelő, villanyfényes terepkerékpár-sorozat ostravai nyitóviadalán Vas Blanka a harmadik sorból indлып, és a viharos küzdelemben végül a nyolcadik helyen lépte át a célt. A Lidl-Trek kötelékében harcoló hős a harmadik sorból indult, majd az első kör akadályai és az előtte zajló esések ellenére visszaküzdötte magát a hetedik pozícióba, végül 1 perc 29 másodperces lemaradással zárva a megmérettetést. Ezen az ezüsttel és bronzzal ékesített szakágban a fagyos csatatéren Bruchner Regina a hatodik sorból rajtolva, öt perc feletti hátránnyal a negyvenegyedik helyen ért célba. A hetvenhat fős férfi mezőnyben pedig a vasfegyelemmel küzdő Vas Barnabás alig több mint kétperces hátránnyal a huszonkilencedik helyen fejezte be a november 27-i nap vitézi küzdelmét."
+        },
+        "reito": {
+          "title": "Sáros pedálok és villanyfényes bukfencek Ostravában",
+          "body": "November 27-én az ostravai terepkerékpár-világkupa nyitányán Vas Blanka a harmadik sorból startolva ugrott fejest a havas-saras küzdelembe, ahol a Lidl-Trek színeiben pedálozva végül a nyolcadik helyen gurult be a célba. A fagyos aszfalton és sárban rendezett viadalon egy első körös tömegbukás ugyan visszavetette a tizedik helyre, de hamar rákapott a tempóra, és mindössze 1 perc 29 másodperces hátránnyal hozta le a nyolcadik pozíciót. A női mezőnyben rajthoz álló másik magyar, a magyar bajnok Bruchner Regina a hatodik sorból indulva öt perc feletti lemaradással a 41. helyen zárta a napot."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1912,9 +1938,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/d/a/k/dakar-szenegal-nyugat-afrika-815122.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "7822fdb6117a4dc70eb0a97fbf8eb308200f52e3a23b9d09d22ea2efb2f05329",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Szenegálban a parlamenti többség szerdán 128 igen és 9 nem szavazattal elítélte Bassirou Diomaye Faye elnököt, amiért rendelettel léptette életbe az egyszer már leszavazott költségvetési módosítást, veszélybe thetve a 2,2 milliárd dolláros IMF-hitelt és a nemzetközi adósságrendezést. Az elnök korábbi miniszterelnöke által vezetett parlamenti többség az államháztartás adatainak hiányosságaira hivatkozva kifogásolja a döntést, miközben a Nemzetközi Valutaalap igazgatótanácsának még mérlegelnie kell a hároméves hitelprogramot. A 2033-ban lejáró dollárkötvény tulajdonosai a héten megkapták az esedékes kifizetést, de a Morgan Stanley stratégája szerint a konfliktus nehezíti az adósság átstrukturálásának idei lezárását. A belföldi parlament törvényhozói és a végrehajtó hatalom közötti nyílt szembenállás közvetlenül befolyásolja az afrikai ország állami működését és pénzügyi jövőjét."
+        },
+        "tolkien": {
+          "title": "A birodalmi kincstár vihara és a korona árnyéka",
+          "body": "Szenegál földjén a törvényhozás tanácsa szerdán 128 arannyal mérlegelt szavazattal 9 ellenében elítélte Bassirou Diomaye Faye uralkodót, amiért rendelet erejével kényszerítette ki a korábban elutasított kincstári törvényt, veszélybe sodorva a 2,2 milliárd dolláros IMF-segítség szövetségét. A parlament csarnokában a trónról letaszított egykori miniszterelnök serege fordult szembe a hatalommal, megkérdőjelezve az állam titkos mély kútjaiból feltörő számok hitelességét, mielőtt a Valutaalap bölcsei pecsétet tennének a hároméves alkura. A 2033-ban eljövő adósság órája még ketyeg, s a kötvények urai e héten megkapták a nekik járó ezüstöt, ám a birodalom pénzverdéinek jövője sötét fellegek között vergődik. A belföldi parlament falai között kitört belháború és a nemzetközi hitelezők szigorú tekintete most kíméletlenül leméri Szenegál urainak minden lépését."
+        },
+        "reito": {
+          "title": "Költségvetési póker Szenegálban: az elnök emel, a parlament meg borul",
+          "body": "Szenegálban szerdán csúcsra járt a politikai cirkusz, amikor a parlament 128 aranyló igennel kontra 9 nemmel leüvöltötte Bassirou Diomaye Faye elnök fejét, amiért az egy tollvonással, rendeletben rángatta elő a parlamenti kukából a korábban már elkaszált költségvetést. Az elnök saját volt miniszterelnöke most a törvényhozás éléről osztja a lapokat, miközben a 2,2 milliárd dolláros IMF-hitel és a büdzsé számadatai vad hullámvasútra ültek. A 2033-as dollárkötvényesek ugyan ezen a héten még zsebre vághatták a pénzüket, a Morgan Stanley nagymenői máris a fejüket fogják, mert ez a házon belüli adok-kapok alaposan befűzi a pénzügyi manővereket. A belföldi parlament és az elnöki palota közötti adok-kapok pontosan megmutatja, hogyan kell egy ország sorsát egyetlen bürokratikus pókerjátszmában kockára tenni."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1926,9 +1965,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/9qerGBxUWoOCdbvioh8YMVUe-CL79NlZHU2OxfymQE8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcxMjI1NTc5YWNlYTQwOWU4ZWUxMTBiOWI4YzA1M2Q0.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "cab4695d07c47fe51cdafc7b4f24f16fe5a7ff75448ad9d47cfadf426178ad7f",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A katari Formula–1-es szabadedzéseken a Mercedes kiemelkedő fölényt mutatott a Nemzeti Sport beszámolója szerint, miután Andrea Kimi Antonelli és George Russell az élen zárt, míg a konstruktőri harmadik pozícióért küzdő Red Bull és a McLaren is jelentős hátránnyal szembesült, utóbbi csapattól Lando Norris pedig szombaton új padlólemezt is kap az autóra. A Ferrari a vártnál is nehezebb pénnapot zárt Charles Leclerc és a műszaki hibával szembesülő Lewis Hamilton révén, így a mezőny a szombat 15 óra 30 perckor kezdődő harmadik szabadedzésre készülve próbálja csökkenteni lemaradását. A helyszíni tények alapján a Mercedes tempója miatt a többi istálló elsősorban a dobogós vagy harmadik helyekért vívott küzdelemre összpontosít Loszaílban."
+        },
+        "tolkien": {
+          "title": "A sivatagi gyűrűn túl: mikor a szürke lovasok elhagyják a mezőnyt",
+          "body": "A katari földön, Loszaíl forró homokján a Mercedes ezüstös serege olyan magasságokba emelkedett a Formula–1 első és második szabadedzésén, mintha a csillagokból jöttek volna, Andrea Kimi Antonelli és George Russell vezetésével porba tiporva a riválisokat. A megfáradt Red Bull és a bátor McLaren – utóbbi táborban Lando Norris új padlólemezzel a fedélzeten készül a szombati viadalra – hiába kereste a helyét, mert a Mercedes szekere mérföldekkel száguldott minden kanyarban. A vörös zászlót lengető Ferrari eközben sötét árnyékba borult, miközben Charles Leclerc botladozott és Lewis Hamilton vastraktorának szíve is megállt a villanyfényes éjszakában. A harmadik szabadedzés harsonája szombaton délután fél négykor fohászkodik majd fel, hogy eldöntse, maradhat-e még remény a halandók számára."
+        },
+        "reito": {
+          "title": "Csillaghullás a homokban: a Mercedes magánrepülővel érkezett a katari hétvégére",
+          "body": "A katari Formula–1-es aszfaltcsíkon a Mercedes annyira elhúzott a mezőnytől a pénteki szabadedzéseken, mintha külön ligában játszana, Andrea Kimi Antonelli és George Russell pedig mosolyogva nézte a hátuk mögött maradó porfelhőt. A McLaren és a Red Bull közben a szokásos számolgatásba kezdett, Lando Norris pedig az új padlólemez bevetésével próbálja majd megváltani a világot a szombati folytatásban. A Ferrari gyári csapata viszont valóságos katasztrófaturizmust rendezett Loszaílban, miután Charles Leclerc autéja megsérült, Lewis Hamiltoné pedig pontosan a villanyfényes tréning végén mondta be az unalmalt. A harmadik szabadedzésre szombaton 15 óra 30 perckor kerül sor, ahol a többiek talán megtalálják azt a fránya egyensúlyt is."
+        }
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -1940,8 +1992,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "c95e7eb3362a5dedfce3fb85a061f010818a90768323cfa5f80f6132044d1eee",
       "commonsPhoto": {
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pen_Resource_University%E2%80%99s_Basketball_courts.jpg/960px-Pen_Resource_University%E2%80%99s_Basketball_courts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "page": "https://commons.wikimedia.org/wiki/File:Pen_Resource_University%E2%80%99s_Basketball_courts.jpg",
@@ -1952,7 +2004,20 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Sport TV és az NBA League Pass közvetíti Magyarországon az NBA kosárlabdaliga mérkőzéseit, utóbbi angol, előbbi pedig magyar kommentárral. A Sport TV a 2026–27-es szezonban 102 élő alapszakasz-mérkőzést ad a Sport1 és Sport2 csatornákon, amelyek közül 48 magyar idő szerint éjfél előtt kezdődik, a 2027-es döntő minden mérkőzése pedig szintén élőben lesz látható. Az online nézők az AMC Networks Selekt streamingplatformján vagy az NBA League Pass előfizetésével követhetik a találkozókat. Az óraátállítások miatt október végén és március második felében néhány héten át egy órával korábban kezdődnek a meccsek."
+        },
+        "tolkien": {
+          "title": "A Távoli Pályák Tüze és az Éjszakai Órák Krónikája",
+          "body": "A messze túlnan lévő amerikai kosárlabdabajnokság küzdelmei érik el a hazai tájakat a Sport TV és az NBA League Pass révén, hogy a magyar nézők se maradjanak ki a csatákból. A 2026–27-es idényben soha nem látott ajándékként 102 alapszakasz-mérkőzés ragyog fel a Sport1 és Sport2 csatornákon magyar szószólók hangjával, és e szent tűzből 48 viadal még az éjféli óra eljövertéig megkezdődik. Ha a csillagfényes éjszakában a Selekt fonalán vagy a League Pass titkos kapuin át keresi valaki a küzdelmet, a 2027-es nagydöntő minden egyes ütközete teljes egészében feltárul a képernyőkön. Az idő forgandó kerekének rezdülései – október utolsó napjai és március harmadik holdtöltéjének tájéka – pedig egy órával korábbi időkbe sodorják a viadalok kezdetét."
+        },
+        "reito": {
+          "title": "Kosárlabda az éjszakában: Hordozható óriások és óraátállítási csapdák",
+          "body": "Magyarországon a Sport TV és az NBA League Pass tartja ébren a kosárlabda-rajongókat az óceán túloldaláról érkező NBA-meccsekkel, magyar illetve angol kommentár kíséretében. A 2026–27-es szezonban a Sport TV 102 élő alapszakasz-mérkőzést tol be a Sport1 és Sport2 csatornákra, amelyek közül 48 darab még az éjféli harangszó előtt elindul, a 2027-es döntő minden egyes felvonása pedig élőben feszül majd a képernyőkre. Aki nem a tévé előtt aszalódna, az az AMC Networks Selekt platformján vagy a fizetős League Pass rendszerén keresztül telefonról, tabletről vagy számítógépről is követheti az eseményeket. Október végén és március második felében ráadásul az óraátállítás kavar be a menetrendbe, így a nézőknek érdemes figyelniük, mert a meccsek olykor pontosan egy órával a szokásos időpont előtt rajtolnak."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1964,9 +2029,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/pvDBFJ8qGL70Dk3p8cTb_7DxRjwWioHN_quJmSnY0_A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkOGI2MDg4NWJhZjQxOWQ4NGY5OTZjYThkOTY1ZThk.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "bf3db42f94e2db7a77aa18a03eded94917d31409a560bf3d016aaebf258ad8c2",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A téli sportok rovatába tartozó osztrák jégkorongligában (ICEHL) a Ferencváros (FTC-Telekom) idegenben 9–3-ra győzte le a Vienna Capitals együttesét az alapszakaszban. A sikerrel a zöld-fehérek a biztos rájátszást érő hatodik helyet ostromolják, és vasárnap az Innsbruck ellen tehetnek újabb lépést felé. A pénteki bécsi mérkőzésen, amelyre 4020 néző látogatott ki, a magyar csapat góljait David Silye, Carter Savoie, Laskawy Ferenc (háromszor), Tammela (kétszer), Dobos és Molnár D. szerezték, míg a hazaiak oldaláról Lilja, Vey és Komarek talált be."
+        },
+        "tolkien": {
+          "title": "A bécsi jégmezők diadalmas krónikája",
+          "body": "A téli sportok fagyos szentélyében, az osztrák jégkorongliga alapszakaszának csatájában a Ferencváros fiai 9–3 arányú, sodró viharként lecsapó győzelmet arattak a Vienna Capitals otthonában, 4020 szemlélő gyűrűjében. David Silye, Carter Savoie, a mesterhármasig jutó Laskawy Ferenc, valamint Tammela, Dobos és Molnár D. pengéi szántották fel a jégmezőt, míg a hazaiak ellenállását Lilja, Vey és Komarek próbálta menteni. A diadal vihara nyomán a zöld-fehér sereg az egek felé törve ostromolja a biztos rájátszást érő hatodik helyet, hogy vasárnap az Innsbruck ellen folytassa útját."
+        },
+        "reito": {
+          "title": "Kilenc találat Bécs szívében – A Fradi jégre vitte a fővárost",
+          "body": "A téli sportok szerelmeseinek legnagyobb örömére az osztrák jégkorongliga (ICEHL) alapszakaszában a Ferencváros nem bízott semmit a véletlenre, és 9–3-ra intézte el idegenben a Vienna Capitals csapatát 4020 néző orra előtt. A gólgyártásból David Silye, Carter Savoie, a mesterhármasig jutó Laskawy Ferenc, valamint Tammela, Dobos és Molnár D. vette ki a részét, míg a házaiaknál Lilja, Vey és Komarek szépített. A hűtőházi hangulatú bécsi kaland gyakorlati következményeként a zöld-fehérek történetük során először győztek az osztrák fővárosban, így három ponttal gazdagodva már a biztos rájátszást érő hatodik helyet szorongatják a vasárnapi, Innsbruck elleni meccs előtt."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -1978,8 +2056,8 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795808733-temp-md6s5kq5ogep2kpgilj_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "1ede68a707f7ae621b11d8f21ea4c9c1c3e5f3f3e96d2235ddf39a157027d492",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -2061,7 +2139,20 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A belföldi közéletet és labdarúgást érintő témákról, így Orbán Viktor látogatásáról és Gulácsi Péter korábbi társadalmi állásfoglalásáról is beszélt a Partizánnak adott 110 perces interjújában a 27 éves, szombathelyi nevelésű válogatott focista, Schäfer András. A játékos elmondta, hogy a miniszterelnöki látogatást bár rangnak tekintette, szerencsésebb lett volna, ha az privát jellegű marad és nem készül róla videó, Gulácsi Péter 2021-es, megosztó kampány melletti kiállását pedig tökös húzásnak nevezte, miközben szerinte a kapus teljesítményét méltánytalanul kérdőjelezték meg. A beszélgetésben szó esett Schäfer külföldi karrierjének nehézségeiről, az olaszországi Genoa és Chievo csapatainál megélt válságos időszakáról, valamint a dunaszerdahelyi éveiről és jelenlegi berlini klubjáról, az Union Berlinről is. A válogatott középpályás részletesen mesélt a tavalyi magyar–ír vb-selejtezőt követő meg nem valósult vb-álmairól, valamint a 2030-as és 2034-es világbajnoksággal kapcsolatos sportbeli céljairól is."
+        },
+        "tolkien": {
+          "title": "A zöld mezők vándora és a hatalmasok árnyéka",
+          "body": "A hazai mezők és a német föld küldötte, a 27 esztendős Schäfer András lépett a Partizán krónikásának elé egy százíz napnál is hosszabb, tíz per híján kétszáz perces vallomásban, hogy elmesélje sorsának viharait. A vitéz szóra birták a hatalmasok útjait, Orbán Viktor miniszterelnök berlini látogatását, valamint Gulácsi Péter kapus bátor kiállását, ki viharos időkben emelte pajzsát egy nemes ügy védelmében. A játékos lelkét égető olaszországi száműzetés keserű kelyhe és a dunaszerdahelyi bajnokok csarnoka után ma már Berlin keleti bástyáján, huszonkét ezer torok zúgásától kísérve küzd a dicsőségért. Az álom, hogy a magyar nemzet lobogóját a világ legmagasabb csúcsain, a futball legendás mezmein lenyegessék, még két nagy csatát, a 2030-as és 2034-es idők viharait ígéri a lankadatlan középpályásnak."
+        },
+        "reito": {
+          "title": "Foci, kamion és miniszterelnök: Schäfer András terítékre tette az életét",
+          "body": "A belföldi futballpályák és a Partizán stúdiója között cikázó 27 éves válogatott labdarúgó, Schäfer András mesélte el a kamerák előtt, hogyan lett a tízéves kora óta szabad hétvége nélkül gyúrt gyerkőcből nemzetközi vándor. A beszélgetésben terítékre került Orbán Viktor berlini vizitje, amiről a játékos kerek perec megmondta, hogy videó helyett sokkal jobban festett volna egy csendes, privát kávézás keretében, valamint Gulácsi Péter 2021-es, megosztó kampánytámogató kiállása is, amit a középpályás simán csak tökös húzásnak nevezett. A Genoa és a Chievo kispadjain gyűjtött ifjúkori mélyütések, a kamionos sötét gondolatok, majd a dunaszerdahelyi harcok után a berlini Union szentélyében ma már húszezer torok ordítja a nevét futballistennek. A 2030-as és 2034-es világbajnokságok felé menetelő portyázó nem adja fel, még két tölténye maradt a puskájában a nagy vadászathoz."
+        }
+      }
     },
     {
       "source": "Origo.hu",
@@ -2073,9 +2164,22 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/noD4s1IWnP0Ay_FiZrsLJKZzBnKv71fYJAeNpoYptwk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi84NWIzZjQwNGU5YjQ1NjEzZGVlNzA1ZjhhMmZjMTcwZmE1YTY3N2NjZmExYTA5ZGMxNTFmZDczNzM1MWE4MTAy.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8b6dc8195ec1c153d693e803f7a4d2c50007a7b0ee79eee1cffec97f590c1117",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Netflixen november 27-én debütáló, Quasimodo, Párizs lelke című új filmadaptáció – amely Victor Hugo 1831-es regényét dolgozza fel, és a címszerepben Vincent Cassel látható – az eredeti helyszínt és időpontot elhagyva az 1830-as évek kolerajárvány sújtotta Párizsába helyezi a történetet, ahol Quasimudon kísérletezve próbálnak ellenszert találni. Ez a merőben friss, a 30 éves Disney-klasszikustól eltérő, szörnyfilmként ábrázolt megközelítés a filmek kínálatában érkező alkotáshoz vegyes fogadtatást váltott ki, mivel a magyar kommentelők művies díszletet és a klasszikus tönkretételét emlegették az előzetesek alapján. A streamingóriás tavaly októberi, Guillermo del Toro rendezte, Jacob Elordi, Mia Goth, Oscar Isaac és Christoph Waltz főszereplésével készült Frankenstein-adaptációjának sikerén felbuzdulva nyúlt a közkedvelt alapanyaghoz. A nézők maguk dönthetik el, hogy igaza van-e a felháborodott rajongóknak a filmfilmes újdonság kapcsán."
+        },
+        "tolkien": {
+          "title": "A párizsi katedrális árnyai felett új vihar ébred",
+          "body": "A Netflix filmek birodalmában november 27-én érkezik meg Victor Hugo évszázadokat átölelő krónikájának új, Quasimodo, Párizs lelke címmel megáldott, Vincent Cassel főszereplésével készült mozgóképes fejezete, amely a XV. század helyett az 1830-as évek kolerajárvány által ostromolt francia fővárosába űzi a rajongókat, hogy a púpos testén kísérletezve keressék a fertő ellenszerét. Ez a sötét, szörnyfilmként éledő feldolgozás – mely a harmincesztendős Disney-mese örökségét és a tavalyi, Jacob Elordi, Mia Goth, Oscar Isaac és Christoph Waltz nevével fémjelzett Frankenstein-siker viharát idézi meg – mély sebeket hasított a hívők lelkébe, miután a kommentelők keserű szavakkal illették a tucatterméknek nevezett, művies látványt. Az ősi katedrális tornyai alatt megbúvó tragédia sorsa a nézők ítéletére vár a filmvásznon."
+        },
+        "reito": {
+          "title": "Quasimodo, a laborpatkány és a feldühödött nép hadjárata",
+          "body": "A Netflix filmek rovatában november 27-én landoló Quasimodo, Párizs lelke című adaptáció – amelyben a francia filmgyártás élő legendája, Vincent Cassel ölti magára a címszerepet – négy évszázados időugrással az 1830-as évek kolerás Párizsába rántja a publikumot, ahol a szegény harangozó hirtelen egy biológiai kísérlet alanyaként találja magát egy hamisítatlan szörnyfilmben. Ez a huszárvágás, amely a harmincéves Disney-klasszikus édes nosztalgiáját egy csapásra cseréli le a Guillermo del Toro-féle Frankenstein-siker mintájára, a magyar kommentelőknél nem a megváltást, hanem a klasszikusok szentségtörését hozta el a művies díszletek miatt. A nézők most a saját bőrükön tapasztalhatják meg, mit szólt volna Victor Hugo, ha a hőséből kísérleti nyulat csinálnak a streamingóriás stúdiójában."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
