@@ -165,7 +165,11 @@
       "categories": [
         "environment"
       ],
-      "image": "https://assets.telex.hu/images/20261128/1795849429-temp-krc20ad29cv38dicfhm_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261128/1795849429-temp-krc20ad29cv38dicfhm_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -176,7 +180,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://assets.telex.hu/images/20261128/1795847313-temp-8bsoltvbrfu8bjfdbdo_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261128/1795847313-temp-8bsoltvbrfu8bjfdbdo_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -196,7 +204,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://assets.telex.hu/images/20261127/1795797883-temp-5gebvs4q4s4e6lajocp_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261127/1795797883-temp-5gebvs4q4s4e6lajocp_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -216,7 +228,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ee4866a8-d22b-428a-b1af-b1151c08508c.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ee4866a8-d22b-428a-b1af-b1151c08508c.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -236,7 +252,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d8f0f151-a652-4654-a4d2-0c8954bce752.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/d8f0f151-a652-4654-a4d2-0c8954bce752.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -256,7 +276,11 @@
       "categories": [
         "winter-sports"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/qS4XRdGZCpy5b1MEAXk2jTqWSzajNJVuWdxnQG_QH9I/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzBjMTI5ZGFkYTlkMDRjMWY5ODU2ZjI5ZDRhNWQxNDU2.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/qS4XRdGZCpy5b1MEAXk2jTqWSzajNJVuWdxnQG_QH9I/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzBjMTI5ZGFkYTlkMDRjMWY5ODU2ZjI5ZDRhNWQxNDU2.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -276,7 +300,11 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -296,7 +324,11 @@
       "categories": [
         "foreign"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -325,7 +357,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-dron-katona-arok-haboru-fegyver-873582.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-dron-katona-arok-haboru-fegyver-873582.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -354,7 +390,17 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.origo.hu/2026/11/joTBoFuR1-NLwsjCWnlR5n2rUYJEBc_ypW93OBH6zYw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xNi84MzczYTg5MmM0NzBmZmI0NzJlOTdkOGE1NzdmZmM4M2EzNjQ5NWJjOTVmZTg4ZDc1MDU3OTYxOWY4OTk0ZTIw.jpg"
+      "image": "https://cdn.origo.hu/2026/11/joTBoFuR1-NLwsjCWnlR5n2rUYJEBc_ypW93OBH6zYw/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8xNi84MzczYTg5MmM0NzBmZmI0NzJlOTdkOGE1NzdmZmM4M2EzNjQ5NWJjOTVmZTg4ZDc1MDU3OTYxOWY4OTk0ZTIw.jpg",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Bdp_Handball.jpg/960px-Bdp_Handball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Bdp_Handball.jpg",
+        "author": "Rune Moyo",
+        "credit": "Own work",
+        "title": "Bdp Handball.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -365,7 +411,11 @@
       "categories": [
         "films"
       ],
-      "image": "https://cdn.origo.hu/2026/11/WzZ9ccHRdfjJtsRPN5eKHqMZcmRalAmlAyY71IPkxN8/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi9kMThjOWM0MmY3YzEwYjgwNjNmN2Y3ZjAzNzlhYjM4NDFkOWE2NGViNTE0OTIzODhhMzI2MTkxZDYzMmI5ZjQw.jpg"
+      "image": "https://cdn.origo.hu/2026/11/WzZ9ccHRdfjJtsRPN5eKHqMZcmRalAmlAyY71IPkxN8/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi9kMThjOWM0MmY3YzEwYjgwNjNmN2Y3ZjAzNzlhYjM4NDFkOWE2NGViNTE0OTIzODhhMzI2MTkxZDYzMmI5ZjQw.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
