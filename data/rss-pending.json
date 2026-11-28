@@ -764,7 +764,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b5eabfd8-ca14-4d63-9b2f-8e079b8070ae.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b5eabfd8-ca14-4d63-9b2f-8e079b8070ae.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -775,7 +779,17 @@
       "categories": [
         "nba"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/ZclCIgZw8S8Qyb99P7dNCSrBvIopyhF6nHMVWXk5fYw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2JjOTQwYzAxYmRkODQ1ZGY4NDk0ZjkxMGU2ZDE0Yjk5.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/ZclCIgZw8S8Qyb99P7dNCSrBvIopyhF6nHMVWXk5fYw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2JjOTQwYzAxYmRkODQ1ZGY4NDk0ZjkxMGU2ZDE0Yjk5.webp",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Public_basketball_court_in_Melbourne_VIC_Australia.jpg/960px-Public_basketball_court_in_Melbourne_VIC_Australia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Public_basketball_court_in_Melbourne_VIC_Australia.jpg",
+        "author": "KeepActive Australia from Melbourne, VIC, Australia",
+        "credit": "Own work",
+        "title": "Public basketball court in Melbourne VIC Australia.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -786,7 +800,17 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Pen_Resource_University%E2%80%99s_Basketball_courts.jpg/960px-Pen_Resource_University%E2%80%99s_Basketball_courts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Pen_Resource_University%E2%80%99s_Basketball_courts.jpg",
+        "author": "Abdulrahman Ishaq Ismail",
+        "credit": "Own work",
+        "title": "Pen Resource University’s Basketball courts.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -797,7 +821,11 @@
       "categories": [
         "foreign"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -817,7 +845,11 @@
       "categories": [
         "environment"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/h/o/_/ho-erdo-tel-fak-termeszet-hideg-osz-idojaras-noveny-fa-873592.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/h/o/_/ho-erdo-tel-fak-termeszet-hideg-osz-idojaras-noveny-fa-873592.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -846,7 +878,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.origo.hu/2026/11/-RrTMVDVLRjLlT1T1X0KDOCef-hgUqjZrLU2DuXEPz0/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yOC9hNzBmMDJlZGNmNThmMWI4YzFlMGE0MTkwOTllZDJhZjEzZjk0Y2FkOTcxMjI5MjBhY2NhMDNhYjE0YmE0ZDhi.jpg"
+      "image": "https://cdn.origo.hu/2026/11/-RrTMVDVLRjLlT1T1X0KDOCef-hgUqjZrLU2DuXEPz0/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yOC9hNzBmMDJlZGNmNThmMWI4YzFlMGE0MTkwOTllZDJhZjEzZjk0Y2FkOTcxMjI5MjBhY2NhMDNhYjE0YmE0ZDhi.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -857,7 +893,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.origo.hu/2026/11/8J1YYxquXLQkUlC48IoW9rPDokqMO5tdMazTUstbKAA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yOC8wYWJiM2E3ZWEwMjhhYzFhYzA0ZDdhODA1OTc3YjA0OTM5MjAxNzM5YzgxNTJkOGU3NzdmYmZkOGY1MWY3NTU4.jpg"
+      "image": "https://cdn.origo.hu/2026/11/8J1YYxquXLQkUlC48IoW9rPDokqMO5tdMazTUstbKAA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yOC8wYWJiM2E3ZWEwMjhhYzFhYzA0ZDdhODA1OTc3YjA0OTM5MjAxNzM5YzgxNTJkOGU3NzdmYmZkOGY1MWY3NTU4.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
