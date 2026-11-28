@@ -740,6 +740,7 @@ try:
         slot_at=parse_published(previous_edition.get("scheduledAt")) or issue_at
         skip_backfill = issue_at and (
             issue_at.date().isoformat() == "2026-11-24"
+            or previous_edition.get("scheduledAt") == "2026-11-27T16:00:00+01:00"
             or (slot_at.date().isoformat() == "2026-11-26" and previous_edition.get("issueNumber") == 1)
         )
         if skip_backfill:
