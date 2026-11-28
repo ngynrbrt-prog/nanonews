@@ -13,8 +13,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "71dd20af8f79cfb7cb8bc5b05c5f4e7427ddb11fbca0f76589cadcfe3fa5da64",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -43,7 +43,20 @@
           },
           "archiveDate": "2026. 11. 24."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A San Antonio Spurs és a Los Angeles Lakers mérkőzésén, amelyet a San Antonióban található Frost Bank Centerben rendeztek meg és amelyről élő szöveges közvetítés készült, a negyedik negyed hajrájában a Spurs 96–90-re vezetett a Lakers ellen. A mérkőzés folyamán a harmadik negyedben a Spurs 30–14-re nyert és 68–68-ra egyenlített, míg a nagyszünetben a Lakers vezetett 54–38-ra, az első negyed után pedig 27–14 volt az állás a vendégek javára; a legutolsó adatok szerint 0:44 volt hátra az órán. Ez a hatpontos különbség a hajrában meghatározta a találkozó végkimenetelét, miközben a Lakersnek kevés ideje maradt a felzárkózásra a San Antonio ellen."
+        },
+        "tolkien": {
+          "title": "A szürke aréna vihara: Spurs és Lakers harca a Frost Bank szentélyében",
+          "body": "Így esett, hogy a San Antonio Spurs és a Los Angeles Lakers bajnokai gyűltek össze a San Antonióban fekvő Frost Bank Center csarnokának porondján, hol az élő szó krónikája örökítette meg a küzdelmet. Vad viharokban égett a harmadik játékrész, midőn a Spurs harminc arany ponttal törte át a sötétséget, s hatvan nyolcra tépte fel az egyenlőség leplét, bár korábban a Lakers már húsz pont magasságáig is felszökött a dicsőség hegyén. Ám a negyedek végén, midőn a negyedik felvonás homályában kilencvenhat és kilencven pont feszült egymásnak, a Spurs hat pont előnyt kovácsolt, s az óra mutatója könyörtelenül jelzett: már csak negyvennégy másodperc maradt a harcosoknak. Így ébredt a hajnal e csatában, hol a San Antonio serege tartotta markában a győzelmet a Lakers ellen."
+        },
+        "reito": {
+          "title": "Kosarak cirkusza a Frost Bankben: Spurs kontra Lakers",
+          "body": "A San Antonio Spurs és a Los Angeles Lakers csapatai a Frost Bank Center parkettáján rendeztek komoly kosárparádét, ahol az élő közvetítés számai szerint a negyedik negyed hajrájában 96–90-es állásnál jártak a hazaiak. Persze nem volt ez sima menet, hiszen a Lakers korábban már húsz ponttal is meglépett, a félidőben 54–38-ra vezetett, sőt a harmadik negyed végén még 68–68-as döntetlen állt a táblán, miután a Spurs egy harminc pontos rohammal utolérte őket. Most azonban, alig 0:44-gyel a duda előtt, a Spurs hat ponttal vezetett, így a Lakersnek hirtelen nagyon kevés ideje maradt a csodára ebben a San Antonio elleni meccsben."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -56,9 +69,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "5889f9736f0432cb30bb096e1b5849beb003c1cbd9642e73d3bbfdad5b3ce9e6",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Sam Darnold, a Seattle Seahawks irányítója a San Francisco 49ers elleni, vasárnapi rangadón visszatér a pályára, miután a Chicago Bears elleni, nyolcadik heti vereség során megszerzett borda- és combsérülése miatt kihagyta az előző két mérkőzést. A Seattle számára kiemelten fontos összecsapáson a csatlakozása azért lényeges, mert a csapat hátránya három mérkőzés az NFC Nyugatot vezető 49ers mögött, ráadásul jelenleg playoff-helyen sincs. A héten mindhárom edzésen teljes értékű munkát végző irányító extra védőpárnázást visel majd a bordájára, és visszanyerte robbanékonyságát, ugyanakkor a labdabiztonsága kérdéses, mivel idén eddig kilenc interceptiont dobott, és az előző hat kezdőmérkőzésén minden alkalommal eladta a labdát. Az 5."
+        },
+        "tolkien": {
+          "title": "A száműzött vezér visszatérése a végzetes ütközet kapujában",
+          "body": "Sam Darnold, a Seattle Seahawks irányítója a San Francisco 49ers elleni vasárnapi viadalon visszatér a csatatérre, miután a Chicago Bears elleni összecsapáson elszenvedett borda- és combsérülései miatt két viadalon át a partvonal árnyékába kényszerült. A Seahawks seregének égető szüksége van a vezérére, hiszen három mérkőzés a lemaradásuk az NFC Nyugat trónját őrző 49ers mögött, és a csata e percben dicsőséges playoff-hely híján találja őket. A harcos a héten minden próbán acélos helytállást tanúsított, bordáit ércnél is szilárdabb extra védőpárnázás óvja, és léptei visszanyerték egykori robbanékony vadságukat. Ám a múlt árnyai kísértik a zászlót: idén már kilenc labdát ajándékozott az ellenségnek, és az utolsó hat csatájában egyszer sem tudta elkerülni az eladott passz átkát."
+        },
+        "reito": {
+          "title": "Bordák, combok és a szerencse forgandó kerekei: Sam Darnold újra rajtvonalnál",
+          "body": "Sam Darnold, a Seattle Seahawks irányítója vasárnap reggel hivatalosan is előbújik a pokróc alól a San Francisco 49ers elleni gigászi rangadóra, miután a Chicago Bears elleni nyolcadik heti összecsapáson megrepedt bordája és rakoncátlankodó combizmája miatt két kört kihagyott. A Seattle-nek most égetően szükség van a szolgálataira, mivel a csapat három meccsel kullog az NFC Nyugatot uraló 49ers mögött, és jelenleg a rájátszás közelébe sem szagolhat. A héten háromszor is csatasorba állt edzésen, a bordáira extra vatta, a mozgásába pedig ismét robbanékonyság került, így újra irányt tud váltani és futva passzolni. A béke szigete persze még messze van, hiszen az irányító az idén már kilenc interceptiont hozott össze, az utolsó hat meccsén pedig hű maradt a hagyományhoz, és egyszer sem zárta eladott labda nélkül az estét."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -71,8 +97,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "8d2e80482ef1c2b8a5e9218626dce2416288b8b39acfec802b88d2a297485252",
       "commonsPhoto": {
         "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Brock_Purdy.jpg/960px-Brock_Purdy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
         "page": "https://commons.wikimedia.org/wiki/File:Brock_Purdy.jpg",
@@ -83,7 +109,20 @@
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
       },
-      "relatedStories": []
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A San Francisco 49ers irányítóposztján változás történt, miután Brock Purdy bokasérülés miatt kihagyja a Seattle Seahawks elleni vasárnapi rangadót, és helyette Mac Jones lesz a kezdőjátékos. Purdy a Minnesota Vikings elleni múlt heti győzelem során, a második negyedben sérült meg egy sack közben, és bár végigjátszotta a meccset, a hét folyamán nem tudott edzeni, így Kyle Shanahan vezetőedző pénteken hivatalosan is kizárta a játékát. A boka középső részét érintő sérülés miatt a rehabilitációs terhelést leállították, műtétre nincs szükség, és a vezetőedző bizakodása szerint Purdy a 13. héten, a New York Giants ellen visszatérhet."
+        },
+        "tolkien": {
+          "title": "A sebesült vezér és a cserébe állított bajnok csatája",
+          "body": "A San Francisco 49ers serefében súlyos törés állt be, mikor Brock Purdy irányító a Seattle Seahawks elleni vasárnapi rangadón bokafronton megsérülve elbukik, és a helyére Mac Jones lép fel harcmezőre. A bajnok a Minnesota Vikings elleni viadalban, egy sötét sack árnyékában sebesült meg a második negyedben, s bár a küzdelmet még végigállta, Kyle Shanahan vezérlő fejedelem pénteken hivatalosan is elzárta őt a seattle-i ütközettől. A boka középső bástyáját megviselő csapás miatt a gyógyító terhelést megállították, ám acélos műtétre nem lesz szükség, így a remények szerint a tizenharmadik napon, a New York Giants ellen a vezér visszatérhet. A pajzsot most Mac Jones ragadja meg, aki tavaly már nyolc viadalban bizonyított Purdy lábbaja sérülése idején öt győzelmet aratva, kétezer-egyszázötvenegy passzolt yardot, tizenhárom touchdownt és hat interceptiont hagyva maga után, míg a klán a cserehatáridő viharában sem engedte őt el."
+        },
+        "reito": {
+          "title": "A boka, amely átrendezte a San Francisco-i frontot és Mac Jones nagy dobását",
+          "body": "A San Francisco 49ersnél csőtüzet okozott, hogy Brock Purdy irányító bal bokája a Minnesota Vikings elleni meccsen megadta magát, így a Seattle Seahawks elleni vasárnapi rangadón nem ő lép pályára, hanem Mac Jones veszi át a stafétát. Kyle Shanahan vezetőedző pénteken hivatalosan is kihúzta Purdyt a névsorból, mert bár az MVP-esélyes irányító végigküzdötte a múlt heti meccset, a boka középső részét érintő sérülése miatt le kellett állítani a rehabilitációt, műtét viszont nem kell, és a 13. héten, a New York Giants ellen már a visszatérésében bíznak. A kispad mélyéről előkerülő Mac Jones nem esik kétségbe a helyzettől, hiszen tavaly Purdy lábujjsérülésekor nyolc meccsen már összehozott egy 5–3-as mérleget 2151 passzolt yarddal, 13 touchdownnal és hat interceptionnel."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -95,8 +134,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "fcdabe72f1308f47735db81c966b43ddad904d353a29eab48a10c83933b026e3",
       "relatedStories": [
         {
           "source": "Fűzővel kifelé!",
@@ -125,7 +164,20 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Justin Herbert agyrázkódás miatt nem lép pályára a Los Angeles Chargers New England Patriots elleni vasárnapi mérkőzésén, így DJ Uiagalelei és Tommy DeVito csap össze az NFL-ben. A sérülések miatt átalakult összecsapáson a Chargers színeiben DJ Uiagalelei először kezd a ligában, miután a New York Jets elleni 27–24-es vereség alkalmával Herbert agyrázkódás-protokollba került, míg a Patriotsnál Drake Maye két hete tartó szárkapocscsonttörése miatt hiányzik. Jim Harbaugh vezetőedző pénteki bejelentése szerint Herbert a héten egyetlen edzésen sem vett részt, a Chargers pedig Trey Lance sérülése miatt Jake Browninget is felhozta a gyakorlócsapatból az aktív keretbe. Az eredetileg főműsoridőbe tervezett mérkőzést Drake Maye sérülése miatt a liga át tette, így a Sunday Night Football sávjában végül a Raiders–Browns találkozót rendezik meg."
+        },
+        "tolkien": {
+          "title": "A korona nélküli vezérek vihara az NFL porondján",
+          "body": "Agynak rázkódása és a csend törvénye parancsolta távol a küzdőtérről Justin Herbertet, így a Los Angeles Chargers és a New England Patriots vasárnapi összecsapásán az NFL szent mezőjén DJ Uiagalelei és Tommy DeVito feszül egymásnak. E sötét napon a tervezett diadalmas királyok helyett két ifjú bizonyság, a korábban három egyetemi várat is megjárt, 2025-ben draftolatlan Uiagalelei lép elő első alkalommal kezdőként, míg a Patriots táborát a Detroit ellen szárkapocscsontját törő Drake Maye hiánya gyötri. Jim Harbaugh vezér intése és a Jets elleni 27–24-es ütközet sebei nyomán a Chargers bástyái megrendültek, így Trey Lance sérülése miatt Jake Browning emelkedett fel a gyakorlócsapat homályából a tartalékok rendjébe. A csillagok járása is megváltozott ezen a viharos úton: a liga az eredeti főműsoridős rendet elsöpörve a Raiders–Browns párviadalnak adta át a Sunday Night Football szent óráját."
+        },
+        "reito": {
+          "title": "Amikor a tartalékpadból lesz főszerep az NFL színpadán",
+          "body": "Justin Herbert agyrázkódása miatt hirtelen üresen maradt a trón, így a Los Angeles Chargers és a New England Patriots vasárnapi NFL-csatáján DJ Uiagalelei és Tommy DeVito intézi el egymás között az irányítóposzt sorsát. A Jetstől kapott 27–24-es pofon után Herbert a kispadra kényszerült, Jim Harbaugh pénteki pecsétje szerint egyetlen edzést sem látott a héten, miközben a Chargersnél Trey Lance sérülése miatt Jake Browning is átugrott a gyakorlócsapatból az aktívak közé. A túloldalon a Detroit ellen szárkapocscsontját törő Drake Maye már két hete a nézőtérről kénytelen szemlélni az eseményeket, így a 2025-ben még draftolatlan, három egyetemi állomást is megjárt Uiagalelei most élete első kezdő meccsén bizonyíthat a ligában. A történet pikantériája, hogy a bajnokság rendezői is észbe kaptak: a főműsoridőt elvették a sebesültektől, és a Sunday Night Football sávjában inkább a Raiders–Browns duót küldték tűzbe."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -137,9 +189,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "c2a89e4d672c2bbad4a77ec8a0bf225169a8f4a35943448ef3d84852bec057dc",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A 12. játékhét második felvonásának NFL-mérkőzésein az összes csapat pályára lép, mivel senki sem szerepel bye-weeken. Az események és a rovat eseményei szorosan kapcsolódnak az NFL-csapatok aktuális formájához, a sérülésekhez, a rájátszási esélyekhez és az első kiemelésért folyó küzdelmekhez. A találkozók során a konkrét keretek, a kulcsjátékosok – például Burrow, Stroud, Taylor, McCarthy, Geno Smith, Cousins, Darnold, Purdy, Watson és Mayfield – bevethetősége, valamint a sérülést szenvedett sportolók státusza alapjaiban határozza meg a pályán látható erőviszonyokat és a végeredményeket."
+        },
+        "tolkien": {
+          "title": "A Gridiron Végzetes Mezején: Hol a Bajnokok Kardja és Pajzsa Megméretik",
+          "body": "A 12. játékhét óriási csarnokában egyetlen csapat sem pihen a bye-week homályában, hanem mind egy szálig fegyverbe szólíttatnak az NFL szent gyepén. A hősök seregei – Burrow és Stroud kardforgatói, Taylor, a megállíthatatlan futár, valamint a sebesült vezérek, úgy mint Purdy és Cousins – mind a végső dicsőségért és az első kiemelés koronájáért küzdenek. A sors nyila most a sérülések szorításában dől el, hol a védőfalak vasfüggönye, hol pedig a levegőben szárnyaló passzok vihara dönt a birodalmak sorsáról."
+        },
+        "reito": {
+          "title": "Kihagyott ziccerek és bicegő sztárok: amikor a bye-week elment szabadságra",
+          "body": "A 12. játékhét második felvonásában senki sem lóghat a lógatnivalót, mert most aztán az összes NFL-csapat jégre – vagyis gyepre – lép, egyetlen árva bye-week sem menti meg őket. A mesterek és a botladozó irányítók, mint Burrow, Stroud, Purdy és Watson, a sérültlistával versenyputtyosdázva próbálják kitalálni, ki tud egyáltalán járni, míg a rovat szereplői a rájátszás húsbavágó pontjaiért és az első kiemelés ábrándjaiért izzadnak. Itt aztán van minden: tébláboló támadófalak, kétfejű futókra hajazó viking kiskutyák és Baker Mayfield megállíthatatlan feltámadási kísérletei."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -151,9 +216,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "7fb5ac0ee5a1e7453e30d8a5005d2d86d5c44554f9dfe8726c2e8f3239a9872c",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A 2026-os egyetemi labdarúgó-idény utolsó alapszakasz-fordulójához, a Rivalry Weekhez érkezve a Ryan Day vezette Ohio State Buckeyes csapatát és a playoff-esélyeket érintő változások történtek, miután a Nebraska elleni vereséggel a Buckeyes elkönyvelte negyedik zakóját 2026-ban, a bizottság rangsorában a 21. helyre csúszott vissza, és az Iowa péntek esti győzelmével matematikai esélyét is elveszítette a Big Ten fináléba való bejutásra. A legfontosabb gyakorlati következmény, hogy a szezon előtti konszenzus rangsor élén végzett, 2011 óta a legrosszabb idényét futó csapat számára – amely az idény második felét a kezdő irányító, Julian Sayin könyöksérülése nélkül játszotta végig, és idegen módon átlag alatti támadó- valamint védőfallal működött – az alapszakaszból hátra lévő egy hétben már nincs visszaút a rájátszásba. Az NFL-hez kapcsolódó egyetemi bajnokság ezen szakasza a profi ligába készülő fiatal tehetségek megfigyelése és a playoff bizottság rangsorának alakulása miatt kiemelt jelentőségű a profi megfigyelők számára is."
+        },
+        "tolkien": {
+          "title": "A Buckeyes bukása és a 2026-os idény alkonya",
+          "body": "A 2026-os egyetemi labdarúgás földjén a Rivalry Week árnyékában a Ryan Day által vezérelt Ohio State Buckeyes sorsa pecsételődött meg, miután a Nebraska elleni negyedik vereség a huszonegyedik helyre taszította a csapatot a rangsorban, az Iowa győzelme pedig végleg elvágta az utat a Big Ten trónja felé. A harcmezőkön a szezon elején még trónkövetelőként emlegetett gárda elesett, s bár Julian Sayin irányító könyöksérülése megfosztotta őket vezérüktől, a falak ereje is megkopott a vonalak harcában. Ezen a harcmezőn edződnek azok a bajnokok, akiknek sorsa az NFL profi ligáinak magasságába szólít majd, de ez a csatamező most a bukás keserű poharát mérte a hősökre."
+        },
+        "reito": {
+          "title": "Ahol a Buckeyes elássa a bajnoki álmokat",
+          "body": "A 2026-os egyetemi amerikai foci alapszakasz utolsó felvonásában, a Rivalry Week kapujában a Ryan Day irányította Ohio State Buckeyes csapata mélyrepülésbe kezdett, miután a Nebraska elleni negyedik vereség után a 21. helyre potyogtak, az Iowa győzelme pedig matematikailag is kiütötte őket a Big Ten döntőjéből. A gyakorlati eredmény az, hogy a szezon eleji csúcsragadozóból egyetlen hét alatt lemaradó lett, miközben a kezdő irányító, Julian Sayin könyöksérülése miatt a kispadról nézte az évad második felét, a támadó- és védőfalak pedig az idei évben csúfosan alulmúlták az elvárásokat. Aki pedig a jövő vasárnapi sztárjait keresi az NFL draft előszobájában, az most a sebeit nyalogató egyetemi gigász romjai között csemegézhet."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -165,8 +243,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "b40610251f8cad4e8b656e7ea40d5660d0dcaf5d1fa910300b0fbf16972fba57",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -178,8 +256,8 @@
           ],
           "image": "https://cdn.nemzetisport.hu/2026/11/EugWS7YnJiMkACSi6JrENZArCOlqYzKIWxOlao1ETdk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YzNmU0YzE3NmE5YjRhNjk4MzMxZmZmMjg1Yjc5NTQ5.webp",
           "summaryVersion": "short-v2.1-3-4",
-          "contentBasis": "title",
-          "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "contentBasis": "article",
+          "sourceHash": "31175d79ea396c7e0d589e380ea3f2b63d39e28e56a0316b23f6020080176ab4",
           "commonsPhoto": {
             "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg/960px-Forest_Park_High_School_football_%28Woodbridge%2C_Virginia%29%2C_Muted_Sunset.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
             "page": "https://commons.wikimedia.org/wiki/File:Forest_Park_High_School_football_(Woodbridge,_Virginia),_Muted_Sunset.jpg",
@@ -189,6 +267,19 @@
             "license": "CC BY-SA 4.0",
             "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
             "version": 4
+          },
+          "variants": {
+            "original": {
+              "body": "A fekete pénteki NFL-alapszakasz-mérkőzésen a Pittsburgh Steelers 27–5-re kiütötte a Denver Broncost, így 7–4-re javította mérlegét, és jó eséllyel ott lesz a 2027 eleji rájátszásban. A találkozó gyakorlati következménye, hogy a vereség ellenére a csoportgyőzelemért és az AFC első kiemeléséért harcoló Denver 8–2-es kezdés után megtorpant, míg a botrányok – köztük a négyszeres MVP, 42 éves Aaron Rodgers kivágása és Mike McCarthy vezetőedző kritizálása, valamint Mason Rudolph kezdőként való szerepeltetése – ellenére a Steelers magabiztos győzelmet aratott. Az amerikai futball ezen 12. fordulós meccsén a Pittsburgh védelme és D.K."
+            },
+            "tolkien": {
+              "title": "A Fekete Péntek Viharai és a Steelers Diadalmas Lobogója az NFL Csatatérén",
+              "body": "A sötét fellegek és a botrányok vihara közepette, miközben a négyszeres MVP, 42 éves Aaron Rodgers sorsa és Mike McCarthy vezetőedző összecsapása megrendítette a tábort, a Pittsburgh Steelers csapata fekete pénteken megütközött a hatalmas Denver Broncos ellen az NFL alapszakaszának 12. fordulójában. A harcmezőn a Mason Rudolph vezette egység és a vadul harapó védelem, valamint D.K. Metcalf touchdowne révén a Steelers azonnal 14–0-s előnyre tett szert, míg a 8–2-vel nyitó, az AFC első kiemeléséért harcoló ellenfél és Bo Nix serege tehetetlennek bizonyult."
+            },
+            "reito": {
+              "title": "Amikor a botrányos fekete péntekből kiütéses NFL-győzelem lett Pittsburghben",
+              "body": "A fekete pénteki NFL-meccsen a Pittsburgh Steelers 27–5-re intézte el a Denver Broncost, miután a hazaiak 7–4-re javították mérlegüket, és egyenes utat kaptak a 2027 eleji rájátszás felé. A dolog pikantériája, hogy a 8–2-es Denver a papírforma szerint simán nyert volna, elvégre a Steelersnél a négyszeres MVP, 42 éves Aaron Rodgerst nemrég vágták ki egy kiadós balhé után, így a ligagyenge cserének tartott Mason Rudolph irányított, míg a védelmi fumble-ök és D.K. Metcalf elkapása nyomán hamar 14–0 lett az állás. Sean Payton csapata és Bo Nix irányító az egész összecsapáson szenvedett a safety ellenére is, így a Pittsburgh az AFC első kiemelésére törő riválisát küldte padlóra az alapszakasz ezen fordulójában."
+            }
           }
         },
         {
@@ -219,7 +310,20 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Pittsburgh Steelers irányítója nélkül, a védelmére támaszkodva 27-5-re legyőzte a Denver Broncost a Black Friday alkalmából az NFL-ben zajló alapszakaszban. A mérkőzésen a támadósorok gyengén teljesítettek, miközben a Steelers védelme két touchdownt, három sacket és két interceptiont is elért. A győzelemmel a Pittsburgh közelebb került a rájátszásba jutáshoz, míg a Broncos támadósora a szezon legrosszabb EPA/drive mutatóját hozta össze. Mike McCarthy együttese ezzel az elmúlt tíz év tizedik olyan csapatává vált, amely az első félidőben két védelmi touchdownt tudott felmutatni."
+        },
+        "tolkien": {
+          "title": "A Fekete Péntek vihara: Acélos pajzsok diadala a ködben",
+          "body": "Az NFL porondján, a Pittsburgh Steelers és a Denver Broncos harcában a védelem vasból font falai döntöttek, miközben az eső szitált és a támadók serege elnémult. A csata legelső sötét órájában TJ Watt kaparintotta meg a labdát a célterületen, majd Jalen Ramsey is elejtette ítéletét a levegőben, két védelmi touchdownt zúdítva a Broncos fénylőnek hitt hadára. A sárkányok módjára küzdő pittsburghi védők három sacket és két interceptiont zsákmányoltak, míg a denveri támadók csapata az év legsötétebb EPA/drive mutatójának sarába süllyedt. Mike McCarthy hadura így, bár vezérét vesztve indult csatába, 27-5-ös diadalával nyitott utat a rájátszás szentélye felé."
+        },
+        "reito": {
+          "title": "Irányító nélkül a csúcson: Így darálta le a Steelers a Broncost",
+          "body": "Az NFL Black Friday meccsén a Pittsburgh Steelers úgy gázolt át a Denver Broncoson 27-5-re, hogy a támadósoruk alig találta a pályát, a védelem viszont két touchdownt, három sacket és két interceptiont pakolt az asztalra. Bo Nixék a denveri támadósorral olyan szinten hozták az év legrosszabb EPA/drive mutatóját, hogy az ellenfél védői szinte átvették a pontgyártást is a safetyvel és a pick-sixekkel. Mike McCarthy csapata ezzel az elmúlt tíz év tizedik olyan alakulatává lépett elő, amely az első félidőben két védelmi touchdownt termelt. A győzelem pont elegendőnek bizonyult ahhoz, hogy a Steelers közelebb kerüljön a rájátszáshoz, míg a Broncos passzjátékának sikeres ráta alapú mutatója a liga aljára zuhant."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -231,9 +335,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "0a9b9dc9f8d3fcd5b11b0dc9e1ff42c8c9b2f480052ef9549e6f584c6d234456",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A 12. forduló vasárnapi meccsei előtt az NFL-ben szereplő Saints, Bengals, Ravens, Texans, Giants, Colts, Jets, Dolphins, Falcons, Vikings, Titans, Jaguars, Patriots, Chargers, Commanders, Cardinals, Seahawks, 49ers, Raiders és Browns csapatok közzétették a játékra nem bevethető vagy kérdéses státuszú sérült játékosok listáját. A felsorolt klubok mérkőzésein az érintett sérült sportolók hiánya vagy bizonytalan szereplése közvetlenül befolyásolja az NFL-csapatok hétvégi összeállítását és taktikai lehetőségeit. A Saintsnél nem játszik Juwan Johnson (TE); kérdőjeles Noah Fant (TE), Taliese Fuaga (OT), Asim Richards (OT)."
+        },
+        "tolkien": {
+          "title": "A megroppant pajzsok napja a csaták mezsgyéjén",
+          "body": "A tizenkettedik viadal napjának hajnalán az NFL arénáinak földjén harcosok sora dőlt ki a sorból, mikor a Saints, Bengals, Ravens, Texans, Giants, Colts, Jets, Dolphins, Falcons, Vikings, Titans, Jaguars, Patriots, Chargers, Commanders, Cardinals, Seahawks, 49ers, Raiders és Browns seregei megjelentek a harcmezőn. Ezen veszteségek nyomán az NFL csapatainak sorai megfogyatkoztak, és a fegyverforgatók hiánya mély árnyékot vet a vasárnapi küzdelmek kimenetelére. A Saints táborában nem lép harctérre Juwan Johnson (TE), míg bizonytalan sorsú Noah Fant (TE), Taliese Fuaga (OT) és Asim Richards (OT); a Bengals színeiben hiányzik Dalton Risner (G) és Jalen Davis (CB), kérdéses Tee Higgins (WR) meg Andrei Iosivas (WR). A Ravens vonaláról lemarad Olaivavega Ioane (G), Nnamdi Madubuike (DT) és Jaylinn Hawkins (S), a Texans seregéből pedig hiányzik Kayshon Boutte (WR), Brevin Jordan (TE), Keylan Rutledge (OL) és Danielle Hunter (DE), s kérdéses Jake Hummel (LB)."
+        },
+        "reito": {
+          "title": "Futballisták a gyengélkedőn: a 12. fordulós sérülzcunami",
+          "body": "A tizenkettedik forduló vasárnapi eljöttekor az NFL csapatai – köztük a Saints, Bengals, Ravens, Texans, Giants, Colts, Jets, Dolphins, Falcons, Vikings, Titans, Jaguars, Patriots, Chargers, Commanders, Cardinals, Seahawks, 49ers, Raiders és Browns – hivatalosan is bemutatták a gyengélkedőre kényszerült sportolók impozáns névsorát. Ezen kidőlt játékosok hiánya miatt az NFL-ben érintett klubok vezetőinek alaposan át kell írniuk a haditervet, mire letelik az öt már lement meccs utáni csend. A Saintsnél nem játszik Juwan Johnson (TE); kérdőjeles Noah Fant (TE), Taliese Fuaga (OT), Asim Richards (OT). A Bengalsnál nem játszik Dalton Risner (G), Jalen Davis (CB); kérdőjeles Tee Higgins (WR), Andrei Iosivas (WR)."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -245,9 +362,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "9d5a53f2ced25f89243777e812848f662eb3d52d3c3edfade5cb6b7468e1700c",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Josh Johnson lesz az Arizona Cardinals kezdő irányítója a Washington Commanders elleni vasárnapi mérkőzésen, mivel Mike LaFleur vezetőedző pénteki bejelentése szerint Carson Beck újonc irányító hátproblémák miatt biztosan kihagyja a 12. heti találkozót. A változás közvetlen gyakorlati következménye az, hogy a 3-8-as mérleggel álló, hazai pályán sorozatban 11 vereséget számláló csapat irányítását a 40 éves Johnson veszi át a 4-5-1-es ellenféllel szemben. Beck eddig egy NFL-mérkőzésen lépett pályára, ahol 18-ból 11 passza volt sikeres 108 yardért, touchdown nélkül, két interceptionnel és 38,4-es passer ratinggel."
+        },
+        "tolkien": {
+          "title": "A negyvenéves vitéz pajzsa és a zöldfülű sebesülése",
+          "body": "A sors viharos napján Josh Johnson lép elő az Arizona Cardinals kezdő irányítójaként a Washington Commanders elleni vasárnapi csatában, miután Carson Beck ifjú harcos hátának fájdalmai miatt meghiúsult a harcmezei részvétele. Mike LaFleur hadvezér pénteki szózata pecsételte meg, hogy az újonc ezen a 12. heti viadalon bizonyosan csendben marad. E sorsfordulat nyomán a 3-8-as sötét krónikát író, falai közt tizenegy ütközetet zsinórban elbukó sereget a negyvenéves veterán vezeti rohamra a 4-5-1-es mérlegű ellenfél ellen."
+        },
+        "reito": {
+          "title": "A veterán beugrása és a hátfájós újonc esete",
+          "body": "Josh Johnson veszi át az Arizona Cardinals kezdő irányítói posztját a Washington Commanders elleni vasárnapi összecsapáson, miután Carson Beck hátproblémái miatt Mike LaFleur vezetőedző pénteki pecsétje végleg kiejtette a 12. heti meccsből az újoncot. A rutinból vezényelt váltás azonnal ránehezedik a 3-8-as mutatóval és zsinórban tizenegy hazai vereséggel büszkélkedő csapatra, amely most a 4-5-1-es ellenfél ellen próbál szépíteni a pályán. Beck eddigi egyetlen NFL-fellépésén 18 passzából 11 ment célba 108 yardért, gól nélkül, két elhalászott labdával és 38,4-es passer ratinggel zárva a napot."
+        }
+      }
     },
     {
       "source": "Fűzővel kifelé!",
