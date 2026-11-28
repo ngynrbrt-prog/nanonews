@@ -971,7 +971,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://assets.telex.hu/images/20261126/1795693178-temp-clkf9sht9528cjdcjmm_cimlap-normal.jpg"
+      "image": "https://assets.telex.hu/images/20261126/1795693178-temp-clkf9sht9528cjdcjmm_cimlap-normal.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -992,7 +996,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f08a7cf-cdb1-4f54-9c4d-351e68a2a9b3.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f08a7cf-cdb1-4f54-9c4d-351e68a2a9b3.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1003,7 +1011,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c809cb6b-26a5-4644-bb86-e774ba672165.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/c809cb6b-26a5-4644-bb86-e774ba672165.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1014,7 +1026,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8c649af5-732a-4a00-8225-3bdd1bea5288.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/8c649af5-732a-4a00-8225-3bdd1bea5288.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1043,7 +1059,11 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1109,7 +1129,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/o/r/s/orszaggyules-parlament-budapest-873584.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/o/r/s/orszaggyules-parlament-budapest-873584.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -1129,7 +1153,11 @@
       "categories": [
         "films"
       ],
-      "image": "https://cdn.origo.hu/2026/11/Dlqva5_pIffdr1T8XANRJZLb30-0QT94jN4yudozhmk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9lNGE0MmNkMzhiNWVmY2ZhNTkwZTlhYTFlNDYzYWM0OTJiZTM5NDAxMTBhZjA2MzA0NjkzNGMzZDkwMWMwMTI3.jpg"
+      "image": "https://cdn.origo.hu/2026/11/Dlqva5_pIffdr1T8XANRJZLb30-0QT94jN4yudozhmk/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9lNGE0MmNkMzhiNWVmY2ZhNTkwZTlhYTFlNDYzYWM0OTJiZTM5NDAxMTBhZjA2MzA0NjkzNGMzZDkwMWMwMTI3.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
