@@ -254,3 +254,61 @@ A következő hivatalos kiadás tervezett ideje **2026-11-28 16:00**. A mentés 
 | Tőzsde | 0 |
 
 **Összesen 0 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+
+## 07:00
+
+Mérési időszak 2026-11-28 05:57:41–2026-11-28 07:00. Mentés indítása 07:00:08. Minden időpont budapesti idő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/ca7230aa3b75603db1a09e317368eef19d96e47d) · [Éles kiadás](https://github.com/ngynrbrt-prog/nanonews/blob/ca7230aa3b75603db1a09e317368eef19d96e47d/data/latest.json)
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Rovatba illő cikk talált képpel | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| HVG | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 1 |
+| Nemzeti Sport | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 2 |
+| NBAnews.hu | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 1 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Portfolio.hu | 1 | 0 | 0 | 0 | 0 | 0 | 0 | — | 3 |
+| Origo.hu | 2 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 3 | 0 | 0 | 0 | 0 | 0 | 0 | — | 7 |
+
+A határig el nem mentett feldolgozás állapota ismeretlen. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba sorolható jelöltnél.
+
+### A következő kiadás adatállapota
+
+A következő hivatalos kiadás tervezett ideje **2026-11-28 16:00**. A mentés előzetes állapota **0 rovatba illő cikk**, közülük **0** mindhárom stílussal és **0** Commons-képpel. A kiadásig frissebb mentés érkezhet. Az utolsó RSS-gyűjtés **06:16:36**, az RSS-forráscommit ideje **06:16:47**, a gyűjtés kora **43 perc 23 másodperc**.
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Arsenal | 0 |
+| Manchester City | 0 |
+| Bayern München | 0 |
+| Manchester United | 0 |
+| Como | 0 |
+| Premier League | 0 |
+| Bajnokok ligája | 0 |
+| F1 | 0 |
+| NBA | 0 |
+| NFL | 0 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Sportgazdaság | 0 |
+| Téli sportok | 0 |
+| Környezetvédelem | 0 |
+| Filmek | 0 |
+| Ingatlan | 0 |
+| Technológia / Fejlesztések | 0 |
+| Tenisz | 0 |
+| Belföldi parlament | 0 |
+| Belföld | 0 |
+| Külföld | 0 |
+| Belföldi tőzsde | 0 |
+| Külföldi tőzsde | 0 |
+| Tőzsde | 0 |
+
+**Összesen 0 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
