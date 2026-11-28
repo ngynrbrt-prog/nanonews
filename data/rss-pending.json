@@ -2417,7 +2417,11 @@
       "categories": [
         "darts"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/Sc92QqIFDmOFW450TpD1D5wDqYwqy7x6CUpilWfDd2M/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YyNzg2ZTE2NGU1NzQxM2JiMTAxMTg2ZGZlOWJlZTc4.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/Sc92QqIFDmOFW450TpD1D5wDqYwqy7x6CUpilWfDd2M/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YyNzg2ZTE2NGU1NzQxM2JiMTAxMTg2ZGZlOWJlZTc4.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
