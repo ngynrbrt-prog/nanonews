@@ -490,7 +490,7 @@
       "title": "MLS: Lionel Messiék számára befejeződött az idény – kiesett az Inter Miami",
       "link": "https://nemzetisport.hu/amerikai-sportok/2026/11/mls-lionel-messiek-szamara-befejezodott-az-ideny-kiesett-az-inter-miami",
       "categories": [],
-      "image": ""
+      "image": "https://cdn.nemzetisport.hu/2026/11/ixRKcqxDxrtCZukFvPILCzsWWApQiBklEz1KA1sB3rE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcwNjc2NzI4YWQ1MTQzZjg5ZGZmNzlhZDU3MzVkOWE0.webp"
     },
     {
       "source": "Nemzeti Sport",
@@ -621,7 +621,7 @@
     },
     {
       "source": "Portfolio.hu",
-      "published": "Sat, 28 Nov 2026 08:44:00 +0100",
+      "published": "Sat, 28 Nov 2026 10:07:00 +0100",
       "observed": "2026-11-28T09:27:43.391445+01:00",
       "title": "Tisza-kormány: haderőfejlesztési forrásokkal és költségvetési megtakarításokkal indul a szombat",
       "link": "https://www.portfolio.hu/gazdasag/20261128/tisza-kormany-haderofejlesztesi-forrasokkal-es-koltsegvetesi-megtakaritasokkal-indul-a-szombat-879832",
@@ -709,8 +709,193 @@
       "link": "https://www.origo.hu/eletmod/2026/11/forralt-bor-tortenete-eredete-recept",
       "categories": [],
       "image": "https://cdn.origo.hu/2026/11/TjtXxxvJ0j49cqqAxnzipmCHwiCHkBA19ym4HGCH21g/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi8xYjQ5YzNmOWYyMzZmYTUxOWU0ZGI3ZDg2NGM2ZjdhY2UwNjQwNDk0N2ZkMTgxZDFjODk5ZTk5YmQwZmRhMjhi.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 09:15:21 Z",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Egy nap 42 üzenet – tévés műsorvezetőt zaklatott éveken át egy 46 éves férfi",
+      "link": "https://hvg.hu/itthon/20261128_zaklatott-egy-teves-musorvezetot-46-eves-ferfi",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/43b7f92e-f689-408e-88bb-2ff5627054b5.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 09:04:14 Z",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "A Putyin okozta fenyegetéssel foglalkoznak ismét a nyugati lapok",
+      "link": "https://hvg.hu/360/20261128_a-putyin-okozta-fenyegetessel-foglalkoznak-ismet-a-nyugati-lapok",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/4f281b00-c95c-41e3-899d-eab036631912.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 09:03:00 Z",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Új telefonmárka jelent meg, és rögtön azt kérdezi: lehet kicsit szélesebb?",
+      "link": "https://hvg.hu/tudomany/20261128_huawei-osta-o1-pro-uj-okostelefon",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1631c1b9-0817-43e2-82c5-9e95a29d6dcd.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 08:50:11 Z",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Szinetár Miklós a köztévé M5 csatornájáról: bár megrontották a politikával, de nagyon jó műsorok is voltak",
+      "link": "https://hvg.hu/kultura/20261128_szinetar-miklos-kozmedia",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b3d354be-c8c1-484a-b609-6a6557a30d74.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 08:34:22 Z",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Kigyulladt egy lakás Budapest XIII. kerületében",
+      "link": "https://hvg.hu/itthon/20261128_kigyulladt-egy-lakas-budapest-xiii-keruleteben",
+      "categories": [],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fc5b2a26-8429-4ff3-a441-408a05054690.jpg"
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 08:30:00 Z",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Vasárnap végrehajthatja nagy térfoglalását a spanyol szélsőjobb – Orbánnal és Trumppal riogat szorult helyzetében Pedro Sánchez",
+      "link": "https://hvg.hu/360/20261128_hvg-spanyol-valasztas-kormanyvaltas-pedro-sanchez-psoe-pp-vox-inflacio-korrupcio",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/b5eabfd8-ca14-4d63-9b2f-8e079b8070ae.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Sat, 28 Nov 2026 09:12:54 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "NBA: a Spurs 20 pontos hátrányból nyert a Lakers ellen, és nyolc közé jutott a kupában",
+      "link": "https://nemzetisport.hu/amerikai-sportok/2026/11/nba-a-spurs-20-pontos-hatranybol-nyert-es-nyolc-koze-jutott-a-kupaban",
+      "categories": [
+        "nba"
+      ],
+      "image": "https://cdn.nemzetisport.hu/2026/11/ZclCIgZw8S8Qyb99P7dNCSrBvIopyhF6nHMVWXk5fYw/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2JjOTQwYzAxYmRkODQ1ZGY4NDk0ZjkxMGU2ZDE0Yjk5.webp"
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Sat, 28 Nov 2026 08:42:50 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Húszpontos előnyről esett ki a Lakers az NBA-kupából",
+      "link": "https://nbanews.hu/lakers-spurs-nba-kupa-kieses/",
+      "categories": [
+        "nba"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 10:01:27 +0100",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "HVG: Engedett a civil tiltakozásnak a kínai gyógyszergyártó, egyelőre nem épül tovább a gödöllői gyár",
+      "link": "https://444.hu/2026/11/28/hvg-engedett-a-civil-tiltakozasnak-a-kinai-gyogyszergyarto-egyelore-nem-epul-tovabb-a-godolloi-gyar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "foreign"
+      ],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 09:39:19 +0100",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Az utolsó hétvégére nagyjából már tényleg száraz lesz a november",
+      "link": "https://444.hu/2026/11/28/az-utolso-hetvegere-nagyjabol-mar-tenyleg-szaraz-lesz-a-november?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Sat, 28 Nov 2026 10:02:00 +0100",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Kiadták az előrejelzést: hószállingózást és erős széllökéseket is hozhat a nappali időjárás",
+      "link": "https://www.portfolio.hu/gazdasag/20261128/kiadtak-az-elorejelzest-hoszallingozast-es-eros-szellokeseket-is-hozhat-a-nappali-idojaras-879838",
+      "categories": [
+        "environment"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/h/o/_/ho-erdo-tel-fak-termeszet-hideg-osz-idojaras-noveny-fa-873592.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Sat, 28 Nov 2026 10:00:00 +0100",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Dől a pénz a biztosítókhoz, de egyre drágább a baj",
+      "link": "https://www.portfolio.hu/uzlet/20261128/dol-a-penz-a-biztositokhoz-de-egyre-dragabb-a-baj-878528",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-lg/a/_/b/a-bankok-huzhatjak-a-biztositokat-ha-egyszer-felulnek-a-digitalis-vonatra-309985.jpg"
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Sat, 28 Nov 2026 10:00:00 +0100",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Eurómilliókat spórolt volna, de végül kifizeti a kínai kivitelező a tengeri híd javítását Horvátországban",
+      "link": "https://www.portfolio.hu/gazdasag/20261128/euromilliokat-sporolt-volna-de-vegul-kifizeti-a-kinai-kivitelezo-a-tengeri-hid-javitasat-horvatorszagban-879836",
+      "categories": [],
+      "image": "https://pcdn.hu/articles/images-xl/p/e/l/peljesac-hid-horvatorszag-tenger-873590.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 09:15:06 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "„Vitézy nem menekülhet tovább a felelősség elől!” - a miniszter azonnali lemondását követeli a Fidesz",
+      "link": "https://www.origo.hu/belpol/2026/11/mezokovesdi-vonatbalesetrol-vitezy-david-lemondas",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/-RrTMVDVLRjLlT1T1X0KDOCef-hgUqjZrLU2DuXEPz0/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yOC9hNzBmMDJlZGNmNThmMWI4YzFlMGE0MTkwOTllZDJhZjEzZjk0Y2FkOTcxMjI5MjBhY2NhMDNhYjE0YmE0ZDhi.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 09:06:51 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Saját szavazói fordultak Nagy Ervin ellen, a Redditen követelik a felelősségre vonását",
+      "link": "https://www.origo.hu/belpol/2026/11/nagy-ervin-kulturalis-tamogatas-tisza-reddit",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/8J1YYxquXLQkUlC48IoW9rPDokqMO5tdMazTUstbKAA/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yOC8wYWJiM2E3ZWEwMjhhYzFhYzA0ZDdhODA1OTc3YjA0OTM5MjAxNzM5YzgxNTJkOGU3NzdmYmZkOGY1MWY3NTU4.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 09:00:00 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Ha csomagot vársz, erről feltétlenül tudnod kell: már a csomagkövetést is meghamisítják az internetes csalók",
+      "link": "https://www.origo.hu/techbazis/2026/11/internetes-csalas-black-friday-hamis-csomagkovetes",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/g6TCsJoXxNShKu6z8S7Be-iXvY6EGGPD3iIH0KTnE30/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8zODIxYmE0OTgyNDI5OGFhNGMxZGE1ZjE4YzkzNzJjYTc2NzExNzE4ZTNlZjc2NGU3OTBhZTE5MDA4NDgyZGQ4.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 08:54:55 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Döbbenetes látvány fogadta a mogyoródi biztonsági őrt, egy meztelen férfi randalírozására figyelt fel - Videó",
+      "link": "https://www.origo.hu/kek-hirek/2026/11/meztelen-ferfi-randalirozas-mogyorod",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/XOo_uEML8UQuU9uxm89yyt5vmncx6W3cqjDmFu8U6jM/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yMy8zM2U0MzBiMzc3M2QwNmM1ZjdmNDgwNzg1ZDBiNjMxY2VjZmVlZTQ5Njg2MzBlMjk3OWQ2MDkyN2ZlNGFjZGI3.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 08:45:00 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Feszült jelenet az NB I-ben: feldúltan viharzott el a kamerák elől az edző",
+      "link": "https://www.origo.hu/sport/sport-futball/2026/11/efrain-juarez-eto-fc-dvsc-nb-i",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/q7MY0_keLaqkulmyQOM1VPqItiXNnpopIpDoNAiFXRg/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNS80ZDE2NWJjODkxMjVmNzNjYWFhZTE3YWIxZTQwMTc3ZjMzOTgyOTE0NDMwNTM3OGUzMWQ4ZjE2ZTdkOGNjMjI0.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 08:30:00 +0000",
+      "observed": "2026-11-28T10:17:25.783800+01:00",
+      "title": "Nem kell már sokat várni: ekkor tér vissza a világ legszexibb férfija az HBO Max képernyőjére",
+      "link": "https://www.origo.hu/filmklub/2026/11/hbo-max-veszhelyzet-pittsburghben-3-evad-premier",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/vaEvtNayJ26BYBGyW0HeFk-YVPuszl1rE1aLxA-rV7A/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy83NDcwZWQ2M2M2NjEzZTcwZmM3MGVmZTYxZmMxNWY1YzQ4MDFlYWYxYTgzOTNiMGQ3ZDFlMDBiNGQ2ZTM5N2Uz.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-28T09:27:43.391445+01:00"
+  "lastRssCollection": "2026-11-28T10:17:25.783800+01:00"
 }
