@@ -1,6 +1,13 @@
 {
   "editions": [
     {
+      "file": "2026-11-28-0500.json",
+      "updatedAt": "2026-11-28T05:57:41.046277+01:00",
+      "count": 88,
+      "testEdition": false,
+      "issueNumber": 1
+    },
+    {
       "file": "2026-11-27-1600.json",
       "updatedAt": "2026-11-27T16:16:30.094119+01:00",
       "count": 141,
