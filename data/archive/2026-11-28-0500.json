@@ -507,9 +507,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/Sc92QqIFDmOFW450TpD1D5wDqYwqy7x6CUpilWfDd2M/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2YyNzg2ZTE2NGU1NzQxM2JiMTAxMTg2ZGZlOWJlZTc4.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "cf9230da2834694f62f61a558599763d372247263adb686dede053d8ed4daaaa",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A mineheadi Players Championship Finals dartsversenyen a 32 közé jutásért az első kiemelt holland Wessel Nijman 110.56-os körátlaggal 6–3-ra kikapott a 20 éves angol Henry Coatestól. A versenysorozat történetében még senki sem kapott ki ilyen magas átlaggal. A tornáról a világelső Luke Littler lemaradt, mert nem gyűjtött elég pontot a 64 közé kerüléshez, míg a többi mérkőzésen többek között Gerwyn Price és Ross Smith is búcsúzott."
+        },
+        "tolkien": {
+          "title": "A dárda vetésének csarnokában elbukott a legelső bajnok",
+          "body": "A darts viadalának szentélyében a sors könyörtelen keze nyomán az első kiemelt Wessel Nijman 110.56-os büszke átlaggal is alulmaradt a huszonéves Henry Coates rohamával szemben. E hősi küzdelem súlyos veszteseként a krónikák szerint még soha senki nem bűnhődött ekkora dicsfény övezte kudarccal. Míg a trónus várományosa, Luke Littler e porondra sem léphetett a gyűjtött babérok hiánya miatt, a viadal viharában Gerwyn Price és Ross Smith pajzsa is darabokra hullott."
+        },
+        "reito": {
+          "title": "Százórasztó átlag, nulla továbbjutás: így hullottak a darts sztárjai",
+          "body": "A mineheadi dartsversenyen az első kiemelt Wessel Nijman egy brutális, 110.56-os átlaggal is simán kiesett, miután a 20 éves Henry Coates 6–3-ra elintézte őt a 32 közé jutásért. Ezzel a mutatóval a hátuk mögött még senki sem bukott el a torna történetében, de a bravúr ezúttal a vesztesnek jutott. Miközben Luke Littler be sem jutott a hiányzó pontjai miatt, a Grand Slam-győztes Gerwyn Price és a remek formájú Ross Smith is rögtön búcsúzott a mezőnytől."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2190,8 +2203,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/k/r/a/krausz-873578.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ceb8538882d5c4af330f579d52752359611a013afb12ede2ad292f2e90f05995",
       "relatedStories": [
         {
           "source": "Portfolio.hu",
@@ -2272,7 +2285,20 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A Technológia és Fejlesztések rovatba tartozó hírek szerint a CMF-et fenntartó Élvonal Alapítványt 2026 augusztusának végén törölték a nyilvántartásból, tulajdonosi jogait a TTM vette át, míg a központ ügyvezetője és a lézertechnológiai kutatások irányítója Krausz Ferenc marad. A Belföld rovatot is érintő változások értelmében a korábbi közfeladat-finanszírozási szerződés legfeljebb év végéig marad érvényben, így a nyár óta befagyasztott, több mint 34 milliárd forint visszakerül a költségvetésbe, augusztustól decemberig pedig 7,6 milliárd forintot biztosítanak a működésre és a beruházás lezárására. Jövőre az állami finanszírozás várhatóan évi 4 milliárd forintra csökken, az ingatlanberuházás mélyépítési szakaszát még a CMF zárja le, a kivitelezést pedig a Közlekedési és Beruházási Minisztérium veszi át felsőoktatási célú hasznosításra. A finanszírozási bizonytalanságok miatt a biobankhoz szükséges vérmintagyűjtés átmenetileg szünetel, miközben az MTA bevonásával nemzetközi átvilágítást kezdeményeztek a központ tudományos értékének felmérésére."
+        },
+        "tolkien": {
+          "title": "A Tudomány Fényének Megfogyatkozása és a Várúr Váltása",
+          "body": "A Technológia és Fejlesztések birodalmában az Élvonal Alapítványt, mely a CMF bástyáját őrizte, 2026 augusztusának végén eltörölték a tekercsekből, tulajdonjogát pedig a TTM serege vette át, míg a lézerfények mestereként Krausz Ferenc maradt a kutatások kormányosa. A Belföld földjén elhatalmasodó változások vihara elragadta a nyár óta befagyasztott, több mint 34 milliárd aranyat, amely visszahullott a kincstár mélyére, míg augusztustól decemberig csupán 7,6 milliárd adatik a fenntartásra és a munkák lezárására. A jövő esztendejében az állami adomány évi 4 milliárdra apad, a kőfalak építésének mélyét még a CMF fejezi be, ám a csarnokokat a Közlekedési és Beruházási Minisztérium ragadja magához új, tudás templomaként való emelésre. A bizonytalanság sötét árnyéka miatt a biobank vérmintáinak gyűjtése elnémult, és a bölcsek tanácsa, az MTA által indított átvilágítás hivatott megmérni a tudás valódi súlyát."
+        },
+        "reito": {
+          "title": "Harmincnégy milliárd kiesett a kalapból, de Krausz Ferenc legalább maradt a kormánynál",
+          "body": "A Technológia és Fejlesztések frontján az Élvonal Alapítványt 2026 augusztusának végén egyszerűen törölték a nyilvántartásból, a tulajdonosi trónra pedig a TTM ült be, miközben a CMF élén Krausz Ferenc maradt a lézerfegyverek főnökeként. A Belföld pénztárcáját is alaposan átrendező manőverben a nyár óta hűvösre tett, több mint 34 milliárd forint visszavándorolt a költségvetésbe, augusztustól decemberig pedig összesen 7,6 milliárd jut a számlák befizetésére és a maradó feladatokra. Jövőre aztán az állami csapokat évi 4 milliárdra tekerik vissza, az építkezés mélyépítését még a CMF guberálja ki, a felmenő részeket meg a Közlekedési és Beruházási Minisztérium veszi át, hogy valamilyen felsőoktatási kollégiumot vagy intézményt faragjon belőle. A pénzhiány miatt a biobankos vérmintagyűjtés most pihenőt kapott, az MTA pedig nemzetközi bíróság elé rángatja a központot, hogy átvilágítsák, mit is ér ez az egész."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2284,8 +2310,8 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/6/2/5/6252b8c3-d49a-4926-8eb9-e5e780edf4c7-801166.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "27644833d7eb348b4d293d1ccc1083d80927f21a6a17ad8699ade1186a41c8a1",
       "relatedStories": [
         {
           "source": "HVG",
@@ -2318,7 +2344,20 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Volodimir Zelenszkij ukrán államfő a BBC-nek nyilatkozva nyíltan bírálta az Egyesült Államok hozzáállását és Donald Trump elnök egy olyan fotóját, amelyen az orosz elnököt átöleli, a gesztust Adolf Hitler korábbi barátságához hasonlítva, miközben Jared Kushner és Steve Witkoff megbízottak moszkvai irányultságú közvetítése, a Patriot légvédelmi rendszerek szállításának késleltetése, a Starlink és Starshield rendszerek megszállt területi korlátozása, valamint a ballisztikus rakéták hiánya súlyosbítja a civil áldozatokat követelő orosz rakéta- és dróntámadásokat. A diplomáciai feszültséget és a decemberben folytatódó tárgyalások kérdéses európai részvételét tovább növeli, hogy az ukrán erők a héten elsüllyesztették a kelet-líbiai partoknál horgonyzó Merkurij nevű orosz hadihajót olajfinomítói és hajó elleni csapásaik részeként, amit Giorgia Meloni olasz miniszterelnök csütörtökön a háború földközi-tengeri kiterjedésével fenyegető, elfogadhatatlan akciónak nevezett. A Külföld rovat kapcsolódási pontjai: a külföldi államfők, így Donald Trump, Volodimir Zelenszkij és Giorgia Meloni diplomáciai konfliktusai, az amerikai politikai és katonai támogatás alakulása, valamint az ukrán-orosz háború nemzetközi fejleményei."
+        },
+        "tolkien": {
+          "title": "A birodalmak árnyéka és a félrevert harangok vihara",
+          "body": "Volodimir, a messzi küzdő föld ura emelte szavát a BBC csarnokában, és éles vas-szóval kérte számon az amerikai hatalmasokat, amiért baráti ölelés fűzi őket az orosz cárhoz, mint rég a fekete időkben Adolf Hitler kegyeltjeihez. Miközben Kushner és Witkoff követei a keleti trónus felé hajlanak, s a Patriot pajzsok fémje késik, a csillagokból jövő Starlink rontás megköti az ukrán védők kezét a megszállott rögökön. A fagyos északi szelek hátán nap nap után zuhannak a sötét sárkányokként vijjogó Sahed drónok és a gyilkos ballisztikus nyilak a városokra, míg a déli vizeken, Líbia habjai között az ukrán fegyverek elsüllyesztették a Merkurij nevű orosz hadihajót, ellenben Giorgia Meloni olasz fejedelemasszony haraggal bélyegezte meg a tengeri csapást. A Külföld rovat kapcsolódási pontjai: az ukrán határokon túli hatalmak, így az Egyesült Államok és Oroszország diplomáciai és fegyveres harca, valamint a nemzetközi partnerek, köztük Olaszország vezetőinek részvétele a globális konfliktusban."
+        },
+        "reito": {
+          "title": "Hitleres hasonlatok a Fehér Ház árnyékában, avagy mikor a hadihajó búcsúzik a líbiai partoktól",
+          "body": "Volodimir Zelenszkij a BBC mikrofonja előtt rántotta le a leplet a washingtoni semlegességről, amikor Trump orosz elnököt átölelő fotóját egyenesen a Hitler-korszak barátságaihoz mérte, miközben Trump két megbízottja, Jared Kushner és Steve Witkoff éppen Putyint dicsérte a visszafogottságáért. A gyakorlatban ez úgy fest, hogy miközben a Patriot rendszerek szállításával késlekednek az amerikaiak, a Starshield korlátozása miatt az ukrán elfogódrónok tehetetlenül nézik a belső területek felé tartó Sahed drónokat, a ballisztikus rakéták hiánya pedig szabad utat ad a Dnyeper hídjait pusztító orosz erőknek. Válaszul Kijev nem szarozott: a héten a kelet-líbiai partoknál egyszerűen elsüllyesztették a Merkurij nevű orosz hadihajót, mire Giorgia Meloni olasz miniszterelnök csütörtökön azonnal felháborodott, hogy ez már túl közel van a Földközi-tengerhez a békéhez. A Külföld rovat kapcsolódási pontjai: Volodimir Zelenszkij, Donald Trump és Giorgia Meloni nemzetközi diplomáciai csatározásai, valamint a határokon átnyúló katonai műveletek és fegyverszállítási viták."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2330,9 +2369,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8680ed43a5adb7da68010bad580f555d1bbff70b585670b489af29b6f28bb2c5",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A labdarúgó NB I 15. fordulójában, november végén, 4792 néző előtt az ETO FC és a Debreceni VSC 2–2-es döntetlent játszott az ETO Stadionban, így mindkét csapat továbbnyújtotta veretlen sorozatát, míg sorozatban ez volt a hetedik egymás elleni bajnoki döntetlenjük. A győri gólszerző Luka Kulenovic volt a 33. és a 81."
+        },
+        "tolkien": {
+          "title": "A holt-tengeri fagy és a két trónus csatája",
+          "body": "A fagyos és kietlen győri mezőn, a zord téli szélben, 4792 lélek szeme láttára csapott össze a labdarúgás birodalmának első és második helyezettje, az ETO FC és a Debreceni VSC fegyveresei. A gigászi küzdelem végén 2–2-es döntetlen született, miután Luka Kulenovic kétszer is betalált a hazaiak oldaláról, a vendégeknél pedig Dzsudzsák Balázs tizenegyesből, valamint Kocsis Dominik mértani pontosságú lövésével büntetett. Ezzel az eredménnyel mindkét gárda dicsőségesen nyújtotta tovább veretlen sorozatát, és hetedik alkalommal osztozkodtak meg a felek a zsákmányon egy bajnoki csatában. A fagyos éjszakában aratott pontosztozkodás gyümölcsének leginkább a távoli trónusra törő üldözők, a Puskás Akadémia és a Ferencváros seregei örülhetnek."
+        },
+        "reito": {
+          "title": "Két bajnoki óriás randevúja a fagyban: döntetlen a hóban",
+          "body": "A győri stadion fagyos gyepén, 4792 didergő szurkoló gyűrűjében az ETO FC és a Debreceni VSC csapott össze a labdarúgó NB I 15. fordulójában, ahol végül 2–2-es békés osztozkodással zárult a csata. A vendégek hálóját kétszer is bemeszelő Luka Kulenovic, valamint a debreceni oldalon büntetőt értékesítő Dzsudzsák Balázs és Kocsis Dominik találatai biztosították, hogy a csapatok tovább nyújtsák veretlen szériájukat, megszerezve sorozatban a hetedik ikszet egymás ellen. A hideg idő és a feszült hangulat – beleértve a sárga lapokat és a videózásokat – sem tudta megváltoztatni a tényt, hogy a tabella első és második helyezettjének párbaja nyitott maradt."
+        }
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -2344,9 +2396,22 @@
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "8680ed43a5adb7da68010bad580f555d1bbff70b585670b489af29b6f28bb2c5",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A labdarúgó NB I 15. fordulójában az ETO FC és a Debreceni VSC 2–2-es döntetlent játszott az ETO Stadionban 4792 néző előtt, a mérkőzés gólszerzői Luka Kulenovic (33., 81.), valamint Dzsudzsák Balázs (39. – 11-esből) és Kocsis Dominik (54.) voltak. A találkozó következményeként a tabella első és második helyezettje egy-egy pontot szerzett, amellyel mindkét klub továbbnyújtotta veretlenségi sorozatát, így sorozatban ez volt a hetedik egymás elleni bajnoki döntetlenjük."
+        },
+        "tolkien": {
+          "title": "A Két Bajnok Csarnoka és a Hetedik Békesség Kelyhe",
+          "body": "A sors könyvébe íratott, hogy a Labdarúgó NB I tizenötödik állomásán az ETO FC és a Debreceni VSC serege feszült egymásnak az ETO Stadion szent gyepén, hol 4792 lélek kísérte figyelemmel a harcot Karakó Ferenc bíró szigorú tekintete alatt. A fagyos téli éjszakában Luka Kulenovic két alkalommal, valamint Dzsudzsák Balázs tizenegyesből és Kocsis Dominik találata révén hullottak a gólok, így a viadal végén mindkét csapat pecsétet ütött örök veretlenségi láncára, beírva e napot a hetedik iksz békés krónikájába. Eme csodás belföldi tusában Efraín Juárez és Gert Remmel vezéri paizsa mögött a hősök – köztük Leon Balogun és Huszár Marcell – nem engedték meg a győzelmet a riválisnak, s a megosztott zsákmány hírén leginkább a trónusra törő üldözők, a Puskás Akadémia és a Ferencváros örvendezhetnek."
+        },
+        "reito": {
+          "title": "Hólapát helyett tizenegyes: amikor a rangadó nem bír egymással",
+          "body": "A Labdarúgó NB I 15. fordulójában az ETO FC és a Debreceni VSC csapatai feszültek egymásnak az ETO Stadionban, ahol a 4792 fős publikum Karakó Ferenc sípszóra indított, fagyos péntek esti szeánszán végül 2–2-es döntetlen született. A pontosztozkodás harsány számláját Luka Kulenovic duplája, valamint Dzsudzsák Balázs büntetője és Kocsis Dominik elegáns tekerése állta, bebiztosítva ezzel, hogy a két belföldi éllovas zsinórban hetedszer is békésen osztozzon meg a bajnoki pontokon. A fűtött pályán Efraín Juárez és Gert Remmel legénysége – köztük a sárga lapok gyűjtésében is jeleskedő kispad, valamint a gólpasszig jutó Leon Balogun és Huszár Marcell – olyan kőkeményre fűtötte a hangulatot, hogy a maradék egy-egy pontnak leginkább a Puskás Akadémia és a Ferencváros örülhet a távolból."
+        }
+      }
     },
     {
       "source": "NBAnews.hu",
@@ -2358,8 +2423,8 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "ab272c5d21bdd7fd3c5ea702c9ba51a41b44ea60644f99491821830363846c29",
       "relatedStories": [
         {
           "source": "Nemzeti Sport",
@@ -2429,7 +2494,20 @@
           },
           "archiveDate": "2026. 11. 27."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "A magyar férfi kosárlabda-válogatott 88–81-re kikapott Svédországtól Stockholmban a 2027-es világbajnokság európai selejtezősorozatában, miután rendkívüli utazási nehézségek, csomagtévesztések és Nate Reuvers sérülése is nehezítette Gasper Okorn együttesének felkészülését. A vereséggel nehezebbé vált a világbajnoki kijutás, de a csapat hétfőn 18 órakor a szombathelyi Schaeffler Arena Savariában hazai pályán, Szlovénia ellen javíthat. A hatcsapatos csoportban kilenc mérkőzés után négy győzelemmel és öt vereséggel álló magyar válogatottban Somogyi Ádám 25-ös teljesítményindexszel és 20 ponttal volt a legjobb, míg a csoport élén álló Franciaország már biztosította helyét a katari világbajnokságon. A magyar csapatnak három mérkőzése van hátra a selejtezőben, amelyek közül a februári zárás előtt még Szlovéniát és Észtországot is szemben találja."
+        },
+        "tolkien": {
+          "title": "A Stockholm fagyos mezőin vívott csata és a hazai parázs ígérete",
+          "body": "A magyar férfi kosárlabda-válogatott fegyveresei hősies küzdelemben, 88–81 arányban maradtak alul Svédország földjén Stockholm viharos kapuinál a 2027-es világbajnokság európai viadalán, miután az időjárás ostroma és a csomagok elvesztésének átka is sújtotta a csapatot. A viharos utazások és a sebesült Nate Reuvers hiánya ellenére a seregek 14 pontos szakadékból is visszakapaszkodtak, ám a végítélet órájában két svéd nyílvesszőként érkező hárompontos pecsételte meg sorsukat. A hősöknek nincs ideje a gyászra, mert hétfőn délután hat órakor a szombathelyi Schaeffler Arena Savaria szent falai között Szlovénia elleni dicső visszavágás vár rájuk. Franciaország serege már átlépte a katari világbajnokság kapuját, de a magyar lobogó alatt harcolókra még három ütközet vár a dicsőségért."
+        },
+        "reito": {
+          "title": "Poggyászkrimi Stockholm útjain: a svédek hálójában, hétfőn pedig jön a szlovén számla",
+          "body": "A magyar férfi kosárlabda-válogatott 88–81-es vereséget szenvedett Svédországban Stockholmban a 2027-es világbajnokság selejtezőjében, miután a bécsi járat törlése, amszterdami zsákutcák, elveszett bőröndök és a sérült Nate Reuvers hiánya alaposan átrendezte a terveket. A mínusz tizennégyből feltámadó, Somogyi Ádám 20 pontjára építő csapat végül belefutott a svéd triplák gyilkos csapdájába, így kilenc meccs után négy-ötös mérleggel áll a tabellán. A sebek nyalogatására éppen csak annyi idő marad, hogy november 30-án, hétfőn 18 órakor a szombathelyi Schaeffler Arena Savariában Szlovénia ellen benyújtsák a számlát. Míg a franciák már lefotózkodtak a katari vb-jegyükkel, a mieinknek a fennmaradó három fordulóban kell kikaparniuk a gesztenyét."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -2441,9 +2519,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795806225-temp-rel978d4d9gp9ngjpea_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "84ef1048eb414c72667795277eef2a12be893618e5b8db4be96a14cd229751b2",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Volodimir Zelenszkij ukrán elnök a Kijevben a BBC-nek adott interjúban bírálta Donald Trump amerikai elnököt, amiért az barátjának nevezte a 2022-ben Ukrajnát lerohanó Vlagyimir Putyin orosz elnököt, miközben Patriot elfogórakétákat és hatékonyabb külföldi nyomást is kért az USA-tól a civil áldozatokat követelő orosz légitámadások ellen. A külföldi rovat eseményeihez kapcsolódóan az ukrán vezető az interjúban említette a 2025 februárjában a Fehér Házban történt veszekedést, Jared Kushner és Steve Witkoff amerikai különmegbízottak közvetítését, a SpaceX frontvonalban még mindig nem működő Starshield műholdas rendszerét, valamint a Merkury nevű orosz hajó líbiai kikötőben történt kilövését érő olasz miniszterelnöki kritikát is. A gyakorlatban ez azt jelenti, hogy Ukrajna az amerikai Patriot rakéták Közel-Keletre csoportosítása és a ballisztikus rakéták elleni eszközök hiánya miatt továbbra is nehezen tud védekezni a Kijevet és a Dnyeper hídjait sújtó, téli menekülést kiváltó folyamatos orosz légitámadások ellen. Az ukrán elnök szerint a semlegesség az agresszor támogatásával ér fel, és a Patriotok, valamint a frontvonali kommunikációt biztosító Starshield hiánya közvetlenül emberéletekbe kerül."
+        },
+        "tolkien": {
+          "title": "A szövetség árnyéka és a hiányzó égi paizsok",
+          "body": "Volodimir Zelenszkij ukrán elnök Kijev bástyájáról a BBC küldötteinek nyilatkozva emelte szavát a tengerentúli hatalom ura, Donald Trump ellen, amiért az barátságot mőtt a 2022-ben földjükre rontó Vlagyimir Putyin orosz uralkodóval, miközben a külföld viharos eseményei közepette Patriot rakétákért és igazságért kiáltott. Az idegen tájak krónikájához híven az ukrán vezér megidézte a Fehér Házban 2025 februárjában dúló viszályt, Jared Kushner és Steve Witkoff követek járását, a SpaceX fegyverkovácsainak lebegő Starshield hálóját, amely a frontvonal sötétjében némán hallgat, valamint a Merkury nevű orosz hajó líbiai kikötőben elért pusztulását is. E sötét órákban a gyakorlati csapás az, hogy amíg az égi paizsul szánt Patriotokat a távoli Közel-Kelet földjére hajózzák, az ukrán nép védtelen marad a fővárost és a Dnyeper hídjait emésztő, végtelen orosz tűzesőben. Az elhulló életek és a téli fagy elől menekülő lakosok sorsa pecsételi meg a földet, mert mint a krónika mondja, főváros nélkül nincs hazája a népnek."
+        },
+        "reito": {
+          "title": "Barátkozás Putyinnal és hiányzó Patriotok esete a Starshielddel",
+          "body": "Volodimir Zelenszkij ukrán elnök Kijevből a BBC mikrofonjába mondta ki nyersen, hogy igencsak bizarr dolognak tartja azt, amikor Donald Trump amerikai elnök barátjának nevezte a 2022-ben Ukrajnát lerohanó Vlagyimir Putyin orosz elnököt, mire válaszul azonnal Patriot rakétákat és határozottabb szövetségesi nyomást követelt. A nemzetközi színpad ezen felvonásában szóba került a 2025 februárjában a Fehér Házban lezajlott adok-kapok, Jared Kushner és Steve Witkoff békéltetési kísérletei, a SpaceX frontvonalban makacsul hallgató Starshield rendszere, meg Giorgia Meloni olasz miniszterelnök morgolódása is a Merkury nevű orosz hajó líbiai kikötőbeli elsüllyesztése miatt. A gyakorlati eredmény annyi, hogy miközben az USA a Patriot elfogórakétákat a Közel-Keletre irányítja, Ukrajna a ballisztikus rakétákkal szemben fegyverek híján maradt, így a Kijevet és a Dnyeper hídjait bombázó orosz légitámadások elől a lakosság kénytelen télen csomagolni és elmenekülni. Zelenszkij szerint ez a pingpongozás a SpaceX-szel és a semmisségbe bámuló szövetségesekkel konkrétan emberéletekbe kerül, de ők minden áron megvédik a fővárost, mert főváros nélkül bizony nem létezik ország sem."
+        }
+      }
     },
     {
       "source": "444.hu",
@@ -2456,9 +2547,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "c29b77a5dbea848382990a51553bbe45aabd78c69402231b53fffcdee44d31f1",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Hartung Attila által rendezett és Veres Attila által írt A pokol élővilága című film bemutatása során a kritika megállapítja, hogy a mű a Get Out, az Aki bújt, valamint az Itt érzem magam otthon stílusát és elemeit másolja, de saját identitás nélkül. Ez a gyakorlati következménye annak, hogy az alkotás a hazai belföldi filmes palettán inspiráció nélküli, fáradt utánzatként jelenik meg, amely vad stilisztikai megoldásokkal próbálkozik a siker helyett. A teljes terjedelmében csak előfizetők számára elérhető cikk kitér arra is, hogy az opusz alkotói korábban az Itt érzem magam otthont is jegyezték. A tartalom eléréséhez a Közösség vagy Belső kör csomag szükséges."
+        },
+        "tolkien": {
+          "title": "A pokol árnyai és a megidézett szörnyetegek",
+          "body": "A Hartung Attila rendezésében és Veres Attila tollából született A pokol élővilága cselekménye a szupergazdagok sötét kastélyainak és sátánista rituáléinak rémképét idézi meg, megcélozva a horror műfajának országát. E sötét művelet következményeként a film csupán egy Frankenstein-szörnyként kelt életre, amely az Itt érzem magam otthon és a Get Out darabjaiból épült fel, ám elfelejtett valódi lelket kapni. A belföldi filmtörténet ezen darabja vad stilisztikai villanásokkal próbál tündökölni, miközben magán viseli az Aki bújt és A menü nyomait is. A krónika teljes tekercséhez csupán a Belső kör vagy a Közösség hű előfizetői férhetnek hozzá a kapuk mögött."
+        },
+        "reito": {
+          "title": "Frankenstein a belföldi divatbemutatón",
+          "body": "A Hartung Attila rendezte és Veres Attila által jegyzett A pokol élővilága belföldi filmalkotás pont olyan, mint amikor valaki a gazdagok sátánista rituáléiról szóló kliséket összegányolja a Get Out és az Itt érzem magam otthon darabjaiból. Ennek a bátor maszatolásnak az lett a kézzelfogható eredménye, hogy a mű ahelyett, hogy magasabbra tenné a lécet, inkább az Aki bújt vagy a Hostel ihlette, fáradt és identitástalan Frankenstein-szörnyként fest, ami vad stilisztikai trükkökkel próbálja leplezni az élet hiányát. A teljes cikk elolvasásához persze be kell fizetni a büfébe, vagyis a Közösség vagy Belső kör csomag valamelyikébe."
+        }
+      }
     },
     {
       "source": "Telex",
@@ -2471,9 +2575,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795805592-temp-u5q0b23e84rb4jmjcgg_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "88dbf96688d3e17dc22ff7f4c52fc026d6f1d95a506f6204f2eed4d8c3574a83",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Baka András köztársasági elnök a legfőbb ügyész javaslatára 2026. december 7-ei hatállyal, határozatlan időre dr. Jagusztin Tamást a legfőbb ügyész helyettesévé nevezte ki a Magyar Közlönyben péntek este megjelent határozat szerint, ami érinti a belföldi legfőbb ügyészséget és az Országgyűlés által november 3-án megválasztott Fejes Péter legfőbb ügyészt is, akinek Jagusztin a helyettese lesz. Az új helyettes – aki eddig közjogi főügyészhelyettesként és a Pest Megyei Főügyészség Közérdekvédelmi Osztályának vezetőjeként dolgozott – Fejes Péter azonnali személyzeti és szervezeti intézkedéseket sürgető tervei közepette lép hivatalba. Jagusztin Tamás kinevezése mellett november 13-án Costopulos Orestis büntetőjogi legfőbbügyész-helyettesi kinevezése is megtörtént a belföldi igazságszolgáltatásban."
+        },
+        "tolkien": {
+          "title": "Az igazság új őrszemének virradata",
+          "body": "A legfőbb ügyész szavára Baka András köztársasági elnök pecsétje 2026. december 7-ei hatállyal, határozatlan időre dr. Jagusztin Tamást emelte a legfőbb ügyész helyettesének magas polcára, új irányt adva ezzel a belföldi legfőbb ügyészség bástyáinak és az Országgyűlés által november 3-án pajzsra emelt Fejes Péter legfőbb ügyész vezetésének. Az eddig a Pest Megyei Főügyészségen szolgáló, a jog tudományában is jártas Jagusztin lépdel elő, hogy Fejes Péter szigorú és drasztikus intézkedéseket sürgető szavai nyomán segítse a vádlók rendjét. Emellett a belföldi igazság ezen hatalmas csarnokában november 13-án Costopulos Orestis is büntetőjogi legfőbbügyész-helyettesi rangot kapott, hogy erősítse a törvény őreinek sorait."
+        },
+        "reito": {
+          "title": "Helyettes a pácban: Jagusztin Tamás befut a csúcsra",
+          "body": "Baka András köztársasági elnök péntek este a Magyar Közlönyben pecsételte meg a tényt, hogy a legfőbb ügyész javaslatára dr. Jagusztin Tamás 2026. december 7-étől határozatlan időre a legfőbb ügyész helyettese lesz, ami alaposan felkavarja a belföldi legfőbb ügyészség és a november 3-án az Országgyűlés által megválasztott Fejes Péter legfőbb ügyész mindennapjait. A Pest Megyei Főügyészségről érkező, díjazott disszertációt jegyző Jagusztin éppen akkor veszi át a stafétát, amikor Fejes Péter azonnali, drasztikus személyzeti és szervezeti átalakításokat, valamint karcsúsítást követel a rendszerben. Mialatt a belföldi igazságszolgáltatás terrein ez a helycsere zajlik, november 13-án már Costopulos Orestis is megkapta a maga büntetőjogi legfőbbügyész-helyettesi kinevezését."
+        }
+      }
     },
     {
       "source": "444.hu",
