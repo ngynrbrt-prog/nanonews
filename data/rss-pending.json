@@ -2548,8 +2548,65 @@
         "unavailable": true,
         "version": 4
       }
+    },
+    {
+      "source": "NBAnews.hu",
+      "published": "Sat, 28 Nov 2026 02:00:00 +0000",
+      "observed": "2026-11-28T03:24:55.648281+01:00",
+      "title": "San Antonio Spurs – Los Angeles Lakers élő",
+      "link": "https://nbanews.hu/san-antonio-spurs-los-angeles-lakers-elo/",
+      "categories": [
+        "nba"
+      ],
+      "image": ""
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Sat, 28 Nov 2026 01:31:45 +0000",
+      "observed": "2026-11-28T03:24:55.648281+01:00",
+      "title": "Sam Darnold visszatér, épp a szezon egyik legfontosabb meccsére",
+      "link": "https://fuzovelkifele.com/2026/11/sam-darnold-visszater-epp-a-szezon-egyik-legfontosabb-meccsere/?utm_source=rss&utm_medium=rss&utm_campaign=sam-darnold-visszater-epp-a-szezon-egyik-legfontosabb-meccsere",
+      "categories": [
+        "nfl",
+        "seahawks"
+      ],
+      "image": ""
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Sat, 28 Nov 2026 01:24:41 +0000",
+      "observed": "2026-11-28T03:24:55.648281+01:00",
+      "title": "Brock Purdy kidőlt, Mac Jones kezd a Seahawks elleni rangadón",
+      "link": "https://fuzovelkifele.com/2026/11/brock-purdy-kidolt-mac-jones-kezd-a-seahawks-elleni-rangadon/?utm_source=rss&utm_medium=rss&utm_campaign=brock-purdy-kidolt-mac-jones-kezd-a-seahawks-elleni-rangadon",
+      "categories": [
+        "nfl",
+        "seahawks"
+      ],
+      "image": ""
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Sat, 28 Nov 2026 01:20:04 +0000",
+      "observed": "2026-11-28T03:24:55.648281+01:00",
+      "title": "Justin Herbert nem játszik – Uiagalelei vs. DeVito csata vár ránk",
+      "link": "https://fuzovelkifele.com/2026/11/justin-herbert-nem-jatszik-uiagalelei-vs-devito-csata-var-rank/?utm_source=rss&utm_medium=rss&utm_campaign=justin-herbert-nem-jatszik-uiagalelei-vs-devito-csata-var-rank",
+      "categories": [
+        "nfl"
+      ],
+      "image": ""
+    },
+    {
+      "source": "Fűzővel kifelé!",
+      "published": "Sat, 28 Nov 2026 01:10:36 +0000",
+      "observed": "2026-11-28T03:24:55.648281+01:00",
+      "title": "Sérülésjelentés a 12. fordulóra",
+      "link": "https://fuzovelkifele.com/2026/11/serulesjelentes-a-12-fordulora-2/?utm_source=rss&utm_medium=rss&utm_campaign=serulesjelentes-a-12-fordulora-2",
+      "categories": [
+        "nfl"
+      ],
+      "image": ""
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-28T02:17:55.840609+01:00"
+  "lastRssCollection": "2026-11-28T03:24:55.648281+01:00"
 }
