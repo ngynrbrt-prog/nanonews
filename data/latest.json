@@ -2834,10 +2834,22 @@
       ],
       "image": "",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "a202ce8255e27d0b0ebdbeb0014bbed5423318e1dd0001853222bc8ba2737d3a",
       "relatedStories": [],
-      "variants": {}
+      "variants": {
+        "original": {
+          "body": "A Fox szakkommentátoraként dolgozó Tom Brady az NFL-ben érdekelt Philadelphia Eagles és a Dallas Cowboys hálaadásnapi összecsapásának végén, Jake Elliott 59 yardos, két másodperccel a mérkőzés vége előtt berúgott mezőnygóljánál és a vendégek 39–38-as győzelménél olyan magas hangú sikolyban tört ki élő adásban, amely pillanatok alatt bejárta a közösségi médiát. A meccs gyakorlati következményeként a 31–10-es hátrányból az utolsó játékrészben 22 pontot szerző Eagles sorozatban második győzelmével 4-7-re javította mérlegét. A harmadik negyed hajrájában még vezetést elszórakozó Cowboys 5–7-tel az NFC East harmadik helyére csúszott, így két és fél mérkőzésnyi hátrányban áll az éllovas New York Giantsszel és fél mérkőzésnyire a Washington Commandersszel szemben. A közvetítés során Brady a felzárkózás közben többször is Bazooka Joe-nak emlegette a philadelphiai irányítót, Joe Milton karerejét."
+        },
+        "tolkien": {
+          "title": "A Sasok harca és a Hétszeres Bajnök kiáltása",
+          "body": "A hírös NFL mezőin viaskodó Philadelphia Eagles és a Dallas Cowboys hálaadásnapi összecsapásán Tom Brady, a Fox krónikása és szakkommentátora tanúja lett a csodának, amikor a vendégek 39–38-ra elragadták a győzelmet. A harmadik sötét óra végén még 31–10-es sötét vereség árnyéka vetült a sasokra, ám az utolsó játékrész viharában 22 pontot zúdítottak az ellenfélre, végül pedig Jake Elliott 59 yardról repülő, sorsfordító mezőnygólja pecsételte meg a sorsot két árva másodperccel a harc vége előtt. E szent pillanatban a hétszeres Super Bowl-győztes ajkáról olyan magas, égi sikoly tört elő élő adásban, amely futótűzként égette végig a birodalom hírhedt közösségi hálóit. E diadal által az Eagles serege sorozatban második győzelmét aratva 4-7-re nemesítette mérlegét, míg a megsebzett Cowboys 5–7-tel az NFC East harmadik bástyájára zuhant, két és fél mérkőzésnyire a trónusát őrző New York Giantsszel és fél parányi mérkőzésnyire a Washington Commanders seregétől."
+        },
+        "reito": {
+          "title": "Hálaadás napi gólzápor és a kommentátor magas C-je",
+          "body": "Az NFL porondján a Philadelphia Eagles és a Dallas Cowboys hálaadásnapi csatájában a vendégek 39–38-ra húzták be a meccset, miközben a Fox szakkommentátorként dolgozó Tom Brady élő adásban produkált olyan magashangú sikolyt Jake Elliott 59 yardos, győzelmet érő mezőnygóljánál, ami azonnal vírusként robbant a neten. Ennek a bravúros, utolsó negyebeli 22 pontos feltámadásnak köszönhetően – amely során a 31–10-es hátrányból kerekedtek fel, és a meccset két másodperccel a vége előtt zárták le – az Eagles zsinórban a második győzelmével 4-7-re javított. A leforrázott Cowboys viszont 5–7-tel az NFC East harmadik helyére csúszott be, így most két és fél meccsel lemaradva az éllovas New York Giantstől és fél meccsel a Washington Commanderson innen vakarhatja a fejét. Brady egyébként a közvetítés alatt Bazooka Joe-nak is nevezte a philadelphiai irányítót, Joe Miltont a félelmetes karereje miatt, mielőtt a végjáték hanghatásaival teljesen átírta volna a tévénézés szabályait."
+        }
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -6905,9 +6917,22 @@
       ],
       "image": "https://pcdn.hu/articles/images-xl/e/3/a/e3a-sentry-katonai-repulogep-legiero-boeing-radar-repulogep-franciaorszag-repuloter-feld-873554.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "1cfc32c5a301af0b018831200b01e20643190bad444ba9c3585270f6e73f6144",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "Ma hajnalban súlyos dróntámadás érte Szentpétervárt és a Leningrád-régiót, az orosz védelmi minisztérium közlése szerint 55 ukrán drónt fogtak el. A külföldi eseményként jegyzett incidens során több épület felrobbant a városban, egy civilt kórházba szállítottak, emellett orosz források és Jurij Knutov szakértő szerint egy amerikai E-3 Sentry légtérellenőrző repülőgép is dolgozott a balti államok légterében. A gyakorlati következmény az, hogy orosz részről a NATO közvetlen beavatkozását, a drónok irányítását és a hírszerzési adatok továbbítását állítják, ami miatt robusztus választ és ellenlépéseket, például hirtelen manővereket vagy elektronikus harcászati rendszerek alkalmazását szorgalmazzák. A történtek rávilágítanak a nemzetközi feszültségek élesedésére, mivel a katonai vezetők a balti légtérben zajló műveleteket közvetlen ellenséges beavatkozásként értékelik."
+        },
+        "tolkien": {
+          "title": "A északi bástyák ostroma és az égi szemek árnyéka",
+          "body": "Ma hajnalban tüzes méhek raja – ötvenöt ukrán drón – csapott le Szentpétervár és a Leningrád-régió ősi földjére, amint azt az orosz védelmi minisztérium krónikája feljegyezte. A külföldi földön zajló háborús viharban kővárak robbantak fel, és egy halandó lakost sebhellyel kórházba hurcoltak. E sötét órában, miközben a fagyos északi égbolton egy amerikai E-3 Sentry nevű óriásmadár körözött, Jurij Knutov mester úgy vélekedett, hogy e szárnyas szerzet irányította a pusztító hadat és jelölte ki a célpontokat. A harcmező törvénye szerint ez a közvetlen beavatkozás arra indítja az orosz hadakat, hogy robusztus válasszal, zaklató manőverekkel és az éter megzavarásával törjék le az ellenséges felderítést."
+        },
+        "reito": {
+          "title": "Ötvenöt drón reggelije Szentpéterváron, azaz mikor a NATO is beszáll a buliba",
+          "body": "Ma hajnalban Szentpétervár és a Leningrád-régió lakói egy meglehetősen zajos ébresztőt kaptak, miután az orosz védelmi minisztérium jelentése szerint ötvenöt ukrán drón látogatott el a térségbe. A külföldi kalandok sorát gyarapító akcióban néhány épület röptében felrobbant, egy civilt pedig átmenetileg kórházba tereltek, miközben a balti államok felett egy amerikai E-3 Sentry nevű légtérellenőrző masírozott a magasban. A gyakorlatban ez azt jelentette, hogy Jurij Knutov szakértő azonnal leleplezte a szigorúan titkosnak hitt szövetséges segítséget, kinyilatkoztatva, hogy a NATO vezette a drónrajt a célpontok felé. A helyzet annyira elmérgesedett, hogy Knutov most hirtelen légköri manőverekkel megbolondított turbulenciát és elektronikus harcászati bevetést követel az orosz gépektől, hogy véget vessenek a szomszédos bújócskának."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -7058,9 +7083,22 @@
       ],
       "image": "https://assets.telex.hu/images/20261127/1795785933-temp-b5vienohs9341jegnjl_cimlap-normal.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "relatedStories": []
+      "contentBasis": "article",
+      "sourceHash": "2b1d9b65cc132084ad272b8058fdbbb89a169c36156806503bad298992e296e6",
+      "relatedStories": [],
+      "variants": {
+        "original": {
+          "body": "A Fővárosi Közgyűlés pénteki ülésén megszavazta a Karácsony Gergely főpolgármester által benyújtott csoportos létszámleépítést, amelynek értelmében 2027 márciusában 65 dolgozót küldhetnek el a Főpolgármesteri Hivataltól, és további 36 betöltetlen álláshelyet szüntetnek meg. A döntés következtében a főváros teljesítheti a kormány felé vállalt 20 milliárdos kiadáscsökkentést 2027-ben. A belföldi parlamenthez hasonló helyi törvényhozás színterén zajló ülésen a leépítésről szóló javaslatra a közgyűlés 15 tagja szavazott igennel és 2 nemmel, míg a belföldi közéletet érintő vitában a fideszes képviselők nem szavaztak, Déri Tibor és Szaniszló Sándor pedig nemmel voksolt. A Főpolgármesteri Hivatal főigazgatója, Kiss Ambrus jelezte, hogy a szakszervezetekkel megállapodtak egy, a leépítés érintettjeit segítő programról."
+        },
+        "tolkien": {
+          "title": "A Fővárosi Tanács csarnokában megpecsételődött a hatvanötök sorsa",
+          "body": "A Fővárosi Közgyűlés bástmái között a döntés súlyos kardcsapásként sújtott le, amikor a többség megszavazta, hogy 2027 márciusában 65 dolgozót űzzenek el a Főpolgármesteri Hivataltól, és 36 üresen tátongó álláshelyet töröljenek el a föld színéről. E sötét határozat ára az a 20 milliárdos adósságteher, melyet a kormányzati birodalom felé kell megfizetnie a fővárosnak a jövő évadban. A belföldi parlament tanácskozásait idéző helyi csarnokban a képviselők 15 igennel és 2 nemmel pecsételték meg a sorsot, míg a belföldi földek ügyeit intéző testületben Déri Tibor és Szaniszló Sándor végül nemmel felelt, a fideszesek pedig némák maradtak. Kiss Ambrus főigazgató szavai szerint a szakszervezetekkel kötött egyezmény pislákoló fáklyája nyújthat némi vigaszt a viharba taszított hivatalnokoknak."
+        },
+        "reito": {
+          "title": "Hatvanöt hivatalnok búcsúja: amikor a 20 milliárd forint írja a büdzsé útját",
+          "body": "A Fővárosi Közgyűlés pénteki szeánszán elegáns mozdulattal megszavazták, hogy 2027 márciusában 65 dolgozót lapátoljanak ki a Főpolgármesteri Hivataltól, miközben 36 üres álláshelyet is füstbe engednek. A nagyszabású sakkhúzás hátterében az áll, hogy a főváros így hozza tető alá a kormány felé beígért 20 milliárdos kiadáscsökkentést. A belföldi parlament hangulatát idéző teremben a belföldi ügyek felett vitázó képviselők közül 15-en mondtak igent, kettő pedig nemet, míg a fideszes frakció tagjai csendben szemlélték az eseményeket, Déri Tiborék pedig ígéretüket megszegve nemmel szavaztak. Kiss Ambrus főigazgató puskaporos hangulatban jelentette be, hogy a szakszervezetekkel legalább összehoztak egy mentőövként szolgáló segítő programot a leépítés áldozatainak."
+        }
+      }
     },
     {
       "source": "HVG",
@@ -7531,8 +7569,8 @@
       ],
       "image": "https://cdn.origo.hu/2026/11/XKRqQuR192rH0rBziVREH5f1DqKQOAnCVKB368uubD4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hMDAzN2VlMTg0NDRmMWIxYWViNzI5ODg0ZmEyNWYzYWFiYjYyZDcwZmU5MmM1MzA0MWU1OTNiOWRmY2EwM2M0.jpg",
       "summaryVersion": "short-v2.1-3-4",
-      "contentBasis": "title",
-      "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "contentBasis": "article",
+      "sourceHash": "499382fb4e3a287b4e7dc12e54c79419eef513cca515a77d1aa721e789f2b2b4",
       "relatedStories": [
         {
           "source": "Origo.hu",
@@ -7717,7 +7755,20 @@
           },
           "archiveDate": "2026. 11. 25."
         }
-      ]
+      ],
+      "variants": {
+        "original": {
+          "body": "Elutasította a Nemzeti Nyomozó Iroda (NNI) az Orbán Viktor volt miniszterelnök októberi kijelentése miatt tett feljelentést, mivel a hatóság megállapítása szerint az nem valósított meg bűncselekményt. A hazai belpolitikai életet érintő ügyben a Digitális Polgári Körök lakitelki táborában elhangzott szavak miatt indult vizsgálat végül lezárult, így a feljelentés alapján semmilyen jogi következmény vagy eljárás nem indul a volt kormányfővel szemben. A nyomozóhatóság pénteki tájékoztatása szerint a korábban feljelentéskiegészítés keretében vizsgált beadványt hivatalosan elutasították."
+        },
+        "tolkien": {
+          "title": "A lakitelki tábor szavai és a hatóság igazsága",
+          "body": "Elutasította a Nemzeti Nyomozó Iroda az Orbán Viktor volt miniszterelnök októberi kijelentése miatt született feljelentést, mivel a vizsgált beszéd nem valósított meg bűncselekményt. A hazai közélet viharait kavaró ügyben a Digitális Polgári Körök lakitelki gyűlésén elhangzott szavak után a rendőrség úgy határozott, hogy a beadvány nem von maga után további büntetőjogi következményeket. A feljelentéskiegészítés során átvizsgált mondatok miatt indult hivatalos eljárás ezzel lezárult, és a hatóság pénteki bejelentése szerint a papírok lekerültek a napirendről."
+        },
+        "reito": {
+          "title": "Fegyveres lázadás helyett csendes bürokrácia: elutasítva",
+          "body": "Elutasította a Nemzeti Nyomozó Iroda az Orbán Viktor volt miniszterelnök októberi kijelentése miatt benyújtott feljelentést, miután megállapították, hogy a szavak mögött nincs bűncselekmény. A hazai közélet porondján, a Digitális Polgári Körök lakitelki táborában elejtett megjegyzésekből így végül nem lett rendőrségi ügy, vagyis a feljelentők most simán hoppon maradtak. A hatóság pénteki közleménye szerint a korábban kötelező körként elvégzett feljelentéskiegészítés után az egész aktát hivatalosan lezárták."
+        }
+      }
     },
     {
       "source": "HVG",
