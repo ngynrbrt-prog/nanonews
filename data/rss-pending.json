@@ -2558,7 +2558,11 @@
       "categories": [
         "nba"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -2570,7 +2574,11 @@
         "nfl",
         "seahawks"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -2582,7 +2590,17 @@
         "nfl",
         "seahawks"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Brock_Purdy.jpg/960px-Brock_Purdy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "page": "https://commons.wikimedia.org/wiki/File:Brock_Purdy.jpg",
+        "author": "Jar-Lar",
+        "credit": "Own work",
+        "title": "Brock Purdy.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "version": 4
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -2593,7 +2611,11 @@
       "categories": [
         "nfl"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Fűzővel kifelé!",
@@ -2604,7 +2626,11 @@
       "categories": [
         "nfl"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
