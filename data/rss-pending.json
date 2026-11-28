@@ -59,8 +59,88 @@
         "unavailable": true,
         "version": 4
       }
+    },
+    {
+      "source": "HVG",
+      "published": "Sat, 28 Nov 2026 06:01:00 Z",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "Több ezer tonna veszélyes anyag feldolgozását tervezik, mégsem egyeztetett senki a gödöllői lakossággal az új kínai gyárról az utolsó pillanatig",
+      "link": "https://hvg.hu/360/20261128_hongene-kinai-gyogyszergyar-godollo-civil-tiltakozas-herbst-arpad",
+      "categories": [
+        "belfold"
+      ],
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/17ad1a7c-e675-4fd2-83b4-6a483d613e17.jpg"
+    },
+    {
+      "source": "Nemzeti Sport",
+      "published": "Sat, 28 Nov 2026 06:10:13 +0000",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "„A Ferencváros olyasmit játszik, ami szokatlan a mai európai futballban”",
+      "link": "https://nemzetisport.hu/europa-liga/2026/11/a-ferencvaros-olyasmit-jatszik-ami-szokatlan-a-mai-europai-futballban",
+      "categories": [],
+      "image": "https://cdn.nemzetisport.hu/2026/11/binlDtudR064Iy4vMj9t3TZ1nWk-Iw3lePTiFusB8RE/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzhhMmE1ZTJmN2Q4NjQwZThiMDU5MWJlZGYzOGQ0NDll.webp"
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 06:58:32 +0100",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "Egy katartikus könyv, amit mindenkinek el kell olvasnia, aki nem beszél ukránul",
+      "link": "https://444.hu/jo/2026/11/28/egy-katartikus-konyv-amit-mindenkinek-el-kell-olvasnia-aki-nem-beszel-ukranul?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [],
+      "image": ""
+    },
+    {
+      "source": "444.hu",
+      "published": "Sat, 28 Nov 2026 06:58:30 +0100",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "GFG még Orbánnál is nagyobb orbánista, de a saját propagandáját már ő sem vette be",
+      "link": "https://444.hu/2026/11/28/gfg-meg-orbannal-is-nagyobb-orbanista-de-a-sajat-propagandajat-mar-o-sem-vette-be?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+      "categories": [
+        "belfold"
+      ],
+      "image": ""
+    },
+    {
+      "source": "Portfolio.hu",
+      "published": "Sat, 28 Nov 2026 07:00:00 +0100",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "Fellélegezhet Európa: már látszik a fény az alagút végén, meg lehet törni a drága gáz uralmát",
+      "link": "https://www.portfolio.hu/gazdasag/20261128/fellelegezhet-europa-mar-latszik-a-feny-az-alagut-vegen-meg-lehet-torni-a-draga-gaz-uralmat-879120",
+      "categories": [
+        "foreign"
+      ],
+      "image": "https://pcdn.hu/articles/images-xl/g/a/s/gas-turbine-gas-power-plant-873330.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 06:00:00 +0000",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "Egy ingyenes háttérképeket kínáló alkalmazás titokban olvashatja és törölheti a leveleidet",
+      "link": "https://www.origo.hu/techbazis/2026/11/gmail-outlook-virus-adatlopas-ingyenes-hatterkep",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/VRKOZozbYv4_DX_FQtYF4d54G3LY__7i_bn4NXfS7AE/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9iNzA1Y2JiMTQ1ODgwZDBhMWRjMzY3MzU5YTI0YjgyZmI1NDkxMGU0YjNhZDU3NDY1MWE1ZDExODM4NzJhZjU1.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 05:45:00 +0000",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "Kiderült, mi lehet a hosszú élet titka – még az egészséges táplálkozásnál is fontosabb lehet",
+      "link": "https://www.origo.hu/eletmod/2026/11/hosszu-elet-titka",
+      "categories": [],
+      "image": "https://cdn.origo.hu/2026/11/sbGrEGdnMP01D6YdOsDeVGYu46JT8nv2mp_90hJKkCY/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNi9jNzhhYmUyNTQ4NWE5ZTJmMzJhMDA0ODhiMThlMzE2NTkxNDEzZTlmZTI0ZjdiMTJkMTE3ODBhZWY0NmMwM2Vm.jpg"
+    },
+    {
+      "source": "Origo.hu",
+      "published": "Sat, 28 Nov 2026 05:30:00 +0000",
+      "observed": "2026-11-28T07:14:01.618463+01:00",
+      "title": "Jön az újabb havazás? Ilyen idő vár ránk szombaton",
+      "link": "https://www.origo.hu/itthon/2026/11/szombati-idojaras-felhozet-csapadek",
+      "categories": [
+        "environment"
+      ],
+      "image": "https://cdn.origo.hu/2026/11/Jx3H8TxttnuISQm49aOT9ePwg5aW8C6TP1ce6yiUJOU/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9jZmE4OTRjNjYyZWEyMzgzYzlmM2EyZThjODRkNDIyNzZjNDczZDI0YmU2MDk2NjY5OWI2MTZiMTZhMzIwYmNi.jpg"
     }
   ],
   "lastOtherSourcesPreparation": "2026-11-24T12:11:11.116216+01:00",
-  "lastRssCollection": "2026-11-28T06:16:36.309282+01:00"
+  "lastRssCollection": "2026-11-28T07:14:01.618463+01:00"
 }
