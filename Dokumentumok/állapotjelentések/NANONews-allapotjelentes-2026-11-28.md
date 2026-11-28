@@ -370,3 +370,61 @@ A következő hivatalos kiadás tervezett ideje **2026-11-28 16:00**. A mentés 
 | Tőzsde | 0 |
 
 **Összesen 4 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
+
+## 09:00
+
+Mérési időszak 2026-11-28 05:57:41–2026-11-28 09:00. Mentés indítása 09:00:07. Minden időpont budapesti idő. [RSS-forráscommit](https://github.com/ngynrbrt-prog/nanonews/commit/277c473f9d573697de9160604ed009bf15509c33) · [Éles kiadás](https://github.com/ngynrbrt-prog/nanonews/blob/277c473f9d573697de9160604ed009bf15509c33/data/latest.json)
+
+| Forrás | Begyűjtött cikk | Rovatba illő cikk | Rovatba illő cikk talált képpel | Elkészült Eredeti | Elkészült Tolkien tollából | Elkészült Rejtő Jenő | Mindhárom elkészült | Mindhárom elkészült (%) | Éles kiadásban stílusra váró cikk |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Telex | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| HVG | 6 | 3 | 0 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Nemzeti Sport | 3 | 1 | 0 | 0 | 0 | 0 | 0 | 0,0% | 2 |
+| NBAnews.hu | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0,0% | 1 |
+| Fűzővel kifelé! | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| 444.hu | 6 | 2 | 0 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Portfolio.hu | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 0,0% | 3 |
+| Origo.hu | 11 | 3 | 1 | 0 | 0 | 0 | 0 | 0,0% | 0 |
+| Mafab | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| A Hetedik Sor Közepe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| BringaSport | 0 | 0 | 0 | 0 | 0 | 0 | 0 | — | 0 |
+| Összesen | 34 | 15 | 1 | 0 | 0 | 0 | 0 | 0,0% | 7 |
+
+A határig el nem mentett feldolgozás állapota ismeretlen. Hiányzó észlelési idő 0 rekordnál, igazolatlan megjelenési idő 0 rovatba sorolható jelöltnél.
+
+### A következő kiadás adatállapota
+
+A következő hivatalos kiadás tervezett ideje **2026-11-28 16:00**. A mentés előzetes állapota **15 rovatba illő cikk**, közülük **0** mindhárom stílussal és **1** Commons-képpel. A kiadásig frissebb mentés érkezhet. Az utolsó RSS-gyűjtés **08:27:52**, az RSS-forráscommit ideje **08:28:11**, a gyűjtés kora **32 perc 7 másodperc**.
+
+### Rovatok a következő kiadáshoz
+
+| Rovat | Besorolt cikkek |
+|---|---:|
+| Arsenal | 0 |
+| Manchester City | 0 |
+| Bayern München | 0 |
+| Manchester United | 0 |
+| Como | 0 |
+| Premier League | 0 |
+| Bajnokok ligája | 0 |
+| F1 | 0 |
+| NBA | 1 |
+| NFL | 0 |
+| Seattle Seahawks | 0 |
+| Kerékpár | 0 |
+| Darts | 0 |
+| Sportgazdaság | 0 |
+| Téli sportok | 1 |
+| Környezetvédelem | 2 |
+| Filmek | 1 |
+| Ingatlan | 0 |
+| Technológia / Fejlesztések | 0 |
+| Tenisz | 0 |
+| Belföldi parlament | 0 |
+| Belföld | 4 |
+| Külföld | 6 |
+| Belföldi tőzsde | 0 |
+| Külföldi tőzsde | 0 |
+| Tőzsde | 0 |
+
+**Összesen 15 egyedi besorolt cikk.** Egy cikk több rovatban is szerepelhet.
