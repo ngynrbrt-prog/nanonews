@@ -88,7 +88,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Telex",
@@ -208,7 +212,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -290,7 +298,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -409,7 +421,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -466,7 +482,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -563,7 +583,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -656,7 +680,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -734,7 +762,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -780,7 +812,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -858,7 +894,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -935,7 +975,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1013,7 +1057,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1089,7 +1137,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1110,10 +1162,73 @@
         "foreign"
       ],
       "image": "https://pcdn.hu/articles/images-xl/e/3/a/e3a-sentry-katonai-repulogep-legiero-boeing-radar-repulogep-franciaorszag-repuloter-feld-873554.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Szétbombázták az ukránok Szentpétervárt: az oroszok szerint titkos NATO-művelet állt a háttérben",
+        "url": "https://www.portfolio.hu/global/20261127/szetbombaztak-az-ukranok-szentpetervart-az-oroszok-szerint-titkos-nato-muvelet-allt-a-hatterben-879764",
+        "published": "Fri, 27 Nov 2026 16:18:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/e/3/a/e3a-sentry-katonai-repulogep-legiero-boeing-radar-repulogep-franciaorszag-repuloter-feld-873554.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://voennoedelo.com/en/posts/id22758-nato-aircraft-spotted-near-russia-why-the-timing-raises-questions",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global/20261127/menekulnek-az-orosz-hajok-hiaba-vannak-tobb-ezer-kilometerre-az-ukran-fronttol-879804",
+          "https://www.portfolio.hu/cimke/drón",
+          "https://www.portfolio.hu/cimke/NATO",
+          "https://www.portfolio.hu/cimke/szentpétervár",
+          "https://www.portfolio.hu/cimke/balti államok",
+          "https://www.portfolio.hu/cimke/dróntámadás",
+          "https://www.portfolio.hu/cimke/elektronikus harcászat",
+          "https://www.portfolio.hu/cimke/drónraj",
+          "https://www.portfolio.hu/cimke/orosz-ukrán háború",
+          "https://www.portfolio.hu/cimke/orosz védelmi minisztérium",
+          "https://www.portfolio.hu/cimke/AWACS",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "17ee80bc3bd0cd8f0b625eb6681648e63f74804251072129eb585cc3cf7a28c0",
+        "variants": {
+          "original": {
+            "body": "Ma hajnalban súlyos dróntámadás érte Szentpétervárat és a Leningrád-régiót, miután az orosz védelmi minisztérium tájékoztatása szerint 55 ukrán drónt fogtak el. A külföldi eseményeket érintő incidens során több épület felrobbant a városban, egy civilt pedig kórházba szállítottak. Orosz források és Jurij Knutov szakértő szerint a támadás idején a balti államok légterében dolgozó amerikai E-3 Sentry légtérellenőrző repülőgép irányította a drónokat és továbbított hírszerzési adatokat. A külföldi helyszínre vonatkozó fejlemények részeként Knutov robusztus választ sürget, valamint hirtelen manővereket és elektronikus harcászati rendszerek alkalmazását javasolja a NATO felderítésének megzavarására."
+          },
+          "tolkien": {
+            "title": "A északi égbolt vihara és a gép-sereg ostroma",
+            "body": "Ma hajnalban tüzes szárnyú, nemesnek nem mondható drónok serege zúdult Szentpétervár és a Leningrád-régió földjére, miközben a védelmezők 55 rontó gépezetet füstöltek el a magasban. A külföldi tájakon játszódó csatában kőfalak omoltak le és épületek robbantak fel, egy halandó lakost pedig sebesülten ragadtak el a gyógyítók sátraiba. A messzi balti égbolton eközben egy amerikai E-3 Sentry nevű fémvaskeselyű körözött, amely az orosz krónikások és Jurij Knutov bölcs hadfi szerint láthatatlan szállak mozgatójaként irányította a pusztító drónrajt. E sötét árnyék miatt a szakértő robusztus bosszút és a viharok nemes urához méltó, hirtelen manőverekkel tűzdelt fellelki zavarást követel a fellegek útját álló idegen erők ellen."
+          },
+          "reito": {
+            "title": "Hajnali dróneső és a balti légtér éber felügyelői",
+            "body": "Ma hajnalban 55 ukrán drón látogatott el Szentpétervárra és a Leningrád-régióra, ahol az orosz légvédelem nagy örömmel le is kapkodta őket a magasból, mint érett almát a fáról. A külföldi akció során nem maradt el a tüzijáték sem: több épület felrobbant, egy civilt pedig azonnal áttessékeltek a kórház meleg ágyába. Orosz források szerint a balti államok felett osonó amerikai E-3 Sentry légtérellenőrző repülőgép dirigálta a balhét, legalábbis Jurij Knutov szakértő nagy mérgesen ezt vizionálta össze a Moszkovszkij Komszomolec hasábjain. Knutov erre a NATO-közeli kisegítő műveletre válaszul hirtelen manőverekkel kavart turbulenciát és elektronikus harcászati szupertitkos fegyvereket vizionál, bár a robusztus válasz pontos receptjét egyelőre nagylelkűen magánál tartotta."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -1217,7 +1332,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -1229,10 +1348,36 @@
         "belfold"
       ],
       "image": "https://cdn.origo.hu/2026/11/XKRqQuR192rH0rBziVREH5f1DqKQOAnCVKB368uubD4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hMDAzN2VlMTg0NDRmMWIxYWViNzI5ODg0ZmEyNWYzYWFiYjYyZDcwZmU5MmM1MzA0MWU1OTNiOWRmY2EwM2M0.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Döntött a rendőrség az Orbán Viktor kijelentése miatt tett feljelentés ügyében",
+        "url": "https://www.origo.hu/belpol/2026/11/orban-viktor-rendorseg-feljelentes",
+        "published": "Fri, 27 Nov 2026 15:12:10 +0000",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/XKRqQuR192rH0rBziVREH5f1DqKQOAnCVKB368uubD4/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy9hMDAzN2VlMTg0NDRmMWIxYWViNzI5ODg0ZmEyNWYzYWFiYjYyZDcwZmU5MmM1MzA0MWU1OTNiOWRmY2EwM2M0.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.origo.hu/cimke/orban-viktor"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "499382fb4e3a287b4e7dc12e54c79419eef513cca515a77d1aa721e789f2b2b4",
+        "variants": {
+          "original": {
+            "body": "Elutasította a Nemzeti Nyomozó Iroda (NNI) pénteken az Orbán Viktor volt miniszterelnök ellen tett feljelentést, amely a Digitális Polgári Körök októberi lakitelki táborában elhangzott kijelentése miatt érkezett. A hatóság indoklása szerint a beadványban szereplő nyilatkozat nem valósított meg bűncselekményt. A belföldi közéletet és a hazai politikai szereplőket érintő ügyben a rendőrség korábban feljelentéskiegészítés keretében vizsgálta a megjegyzést, miután Magyar Péter állami ellen bűncselekménynek nevezte a volt kormányfő szavait. Az elutasítással a nyomozó hatóság lezárta az ügyet, így a miniszterelnök októberi pódiumbeszélgetése miatt nem indul büntetőeljárás."
+          },
+          "tolkien": {
+            "title": "A lakitelki tábor árnyai és a nyomozók igazsága",
+            "body": "A Nemzeti Nyomozó Iroda ítéletet hirdetett pénteken az Orbán Viktor volt miniszterelnök szavai nyomán emelt vád ügyében, amely a Digitális Polgári Körök lakitelki gyűlésén hangzott el. A belföldi hatalom és a hazai politikai rend bástyarácsai között a hatóság pecsétje érvénytelenítette a feljelentést, mert az nem hordozott magában bűntettet. Midőn Magyar Péter még fegyveres lázadás sötét viharáról beszélt a miniszterelnök nevetése nyomán, a rend éber őrei feljelentéskiegészítés rúnáival vizsgálták a beadványt. Végül a fegyverekre és eszközökre tett homályos célzások ügye lezáratott, s a törvény kardja ezen a napon a vádlók ellen fordult."
+          },
+          "reito": {
+            "title": "Fegyverosztás helyett papírkosár: az NNI lezárta a miniszterelnöki ügyet",
+            "body": "A Nemzeti Nyomozó Iroda pénteken elegáns mozdulattal söpörte le az asztalról az Orbán Viktor ellen érkezett feljelentést, miután megállapította, hogy a volt miniszterelnök októberi lakitelki nyilatkozata bűncselekmény híján semmit sem ér. A belföldi politikai porondon kitört viharban a Digitális Polgári Körök pódiumbeszélgetésén elejtett, élesebb és tompább eszközökről szóló mondatok még Magyar Péterből is fegyveres lázadás vádját hozták ki. A rendőrség azonban hosszas, feljelentéskiegészítésnek nevezett fejtörés után arra jutott, hogy nevetgélésért még nem osztanak börtöncellát. Így aztán a sokat emlegetett eszközök a helyükön maradtak, a hatóság pedig lakatot tett a dossziéra."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -1353,7 +1498,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -1427,7 +1576,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1475,7 +1628,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -1550,7 +1707,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1589,7 +1750,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -1628,7 +1793,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1762,7 +1931,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1852,7 +2025,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -1930,7 +2107,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2007,7 +2188,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2084,7 +2269,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2162,7 +2351,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2241,7 +2434,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2427,7 +2624,11 @@
           }
         }
       },
-      "preparedVividStyles": true
+      "preparedVividStyles": true,
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -2457,10 +2658,71 @@
         "belfold"
       ],
       "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2275623941-nagy-istvn-agrrminiszter-miniszter-politikus-kormny-magyarorszg-orsz-828646-n-829270.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Megtiltaná a miniszter a magyar föld kincseinek kiaknázását",
+        "url": "https://www.portfolio.hu/gazdasag/20261127/megtiltana-a-miniszter-a-magyar-fold-kincseinek-kiaknazasat-879776",
+        "published": "Fri, 27 Nov 2026 16:58:00 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-2275623941-nagy-istvn-agrrminiszter-miniszter-politikus-kormny-magyarorszg-orsz-828646-n-829270.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/cimke/zöld világ",
+          "https://www.portfolio.hu/cimke/földrengés",
+          "https://www.portfolio.hu/cimke/légszennyezés",
+          "https://www.portfolio.hu/cimke/kutatás",
+          "https://www.portfolio.hu/cimke/gáz",
+          "https://www.portfolio.hu/cimke/környezetvédelem",
+          "https://www.portfolio.hu/cimke/energetika",
+          "https://www.portfolio.hu/cimke/kitermelés",
+          "https://www.portfolio.hu/cimke/moratórium",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "727f8f0b23115c18e5a92d378d8c8c36806fd522835f79a5cc1d7788caccba02",
+        "variants": {
+          "original": {
+            "body": "Gajdos László kezdeményezésére levelet írt Kapitány István miniszternek a palagáz-kutatás és -kitermelés hazai gyakorlatának felülvizsgálatáról, valamint egy országos moratórium bevezetéséről a megfelelő környezetvédelmi garanciák megszerzéséig. A Magyar Természetvédők Szövetsége (MTVSZ) és a környezetvédelmi miniszter szintén sürgeti a gazdasági minisztert, hogy rendeljen el országos moratóriumot a nem-hagyományos szénhidrogének kutatására és kitermelésére. Az MTVSZ emlékeztetett arra, hogy 2025 őszén létrehozták a közel 60 civil szervezetet tömörítő Stop palagáz! kezdeményezést, és ezen a héten ismét levélben fordultak a kormányzathoz az ügyben."
+          },
+          "tolkien": {
+            "title": "A mélyből törő méreg ellen: Pajzsot a föld méhének!",
+            "body": "Gajdos László mélységes aggodalommal adta hírül, hogy a Magyarországon eddig tiltott rétegrepesztéses gázkitermelés sötét árnyat vet a hazai tájakra, veszélyeztetve a vizek tisztaságát és földrengések poklát szabadítva szabad ég alá. E vészterhes időkben a Magyar Természetvédők Szövetsége és a közel hatvan civil nemzetséget számláló Stop palagáz! szövetség is hallatta szavát, sürgetve Kapitány István minisztert, hogy emeljen vaskos pajzsot az ország határai felett. A belföldi védelem terhét viselve követelik, hogy amíg a természet szentsége meg nem kapja a várt garanciákat, azonnali országos tilalom szüntesse meg a mély kincseinek kifosztását."
+          },
+          "reito": {
+            "title": "Palagáz a pácban: amikor a miniszternek kell elzárnia a csapot",
+            "body": "Gajdos László tollat ragadott, hogy Kapitány István miniszter úr fülébe súgja: a rétegrepesztéses gázkitermelés nem éppen egy békés kerti parti, hanem egyenesen vízszennyezéssel, légszennyezéssel és földrengésekkel fenyegető manőver. Erre aztán a Magyar Természetvédők Szövetsége és a mintegy hatvan civil szervezetből verbuválódott Stop palagáz! csapat is gyorsan ráharapott, és a héten már hivatalosan is a kormány ajtaján dörömböltek a moratóriumért. A belföldi frontvonalon így most mindenki azt várja a gazdasági minisztertől, hogy amíg egyetlen épkézláb környezetvédelmi garancia sincs a láthatáron, húzza be a kéziféket a nem-hagyományos szénhidrogének kutatása és kitermelése körül."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -2649,10 +2911,65 @@
         "belfold"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "HVG",
+        "title": "RTL: A Nemzeti Pedagógus Kar elnöke a sajtóból tudta meg, hogy idén megszűnhet a szervezet",
+        "url": "https://hvg.hu/itthon/20261127_nemzeti-pedagogus-kar-megszunes-torvenyjavaslat",
+        "published": "Fri, 27 Nov 2026 18:46:47 Z",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/ed80cf7a-f026-4eb4-8586-6492f13671d2.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://hvg.hu/itthon/20261124_oktatas-megujitasat-szolgalo-javaslatcsomag-benyujtasa",
+          "https://hvg.hu/itthon/20140418_Nem_lehet_kilepni_a_Nemzeti_Pedagoguskarb",
+          "https://hvg.hu/itthon/20130626_Ma_megszavazhatjak_a_Margitszigeti_einsta",
+          "https://rtl.hu/hirado/2026/11/27/meg-iden-megszunhet-a-nemzeti-pedagogus-kar-az-elnoke-ezt-csak-a-sajtobol-tudta-meg",
+          "https://hvg.hu/kultura/20260609_horvath-peter-egy-evre-meg-megpalyaztam-a-nemzeti-pedagogus-kar-elnoki-poziciojat",
+          "https://hvg.hu/itthon/20261006_tavozik-posztjarol-a-nemzeti-pedagogus-kar-elnoke",
+          "https://hvg.hu/360/20261127_hvg-louis-ck-amerikai-komikus-magyar-gyokerek-me-too",
+          "https://hvg.hu/gazdasag/20261127_s-p-2026-november-minosites-hitelminosites-negativ-stabil-bovli-ertekeles-ebx",
+          "https://hvg.hu/itthon/20261127_meghalt-a-mezokovesdi-vonatbaleset-serultje",
+          "https://hvg.hu/itthon/20261127_republikon-intezet-novemberi-partpreferencia-tisza-fidesz",
+          "https://hvg.hu/sport/20261127_schafer-andras-orban-viktor-politika-magyar-foci-sport-partizan",
+          "https://hvg.hu/360/20261127_pete-hegseth-vedelmi-miniszter-usa-biztonsagpolitika-alkotmanyos-vademeles-hvg",
+          "https://hvg.hu/itthon/20261127_rakay-philip-diplomata-utlevel-szijjarto-peter",
+          "https://hvg.hu/360/20261127_hvg-szent-laszlo-ereklye-mezokovesd-archeogenetika",
+          "https://hvg.hu/360/20261127_ai8-turbine-gyogyszerfejlesztes-szalay-kristof-interju",
+          "https://hvg.hu/vilag/20261127_orosz-kulonleges-erok-halalozas-statisztika",
+          "https://hvg.hu/itthon/20261127_baka-andras-kinevezte-a-legfobb-ugyesz-helyetteset",
+          "https://hvg.hu/itthon/20261127_varosliget-zrt-tisza-part-orban-arpad-istvan",
+          "https://pulzus.hvg.hu/pszichologia/20261127_idegenekkel-beszelgetes-small-talk-miert-jo-hogyan-csinaljuk",
+          "https://pulzus.hvg.hu/egeszseg/20261127_elhizas-egeszsegugyi-kockazatai-hasi-zsir-gyermekkori-tulsuly",
+          "https://hvg.hu/itthon/20261127_budapest-fovarosi-kozgyules-november-fopolgarmesteri-hivatal-letszamleepites-szavazas",
+          "https://hvg.hu/elet/20261127_goroghne-bocskai-eva-tisza-frakcio-parlament-siras-politikus",
+          "https://hvg.hu/itthon/20261127_nemzeti-pedagogus-kar-megszunes-torvenyjavaslat",
+          "https://hvg.hu/gazdasag/20261127_azbesztszennyezes-palyazat-elutasitas-zalaegerszeg-kornyezetszennyezes-egeszsegugyi-kockazat",
+          "https://hvg.hu/itthon/20261127_balaton-part-siofok-setany-kerites-bontas",
+          "https://hvg.hu/360/20261124_a-fidesz-beagyazottsaga-egyszerre-rendult-meg-minden-tarsadalmi-retegben",
+          "https://hvg.hu/360/20261126_hamvay-peter-most-mulik-pontosan-fulszoveg-lapajanlo",
+          "https://hvg.hu/360/20261125_para-kovacs-imre-bunos-viszony-semjen-zsolt-velemeny",
+          "https://hvg.hu/360/20261126_network4-media-borsany-gyenes-andras-interju"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "f918152a8eb8208f7a699c7750a43e61cae13007f33ba519a1ed63a1376e53b6",
+        "variants": {
+          "original": {
+            "body": "Kedden nyújtotta be a kormány az oktatás megújításáról szóló törvényjavaslatot, amely január 1-jével megszüntetné az állami fenntartású iskolák pedagógusait automatikusan, kötelezően tömörítő Nemzeti Pedagógus Kart, és az elnökök, Horváth Péter, valamint Rázsi Botond Miklós is a sajtóból értesültek erről. A gyakorlati következmény az, hogy a jövőben a szervezet működésére eddig biztosított évi 150 millió forintot pályázati úton osztják szét szakmai szervezetek között. A 2013-ban az Orbán-kormány által létrehozott testületet a PDSZ és más szervezetek kedden petícióval is követelték megszüntetni, az oktatási miniszter pedig a kötelező tagságot törölné el, míg az Oktatási és Gyermekügyi Minisztérium szerint a pedagógusoknak kell eldönteniük, hová tartoznak, nem vitatva a kar eddigi munkáját. Ezzel a lépéssel a belföldi parlament elé került javaslat átalakítja a szakmai képviseletet, közvetlenül érintve az országos szintű oktatásirányítást és a pedagógustársadalmat."
+          },
+          "tolkien": {
+            "title": "A kötelező rend alkonya: Hírek a vaskalapos törvények csarnokából",
+            "body": "Íme, a keddi napon a hatalom trónján ülők elé tárák az oktatás megújításának tekercsét, mely január első napjával eltörölné a kötelező tagságú Nemzeti Pedagógus Kart, amiről a testület vezetői, Horváth Péter és Rázsi Botond Miklós csupán a hírvivőktől értesültek. E sorsfordító ítélet nyomán a szervezet fenntartására rendelt évi 150 millió aranyat a jövőben viadalhoz hasonló pályázatok útján szórják szét a szakmai céhek között. A 2013-ban a Fidesz urai által emelt palota falai most megrendültek, miután a PDSZ petícióval ostromolta a kapukat, bár a miniszter úr csupán a láncokat, azaz a kötelező igát akarta lefejteni, míg az oktatásügy minisztériuma elismerte a múltban végzett fáradtságos munkát. E törvényhozási vihar a belföldi parlament magas kőcsarnokaiban dörög, miközben a hazai oktatás földjén szolgáló tanárek serege szembesül a változás szelével."
+          },
+          "reito": {
+            "title": "Miniszteri vakrandi: a kötelező kamarásdi hirtelen végnapjai",
+            "body": "A kormány kedden benyújtotta az oktatási törvényjavaslatát, amely január 1-jével elsöpörné az állami iskolák tanárait automatikusan összefogó Nemzeti Pedagógus Kart, miközben a szervezet elnökei, Horváth Péter és Rázsi Botond Miklós a sajtóból bámulhatták meg a saját jövőjüket. A gyakorlatban ez azt jelenti, hogy a kar eddigi évi 150 milliós pénzcsapját elzárják, és azt a büdzsét majd pályázati úton szórják szét a szakmai bandák között. A 2013-ban alapított testületet a PDSZ kedden még petícióval is ágyúzta, az oktatási miniszter pedig inkább csak a kötelező tagságot fűrészelné le, a minisztérium szerint meg hagyják a tanárokat szabadon kapkodni a szervezetek után. Ez a felemás belföldi parlament által tárgyalt manőver olyannyira váratlanul érte az érintetteket, hogy az elnökök a tárca ajtaján is csak jövőre kopogtathattak volna."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -2673,10 +2990,61 @@
         "foreign"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f3e857e-2745-40c1-a3f0-7ae7045b9923.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "HVG",
+        "title": "Az orosz különleges műveleti erők 87 tagja halt meg a háború kitörése óta, zömében tisztek",
+        "url": "https://hvg.hu/vilag/20261127_orosz-kulonleges-erok-halalozas-statisztika",
+        "published": "Fri, 27 Nov 2026 18:08:08 Z",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/1f3e857e-2745-40c1-a3f0-7ae7045b9923.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://istories.media/stories/2026/11/26/neopravdannoe-rastochitelstvo/",
+          "https://hvg.hu/360/20261116_ukrajna-haboru-oroszorszag-halottak-szama",
+          "https://hvg.hu/vilag/20261124_egy-katonai-ezrednyi-ferfi-lett-ongyilkos-az-orosz-fronton-a-haboru-kezdete-ota",
+          "https://hvg.hu/360/20261127_hvg-louis-ck-amerikai-komikus-magyar-gyokerek-me-too",
+          "https://hvg.hu/gazdasag/20261127_s-p-2026-november-minosites-hitelminosites-negativ-stabil-bovli-ertekeles-ebx",
+          "https://hvg.hu/itthon/20261127_meghalt-a-mezokovesdi-vonatbaleset-serultje",
+          "https://hvg.hu/itthon/20261127_republikon-intezet-novemberi-partpreferencia-tisza-fidesz",
+          "https://hvg.hu/sport/20261127_schafer-andras-orban-viktor-politika-magyar-foci-sport-partizan",
+          "https://hvg.hu/360/20261127_pete-hegseth-vedelmi-miniszter-usa-biztonsagpolitika-alkotmanyos-vademeles-hvg",
+          "https://hvg.hu/itthon/20261127_rakay-philip-diplomata-utlevel-szijjarto-peter",
+          "https://hvg.hu/360/20261127_hvg-szent-laszlo-ereklye-mezokovesd-archeogenetika",
+          "https://hvg.hu/360/20261127_ai8-turbine-gyogyszerfejlesztes-szalay-kristof-interju",
+          "https://hvg.hu/vilag/20261127_orosz-kulonleges-erok-halalozas-statisztika",
+          "https://hvg.hu/itthon/20261127_baka-andras-kinevezte-a-legfobb-ugyesz-helyetteset",
+          "https://hvg.hu/itthon/20261127_varosliget-zrt-tisza-part-orban-arpad-istvan",
+          "https://pulzus.hvg.hu/pszichologia/20261127_idegenekkel-beszelgetes-small-talk-miert-jo-hogyan-csinaljuk",
+          "https://pulzus.hvg.hu/egeszseg/20261127_elhizas-egeszsegugyi-kockazatai-hasi-zsir-gyermekkori-tulsuly",
+          "https://hvg.hu/itthon/20261127_budapest-fovarosi-kozgyules-november-fopolgarmesteri-hivatal-letszamleepites-szavazas",
+          "https://hvg.hu/elet/20261127_goroghne-bocskai-eva-tisza-frakcio-parlament-siras-politikus",
+          "https://hvg.hu/itthon/20261127_nemzeti-pedagogus-kar-megszunes-torvenyjavaslat",
+          "https://hvg.hu/gazdasag/20261127_azbesztszennyezes-palyazat-elutasitas-zalaegerszeg-kornyezetszennyezes-egeszsegugyi-kockazat",
+          "https://hvg.hu/itthon/20261127_balaton-part-siofok-setany-kerites-bontas",
+          "https://hvg.hu/360/20261124_a-fidesz-beagyazottsaga-egyszerre-rendult-meg-minden-tarsadalmi-retegben",
+          "https://hvg.hu/360/20261126_hamvay-peter-most-mulik-pontosan-fulszoveg-lapajanlo",
+          "https://hvg.hu/360/20261125_para-kovacs-imre-bunos-viszony-semjen-zsolt-velemeny",
+          "https://hvg.hu/360/20261126_network4-media-borsany-gyenes-andras-interju"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "bb88ce7a938561387e363ca4339eff291685962b90d631ae7b265fc7071f4bd6",
+        "variants": {
+          "original": {
+            "body": "Kevesebb mint öt év leforgása alatt az orosz Különleges Műveleti Erők (SZSZO) legalább 87 tagja, zömében tisztek vesztették életüket a háború kitörése óta, amint az a Roszstat kiszivárgott dokumentumaiból kiderül. Az ukrajnai harcokban, szíriai bevetéseken, valamint különböző belterületi és tisztázatlan körülmények között elhunyt katonák vesztesége rávilágít az elit egységeket érintő súlyos emberveszteségekre. A Roszstat adatai szerint a halottak között 54-en haltak meg Ukrajnában, hárman moszkvai környéki kórházakban, öten Szíriában, emellett hatan a Csernyihivi és Brjanszki területek határán, valamint továbbiak különböző balesetekben vagy tisztázatlan incidensek során vesztették életüket."
+          },
+          "tolkien": {
+            "title": "A csöndbe merült árnyak krónikája",
+            "body": "Kevesebb mint öt év telt el a háború fekete hajnala óta, s az orosz Különleges Műveleti Erők (SZSZO) legalább 87 fia, zömében tisztek tértek vissza porladó hamvakként a Roszstat titkos tekercsei szerint. E solymokként röpködő, magányos harcosok közül 54-en vestek el az ukrajnai vér mezőin, öten a távoli Szíria perzselő homokján, míg másokat ismeretlen fegyverek tüze vagy mély vizek sötétje ragadott el a végzetes órában. E sötét veszteségek pecsétje égeti a birodalom legbelső bástzáit, hol a legfényesebbnek hitt kardok is csorbára törnek a fagyos földön."
+          },
+          "reito": {
+            "title": "A különleges erők különlegesen rövid pályája",
+            "body": "Kevesebb mint öt év alatt az orosz Különleges Műveleti Erők (SZSZO) legkevesebb 87 büszke tagja, nagyrészt tisztek szálltak ki örökre a szolgálatból a Roszstat kiszivárgott papírjai szerint. Az ukrajnai frontoktól a szíriai homokozóig, sőt a saját laktanyák rejtélyes gázmérgezéseiig és tisztázatlan akasztásaiig az elit gárda tagjai olyan kreatív módokon pusztultak el, hogy Moszkva sokszor még a harctéri jelzőt is lefelejtette róluk. A dokumentumokból kiderül, hogy miközben Putyin elnök személyesen ünnepel velük karácsonykor, a statisztika könyörtelenül húzza le a rolót a túlélési esélyeikre."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -2751,10 +3119,44 @@
         "nba"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Luka Dončić elárulta, kit kért személyesen a Lakers vezetőségétől",
+        "url": "https://nbanews.hu/luka-doncic-walker-kessler-lakers-jatekoscsere/",
+        "published": "Fri, 27 Nov 2026 18:37:25 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://nbanews.hu/basketball/team/los-angeles-lakers-384mtem6e/",
+          "https://nbanews.hu/basketball/player/walker-kessler-usyizhf3iy/",
+          "https://www.facebook.com/profile.php",
+          "https://x.com/nbanews_hu",
+          "https://www.nba.com/lakers/news/lakers-acquire-center-walker-kessler",
+          "https://www.nbcsports.com/nba/news/luka-doncic-told-lakers-front-office-to-get-walker-kessler-this-offseason",
+          "https://nbanews.hu/nba-kupa-csoportkor-tovabbjutas/",
+          "https://nbanews.hu/szerzo/takacs-marcell/",
+          "https://www.google.com/preferences/source"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "e2c59403631ae832a77d3950c3a89e5b3864c2aec29f5271f3a865863560add5",
+        "variants": {
+          "original": {
+            "body": "Luka Dončić személyesen kereste meg a Los Angeles Lakers vezetőségét az előző idény befejezése után, és Walker Kessler megszerzését kérte a csapathoz. A 25 éves center július 1-jén kötött megállapodás és a július 8-i hivatalos bejelentés után egy sign-and-trade ügylet keretében, négyéves, 130 millió dolláros szerződéssel került Los Angelesbe. A gyűrű védelmével és védekezésével a szlovén irányítót meggyőző magasember érkezése jelentős drafttőke áldozattal járt, annak ellenére is, hogy a 2025/26-os idényben bal vállának sérülése és műtéte miatt mindössze öt mérkőzésen lépett pályára. A Dončić köré épülő csapat ezen rovathoz kapcsolódóan magyar idő szerint szombat hajnalban 3:30-kor a San Antonio Spurs otthonában lép pályára az NBA-kupa csoportkörének utolsó fordulójában."
+          },
+          "tolkien": {
+            "title": "A szlovén mágus és a páncélos őr az angyalok ligájában",
+            "body": "Amikor az évszakok kereke fordult, és a harcok csendje beállt, Luka Dončić, a szlovénok messziről jött fejedelme személyesen járult a Los Angeles Lakers urai elé, hogy a palánk alatti bástyák védelmére Walker Kesslert kérje. A mélyből érkező hős, ki ellenféként már megtapasztalta a center szigorát, négyéves, 130 millió dolláros lánccal köttette őt a csapathoz egy júliusi egyezséggel, noha a harcos vállát korábban seb mélyítette és öt csata után földre kényszerítette. Az NBA bajnokságának porondján e szövetség most a Victor Wembanyama vezette San Antonio Spurs elleni, szombat hajnali 3:30-kor esedékes NBA-kupa csoportköri ütközetben próbáltatik meg a titánok csarnokában. E fegyvertestvéri frigy nyomán a külső őrök bátrabban vethetik magukat a harcba, tudván, hogy a hátuk mögött a gyűrű hatalmas őrzője áll."
+          },
+          "reito": {
+            "title": "Hogyan ültette át a szlovén irányító a Utah centereit az angyalok városába?",
+            "body": "Luka Dončić a nyári pihenő alatt nem a tengerpartot bmulta, hanem a Lakers vezetőségének küldött egyenes adásban Walker Kesslert kérte magának karácsonyra, vagyis inkább a következő NBA-szezonra. A Utah Jazz centere egy négyéves, 130 millió dolláros sign-and-trade papíron csusszant be Los Angelesbe július 8-án, annak ellenére, hogy az előző évadban mindössze öt meccset bírt ki a vállműtéte miatt. A papíron kockázatos üzlet azonnal kamatozni kezd, hiszen a center blokkolásai és elzárásai mostantól Dončić malmára hajtják a vizet az NBA rovat eseményei szerint. A duó élesben is vizsgázik magyar idő szerint szombat hajnalban 3:30-kor, amikor a Lakers a San Antonio Spurs otthonában lép pályára az NBA-kupa csoportkörének utolsó fordulójában."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "NBAnews.hu",
@@ -2775,7 +3177,53 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
-      }
+      },
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Ma éjjel eldől: ki jut be az NBA-kupa legjobb nyolc közé?",
+        "url": "https://nbanews.hu/nba-kupa-csoportkor-tovabbjutas/",
+        "published": "Fri, 27 Nov 2026 17:18:23 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.facebook.com/profile.php",
+          "https://x.com/nbanews_hu",
+          "https://nbanews.hu/basketball/game/miami-heat-new-york-knicks-c7hfa876w11/",
+          "https://nbanews.hu/basketball/game/philadelphia-76ers-indiana-pacers-c7hfmpbi6zt/",
+          "https://nbanews.hu/basketball/game/detroit-pistons-milwaukee-bucks-c7hfpwxe3zs/",
+          "https://nbanews.hu/basketball/game/brooklyn-nets-toronto-raptors-c7hfog31lwe/",
+          "https://nbanews.hu/basketball/game/atlanta-hawks-boston-celtics-c7hfbqpgrt3/",
+          "https://nbanews.hu/basketball/game/minnesota-timberwolves-memphis-grizzlies-c7hfdy3qv86/",
+          "https://nbanews.hu/basketball/game/phoenix-suns-dallas-mavericks-c7hfd7onfxd/",
+          "https://nbanews.hu/basketball/game/utah-jazz-denver-nuggets-c7hfijtc41v/",
+          "https://nbanews.hu/basketball/game/san-antonio-spurs-los-angeles-lakers-c7hffcq6lv4/",
+          "https://nbanews.hu/basketball/game/golden-state-warriors-portland-trail-blazers-c7hfk1rhd0t/",
+          "https://nbanews.hu/basketball/game/new-orleans-pelicans-los-angeles-clippers-c7hfgv8avde/",
+          "https://nbanews.hu/meccsek/",
+          "https://nbanews.hu/yaxel-lendeborg-darius-acuff-nba-draft-ujoncrangsor/",
+          "https://nbanews.hu/szerzo/takacs-marcell/",
+          "https://www.google.com/preferences/source"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "ef2e8188218908ddf245a28f8197790d4337e8d45f6bc9d4e60cb74d6fccb1f6",
+        "variants": {
+          "original": {
+            "body": "Magyar idő szerint szombat hajnalban zárul az NBA-kupa csoportköre, amely során tizenegy mérkőzésen dől el a még szabad hét hely sorsa a december 4-én kezdődő kieséses szakaszra. A Dallas Mavericks kivételével egyetlen csapat sem biztos a továbbjutásában, a harminc csapat hat ötfős csoportban küzdött, és a hat csoportgyőztes mellett a két legjobb második jut tovább vadkártyával. A holtversenyek eldöntésénél először az egymás elleni eredmény, majd a pontkülönbség számít, míg az NBA.hu oldalon élő szöveges közvetítés és folyamatos eredménykövetés segít az események követésében."
+          },
+          "tolkien": {
+            "title": "A harminc törzs viadala és a sorsfordító éjszaka",
+            "body": "Magyar idő szerint szombat hajnalban zárul az NBA-kupa csoportköre, mikor is tizenegy mérkőzés tüze lobban fel, hogy eldöntse a még szabad hét hely sorsát a december 4-én kezdődő kieséses csaták kapujában. A Dallas Mavericks dicső serege már megpecsételte sorsát, ám a többi harminc csapat hat ötfős táborban küzd a dicsőségért, ahol a csoportgyőztesek és a vadkártyás másodikak léphetnek tovább a homályból. A holtversenyek láncát először az egymás elleni ütközetek, majd a pontok vihara oldja fel, míg az NBA.hu krónikája élő szöveggel és folyamatos eredményekkel kíséri figyelemmel a hősök küzdelmét."
+          },
+          "reito": {
+            "title": "Tizenegy meccs, hét kiadó szék és egy adag káosz",
+            "body": "Magyar idő szerint szombat hajnalban zárul az NBA-kupa csoportköre, ahol tizenegy mérkőzés dönt a még szabad hét hely sorsáról a december 4-én startoló kieséses buli előtt. A Dallas Mavericks már ünnepelhet, de a harminc csapat többi része hat csoportban izzad a hat csoportgyőztes és a két vadkártyás helyért. Ha döntetlen van, egymás ellen aprítanak, aztán jön a pontkülönbség, miközben az NBA.hu élő szöveggel és percről percre frissülő eredményekkel asszisztál a túlélőshow-hoz."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -2788,10 +3236,35 @@
         "belfold"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "444.hu",
+        "title": "Vizsgákat intézhettek Schadl kérésére, de a parlamenti bizottság előtt azt mondták, semmire sem emlékeznek",
+        "url": "https://444.hu/2026/11/27/vizsgakat-intezhettek-schadl-keresere-de-a-parlamenti-bizottsag-elott-azt-mondtak-semmire-sem-emlekeznek?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Fri, 27 Nov 2026 19:18:19 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "3c73d33f4068b8fe311e4ec00f2ec5ec93e5657cedae4507f4701f4c2b90eb9a",
+        "variants": {
+          "original": {
+            "body": "A végrehajtási visszaéléseket feltáró parlamenti vizsgálóbizottság előtt négy egykori igazságügyi minisztériumi dolgozó, köztük a végrehajtói szakvizsgabizottságot elnöklő Martonovics Bernadett és a volt helyettes államtitkár Jeney Orsolya is meghallgatáson vett részt a devizahitelezés és a végrehajtási törvények alakulása kapcsán. A belföldi parlamentben zajló ülésen a Schadl György kérésére intézett vizsgákról és lehallgatott beszélgetésekről is szó esett, azonban az érintettek a felidézett esetekre és Schadl megkereséseire nem emlékeztek, illetve tagadták a nyomásgyakorlást. Martonovics a kérdésekre válaszolva kijelentette, hogy nem történt olyan, hogy nyomásra átengedett volna egy felkészületlen vizsgázót, míg Jeney ugyancsak elutasította az összefüggéseket, mondván, öttagú volt a bizottság, és nem kapott ilyen jellegű megkereséseket."
+          },
+          "tolkien": {
+            "title": "A Hatalom Igazságának Csarnokában: Emlékezet és Titkok Fátyla",
+            "body": "A belföldi parlament magasztos falai között, a végrehajtás árnyékos törvényeit vizsgáló bizottság elé járult az igazság egykori udvarának két leánya, Martonovics Bernadett és Jeney Orsolya, hogy számot adjanak a Schadl György neve által fémjelzett sötét időkről. A mélyből feltörő üzenetek és a lehallgatott beszédek hálója ellenére a tanúk ajkáról csak a feledés köde szállt fel, és makacsul tagadták a vizsgák megvesztegetésének és a hatalmi szónak a súlyát. Az ősi iratok tanúsága szerint a protekció fonalai mélyre nyúltak a bírák és a törvények szövésében, ám a hallgatás pajzsa megvédte őket a közvetlen bűn beismerésétől. Így maradt rejtve a múlt homályában, vajon a végrehajtás csarnokában ki irányította a bábokat a háttérből."
+          },
+          "reito": {
+            "title": "A belföldi vizsgabizottság nagyszabású felejtési versenye Schadl módra",
+            "body": "A belföldi parlament bizottsági ülésén Martonovics Bernadett és Jeney Orsolya, két korábbi minisztériumi kiválóság adott számot arról, hogyan is kell elfelejteni mindent, amit a nyomozók aprólékosan összegyűjtöttek Schadl György vizsgás és bíróeltávolítós ügyeiről. Bár a lehallgatott chatüzenetekben még „nagyon gáz” vizsgákról meg izmos karokat küldözgető emojikról szólt a fáma, a hölgyek a törvényhozás asztalánál már mély amnéziába zuhantak, és közölték, hogy semmire sem emlékeznek. Martonovics szerint ugyan volt vizsgázó, akinek semmi fogalma sem volt a világról, de a nyomást azonnal tagadta, míg Jeney az öttagú bizottság kollektív pajzsa mögé bújva hárított minden vádat. A bürokratikus gépezet így zavartalanul őröl tovább, miközben a főszereplők elegáns mozdulattal rázzák le magukról a terhelő bizonyítékokat."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -2857,7 +3330,130 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
-      }
+      },
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Nagyot mentek az amerikai tőzsdék, felpattant a BUX is",
+        "url": "https://www.portfolio.hu/uzlet/20261127/nagyot-mentek-az-amerikai-tozsdek-felpattant-a-bux-is-879544",
+        "published": "Fri, 27 Nov 2026 19:08:00 +0100",
+        "categories": [
+          "hu-market"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/g/e/t/gettyimages-1328481812-tozsde-grafikon-technikai-elemzes-arfolyam-reszvenypiac-kereskedes-pen-839952.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/percrol-percre/879544/nagyot-mentek-a-wall-streeten-1068534",
+          "https://www.portfolio.hu/arfolyam/BUSTECH100/baha us tech 100",
+          "https://indexadhu.hit.gemius.pl/hitredir/id=zNubivCRgCD825KpTYbyZpdSLZpsgVunkIwEl09yr2..e7/stparam=xegqninljh/fastid=jdgwykhkpxmhsxamaorvjgsjyynf/nc=0/url=https://trader.portfolio.hu/tanacsado-kozpont",
+          "https://www.portfolio.hu/arfolyam/META.CUS/Facebook",
+          "https://www.portfolio.hu/percrol-percre/879544/18-eve-nem-alltak-ilyen-jol-a-tozsdek-halaadaskor-1068528",
+          "https://www.portfolio.hu/arfolyam/BUS30/baha us 30",
+          "https://www.portfolio.hu/percrol-percre/879544/visszahuzodott-a-felelemindex-1068524",
+          "https://www.portfolio.hu/percrol-percre/879544/jol-neznek-ki-az-amerikai-tozsdek-1068520",
+          "https://www.portfolio.hu/befektetes/20261127/kirobbano-nap-a-magyar-tozsden-valosaggal-kilottek-a-hazai-reszvenyek-879782",
+          "https://www.portfolio.hu/percrol-percre/879544/a-nasdaq-vezeti-az-emelkedest-a-halaadas-utan-1068494",
+          "https://www.portfolio.hu/uzlet/20261127/csodbe-ment-egy-europai-legitarsasag-879750",
+          "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+          "https://www.portfolio.hu/befektetes/20261127/tobb-mint-egyeves-melypont-utan-felpattant-az-arany-879738",
+          "https://www.portfolio.hu/percrol-percre/879544/a-bux-joval-az-europai-mezony-elott-jar-1068476",
+          "https://www.portfolio.hu/uzlet/20261127/exporttilalom-ala-eso-csucskategorias-nvidia-chipeket-talaltak-kinaban-egy-alice-huanghoz-kotheto-cegnel-879722",
+          "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang",
+          "https://www.portfolio.hu/uzlet/20261127/ugrik-a-spacex-elon-musk-bejelentese-utan-879684",
+          "https://www.cnbc.com/2026/11/27/spacex-shares-musk-donations.html",
+          "https://www.portfolio.hu/percrol-percre/879544/megint-nagyot-megy-az-otp-1068456",
+          "https://www.portfolio.hu/uzlet/20261127/tul-sok-a-csuszas-megint-visszavagta-varakozasait-a-rheinmetall-879666",
+          "https://www.portfolio.hu/uzlet/20261127/hatalmas-osszecsapas-keszul-a-volkswagennel-egymasnak-feszul-a-menedzsment-es-a-szakszervezet-879646",
+          "https://www.portfolio.hu/uzlet/20261127/ujabb-botrany-alakul-az-nvidia-felsovezeteseben-879632",
+          "https://www.wsj.com/finance/stocks/nvidia-china-executive-affair-jay-puri-cenly-chen-a42d733b",
+          "https://www.portfolio.hu/percrol-percre/879544/folytatodik-az-emelkedes-az-europai-tozsdeken-1068432",
+          "https://www.portfolio.hu/uzlet/20261127/kilott-a-magyar-tozsde-tepik-az-otp-t-879620",
+          "https://www.portfolio.hu/befektetes/20261127/kozel-a-piaci-osszeomlas-egy-friss-tanulmany-szerint-evekig-tarthat-a-hatasa-879604",
+          "https://www.cnbc.com/2026/11/27/ai-bubble-burst-market-study.html",
+          "https://www.portfolio.hu/befektetes/20261127/befutott-az-eddigi-legmagasabb-celar-a-richterre-879596",
+          "https://www.portfolio.hu/befektetes/20261127/evek-ota-nem-latott-emelkedes-a-tozsden-mentoovet-dob-az-allam-a-piacoknak-879572",
+          "https://www.portfolio.hu/uzlet/20261127/a-tozsdei-eladasi-hullam-kozben-biztonsagos-menedek-lett-az-europai-egeszsegugyi-reszvenyekbol-879560",
+          "https://www.bloomberg.com/news/articles/2026-11-27/european-healthcare-profit-streak-offers-shelter-from-ai-swings",
+          "https://www.portfolio.hu/uzlet/20261127/donald-trump-elkezdett-aggodni-a-tozsde-miatt-879556",
+          "https://www.portfolio.hu/percrol-percre/879544/folytatodhat-az-emelkedes-1068390",
+          "https://www.portfolio.hu/deviza/20261123/ennyi-volt-a-tisza-szerelem-vagy-valami-mas-horpasztotta-be-a-forint-serthetetlennek-hitt-panceljat-878088",
+          "https://www.portfolio.hu/podcast/20261126/globalis-tozsdepanik-melyik-magyar-reszveny-marad-utesallo-879462",
+          "https://www.portfolio.hu/befektetes/20261124/van-egy-uj-jatekszabaly-a-tozsdeken-donald-trumpnak-hivjak-878660",
+          "https://www.portfolio.hu/info/jogi-nyilatkozat",
+          "https://www.portfolio.hu/cimke/tőzsde",
+          "https://www.portfolio.hu/cimke/hang seng",
+          "https://www.portfolio.hu/cimke/CSI 300",
+          "https://www.portfolio.hu/cimke/FTSE MIB",
+          "https://www.portfolio.hu/cimke/IBEX",
+          "https://www.portfolio.hu/cimke/PX",
+          "https://www.portfolio.hu/cimke/10 éves német állampapírhozam",
+          "https://www.portfolio.hu/cimke/10 éves magyar állampapírhozam",
+          "https://www.portfolio.hu/cimke/mol",
+          "https://www.portfolio.hu/cimke/otp",
+          "https://www.portfolio.hu/cimke/richter",
+          "https://www.portfolio.hu/cimke/euró",
+          "https://www.portfolio.hu/cimke/font",
+          "https://www.portfolio.hu/cimke/dollár",
+          "https://www.portfolio.hu/cimke/arany",
+          "https://www.portfolio.hu/cimke/brent",
+          "https://www.portfolio.hu/cimke/wti",
+          "https://www.portfolio.hu/cimke/Nikkei",
+          "https://www.portfolio.hu/cimke/Nasdaq",
+          "https://www.portfolio.hu/cimke/BUX",
+          "https://www.portfolio.hu/cimke/magyar telekom",
+          "https://www.portfolio.hu/cimke/bitcoin",
+          "https://www.portfolio.hu/cimke/dow jones",
+          "https://www.portfolio.hu/cimke/s&p 500",
+          "https://www.portfolio.hu/cimke/eurusd",
+          "https://www.portfolio.hu/cimke/dax",
+          "https://www.portfolio.hu/cimke/ftse",
+          "https://www.portfolio.hu/cimke/cac",
+          "https://www.portfolio.hu/cimke/gbpusd",
+          "https://www.portfolio.hu/cimke/usdjpy",
+          "https://www.portfolio.hu/cimke/atx",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "301d5b84880122cf8aa9ab0f0d74ada8e81cbf2200e3f8acb51faae4c802ed5f",
+        "variants": {
+          "original": {
+            "body": "Erős emelkedéssel zárult a pénteki rövidített kereskedés a budapesti tőzsdén, ahol a BUX-index 2,8 százalékkal növekedett az előző záróértékhez képest, és a hazai blue chipek árfolyama is mind emelkedett. A nap folyamán a magyar piacot leginkább az OTP húzta, amely 4,4 százalékos pluszban is járt, és ebből a részvényből könyvelték el a legnagyobb forgalmat 20,9 milliárd forint értékben. A hazai börze az amerikai és európai piacok mellett a friss hazai adatok és hitelminősítői felülvizsgálat napján mutatott jelentős erősödést. A hosszú távú trend emelkedő marad a magyar piacon, miközben a rövid és középtávú mozgóátlagok még csökkenő irányt jeleznek."
+          },
+          "tolkien": {
+            "title": "A BUX aranyló ébredése és a hazai céhterek diadala",
+            "body": "Íme, a nap, melyen a budapesti tőzsde oszlopai meghajoltak a dicsőség előtt, és a BUX indexe két egész nyolc tized százalékkal szökött magasabbra az előző napok alkonyánál. Mind a négy nemes hazai blue chip zászlaja magasra emelkedett ezen az órán, míg az OTP hatalmas bástyaként, négy egész négy tized százalékos büszkeséggel húzta magával a sereget. Húszmilliárd és kilencszázmillió aranypénzzel egyenértékű forgalom áramlott az OTP kapuin át, hatalmas lüktetést adva a kereskedés csarnokainak. Míg a messzi északi vizeken és birodalmakban sötét fellegek gyülekeztek, e szentélyben a hosszú távú ösvények örök emelkedést ígértek, dacára a rövid esztendők még borúsabb árnyainak."
+          },
+          "reito": {
+            "title": "Ahol az OTP hatalmasat kaszinózik, a BUX pedig mosolyogva veszi tudomásul a tényeket",
+            "body": "A budapesti tőzsdén pénteken olyan lendülettel indult be a buli, hogy a BUX-index simán benyomott egy 2,8 százalékos emelkedést a nyitó gong után. Nem volt kegyelem a hezitálóknak sem, ugyanis mind a négy hazai blue chip papír zöldbe borult, miközben az OTP 4,4 százalékos rohammal állt az élre. A bankpapír annyira vitte a pálmát, hogy csak abból 20,9 milliárd forint értékben forgott a tőke, messze maga mögé utasítva a mezőnyt. A grafikonok ugyan rövid és középtávon még néha fintorognak a csökkenő mozgóátlagok miatt, de a hosszú távú trend erre most rácáfolva hozta a kötelezőt."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -2878,10 +3474,71 @@
         "belfold"
       ],
       "image": "https://pcdn.hu/articles/images-xl/a/z/b/azbeszt-tartalmu-kozet-sopron-852032-855646.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Botrány az azbesztmentesítési pályázat körül",
+        "url": "https://www.portfolio.hu/gazdasag/20261127/botrany-az-azbesztmentesitesi-palyazat-korul-879798",
+        "published": "Fri, 27 Nov 2026 18:45:00 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/a/z/b/azbeszt-tartalmu-kozet-sopron-852032-855646.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/cimke/pályázat",
+          "https://www.portfolio.hu/cimke/önkormányzat",
+          "https://www.portfolio.hu/cimke/polgármester",
+          "https://www.portfolio.hu/cimke/támogatás",
+          "https://www.portfolio.hu/cimke/pályázatok",
+          "https://www.portfolio.hu/cimke/szombathely",
+          "https://www.portfolio.hu/cimke/kőszeg",
+          "https://www.portfolio.hu/cimke/jogorvoslat",
+          "https://www.portfolio.hu/cimke/fellebbezés",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "8815e0a6c11116de2a27acaacdf8148bbf70b98dc9d9cd170330a8accc3847c5",
+        "variants": {
+          "original": {
+            "body": "Az Azbesztmentesítési Alap pályázatán az elutasítások miatt az érintett szombathelyi és kőszegi önkormányzatok, valamint polgármestereik, Nemény András és Básthy Béla érintettek, mivel a kiírás szerint csak a természetes azbeszttartalmú kőzúzalékok okozta egészségi kockázatok megszüntetésére és lefedésére irányuló kérelmek voltak támogathatóak. A gyakorlati következmény az, hogy az elutasított pályázatok nem kizárólag lefedésre vonatkozó igényt tartalmaztak, jogorvoslatra a pályázati kiírás szerint nincs lehetőség, így a belföldi szereplőknek a feltételek újragondolása mellett kiírandó új pályázatra kell majd számítaniuk. A helyi vezetők értetlenségüket fejezték ki a döntés miatt, rámutatva, hogy az Alapból így épp az azbesztmentesítésre nem lehetett támogatást nyerni."
+          },
+          "tolkien": {
+            "title": "Az azbeszt árnyéka és a zárt kapuk krónikája",
+            "body": "Az Azbesztmentesítési Alap kincstárának kapuinál az elutasítás súlya sújtotta Szombathely és Kőszeg bátor népét, valamint vezérét, Nemény András és Básthy Béla urakat, mikor a természetes azbeszttartalmú kőzúzalékok rémét űzni kívánták. A rideg rendelet szerint ugyanis csupán a lefedésre szánt kérelmek találtak kegyelmet, míg minden más szándék sötétbe hullott. Így hát a fellebbezés kardja kicsorbult a bürokrácia falain, jogorvoslat híján a remény elapadt, s a belföldi váruraknak csupán az új, még meg nem írt törvények ígérete maradt válaszként. A helytartók keserűen tapasztalták, hogy a gyógyulás kútjából épp e méreg kiűzésére nem meríthettek vizet."
+          },
+          "reito": {
+            "title": "Az azbesztmentesítés esete a semmivel: amikor a gyógyszer ellenség",
+            "body": "Az Azbesztmentesítési Alap osztogatásából kiejtve találták magukat a magyar belföld önkormányzatai, név szerint Szombathely és Kőszeg, mikor Nemény András és Básthy Béla polgármesterek vezetésével támogatást reméltek a természetes azbeszttartalmú kőzúzalékok veszélyeinek elhárítására. A bökkenő mindössze annyi volt, hogy a kiírók szigorú logikája szerint csak a puszta lefedésre adtak pénzt, miközben az elutasított papírok nemcsak lefedést kértek. Fellebbezni persze kár is volt próbálkozni, mert a szabályok szerint jogorvoslatnak helye nincs, így a pórul járt városoknak maradt a bosszúság meg az ígéret, hogy az egész hercehurcát újragondolják egy új pályázatban."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -2981,10 +3638,40 @@
         "champions-league"
       ],
       "image": "https://cdn.origo.hu/2026/11/Vcrce1f7H0elqJN6Wa7bNVxTQyBqA5ad7AqNlSZRixc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yMzM3ZGYwNWZhNmM1YWVmYWQxMWI4YzI5MDIzMzMyYmQ4ZDk2Y2FjMGRhMmNiMDk2MmEyMmIzODY2OWFkNGEy.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Origo.hu",
+        "title": "Fordulatot várnak Gulácsi Péter ügyében Spanyolországban",
+        "url": "https://www.origo.hu/sport/sport-futball/2026/11/gulacsi-peter-villarreal-kezdocsapat-visszateres",
+        "published": "Fri, 27 Nov 2026 17:45:00 +0000",
+        "categories": [
+          "champions-league"
+        ],
+        "image": "https://cdn.origo.hu/2026/11/Vcrce1f7H0elqJN6Wa7bNVxTQyBqA5ad7AqNlSZRixc/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8xMS8yNy8yMzM3ZGYwNWZhNmM1YWVmYWQxMWI4YzI5MDIzMzMyYmQ4ZDk2Y2FjMGRhMmNiMDk2MmEyMmIzODY2OWFkNGEy.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.origo.hu/sport/szerzo/bacsinszki-adam-1",
+          "https://www.origo.hu/sport/sport-futball/2026/11/gulacsi-peter-villarreal-kezdocsapat-visszateres/kommentek",
+          "https://www.origo.hu/sport/cimke/gulacsi-peter",
+          "https://www.origo.hu/sport/cimke/villarreal",
+          "https://www.origo.hu/sport/cimke/la-liga-2"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "aaa4c01ee8613023506df32bd01e3b0826ca0f20bdec57802d3c3a2fd6541807",
+        "variants": {
+          "original": {
+            "body": "Gulácsi Péter kapus és a Villarreal csapatát érintő változás, hogy a spanyol sajtó előrejelzései szerint a 36 éves magyar játékos visszatérhet a kezdőcsapatba a Celta Vigo elleni, vasárnap 18.30-kor kezdődő La Liga 14. fordulóbeli mérkőzésen. Ennek a legfontosabb gyakorlati következménye az, hogy a Slavia Praha elleni, szerdai Bajnokok Ligája-találkozón – amelyet a Villarreal 1–0-ra megnyert – még a kispadról végigkövető kapus több spanyol forrás, így a Radio Vila-real és a Cadena SER várakozásai alapján újra helyet kaphat a tizenegyben. Ínigo Pérez vezetőedző a pénteki sajtótájékoztatóján hangsúlyozta, hogy a döntésnél a játékosok teljesítményét, fizikai állapotát, játékperceit és az ellenfél stílusát veszi figyelembe, miközben a csapat a legutóbbi öt vigói vendégjátékának nyeretlen sorozatát kívánja megszakítani."
+          },
+          "tolkien": {
+            "title": "A háló őrzőjének visszatérése a Bajnokok Ligája viharai után",
+            "body": "Gulácsi Péter kapust és a Villarreal nemzetségét érintő változás, hogy a spanyol krónikások és lantosok várakozása szerint a 36 éves magyar hálóőr újra elfoglalhatja helyét a kezdőcsapatban a vasárnap 18.30-kor kezdődő, Celta Vigo elleni La Liga-összecsapáson. Ez a fordulat azonnali következményként azt hozza magával, hogy a Slavia Praha elleni, szerdai Bajnokok Ligája-viadal sötét pereméről, a kispad árnyékából a gyep felé emelkedhet az őrség, miután a brazil Luiz Júnior védte a kaput a cseh fővárosban aratott 1–0-s győzelem során. Ínigo Pérez, a sereg vezére pénteken kijelentette, hogy a harcosok ereje, testi állapota és a Bajnokok Ligája csatatérmei utáni pihentetése egyaránt méretre lesznek vonva a döntésben, miközben a csapat a vigói átok megtörésére tör. A Bajnokok Ligája küzdelmeiből táplálkozó remények nyomán a Radio Vila-real és a Cadena SER írnokai ötfős változást jósolnak a kezdősorban, így Gulácsi Péter mellett Alex Freeman, Carlos Romero, Santi Comesaña és Georges Mikautadze is visszatérhet a harcmezőre."
+          },
+          "reito": {
+            "title": "A kapus, aki a kispad helyett a kezdőben köt ki, és a vigói mumus",
+            "body": "Gulácsi Péter kapust és a Villarreal csapatát érintette az a személyi változás, hogy a Radio Vila-real és a Cadena SER jóslatai szerint a 36 éves magyar hálóőr visszakerül a kezdőcsapatba a vasárnap 18.30-kor rajtoló Celta Vigo elleni La Liga-találkozón. Ennek az a gyakorlati szépsége, hogy a Slavia Praha elleni, 1–0-ra megnyert szerdai Bajnokok Ligája-meccset még a kispadról, a cserék melegítőjében néző Gulácsi ezúttal nem a hűsölésre, hanem a rohamok megállítására készül. Ínigo Pérez főnök pénteken megmondta a frankót: a kezdőcsapat összeállításakor a teljesítményt, a fizikai állapotot, a lefutott perceket és az ellenfél stílusát mérlegeli, miközben a brigád azt is tervezi, hogy végre megszakítja a legutóbbi öt vigói vendégjáték óta tartó nyeretlenségi sorozatát. A Bajnokok Ligája-szereplés utáni felfrissülés jegyében a spanyol újságírók összesen öt helyen várnak rotációt a Villarreal csapatában, így a BL-ben pihentetett magyar kapus mellett Alex Freeman, Carlos Romero, Santi Comesaña és Georges Mikautadze is újra ott lóghat a kezdőben."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -3144,10 +3831,34 @@
         "f1"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/5cMKyy-QIQW_Q0hC_0-2Jh5CL9KowE83yHWfXVE-Nq4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdjMDNlYjk5MDNjNDQ2MTU4M2YxNGNmZTM5YjQ3ZWQ1.webp",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Antonelli vezérletével a Mercedes továbbra is szárnyal Katarban",
+        "url": "https://nemzetisport.hu/f1/2026/11/antonelli-vezerletevel-a-mercedes-tovabbra-is-szarnyal-katarban",
+        "published": "Fri, 27 Nov 2026 18:22:00 +0000",
+        "categories": [
+          "f1"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/5cMKyy-QIQW_Q0hC_0-2Jh5CL9KowE83yHWfXVE-Nq4/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzdjMDNlYjk5MDNjNDQ2MTU4M2YxNGNmZTM5YjQ3ZWQ1.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "0adf2bc76772d58f9d8f7d72c71e4010252a55ead336ddf4f69401d6fcec9902",
+        "variants": {
+          "original": {
+            "body": "A Katari Nagydíj második szabadedzésén Andrea Kimi Antonelli vezetésével a Mercedes zárt az élen, miután az olasz pilóta 1:23.077-es időt futott a közepes keverékű gumikon. A gyakorláson a két piros zászlós szakasz miatt a Nemzetközi Automobil-szövetség (FIA) 13 perc plusz edzésidőt biztosított, így a mezőny végül magas üzemanyagszint mellett készült a versenyre. Az eseménydús tréninget Charles Leclerc és Pierre Gasly megpördülése, valamint Lewis Hamilton Ferrarijának az egyes kanyarnál bekövetkezett, erővesztés miatti leállása tarkította. A szombaton 15 óra 30 perckor kezdődő harmadik szabadedzéssel folytatódó program első tíz helyén a Mercedes, a McLaren, a Red Bull, a Ferrari és a Racing Bulls kettősei alakítottak ki sormintát."
+          },
+          "tolkien": {
+            "title": "A sivatagi birodalom ezüstös szárnyalása és a gépek csendje Katar homokján",
+            "body": "A sivatagi viadal porondján, a Katari Nagydíj második próbáján a Mercedes ezüstös menete ragyogott, élén az ifjú Andrea Kimi Antonellivel, aki a közepes keverékű abroncsok szárnyán 1:23.077-es idővel hódította meg a trónt. Az égboltozat alatt kavargó veszedelmek és a pályára hullott kövek miatt a viadal felügyelői, az FIA urai tizenhárom perc kegyelemidővel ajándékozták meg a harcosokat a piros zászlók vihara után. Charles Leclerc és Pierre Gasly vasparipái a kavicságyak fogságába estek, míg a bajnok Lewis Hamilton acélparipája az egyes kanyar sötétjében végleg elnémult. A fegyverropogás és a magas üzemanyagú próbák után a tbiliszi sorminta szerint a Mercedes, a McLaren, a Red Bull, a Ferrari és a Racing Bulls párosai sorakoztak fel, hogy szombaton délután három óra harminc perckor úja lángra lobbasszák a küzdelmet."
+          },
+          "reito": {
+            "title": "Ahol a Mercedes közepes gumival is oktat, a Ferrari meg csak csendben letérdel",
+            "body": "A Katari Nagydíj második szabadedzésén Andrea Kimi Antonelli mutatta meg a hátát a világnak, amikor a Mercedes pilótája közepes keveréken hozta el az 1:23.077-es elsőséget. Az FIA a két piros zászlós kényszerszünet után röfögve 13 perc extra időt osztott ki, hogy aztán a mezőny ne a stopperrel, hanem teli tankkal a versenyt szimulálja. Miközben Charles Leclerc és Pierre Gasly egymás után tesztelte a kavicságyak mélységét, Lewis Hamilton Ferrarja a tréning végén látványosan megadta magát az egyes kanyarnál. A virtuális biztonsági autó pihenőjével leintett nap végén a Mercedes, a McLaren, a Red Bull, a Ferrari és a Racing Bulls duói szépen libasorba álltak, hogy szombaton délután fél négykor elölről kezdjék az egészet."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Fűzővel kifelé!",
@@ -3159,10 +3870,46 @@
         "nfl"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Fűzővel kifelé!",
+        "title": "Tom Brady majdnem elalélt az Eagles-Cowboys meccs végjátékánál",
+        "url": "https://fuzovelkifele.com/2026/11/tom-brady-majdnem-elalelt-az-eagles-cowboys-meccs-vegjatekanal/?utm_source=rss&utm_medium=rss&utm_campaign=tom-brady-majdnem-elalelt-az-eagles-cowboys-meccs-vegjatekanal",
+        "published": "Fri, 27 Nov 2026 19:06:05 +0000",
+        "categories": [
+          "nfl"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://fuzovelkifele.com/author/renningan/",
+          "https://t.co/afG8rqw7x9",
+          "https://x.com/HaterReport/status/2126135109418135779",
+          "https://t.co/h5z3e7qBSj",
+          "https://x.com/realSwiftKicks/status/1770553412918132940",
+          "https://www.facebook.com/sharer.php",
+          "https://x.com/intent/post",
+          "https://reddit.com/submit",
+          "https://www.facebook.com/dialog/send",
+          "https://api.whatsapp.com/send",
+          "https://fuzovelkifele.com/cdn-cgi/l/email-protection"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "a202ce8255e27d0b0ebdbeb0014bbed5423318e1dd0001853222bc8ba2737d3a",
+        "variants": {
+          "original": {
+            "body": "A Philadelphia Eagles és a Dallas Cowboys hálaadásnapi NFL-mérkőzésén, amelyet a vendég Cowboys nyert meg 39–38-ra, Tom Brady szakkommentátor élő adásban adott hangot rendkívüli lelkesedésének Jake Elliott 59 yardos mezőnygólja után. A győztes rúgás, amely két másodperccel a meccs vége előtt biztosította be a győzelmet, a harmadik negyedben még 31–10-es hátrányban lévő Eagles 22 pontos záró negyedét és sorozatban második sikerét koronázta meg, amellyel a csapat mérlege 4-7-re javult. A Fox szakkommentátoraként dolgozó, a meccs során a philadelphiai irányítót, Joe Miltont Bazooka Joe-ként is emlegető Brady magas hangú sikolya a közösségi médiát is bejárta. A vereséggel a Cowboys 5–7-tel az NFC East harmadik helyére csúszott, két és fél mérkőzésnyire az éllovas New York Giantsszel és fél mérkőzésnyire a Washington Commandersszel szemben."
+          },
+          "tolkien": {
+            "title": "A Sasok Éji Feltámadása és a Hangos Krónikás",
+            "body": "A Philadelphia Eagles és a Dallas Cowboys hálaadásnapi NFL-csatájában, melyet a vendégek ragadtak magukhoz 39–38 arányban, Jake Elliott 59 yardos mezőnygólja döntötte el a küzdelmet két teljességgel feszült másodperccel a harc vége előtt. E győzedelmes rúgás nyomán a harmadik negyed sötétjébe süllyedt, 31–10-es hátrányból feltámadó Eagles huszonkét pontot zúdulva a negyedik játékrészben sorozatban második diadalát aratta, 4-7-re javítva hadrendjét. A Fox avatott krónikásaként és a Bazooka Joe néven emlegetett irányító, Joe Milton erejét méltató Tom Brady ajkáról olyan magas hangú sikoly tört fel az adás éterébe, mely villámként járta be a birodalom hírútjait. A vesztes Cowboys ezáltal 5–7-es adattal az NFC East harmadik szögletébe zuhant, két és fél mérföldnyi fórral az élen vágtató New York Giants és alig fél egységgel a Washington Commanders mögött."
+          },
+          "reito": {
+            "title": "Bazooka Joe és a Kétmásodperces Csoda",
+            "body": "A Philadelphia Eagles és a Dallas Cowboys hálaadásnapi NFL-randevúján a vendégek húzták be a pultot 39–38-ra, miután Jake Elliott két másodperccel a záróra előtt egy 59 yardos mezőnygóllal vágta haza a papírformát. A harmadik negyed végén még 31–10-es gödörben lévő Eagles egy 22 pontos negyedik játékrészben rúgta magát formába, így sorozatban a második győzelmét behúzva 4-7-re kozmetikázta mérlegét. A Fox mikrofonja mögött ülő Tom Brady – aki korábban Bazooka Joe-ként éltette a philadelphiai irányítót, Joe Miltont – olyan magas frekvenciájú sikollyal reagált Elliott lövésére élő adásban, hogy attól még a közösségi média is visszhangzott. A vereség után a Cowboys 5–7-tel az NFC East harmadik vagonjában ragadt, két és fél meccsre a listavezető New York Giantstől és félre a Washington Commanderstől."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -3175,10 +3922,35 @@
         "belfold"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "444.hu",
+        "title": "A Tisza frakcióvezetője lett a Városliget Zrt. igazgatósági elnöke",
+        "url": "https://444.hu/2026/11/27/a-tisza-frakciovezetoje-lett-varosliget-zrt-igazgatosagi-elnoke?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Fri, 27 Nov 2026 20:37:57 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "1917d2cc45a18b3552c1b9238fa8fb43f84599bda184697fb23b25b6f1103e3d",
+        "variants": {
+          "original": {
+            "body": "Novembertől Orbán Árpád, a Tisza Párt fővárosi frakcióvezetője lett a Városliget Zrt. igazgatóságának új elnöke, amely változás az állami tulajdonú gazdasági társaságot és a budapesti Városliget fejlesztését érinti. Ezzel a döntéssel a Tisza-kormányban a kultúráért felelős miniszter, mint tulajdonosi joggyakorló által irányított szervezetnél Orbán Árpád a fejlesztések döntéshozatalát, a programok figyelemmel kísérését és a fenntartható üzemeltetést támogatja, miközben a főváros és a Zrt. működésének összhangjára is figyel."
+          },
+          "tolkien": {
+            "title": "A Liget Kapujának Őrzője és a Városliget Zrt. Új Trónusa",
+            "body": "November szelében Orbán Árpád, a Tisza Párt fővárosi frakcióvezetője lépett a Városliget Zrt. igazgatóságának elnöki székébe, magával hozva a változást a budapesti park birodalmába és az állami tulajdonú gazdasági társaság falai közé. E nemes tisztségben a kultúráért felelős miniszter – ki a Tisza-kormányban Tarr Zoltán néven gyakorolja a tulajdonosi jogokat – megbízásából a fejlesztések és az üzemeltetés sorsát egyengeti, hogy a főváros és a társaság akarata egybefonódjék. A Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium krónikája szerint a közgazdász fejedelmi tudása, vezérlő tapasztalata és bankszakmai bölcsessége pajzsként szolgál a ligeti programok és a gazdaságos fenntarthatóság viharaiban."
+          },
+          "reito": {
+            "title": "A Frakcióvezető a Liget Ékén: Bankárból Cégvezér",
+            "body": "Novemberi hatállyal Orbán Árpád, a Tisza Párt fővárosi frakcióvezetője vette át a Városliget Zrt. igazgatósági elnöki székét, alaposan felkavarva az állami tulajdonú gazdasági társaság és a budapesti Városliget mindennapjait. A Tisza-kormány kultúráért felelős minisztere, Tarr Zoltán tulajdonosi joggyakorlóként bízta meg az új elnököt, hogy a főváros és a cég működését összehangolja, miközben a futó programokat és a gazdaságos üzemeltetést is szemmel tartja. A Társadalmi kapcsolatokért és Kultúráért felelős Minisztérium szerint ugyanis a pénzügyi vizeken edzett közgazdász bankszakmai ismeretei éppen a megfelelő fegyverzetet jelentik a fejlesztési döntésekhez."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -3200,10 +3972,46 @@
         "films"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "444.hu",
+        "title": "Itt érzem magam rottyon",
+        "url": "https://444.hu/jo/2026/11/27/itt-erzem-magam-rottyon?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Fri, 27 Nov 2026 20:03:10 +0100",
+        "categories": [
+          "belfold",
+          "films"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://444.hu/author/mohosm",
+          "https://444.hu/category/film",
+          "https://444.hu/jo/2026/11/27/itt-erzem-magam-rottyon",
+          "https://www.imdb.com/title/tt5052448/",
+          "https://www.imdb.com/title/tt7798634/",
+          "https://www.imdb.com/title/tt9764362/",
+          "https://www.imdb.com/title/tt29929565/",
+          "https://www.imdb.com/title/tt0450278/",
+          "https://port.hu/cikk/mozi/kritika-az-aki-bujt-2-jovok-egy-uvoltve-rohogos-tulelohorror-az-epstein-szigeten/article-124538",
+          "https://assets.4cdn.hu/kraken/8Q2oeRACdc0r1CddKs.jpeg"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "c29b77a5dbea848382990a51553bbe45aabd78c69402231b53fffcdee44d31f1",
+        "variants": {
+          "original": {
+            "body": "A Hartung Attila által rendezett, Veres Attila által írt A pokol élővilága című film bemutatása során kiderült, hogy az alkotás a gazdagok sátánista rituáléiról szóló modern horrorfilmek fáradt, inspiráció nélküli utánzata, amely vad stilisztikai megoldásokkal próbál ütős lenni, identitás nélkül. Ennek a belföldi vonatkozású kulturális kritikának a teljes terjedelmében történő elolvasásához a 444.hu oldalon Közösség vagy Belső kör csomagra van szükség, mivel a cikk csak az előfizetők számára érhető el. A belföldi olvasók számára a cikkhez ajándékozási lehetőség is biztosított, ha a felhasználók rendelkeznek a megfelelő előfizetési csomaggal."
+          },
+          "tolkien": {
+            "title": "A Holtak Kúriájának Árnyéka és a Fáradt Lelkek Tornya",
+            "body": "A Hartung Attila által rendezett, Veres Attila által írt A pokol élővilága című film vetítése elhozta a gazdagok sátánista rituáléiról szóló modern horrorfilmek sötét örökségét, mint egy inspiráció nélküli, vad stilisztikai eszközökkel bűvölő, de lélek nélkül verbuvált Frankenstein-szörnyet. Ezen belföldi földön született krónika és filmbírálat teljes terjedelme kizárólag a beavatottak, a Közösség vagy Belső kör előfizetőinek szentélyében érhető el a 444.hu oldalon. Azok a vándorok, kik már a belső körhöz tartoznak, ajándékul is adhatják e sorokat, míg a külső sötétségben maradtaknak választaniuk kell a kapuk mögötti ösvények közül."
+          },
+          "reito": {
+            "title": "Sátánisták a kúriában, azaz így rottyantsunk le egy horrorfilmet",
+            "body": "A Hartung Attila által rendezett, Veres Attila által írt A pokol élővilága című belföldi filmkritika pontosan megmutatja, milyen az, amikor valaki összegányol egy Frankenstein-szörnyet a gazdagok sátánista rituáléiról szóló filmekből, de a lélek lehelését otthon felejti. Ez a szellemesnek szánt, vad stilisztikai megoldásokkal operáló alkotás a belföldi mozgóképek tengerében csupán egy inspiráció nélküli utánzat maradt, amelyről a 444.hu oldalon csak a Közösség vagy Belső kör csomaggal rendelkező előfizetők olvashatják el a teljes cikket. Ha a belföldi olvasó ajándékozni szeretné a kritikát, azt is csak akkor teheti meg, ha előbb befizet a választható csomagok valamelyikére."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -3225,10 +4033,73 @@
         "belfold"
       ],
       "image": "https://pcdn.hu/articles/images-xl/k/r/a/krausz-873578.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Meglépte a kormány: hatalmas összeget vonnak el a Nobel-díjas magyar tudós kutatóközpontjától",
+        "url": "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+        "published": "Fri, 27 Nov 2026 20:39:00 +0100",
+        "categories": [
+          "technology",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/k/r/a/krausz-873578.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://telex.hu/techtud/2026/11/27/cmf-molekularis-ujjlenyomat-kutato-kozpont-krausz-ferenc-finanszirozas-tudomanyos-technologiai-miniszterium",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/cimke/finanszírozás",
+          "https://www.portfolio.hu/cimke/lézer",
+          "https://www.portfolio.hu/cimke/tudomány",
+          "https://www.portfolio.hu/cimke/kutatás-fejlesztés",
+          "https://www.portfolio.hu/cimke/Magyar Tudományos Akadémia",
+          "https://www.portfolio.hu/cimke/bill gates",
+          "https://www.portfolio.hu/cimke/felsőoktatás",
+          "https://www.portfolio.hu/cimke/orvostudomány",
+          "https://www.portfolio.hu/cimke/ingatlanberuházás",
+          "https://www.portfolio.hu/cimke/krausz ferenc",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "ceb8538882d5c4af330f579d52752359611a013afb12ede2ad292f2e90f05995",
+        "variants": {
+          "original": {
+            "body": "A CMF-et fenntartó Élvonal Alapítványt 2026 augusztusának végén törölték a nyilvántartásból, tulajdonosi jogait a TTM vette át, a központ ügyvezetője pedig Krausz Ferenc marad. A korábbi közfeladat-finanszírozási szerződés legfeljebb év végéig érvényes, így a nyár óta befagyasztott, több mint 34 milliárd forint visszakerül a költségvetésbe, míg augusztustól decemberig 7,6 milliárd forintot biztosítanak a működésre és a beruházás lezárására. Jövőre az állami finanszírozás évi 4 milliárd forintra csökken, az épület eredeti rendeltetése pedig megváltozik, és várhatóan felsőoktatási célokat szolgál majd kollégiumként vagy kutatási-oktatási központként. A Magyar tudósok körútján zajló ingatlanberuházás mélyépítési szakaszát a CMF zárja le, a kivitelezést a Közlekedési és Beruházási Minisztérium veszi át, emellett a finanszírozási bizonytalanságok miatt a biobankhoz szükséges vérmintagyűjtés átmenetileg szünetel."
+          },
+          "tolkien": {
+            "title": "A kincstár árnyéka és a tudomány csarnokainak változása",
+            "body": "Az Élvonal Alapítvány nevére sötét árny borult, midőn 2026 augusztusának végén eltörölték a nyilvántartásból, és a tulajdonjog tiszte ércét a TTM ragadta magához, míg Krausz Ferenc őrzi a kutatások lángját. A kincstár mélyébe visszahullott több mint harmincnégy milliárd aranytallér, amely eddig fagyott lakat alatt várt, miközben az év maradék hónapjaira csupán hétmilliárd hatszázmillió jut a működés parazsának életben tartására, jövőre pedig négy milliárdra apad az állami adomány. A Magyar tudósok körútján épülő kőfalak sorsa is kifordul medréből, mert az épületet felsőoktatási csarnokká vagy kollégiummá formálják, a mélyépítés végeztével pedig a Közlekedési és Beruházási Minisztérium emeli magasba a pallost. A szent vérminták gyűjtésének szövetsége is megakad a bizonytalanság hálójában, míg a birodalmi átvilágítás tüze meg nem vizsgálja a tudomány igazi súlyát."
+          },
+          "reito": {
+            "title": "Húzzák a vészféket a laborban: milliárdok tűnnek el, de a professzor marad",
+            "body": "Az Élvonal Alapítvány nem bírta ki 2026 augusztusának végét, a nyilvántartásból egy tollvonással kihúzták, a kulcsokat pedig átadták a TTM-nek, míg Krausz Ferenc vitézül a fedélzeten marad irányítani a lézereket. A kifizetetlen, harmincnégy milliárdot meghaladó összeg nyár óta a fagyasztóban pihent, most viszont egy füst alatt visszavándorol a költségvetésbe, hogy aztán augusztustól decemberig szűk markú 7,6 milliárdból gazdálkodjanak, jövőre meg már be is érjék évi 4 milliárddal. A Magyar tudósok körútján épülő betonkolosszus is új életet kezdeményez: a mélyépítés után a Közlekedési és Beruházási Minisztérium veszi át a stafétát, hogy aztán az egészet átalakítsák valami egyetemi kollégiummá vagy oktatási központtá. A vérminták gyűjtése is nagyszerűen alakul, ugyanis a pénzügyi viharok közepette egyelőre elegánsan szünetel."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -3240,10 +4111,74 @@
         "foreign"
       ],
       "image": "https://pcdn.hu/articles/images-xl/6/2/5/6252b8c3-d49a-4926-8eb9-e5e780edf4c7-801166.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "Üzent Trumpnak Zelenszkij: ez olyan, mintha valaki Adolf Hitler barátja lett volna",
+        "url": "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+        "published": "Fri, 27 Nov 2026 20:32:00 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/6/2/5/6252b8c3-d49a-4926-8eb9-e5e780edf4c7-801166.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.bbc.com/news/articles/c820q9wgrpyyo",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/global/20261127/menekulnek-az-orosz-hajok-hiaba-vannak-tobb-ezer-kilometerre-az-ukran-fronttol-879804",
+          "https://www.portfolio.hu/global/20261127/megelegeltek-a-harcteri-kudarcokat-oroszorszagban-racs-moge-kerult-putyin-kulcsembere-879794",
+          "https://www.portfolio.hu/cimke/Donald Trump",
+          "https://www.portfolio.hu/cimke/vlagyimir putyin",
+          "https://www.portfolio.hu/cimke/ukrajna",
+          "https://www.portfolio.hu/cimke/volodimir zelenszkij",
+          "https://www.portfolio.hu/cimke/starlink",
+          "https://www.portfolio.hu/cimke/giorgia meloni",
+          "https://www.portfolio.hu/cimke/orosz-ukrán háború",
+          "https://www.portfolio.hu/cimke/sahed drón",
+          "https://www.portfolio.hu/cimke/patriot légvédelmi rendszer",
+          "https://www.portfolio.hu/cimke/Egyesült Államok",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "1a75268fbe71f0a4d7c76d91048f827ce9740597209a4ecb86ae7b460ae6dd5b",
+        "variants": {
+          "original": {
+            "body": "Volodimir Zelenszkij ukrán elnök a BBC-nek nyilatkozva kritizálta Donald Trump amerikai elnököt az orosz vezetővel közös fotója miatt, a gesztust pedig Adolf Hitler korábbi barátságához hasonlította, miközben az Egyesült Államok közel-keleti fókuszvesztése és a Starlink-rendszer korlátozásai miatt Ukrajna súlyos légvédelmi és frontvonali nehézségekkel küzd. A Külföld rovat híre szerint a diplomáciai feszültségeket tovább élezi, hogy a Jared Kushner és Steve Witkoff által vezetett amerikai egyeztetések nem hoztak áttörést, az október eleji abu-dabi tárgyalások után Oroszország visszatért a keményvonalas követelésekhez, a decemberben folytatódó egyeztetéseken pedig kérdésessé vált az európai felek részvétele. A gyakorlati következmény az, hogy az elfogórakéták hiánya, valamint a megszállt területeken korlátozott Starshield és Starshield-változatok miatt az ukrán erők nem tudják megállítani a ballisztikus rakétákat és a belső területekre behaladó Sahed drónokat, miközben a keleti-líbiai partoknál elsüllyesztett Merkurij nevű orosz hadihajó ügyében Giorgia Meloni olasz miniszterelnök a háború földközi-tengeri kiterjesztésének veszélyére figyelmeztetett."
+          },
+          "tolkien": {
+            "title": "A birodalmak árnyéka és az acél szárnyán érkező vihar",
+            "body": "Volodimir Zelenszkij ukrán vezér a BBC krónikásainak nyilatkozva emelte szavát Donald Trump amerikai vezető ellen, amiért az átölelte a fagyos észak urát, s e cselekedetet a sötét korok Adolf Hitlerével kötött szövetséghez mérte. E sötét Külföld rovatba tartozó időkben a Jared Kushner és Steve Witkoff által egyengetett követségek útjai elakadtak, az októberi abu-dabi gyűlések után Moszkva ura visszatért hajthatatlan törvényeihez, és a decemberi nagy gyűlés kapui is zárva maradhatnak az európai seregek elől. A harcmezők felett a fénylő pajzsok hiánya és a Starlink égi hálójának lezárása nyitott kaput hagyott a ballisztikus rúnáknak és a Sahed drónok szárnyas veszedelmének, amelyek akadálytalanul pusztítják a belső vidékovokat. Miközben a fegyverek fémjelezte viharban a keleti-líbiai partoknál vízbe merült a Merkurij nevű orosz hadihajó, Giorgia Meloni olasz fejedelem asszony az egész tengerre átterjedő lángok veszedelméről jövendölt."
+          },
+          "reito": {
+            "title": "Hitleres hasonlatok a Fehér Ház udvarán és süllyedő hadihajók Líbia partjainál",
+            "body": "Volodimir Zelenszkij a BBC mikrofonjai előtt osztotta ki Donald Trumpot egy átölelős fotó miatt, a frigyet pedig bájosanhöz hasonlította ahhoz, mintha valaki Adolf Hitler haverja lett volna anno. A Külföld rovat ezen fejezete szerint Jared Kushner és Steve Witkoff békemissziója annyira jött össze, hogy az októberi abu-dabi megbeszélések után Oroszország visszatért a hajthatatlan követeléseihez, sőt, az is rejtély, hogy a decemberi fordulón az európaiak egyáltalán asztalhoz ülhetnek-e. A büfében maradás ára nem csekély: a Patriotok és az elfogórakéták késlekedése, valamint a Starlink lekapcsolása miatt a Sahed drónok akadálytalanul cirkálnak ukrán égbolton, miközben az olajfinomítók mellett a héten a Merkurij nevű orosz hadihajó is alulról szagolta az ibolyát a kelet-líbiai partoknál, kiváltva Giorgia Meloni olasz kormányfő heves tiltakozását a földközi-tengeri kiterjesztés miatt."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -3394,10 +4329,34 @@
         "belfold"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Döntetlen a forduló rangadóján – az ETO és a DVSC is továbbnyújtotta veretlen sorozatát",
+        "url": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/dontetlen-a-fordulo-rangadojan-az-eto-es-a-dvsc-is-tovabbnyujtotta-veretlen-sorozatat",
+        "published": "Fri, 27 Nov 2026 20:32:00 +0000",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "8680ed43a5adb7da68010bad580f555d1bbff70b585670b489af29b6f28bb2c5",
+        "variants": {
+          "original": {
+            "body": "A labdarúgó NB I 15. fordulójában, november végén az ETO Stadionban megrendezett ETO FC–Debreceni VSC mérkőzésen 2–2-es döntetlen született 4792 néző előtt, Karakó Ferenc játékvezető sípszó mellett. A találkozón a győriektől Luka Kulenovic szerezte meg a gólt a 33. és a 81."
+          },
+          "tolkien": {
+            "title": "A győri fagy mezsgyéjén felsejlő iker-döntetlen krónikája",
+            "body": "A fagy birodalmában, a győri ETO Stadion jeges gyepén, a labdarúgó NB I tizenötödik viadalán esett egymásnak a tabellát uraló két büszke sereg, az ETO FC és a Debreceni VSC, hogy 4792 lélek szemlélte mellett negyvennyolc perc alatt kétszer is megpecsételjék a sorsukat. Az összecsapás viharos hullámain Luka Kulenovic duplája (a 33. és a 81. minutumban) villant fel a hazaiak oldaláról, míg a debreceni tábor Dzsudzsák Balázs harminckilencedik percben beváltott büntetőjével és Kocsis Dominik ötvennegyedik percben született remek találatával válaszolt."
+          },
+          "reito": {
+            "title": "Hó, balhé és iksz: így békésen senki sem dőlt hátra Győrben",
+            "body": "A labdarúgó NB I 15. fordulójában, a zord, nulla fok körüli győri téli este melegében az ETO Stadion 4792 nézője kísérte figyelemmel, amint az ETO FC és a Debreceni VSC végül 2–2-es békés, mégis feszült döntetlent hozott össze a pályán. A gólgyártásból Luka Kulenovic vette ki a részét kétszer (a 33. és a 81."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -3436,10 +4395,44 @@
         "nba"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Nagyot küzdött a magyar válogatott, de fájó vereséget szenvedett Svédországban",
+        "url": "https://nbanews.hu/magyar-kosarlabda-valogatott-svedorszag-vb-selejtezo/",
+        "published": "Fri, 27 Nov 2026 20:29:13 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.facebook.com/profile.php",
+          "https://x.com/nbanews_hu",
+          "https://nbanews.hu/wp-content/uploads/2026/11/Kepernyokep-2026-11-27-212055.png",
+          "https://www.eredmenyek.com/merkozes/kosarlabda/magyarorszag-UDBtdAnB/svedorszag-fuqXiPgO/",
+          "https://m4sport.hu/kosarlabda/cikk/2026/11/27/csomagok-nelkul-de-elindult-stockholmba-a-kosarvalogatott",
+          "https://www.eredmenyek.com/merkozes/kosarlabda/magyarorszag-UDBtdAnB/szlovenia-vHfUe4nd/",
+          "https://nbanews.hu/nba-kupa-csoportkor-tovabbjutas/",
+          "https://nbanews.hu/szerzo/takacs-marcell/",
+          "https://www.google.com/preferences/source"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "ab272c5d21bdd7fd3c5ea702c9ba51a41b44ea60644f99491821830363846c29",
+        "variants": {
+          "original": {
+            "body": "A magyar férfi kosárlabda-válogatott 88–81-re kikapott Svédországtól Stockholmban a 2027-es világbajnokság európai selejtezősorozatában. A vereség nyomán nehezebbé vált a világbajnoki kijutás a hatcsapatos csoportból, de Gasper Okorn együttese hétfőn 18 órakor a szombathelyi Schaeffler Arena Savariában hazai pályán, Szlovénia ellen javíthat. A stockholmi összecsapást megelőzően a küldöttség útja rendkívüli időjárási és logisztikai nehézségekkel küzdött, emellett a sérült Nate Reuvers sem állhatott a szakmai stáb rendelkezésére. A meccsen Somogyi Ádám 20 ponttal, 6 gólpasszal, 3 lepattanóval és 2 labdaszerzéssel a magyar csapat legeredményesebb játékosa lett."
+          },
+          "tolkien": {
+            "title": "A skandináv jégmezők vihara és a magyar küldöttség küzdelme",
+            "body": "A magyar férfi kosárlabda-válogatott serege 88–81 arányú, fájó vereséget szenvedett el Svédország földjén a 2027-es világbajnokság európai selejtezőjének csatájában. Az elemek haragja és az eltévedt poggyászok átka által sújtott sereg a tizennégy pontos szakadékból is feltámadt, ám a végítélet órájában két svéd nyílvesszőként hatoló hárompontos pecsételte meg sorsukat. A dicső harcmezőt elhagyva azonban új pirkadat virrad, mert Gasper Okorn fiai hétfőn 18 órakor a szombathelyi Schaeffler Arena Savariában feszülnek neki Szlovénia csapatának, hogy hazai földön köszörüljék ki a csorbát. A harcban Somogyi Ádám húsz ponttal és huszonötös teljesítményindexszel vezette a magyar hadat, míg a csoport trónján ülő franciák már kivívták a katari utat."
+          },
+          "reito": {
+            "title": "Bőrönd nélkül Stockholmba: utazási kalandok és kosarak",
+            "body": "A magyar férfi kosárlabda-válogatott 88–81-es vereséggel zárta stockholmi vendégjátékát a 2027-es világbajnokság európai selejtezőjében, miután a csomagok egy része Bécsben ragadt, a honosított Nate Reuvers pedig sérülés miatt hiányzott. A csapat egy tizennégy pontos gödörből kimászva szorossá tette a meccset, de a végén két svéd hárompontos pontot tett a történet végére. A sebek nyalogatására nem sok idő marad, hiszen Gasper Okorn csapata hétfőn 18 órakor a szombathelyi Schaeffler Arena Savariában fogadja Szlovéniát a következő selejtezőn. A parketten Somogyi Ádám vitte a prímet húsz ponttal és huszonötös teljesítményindexszel, míg a franciák már le is foglalták a jegyüket Katarba."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -3460,10 +4453,34 @@
         "foreign"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "444.hu",
+        "title": "A Földközi-tengeren is zajlik az orosz-ukrán háború, egy orosz katonai hajókonvoj inkább vissza is fordult, nehogy elsüllyesszék az ukrán drónok",
+        "url": "https://444.hu/2026/11/27/a-foldkozi-tengeren-is-zajlik-az-orosz-ukran-haboru-egy-orosz-katonai-hajokonvoj-inkabb-vissza-is-fordult-nehogy-elsullyesszek-az-ukran-dronok?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Fri, 27 Nov 2026 21:08:32 +0100",
+        "categories": [
+          "foreign"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "d511f6f056d8e5b48025db66eed1ec9ae16289bf5dc6a2e83fe76287bb77e457",
+        "variants": {
+          "original": {
+            "body": "A Földközi-tengeren egy Líbiába tartó, katonai járműveket szállító orosz hajókonvoj visszafordult, miután ukrán tengeri drónok november 22-én elsüllyesztettek egy orosz haditengerészeti korvettet a bengázi kikötőben. A Golovko nevű orosz haditengerészeti fregatt által kísért konvoj a támadás napján a Szicíliai-szoros közelében fordult vissza, a járműveket pedig európai és közel-keleti források szerint valószínűleg Nyugat-Afrikába szánták az orosz Afrika-hadtest számára, míg egy európai forrás szerint néhányat a Líbia keleti részét ellenőrző milícia kapott volna. Oroszország és Ukrajna többször is támadta egymás hajóit a Fekete-tengeren, de a Földközi-tengeren az ilyen incidensek ritkák, az orosz védelmi minisztérium pedig nem reagált azonnal a Reuters megkeresésére. Az Afrika-hadtest a Wagner-csoport helyét átvéve támogatja Mali kormányát a fegyveres iszlamista csoportok elleni műveletekben, míg a mostani fejlemény a Földközi-tengerre is kiterjedő orosz-ukrán harcok keretében érintette a nemzetközi vizeken közlekedő katonai konvojokat."
+          },
+          "tolkien": {
+            "title": "A Földközi-tenger hullámain is utoléri az árnyék a birodalom hajóit",
+            "body": "A Földközi-tenger habjai között egy Líbiába tartó, fegyveres szekereket és harci gépezeteket hordozó orosz hajóhad vetette hátra horgonyát és fordult vissza, miután ukrán tengeri drónok november 22-én a bengázi kikötő sötét vizébe merítettek egy orosz haditengerészeti korvettet. A Golovko nevű fenséges fregatt kíséretét élvező konvoj a végzetes napon a Szicíliai-szoros szűk kapujánál hátrált meg, elkerülve a mélyebb vizek veszedelmeit. A harci eszközök sorsa szerint a terhek Nyugat-Afrikába, az Afrika-hadtest táborai felé indultak volna, míg egyes hírek szerint Kelet-Líbia uraiként ismert milíciák is kaptak volna belőlük ajándékot. Míg a Fekete-tenger bércei és hullámai gyakran láttak ilyen viharokat, a Földközi-tengeren ritkán dörögtek e fegyverek, az orosz védelmi minisztérium csarnokaiból pedig nem érkezett válasz a krónikások kérdéseire."
+          },
+          "reito": {
+            "title": "Fregatt a pácban: mikor a drónok miatt inkább mégse köttünk ki Líbiában",
+            "body": "A Földközi-tengeren egy Líbiába tartó, katonai járművekkel teli orofosz hajókonvoj méltóságteljes helyett inkább ijedt hátraarcot csinált, miután ukrán tengeri drónok november 22-én egyenesen a bengázi kikötő fenekére küldtek egy orosz korvettet. A Golovko nevű fregatt által terelgetett konvoj a támadás napján a Szicíliai-szorosnál gondolta meg magát alaposan, mielőtt még nagyobb bajba keveredne. A szállítmányt a hírek szerint Nyugat-Afrikába szánták az Afrika-hadtestnek, bár egy európai forrás szerint a keleti líbiai milícia is kaphatott volna a katonai járművekből a bevásárlólistáról. Míg a Fekete-tengeren már megszokottá vált ez a fajta szívességcsere a felek között, a Földközi-tengeren ez kifejezetten ritka mutatványnak számít, az orosz védelmi minisztérium pedig eddig meglepően szűkszavúnak bizonyult."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -3476,10 +4493,73 @@
         "belfold"
       ],
       "image": "https://pcdn.hu/articles/images-xl/o/r/b/orban-arpad-873580.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "A Tisza fővárosi frakciójából nevezték ki a Városliget Zrt. új vezetőjét",
+        "url": "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+        "published": "Fri, 27 Nov 2026 21:15:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/o/r/b/orban-arpad-873580.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://hang.hu/belfold/tiszas-politikus-lett-a-varosliget-zrt-igazgatosaganak-elnoke-194223",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/cimke/budapest",
+          "https://www.portfolio.hu/cimke/minimálbér",
+          "https://www.portfolio.hu/cimke/kinevezés",
+          "https://www.portfolio.hu/cimke/közgazdász",
+          "https://www.portfolio.hu/cimke/városliget",
+          "https://www.portfolio.hu/cimke/fővárosi közgyűlés",
+          "https://www.portfolio.hu/cimke/2026",
+          "https://www.portfolio.hu/cimke/állami cég",
+          "https://www.portfolio.hu/cimke/minimálbér 2026",
+          "https://www.portfolio.hu/cimke/tisza-kormány",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "9377c1f640e1de5ae9561e714819f399b6c81456eded8317cebca71ebe678766",
+        "variants": {
+          "original": {
+            "body": "Orbán Árpád Istvánt, a Tisza fővárosi frakciójának tagját és a Tulajdonosi Bizottság elnökét nevezték ki a kizárólagos állami tulajdonban lévő Városliget Zrt. új vezetőjévé. A kinevezést a Tisza-kormány kultúráért felelős minisztere, Tarr Zoltán gyakorolta, a megbízatás pedig november 1-jén lépett életbe. Az új elnök feladatai ellátásáért a 2026-os minimálbér kétszeresét, havonta bruttó 645 600 forintot kap."
+          },
+          "tolkien": {
+            "title": "A Liget Új Őrzője: Fővárosi Seregtestből a Város Trónusára",
+            "body": "A birodalom kincseit őrző, kizárólagos állami birtokú Városliget Zrt. élére Orbán Árpád Istvánt, a Tisza fővárosi frakciójának bajnokát és a Tulajdonosi Bizottság vezérlőjét rendelték. A hatalom jogosultja, Tarr Zoltán, a kultúra minisztere pecsételte meg a sorsot, a megbízatás pedig az őszi napon, november 1-jén lépett életbe. A fejedelmi tisztségért a hős a 2026-os minimálbér kétszeresét, havonta bruttó 645 600 aranyat érő forintot vehet át."
+          },
+          "reito": {
+            "title": "A Tisza frakcióból a kasszáig: Így lett a fővárosi arcból ligetelnök",
+            "body": "Orbán Árpád Istvánt, a Tisza fővárosi frakciójának fenegyerekét és a Tulajdonosi Bizottság elnökét ültették a kizárólagos állami tulajdonú Városliget Zrt. élére. Az üzletet a Tisza-kormány kultúráért felelős minisztere, Tarr Zoltán hozta tető alá, a pecsét pedig november 1-jén került a papírra. Az új főnök nem jön el üres kézzel, hiszen a fáradozásaiért a 2026-os minimálbér dupláját, havi bruttó 645 600 forintot tehet zsebre."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
@@ -3493,10 +4573,74 @@
         "foreign"
       ],
       "image": "https://pcdn.hu/articles/images-xl/d/a/k/dakar-szenegal-nyugat-afrika-815122.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Portfolio.hu",
+        "title": "A csőd szélén táncol egy ország, mindent megtesz a parlament, hogy összeomoljanak",
+        "url": "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+        "published": "Fri, 27 Nov 2026 21:05:00 +0100",
+        "categories": [
+          "parliament",
+          "belfold",
+          "foreign"
+        ],
+        "image": "https://pcdn.hu/articles/images-xl/d/a/k/dakar-szenegal-nyugat-afrika-815122.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.google.com/preferences/source",
+          "https://www.reuters.com/world/africa/senegal-parliament-adopts-resolution-opposing-presidents-decision-implement-2026-11-25/",
+          "https://www.portfolio.hu/gazdasag/20261127/lepett-az-sp-leminosites-kuszoben-a-franciak-879826",
+          "https://www.portfolio.hu/gazdasag/20261127/megszolalt-karman-andras-az-sp-lepese-utan-879824",
+          "https://www.portfolio.hu/gazdasag/20261127/meg-egy-ajandekot-kapott-magyarorszag-ujabb-hitelminosito-javitott-a-kilatasunkon-879822",
+          "https://www.portfolio.hu/cimke/Nemzetközi Valutaalap",
+          "https://www.portfolio.hu/cimke/költségvetés",
+          "https://www.portfolio.hu/cimke/morgan stanley",
+          "https://www.portfolio.hu/cimke/imf",
+          "https://www.portfolio.hu/cimke/imf-hitel",
+          "https://www.portfolio.hu/cimke/adósságválság",
+          "https://www.portfolio.hu/cimke/afrika",
+          "https://www.portfolio.hu/cimke/dollárkötvény",
+          "https://www.portfolio.hu/cimke/adósságrendezés",
+          "https://www.portfolio.hu/cimke/szenegál",
+          "https://www.portfolio.hu/gazdasag",
+          "https://www.portfolio.hu/gazdasag/20261127/azt-igeri-az-ekb-alelnoke-hogy-legkozelebb-nem-okoznak-meglepetest-879820",
+          "https://www.portfolio.hu/gazdasag/20261127/a-tisza-fovarosi-frakciojabol-neveztek-ki-a-varosliget-zrt-uj-vezetojet-879818",
+          "https://www.portfolio.hu/gazdasag/20261127/a-csod-szelen-tancol-egy-orszag-mindent-megtesz-a-parlament-hogy-osszeomoljanak-879816",
+          "https://www.portfolio.hu/gazdasag/20261127/meglepte-a-kormany-hatalmas-osszeget-vonnak-el-a-nobel-dijas-magyar-tudos-kutatokozpontjatol-879814",
+          "https://www.portfolio.hu/global/20261127/uzent-trumpnak-zelenszkij-ez-olyan-mintha-valaki-adolf-hitler-baratja-lett-volna-879812",
+          "https://www.portfolio.hu/global",
+          "https://indexadhu.hit.gemius.pl/hitredir",
+          "https://www.portfolio.hu/premium/20261126/epitkezes-a-szomszedban-igy-csokkenthetok-a-zavaro-tenyezok-878980",
+          "https://www.portfolio.hu/gazdasag/20261127/tisza-kormany-oriasi-a-kulonbseg-a-kormanypart-es-a-fidesz-kozott-879574",
+          "https://www.portfolio.hu/global/20261127/meg-mindig-nem-mukodik-az-ukranok-egyik-legfontosabb-fegyvere-tobb-szaz-kilometerre-a-hatartol-langol-az-orosz-gyar-haborus-hireink-penteken-879532",
+          "https://www.portfolio.hu/uzlet/20261124/a-legmagasabb-szintu-riasztast-rendelte-el-a-microsoft-878834",
+          "https://www.portfolio.hu/gazdasag/20261121/megjott-a-legfontosabb-tablazat-a-2027-es-minimalberrol-ennyi-lesz-a-brutto-es-netto-minimalber-877878",
+          "https://www.portfolio.hu/gazdasag/20261124/akkora-havazas-erkezik-magyarorszagra-hogy-a-teljes-teli-gepparkot-csatasorba-allitjak-a-kozutakon-878792",
+          "https://www.portfolio.hu/unios-forrasok/20261126/a-meszarosek-epitette-duna-hidat-vizsgalta-az-olaf-tobb-mint-20-milliard-forintot-bukott-magyarorszag-879232",
+          "https://www.portfolio.hu/gazdasag/20261124/megerkezett-a-hoterkep-itt-feheredhet-ki-a-taj-magyarorszagon-878756",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3038",
+          "https://www.portfolio.hu/investmentservices/oktatas/webinarium/3002",
+          "https://www.portfolio.hu/podcast",
+          "https://www.portfolio.hu/podcast/20261127/regen-minden-jobb-volt-europa-cserbenhagyta-a-fiatalokat-879762",
+          "https://www.portfolio.hu/podcast/20261127/mit-tudnak-a-jegybankok-amit-a-kisbefektetok-nem-erdekes-folyamatok-zajlanak-az-aranypiacon-879514",
+          "https://www.portfolio.hu/podcast/20261127/appot-fejleszteni-ma-mar-gyerekjatek-igy-kell-belole-nemzetkozi-sikert-epiteni-876968"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "782a770c9276ea290a255a1db7d7618b7d9d9fd2a26d60815efa5d4d981655f5",
+        "variants": {
+          "original": {
+            "body": "Szenegálban a 2,2 milliárd dolláros IMF-hitel és az adósságrendezés került veszélybe azután, hogy Bassirou Diomaye Faye elnök rendelettel léptette életbe az egyszer már leszavazott költségvetési módosítást. A nyugat-afrikai állam parlamentje szerdán 128 szavazattal 9 ellenében elítélte az államfőt, mivel a törvényhozási többséget a saját korábbi miniszterelnöke vezeti. A belföldi parlamenti konfliktus és a költségvetési adatok hitelességével kapcsolatos viták nehezítik, hogy a Nemzetközi Valutaalap igazgatótanácsa jóváhagyja a hároméves hitelprogramot, és hogy az ország még az idén lezárja adósságának átstrukturálását. A 2033-ban lejáró dollárkötvény tulajdonosai ugyanakkor a héten megkapták az esedékes kifizetést, így az ország egyelőre időt nyert az alkura."
+          },
+          "tolkien": {
+            "title": "A Sötét Rendelet Árnyéka és a Megtört Trónus",
+            "body": "Szenegál földjén a hatalom csarnokaiban vihar ébredt, miután Bassirou Diomaye Faye elnök rendelettel törte át a törvényhozás akaratát, veszélybe sodorva a 2,2 milliárd dolláros IMF-hitelt és a birodalom adósságrendezését. A nyugat-afrikai állam parlamentje szerdán 128 igennel és 9 nemmel fegyverezte le az elnöki akaratot, miután a korábbi miniszterelnök által vezetett belföldi parlament egységbe kovácsolódott a dacszövetségben. Ez a belső szakadás és a titkolt adósságok nehéz köve megakadályozhatja, hogy a Valutaalap igazgatótanácsa jóváhagyja a hároméves hitelprogramot, és hogy az ország időben révbe érjen az adósság tengerén. A 2033-ban lejáró dollárkötvények uraiként a hitelezők e héten még megkapták a nekik járó részesedést, így a birodalom egyelőre haladékot kapott a vészes időkben."
+          },
+          "reito": {
+            "title": "Költségvetési póker és lángoló mandátumok Szenegálban",
+            "body": "Szenegálban a 2,2 milliárd dolláros IMF-hitel és az adósságrendezés sorsa bizonytalanodott el, miután Bassirou Diomaye Faye elnök egy tollvonással, rendelettel érvényesítette a parlament által egyszer már kukába dobott költségvetési módosítást. A belföldi törvényhozás szerdán 128 a 9 ellenében arányú szavazással hűtötte le az államfőt, bizonyítva, hogy a saját ex-miniszterelnöke által irányított parlament nem osztja a megmentőnek szánt osztalékot. Ezzel a házi háborúval és a korábban eltitkolt hitelekkel a nyakukban nem sok esély maradt arra, hogy a Valutaalap simán rábólintson a hároméves hitelprogramra vagy az adósságcsomag év végi átstrukturálására. Szerencsére a 2033-ban lejáró dollárkötvények tulajdonosai a héten még zsebre vágták a pénzüket, így a Szenegáli Köztársaság egyelőre időt nyert a következő pénzügyi kanyar előtt."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Origo.hu",
@@ -3595,10 +4739,61 @@
         "belfold"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/01246aa7-720d-4c30-b4b1-792535ac1057.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "HVG",
+        "title": "A Tisza második hitelminősítése: Magyarország megúszta a bóvlit az S&P-nél",
+        "url": "https://hvg.hu/gazdasag/20261127_s-p-2026-november-minosites-hitelminosites-negativ-stabil-bovli-ertekeles-ebx",
+        "published": "Fri, 27 Nov 2026 21:18:56 Z",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/01246aa7-720d-4c30-b4b1-792535ac1057.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://hvg.hu/cimke/s-p",
+          "https://hvg.hu/gazdasag/20260529_s-p-minosites-hitelminosites-koltsegvetes-allamadossag-tulzottdeficit-eljaras",
+          "https://hvg.hu/gazdasag/20261120_moodys-2026-november-stabil-negativ-ebx",
+          "https://hvg.hu/360/20261127_hvg-louis-ck-amerikai-komikus-magyar-gyokerek-me-too",
+          "https://hvg.hu/gazdasag/20261127_s-p-2026-november-minosites-hitelminosites-negativ-stabil-bovli-ertekeles-ebx",
+          "https://hvg.hu/itthon/20261127_meghalt-a-mezokovesdi-vonatbaleset-serultje",
+          "https://hvg.hu/itthon/20261127_republikon-intezet-novemberi-partpreferencia-tisza-fidesz",
+          "https://hvg.hu/sport/20261127_schafer-andras-orban-viktor-politika-magyar-foci-sport-partizan",
+          "https://hvg.hu/360/20261127_pete-hegseth-vedelmi-miniszter-usa-biztonsagpolitika-alkotmanyos-vademeles-hvg",
+          "https://hvg.hu/itthon/20261127_rakay-philip-diplomata-utlevel-szijjarto-peter",
+          "https://hvg.hu/360/20261127_hvg-szent-laszlo-ereklye-mezokovesd-archeogenetika",
+          "https://hvg.hu/360/20261127_ai8-turbine-gyogyszerfejlesztes-szalay-kristof-interju",
+          "https://hvg.hu/vilag/20261127_orosz-kulonleges-erok-halalozas-statisztika",
+          "https://hvg.hu/itthon/20261127_baka-andras-kinevezte-a-legfobb-ugyesz-helyetteset",
+          "https://hvg.hu/itthon/20261127_varosliget-zrt-tisza-part-orban-arpad-istvan",
+          "https://pulzus.hvg.hu/pszichologia/20261127_idegenekkel-beszelgetes-small-talk-miert-jo-hogyan-csinaljuk",
+          "https://pulzus.hvg.hu/egeszseg/20261127_elhizas-egeszsegugyi-kockazatai-hasi-zsir-gyermekkori-tulsuly",
+          "https://hvg.hu/itthon/20261127_budapest-fovarosi-kozgyules-november-fopolgarmesteri-hivatal-letszamleepites-szavazas",
+          "https://hvg.hu/elet/20261127_goroghne-bocskai-eva-tisza-frakcio-parlament-siras-politikus",
+          "https://hvg.hu/itthon/20261127_nemzeti-pedagogus-kar-megszunes-torvenyjavaslat",
+          "https://hvg.hu/gazdasag/20261127_azbesztszennyezes-palyazat-elutasitas-zalaegerszeg-kornyezetszennyezes-egeszsegugyi-kockazat",
+          "https://hvg.hu/itthon/20261127_balaton-part-siofok-setany-kerites-bontas",
+          "https://hvg.hu/360/20261124_a-fidesz-beagyazottsaga-egyszerre-rendult-meg-minden-tarsadalmi-retegben",
+          "https://hvg.hu/360/20261126_hamvay-peter-most-mulik-pontosan-fulszoveg-lapajanlo",
+          "https://hvg.hu/360/20261125_para-kovacs-imre-bunos-viszony-semjen-zsolt-velemeny",
+          "https://hvg.hu/360/20261126_network4-media-borsany-gyenes-andras-interju"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "453ce61df2902df6b54e2cde804ece5261ca6b7c169a7f71e3f6bda417f3ed65",
+        "variants": {
+          "original": {
+            "body": "Az S&P nemzetközi hitelminősítő megerősítette Magyarország adósbesorolását a BBB- szinten, egyben stabilra javította a leminősítésre utaló negatív kilátást a hazai belföldi gazdasági folyamatok és reformok értékelése alapján. Ezzel elkerülte az ország a befektetésre nem ajánlott, úgynevezett bóvli kategóriát a friss jelentés szerint. A hitelminősítő várakozásai alapján a költségvetési hiány 2026-ban a GDP 7,5 százaléka lesz, amely 2027-re 5 százalékra, 2028-ra pedig 4,5 százalékra csökkenhet, míg az államháztartás nettó adóssága 2028-ban a GDP 74,5 százalékán stabilizálódhat. A döntést az új Tisza-kormány által végrehajtott intézményi reformok, a lezárt kondicionalitási eljárás, a kiolvasztott uniós források (köztük a mintegy 10 milliárd eurós RRF-keret, a 15,5 milliárd eurónyi kohéziós forrás és a 2026 októberében megnyílt, akár 5,4 milliárd eurós SAFE eszköz) alapozták meg."
+          },
+          "tolkien": {
+            "title": "A bóvli árnyéka elől menekülő birodalom krónikája",
+            "body": "Az S&P hitelminősítő szigorú mérlegén megerősíttetett Magyarország sorsa a BBB- szint bizonytalan fokán, míg a sötétbe mutató negatív kilátás fátyla stabil fénnyel cserélődött fel a hazai belföldi tájak felett. Ez a megmenekülés távol tartotta a birodalmat a befektetésre nem méltó, mély vermektől, amelyeket a bóvli neveként ismernek a kereskedők. Az új Tisza-kormány által emelt intézményi reformok és a megnyitott kincstárak – a kiolvasztott rúnák, a 10 milliárd eurós RRF-keret, a 15,5 milliárd eurónyi kohéziós arany és a 2026 októberében elérhetővé vált 5,4 milliárd eurós SAFE pajzs – megtisztították az utat a ködös veszedelmektől. A bölcs számvetés szerint a hiány hegyei a következő esztendőkben lekopnak, és a nettó adósság súlya 2028-ra a GDP 74,5 százalékánál talál megnyugvást az euróövezeti vágyak csillagfényében."
+          },
+          "reito": {
+            "title": "Hitelminősítői kötéltánc: Magyarország éppenhogy megúszta a mélyrepülést",
+            "body": "Az S&P hitelminősítő megerősítette Magyarország adósbesorolását a BBB- szinten, és a lebegő bábu határozottságával stabilra pofozta a korábbi negatív kilátásokat a hazai belföldi színtéren. Ezzel a bravúrral az ország éppenhogy elkerülte a befektetők által csak bóvliként emlegetett pénzügyi zuhanórepülést. Az új Tisza-kormány kétharmados lendülettel végrehajtott reformjai és a kinyitott brüsszeli pénzcsapok – köztük a 10 milliárd eurós helyreállítási keret, a 15,5 milliárd eurónyi kohéziós adag és a 2026 októberében bevethető 5,4 milliárd eurós SAFE hitel – elégnek bizonyultak a megmentéshez. A papírforma szerint a költségvetési hiány 2026-ban még 7,5 százalékon tetőzik, ám a tervek szerint 2027-re 5, míg 2028-ra 4,5 százalékra olvad, utóbbi évben a nettó adósságot a GDP 74,5 százalékára betonozva be."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "HVG",
@@ -3611,10 +4806,61 @@
         "belfold"
       ],
       "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fd502cd9-cbb1-4794-8aca-104a1529d2de.jpg",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "HVG",
+        "title": "A Tisza fővárosi frakciójának vezetője lett a Városliget Zrt. igazgatóságának új elnöke",
+        "url": "https://hvg.hu/itthon/20261127_varosliget-zrt-tisza-part-orban-arpad-istvan",
+        "published": "Fri, 27 Nov 2026 20:42:25 Z",
+        "categories": [
+          "parliament",
+          "belfold"
+        ],
+        "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/fd502cd9-cbb1-4794-8aca-104a1529d2de.jpg",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://hang.hu/belfold/tiszas-politikus-lett-a-varosliget-zrt-igazgatosaganak-elnoke-194223",
+          "https://ligetbudapest.hu/kozerdeku-adatok/szervezeti-szemelyzeti-adatok",
+          "https://hvg.hu/360/20261127_hvg-louis-ck-amerikai-komikus-magyar-gyokerek-me-too",
+          "https://hvg.hu/gazdasag/20261127_s-p-2026-november-minosites-hitelminosites-negativ-stabil-bovli-ertekeles-ebx",
+          "https://hvg.hu/itthon/20261127_meghalt-a-mezokovesdi-vonatbaleset-serultje",
+          "https://hvg.hu/itthon/20261127_republikon-intezet-novemberi-partpreferencia-tisza-fidesz",
+          "https://hvg.hu/sport/20261127_schafer-andras-orban-viktor-politika-magyar-foci-sport-partizan",
+          "https://hvg.hu/360/20261127_pete-hegseth-vedelmi-miniszter-usa-biztonsagpolitika-alkotmanyos-vademeles-hvg",
+          "https://hvg.hu/itthon/20261127_rakay-philip-diplomata-utlevel-szijjarto-peter",
+          "https://hvg.hu/360/20261127_hvg-szent-laszlo-ereklye-mezokovesd-archeogenetika",
+          "https://hvg.hu/360/20261127_ai8-turbine-gyogyszerfejlesztes-szalay-kristof-interju",
+          "https://hvg.hu/vilag/20261127_orosz-kulonleges-erok-halalozas-statisztika",
+          "https://hvg.hu/itthon/20261127_baka-andras-kinevezte-a-legfobb-ugyesz-helyetteset",
+          "https://hvg.hu/itthon/20261127_varosliget-zrt-tisza-part-orban-arpad-istvan",
+          "https://pulzus.hvg.hu/pszichologia/20261127_idegenekkel-beszelgetes-small-talk-miert-jo-hogyan-csinaljuk",
+          "https://pulzus.hvg.hu/egeszseg/20261127_elhizas-egeszsegugyi-kockazatai-hasi-zsir-gyermekkori-tulsuly",
+          "https://hvg.hu/itthon/20261127_budapest-fovarosi-kozgyules-november-fopolgarmesteri-hivatal-letszamleepites-szavazas",
+          "https://hvg.hu/elet/20261127_goroghne-bocskai-eva-tisza-frakcio-parlament-siras-politikus",
+          "https://hvg.hu/itthon/20261127_nemzeti-pedagogus-kar-megszunes-torvenyjavaslat",
+          "https://hvg.hu/gazdasag/20261127_azbesztszennyezes-palyazat-elutasitas-zalaegerszeg-kornyezetszennyezes-egeszsegugyi-kockazat",
+          "https://hvg.hu/itthon/20261127_balaton-part-siofok-setany-kerites-bontas",
+          "https://hvg.hu/360/20261124_a-fidesz-beagyazottsaga-egyszerre-rendult-meg-minden-tarsadalmi-retegben",
+          "https://hvg.hu/360/20261126_hamvay-peter-most-mulik-pontosan-fulszoveg-lapajanlo",
+          "https://hvg.hu/360/20261125_para-kovacs-imre-bunos-viszony-semjen-zsolt-velemeny",
+          "https://hvg.hu/360/20261126_network4-media-borsany-gyenes-andras-interju"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "1651adfe3ee1356b837bf09947e33d9dfcd94280a6b2a857fb991f7b5681b5ef",
+        "variants": {
+          "original": {
+            "body": "Orbán Árpád István, a Tisza Párt budapesti frakciójának vezetője lett a Városliget Zrt. igazgatóságának új elnöke a magyar állam tulajdonában lévő cég honlapja szerint. A kulturális miniszter által irányított tárca indoklása alapján a kinevezés előnyt jelent a fejlesztési projektek döntéshozatalában és a gazdaságos üzemeltetésben, mivel a Budapesti Közgyűlésben is tevékenykedő politikus kiemelkedő vezetői és bankszakmai tapasztalattal rendelkezik. A megbízatás 2026."
+          },
+          "tolkien": {
+            "title": "A Liget Kapuinak Őrzője és a Város Uralkodóinak Tanácsa",
+            "body": "Orbán Árpád István, a Tisza népének fővárosi küldötte, a Városliget Zrt. nevű gazdag birodalom igazgatóságának új trónusára lépett a cég krónikái szerint. A magyar korona kincstárának fennhatósága alatt, a kultúra fejedelmének akaratából a vezetés azzal a hittel ruházta fel őt, hogy bankszakmai bölcsessége és közgazdasági tudása pajzsként szolgál majd a jövő építkezéseinél és a futó munkák őrzésénél. E sorsfordító megbízatás 2026."
+          },
+          "reito": {
+            "title": "A bankár a liget élén: amikor a minimálbér duplája is szép kilátás",
+            "body": "Orbán Árpád István, a Tisza Párt fővárosi frakcióvezetője foglalta el a Városliget Zrt. igazgatósági elnöki székét a cég saját honlapjának tanúsága szerint. A kultúráért felelős miniszter irányította tárca szerint a banki ismeretekkel megáldott közgazdász tökéletes választás a fejlesztési projektek felügyeletére és a gazdaságos üzemeltetés kigyomlálására. A hivatalos pecsét 2026."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -3626,10 +4872,34 @@
         "f1"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/9qerGBxUWoOCdbvioh8YMVUe-CL79NlZHU2OxfymQE8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcxMjI1NTc5YWNlYTQwOWU4ZWUxMTBiOWI4YzA1M2Q0.webp",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Norris szerint a Mercedes külön ligában van, a Ferrari nehéz hétvégére számít Katarban",
+        "url": "https://nemzetisport.hu/f1/2026/11/norris-szerint-a-mercedes-kulon-ligaban-van-a-ferrari-nehez-hetvegere-szamit-katarban",
+        "published": "Fri, 27 Nov 2026 21:03:33 +0000",
+        "categories": [
+          "f1"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/9qerGBxUWoOCdbvioh8YMVUe-CL79NlZHU2OxfymQE8/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzcxMjI1NTc5YWNlYTQwOWU4ZWUxMTBiOWI4YzA1M2Q0.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "cab4695d07c47fe51cdafc7b4f24f16fe5a7ff75448ad9d47cfadf426178ad7f",
+        "variants": {
+          "original": {
+            "body": "A katari szabadedzéseken a Mercedes meglepően nagy fölényt mutatott a katari nagydíjon, Andrea Kimi Antonelli és George Russell révén az élen végezve, míg a McLarennél Lando Norris és Oscar Piastri, illetve a Red Bull és a Ferrari is harcban áll a többi helyezésért. Norris szerint a Mercedes külön ligában versenyez, a Ferrari pedig nehéz hétvégére számít a sivatagi pályán, ahol Lewis Hamilton autója a villanyfényes gyakorlás végén meg is adta magát. A harmadik szabadedzéssel szombaton 15 óra 30 perckor folytatódik a program a hétvégén."
+          },
+          "tolkien": {
+            "title": "A sivatagi gyűrűn túl: a Mercedes fényes diadala és a bukottak árnyéka",
+            "body": "A katari nagydíj első megmérettetésein a Mercedes ezüstös serege bámulatos fölénnyel ragadta magához a hatalmat Loszaíl földjén, Andrea Kimi Antonelli és George Russell vezetésével messze maga mögé utasítva a többi nemzetséget. A McLaren és a Red Bull viharos harcot vív a harmadik helyért, ám Lando Norris bánatosan vallotta meg, hogy a Mercedes bajnokai elérhetetlen távolságban, egy másik birodalomban járnak. A Ferrari büszke harcosai, Charles Leclerc és a záporos éjszakában meghibásodott géppel küszködő Lewis Hamilton nehéz napokat élnek át e forró sivatagban. A harmadik szabadedzés harsonája szombaton 15 óra 30 perckor szólal meg újra, hogy eldöntse a szombati küzdelmek sorsát."
+          },
+          "reito": {
+            "title": "Loszaíli gyorshajtás: Mercedes-uralom a forró homoktengerben",
+            "body": "A katari nagydíj szabadedzésein a Mercedes olyan tempót diktált Loszaílban, hogy Andrea Kimi Antonelli és George Russell szinte külön bolygón körözött a mezőny többi tagjához képest. Lando Norris szerint a rivális már a saját ligáját játssza, míg a Ferrari pilótái, Charles Leclerc és Lewis Hamilton leginkább a túlélésért küzdöttek, különösen utóbbi, akinek az autója a villanyfényes gyakorlás végén egyszerűen megadta magát. A McLarennél szombaton már az új padlólemez is felkerül az autóra, hogy megpróbálja csökkenteni a lemaradást. A harmadik szabadedzésen, szombaton 15 óra 30 perckor pedig kiderül, ki tudja még kapkodni a lábát a szombati folytatás előtt."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -3641,10 +4911,34 @@
         "winter-sports"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/pvDBFJ8qGL70Dk3p8cTb_7DxRjwWioHN_quJmSnY0_A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkOGI2MDg4NWJhZjQxOWQ4NGY5OTZjYThkOTY1ZThk.webp",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Ismét fölényes győzelmet aratott a Ferencváros az osztrák jégkorongligában",
+        "url": "https://nemzetisport.hu/jegkorong/2026/11/ismet-folenyes-gyozelmet-aratott-a-ferencvaros-az-osztrak-jegkorongligaban",
+        "published": "Fri, 27 Nov 2026 20:48:03 +0000",
+        "categories": [
+          "winter-sports"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/pvDBFJ8qGL70Dk3p8cTb_7DxRjwWioHN_quJmSnY0_A/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNkOGI2MDg4NWJhZjQxOWQ4NGY5OTZjYThkOTY1ZThk.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "bf3db42f94e2db7a77aa18a03eded94917d31409a560bf3d016aaebf258ad8c2",
+        "variants": {
+          "original": {
+            "body": "A Nemzetközi Jégkorongliga (ICEHL) alapszakaszában a Ferencváros idegenben 9–3-ra győzte le a Vienna Capitals együttesét, amivel a zöld-fehérek megszerezték első bécsi sikerüket a sorozatban, és a biztos rájátszást érő hatodik helyet ostromolják. A találkozón a ferencvárosi gólszerzők közül Laskawy Ferenc mesterhármasig jutott, míg a többi találatot Silye, Savoie, Tammela, Dobos és Molnár D. szerezte, a sikernek köszönhetően pedig a csapat vasárnap az Innsbruck ellen folytathatja szereplését. Ez a kiütéses idegenbeli győzelem alapjaiban rendezi át a tabellát, hiszen a közvetlen rivális otthonában aratott sikeres roham végleg lőtávolba hozta a zöld-fehérek számára a rájátszást."
+          },
+          "tolkien": {
+            "title": "A bécsi jégmezők hódítója: győzedelmes vihar az osztrák fővárosban",
+            "body": "A Téli sportok csarnokának jeges küzdőterén a Ferencváros fiai fenséges diadalt arattak, mikor a Vienna Capitals otthonában kilenc találattal tiporták meg a hazaiak védelmét az osztrák ligában. A jeges mezők krónikájába égett ez az éjszaka, ahol Laskawy Ferenc háromszoros csapása és a zöld-fehéres had testületének rohamai végül kilenc–három arányú, dicsőséges diadalhoz segítették a csapatot. E fenséges fegyvertény gyümölcseként a ferencvárosi seregek most már a biztos rájátszás kapuját ostromolják ezen a téli viharon túl. Az acélos szárnyalású bajnokok diadala megnyitotta az utat a dicsőség felé, s a csarnok falai visszhangozzák a ferencvárosi hősök rettenthetetlen menetelését."
+          },
+          "reito": {
+            "title": "Kilencgólos gólzápor Bécsben: a Fradi jégre vitte a pontokat",
+            "body": "A Téli sportok szerelmesei örülhetnek, ugyanis a Ferencváros idegenben 9–3-ra mosta le a pályáról a Vienna Capitals gárdáját az osztrák jégkorongligában (ICEHL), megszerezve története első bécsi győzelmét. A jégen ezúttal Laskawy Ferenc vitte a prímet a mesterhármasával, miközben a fővárosi zöld-fehérek hálóőre, Nagy Kristóf védekezte ki a hazaiak rohamait, így a 4020 néző szeme láttára hozták el a pontokat. Ezzel a kiütéses sikerrel a Fradi már a biztos rájátszást érő hatodik helyet kergeti, vasárnap pedig az Innsbruck ellen bizonyíthat tovább. Ez a gólzáporos mészárlás alaposan felkavarta a ligát, és hamarosan a riválisok is megkapják a maguk jégbe hűtött adagját."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Nemzeti Sport",
@@ -3665,10 +4959,34 @@
         "belfold"
       ],
       "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "Nemzeti Sport",
+        "title": "Döntetlen a forduló rangadóján – az ETO és a DVSC is továbbnyújtotta veretlenségi sorozatát",
+        "url": "https://nemzetisport.hu/labdarugo-nb-i/2026/11/dontetlen-a-fordulo-rangadojan-az-eto-es-a-dvsc-is-tovabbnyujtotta-veretlensegi-sorozatat",
+        "published": "Fri, 27 Nov 2026 20:32:00 +0000",
+        "categories": [
+          "belfold"
+        ],
+        "image": "https://cdn.nemzetisport.hu/2026/11/ZLkW2XesgqetDjs4e8GOeiAy7zK_RGNWZ_fGyt1NyRQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50L2VkNDQwYzgxMzcxODQ2NTg4MzEwOTkwNGFiZDcwNzli.webp",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "8680ed43a5adb7da68010bad580f555d1bbff70b585670b489af29b6f28bb2c5",
+        "variants": {
+          "original": {
+            "body": "A Labdarúgó NB I 15. fordulójában a győri ETO FC és a Debreceni VSC 2–2-es döntetlent játszott az ETO Stadionban 4792 néző előtt, Karakó Ferenc játékvezető sípszó mellett. A hazaiak góljait Luka Kulenovic szerezte a 33. és a 81."
+          },
+          "tolkien": {
+            "title": "A Győri Bérc és a Hajdú Völgy Urainak Fegyverropogása",
+            "body": "Az északi fagy birodalmában, hol a tél első lehelete fagyasztotta a gyepet, az ETO FC és a Debreceni VSC népes seregcsapata feszült egymásnak az ETO Stadion falai között, 4792 lélek tanúskodásával. Karakó Ferenc bíró szigorú igazságosztása mellett Luka Kulenovic kettős csapása és a debreceni Dzsudzsák Balázs, valamint Kocsis Dominik válaszai viharként tépték a hálót, eldöntetlen dukátot hagyva a harcmezőn. E küzdelemben mindkét nemes ház továbbkovácsolta megmásíthatatlan veretlenségi pajzsát, elhozva sorozatban a hetedik békét a csatatéren. A viadal hírén leginkább a trón alatti lesben álló üldözők, a Puskás Akadémia és a Ferencváros seregei örvendhetnek a távolban."
+          },
+          "reito": {
+            "title": "Hóban, fagyban, kétgólos ikszben: a Loki és az ETO békésen osztozkodott",
+            "body": "A győri fagyban, ahol a nézők a meleg szobát cserélték fel a lelátóra, az ETO FC és a Debreceni VSC feszült egymásnak az NB I 15. fordulójában, és 4792 fültanú gyűrűjében 2–2-es békés döntetlennel zártak. Luka Kulenovic duplája, valamint Dzsudzsák Balázs büntetője és Kocsis Dominik találata hozott hangulatot, míg a kispadoknál a sárga és piros lapok is szorgosan gyűltek Karakó Ferenc jóvoltából. Ezzel a pontos osztozkodással a két rivális zsinórban a hetedik egymás elleni bajnoki ikszét hozta össze, ami alighanem a Puskás Akadémia és a Ferencváros vezérkarának csalt mosolyt az arcára."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "NBAnews.hu",
@@ -3689,7 +5007,44 @@
         "license": "CC BY-SA 4.0",
         "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
         "version": 4
-      }
+      },
+      "prepared": {
+        "source": "NBAnews.hu",
+        "title": "Hogyan nézd az NBA-t Magyarországon? Tévé, online és kezdési idők egy helyen",
+        "url": "https://nbanews.hu/hogyan-nezd-az-nba-t-magyarorszagon/",
+        "published": "Fri, 27 Nov 2026 20:59:34 +0000",
+        "categories": [
+          "nba"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [
+          "https://www.facebook.com/profile.php",
+          "https://x.com/nbanews_hu",
+          "https://nbanews.hu/sport-tv-nba-kozvetitesek-program/",
+          "https://nbanews.hu/milwaukee-bucks-brooklyn-nets-elo/",
+          "https://nbanews.hu/meccsek/",
+          "https://nbanews.hu/yaxel-lendeborg-darius-acuff-nba-draft-ujoncrangsor/",
+          "https://nbanews.hu/szerzo/takacs-marcell/",
+          "https://www.google.com/preferences/source"
+        ],
+        "contentBasis": "article",
+        "sourceHash": "c95e7eb3362a5dedfce3fb85a061f010818a90768323cfa5f80f6132044d1eee",
+        "variants": {
+          "original": {
+            "body": "A Sport TV és a Selekt streamingplatform, valamint az NBA League Pass közvetíti Magyarországon az NBA kosárlabdameccseit a 2026–27-es szezonban, beleértve a Sport TV 102 élő alapszakasz-mérkőzését és a 2027-es döntő minden találkozóját. A közvetítések gyakorlati következménye, hogy a 102 meccsből 48 magyar idő szerint éjfél előtt kezdődik, a hétvégi NBA Saturday és NBA Sunday sávokban is, emellett a Sport TV napközbeni ismétléseket, az Alley-Oop magazint, valamint az NBANews.hu élő szöveges tudósításokat, eredményeket és reggeli összefoglalókat kínál. Az AMC Networks Selekt platformján telefonon, tableten vagy számítógépen is követhetők a Sport TV adásai, míg az NBA League Pass az NBA saját, szezonos vagy havi előfizetéses, angol kommentáros szolgáltatása. A magyar nézők számára fontos részlet, hogy október végén és március második felében, az eltérő óraátállítások miatt, néhány héten át a meccsek egy órával korábban kezdődnek magyar idő szerint."
+          },
+          "tolkien": {
+            "title": "A Nagy Óceánon Túli Harcok Krónikája: Így Követheted az NBA Ligát Magyar Földön",
+            "body": "Íme a hír, mely a tengeren túli csarnokok dicső csatáiról szól: a Sport TV és a Selekt hálózata, valamint az NBA League Pass őrzi a kosárlabda legnemesebb ligájának magyarországi közvetítési jogait a 2026–27-es szezonban. A dicsőséges 102 alapszakasz-mérkőzésből álló sereg égi jeleként 48 viadal már a csillagok ébredése, magyar idő szerint éjfél előtt kezdetét veszi, hogy ne kelljen virrasztással tölteni az éjszakát. A bajnokság végén maga a döntő is teljes egészében elhozza a küzdelmek tüzes valóságát a Sport TV képernyőjére, míg a hétvégi NBA Saturday és NBA Sunday sávok, az Alley-Oop krónikája, valamint az NBANews.hu élő sorai hűségesen kísérik az utat. Az órafordultak viharában – október végén és március második felében – az idő kereke egy órával korábbra állítja a kapukat, így a viadalok óráját éberen kell lesni."
+          },
+          "reito": {
+            "title": "Félálomból a palánk alá: Így nézhetsz NBA-t odahaza, ha nem akarsz zombiként ébredni",
+            "body": "A Sport TV, a Selekt streamingplatform és az NBA League Pass kaparintotta meg a 2026–27-es NBA-szezon magyarországi közvetítési jogait, hogy ne maradj le a világ legjobb kosárlabdájáról. A gyakorlati felállás az, hogy a Sport TV soha nem látott, 102 élő alapszakasz-mérkőzést zúdít a nyakunkba, amelyek közül 48 darab még magyar idő szerint éjfél előtt elindul a Sport1-en és a Sport2-n. A hétvégi NBA Saturday és NBA Sunday meccsek mellett a 2027-es döntő minden egyes összecsapása élőben érkezik a képernyőkre, sőt, az Alley-Oop magazin, az ismétlések és az NBANews.hu élő szöveges adatai is besegítenek, ha épp nem a tévé előtt ülsz. Az óraátállítások ravasz csellel – október végén és március második felében – néhány hétre egy órával korábbra pakolják a kezdést, az NBA League Pass pedig havi vagy szezonos előfizetéssel, angol kommentárral nyitja meg a kapukat."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "444.hu",
@@ -3701,10 +5056,34 @@
         "belfold"
       ],
       "image": "",
-      "commonsPhoto": {
-        "unavailable": true,
-        "version": 4
-      }
+      "prepared": {
+        "source": "444.hu",
+        "title": "Egy lépéssel távolabb a bóvlitól a magyar államadósság: az S&amp;P javított a még Nagy Márton idején adott negatív kilátáson",
+        "url": "https://444.hu/2026/11/27/hitelminosito-sp-szuveren-allamadossag-orszagjelentes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_syndication",
+        "published": "Fri, 27 Nov 2026 22:05:53 +0100",
+        "categories": [
+          "belfold"
+        ],
+        "image": "",
+        "summaryVersion": "short-v2.1-3-4",
+        "sourceArticleLinks": [],
+        "contentBasis": "article",
+        "sourceHash": "e97869a9b9c6180e29e12bd236ba7fe0e5f18556b48384380df2049b338c046c",
+        "variants": {
+          "original": {
+            "body": "Péntek éjjel az S&P hitelminősítői jelentése során változatlanul, BBB– szinten hagyta a magyar államadósság adósbesorolását, de a hazai és idegen devizában fennálló adósság kilátását a negatívról stabilra javította, így az ország két lépésnyi távolságra került a bóvli kategóriától. A kilátásjavítás gyakorlati következménye, hogy a leminősítés valószínűsége megszűnt, és az ország távolabb került a befektetésre már nem ajánlott kategóriától. A döntést a megváltozott politikai környezettel, a Tisza kétharmados többségével elfogadott jogállamisági reformokkal, a feloldott uniós forrásokkal, valamint a helyreállított intézményi keretekkel, a kiszámíthatóbb gazdaságpolitikával és a költségvetési konszolidációval indokolták. Az S&P várakozásai szerint a GDP idén 1,7 százalékkal, jövőre 2,5 százalékkal nő, a beruházások 4 százalékkal nőhetnek, a hiány idén 7,5 százalékon tetőzik, majd fokozatosan csökken, míg a nettó államadósság 2028-ban a GDP 74,5 százalékán tetőzik."
+          },
+          "tolkien": {
+            "title": "Az S&P pecsétje: Két lépésnyire a pusztulás árnyékától",
+            "body": "Péntek éjjel az S&P hitelminősítői jelentése során az égi és földi mérlegek gazdái változatlanul, BBB– szinten hagyták a magyar államadósság adósbesorolását, ám a hazai és idegen devizában fennálló adósság sötét árnyékát, a negatív kilátást stabilra fordították. E szent és megfellebbezhetetlen akarat nyomán az ország két lépésnyi szilárd kőfokra emelkedett a bóvli kategória mély szakadéka fölött. A politikai táj változása, a Tisza kétharmados kardcsörtetése által elfogadott jogállamisági reformok és a megnyitott aranykulcsú uniós források mind hozzájárultak e bástyák megerősítéséhez. A várva várt gyümölcsök között a krónika szerint a GDP idén 1,7, majd jövőre 2,5 százalékos szárnyalását, a beruházások reálértékének 4 százalékos ébredését, valamint a 7,5 százalékról alászálló államháztartási hiányt ígérik az eljövendő esztendőkre."
+          },
+          "reito": {
+            "title": "Mázli a jégen: Két lépéssel tisztesebb távolságban a bóvlivonattól",
+            "body": "Péntek éjjel az S&P hitelminősítői nagytakarításán a magyar államadósság besorolása BBB– szinten ragadt, mint üveggolyó a sárban, de a kilátásokat gyorsan átfényezték stabilra a negatív helyett, így a bűvös bóvli máris két megállónyira távolodott. Ez a büfékocsi-szintű fordulat azt jelenti, hogy a leminősítés Damoklész-kardja hirtelen pihenőre vonult. A pálfordulást a friss politikai széljárás, a Tisza-féle kétharmaddal átnyomott jogállamisági reformok és a végre megcsapolt uniós pénzcsapok hozták össze. A papírok szerint idén 1,7, jövőre 2,5 százalékos GDP-növekedés jön, a 7,5 százalékosra lőtt idei hiány pedig lassan lefelé kullog majd a hegyről."
+          }
+        }
+      },
+      "preparedVividStyles": true
     },
     {
       "source": "Portfolio.hu",
