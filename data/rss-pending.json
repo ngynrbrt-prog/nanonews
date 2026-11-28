@@ -444,7 +444,11 @@
       "categories": [
         "foreign"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -464,7 +468,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7c70ea48-62f2-473f-8a64-e695ae71dc49.jpg"
+      "image": "https://img.hvg.hu/Img/64092e40-39ef-4e7c-88f1-4e482711b139/7c70ea48-62f2-473f-8a64-e695ae71dc49.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "HVG",
@@ -502,7 +510,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/3JOITGXBjpCKF851ZA7E27IpdzOxxPUN1nT6QwHKyHQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzg3ZWRjYzY2MDBmYjRiMDE4ZGU5NGY2ZGYzYzg4OGFm.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/3JOITGXBjpCKF851ZA7E27IpdzOxxPUN1nT6QwHKyHQ/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50Lzg3ZWRjYzY2MDBmYjRiMDE4ZGU5NGY2ZGYzYzg4OGFm.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -513,7 +525,11 @@
       "categories": [
         "belfold"
       ],
-      "image": "https://cdn.nemzetisport.hu/2026/11/PPmGDDwgkBigWkTq71AElUb5_O6__VeWODaS9GOuhCk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNjYjE4ODNkN2YxMzRkY2I4MDZjYjA3ODc3YzcxYjRl.webp"
+      "image": "https://cdn.nemzetisport.hu/2026/11/PPmGDDwgkBigWkTq71AElUb5_O6__VeWODaS9GOuhCk/fill/1200/675/no/1/aHR0cHM6Ly9jbXNjZG4uYXBwLmNvbnRlbnQucHJpdmF0ZS9jb250ZW50LzNjYjE4ODNkN2YxMzRkY2I4MDZjYjA3ODc3YzcxYjRl.webp",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Nemzeti Sport",
@@ -533,7 +549,11 @@
       "categories": [
         "foreign"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -544,7 +564,11 @@
       "categories": [
         "environment"
       ],
-      "image": ""
+      "image": "",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "444.hu",
@@ -564,7 +588,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-dron-katona-arok-haboru-fegyver-873582.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/u/k/r/ukran-dron-katona-arok-haboru-fegyver-873582.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -585,7 +613,11 @@
         "environment",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/e/l/_/el-nino-szarazsag-klimavaltozas-604078.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/e/l/_/el-nino-szarazsag-klimavaltozas-604078.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Portfolio.hu",
@@ -597,7 +629,11 @@
         "parliament",
         "belfold"
       ],
-      "image": "https://pcdn.hu/articles/images-xl/o/r/s/orszaggyules-parlament-budapest-873584.jpg"
+      "image": "https://pcdn.hu/articles/images-xl/o/r/s/orszaggyules-parlament-budapest-873584.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -635,7 +671,11 @@
       "categories": [
         "foreign"
       ],
-      "image": "https://cdn.origo.hu/2026/08/BtVXV2RKTMGuvegF6CJxPv9NdAxaWB3-sDbFEPo8Mko/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8wOC8xNi8zYTQxZTlmNGRkZjRhYjg1ZjRiMjc0OGFkZWI4ZjdjZTJjZTg0ODliMjZiN2E1NzM2NTM3MDEzOWVmNzA3OWFi.jpg"
+      "image": "https://cdn.origo.hu/2026/08/BtVXV2RKTMGuvegF6CJxPv9NdAxaWB3-sDbFEPo8Mko/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8wOC8xNi8zYTQxZTlmNGRkZjRhYjg1ZjRiMjc0OGFkZWI4ZjdjZTJjZTg0ODliMjZiN2E1NzM2NTM3MDEzOWVmNzA3OWFi.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
@@ -646,7 +686,11 @@
       "categories": [
         "f1"
       ],
-      "image": "https://cdn.origo.hu/2026/08/9AkdXrz97_vmKCiYpEeRRv6oIoqtRsVuVM1INf09egM/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8wOC8xNC84YWYzZjVhMmE0MTE3ZGQyYjQ4ZGY4YWRjOWVmNmNjMmNlOTJlMjhhOTZmZGVmZGRmZjNhZjUzNDY2ODA4NTU4.jpg"
+      "image": "https://cdn.origo.hu/2026/08/9AkdXrz97_vmKCiYpEeRRv6oIoqtRsVuVM1INf09egM/fill/1200/675/no/1/czM6Ly9jbXMtcHJvZC1vcmlnby9pbWFnZXMvMjAyNi8wOC8xNC84YWYzZjVhMmE0MTE3ZGQyYjQ4ZGY4YWRjOWVmNmNjMmNlOTJlMjhhOTZmZGVmZGRmZjNhZjUzNDY2ODA4NTU4.jpg",
+      "commonsPhoto": {
+        "unavailable": true,
+        "version": 4
+      }
     },
     {
       "source": "Origo.hu",
